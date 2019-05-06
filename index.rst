@@ -10,33 +10,12 @@ Historia Documentation
    :width: 60 %
    :align: center
 
-Historia is an open source peer-to-peer cryptocurrency with a strong focus
-on the payments industry. Historia offers a form of money that is portable,
-inexpensive, divisible and fast. It can be spent securely both online
-and in person with only minimal transaction fees. Based on the Bitcoin
-project, Historia aims to be the most user-friendly and scalable payments
-system in the world. In addition to Bitcoin's feature set, Historia
+Historia is an experimental new digital currency paired with a data storage system (IPFS) that allows for eternal histoical record storage. Additionally, Historia is a consensus-based, immutable historical record blockchain system designed for record keeping of current events (future history) with emphasis on absolute accuracy and seeks to prevent all assimilations of falsehoods into the historical record.  The Historia project is based on the Bitcoin and the Dash
+project. The Historia project builds on Dash's masternode system to implement IPFS to offer decentralized record storage and voting of said records via the masternode voting system. Like Dash, Historia 
 currently also offers instant transactions (:ref:`instantsend`), private
 transactions (:ref:`privatesend`) and operates a self-governing and
 self-funding model that enables the Historia network to pay individuals and
-businesses for work that adds value to the network. This
-:ref:`decentralized governance and budgeting system <governance>` makes
-it one of the first ever successful decentralized autonomous
-organizations (DAO).
-
-If you are new to cryptocurrencies, the most important change to
-understand is that transactions occur directly between two parties
-without any central authority to facilitate the transaction. This also
-means that you are responsible for your own security - there is no bank
-or credit card company to reverse a transaction if your funds are stolen
-or lost. In this sense, it is similar to cash or gold, but
-cryptocurrency can be spent locally and internationally with equal ease,
-if you are confident you are sending funds to the right destination. For
-these reasons, the Historia documentation has a strong focus on safety and
-understanding the concepts and features that drive the Historia ecosystem.
-The videos, links and documentation below can help you get started, or
-use the table of contents on the left to find a specific topic of
-interest.
+businesses for proposals and records that adds value to the network and the immutable record storage system. 
 
 .. raw:: html
 
