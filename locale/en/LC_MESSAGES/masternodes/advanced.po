@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash latest\n"
+"Project-Id-Version: Historia latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-03 08:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../masternodes/advanced.rst:1
-msgid "Installing Dash using a package manager"
+msgid "Installing Historia using a package manager"
 msgstr ""
 
 #: ../../masternodes/advanced.rst:1
 msgid ""
-"dash, cryptocurrency, fedora, ubuntu, rpm, apt, git, masternode, install,"
+"historia, cryptocurrency, fedora, ubuntu, rpm, apt, git, masternode, install,"
 " binary"
 msgstr ""
 
@@ -32,26 +32,26 @@ msgid "Advanced Topics"
 msgstr ""
 
 #: ../../masternodes/advanced.rst:12
-msgid "Installing Dash on Fedora Linux"
+msgid "Installing Historia on Fedora Linux"
 msgstr ""
 
 #: ../../masternodes/advanced.rst:14
 msgid ""
-"Dash developer t0dd has developed packages and written an excellent guide"
-" on installing and running Dash as a node, masternode or on testnet."
+"Historia developer t0dd has developed packages and written an excellent guide"
+" on installing and running Historia as a node, masternode or on testnet."
 msgstr ""
 
 #: ../../masternodes/advanced.rst:18
-msgid "https://github.com/taw00/dashcore-rpm"
+msgid "https://github.com/taw00/historiacore-rpm"
 msgstr ""
 
 #: ../../masternodes/advanced.rst:21
-msgid "Installing Dash on Ubuntu Linux"
+msgid "Installing Historia on Ubuntu Linux"
 msgstr ""
 
 #: ../../masternodes/advanced.rst:23
 msgid ""
-"Dash binaries are under development for distribution through the Ubuntu "
+"Historia binaries are under development for distribution through the Ubuntu "
 "Linux Launchpad repository system. Check back here for details once a "
 "release announcement is made."
 msgstr ""

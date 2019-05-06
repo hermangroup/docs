@@ -1,6 +1,6 @@
 .. meta::
-   :description: Masternodes, multisig, sweeping paper wallets, cold storage and command line in the Dash Electrum wallet.
-   :keywords: dash, wallet, electrum, masternode, multisig, paper, cold storage, command line
+   :description: Masternodes, multisig, sweeping paper wallets, cold storage and command line in the Historia Electrum wallet.
+   :keywords: historia, wallet, electrum, masternode, multisig, paper, cold storage, command line
 
 .. _electrum-advanced-functions:
 
@@ -8,12 +8,12 @@
 Advanced functions
 ==================
 
-Dash Electrum is based on `Electrum <https://electrum.org>`_, a Bitcoin
+Historia Electrum is based on `Electrum <https://electrum.org>`_, a Bitcoin
 wallet. Most functions are identical, which means it is not necessary to
 reproduce the entirety of the Electrum documentation here. The following
 sections describe some frequently used advanced functions. For further
 details on other advanced functions in Electrum for both Bitcoin and
-Dash, please click the links below.
+Historia, please click the links below.
 
 - `Electrum documentation <http://docs.electrum.org>`_
 - `Electrum seed version system <http://docs.electrum.org/en/latest/seedphrase.html>`_
@@ -23,10 +23,10 @@ Dash, please click the links below.
 - `The Python Console <http://docs.electrum.org/en/latest/console.html>`_
 - `Using Electrum Through Tor <http://docs.electrum.org/en/latest/tor.html>`_
 
-Masternodes in Dash Electrum
+Masternodes in Historia Electrum
 ============================
 
-Dash Electrum supports masternode creation through an interface called
+Historia Electrum supports masternode creation through an interface called
 the **Masternode Manager**. The functionality is available starting from
 the protocol version 70201.
 
@@ -52,14 +52,14 @@ set up:
 Masternode setup
 ----------------
 
-A masternode requires a "delegate" key, which is known to both Dash
+A masternode requires a "delegate" key, which is known to both Historia
 Electrum and your masternode. Your masternode will use this key to sign
-messages, and the Dash network will know that you authorized it to. A
-delegate key can either be one of your Dash Electrum keys, or an
-imported key. Either way, your masternode and Dash Electrum will both
+messages, and the Historia network will know that you authorized it to. A
+delegate key can either be one of your Historia Electrum keys, or an
+imported key. Either way, your masternode and Historia Electrum will both
 need to know the private key.
 
-To use one of your Dash Electrum keys as a delegate key, put its private
+To use one of your Historia Electrum keys as a delegate key, put its private
 key in the **Masternode Private Key** field of the **View Masternode**
 tab.
 
@@ -79,11 +79,11 @@ filled in automatically if you import a "masternode.conf" file.
 Collateral
 ----------
 
-To start a masternode, you must have a 1000 DASH payment available in
-your wallet. You can scan your wallet for 1000 DASH payments in the
+To start a masternode, you must have a 1000 HISTORIA payment available in
+your wallet. You can scan your wallet for 1000 HISTORIA payments in the
 **Choose Collateral** tab of the Masternode Manager.
 
-After scanning, a list of available 1000 DASH collateral payments will
+After scanning, a list of available 1000 HISTORIA collateral payments will
 be displayed. Selecting one of them will cause the selected masternode's
 data to be filled in, though these changes won't be saved until you
 click the **Save** button in the lower-right corner of the tab.
@@ -104,7 +104,7 @@ at the message in the **Status** bar. It will show you why your
 masternode cannot be activated.
 
 Activation will require your password if your wallet is encrypted,
-because a message must be signed. After waiting for Dash Electrum to
+because a message must be signed. After waiting for Historia Electrum to
 sign and broadcast your masternode announcement, you will be presented
 with a message detailing the result. The status of your masternode will
 be updated in the table and the **View Masternode** tab.
@@ -119,8 +119,8 @@ Importing masternode.conf
 
 You can import a *masternode.conf* file using the **Masternode.conf**
 tab of the Masternode Manager. This is the recommended way of setting up
-masternodes, as it allows you to configure masternodes for Dash Core and
-Dash Electrum in the same way. Importing a *masternode.conf* file will
+masternodes, as it allows you to configure masternodes for Historia Core and
+Historia Electrum in the same way. Importing a *masternode.conf* file will
 automatically set up one or more masternode configurations in the
 Masternode Manager.
 
@@ -189,7 +189,7 @@ After signing, a window is shown with the transaction details.
 .. figure:: img/faq-multisig-partially-signed.png
    :width: 400px
 
-   Partially signed 2-of-2 multisig transaction in Dash Electrum
+   Partially signed 2-of-2 multisig transaction in Historia Electrum
 
 The transaction now has to be sent to the second wallet. Several options
 are available for this:
@@ -215,12 +215,12 @@ broadcast to the network.
 .. figure:: img/faq-multisig-fully-signed.png
    :width: 400px
 
-   Fully signed 2-of-2 multisig transaction in Dash Electrum
+   Fully signed 2-of-2 multisig transaction in Historia Electrum
 
 Sweep a paper wallet
 ====================
 
-You may have received a paper wallet as a gift from another Dash user,
+You may have received a paper wallet as a gift from another Historia user,
 or previously stored one in a safe deposit box. Funds are swept from a
 :ref:`paper wallet <paper-wallets>` into a live wallet by importing its
 `private key <http://bitzuma.com/posts /six-things-bitcoin-users-should-
@@ -231,10 +231,10 @@ below displays a private key (WIF format).
 .. figure:: img/sweep-secret.png
    :width: 400px
 
-   Public address and associated private key produced by Dash Paper
+   Public address and associated private key produced by Historia Paper
    Wallet Generator
 
-Funds from paper wallets are swept into an Dash Electrum Wallet by
+Funds from paper wallets are swept into an Historia Electrum Wallet by
 creating a transaction using the private key and sending it to a new
 address from your wallet. This is necessary because it is not possible
 to add new public or private keys to an existing deterministic series of
@@ -242,7 +242,7 @@ addresses derived from a seed phrase.
 
 Begin by selecting the **Wallet** > **Private Keys** > **Sweep** menu
 item. The **Sweep private keys** dialog will appear, where you can
-paste your private key(s). An unused address controlled by your Dash
+paste your private key(s). An unused address controlled by your Historia
 Electrum wallet appears in the lower field, and can be changed by
 clicking the **Address** button. Once you have pasted your private key,
 click the **Sweep** button.
@@ -252,7 +252,7 @@ click the **Sweep** button.
 
    Entering the private key
 
-Dash Electrum then prepares a transaction using the private key you just
+Historia Electrum then prepares a transaction using the private key you just
 imported to derive the public address for the transaction input and the
 address from your wallet as the output, and signs the message. Click
 **Broadcast** to enter the transaction on the blockchain. The balance
@@ -270,7 +270,7 @@ you swept is left with zero balance.
 Cold storage
 ============
 
-This section shows how to create an offline wallet that holds your Dash
+This section shows how to create an offline wallet that holds your Historia
 and a watching-only online wallet that is used to view its history and
 to create transactions that have to be signed with the offline wallet
 before being broadcast on the online one.
@@ -292,7 +292,7 @@ window. Transfer that key to your online machine somehow.
 Create a watching-only version of your wallet
 ---------------------------------------------
 
-On your online machine, open Dash Electrum and select **File >
+On your online machine, open Historia Electrum and select **File >
 New/Restore**. Enter a name for the wallet and select **Use public or
 private keys**. Paste your master public key in the box. Click **Next**
 to complete the creation of your wallet. When you’re done, you should
@@ -330,18 +330,18 @@ Broadcast your transaction
 On your online machine, select **Tools -> Load transaction -> From
 file** from the menu. Select the signed transaction file. In the window
 that opens up, click **Broadcast**. The transaction will be broadcast
-over the Dash network.
+over the Historia network.
 
 Command line
 ============
 
-Dash Electrum has a powerful command line available when running under
+Historia Electrum has a powerful command line available when running under
 Linux or macOS. This section will show you a few basic principles.
 
 Using the inline help
 ---------------------
 
-To see the list of Dash Electrum commands, type::
+To see the list of Historia Electrum commands, type::
 
   electrum help
 
@@ -371,7 +371,7 @@ example, first for the private key, then for your wallet password::
 
   electrum importprivkey :
 
-A parameter replaced by a dash `-` will be read from standard input (in
+A parameter replaced by a historia `-` will be read from standard input (in
 a pipe)::
 
   cat LICENCE | electrum signmessage Xtdw4fezqbSpC341vcr8u9HboiJMFa9gBq -
@@ -457,7 +457,7 @@ Export private keys and sweep coins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The following command will export the private keys of all wallet
-addresses that hold some Dash::
+addresses that hold some Historia::
 
   electrum listaddresses --funded | electrum getprivatekeys -
 
@@ -475,7 +475,7 @@ Using cold storage with the command line
 ========================================
 
 This section will show you how to sign a transaction with an offline
-Dash Electrum wallet using the command line.
+Historia Electrum wallet using the command line.
 
 Create an unsigned transaction
 ------------------------------
@@ -495,7 +495,7 @@ You may view it using::
 Sign the transaction
 --------------------
 
-The serialization format of Dash Electrum contains the master public key
+The serialization format of Historia Electrum contains the master public key
 needed and key derivation used by the offline wallet to sign the
 transaction. Thus we only need to pass the serialized transaction to the
 offline wallet::
@@ -507,17 +507,17 @@ The command will ask for your password, and save the signed transaction in ‘si
 Broadcast the transaction
 -------------------------
 
-Send your transaction to the Dash network, using broadcast::
+Send your transaction to the Historia network, using broadcast::
 
   cat signed.txn | electrum broadcast -
 
 If successful, the command will return the ID of the transaction.
 
-How to accept Dash on a website using Dash Electrum
+How to accept Historia on a website using Historia Electrum
 ===================================================
 
-This tutorial will show you how to accept dash on a website with SSL
-signed payment requests. It is updated for Dash Electrum 2.6.
+This tutorial will show you how to accept historia on a website with SSL
+signed payment requests. It is updated for Historia Electrum 2.6.
 
 Requirements
 ------------
@@ -535,7 +535,7 @@ Create a wallet on your web server::
 
 You can also use a watching only wallet (restored from xpub), if you
 want to keep private keys off the server. Once your wallet is created,
-start Dash Electrum as a daemon::
+start Historia Electrum as a daemon::
 
   electrum daemon start
 
@@ -578,7 +578,7 @@ This directory must be served by your webserver (eg Apache)::
 
   electrum setconfig requests_dir /var/www/r/
 
-By default, Dash Electrum will display local URLs, starting with
+By default, Historia Electrum will display local URLs, starting with
 ‘file://‘ In order to display public URLs, we need to set another
 configuration variable, `url_rewrite`. For example::
 
@@ -591,10 +591,10 @@ Create a signed payment request
 
   electrum addrequest 3.14 -m "this is a test"
   {
-     "URI": "dash:Xtdw4fezqbSpC341vcr8u9HboiJMFa9gBq?amount=3.14&r=https://electrum.org/r/7c2888541a",
+     "URI": "historia:Xtdw4fezqbSpC341vcr8u9HboiJMFa9gBq?amount=3.14&r=https://electrum.org/r/7c2888541a",
      "address": "Xtdw4fezqbSpC341vcr8u9HboiJMFa9gBq",
      "amount": 314000000,
-     "amount (DASH)": "3.14",
+     "amount (HISTORIA)": "3.14",
      "exp": 3600,
      "id": "7c2888541a",
      "index_url": "https://electrum.org/r/index.html?id=7c2888541a",
@@ -623,7 +623,7 @@ Let us open `index_url` in a web browser.
 
    Payment request page in a web browser
 
-The page shows the payment request. You can open the dash: URI with a
+The page shows the payment request. You can open the historia: URI with a
 wallet, or scan the QR code. The bottom line displays the time remaining
 until the request expires.
 
@@ -662,8 +662,8 @@ subdomain.
 JSONRPC interface
 -----------------
 
-Commands to the Dash Electrum daemon can be sent using JSONRPC. This is
-useful if you want to use Dash Electrum in a PHP script.
+Commands to the Historia Electrum daemon can be sent using JSONRPC. This is
+useful if you want to use Historia Electrum in a PHP script.
 
 Note that the daemon uses a random port number by default. In order to
 use a stable port number, you need to set the `rpcport` configuration

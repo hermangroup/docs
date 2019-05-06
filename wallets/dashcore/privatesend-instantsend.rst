@@ -1,8 +1,8 @@
 .. meta::
-   :description: Using InstantSend and PrivateSend with Dash
-   :keywords: dash, core, mobile, wallet, privatesend, instantsend
+   :description: Using InstantSend and PrivateSend with Historia
+   :keywords: historia, core, mobile, wallet, privatesend, instantsend
 
-.. _dashcore-privatesend-instantsend:
+.. _historiacore-privatesend-instantsend:
 
 ===========================
 PrivateSend and InstantSend
@@ -11,22 +11,22 @@ PrivateSend and InstantSend
 PrivateSend
 ===========
 
-This documentation describes how to use Dash Core to send Dash
+This documentation describes how to use Historia Core to send Historia
 anonymously. PrivateSend, released as DarkSend in RC4 of the DarkCoin
 client and rebranded to PrivateSend in May 2016, is a trustless method
 of running a sequence of transactions (known as "mixing") such that an
 external observer is unable to determine the source of funding when a
-PrivateSend transaction is created. This gives your Dash the same
+PrivateSend transaction is created. This gives your Historia the same
 anonymous properties as cash withdrawn from an ATM, for example. The
 mixing and denomination process is seamless, automatic, and requires no
 intervention on the part of the user. The current implementation of
-PrivateSend in the Dash Core wallet allows any amount of Dash to be
+PrivateSend in the Historia Core wallet allows any amount of Historia to be
 mixed for later use in PrivateSend transactions. As of December 2018,
-PrivateSend is not currently available in other Dash wallets.
+PrivateSend is not currently available in other Historia wallets.
 
 Knowledge of the exact number of rounds of PrivateSend mixing used in
 any given PrivateSend transaction has a `quantifiable effect
-<https://www.dash.org/forum/threads/evaluating-the-privacy-of-
+<https://historia.network/forum/threads/evaluating-the-privacy-of-
 privatesend.32472/>`_ on the confidence an adversary may have when
 attempting to guess the source of a PrivateSend transaction. For this
 reason, the recommended (and default) number of rounds of PrivateSend
@@ -38,7 +38,7 @@ You can read more about PrivateSend theory and processes :ref:`here
 Configuration
 -------------
 
-1. Open your Dash Core wallet, go to **Settings** and select
+1. Open your Historia Core wallet, go to **Settings** and select
    **Options**. Go to the **Wallet** tab.
 
    .. image:: img/privatesend-options.png
@@ -51,9 +51,9 @@ Configuration
    collusion. 16 is the highest number of rounds currently available.
 
    NOTE: To prevent system abuse, an average of one in ten rounds of
-   masternode mixing incurs a fee of .0001 DASH.
+   masternode mixing incurs a fee of .0001 HISTORIA.
 
-3. Enter a target value for **Amount of Dash to keep anonymized**. This
+3. Enter a target value for **Amount of Historia to keep anonymized**. This
    value provides a lower boundary on the final amount of funds to be
    anonymized. Depending on how the client splits your wallet balance,
    you may end up with denominated inputs whose sum total is greater
@@ -64,7 +64,7 @@ Configuration
 4. Click **OK** to save settings.
 
 5. PrivateSend is disabled by default when you open the wallet. It will
-   only start after you set the number of rounds and number of Dash to
+   only start after you set the number of rounds and number of Historia to
    mix under settings and click **Start Mixing** on the **Overview** tab
    of your wallet.
 
@@ -73,7 +73,7 @@ Starting Mixing
 ---------------
 
 The PrivateSend process is initiated by clicking the **Start Mixing**
-button on the **Overview** tab of the Dash Core wallet. Mixing is
+button on the **Overview** tab of the Historia Core wallet. Mixing is
 possible once the following conditions have been met:
 
 - The wallet contains sufficient non-anonymized funds to create the
@@ -129,7 +129,7 @@ interface** options.
 .. figure:: img/privatesend-settings.png
    :width: 300px
 
-   Enabling advanced options for PrivateSend in the Dash Core wallet
+   Enabling advanced options for PrivateSend in the Historia Core wallet
    settings
 
 This will allow you to monitor progress and see which individual
@@ -190,12 +190,12 @@ You can also use the coin control feature to view which addresses hold
 mixed denominations ready to be used for PrivateSend transactions. Go to
 the **Send** tab of your wallet and click **Inputs** to view the possible input
 addresses for your transactions. You can see how each address holds
-given denominations of mixed Dash, and how many rounds of mixing have
+given denominations of mixed Historia, and how many rounds of mixing have
 been completed. This is to ensure that an efficient combination of
 addresses can be used as inputs in PrivateSend transactions without too
 much change, since amount in a PrivateSend transaction must be rounded
 up to completely spend all inputs. The current minimum balance for an
-input used in a PrivateSend transaction is 0.00100010 DASH.
+input used in a PrivateSend transaction is 0.00100010 HISTORIA.
 
 .. figure:: img/privatesend-addresses.png
    :width: 400px
@@ -207,7 +207,7 @@ Paying with PrivateSend
 -----------------------
 
 You can only use PrivateSend for payments once you have mixed enough
-Dash to make up the amount you are trying to send. Because the mixing
+Historia to make up the amount you are trying to send. Because the mixing
 process takes time, it must be done in advance before you create the
 send transaction. A PrivateSend transaction is effectively the same as
 any other transaction on the blockchain, but it draws only from input
@@ -217,20 +217,20 @@ to make up the amount you are trying to send, a PrivateSend transaction
 will usually take up more space (in kilobytes) on the blockchain, and
 therefore will be charged a slightly higher fee. 
 
-To send a payment using PrivateSend, go to the **Send** tab of the Dash
+To send a payment using PrivateSend, go to the **Send** tab of the Historia
 Core wallet and enable the **PrivateSend** option. The balance displayed
 will change to show your PrivateSend balance instead of the total
 balance. You can then enter the **Pay To** address, **Label**,
 **Amount** and click **Send** as usual. Your payment will be rounded up
 to completely spend the lowest possible denomination of mixed balance
-available (currently to the nearest 0.001 DASH). You will be prompted to
+available (currently to the nearest 0.001 HISTORIA). You will be prompted to
 enter your password and receive a detailed breakdown of the fee
 structure for PrivateSend before sending.
 
 .. figure:: img/privatesend-send.png
    :width: 400px
 
-   Dash Core ready to send a PrivateSend transaction. Note PrivateSend
+   Historia Core ready to send a PrivateSend transaction. Note PrivateSend
    is enabled and the amount to be sent is less than the available
    PrivateSend balance
 
@@ -242,14 +242,14 @@ Introduction
 ------------
 
 This documentation describes how to use InstantSend to instantly send
-funds to any other Dash user around the world. Dash InstantSend is
+funds to any other Historia user around the world. Historia InstantSend is
 supported by many wallets and vendors, including (but not limited to)
 the following:
 
-- Dash Core Wallet
-- Dash Android Wallet
-- Dash iOS Wallet
-- My Dash Wallet
+- Historia Core Wallet
+- Historia Android Wallet
+- Historia iOS Wallet
+- My Historia Wallet
 - Kraken
 - Bitrefill
 - and many more...
@@ -268,7 +268,7 @@ then accept the transaction. The input is then locked until the
 transaction has been confirmed in six mined blocks, at which point the
 output can be used as an input in another InstantSend transaction. This
 differs from inputs used in normal transactions, which can be spent
-after just one confirmation regardless of whether the Dash was received
+after just one confirmation regardless of whether the Historia was received
 using InstantSend or not. A higher fee will be charged for InstantSend
 transactions with more than four inputs, according to the :ref:`fee
 schedule <fees>`. Note that the receiving wallet must also be aware of
@@ -280,14 +280,14 @@ need to wait for standard block confirmations.
 
 To pay with InstantSend, simply check the relevant checkbox in your app.
 The following screenshots indicate where this setting can be found in
-the Dash Core, iOS and Android wallets.
+the Historia Core, iOS and Android wallets.
 
 .. image:: ../img/instantsend-android.png
    :width: 200px
 .. image:: ../img/instantsend-ios.png
    :width: 200px
 
-.. figure:: ../img/instantsend-dashcore.png
+.. figure:: ../img/instantsend-historiacore.png
    :width: 400px
 
-   Dash Wallets showing InstantSend option
+   Historia Wallets showing InstantSend option

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-31 04:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../wallets/hardware.rst:1
-msgid "How to use Dash cryptocurrency with hardware wallets"
+msgid "How to use Historia cryptocurrency with hardware wallets"
 msgstr ""
 
 #: ../../wallets/hardware.rst:1
-msgid "dash, hardware, wallet, ledger, keepkey, trezor, secure, private key"
+msgid "historia, hardware, wallet, ledger, keepkey, trezor, secure, private key"
 msgstr ""
 
 #: ../../wallets/hardware.rst:8
@@ -34,7 +34,7 @@ msgid ""
 "Hardware wallets offer you the security of storing your keys in secure "
 "device while still allowing you to make simple transactions through a web"
 " interface. Three major manufacturers of hardware wallets currently "
-"exist, with Dash supported on all of them."
+"exist, with Historia supported on all of them."
 msgstr ""
 
 #: ../../wallets/hardware.rst:18
@@ -46,7 +46,7 @@ msgid ""
 "Developed by Czech startup `SatoshiLabs <https://satoshilabs.com>`_, the "
 "$99 device is essentially a USB dongle designed to add an extra "
 "authentication layer to all outbound bitcoin transactions. Trezor has "
-"supported Dash since January 2017 with the release of firmware version "
+"supported Historia since January 2017 with the release of firmware version "
 "1.4.2."
 msgstr ""
 
@@ -67,7 +67,7 @@ msgid "Site: https://trezor.io"
 msgstr ""
 
 #: ../../wallets/hardware.rst:40
-msgid "Review: https://www.dashforcenews.com/trezor-hardware-wallet-review"
+msgid "Review: https://www.historiaforcenews.com/trezor-hardware-wallet-review"
 msgstr ""
 
 #: ../../wallets/hardware.rst:41
@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../wallets/hardware.rst:44
 msgid ""
-"It is also possible to operate a Dash masternode using your Trezor. See "
+"It is also possible to operate a Historia masternode using your Trezor. See "
 "here for details."
 msgstr ""
 
@@ -92,7 +92,7 @@ msgstr ""
 msgid ""
 "Once you have bought your Trezor from https://shop.trezor.io or an "
 "`authorized reseller <https://trezor.io/resellers>`_, you will need a "
-"wallet to use it with. Trezor supports the following Dash wallets:"
+"wallet to use it with. Trezor supports the following Historia wallets:"
 msgstr ""
 
 #: ../../wallets/hardware.rst:54
@@ -103,14 +103,14 @@ msgstr ""
 
 #: ../../wallets/hardware.rst:56
 msgid ""
-"`Dash Electrum Wallet <https://electrum.dash.org>`__ (:ref:`documentation"
-" <dash-electrum-wallet>`)"
+"`Historia Electrum Wallet <https://electrum.historia.network>`__ (:ref:`documentation"
+" <historia-electrum-wallet>`)"
 msgstr ""
 
 #: ../../wallets/hardware.rst:58
 msgid ""
-"`Dash Masternode Tool <https://github.com/Bertrand256/dash-masternode- "
-"tool>`_ (`documentation <https://github.com/Bertrand256/dash- masternode-"
+"`Historia Masternode Tool <https://github.com/Bertrand256/historia-masternode- "
+"tool>`_ (`documentation <https://github.com/Bertrand256/historia- masternode-"
 "tool/blob/master/README.md>`__)"
 msgstr ""
 
@@ -202,36 +202,36 @@ msgstr ""
 
 #: ../../wallets/hardware.rst:109
 msgid ""
-"Switch to the Dash wallet using the menu at the top left. You can now use"
-" your Trezor to send and receive Dash."
+"Switch to the Historia wallet using the menu at the top left. You can now use"
+" your Trezor to send and receive Historia."
 msgstr ""
 
 #: ../../wallets/hardware.rst:115
-msgid "Trezor Web Wallet for Dash ready for first use"
+msgid "Trezor Web Wallet for Historia ready for first use"
 msgstr ""
 
 #: ../../wallets/hardware.rst:118
-msgid "Receiving Dash"
+msgid "Receiving Historia"
 msgstr ""
 
 #: ../../wallets/hardware.rst:120
 msgid ""
-"We will now create a Dash receiving address and attempt to receive 1.0 "
-"DASH."
+"We will now create a Historia receiving address and attempt to receive 1.0 "
+"HISTORIA."
 msgstr ""
 
 #: ../../wallets/hardware.rst:123
-msgid "In the Trezor Dash wallet, click **Account #1**, then click Receive."
+msgid "In the Trezor Historia wallet, click **Account #1**, then click Receive."
 msgstr ""
 
 #: ../../wallets/hardware.rst:124
 msgid ""
-"A Dash address will appear. Click **Show full address** to verify the "
+"A Historia address will appear. Click **Show full address** to verify the "
 "address on the Trezor device."
 msgstr ""
 
 #: ../../wallets/hardware.rst:130
-msgid "Send 1 DASH to this address using an exchange or another wallet."
+msgid "Send 1 HISTORIA to this address using an exchange or another wallet."
 msgstr ""
 
 #: ../../wallets/hardware.rst:131
@@ -241,25 +241,25 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/hardware.rst:137
-msgid "Trezor Web Wallet after receiving Dash"
+msgid "Trezor Web Wallet after receiving Historia"
 msgstr ""
 
 #: ../../wallets/hardware.rst:141
-msgid "Sending Dash"
+msgid "Sending Historia"
 msgstr ""
 
 #: ../../wallets/hardware.rst:143
 msgid ""
-"We will now send the Dash (minus transaction costs) to an external "
+"We will now send the Historia (minus transaction costs) to an external "
 "address."
 msgstr ""
 
 #: ../../wallets/hardware.rst:146
-msgid "In the Trezor Dash wallet, click **Account #1**, then click **Send**."
+msgid "In the Trezor Historia wallet, click **Account #1**, then click **Send**."
 msgstr ""
 
 #: ../../wallets/hardware.rst:147
-msgid "Enter the Dash address and amount in the fields."
+msgid "Enter the Historia address and amount in the fields."
 msgstr ""
 
 #: ../../wallets/hardware.rst:152
@@ -277,7 +277,7 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/hardware.rst:164
-msgid "Trezor Web Wallet after sending Dash"
+msgid "Trezor Web Wallet after sending Historia"
 msgstr ""
 
 #: ../../wallets/hardware.rst:167
@@ -312,7 +312,7 @@ msgstr ""
 msgid ""
 "You can change your Trezor PIN from both the `Trezor wallet "
 "<https://wallet.trezor.io>`_ and `DMT <https://github.com/Bertrand256 "
-"/dash-masternode-tool/releases>`_."
+"/historia-masternode-tool/releases>`_."
 msgstr ""
 
 #: ../../wallets/hardware.rst:192
@@ -396,7 +396,7 @@ msgid "Confirm the change on the Trezor device"
 msgstr ""
 
 #: ../../wallets/hardware.rst:250
-msgid "A few sample images are available for Dash:"
+msgid "A few sample images are available for Historia:"
 msgstr ""
 
 #: ../../wallets/hardware.rst:262
@@ -407,7 +407,7 @@ msgstr ""
 msgid ""
 "While losing a Trezor is not a security threat (unless someone knows your"
 " PIN and/or passphrase), it is a moderately expensive device that can be "
-"damaged by pressure or water, for example. For this reason, Dash "
+"damaged by pressure or water, for example. For this reason, Historia "
 "community member tungfa has shared photos of a custom-made Trezor case. "
 "The following materials are required:"
 msgstr ""
@@ -443,10 +443,10 @@ msgstr ""
 msgid ""
 "The $129 KeepKey hardware wallet features a large screen and 100% open "
 "source firmware to guarantee the security of your private keys. KeepKey "
-"has supported Dash since firmware version 4.2.10, released on March 28, "
+"has supported Historia since firmware version 4.2.10, released on March 28, "
 "2017, and added support for InstantSend in firmware version 5.7.2, "
 "released on September 5, 2018. Follow these instructions to begin using "
-"Dash on your KeepKey device."
+"Historia on your KeepKey device."
 msgstr ""
 
 #: ../../wallets/hardware.rst:300
@@ -467,7 +467,7 @@ msgstr ""
 
 #: ../../wallets/hardware.rst:305
 msgid ""
-"It is also possible to operate a Dash masternode using your KeepKey. See "
+"It is also possible to operate a Historia masternode using your KeepKey. See "
 "here for details."
 msgstr ""
 
@@ -481,10 +481,10 @@ msgid ""
 "markets enterprise and consumer blockchain security solutions, including "
 "the €58 `Ledger Nano S <https://www.ledger.com/products/ledger-nano-s>`_ "
 "and upcoming `Ledger Blue <https://www.ledger.com/products/ledger-"
-"blue>`_. Ledger Nano S has supported Dash since November 2016 and "
+"blue>`_. Ledger Nano S has supported Historia since November 2016 and "
 "firmware version 1.2. Follow `these instructions "
-"<https://support.ledger.com/hc/en-us/articles/115005308185-Dash-DASH->`_ "
-"to add Dash support to the device."
+"<https://support.ledger.com/hc/en-us/articles/115005308185-Historia-HISTORIA->`_ "
+"to add Historia support to the device."
 msgstr ""
 
 #: ../../wallets/hardware.rst:323
@@ -492,7 +492,7 @@ msgid "Site: https://www.ledger.com"
 msgstr ""
 
 #: ../../wallets/hardware.rst:324
-msgid "Review: https://www.dashforcenews.com/ledger-nano-s-review"
+msgid "Review: https://www.historiaforcenews.com/ledger-nano-s-review"
 msgstr ""
 
 #: ../../wallets/hardware.rst:325
@@ -505,7 +505,7 @@ msgstr ""
 
 #: ../../wallets/hardware.rst:335
 msgid ""
-"It is also possible to operate a Dash masternode using your Ledger. See "
+"It is also possible to operate a Historia masternode using your Ledger. See "
 "here for details."
 msgstr ""
 
@@ -516,14 +516,14 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`Dash Electrum Wallet <https://electrum.dash.org>`_"
-#~ " (:ref:`documentation <dash_electrum_wallet>`)"
+#~ "`Historia Electrum Wallet <https://electrum.historia.network>`_"
+#~ " (:ref:`documentation <historia_electrum_wallet>`)"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`Dash Masternode Tool "
-#~ "<https://github.com/Bertrand256/dash-masternode- tool>`_"
-#~ " (:ref:`documentation <dash_masternode_tool>`)"
+#~ "`Historia Masternode Tool "
+#~ "<https://github.com/Bertrand256/historia-masternode- tool>`_"
+#~ " (:ref:`documentation <historia_masternode_tool>`)"
 #~ msgstr ""
 
 #~ msgid ""
@@ -543,10 +543,10 @@ msgstr ""
 #~ "features a large screen and 100% "
 #~ "open source firmware to guarantee the"
 #~ " security of your private keys. "
-#~ "KeepKey has supported Dash since "
+#~ "KeepKey has supported Historia since "
 #~ "firmware version 4.2.10, released on "
 #~ "March 28, 2017. Follow these "
-#~ "instructions to begin using Dash on "
+#~ "instructions to begin using Historia on "
 #~ "your KeepKey device."
 #~ msgstr ""
 
@@ -558,12 +558,12 @@ msgstr ""
 #~ "<https://www.ledgerwallet.com/products/ledger- nano-s>`_ "
 #~ "and upcoming `Ledger Blue "
 #~ "<https://www.ledgerwallet.com/products/ledger-blue>`_. "
-#~ "Ledger Nano S has supported Dash "
+#~ "Ledger Nano S has supported Historia "
 #~ "since November 2016 and firmware version"
 #~ " 1.2. Follow `these instructions "
 #~ "<http://support.ledgerwallet.com/knowledge_base/topics/how-"
-#~ "to-use-dash- with-a-nano-s>`_ to add "
-#~ "Dash support to the device."
+#~ "to-use-historia- with-a-nano-s>`_ to add "
+#~ "Historia support to the device."
 #~ msgstr ""
 
 #~ msgid "Site: https://www.ledgerwallet.com"

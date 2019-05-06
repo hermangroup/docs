@@ -1,8 +1,8 @@
 .. meta::
-   :description: How to install the Dash wallet on your iOS device
-   :keywords: dash, mobile, wallet, ios, installation, compile
+   :description: How to install the Historia wallet on your iOS device
+   :keywords: historia, mobile, wallet, ios, installation, compile
 
-.. _dash-ios-installation:
+.. _historia-ios-installation:
 
 Installation
 ============
@@ -10,7 +10,7 @@ Installation
 App Store
 ---------
 
-The easiest way to install the Dash Wallet for iOS is from the `App Store <https://itunes.apple.com/app/id1206647026>`__. 
+The easiest way to install the Historia Wallet for iOS is from the `App Store <https://itunes.apple.com/app/id1206647026>`__. 
 While older versions of iOS are supported, you will need to be using iOS
 10.0 or newer to use the latest version.
 
@@ -22,7 +22,7 @@ Compiling from source
 ---------------------
 
 The source code for the wallet is available `here
-<https://github.com/QuantumExplorer/dashwallet>`_. The following steps
+<https://github.com/QuantumExplorer/historiawallet>`_. The following steps
 describe how to download and compile the wallet from source.
 
 1. Install `Xcode <https://itunes.apple.com/us/app/xcode/id497799835?mt=12>`_ 
@@ -37,11 +37,11 @@ describe how to download and compile the wallet from source.
      cd ~/Documents
      mkdir src
      cd src
-     git clone https://github.com/QuantumExplorer/dashwallet.git
+     git clone https://github.com/QuantumExplorer/historiawallet.git
 
 4. Open **Xcode** again and click **File -> Open**
 
-5. Navigate to ``~/Documents/src/dashwallet/DashWallet.xcodeproj`` and
+5. Navigate to ``~/Documents/src/historiawallet/HistoriaWallet.xcodeproj`` and
    click **Open**.
 
 6. Click **Product > Run** to build and run the app in **Simulator**.
@@ -49,7 +49,7 @@ describe how to download and compile the wallet from source.
 .. figure:: img/xcode.png
    :width: 500px
 
-   Dash iOS wallet running in Simulator after compiling in Xcode
+   Historia iOS wallet running in Simulator after compiling in Xcode
 
 You can also make modifications to the code and sideload the app onto
 your iOS device. For details, see `this post on Reddit

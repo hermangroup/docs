@@ -1,6 +1,6 @@
 .. meta::
-   :description: This guide describes how to set up a Dash masternode. It also describes various options for hosting and different wallets
-   :keywords: dash, guide, masternodes, trezor, dip3, setup, bls
+   :description: This guide describes how to set up a Historia masternode. It also describes various options for hosting and different wallets
+   :keywords: historia, guide, masternodes, trezor, dip3, setup, bls
 
 .. _masternode-setup:
 
@@ -11,14 +11,14 @@ Setup
 Setting up a masternode requires a basic understanding of Linux and
 blockchain technology, as well as an ability to follow instructions
 closely. It also requires regular maintenance and careful security,
-particularly if you are not storing your Dash on a hardware wallet.
+particularly if you are not storing your Historia on a hardware wallet.
 There are some decisions to be made along the way, and optional extra
 steps to take for increased security.
 
 Commercial :ref:`masternode hosting services <masternode-hosting>` are
 available if you prefer to delegate day-to-day operation of your
 masternode to a professional operator. When using these hosting
-services, you retain full control of the 1000 DASH collateral and pay an
+services, you retain full control of the 1000 HISTORIA collateral and pay an
 agreed percentage of your reward to the operator. It is also possible to
 delegate your voting keys to a representative, see the 
 :ref:`governance documentation <delegating-votes>` for more
@@ -33,22 +33,22 @@ time. If you are updating a masternode, see  :ref:`here <masternode-update>`
 instead. If Spork 15 is not yet enabled, it is not possible to directly
 set up a DIP003 masternode. You will need to set up the masternode
 following the `old process
-<https://docs.dash.org/en/0.12.3/masternodes/setup.html>`_ and then work
+<https://docs.historia.network/en/0.12.3/masternodes/setup.html>`_ and then work
 through the :ref:`upgrade procedure <dip3-upgrade>`. You will need:
 
-- 1000 Dash
-- A wallet to store your Dash, preferably a hardware wallet, although 
-  Dash Core wallet is also supported
+- 1000 Historia
+- A wallet to store your Historia, preferably a hardware wallet, although 
+  Historia Core wallet is also supported
 - A Linux server, preferably a Virtual Private Server (VPS)
 
-Dash 0.13.0 implements DIP003, which introduces several changes to how a
-Dash masternode is set up and operated. A list of available
+Historia 0.13.0 implements DIP003, which introduces several changes to how a
+Historia masternode is set up and operated. A list of available
 documentation appears below:
 
-- `DIP003 Deterministic Masternode Lists <https://github.com/dashpay/dips/blob/master/dip-0003.md>`__
+- `DIP003 Deterministic Masternode Lists <https://github.com/HistoriaOffical/dips/blob/master/dip-0003.md>`__
 - :ref:`dip3-changes`
 - :ref:`dip3-dev-upgrade`
-- :ref:`Dash 0.13 Upgrade Procedure for Masternodes <dip3-upgrade>`
+- :ref:`Historia 0.13 Upgrade Procedure for Masternodes <dip3-upgrade>`
 - :ref:`Full masternode setup guide <masternode-setup>` (you are here)
 - :ref:`Information for users of hosted masternodes <hosted-setup>`
 - :ref:`Information for operators of hosted masternodes <operator-transactions>`
@@ -56,10 +56,10 @@ documentation appears below:
 It is highly recommended to first read at least the list of changes
 before continuing in order to familiarize yourself with the new concepts
 in DIP003. This documentation describes the commands as if they were
-entered in the Dash Core GUI by opening the console from **Tools > Debug
+entered in the Historia Core GUI by opening the console from **Tools > Debug
 console**, but the same result can be achieved on a masternode by
 entering the same commands and adding the prefix 
-``~/.dashcore/dash-cli`` to each command.
+``~/.historiacore/historia-cli`` to each command.
 
 
 .. _vps-setup:
@@ -72,7 +72,7 @@ installation of an operating system (usually Linux) operating within a
 virtual machine. The virtual machine allows the VPS provider to run
 multiple systems on one physical server, making it more efficient and
 much cheaper than having a single operating system running on the "bare
-metal" of each server. A VPS is ideal for hosting a Dash masternode
+metal" of each server. A VPS is ideal for hosting a Historia masternode
 because they typically offer guaranteed uptime, redundancy in the case
 of hardware failure and a static IP address that is required to ensure
 you remain in the masternode payment queue. While running a masternode
@@ -111,7 +111,7 @@ Select a server size offering at least 2GB of memory.
    Vultr server size selection screen
 
 Enter a hostname and label for your server. In this example we will use
-``dashmn1`` as the hostname.
+``historiamn1`` as the hostname.
 
 .. figure:: img/setup-server-hostname.png
    :width: 400px
@@ -280,22 +280,22 @@ attacks, much more can be done. In particular, `authenticating with a public key
 instead of a username/password combination and `enabling automatic security updates <https://help.ubuntu.com/community/AutomaticSecurityUpdates>`_ 
 is advisable. More tips are available `here <https://www.cyberciti.biz/tips/linux-security.html>`__. 
 However, since the masternode does not actually store the keys to any
-Dash, these steps are considered beyond the scope of this guide.
+Historia, these steps are considered beyond the scope of this guide.
 
 
 Send the collateral
 ===================
 
-A Dash address with a single unspent transaction output (UTXO) of
-exactly 1000 DASH is required to operate a masternode. Once it has been
+A Historia address with a single unspent transaction output (UTXO) of
+exactly 1000 HISTORIA is required to operate a masternode. Once it has been
 sent, various keys regarding the transaction must be extracted for later
 entry in a configuration file and registration transaction as proof to
 write the configuration to the blockchain so the masternode can be
 included in the deterministic list. A masternode can be started from a
-hardware wallet or the official Dash Core wallet, although a hardware
+hardware wallet or the official Historia Core wallet, although a hardware
 wallet is highly recommended to enhance security and protect yourself
 against hacking. This guide will describe the steps for both hardware
-wallets and Dash Core.
+wallets and Historia Core.
 
 Option 1: Sending from a hardware wallet
 ----------------------------------------
@@ -306,8 +306,8 @@ help on this, see :ref:`this guide <hardware-trezor>` - you may also
 choose to (carefully!) `add a passphrase <https://blog.trezor.io/hide-your-trezor-wallets-with-multiple-passphrases-f2e0834026eb>`_
 to your Trezor to further protect your collateral. Create a new account
 in your Trezor wallet by clicking **Add account**. Then click the
-**Receive** tab and send exactly 1000 DASH to the address displayed. If
-you are setting up multiple masternodes, send 1000 DASH to consecutive
+**Receive** tab and send exactly 1000 HISTORIA to the address displayed. If
+you are setting up multiple masternodes, send 1000 HISTORIA to consecutive
 addresses within the same new account. You should see the transaction as
 soon as the first confirmation arrives, usually within a few minutes.
 
@@ -315,7 +315,7 @@ soon as the first confirmation arrives, usually within a few minutes.
    :width: 400px
 
    Trezor Wallet Receive tab showing successfully received collateral of
-   1000 DASH
+   1000 HISTORIA
 
 Once the transaction appears, click the QR code on the right to view the
 transaction on the blockchain. Keep this window open as we complete the
@@ -329,16 +329,16 @@ confirmations exist, as shown in the following screenshot.
    transfer
 
 While we are waiting for 15 confirmations, download the latest version
-of the Dash Masternode Tool (DMT) from the GitHub releases page `here
-<https://github.com/Bertrand256/dash-masternode-tool/releases>`__. Unzip
+of the Historia Masternode Tool (DMT) from the GitHub releases page `here
+<https://github.com/Bertrand256/historia-masternode-tool/releases>`__. Unzip
 and run the file. The following window appears.
 
 .. figure:: img/setup-collateral-dmt-start.png
    :width: 400px
 
-   Dash Masternode Tool startup screen
+   Historia Masternode Tool startup screen
 
-Click the third button from the left **Check Dash Network Connection**
+Click the third button from the left **Check Historia Network Connection**
 in the top left corner of the main window to verify that the connection
 is working. Then connect your Trezor device and click the next button
 **Test Hardware Wallet Connection** to verify the Trezor connection is
@@ -350,7 +350,7 @@ working.
 .. figure:: img/setup-collateral-hardware.png
    :width: 180px
 
-   Dash Masternode Tool successful connection confirmations
+   Historia Masternode Tool successful connection confirmations
 
 We will now use DMT to extract the transaction ID and legacy masternode
 key (necessary for successful startup during the DIP003 transition
@@ -360,7 +360,7 @@ screenshot:
 .. figure:: img/setup-collateral-dmt-steps.png
    :width: 400px
 
-   Dash Masternode Tool configuration steps
+   Historia Masternode Tool configuration steps
 
 #. Click the **New** button.
 #. Ensure you are on the settings page for a Non-deterministic 
@@ -380,26 +380,26 @@ screenshot:
 .. figure:: img/setup-collateral-dmt-ready.png
    :width: 400px
 
-   Dash Masternode Tool with configuration ready to start masternode
+   Historia Masternode Tool with configuration ready to start masternode
 
-Leave DMT open and continue with the next step: :ref:`installing Dash
-Core on your VPS <masternode-setup-install-dashcore>`.
+Leave DMT open and continue with the next step: :ref:`installing Historia
+Core on your VPS <masternode-setup-install-historiacore>`.
 
-Option 2: Sending from Dash Core wallet
+Option 2: Sending from Historia Core wallet
 ---------------------------------------
 
-Open Dash Core wallet and wait for it to synchronize with the network.
+Open Historia Core wallet and wait for it to synchronize with the network.
 It should look like this when ready:
 
-.. figure:: img/setup-collateral-dashcore.png
+.. figure:: img/setup-collateral-historiacore.png
    :width: 400px
 
-   Fully synchronized Dash Core wallet
+   Fully synchronized Historia Core wallet
 
 Click **Tools > Debug console** to open the console. Type the following
 two commands into the console to generate a legacy masternode key
 (necessary for successful startup during the DIP003 transition period)
-and a new Dash address for the collateral::
+and a new Historia address for the collateral::
 
   masternode genkey
   93PAqQsDjcVdYJHRfQPjsSt5338GCswMnUaSxoCD8J6fiLk4NHL
@@ -417,15 +417,15 @@ wallet and lose access to your funds. Next, back up your wallet file by
 selecting **File > Backup Wallet**. Save the file to a secure location
 physically separate to your computer, since this will be the only way
 you can access our funds if anything happens to your computer. For more
-details on these steps, see :ref:`here <dashcore-backup>`.
+details on these steps, see :ref:`here <historiacore-backup>`.
 
-Now send exactly 1000 DASH in a single transaction to the new address
+Now send exactly 1000 HISTORIA in a single transaction to the new address
 you generated in the previous step. This may be sent from another
 wallet, or from funds already held in your current wallet. Once the
 transaction is complete, view the transaction in a `blockchain explorer
-<http://insight.dash.org/insight/>`_ by searching for the address. You
+<http://insight.historia.network/insight/>`_ by searching for the address. You
 will need 15 confirmations before you can start the masternode, but you
-can continue with the next step at this point already: installing Dash
+can continue with the next step at this point already: installing Historia
 Core on your VPS.
 
 .. figure:: img/setup-collateral-blocks.png
@@ -435,43 +435,43 @@ Core on your VPS.
    transfer
 
 
-.. _masternode-setup-install-dashcore:
+.. _masternode-setup-install-historiacore:
 
-Install Dash Core
+Install Historia Core
 =================
 
-Dash Core is the software behind both the Dash Core GUI wallet and Dash
+Historia Core is the software behind both the Historia Core GUI wallet and Historia
 masternodes. If not displaying a GUI, it runs as a daemon on your VPS
-(dashd), controlled by a simple command interface (dash-cli).
+(historiad), controlled by a simple command interface (historia-cli).
 
 Open PuTTY or a console again and connect using the username and
 password you just created for your new, non-root user. There are two
-options to install Dash Core, an automated option using a script utility
-called dashman by Dash Core Team member moocowmoo, and a more
+options to install Historia Core, an automated option using a script utility
+called historiaman by Historia Core Team member moocowmoo, and a more
 complicated option which will allow you to understand all of the key
 steps involved in preparing your masternode.
 
-Option 1: Automated installation using dashman
+Option 1: Automated installation using historiaman
 ----------------------------------------------
 
-To install Dash using dashman, enter the following commands after
+To install Historia using historiaman, enter the following commands after
 logging in::
 
   cd ~
-  git clone https://github.com/moocowmoo/dashman
-  ~/dashman/dashman install
+  git clone https://github.com/moocowmoo/historiaman
+  ~/historiaman/historiaman install
 
 (press **Y** and **Enter** to confirm)
 
-dashman will download the latest version of Dash Core for your system,
+historiaman will download the latest version of Historia Core for your system,
 as well as an initial snapshot of the blockchain to speed up the
 bootstrapping process. Next download and install Sentinel, which is
 required for masternodes at version 0.12.1 or higher::
 
-  ~/dashman/dashman install sentinel
+  ~/historiaman/historiaman install sentinel
 
-Your system is now running as a standard Dash node, and is busy
-completing synchronisation with the blockchain. Since dashman does not
+Your system is now running as a standard Historia node, and is busy
+completing synchronisation with the blockchain. Since historiaman does not
 automatically restart your masternode in the event of a system error,
 add a check function to crontab to make sure it checks every minute to
 ensure your masternode is still running::
@@ -481,7 +481,7 @@ ensure your masternode is still running::
 Choose nano as your editor and enter the following line at the end of
 the file, after the line for sentinel::
 
-  * * * * * pidof dashd || ~/.dashcore/dashd
+  * * * * * pidof historiad || ~/.historiacore/historiad
 
 Press enter to make sure there is a blank line at the end of the file,
 then press **Ctrl + X** to close the editor and **Y** and **Enter** save
@@ -489,12 +489,12 @@ the file. Check the sync status and wait until all blockchain
 synchronisation and the 15 confirmations for the collateral transaction
 are complete::
 
-  ~/dashman/dashman status
+  ~/historiaman/historiaman status
 
-.. figure:: img/setup-dashman-done.png
+.. figure:: img/setup-historiaman-done.png
    :width: 400px
 
-   dashman status output showing masternode ready to be started
+   historiaman status output showing masternode ready to be started
 
 Continue with the :ref:`next step to register your masternode
 <register-masternode>`.
@@ -502,29 +502,29 @@ Continue with the :ref:`next step to register your masternode
 Option 2: Manual installation
 -----------------------------
 
-To manually download and install the components of your Dash masternode,
-visit the `GitHub releases page <https://github.com/dashpay/dash/releases>`_ 
+To manually download and install the components of your Historia masternode,
+visit the `GitHub releases page <https://github.com/HistoriaOffical/historia/releases>`_ 
 and copy the link to the latest ``x86_64-linux-gnu`` version. Go back to
 your terminal window and enter the following command, pasting in the
-address to the latest version of Dash Core by right clicking or pressing
+address to the latest version of Historia Core by right clicking or pressing
 **Ctrl + V**::
 
   cd /tmp
-  wget https://github.com/dashpay/dash/releases/download/v0.13.2.0/dashcore-0.13.2.0-x86_64-linux-gnu.tar.gz
+  wget https://github.com/HistoriaOffical/historia/releases/download/v0.13.2.0/historiacore-0.13.2.0-x86_64-linux-gnu.tar.gz
 
 Verify the integrity of your download by running the following command
 and comparing the output against the value for the file as shown in the
 ``SHA256SUMS.asc`` file::
 
-  wget https://github.com/dashpay/dash/releases/download/v0.13.2.0/SHA256SUMS.asc
-  sha256sum dashcore-0.13.2.0-x86_64-linux-gnu.tar.gz
+  wget https://github.com/HistoriaOffical/historia/releases/download/v0.13.2.0/SHA256SUMS.asc
+  sha256sum historiacore-0.13.2.0-x86_64-linux-gnu.tar.gz
   cat SHA256SUMS.asc
 
 You can also optionally verify the authenticity of your download as an
-official release by Dash Core Team. All releases of Dash are signed
+official release by Historia Core Team. All releases of Historia are signed
 using GPG by Alexander Block (codablock) with the key ``63A9 6B40 6102 E091``, `verifiable
 here on Keybase <https://keybase.io/codablock>`_. Import the key, download
-the ASC file for the current release of Dash and verify the signature as
+the ASC file for the current release of Historia and verify the signature as
 follows::
 
   curl https://keybase.io/codablock/pgp_keys.asc | gpg --import
@@ -535,17 +535,17 @@ follows::
 
    Downloading the PGP key and verifying the signed binary
 
-Create a working directory for Dash, extract the compressed archive and
+Create a working directory for Historia, extract the compressed archive and
 copy the necessary files to the directory::
 
-  mkdir ~/.dashcore
-  tar xfv dashcore-0.13.2.0-x86_64-linux-gnu.tar.gz
-  cp -f dashcore-0.13.2/bin/dashd ~/.dashcore/
-  cp -f dashcore-0.13.2/bin/dash-cli ~/.dashcore/
+  mkdir ~/.historiacore
+  tar xfv historiacore-0.13.2.0-x86_64-linux-gnu.tar.gz
+  cp -f historiacore-0.13.2/bin/historiad ~/.historiacore/
+  cp -f historiacore-0.13.2/bin/historia-cli ~/.historiacore/
 
 Create a configuration file using the following command::
 
-  nano ~/.dashcore/dash.conf
+  nano ~/.historiacore/historia.conf
 
 An editor window will appear. We now need to create a configuration file
 specifying several variables. Copy and paste the following text to get
@@ -582,27 +582,27 @@ The result should look something like this:
 .. figure:: img/setup-manual-conf.png
    :width: 400px
 
-   Entering key data in dash.conf on the masternode
+   Entering key data in historia.conf on the masternode
 
 Press **Ctrl + X** to close the editor and **Y** and **Enter** save the
-file. You can now start running Dash on the masternode to begin
+file. You can now start running Historia on the masternode to begin
 synchronization with the blockchain::
 
-  ~/.dashcore/dashd
+  ~/.historiacore/historiad
 
-You will see a message reading **Dash Core server starting**. We will
+You will see a message reading **Historia Core server starting**. We will
 now install Sentinel, a piece of software which operates as a watchdog
 to communicate to the network that your node is working properly::
 
-  cd ~/.dashcore
-  git clone https://github.com/dashpay/sentinel.git
+  cd ~/.historiacore
+  git clone https://github.com/HistoriaOffical/sentinel.git
   cd sentinel
   virtualenv venv
   venv/bin/pip install -r requirements.txt
   venv/bin/python bin/sentinel.py
 
-You will see a message reading **dashd not synced with network! Awaiting
-full sync before running Sentinel.** Add dashd and sentinel to crontab
+You will see a message reading **historiad not synced with network! Awaiting
+full sync before running Sentinel.** Add historiad and sentinel to crontab
 to make sure it runs every minute to check on your masternode::
 
   crontab -e
@@ -610,8 +610,8 @@ to make sure it runs every minute to check on your masternode::
 Choose nano as your editor and enter the following lines at the end of
 the file::
 
-  * * * * * cd ~/.dashcore/sentinel && ./venv/bin/python bin/sentinel.py 2>&1 >> sentinel-cron.log
-  * * * * * pidof dashd || ~/.dashcore/dashd
+  * * * * * cd ~/.historiacore/sentinel && ./venv/bin/python bin/sentinel.py 2>&1 >> sentinel-cron.log
+  * * * * * pidof historiad || ~/.historiacore/historiad
 
 Press enter to make sure there is a blank line at the end of the file,
 then press **Ctrl + X** to close the editor and **Y** and **Enter** save
@@ -620,7 +620,7 @@ transaction to complete, and wait for the blockchain to finish
 synchronizing on the masternode. You can use the following commands to
 monitor progress::
 
-  ~/.dashcore/dash-cli mnsync status
+  ~/.historiacore/historia-cli mnsync status
 
 When synchronisation is complete, you should see the following
 response::
@@ -648,7 +648,7 @@ Register your masternode
 DIP003 introduces several changes to how a masternode is set up and
 operated. These are described briefly under :ref:`dip3-changes` in
 this documentation, or in full detail in `DIP003
-<https://github.com/dashpay/dips/blob/master/dip-0003.md>`_ itself. It
+<https://github.com/HistoriaOffical/dips/blob/master/dip-0003.md>`_ itself. It
 is highly recommended to first read at least the brief documentation
 before continuing in order to familiarize yourself with the new concepts
 in DIP003.
@@ -668,7 +668,7 @@ private keys required for a DIP003 deterministic masternode:
 .. figure:: img/setup-dmt-full.png
    :width: 220px
 
-   Dash Masternode Tool ready to register a new masternode
+   Historia Masternode Tool ready to register a new masternode
 
 Then click **Send ProRegTx** and confirm the following two messages:
 
@@ -678,16 +678,16 @@ Then click **Send ProRegTx** and confirm the following two messages:
 .. figure:: img/setup-dmt-sent.png
    :width: 220px
 
-   Dash Masternode Tool confirmation dialogs to register a masternode
+   Historia Masternode Tool confirmation dialogs to register a masternode
 
-The BLS secret key must be entered in the ``dash.conf`` file on the
+The BLS secret key must be entered in the ``historia.conf`` file on the
 masternode. This allows the masternode to watch the blockchain for
 relevant Pro*Tx transactions, and will cause it to start serving as a
 masternode when the signed ProRegTx is broadcast by the owner, as we
 just did above. Edit the configuration file on your masternode as
 follows::
 
-  nano ~/.dashcore/dash.conf
+  nano ~/.historiacore/historia.conf
 
 The editor appears with the existing masternode configuration. Add this
 line to the end of the file, replacing the key with your BLS secret key
@@ -699,35 +699,35 @@ Press enter to make sure there is a blank line at the end of the file,
 then press **Ctrl + X** to close the editor and **Y** and **Enter** save
 the file. We now need to restart the masternode for this change to take
 effect. Enter the following commands, waiting a few seconds in between
-to give Dash Core time to shut down::
+to give Historia Core time to shut down::
 
-  ~/.dashcore/dash-cli stop
+  ~/.historiacore/historia-cli stop
   sleep 5
-  ~/.dashcore/dashd
+  ~/.historiacore/historiad
 
 At this point you can monitor your masternode using 
-``dashman/dashman status``, by entering 
-``~/.dashcore/dash-cli masternode status`` or using the **Get status** 
+``historiaman/historiaman status``, by entering 
+``~/.historiacore/historia-cli masternode status`` or using the **Get status** 
 function in DMT. The final result should appear as follows:
 
-.. figure:: img/setup-dash-cli-start.png
+.. figure:: img/setup-historia-cli-start.png
    :width: 400px
 
-   dash-cli masternode status output showing successfully started masternode
+   historia-cli masternode status output showing successfully started masternode
 
 At this point you can safely log out of your server by typing ``exit``.
 Congratulations! Your masternode is now running.
 
 
-.. _dashcore-protx:
+.. _historiacore-protx:
 
-Option 2: Registering from Dash Core wallet
+Option 2: Registering from Historia Core wallet
 -------------------------------------------
 
 Identify the funding transaction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you used an address in Dash Core wallet for your collateral
+If you used an address in Historia Core wallet for your collateral
 transaction, you now need to find the txid of the transaction. Click
 **Tools > Debug console** and enter the following command::
 
@@ -769,14 +769,14 @@ Add the private key to your masternode configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The public key will be used in following steps. The private key must be
-entered in the ``dash.conf`` file on the masternode. This allows the
+entered in the ``historia.conf`` file on the masternode. This allows the
 masternode to watch the network for relevant Pro*Tx transactions, and
 will cause it to start serving as a masternode when the signed ProRegTx
 is broadcast by the owner (final step below). Log in to your masternode
 using ``ssh`` or PuTTY and edit the configuration file on your
 masternode as follows::
 
-  nano ~/.dashcore/dash.conf
+  nano ~/.historiacore/historia.conf
 
 The editor appears with the existing masternode configuration. Add this
 line to the end of the file, replacing the key with your BLS secret key
@@ -788,11 +788,11 @@ Press enter to make sure there is a blank line at the end of the file,
 then press **Ctrl + X** to close the editor and **Y** and **Enter** save
 the file. We now need to restart the masternode for this change to take
 effect. Enter the following commands, waiting a few seconds in between
-to give Dash Core time to shut down::
+to give Historia Core time to shut down::
 
-  ~/.dashcore/dash-cli stop
+  ~/.historiacore/historia-cli stop
   sleep 5
-  ~/.dashcore/dashd
+  ~/.historiacore/historiad
 
 We will now prepare the transaction used to register a DIP003 masternode
 on the network.
@@ -840,21 +840,21 @@ syntax::
 Open a text editor such as notepad to prepare this command. Replace each
 argument to the command as follows:
 
-- ``collateralHash``: The txid of the 1000 Dash collateral funding 
+- ``collateralHash``: The txid of the 1000 Historia collateral funding 
   transaction
-- ``collateralIndex``: The output index of the 1000 Dash funding 
+- ``collateralIndex``: The output index of the 1000 Historia funding 
   transaction
 - ``ipAndPort``: Masternode IP address and port, in the format 
   ``x.x.x.x:yyyy``
-- ``ownerKeyAddr``: The new Dash address generated above for the 
+- ``ownerKeyAddr``: The new Historia address generated above for the 
   owner/voting address
 - ``operatorPubKey``: The BLS public key generated above (or provided 
   by your hosting service)
-- ``votingKeyAddr``: The new Dash address generated above, or the 
+- ``votingKeyAddr``: The new Historia address generated above, or the 
   address of a delegate, used for proposal voting
 - ``operatorReward``: The percentage of the block reward allocated to 
   the operator as payment
-- ``payoutAddress``: A new or existing Dash address to receive the 
+- ``payoutAddress``: A new or existing Historia address to receive the 
   owner's masternode rewards
 - ``feeSourceAddress``: An (optional) address used to fund ProTx fee. 
   ``payoutAddress`` will be used if not specified.
@@ -897,7 +897,7 @@ private key for the collateral address as specified in
 ``collateralAddress``. Note that no internet connection is required for
 this step, meaning that the wallet can remain disconnected from the
 internet in cold storage to sign the message. In this example we will
-again use Dash Core, but it is equally possible to use the signing
+again use Historia Core, but it is equally possible to use the signing
 function of a hardware wallet. The command takes the following syntax::
 
   signmessage collateralAddress signMessage
@@ -915,7 +915,7 @@ Submit the signed message
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We will now submit the ProRegTx special transaction to the blockchain to
-register the masternode. This command must be sent from a Dash Core
+register the masternode. This command must be sent from a Historia Core
 wallet holding a balance, since a standard transaction fee is involved.
 The command takes the following syntax::
 
@@ -938,7 +938,7 @@ Output::
 
 Your masternode is now registered and will appear on the Deterministic
 Masternode List after the transaction is mined to a block. You can view
-this list on the **Masternodes -> DIP3 Masternodes** tab of the Dash
+this list on the **Masternodes -> DIP3 Masternodes** tab of the Historia
 Core wallet, or in the console using the command ``protx list valid``,
 where the txid of the final ``protx register_submit`` transaction
 identifies your DIP003 masternode. Note again that all functions related
@@ -946,14 +946,14 @@ to DIP003 will only take effect once Spork 15 is enabled on the network.
 You can view the spork status using the ``spork active`` command.
 
 At this point you can go back to your terminal window and monitor your
-masternode using ``dashman/dashman status``, by entering
-``~/.dashcore/dash-cli masternode status`` or using the **Get status**
+masternode using ``historiaman/historiaman status``, by entering
+``~/.historiacore/historia-cli masternode status`` or using the **Get status**
 function in DMT. The final result should appear as follows:
 
-.. figure:: img/setup-dashman-started.png
+.. figure:: img/setup-historiaman-started.png
    :width: 400px
 
-   dashman status output showing successfully started masternode
+   historiaman status output showing successfully started masternode
 
 At this point you can safely log out of your server by typing ``exit``.
 Congratulations! Your masternode is now running.

@@ -1,17 +1,17 @@
 .. meta::
-   :description: List and detailed information on third-party wallets supporting the Dash cryptocurrency
-   :keywords: dash, wallet, mobile, edge, ethos, paytomat, mobi, guarda, exodus, atomic, jaxx, coinomi, cobo, cryptonator, trust, kurepay, ownbit, abra, vegawallet
+   :description: List and detailed information on third-party wallets supporting the Historia cryptocurrency
+   :keywords: historia, wallet, mobile, edge, ethos, paytomat, mobi, guarda, exodus, atomic, jaxx, coinomi, cobo, cryptonator, trust, kurepay, ownbit, abra, vegawallet
 
-.. _dash-third-party:
+.. _historia-third-party:
 
 Introduction
 ============
 
-The Dash protocol and many Dash products such as Dash Core and the
+The Historia protocol and many Historia products such as Historia Core and the
 mobile wallets are entirely open source, which makes it easy for third
-parties to integrate Dash with their existing cryptocurrency wallet
+parties to integrate Historia with their existing cryptocurrency wallet
 solutions. This section describes some of the third party wallets
-available and the functions they offer. Please note that Dash does not
+available and the functions they offer. Please note that Historia does not
 provide support for any of these wallets, and any listing here should
 not be considered an endorsement or recommendation. Contact the software
 vendor for support.
@@ -27,10 +27,10 @@ https://www.abra.com
    :align: right
    :target: https://www.abra.com
 
-Abra is a multi-cryptocurrency wallet supporting Dash amongst other
+Abra is a multi-cryptocurrency wallet supporting Historia amongst other
 currencies. It is designed for investment and can be funded from your
 bank account, credit/debit card, cash (in the Philippines), Bitcoin,
-Bitcoin Cash, or Litecoin. Dash deposits and withdrawals are currently
+Bitcoin Cash, or Litecoin. Historia deposits and withdrawals are currently
 not supported.
 
 Installation
@@ -116,7 +116,7 @@ https://ownbit.io
    :target: https://ownbit.io
 
 Ownbit is a multi-currency and multi-signature capable mobile wallet
-with support for Dash. It allows you to manage multiple wallets and
+with support for Historia. It allows you to manage multiple wallets and
 contacts to faciliate easy transactions.
 
 Installation
@@ -154,12 +154,12 @@ https://cobo.com
    :align: right
    :target: https://cobo.com
 
-Cobo is a multi-currency mobile wallet supporting Dash with options to
+Cobo is a multi-currency mobile wallet supporting Historia with options to
 either register a cloud wallet (private keys backed up on the cloud) or
 generate your own HD wallet seed (private keys encrypted on your
 device), giving you maximum control over how you handle the crypographic
 keys to all assets in the wallet. The wallet offers a unique "staking"
-feature where users can pool their Dash to set up masternodes and enjoy
+feature where users can pool their Historia to set up masternodes and enjoy
 weekly returns.
 
 Installation
@@ -244,7 +244,7 @@ https://www.cryptonator.com
 
 Cryptonator offers a web/mobile wallet which can be accessed using a
 simple username/password combination. It supports multiple currencies
-including Dash, and offers instant exchange between the various
+including Historia, and offers instant exchange between the various
 currencies. It also support Euro-denominated SEPA payments directly from
 within the account.
 
@@ -317,7 +317,7 @@ here:
 .. figure:: img/edge-wallet.png
    :width: 400px
 
-   Edge Welcome, Receive Dash and Balance screens
+   Edge Welcome, Receive Historia and Balance screens
 
 Ethos
 =====
@@ -329,7 +329,7 @@ https://www.ethos.io
    :align: right
    :target: https://www.ethos.io
 
-The Ethos Universal Wallet allows you to store Dash and over 100 other
+The Ethos Universal Wallet allows you to store Historia and over 100 other
 cryptocurrencies. It features a single recovery phrase, known as the
 SmartKey, with which you can restore all balances on another device.
 Features include human-readable usernames, ShapeShift coin conversion
@@ -458,7 +458,7 @@ https://guarda.co
    :target: https://guarda.co
 
 Guarda offers an entire blockchain ecosystem consisting of desktop, web
-and mobile wallets, OTC crypto sales and instant crypto exchange. Dash
+and mobile wallets, OTC crypto sales and instant crypto exchange. Historia
 is supported throughout the ecosystem, making it an easy and convenient
 way for new users to get started. All keys are held by the user,
 ensuring the safety of your funds.
@@ -506,7 +506,7 @@ https://jaxx.io
    :align: right
    :target: https://jaxx.io
 
-Jaxx supports multiple currencies in one wallet, including Dash. It is
+Jaxx supports multiple currencies in one wallet, including Historia. It is
 available for almost all platforms including Android, iOS, macOS,
 Windows, Linux and also as a Chrome extension. Jaxx is open source
 software.
@@ -632,7 +632,7 @@ https://paytomat.com
 
 Paytomat offers a multicurrency wallet for Android and iOS which
 integrates a loyalty program to incentivize retailers and consumers to
-transact in Dash.
+transact in Historia.
 
 Installation
 ------------
@@ -671,7 +671,7 @@ https://trustwallet.com
    :target: https://trustwallet.com
 
 Backed by `Binance <https://www.binance.com>`__, Trust wallet is a
-secure and intuitive multi-currency mobile wallet with support for Dash,
+secure and intuitive multi-currency mobile wallet with support for Historia,
 Bitcoin, Ethereum and a wide range of tokens and DApps.
 
 Installation
@@ -712,7 +712,7 @@ https://vegawallet.com
    :target: https://vegawallet.com
 
 VegaWallet offers a secure multi-asset, multi-currency wallet with
-support for Dash InstantSend and multi-signature wallets. The wallet
+support for Historia InstantSend and multi-signature wallets. The wallet
 integrates with several exchanges and price sources, as well as offering
 advanced NFC functionality for payments.
 

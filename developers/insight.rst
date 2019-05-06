@@ -1,6 +1,6 @@
 .. meta::
-   :description: The open-source Dash Insight REST API provides you with a convenient, powerful and simple way to read data from the Dash network and build your own services with it.
-   :keywords: dash, insight, API, REST, blockchain, explorer, JSON, HTTP, blocks, index, transactions
+   :description: The open-source Historia Insight REST API provides you with a convenient, powerful and simple way to read data from the Historia network and build your own services with it.
+   :keywords: historia, insight, API, REST, blockchain, explorer, JSON, HTTP, blocks, index, transactions
 
 .. _insight-api:
 
@@ -8,16 +8,16 @@
 Insight API Installation
 ========================
 
-The open-source Dash Insight REST API provides you with a convenient,
-powerful and simple way to read data from the Dash network and build
+The open-source Historia Insight REST API provides you with a convenient,
+powerful and simple way to read data from the Historia network and build
 your own services with it. Simple HTTP endpoints exist for all common
-operations on the Dash blockchain familiar from the Bitcore Insight API,
-as well as Dash-specific features such as InstantSend transactions,
+operations on the Historia blockchain familiar from the Bitcore Insight API,
+as well as Historia-specific features such as InstantSend transactions,
 budget proposals, sporks and the masternode list. This documentation
 describes how to set up the 
-`Dash Insight API <https://github.com/dashevo/insight-api>`__ server and
+`Historia Insight API <https://github.com/historiaevo/insight-api>`__ server and
 (optionally) the 
-`Dash Insight UI <https://github.com/dashevo/insight-ui>`__ block 
+`Historia Insight UI <https://github.com/historiaevo/insight-ui>`__ block 
 explorer.
 
 A standard installation of Ubuntu Linux 18.04 LTS will be used as an
@@ -29,41 +29,41 @@ dependencies::
   sudo apt upgrade
   sudo apt install npm build-essential libzmq3-dev
 
-Download and extract the latest version of Dash Core::
+Download and extract the latest version of Historia Core::
 
   cd ~
-  wget https://github.com/dashpay/dash/releases/download/v0.13.2.0/dashcore-0.13.2.0-x86_64-linux-gnu.tar.gz
-  tar -xvzf dashcore-0.13.2.0-x86_64-linux-gnu.tar.gz
-  rm dashcore-0.13.2.0-x86_64-linux-gnu.tar.gz
+  wget https://github.com/HistoriaOffical/historia/releases/download/v0.13.2.0/historiacore-0.13.2.0-x86_64-linux-gnu.tar.gz
+  tar -xvzf historiacore-0.13.2.0-x86_64-linux-gnu.tar.gz
+  rm historiacore-0.13.2.0-x86_64-linux-gnu.tar.gz
 
-Install `Dashcore Node <https://github.com/dashevo/dashcore-node>`_ and
+Install `Historiacore Node <https://github.com/historiaevo/historiacore-node>`_ and
 create your configuration::
 
-  sudo npm install -g @dashevo/dashcore-node
-  dashcore-node create mynode
+  sudo npm install -g @historiaevo/historiacore-node
+  historiacore-node create mynode
 
 Install the Insight API service and (optionally) Insight UI::
 
   cd mynode
-  dashcore-node install @dashevo/insight-api
-  dashcore-node install @dashevo/insight-ui
+  historiacore-node install @historiaevo/insight-api
+  historiacore-node install @historiaevo/insight-ui
 
 Change paths in the configuration file as follows::
 
-  nano dashcore-node.json
+  nano historiacore-node.json
 
-- Change the value of ``datadir`` to ``../.dashcore``
-- Change the value of ``exec`` to ``../dashcore-0.13.2/bin/dashd``
+- Change the value of ``datadir`` to ``../.historiacore``
+- Change the value of ``exec`` to ``../historiacore-0.13.2/bin/historiad``
 - **Optionally** change the value of ``network`` to ``testnet`` if you 
   want to run Insight on testnet
 
 Run it::
 
-  dashcore-node start
+  historiacore-node start
 
 Your Insight API node will start up and begin to sync. Progress will be
 displayed on stdout. Once sync is complete, the `API endpoints listed in
-the documentation <https://github.com/dashevo/insight-api#api-http-endpoints>`_ 
+the documentation <https://github.com/historiaevo/insight-api#api-http-endpoints>`_ 
 will be available at::
 
   https://<ip-address>:3001/insight-api/<endpoint>/

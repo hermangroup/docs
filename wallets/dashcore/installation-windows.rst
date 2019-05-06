@@ -1,22 +1,22 @@
 .. meta::
-   :description: How to download, install and encrypt the Dash Core wallet in Windows
-   :keywords: dash, core, wallet, windows, installation
+   :description: How to download, install and encrypt the Historia Core wallet in Windows
+   :keywords: historia, core, wallet, windows, installation
 
-.. _dashcore-installation-windows:
+.. _historiacore-installation-windows:
 
 Windows Installation Guide
 ==========================
 
-This guide describes how to download, install and encrypt the Dash Core
+This guide describes how to download, install and encrypt the Historia Core
 wallet for Windows. The guide is written for Windows 10, but the steps
 should be similar for Windows XP, Vista, 7 and 8.
 
-Downloading the Dash Core wallet
+Downloading the Historia Core wallet
 --------------------------------
 
-Visit https://www.dash.org/get-dash to download the latest Dash Core
+Visit https://historia.network/get-historia to download the latest Historia Core
 wallet. In most cases, the website will properly detect which version
-you need. Click the blue **Dash Core** button to download the installer
+you need. Click the blue **Historia Core** button to download the installer
 directly.
 
 .. figure:: img/windows/106328672.png
@@ -42,8 +42,8 @@ how to check this in other versions of Windows, see
    Under the System section, click About to view the System type. This is
    a 64 bit system.
 
-Once you know which version you need, download the Dash Core Installer
-to your computer from https://www.dash.org/wallets
+Once you know which version you need, download the Historia Core Installer
+to your computer from https://historia.network/wallets
 
 .. figure:: img/windows/106328767.png
    :height: 250px
@@ -52,28 +52,28 @@ to your computer from https://www.dash.org/wallets
 
 Save the file you downloaded to your Downloads folder.
 
-Verifying Dash Core
+Verifying Historia Core
 -------------------
 
 This step is optional, but recommended to verify the integrity of the
 file you downloaded. This is done by checking its SHA256 hash against
-the hash published by the Dash Core development team. To view the
+the hash published by the Historia Core development team. To view the
 published hash, click the **Hash file** button on the wallet download
 page.
 
 .. figure:: img/windows/112789205.png
    :height: 250px
 
-   Downloading the Dash Core hash file
+   Downloading the Historia Core hash file
 
-Once both the Dash Core file and the hash file have downloaded, open the
+Once both the Historia Core file and the hash file have downloaded, open the
 hash file in a text editor or your browser and find the hash value for
-the Dash Core file you downloaded.
+the Historia Core file you downloaded.
 
 .. figure:: img/windows/112789262.png
    :height: 250px
 
-   Viewing the Dash Core hash file
+   Viewing the Historia Core hash file
 
 This hash value should correspond with the hash value of the file you
 have downloaded to ensure it is authentic and was not corrupted during
@@ -83,25 +83,25 @@ version with the specific version of the file you downloaded.
 
 ::
 
-    certutil -hashfile <dashcore-version-windows>.exe SHA256
+    certutil -hashfile <historiacore-version-windows>.exe SHA256
 
 .. figure:: img/windows/112789384.png
    :width: 470px
 
    Generating an SHA256 hash for the downloaded file
 
-If the hashes match, then you have an authentic copy of Dash Core for
+If the hashes match, then you have an authentic copy of Historia Core for
 Windows.
 
-Running the Dash Core installer
+Running the Historia Core installer
 -------------------------------
 
-Double-click the file to start installing Dash Core.
+Double-click the file to start installing Historia Core.
 
 .. figure:: img/windows/106328792.png
    :height: 250px
 
-   The Dash Core installer in the Downloads folder
+   The Historia Core installer in the Downloads folder
 
 At this point, you may see a warning from Windows SmartScreen that the
 app is unrecognized. You can safely skip past this warning by clicking
@@ -121,7 +121,7 @@ The installer will then guide you through the installation process.
 .. figure:: img/windows/106328844.png
    :height: 250px
 
-   The Dash Core installer welcome screen
+   The Historia Core installer welcome screen
 
 Click through the following screens. All settings can be left at their
 default values unless you have a specific reason to change something.
@@ -139,18 +139,18 @@ default values unless you have a specific reason to change something.
 .. figure:: img/windows/106328876.png
    :height: 250px
 
-   Dash Core is being installed
+   Historia Core is being installed
 
 .. figure:: img/windows/106328881.png
    :height: 250px
 
    Installation is complete
 
-Running Dash Core for the first time
+Running Historia Core for the first time
 ------------------------------------
 
-Once installation is complete, Dash Core will start up immediately. If
-it does not, click **Start > Dash Core > Dash Core** to start the
+Once installation is complete, Historia Core will start up immediately. If
+it does not, click **Start > Historia Core > Historia Core** to start the
 application. The first time the program is launched, you will be offered
 a choice of where you want to store your blockchain and wallet data.
 Choose a location with enough free space, as the blockchain can reach
@@ -160,21 +160,21 @@ if possible.
 .. figure:: img/windows/106328945.png
    :height: 250px
 
-   Choosing the Dash Core data folder
+   Choosing the Historia Core data folder
 
-Dash Core will then start up. This will take a little longer than usual
-the first time you run it, since Dash Core needs to generate
+Historia Core will then start up. This will take a little longer than usual
+the first time you run it, since Historia Core needs to generate
 cryptographic data to secure your wallet.
 
 .. figure:: img/windows/106328960.png
    :height: 250px
 
-   Starting Dash Core
+   Starting Historia Core
 
-Synchronizing Dash Core to the Dash network
+Synchronizing Historia Core to the Historia network
 -------------------------------------------
 
-Once Dash Core is successfully installed and started, you will see the
+Once Historia Core is successfully installed and started, you will see the
 wallet overview screen. You will notice that the wallet is “out of
 sync”, and the status bar at the bottom of the window will show the
 synchronization progress.
@@ -182,9 +182,9 @@ synchronization progress.
 .. figure:: img/windows/106328993.png
    :height: 250px
 
-   Dash Core begins synchronizing with the Dash network
+   Historia Core begins synchronizing with the Historia network
 
-During this process, Dash Core will download a full copy of the Dash
+During this process, Historia Core will download a full copy of the Historia
 blockchain from other nodes to your device. Depending on your internet
 connection, this may take a long time. If you see the message “No block
 source available”, check your internet connection. When synchronization
@@ -194,14 +194,14 @@ corner.
 .. figure:: img/windows/106329009.png
    :height: 250px
 
-   Dash Core synchronization is complete
+   Historia Core synchronization is complete
 
 You can now begin to use your wallet to send and receive funds.
 
-Encrypting your Dash wallet
+Encrypting your Historia wallet
 ---------------------------
 
-After your wallet has synchronized with the Dash network, it is strongly
+After your wallet has synchronized with the Historia network, it is strongly
 advised to encrypt the wallet with a password or passphrase to prevent
 unauthorized access. You should use a strong, new password that you have
 never used somewhere else. Take note of your password and store it
@@ -213,7 +213,7 @@ To encrypt your wallet, click **Settings > Encrypt Wallet**.
 .. figure:: img/windows/106329084.png
    :height: 250px
 
-   Encrypting the Dash wallet with a password
+   Encrypting the Historia wallet with a password
 
 You will be asked to enter and verify a password.
 
@@ -229,12 +229,12 @@ You will be asked to enter and verify a password.
 
 When the encryption process is complete, you will see a warning that
 past backups of your wallet will no longer be usable, and be asked to
-shut down Dash Core. When you restart Dash Core, you will see a small
+shut down Historia Core. When you restart Historia Core, you will see a small
 blue lock in the lower right corner.
 
 .. figure:: img/windows/106329165.png
    :height: 250px
 
-   Fully encrypted and synchronized Dash Core wallet
+   Fully encrypted and synchronized Historia Core wallet
 
 You can now begin to use your wallet to safely send and receive funds.

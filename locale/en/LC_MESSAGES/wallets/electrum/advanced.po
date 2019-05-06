@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-03 08:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -20,12 +20,12 @@ msgstr ""
 #: ../../wallets/electrum/advanced.rst:1
 msgid ""
 "Masternodes, multisig, sweeping paper wallets, cold storage and command "
-"line in the Dash Electrum wallet."
+"line in the Historia Electrum wallet."
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:1
 msgid ""
-"dash, wallet, electrum, masternode, multisig, paper, cold storage, "
+"historia, wallet, electrum, masternode, multisig, paper, cold storage, "
 "command line"
 msgstr ""
 
@@ -35,12 +35,12 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:11
 msgid ""
-"Dash Electrum is based on `Electrum <https://electrum.org>`_, a Bitcoin "
+"Historia Electrum is based on `Electrum <https://electrum.org>`_, a Bitcoin "
 "wallet. Most functions are identical, which means it is not necessary to "
 "reproduce the entirety of the Electrum documentation here. The following "
 "sections describe some frequently used advanced functions. For further "
 "details on other advanced functions in Electrum for both Bitcoin and "
-"Dash, please click the links below."
+"Historia, please click the links below."
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:18
@@ -82,12 +82,12 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:27
-msgid "Masternodes in Dash Electrum"
+msgid "Masternodes in Historia Electrum"
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:29
 msgid ""
-"Dash Electrum supports masternode creation through an interface called "
+"Historia Electrum supports masternode creation through an interface called "
 "the **Masternode Manager**. The functionality is available starting from "
 "the protocol version 70201."
 msgstr ""
@@ -141,17 +141,17 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:55
 msgid ""
-"A masternode requires a \"delegate\" key, which is known to both Dash "
+"A masternode requires a \"delegate\" key, which is known to both Historia "
 "Electrum and your masternode. Your masternode will use this key to sign "
-"messages, and the Dash network will know that you authorized it to. A "
-"delegate key can either be one of your Dash Electrum keys, or an imported"
-" key. Either way, your masternode and Dash Electrum will both need to "
+"messages, and the Historia network will know that you authorized it to. A "
+"delegate key can either be one of your Historia Electrum keys, or an imported"
+" key. Either way, your masternode and Historia Electrum will both need to "
 "know the private key."
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:62
 msgid ""
-"To use one of your Dash Electrum keys as a delegate key, put its private "
+"To use one of your Historia Electrum keys as a delegate key, put its private "
 "key in the **Masternode Private Key** field of the **View Masternode** "
 "tab."
 msgstr ""
@@ -180,14 +180,14 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:82
 msgid ""
-"To start a masternode, you must have a 1000 DASH payment available in "
-"your wallet. You can scan your wallet for 1000 DASH payments in the "
+"To start a masternode, you must have a 1000 HISTORIA payment available in "
+"your wallet. You can scan your wallet for 1000 HISTORIA payments in the "
 "**Choose Collateral** tab of the Masternode Manager."
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:86
 msgid ""
-"After scanning, a list of available 1000 DASH collateral payments will be"
+"After scanning, a list of available 1000 HISTORIA collateral payments will be"
 " displayed. Selecting one of them will cause the selected masternode's "
 "data to be filled in, though these changes won't be saved until you click"
 " the **Save** button in the lower-right corner of the tab."
@@ -210,7 +210,7 @@ msgstr ""
 #: ../../wallets/electrum/advanced.rst:106
 msgid ""
 "Activation will require your password if your wallet is encrypted, "
-"because a message must be signed. After waiting for Dash Electrum to sign"
+"because a message must be signed. After waiting for Historia Electrum to sign"
 " and broadcast your masternode announcement, you will be presented with a"
 " message detailing the result. The status of your masternode will be "
 "updated in the table and the **View Masternode** tab."
@@ -224,8 +224,8 @@ msgstr ""
 msgid ""
 "You can import a *masternode.conf* file using the **Masternode.conf** tab"
 " of the Masternode Manager. This is the recommended way of setting up "
-"masternodes, as it allows you to configure masternodes for Dash Core and "
-"Dash Electrum in the same way. Importing a *masternode.conf* file will "
+"masternodes, as it allows you to configure masternodes for Historia Core and "
+"Historia Electrum in the same way. Importing a *masternode.conf* file will "
 "automatically set up one or more masternode configurations in the "
 "Masternode Manager."
 msgstr ""
@@ -322,7 +322,7 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:192
-msgid "Partially signed 2-of-2 multisig transaction in Dash Electrum"
+msgid "Partially signed 2-of-2 multisig transaction in Historia Electrum"
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:194
@@ -362,7 +362,7 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:218
-msgid "Fully signed 2-of-2 multisig transaction in Dash Electrum"
+msgid "Fully signed 2-of-2 multisig transaction in Historia Electrum"
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:221
@@ -371,7 +371,7 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:223
 msgid ""
-"You may have received a paper wallet as a gift from another Dash user, or"
+"You may have received a paper wallet as a gift from another Historia user, or"
 " previously stored one in a safe deposit box. Funds are swept from a "
 ":ref:`paper wallet <paper-wallets>` into a live wallet by importing its "
 "`private key <http://bitzuma.com/posts /six-things-bitcoin-users-should- "
@@ -382,13 +382,13 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:234
 msgid ""
-"Public address and associated private key produced by Dash Paper Wallet "
+"Public address and associated private key produced by Historia Paper Wallet "
 "Generator"
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:237
 msgid ""
-"Funds from paper wallets are swept into an Dash Electrum Wallet by "
+"Funds from paper wallets are swept into an Historia Electrum Wallet by "
 "creating a transaction using the private key and sending it to a new "
 "address from your wallet. This is necessary because it is not possible to"
 " add new public or private keys to an existing deterministic series of "
@@ -399,7 +399,7 @@ msgstr ""
 msgid ""
 "Begin by selecting the **Wallet** > **Private Keys** > **Sweep** menu "
 "item. The **Sweep private keys** dialog will appear, where you can paste "
-"your private key(s). An unused address controlled by your Dash Electrum "
+"your private key(s). An unused address controlled by your Historia Electrum "
 "wallet appears in the lower field, and can be changed by clicking the "
 "**Address** button. Once you have pasted your private key, click the "
 "**Sweep** button."
@@ -411,7 +411,7 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:255
 msgid ""
-"Dash Electrum then prepares a transaction using the private key you just "
+"Historia Electrum then prepares a transaction using the private key you just "
 "imported to derive the public address for the transaction input and the "
 "address from your wallet as the output, and signs the message. Click "
 "**Broadcast** to enter the transaction on the blockchain. The balance "
@@ -429,7 +429,7 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:273
 msgid ""
-"This section shows how to create an offline wallet that holds your Dash "
+"This section shows how to create an offline wallet that holds your Historia "
 "and a watching-only online wallet that is used to view its history and to"
 " create transactions that have to be signed with the offline wallet "
 "before being broadcast on the online one."
@@ -463,7 +463,7 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:295
 msgid ""
-"On your online machine, open Dash Electrum and select **File > "
+"On your online machine, open Historia Electrum and select **File > "
 "New/Restore**. Enter a name for the wallet and select **Use public or "
 "private keys**. Paste your master public key in the box. Click **Next** "
 "to complete the creation of your wallet. When you’re done, you should see"
@@ -511,7 +511,7 @@ msgid ""
 "On your online machine, select **Tools -> Load transaction -> From file**"
 " from the menu. Select the signed transaction file. In the window that "
 "opens up, click **Broadcast**. The transaction will be broadcast over the"
-" Dash network."
+" Historia network."
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:336
@@ -520,7 +520,7 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:338
 msgid ""
-"Dash Electrum has a powerful command line available when running under "
+"Historia Electrum has a powerful command line available when running under "
 "Linux or macOS. This section will show you a few basic principles."
 msgstr ""
 
@@ -529,7 +529,7 @@ msgid "Using the inline help"
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:344
-msgid "To see the list of Dash Electrum commands, type::"
+msgid "To see the list of Historia Electrum commands, type::"
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:348
@@ -568,7 +568,7 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:374
 msgid ""
-"A parameter replaced by a dash `-` will be read from standard input (in a"
+"A parameter replaced by a historia `-` will be read from standard input (in a"
 " pipe)::"
 msgstr ""
 
@@ -668,7 +668,7 @@ msgstr ""
 #: ../../wallets/electrum/advanced.rst:459
 msgid ""
 "The following command will export the private keys of all wallet "
-"addresses that hold some Dash::"
+"addresses that hold some Historia::"
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:464
@@ -690,7 +690,7 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:477
 msgid ""
-"This section will show you how to sign a transaction with an offline Dash"
+"This section will show you how to sign a transaction with an offline Historia"
 " Electrum wallet using the command line."
 msgstr ""
 
@@ -715,7 +715,7 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:498
 msgid ""
-"The serialization format of Dash Electrum contains the master public key "
+"The serialization format of Historia Electrum contains the master public key "
 "needed and key derivation used by the offline wallet to sign the "
 "transaction. Thus we only need to pass the serialized transaction to the "
 "offline wallet::"
@@ -732,7 +732,7 @@ msgid "Broadcast the transaction"
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:510
-msgid "Send your transaction to the Dash network, using broadcast::"
+msgid "Send your transaction to the Historia network, using broadcast::"
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:514
@@ -740,13 +740,13 @@ msgid "If successful, the command will return the ID of the transaction."
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:517
-msgid "How to accept Dash on a website using Dash Electrum"
+msgid "How to accept Historia on a website using Historia Electrum"
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:519
 msgid ""
-"This tutorial will show you how to accept dash on a website with SSL "
-"signed payment requests. It is updated for Dash Electrum 2.6."
+"This tutorial will show you how to accept historia on a website with SSL "
+"signed payment requests. It is updated for Historia Electrum 2.6."
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:523
@@ -777,7 +777,7 @@ msgstr ""
 msgid ""
 "You can also use a watching only wallet (restored from xpub), if you want"
 " to keep private keys off the server. Once your wallet is created, start "
-"Dash Electrum as a daemon::"
+"Historia Electrum as a daemon::"
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:543
@@ -815,7 +815,7 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:581
 msgid ""
-"By default, Dash Electrum will display local URLs, starting with "
+"By default, Historia Electrum will display local URLs, starting with "
 "‘file://‘ In order to display public URLs, we need to set another "
 "configuration variable, `url_rewrite`. For example::"
 msgstr ""
@@ -857,7 +857,7 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:626
 msgid ""
-"The page shows the payment request. You can open the dash: URI with a "
+"The page shows the payment request. You can open the historia: URI with a "
 "wallet, or scan the QR code. The bottom line displays the time remaining "
 "until the request expires."
 msgstr ""
@@ -904,8 +904,8 @@ msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:665
 msgid ""
-"Commands to the Dash Electrum daemon can be sent using JSONRPC. This is "
-"useful if you want to use Dash Electrum in a PHP script."
+"Commands to the Historia Electrum daemon can be sent using JSONRPC. This is "
+"useful if you want to use Historia Electrum in a PHP script."
 msgstr ""
 
 #: ../../wallets/electrum/advanced.rst:668
@@ -947,7 +947,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "You may have received a paper "
-#~ "wallet as a gift from another Dash"
+#~ "wallet as a gift from another Historia"
 #~ " user, or previously stored one in"
 #~ " a safe deposit box. Funds are "
 #~ "swept from a :ref:`paper wallet "
@@ -981,7 +981,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Funds from paper wallets are swept "
-#~ "into an Dash Electrum Wallet by "
+#~ "into an Historia Electrum Wallet by "
 #~ "creating a transaction using the private"
 #~ " key and sending it to a new"
 #~ " address from your wallet. This is"

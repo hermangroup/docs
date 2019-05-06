@@ -1,6 +1,6 @@
 .. meta::
-   :description: Description of different wallets available to use and spend Dash cryptocurrency
-   :keywords: dash, wallet, core, electrum, android, ios, paper, hardware, trezor, ledger, web, recovery, text, sms
+   :description: Description of different wallets available to use and spend Historia cryptocurrency
+   :keywords: historia, wallet, core, electrum, android, ios, paper, hardware, trezor, ledger, web, recovery, text, sms
 
 .. _wallets:
 
@@ -24,14 +24,14 @@ more than the device you use to store it, you should purchase a
 :ref:`hardware wallet <hardware-wallets>`.
 
 
-.. _dash-core-wallet:
+.. _historia-core-wallet:
 
-Dash Core Wallet
+Historia Core Wallet
 ================
 
-Dash Core Wallet is the full official release of Dash, and supports all
-Dash features as they are released, including InstantSend and
-PrivateSend, as well as an RPC console and governance features. Dash
+Historia Core Wallet is the full official release of Historia, and supports all
+Historia features as they are released, including InstantSend and
+PrivateSend, as well as an RPC console and governance features. Historia
 Core Wallet (sometimes known as the QT wallet, due to the QT software
 framework used in development) is a professional or heavy wallet which
 downloads the full blockchain (several GB in size) and can operate as
@@ -39,7 +39,7 @@ both a full node or masternode on the network. Because of the
 requirement to hold a full copy of the blockchain, some time is required
 for synchronisation when starting the wallet. Once this is done, the
 correct balances will be displayed and the functions in the wallet can
-be used. Dash Core Wallet is available for macOS, Linux, Raspberry Pi
+be used. Historia Core Wallet is available for macOS, Linux, Raspberry Pi
 and Windows.
 
 Features:
@@ -58,36 +58,36 @@ Available documentation:
 .. toctree::
    :maxdepth: 1
 
-   dashcore/installation.rst
-   dashcore/interface.rst
-   dashcore/send-receive.rst
-   dashcore/privatesend-instantsend.rst
-   dashcore/backup.rst
-   dashcore/cmd-rpc.rst
-   dashcore/advanced.rst
+   historiacore/installation.rst
+   historiacore/interface.rst
+   historiacore/send-receive.rst
+   historiacore/privatesend-instantsend.rst
+   historiacore/backup.rst
+   historiacore/cmd-rpc.rst
+   historiacore/advanced.rst
 
-.. figure:: dashcore/img/windows/106329009.png
+.. figure:: historiacore/img/windows/106329009.png
    :width: 400 px
 
-   Dash Core Wallet
+   Historia Core Wallet
 
-.. _dash-electrum-wallet:
+.. _historia-electrum-wallet:
 
-Dash Electrum Wallet
+Historia Electrum Wallet
 ====================
 
-Dash Electrum is a light wallet which uses powerful external servers to
+Historia Electrum is a light wallet which uses powerful external servers to
 index the blockchain, while still securing the keys on your personal
-computer. Transactions are verified on the Dash blockchain using a
+computer. Transactions are verified on the Historia blockchain using a
 technique called Secure Payment Verification (SPV), which only requires
 the block headers and not the full block. This means that wallet startup
 is almost instant, while still keeping your funds secure and mobile. It
 does not currently support advanced InstantSend and PrivateSend
 features.
 
-Dash Electrum is a fork of the Electrum wallet for Bitcoin. While this
-documentation focuses on using Dash Electrum, full documentation of all
-Bitcoin Electrum features (mostly identical in Dash Electrum) is
+Historia Electrum is a fork of the Electrum wallet for Bitcoin. While this
+documentation focuses on using Historia Electrum, full documentation of all
+Bitcoin Electrum features (mostly identical in Historia Electrum) is
 available at the `official documentation site
 <http://docs.electrum.org>`_.
 
@@ -104,15 +104,15 @@ available at the `official documentation site
 .. figure:: electrum/img/electrum.png
    :width: 400 px
 
-   Dash Electrum Wallet
+   Historia Electrum Wallet
 
-.. _dash-android-wallet:
+.. _historia-android-wallet:
 
-Dash Android Wallet
+Historia Android Wallet
 ===================
 
-Dash offers a standalone wallet for Android, with development supported 
-by the Dash budget. The Dash Android Wallet supports advanced Dash 
+Historia offers a standalone wallet for Android, with development supported 
+by the Historia budget. The Historia Android Wallet supports advanced Historia 
 features, including contact management and InstantSend. You can scan and 
 display QR codes for quick transfers, backup and restore your wallet, 
 keep an address book of frequently used addresses, pay with NFC, sweep 
@@ -131,16 +131,16 @@ paper wallets and more.
 .. image:: android/img/android2.png
     :width: 160 px
 
-*Dash Android Wallet*
+*Historia Android Wallet*
 
 
-.. _dash-ios-wallet:
+.. _historia-ios-wallet:
 
-Dash iOS Wallet
+Historia iOS Wallet
 ===============
 
-Dash offers a standalone wallet for iOS, with development supported by
-the Dash budget. The official Dash Wallet supports advanced Dash
+Historia offers a standalone wallet for iOS, with development supported by
+the Historia budget. The official Historia Wallet supports advanced Historia
 features such as InstantSend sending and receiving. You can also scan
 and display QR codes for quick transfers and backup your wallet using a
 secure recovery phrase.
@@ -158,16 +158,16 @@ secure recovery phrase.
 .. image:: ios/img/ios2.png
     :width: 160 px
 
-*Dash iOS Wallet*
+*Historia iOS Wallet*
 
 
 .. _paper-wallets:
 
-Dash Paper Wallet
+Historia Paper Wallet
 =================
 
-The `Dash Paper Wallet generator <https://paper.dash.org>`_ allows you
-to generate, encrypt and secure the keys to a single Dash address on a
+The `Historia Paper Wallet generator <https://paper.historia.network>`_ allows you
+to generate, encrypt and secure the keys to a single Historia address on a
 clean computer without ever connecting to the internet. Perfect for long
 term secure storage.
 
@@ -179,7 +179,7 @@ term secure storage.
 .. figure:: img/paper-addresses.png
    :width: 400 px
 
-   Dash Paper Wallet
+   Historia Paper Wallet
 
 
 .. _hardware-wallets:
@@ -205,7 +205,7 @@ screen which allows you to independently confirm the address you are
 sending to is correct.
 
 This section lists the most common commercial hardware wallets supporting
-Dash, although some other enthusiast projects may also be available.
+Historia, although some other enthusiast projects may also be available.
 
 .. toctree::
    :maxdepth: 1
@@ -223,7 +223,7 @@ Third Party Wallets
 ===================
 
 These wallets have been developed by external developers to support
-Dash. Many third party wallets support multiple different
+Historia. Many third party wallets support multiple different
 cryptocurrencies at the same time, or integrate instant cryptocurrency
 exchanges.
 
@@ -243,14 +243,14 @@ exchanges.
 Web Wallets
 ===========
 
-Web wallets are services which keep a Dash balance for you, while
-maintaining control of the private keys on your behalf. Any Dash stored
+Web wallets are services which keep a Historia balance for you, while
+maintaining control of the private keys on your behalf. Any Historia stored
 on :ref:`exchanges <exchanges>` falls under this category, but there are
-also some services able to store Dash for you through simple
+also some services able to store Historia for you through simple
 Google/Facebook login systems. Be extremely careful with web storage, as
-your Dash is only as secure as the reputation of the company storing it
-for you. A particular exception is MyDashWallet.org, which provides a
-secure web interface to the Dash blockchain while leaving you with full
+your Historia is only as secure as the reputation of the company storing it
+for you. A particular exception is MyHistoriaWallet.org, which provides a
+secure web interface to the Historia blockchain while leaving you with full
 control of your private keys.
 
 .. toctree::
@@ -258,20 +258,20 @@ control of your private keys.
 
    web.rst
 
-.. figure:: img/mydashwallet-opened.png
+.. figure:: img/myhistoriawallet-opened.png
    :width: 400 px
 
-   My Dash Wallet
+   My Historia Wallet
 
 
 Text Wallets
 ============
 
 Text wallets (or SMS wallets) allow users without smartphones or
-internet access to transact in Dash using text messages on simple
+internet access to transact in Historia using text messages on simple
 feature phones. Innovative shortcodes, usually in collaboration with
 national mobile service providers, make it relatively simple to create
-transactions to both send and receive Dash.
+transactions to both send and receive Historia.
 
 .. toctree::
    :maxdepth: 1
@@ -281,7 +281,7 @@ transactions to both send and receive Dash.
 .. figure:: img/cointext-wallet.png
    :width: 400 px
 
-   Dash CoinText
+   Historia CoinText
 
 
 Wallet Guides

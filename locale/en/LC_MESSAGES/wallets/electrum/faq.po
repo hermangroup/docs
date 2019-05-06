@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-03 08:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../wallets/electrum/faq.rst:1
-msgid "Frequently Asked Questions about the Dash Electrum wallet"
+msgid "Frequently Asked Questions about the Historia Electrum wallet"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:1
-msgid "dash, wallet, electrum, faq, seed"
+msgid "historia, wallet, electrum, faq, seed"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:9
@@ -30,24 +30,24 @@ msgid "Frequently Asked Questions"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:12
-msgid "How does Dash Electrum work?"
+msgid "How does Historia Electrum work?"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:14
 msgid ""
-"Dash Electrum focuses on speed, low resource usage and providing a simple"
-" user experience for Dash. Startup times are instant because it operates "
+"Historia Electrum focuses on speed, low resource usage and providing a simple"
+" user experience for Historia. Startup times are instant because it operates "
 "in conjunction with high-performance servers that handle the most "
-"complicated parts of the Dash system."
+"complicated parts of the Historia system."
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:20
-msgid "Does Dash Electrum trust servers?"
+msgid "Does Historia Electrum trust servers?"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:22
 msgid ""
-"Not really; the Dash Electrum client never sends private keys to the "
+"Not really; the Historia Electrum client never sends private keys to the "
 "servers. In addition, it verifies the information reported by servers "
 "using a technique called `Simple Payment Verification "
 "<http://docs.electrum.org/en/latest/spv.html>`_."
@@ -75,8 +75,8 @@ msgstr ""
 
 #: ../../wallets/electrum/faq.rst:41
 msgid ""
-"The seed created by Dash Electrum has 128 bits of entropy. This means "
-"that it provides the same level of security as a Dash private key (of "
+"The seed created by Historia Electrum has 128 bits of entropy. This means "
+"that it provides the same level of security as a Historia private key (of "
 "length 256 bits). Indeed, an elliptic curve key of length n provides n/2 "
 "bits of security."
 msgstr ""
@@ -87,9 +87,9 @@ msgstr ""
 
 #: ../../wallets/electrum/faq.rst:49
 msgid ""
-"The Dash Electrum wallet design and workflow are based on a concept "
+"The Historia Electrum wallet design and workflow are based on a concept "
 "called a “wallet generation seed”. This seed is a unique, randomly- "
-"selected list of twelve words. A Dash Electrum wallet uses its seed as a "
+"selected list of twelve words. A Historia Electrum wallet uses its seed as a "
 "template for generating addresses."
 msgstr ""
 
@@ -100,7 +100,7 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:60
-msgid "Receiving and change addresses in Dash Electrum"
+msgid "Receiving and change addresses in Historia Electrum"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:62
@@ -113,11 +113,11 @@ msgstr ""
 
 #: ../../wallets/electrum/faq.rst:67
 msgid ""
-"Dash is an electronic cash system, meaning that it shares much in common "
+"Historia is an electronic cash system, meaning that it shares much in common "
 "with the process of using paper banknotes. Although some cash payments "
 "involve exact change, many do not. You tend to “overpay” when using cash,"
 " and expect to receive the difference as change. Perhaps surprisingly, "
-"this is how Dash transactions work as well. If the entire balance of an "
+"this is how Historia transactions work as well. If the entire balance of an "
 "address is not required for any given transaction, the remainder is sent "
 "to a new and unused address under control of the same wallet. This "
 "address is generated deterministically (rather than randomly) from the "
@@ -146,7 +146,7 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:92
-msgid "How can I send Dash without paying a transaction fee?"
+msgid "How can I send Historia without paying a transaction fee?"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:94
@@ -167,12 +167,12 @@ msgstr ""
 
 #: ../../wallets/electrum/faq.rst:101
 msgid ""
-"Note that transactions without fees might not be relayed by the Dash "
-"Electrum server, or by the Dash network."
+"Note that transactions without fees might not be relayed by the Historia "
+"Electrum server, or by the Historia network."
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:105
-msgid "Is there a way to enter amounts in USD in Dash Electrum?"
+msgid "Is there a way to enter amounts in USD in Historia Electrum?"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:107
@@ -182,17 +182,17 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:113
-msgid "Entering values in fiat currency in Dash Electrum"
+msgid "Entering values in fiat currency in Historia Electrum"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:117
-msgid "What does it mean to “Freeze” an address in Dash Electrum?"
+msgid "What does it mean to “Freeze” an address in Historia Electrum?"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:119
 msgid ""
 "When you freeze an address, the funds in that address will not be used "
-"for sending Dash. You cannot send Dash if you don’t have enough funds in "
+"for sending Historia. You cannot send Historia if you don’t have enough funds in "
 "your non-frozen addresses."
 msgstr ""
 
@@ -201,7 +201,7 @@ msgid "How is the wallet encrypted?"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:126
-msgid "Dash Electrum uses two separate levels of encryption:"
+msgid "Historia Electrum uses two separate levels of encryption:"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:128
@@ -219,7 +219,7 @@ msgid ""
 "wallet information will remain unencrypted in the memory of your computer"
 " for the duration of your session. If a wallet is encrypted, then its "
 "password will be required in order to open it. Note that the password "
-"will not be kept in memory; Dash Electrum does not need it in order to "
+"will not be kept in memory; Historia Electrum does not need it in order to "
 "save the wallet on disk, because it uses asymmetric encryption (ECIES)."
 msgstr ""
 
@@ -227,7 +227,7 @@ msgstr ""
 msgid ""
 "Wallet file encryption is activated by default since version 2.8. It is "
 "intended to protect your privacy, but also to prevent you from requesting"
-" Dash on a wallet that you do not control."
+" Historia on a wallet that you do not control."
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:147
@@ -252,7 +252,7 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:159
-msgid "Does Dash Electrum support cold wallets?"
+msgid "Does Historia Electrum support cold wallets?"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:161
@@ -260,12 +260,12 @@ msgid "Yes. See the :ref:`cold storage <electrum-cold-storage>` section."
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:164
-msgid "Can I import private keys from other Dash clients?"
+msgid "Can I import private keys from other Historia clients?"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:166
 msgid ""
-"In Dash Electrum 2.0, you cannot import private keys in a wallet that has"
+"In Historia Electrum 2.0, you cannot import private keys in a wallet that has"
 " a seed. You should sweep them instead."
 msgstr ""
 
@@ -286,14 +286,14 @@ msgid "Importing a list of private keys to create a wallet"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:184
-msgid "Can I sweep private keys from other Dash clients?"
+msgid "Can I sweep private keys from other Historia clients?"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:186
 msgid ""
-"Sweeping private keys means to send all the Dash they control to an "
+"Sweeping private keys means to send all the Historia they control to an "
 "existing address in your wallet. The private keys you sweep do not become"
-" a part of your wallet. Instead, all the Dash they control are sent to an"
+" a part of your wallet. Instead, all the Historia they control are sent to an"
 " address that has been deterministically generated from your wallet seed."
 msgstr ""
 
@@ -301,8 +301,8 @@ msgstr ""
 msgid ""
 "To sweep private keys go to **Wallet > Private Keys > Sweep**. Enter the "
 "private keys in the appropriate field. Leave the **Address** field "
-"unchanged. This is the destination address from your existing Dash "
-"Electrum wallet. Click on **Sweep**. Dash Electrum then takes you to the "
+"unchanged. This is the destination address from your existing Historia "
+"Electrum wallet. Click on **Sweep**. Historia Electrum then takes you to the "
 "**Send** tab where you can set an appropriate fee and then click on "
 "**Send** to send the coins to your wallet."
 msgstr ""
@@ -320,23 +320,23 @@ msgstr ""
 #: ../../wallets/electrum/faq.rst:205
 msgid ""
 "**Linux:** Open Files, select **Go > Go to folder**, copy the path "
-"``~/.electrum-dash`` and paste it into the dialog box"
+"``~/.electrum-historia`` and paste it into the dialog box"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:207
 msgid ""
 "**macOS:** Open Finder, select **Go > Go to Folder**, copy the path "
-"``~/.electrum-dash`` and paste it into the dialog box"
+"``~/.electrum-historia`` and paste it into the dialog box"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:209
 msgid ""
-"**Windows:** Open Explorer, copy the path ``%APPDATA%\\Electrum-DASH`` "
+"**Windows:** Open Explorer, copy the path ``%APPDATA%\\Electrum-HISTORIA`` "
 "and paste it in to the address bar"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:213
-msgid "Can I do bulk payments with Dash Electrum?"
+msgid "Can I do bulk payments with Historia Electrum?"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:215
@@ -346,7 +346,7 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:221
-msgid "Creating a transaction with multiple outputs in Dash Electrum"
+msgid "Creating a transaction with multiple outputs in Historia Electrum"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:223
@@ -357,24 +357,24 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:228
-msgid "Can Dash Electrum create and sign raw transactions?"
+msgid "Can Historia Electrum create and sign raw transactions?"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:230
 msgid ""
-"Dash Electrum lets you create and sign raw transactions right from the "
+"Historia Electrum lets you create and sign raw transactions right from the "
 "user interface using a form."
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:234
-msgid "Dash Electrum freezes when I try to send Dash"
+msgid "Historia Electrum freezes when I try to send Historia"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:236
 msgid ""
 "This might happen if you are trying to spend a large number of "
 "transactions outputs (for example, if you have collected hundreds of "
-"donations from a Dash faucet). When you send Dash, Dash Electrum looks "
+"donations from a Historia faucet). When you send Historia, Historia Electrum looks "
 "for unspent coins that are in your wallet in order to create the new "
 "transaction. Unspent coins can have different values, much like physical "
 "coins and bills."
@@ -383,7 +383,7 @@ msgstr ""
 #: ../../wallets/electrum/faq.rst:243
 msgid ""
 "If this happens, you should consolidate your transaction inputs by "
-"sending smaller amounts of Dash to one of your wallet addresses; this "
+"sending smaller amounts of Historia to one of your wallet addresses; this "
 "would be the equivalent of exchanging a stack of nickels for a dollar "
 "bill."
 msgstr ""
@@ -395,8 +395,8 @@ msgstr ""
 #: ../../wallets/electrum/faq.rst:253
 msgid ""
 "The gap limit is the maximum number of consecutive unused addresses in "
-"your deterministic sequence of addresses. Dash Electrum uses it in order "
-"to stop looking for addresses. In Dash Electrum 2.0, it is set to 20 by "
+"your deterministic sequence of addresses. Historia Electrum uses it in order "
+"to stop looking for addresses. In Historia Electrum 2.0, it is set to 20 by "
 "default, so the client will get all addresses until 20 unused addresses "
 "are found."
 msgstr ""
@@ -407,7 +407,7 @@ msgstr ""
 
 #: ../../wallets/electrum/faq.rst:262
 msgid ""
-"Dash Electrum will generate new addresses as you use them, until it hits "
+"Historia Electrum will generate new addresses as you use them, until it hits "
 "the `gap limit`_."
 msgstr ""
 
@@ -435,7 +435,7 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:283
-msgid "How to upgrade Dash Electrum?"
+msgid "How to upgrade Historia Electrum?"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:285
@@ -444,7 +444,7 @@ msgstr ""
 
 #: ../../wallets/electrum/faq.rst:287
 msgid ""
-"To upgrade Dash Electrum, just :ref:`install <electrum-installation>` the"
+"To upgrade Historia Electrum, just :ref:`install <electrum-installation>` the"
 " most recent version. The way to do this will depend on your OS. Note "
 "that your wallet files are stored separately from the software, so you "
 "can safely remove the old version of the software if your OS does not do "
@@ -453,45 +453,45 @@ msgstr ""
 
 #: ../../wallets/electrum/faq.rst:293
 msgid ""
-"Some Dash Electrum upgrades will modify the format of your wallet files. "
-"For this reason, it is not recommended to downgrade Dash Electrum to an "
+"Some Historia Electrum upgrades will modify the format of your wallet files. "
+"For this reason, it is not recommended to downgrade Historia Electrum to an "
 "older version once you have opened your wallet file with the new version."
 " The older version will not always be able to read the new wallet file."
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:299
 msgid ""
-"The following issues should be considered when upgrading Dash Electrum "
-"1.x wallets to Dash Electrum 2.x:"
+"The following issues should be considered when upgrading Historia Electrum "
+"1.x wallets to Historia Electrum 2.x:"
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:302
 msgid ""
-"Dash Electrum 2.x will need to regenerate all of your addresses during "
+"Historia Electrum 2.x will need to regenerate all of your addresses during "
 "the upgrade process. Please allow it time to complete, and expect it to "
-"take a little longer than usual for Dash Electrum to be ready."
+"take a little longer than usual for Historia Electrum to be ready."
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:306
 msgid ""
-"The contents of your wallet file will be replaced with a Dash Electrum 2 "
-"wallet. This means Dash Electrum 1.x will no longer be able to use your "
+"The contents of your wallet file will be replaced with a Historia Electrum 2 "
+"wallet. This means Historia Electrum 1.x will no longer be able to use your "
 "wallet once the upgrade is complete."
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:310
 msgid ""
 "The **Addresses** tab will not show any addresses the first time you "
-"launch Dash Electrum 2. This is expected behaviour. Restart Dash Electrum"
+"launch Historia Electrum 2. This is expected behaviour. Restart Historia Electrum"
 " 2 after the upgrade is complete and your addresses will be available."
 msgstr ""
 
 #: ../../wallets/electrum/faq.rst:315
 msgid ""
-"Offline copies of Dash Electrum will not show the addresses at all "
+"Offline copies of Historia Electrum will not show the addresses at all "
 "because it cannot synchronize with the network. You can force an offline "
 "generation of a few addresses by typing the following into the Console: "
-"`wallet.synchronize()`. When it’s complete, restart Dash Electrum and "
+"`wallet.synchronize()`. When it’s complete, restart Historia Electrum and "
 "your addresses will once again be available."
 msgstr ""
 
@@ -499,7 +499,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "To upgrade Dash Electrum, just "
+#~ "To upgrade Historia Electrum, just "
 #~ ":ref:`install <electrum_installation>` the most "
 #~ "recent version. The way to do this"
 #~ " will depend on your OS. Note "
@@ -510,7 +510,7 @@ msgstr ""
 #~ " not do it for you."
 #~ msgstr ""
 
-#~ msgid "Is there a way to get a BTC/USD exchange ticker in Dash Electrum?"
+#~ msgid "Is there a way to get a BTC/USD exchange ticker in Historia Electrum?"
 #~ msgstr ""
 
 #~ msgid "Yes, go to **Tools > Plugins** and enable **Exchange rates**."
@@ -519,16 +519,16 @@ msgstr ""
 #~ msgid ""
 #~ "When you freeze an address, the "
 #~ "funds in that address will not be"
-#~ " used for sending Dash. You can "
-#~ "not send Dash if you don’t have"
+#~ " used for sending Historia. You can "
+#~ "not send Historia if you don’t have"
 #~ " enough funds in your non-frozen "
 #~ "addresses."
 #~ msgstr ""
 
 #~ msgid ""
 #~ "The contents of your wallet file "
-#~ "will be replaced with an Dash "
-#~ "Electrum 2 wallet. This means Dash "
+#~ "will be replaced with an Historia "
+#~ "Electrum 2 wallet. This means Historia "
 #~ "Electrum 1.x will no longer be "
 #~ "able to use your wallet once the"
 #~ " upgrade is complete."

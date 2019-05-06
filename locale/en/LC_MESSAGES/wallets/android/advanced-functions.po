@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-03 08:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -20,11 +20,11 @@ msgstr ""
 #: ../../wallets/android/advanced-functions.rst:1
 msgid ""
 "Set up address book, exchange rates, sweep paper wallets and change "
-"settings in the Dash Android wallet."
+"settings in the Historia Android wallet."
 msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:1
-msgid "dash, mobile, wallet, android, address book, paper, exchange rates"
+msgid "historia, mobile, wallet, android, address book, paper, exchange rates"
 msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:8
@@ -43,9 +43,9 @@ msgid ""
 "payments. You can access the address book by tapping the **Menu button**,"
 " then **Address book**. This will display a screen where you can swipe "
 "left and right between your own addresses and the addresses to which you "
-"frequently send Dash, such as family members for example. Tap the **More "
+"frequently send Historia, such as family members for example. Tap the **More "
 "options** button to **Paste from clipboard** or to **Scan address** from "
-"a QR code, or tap an existing address to **Send Dash** or **Edit** the "
+"a QR code, or tap an existing address to **Send Historia** or **Edit** the "
 "label."
 msgstr ""
 
@@ -72,14 +72,14 @@ msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:55
 msgid ""
-"Dash Wallet for Android allows you to display the equivalent value of "
-"your Dash balance and in transactions by selecting a default fiat "
+"Historia Wallet for Android allows you to display the equivalent value of "
+"your Historia balance and in transactions by selecting a default fiat "
 "currency. To select a default currency, tap the **Menu button**, then "
 "**Exchange rates**. Find your preferred fiat currency, then tap the "
 "**More options** button for that currency and select **Set as default**. "
-"The exchange rate for this currency will appear when sending Dash, and "
+"The exchange rate for this currency will appear when sending Historia, and "
 "you can also tap in the fiat currency field to enter the value in the "
-"fiat currency directly, instead of in Dash."
+"fiat currency directly, instead of in Historia."
 msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:73
@@ -97,7 +97,7 @@ msgid ""
 "Sweeping a paper wallet is a method of transferring the value stored on "
 "an address you may have received as a paper wallet or from an ATM into "
 "your own wallet. You must have access to the private key for an address "
-"to use this function. In this process, all Dash stored on the address "
+"to use this function. In this process, all Historia stored on the address "
 "will be sent to a new address that has been deterministically generated "
 "from your wallet seed. The private keys you sweep do not become a part of"
 " your wallet."
@@ -108,12 +108,12 @@ msgid ""
 "To sweep a paper wallet, tap the **Menu button** and select **Sweep paper"
 " wallet**. Tap the **Scan** button and scan the QR code from your paper "
 "wallet. Once the private key has been identified, tap **Sweep** to create"
-" the transaction moving the Dash into your own wallet. Once this "
+" the transaction moving the Historia into your own wallet. Once this "
 "transaction is confirmed, the paper is worthless and should be destroyed."
 msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:104
-msgid "*Sweeping a paper wallet with 0.10 DASH into the Android Wallet*"
+msgid "*Sweeping a paper wallet with 0.10 HISTORIA into the Android Wallet*"
 msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:108
@@ -122,7 +122,7 @@ msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:110
 msgid ""
-"The Dash Android Wallet is a light wallet and functions in SPV mode, "
+"The Historia Android Wallet is a light wallet and functions in SPV mode, "
 "meaning it does not download a full copy of the blockchain. The network "
 "monitor allows you to view details about the full nodes to which you are "
 "connected. You can also swipe left to view blocks as they are created on "
@@ -139,13 +139,13 @@ msgid "Settings"
 msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:134
-msgid "*The Settings menu in Dash Android Wallet*"
+msgid "*The Settings menu in Historia Android Wallet*"
 msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:136
 msgid ""
 "The settings menu contains a range of options to control the behavior of "
-"the Dash Android Wallet. To access the settings, tap the **Menu button**,"
+"the Historia Android Wallet. To access the settings, tap the **Menu button**,"
 " then **Settings**. You can then choose between **Settings**, "
 "**Diagnostics** and **About**, which displays wallet version, copyright, "
 "license and source code information."
@@ -157,8 +157,8 @@ msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:146
 msgid ""
-"Select the number of decimal places to show for DASH denominations, or "
-"switch to mDASH or µDASH denominations"
+"Select the number of decimal places to show for HISTORIA denominations, or "
+"switch to mHISTORIA or µHISTORIA denominations"
 msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:153
@@ -236,7 +236,7 @@ msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:179
 msgid ""
-"Enables an Android system notification to remind you of any unspent Dash "
+"Enables an Android system notification to remind you of any unspent Historia "
 "if you don't open the app in that time."
 msgstr ""
 
@@ -245,7 +245,7 @@ msgid "Enable InstantSend"
 msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:183
-msgid "Enables functionality to use InstantSend to send and receive Dash."
+msgid "Enables functionality to use InstantSend to send and receive Historia."
 msgstr ""
 
 #: ../../wallets/android/advanced-functions.rst:186

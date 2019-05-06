@@ -1,343 +1,343 @@
 [main]
 host = https://www.transifex.com
 
-[dash-docs.index]
+[historia-docs.index]
 file_filter = locale/<lang>/LC_MESSAGES/index.po
 source_file = locale/pot/index.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--index]
+[historia-docs.wallets--index]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/index.po
 source_file = locale/pot/wallets/index.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--dashcore--installation-windows]
-file_filter = locale/<lang>/LC_MESSAGES/wallets/dashcore/installation-windows.po
-source_file = locale/pot/wallets/dashcore/installation-windows.pot
+[historia-docs.wallets--historiacore--installation-windows]
+file_filter = locale/<lang>/LC_MESSAGES/wallets/historiacore/installation-windows.po
+source_file = locale/pot/wallets/historiacore/installation-windows.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--dashcore--installation-macos]
-file_filter = locale/<lang>/LC_MESSAGES/wallets/dashcore/installation-macos.po
-source_file = locale/pot/wallets/dashcore/installation-macos.pot
+[historia-docs.wallets--historiacore--installation-macos]
+file_filter = locale/<lang>/LC_MESSAGES/wallets/historiacore/installation-macos.po
+source_file = locale/pot/wallets/historiacore/installation-macos.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--dashcore--interface]
-file_filter = locale/<lang>/LC_MESSAGES/wallets/dashcore/interface.po
-source_file = locale/pot/wallets/dashcore/interface.pot
+[historia-docs.wallets--historiacore--interface]
+file_filter = locale/<lang>/LC_MESSAGES/wallets/historiacore/interface.po
+source_file = locale/pot/wallets/historiacore/interface.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--dashcore--installation]
-file_filter = locale/<lang>/LC_MESSAGES/wallets/dashcore/installation.po
-source_file = locale/pot/wallets/dashcore/installation.pot
+[historia-docs.wallets--historiacore--installation]
+file_filter = locale/<lang>/LC_MESSAGES/wallets/historiacore/installation.po
+source_file = locale/pot/wallets/historiacore/installation.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--dashcore--installation-linux]
-file_filter = locale/<lang>/LC_MESSAGES/wallets/dashcore/installation-linux.po
-source_file = locale/pot/wallets/dashcore/installation-linux.pot
+[historia-docs.wallets--historiacore--installation-linux]
+file_filter = locale/<lang>/LC_MESSAGES/wallets/historiacore/installation-linux.po
+source_file = locale/pot/wallets/historiacore/installation-linux.pot
 source_lang = en
 type = PO
 
-[dash-docs.legal]
+[historia-docs.legal]
 file_filter = locale/<lang>/LC_MESSAGES/legal.po
 source_file = locale/pot/legal.pot
 source_lang = en
 type = PO
 
-[dash-docs.mining--index]
+[historia-docs.mining--index]
 file_filter = locale/<lang>/LC_MESSAGES/mining/index.po
 source_file = locale/pot/mining/index.pot
 source_lang = en
 type = PO
 
-[dash-docs.masternodes--index]
+[historia-docs.masternodes--index]
 file_filter = locale/<lang>/LC_MESSAGES/masternodes/index.po
 source_file = locale/pot/masternodes/index.pot
 source_lang = en
 type = PO
 
-[dash-docs.introduction--about]
+[historia-docs.introduction--about]
 file_filter = locale/<lang>/LC_MESSAGES/introduction/about.po
 source_file = locale/pot/introduction/about.pot
 source_lang = en
 type = PO
 
-[dash-docs.introduction--features]
+[historia-docs.introduction--features]
 file_filter = locale/<lang>/LC_MESSAGES/introduction/features.po
 source_file = locale/pot/introduction/features.pot
 source_lang = en
 type = PO
 
-[dash-docs.introduction--how-to-buy]
+[historia-docs.introduction--how-to-buy]
 file_filter = locale/<lang>/LC_MESSAGES/introduction/how-to-buy.po
 source_file = locale/pot/introduction/how-to-buy.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--hardware]
+[historia-docs.wallets--hardware]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/hardware.po
 source_file = locale/pot/wallets/hardware.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--paper]
+[historia-docs.wallets--paper]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/paper.po
 source_file = locale/pot/wallets/paper.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--android--advanced-functions]
+[historia-docs.wallets--android--advanced-functions]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/android/advanced-functions.po
 source_file = locale/pot/wallets/android/advanced-functions.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--android--installation]
+[historia-docs.wallets--android--installation]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/android/installation.po
 source_file = locale/pot/wallets/android/installation.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--android--getting-started]
+[historia-docs.wallets--android--getting-started]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/android/getting-started.po
 source_file = locale/pot/wallets/android/getting-started.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--dashcore--backup]
-file_filter = locale/<lang>/LC_MESSAGES/wallets/dashcore/backup.po
-source_file = locale/pot/wallets/dashcore/backup.pot
+[historia-docs.wallets--historiacore--backup]
+file_filter = locale/<lang>/LC_MESSAGES/wallets/historiacore/backup.po
+source_file = locale/pot/wallets/historiacore/backup.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--dashcore--send-receive]
-file_filter = locale/<lang>/LC_MESSAGES/wallets/dashcore/send-receive.po
-source_file = locale/pot/wallets/dashcore/send-receive.pot
+[historia-docs.wallets--historiacore--send-receive]
+file_filter = locale/<lang>/LC_MESSAGES/wallets/historiacore/send-receive.po
+source_file = locale/pot/wallets/historiacore/send-receive.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--dashcore--privatesend-instantsend]
-file_filter = locale/<lang>/LC_MESSAGES/wallets/dashcore/privatesend-instantsend.po
-source_file = locale/pot/wallets/dashcore/privatesend-instantsend.pot
+[historia-docs.wallets--historiacore--privatesend-instantsend]
+file_filter = locale/<lang>/LC_MESSAGES/wallets/historiacore/privatesend-instantsend.po
+source_file = locale/pot/wallets/historiacore/privatesend-instantsend.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--dashcore--cmd-rpc]
-file_filter = locale/<lang>/LC_MESSAGES/wallets/dashcore/cmd-rpc.po
-source_file = locale/pot/wallets/dashcore/cmd-rpc.pot
+[historia-docs.wallets--historiacore--cmd-rpc]
+file_filter = locale/<lang>/LC_MESSAGES/wallets/historiacore/cmd-rpc.po
+source_file = locale/pot/wallets/historiacore/cmd-rpc.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--dashcore--advanced]
-file_filter = locale/<lang>/LC_MESSAGES/wallets/dashcore/advanced.po
-source_file = locale/pot/wallets/dashcore/advanced.pot
+[historia-docs.wallets--historiacore--advanced]
+file_filter = locale/<lang>/LC_MESSAGES/wallets/historiacore/advanced.po
+source_file = locale/pot/wallets/historiacore/advanced.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--ios--advanced-functions]
+[historia-docs.wallets--ios--advanced-functions]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/ios/advanced-functions.po
 source_file = locale/pot/wallets/ios/advanced-functions.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--ios--installation]
+[historia-docs.wallets--ios--installation]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/ios/installation.po
 source_file = locale/pot/wallets/ios/installation.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--ios--getting-started]
+[historia-docs.wallets--ios--getting-started]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/ios/getting-started.po
 source_file = locale/pot/wallets/ios/getting-started.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--electrum--send-receive]
+[historia-docs.wallets--electrum--send-receive]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/electrum/send-receive.po
 source_file = locale/pot/wallets/electrum/send-receive.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--electrum--installation]
+[historia-docs.wallets--electrum--installation]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/electrum/installation.po
 source_file = locale/pot/wallets/electrum/installation.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--electrum--faq]
+[historia-docs.wallets--electrum--faq]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/electrum/faq.po
 source_file = locale/pot/wallets/electrum/faq.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--electrum--security]
+[historia-docs.wallets--electrum--security]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/electrum/security.po
 source_file = locale/pot/wallets/electrum/security.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--electrum--advanced]
+[historia-docs.wallets--electrum--advanced]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/electrum/advanced.po
 source_file = locale/pot/wallets/electrum/advanced.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--web]
+[historia-docs.wallets--web]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/web.po
 source_file = locale/pot/wallets/web.pot
 source_lang = en
 type = PO
 
-[dash-docs.mining--p2pool]
+[historia-docs.mining--p2pool]
 file_filter = locale/<lang>/LC_MESSAGES/mining/p2pool.po
 source_file = locale/pot/mining/p2pool.pot
 source_lang = en
 type = PO
 
-[dash-docs.masternodes--setup]
+[historia-docs.masternodes--setup]
 file_filter = locale/<lang>/LC_MESSAGES/masternodes/setup.po
 source_file = locale/pot/masternodes/setup.pot
 source_lang = en
 type = PO
 
-[dash-docs.masternodes--maintenance]
+[historia-docs.masternodes--maintenance]
 file_filter = locale/<lang>/LC_MESSAGES/masternodes/maintenance.po
 source_file = locale/pot/masternodes/maintenance.pot
 source_lang = en
 type = PO
 
-[dash-docs.masternodes--understanding]
+[historia-docs.masternodes--understanding]
 file_filter = locale/<lang>/LC_MESSAGES/masternodes/understanding.po
 source_file = locale/pot/masternodes/understanding.pot
 source_lang = en
 type = PO
 
-[dash-docs.masternodes--hosting]
+[historia-docs.masternodes--hosting]
 file_filter = locale/<lang>/LC_MESSAGES/masternodes/hosting.po
 source_file = locale/pot/masternodes/hosting.pot
 source_lang = en
 type = PO
 
-[dash-docs.masternodes--advanced]
+[historia-docs.masternodes--advanced]
 file_filter = locale/<lang>/LC_MESSAGES/masternodes/advanced.po
 source_file = locale/pot/masternodes/advanced.pot
 source_lang = en
 type = PO
 
-[dash-docs.earning-spending]
+[historia-docs.earning-spending]
 file_filter = locale/<lang>/LC_MESSAGES/earning-spending.po
 source_file = locale/pot/earning-spending.pot
 source_lang = en
 type = PO
 
-[dash-docs.marketing]
+[historia-docs.marketing]
 file_filter = locale/<lang>/LC_MESSAGES/marketing.po
 source_file = locale/pot/marketing.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--recovery]
+[historia-docs.wallets--recovery]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/recovery.po
 source_file = locale/pot/wallets/recovery.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--signing]
+[historia-docs.wallets--signing]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/signing.po
 source_file = locale/pot/wallets/signing.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--third-party]
+[historia-docs.wallets--third-party]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/third-party.po
 source_file = locale/pot/wallets/third-party.pot
 source_lang = en
 type = PO
 
-[dash-docs.introduction--information]
+[historia-docs.introduction--information]
 file_filter = locale/<lang>/LC_MESSAGES/introduction/information.po
 source_file = locale/pot/introduction/information.pot
 source_lang = en
 type = PO
 
-[dash-docs.merchants--administrative]
+[historia-docs.merchants--administrative]
 file_filter = locale/<lang>/LC_MESSAGES/merchants/administrative.po
 source_file = locale/pot/merchants/administrative.pot
 source_lang = en
 type = PO
 
-[dash-docs.merchants--technical]
+[historia-docs.merchants--technical]
 file_filter = locale/<lang>/LC_MESSAGES/merchants/technical.po
 source_file = locale/pot/merchants/technical.pot
 source_lang = en
 type = PO
 
-[dash-docs.merchants--getting-started]
+[historia-docs.merchants--getting-started]
 file_filter = locale/<lang>/LC_MESSAGES/merchants/getting-started.po
 source_file = locale/pot/merchants/getting-started.pot
 source_lang = en
 type = PO
 
-[dash-docs.developers--index]
+[historia-docs.developers--index]
 file_filter = locale/<lang>/LC_MESSAGES/developers/index.po
 source_file = locale/pot/developers/index.pot
 source_lang = en
 type = PO
 
-[dash-docs.developers--compiling]
+[historia-docs.developers--compiling]
 file_filter = locale/<lang>/LC_MESSAGES/developers/compiling.po
 source_file = locale/pot/developers/compiling.pot
 source_lang = en
 type = PO
 
-[dash-docs.developers--testnet]
+[historia-docs.developers--testnet]
 file_filter = locale/<lang>/LC_MESSAGES/developers/testnet.po
 source_file = locale/pot/developers/testnet.pot
 source_lang = en
 type = PO
 
-[dash-docs.developers--translating]
+[historia-docs.developers--translating]
 file_filter = locale/<lang>/LC_MESSAGES/developers/translating.po
 source_file = locale/pot/developers/translating.pot
 source_lang = en
 type = PO
 
-[dash-docs.governance--eight-steps]
+[historia-docs.governance--eight-steps]
 file_filter = locale/<lang>/LC_MESSAGES/governance/eight-steps.po
 source_file = locale/pot/governance/eight-steps.pot
 source_lang = en
 type = PO
 
-[dash-docs.governance--understanding]
+[historia-docs.governance--understanding]
 file_filter = locale/<lang>/LC_MESSAGES/governance/understanding.po
 source_file = locale/pot/governance/understanding.pot
 source_lang = en
 type = PO
 
-[dash-docs.governance--index]
+[historia-docs.governance--index]
 file_filter = locale/<lang>/LC_MESSAGES/governance/index.po
 source_file = locale/pot/governance/index.pot
 source_lang = en
 type = PO
 
-[dash-docs.governance--using]
+[historia-docs.governance--using]
 file_filter = locale/<lang>/LC_MESSAGES/governance/using.po
 source_file = locale/pot/governance/using.pot
 source_lang = en
 type = PO
 
-[dash-docs.introduction--safety]
+[historia-docs.introduction--safety]
 file_filter = locale/<lang>/LC_MESSAGES/introduction/safety.po
 source_file = locale/pot/introduction/safety.pot
 source_lang = en
 type = PO
 
-[dash-docs.wallets--text]
+[historia-docs.wallets--text]
 file_filter = locale/<lang>/LC_MESSAGES/wallets/text.po
 source_file = locale/pot/wallets/text.pot
 source_lang = en

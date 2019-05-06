@@ -1,6 +1,6 @@
 .. meta::
-   :description: Guide to sending and receiving Dash using the Dash Electrum wallet
-   :keywords: dash, wallet, electrum, send, receive, transaction
+   :description: Guide to sending and receiving Historia using the Historia Electrum wallet
+   :keywords: historia, wallet, electrum, send, receive, transaction
 
 .. _electrum-send-receive:
 
@@ -8,12 +8,12 @@
 Sending and receiving
 =====================
 
-You may own Dash stored in another software wallet, or on an exchange
+You may own Historia stored in another software wallet, or on an exchange
 such as Bittrex or Kraken, or simply want to send or receive funds as a
 wage or business transaction. Funds can be transferred between these
-source and the Electrum wallet using Dash addresses. Your wallet
+source and the Electrum wallet using Historia addresses. Your wallet
 contains multiple addresses, and will generate new addresses as
-necessary. Since the Dash blockchain is transparent to the public, it is
+necessary. Since the Historia blockchain is transparent to the public, it is
 considered best practice to use a new address for each transaction in
 order to maintain your privacy.
 
@@ -26,13 +26,13 @@ in the **Pay to** field, either manually or by pasting from the
 clipboard. Optionally enter a **Description** for to appear in your
 transaction history, followed by the **Amount** to be sent. The total
 amount of the transaction is the sum of the sent amount and transaction
-fee, which is calculated automatically. Dash Electrum issues a warning
+fee, which is calculated automatically. Historia Electrum issues a warning
 if the total transaction amount exceeds the wallet balance.
 
 .. figure:: img/send.png
    :width: 400px
 
-   Transaction ready to send in Dash Electrum wallet
+   Transaction ready to send in Historia Electrum wallet
 
 The wallet will request your password, then broadcast the transaction to
 the network and display a confirmation dialog with your transaction ID.
@@ -44,7 +44,7 @@ the network and display a confirmation dialog with your transaction ID.
 .. figure:: img/send-confirmation.png
    :width: 400px
 
-   Password prompt and transaction confirmation in Dash Electrum wallet
+   Password prompt and transaction confirmation in Historia Electrum wallet
 
 
 Receiving
@@ -61,7 +61,7 @@ containing the same information.
 .. figure:: img/receive-pending.png
    :width: 400px
 
-   Transaction ready to send in Dash Electrum wallet
+   Transaction ready to send in Historia Electrum wallet
 
 Enter this address in the software sending the funds, send it to the
 person transferring funds to you or scan it directly from your mobile
@@ -72,7 +72,7 @@ table will change from **Pending** to **Paid**.
 .. figure:: img/receive-paid.png
    :width: 400px
 
-   Successfully received payment in Dash Electrum wallet
+   Successfully received payment in Historia Electrum wallet
 
 Once you have used an address, you can either continue using it or click
 **New** to generate a new address.
@@ -83,7 +83,7 @@ Monitoring transactions
 The **History** tab lists all current and pending transactions. A
 transaction to an address in your wallet will appear in the list soon
 after it is made. Initially, this transaction will be marked as
-**Unconfirmed**, followed by a clock indicator on the left. As the Dash
+**Unconfirmed**, followed by a clock indicator on the left. As the Historia
 network processes the transaction, the status will update in the
 transaction history list. The network confirms transactions with a new
 block roughly every 2.5 minutes, and a transaction is considered
@@ -97,7 +97,7 @@ timestamp at which the transaction was made.
 .. figure:: img/monitor-confirmed.png
    :width: 400px
 
-   Dash Electrum wallet History tab immediately after receiving a
+   Historia Electrum wallet History tab immediately after receiving a
    transaction and after confirmation is complete
 
 To view additional transaction details, right click a transaction on the
@@ -110,4 +110,4 @@ external block explorer.
 .. figure:: img/transaction-details.png
    :width: 400px
 
-   Transaction details in Dash Electrum wallet
+   Transaction details in Historia Electrum wallet

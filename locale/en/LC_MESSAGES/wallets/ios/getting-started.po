@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-31 04:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../wallets/ios/getting-started.rst:1
-msgid "Getting started with sending and receiving Dash on your iOS device"
+msgid "Getting started with sending and receiving Historia on your iOS device"
 msgstr ""
 
 #: ../../wallets/ios/getting-started.rst:1
-msgid "dash, mobile, wallet, ios, send, receive, addresses, getting started"
+msgid "historia, mobile, wallet, ios, send, receive, addresses, getting started"
 msgstr ""
 
 #: ../../wallets/ios/getting-started.rst:8
@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../wallets/ios/getting-started.rst:13
 msgid ""
-"When you first start your Dash Wallet, you will be prompted to choose "
+"When you first start your Historia Wallet, you will be prompted to choose "
 "between creating a new wallet or recovering an existing wallet. Choose "
 "**New Wallet** to create a new wallet unless you have existing funds "
 "stored in another wallet using a recovery phrase. Your new wallet will be"
@@ -48,16 +48,16 @@ msgstr ""
 
 #: ../../wallets/ios/getting-started.rst:30
 msgid ""
-"*Creating a new wallet and generating the recovery phrase in iOS Dash "
+"*Creating a new wallet and generating the recovery phrase in iOS Historia "
 "Wallet*"
 msgstr ""
 
 #: ../../wallets/ios/getting-started.rst:33
 msgid ""
 "You may also be asked to specify a PIN or link the app with your TouchID."
-" You can tap the Dash logo at the top of the app to view your balance. "
+" You can tap the Historia logo at the top of the app to view your balance. "
 "You will need to unlock your wallet for this, as well as to view your "
-"transaction history or send Dash."
+"transaction history or send Historia."
 msgstr ""
 
 #: ../../wallets/ios/getting-started.rst:40
@@ -67,8 +67,8 @@ msgstr ""
 #: ../../wallets/ios/getting-started.rst:42
 msgid ""
 "Once you have set up your wallet, you will have two screens available to "
-"send and receive Dash. You can swipe left and right between the screens. "
-"To receive Dash, the app will generate an address which appears at the "
+"send and receive Historia. You can swipe left and right between the screens. "
+"To receive Historia, the app will generate an address which appears at the "
 "bottom of the screen. You can tap this to copy and share, or scan the QR "
 "code directly. Once the transfer is complete, you can view your balance, "
 "transaction history and the status of any pending transactions by "
@@ -76,7 +76,7 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/ios/getting-started.rst:55
-msgid "*Receiving Dash and viewing your balance in iOS Dash Wallet*"
+msgid "*Receiving Historia and viewing your balance in iOS Historia Wallet*"
 msgstr ""
 
 #: ../../wallets/ios/getting-started.rst:59
@@ -85,18 +85,18 @@ msgstr ""
 
 #: ../../wallets/ios/getting-started.rst:61
 msgid ""
-"The Send DASH screen gives you two options to enter the payment address: "
+"The Send HISTORIA screen gives you two options to enter the payment address: "
 "**Scan QR Code** or **Pay Address From Clipboard**. You can choose to use"
 " **InstantSend** for instant confirmation, or disable this to send a "
 "normal transaction which will require more time for confirmation. "
-"Depending on the code you are scanning, the amount of Dash requested may "
+"Depending on the code you are scanning, the amount of Historia requested may "
 "be included, or you can enter it yourself. A confirmation screen will "
 "appear to explain the fee structure and request your unlock code (PIN or "
 "TouchID). The transaction will then be sent."
 msgstr ""
 
 #: ../../wallets/ios/getting-started.rst:79
-msgid "*Sending Dash from iOS Dash Wallet*"
+msgid "*Sending Historia from iOS Historia Wallet*"
 msgstr ""
 
 #: ../../wallets/ios/getting-started.rst:83
@@ -105,22 +105,22 @@ msgstr ""
 
 #: ../../wallets/ios/getting-started.rst:85
 msgid ""
-"You can also send from your Dash Wallet directly to a Bitcoin address "
+"You can also send from your Historia Wallet directly to a Bitcoin address "
 "using services provided by ShapeShift that are integrated directly in the"
 " wallet. If you scan or enter a Bitcoin address, you will be asked to "
-"enter the amount to be send in Bitcoin instead of Dash. Once you have "
+"enter the amount to be send in Bitcoin instead of Historia. Once you have "
 "entered the amount, click the **Shapeshift!** button shown an additional "
 "confirmation screen to confirm the ShapeShift fees before the transaction"
 " is processed. Make sure your destination Bitcoin address on this screen "
 "is correct. (If you see an error message about the value being too low, "
-"tap the greyed out Dash amount at the top to specify the amount to be "
-"transferred in Dash instead of Bitcoin.) Once your transaction is "
-"accepted, the Dash Wallet for iOS will display **Shapeshift in progress**"
+"tap the greyed out Historia amount at the top to specify the amount to be "
+"transferred in Historia instead of Bitcoin.) Once your transaction is "
+"accepted, the Historia Wallet for iOS will display **Shapeshift in progress**"
 " until the transaction is complete."
 msgstr ""
 
 #: ../../wallets/ios/getting-started.rst:107
-msgid "*Sending Dash to a Bitcoin address via ShapeShift from iOS Dash Wallet*"
+msgid "*Sending Historia to a Bitcoin address via ShapeShift from iOS Historia Wallet*"
 msgstr ""
 
 #~ msgid "Getting Started"
@@ -129,14 +129,14 @@ msgstr ""
 #~ msgid "Creating a New Wallet"
 #~ msgstr ""
 
-#~ msgid "Receiving Dash"
+#~ msgid "Receiving Historia"
 #~ msgstr ""
 
-#~ msgid "Sending Dash"
+#~ msgid "Sending Historia"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "When you first start your Dash "
+#~ "When you first start your Historia "
 #~ "Wallet, you will be prompted to "
 #~ "choose between creating a new wallet "
 #~ "or recovering an existing wallet. Choose"
@@ -156,7 +156,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "The Send DASH screen gives you two"
+#~ "The Send HISTORIA screen gives you two"
 #~ " options to enter the payment "
 #~ "address: **Scan QR Code** or **Pay "
 #~ "Address From Clipboard**. You can choose"
@@ -165,7 +165,7 @@ msgstr ""
 #~ " a normal transaction which will "
 #~ "require more time for confirmation. "
 #~ "Depending on the code you are "
-#~ "scanning, the amount of Dash requested"
+#~ "scanning, the amount of Historia requested"
 #~ " may be included, or you can "
 #~ "enter it yourself. A confirmation screen"
 #~ " will appear to explain the fee "

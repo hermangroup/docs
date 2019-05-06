@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2017, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-03 08:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -20,11 +20,11 @@ msgstr ""
 #: ../../masternodes/index.rst:1
 msgid ""
 "Introduction to documentation on how to set up and operate a masternode "
-"for the Dash cryptocurrency."
+"for the Historia cryptocurrency."
 msgstr ""
 
 #: ../../masternodes/index.rst:1
-msgid "dash, masternodes, hosting, linux, payment, setup"
+msgid "historia, masternodes, hosting, linux, payment, setup"
 msgstr ""
 
 #: ../../masternodes/index.rst:9
@@ -33,15 +33,15 @@ msgstr ""
 
 #: ../../masternodes/index.rst:11
 msgid ""
-"Dash is best known as the first cryptocurrency with a focus on anonymity "
+"Historia is best known as the first cryptocurrency with a focus on anonymity "
 "and transaction speed. What many people do not know is that these "
 "features are implemented on top of a network of dedicated servers known "
 "as masternodes, which gives rise to many exciting features not available "
 "on conventional blockchains. These features include anonymous and instant"
-" transactions, as well as governance of the development of the Dash "
+" transactions, as well as governance of the development of the Historia "
 "network through a monthly budget and voting. This in itself is a first in"
 " the crypto world, and the masternodes are necessary to achieve the "
-"privacy and speed that Dash offers."
+"privacy and speed that Historia offers."
 msgstr ""
 
 #: ../../masternodes/index.rst:21
@@ -50,9 +50,9 @@ msgid ""
 "provide to the network, but also includes guides on how to run a "
 "masternode, using either a hosting provider or by setting up and "
 "maintaining your own hosting solution. The primary requirement to run a "
-"masternode on the Dash network is 1000 DASH. This is known as the "
+"masternode on the Historia network is 1000 HISTORIA. This is known as the "
 "collateral, and cannot be spent without interrupting operation of the "
-"masternode. The second requirement is the actual server running the Dash "
+"masternode. The second requirement is the actual server running the Historia "
 "masternode software."
 msgstr ""
 
@@ -78,7 +78,7 @@ msgstr ""
 #: ../../masternodes/index.rst:42
 msgid ""
 "Users with a deeper understanding (or curiosity) about the inner workings"
-" of the Dash network may choose to operate their own masternode on their "
+" of the Historia network may choose to operate their own masternode on their "
 "own host server. Several steps are required, and the user must assume "
 "responsibility for setting up, securing and maintaining both the server "
 "and collateral. See these pages for information on how to set up a self-"
@@ -88,7 +88,7 @@ msgstr ""
 #~ msgid ""
 #~ "Users with a deeper understanding (or"
 #~ " curiosity) about the inner workings "
-#~ "of the Dash network may choose to"
+#~ "of the Historia network may choose to"
 #~ " operate their own  masternode on "
 #~ "their own host server. Several steps "
 #~ "are required, and the user must "
@@ -112,7 +112,7 @@ msgstr ""
 #~ "investment. Some of these hosting "
 #~ "solutions also offer services to users"
 #~ " who do not yet have access to"
-#~ " 1000 DASH. See these pages for "
+#~ " 1000 HISTORIA. See these pages for "
 #~ "information on how to set up a "
 #~ "hosted masternode."
 #~ msgstr ""

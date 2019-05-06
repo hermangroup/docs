@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2017, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-08 08:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: ../../wallets/copay/index.rst:7
 msgid ""
 "This documentation describes how to use the most common features of the "
-"Dash Copay wallet. Since the functionality is similar across all "
+"Historia Copay wallet. Since the functionality is similar across all "
 "supported platforms (Android, iOS, Windows, macOS, Linux), the "
 "instructions and screenshots will reference the Android software, "
 "highlighting differences between the platforms where necessary."
@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../../wallets/copay/index.rst:13
 msgid ""
-"Dash Copay is available for Android and iOS, with Windows, macOS and "
+"Historia Copay is available for Android and iOS, with Windows, macOS and "
 "Linux versions available soon."
 msgstr ""
 

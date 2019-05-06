@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash latest\n"
+"Project-Id-Version: Historia latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-04 06:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,32 +19,32 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:1
 msgid ""
-"The upgrade to Dash 0.13.0 involves changes to signature formats as "
+"The upgrade to Historia 0.13.0 involves changes to signature formats as "
 "defined in DIP3. This documentation walks you through the upgrade "
 "process."
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:1
 msgid ""
-"dash, cryptocurrency, masternode, maintenance, dip3, upgrade, "
+"historia, cryptocurrency, masternode, maintenance, dip3, upgrade, "
 "deterministic, dmt"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:9
-msgid "Dash 0.13 Upgrade Procedure"
+msgid "Historia 0.13 Upgrade Procedure"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:11
 msgid ""
-"Dash 0.13.0 implements DIP003, which introduces several changes to how a "
-"Dash masternode is set up and operated. A list of available documentation"
+"Historia 0.13.0 implements DIP003, which introduces several changes to how a "
+"Historia masternode is set up and operated. A list of available documentation"
 " appears below:"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:15
 msgid ""
 "`DIP003 Deterministic Masternode Lists "
-"<https://github.com/dashpay/dips/blob/master/dip-0003.md>`__"
+"<https://github.com/HistoriaOffical/dips/blob/master/dip-0003.md>`__"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:16
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:18
 msgid ""
-":ref:`Dash 0.13 Upgrade Procedure for Masternodes <dip3-upgrade>` (you "
+":ref:`Historia 0.13 Upgrade Procedure for Masternodes <dip3-upgrade>` (you "
 "are here)"
 msgstr ""
 
@@ -96,12 +96,12 @@ msgid ":ref:`From a hardware wallet <dmt-dip3-upgrade>`"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:31
-msgid ":ref:`From the Dash Core wallet <dashcore-dip3-upgrade>`"
+msgid ":ref:`From the Historia Core wallet <historiacore-dip3-upgrade>`"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:33
 msgid ""
-"Step 1 should be done immediately as soon as Dash 0.13.0 is released. "
+"Step 1 should be done immediately as soon as Historia 0.13.0 is released. "
 "Once miners have updated and DIP003 has activated on the network, it will"
 " become possible to complete Step 2 and register a DIP003 masternode. "
 "After enough masternodes have completed this step, Spork 15 will be "
@@ -114,18 +114,18 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:44
 msgid ""
-"Begin by updating the Dash software on your masternode. Depending on "
-"whether you installed Dash manually or using dashman, you must follow the"
+"Begin by updating the Historia software on your masternode. Depending on "
+"whether you installed Historia manually or using historiaman, you must follow the"
 " procedure appropriate for your masternode, as described below."
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:50
-msgid "Option 1: Updating from dashman"
+msgid "Option 1: Updating from historiaman"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:52
 msgid ""
-"To update Dash using dashman, log in to your server and enter the "
+"To update Historia using historiaman, log in to your server and enter the "
 "following commands::"
 msgstr ""
 
@@ -135,11 +135,11 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:61
 msgid ""
-"The Dash software on the masternode is now updated. Since Dash 0.13 also "
+"The Historia software on the masternode is now updated. Since Historia 0.13 also "
 "updates the protocol version, it is necessary to issue a ``masternode "
-"start`` from Dash Core or DMT command to keep your masternode in the "
+"start`` from Historia Core or DMT command to keep your masternode in the "
 "payment list during the transition period. See the `0.12.3 documentation "
-"<https://docs.dash.org/en/0.12.3/masternodes/setup.html#start-your-"
+"<https://docs.historia.network/en/0.12.3/masternodes/setup.html#start-your-"
 "masternode>`__ for more details."
 msgstr ""
 
@@ -149,23 +149,23 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:72
 msgid ""
-"To update Dash manually, log in to your server using ssh or PuTTY. If "
-"your crontab contains an entry to automatically restart dashd, invoke "
+"To update Historia manually, log in to your server using ssh or PuTTY. If "
+"your crontab contains an entry to automatically restart historiad, invoke "
 "``crontab -e`` and comment out the appropriate line by adding the ``#`` "
 "character. It should look something like this::"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:79
-msgid "Then stop Dash running::"
+msgid "Then stop Historia running::"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:83
 msgid ""
 "Visit the `GitHub releases page "
-"<https://github.com/dashpay/dash/releases>`_ and copy the link to the "
+"<https://github.com/HistoriaOffical/historia/releases>`_ and copy the link to the "
 "latest x86_64-linux-gnu version. Go back to your terminal window and "
 "enter the following command, pasting in the address to the latest version"
-" of Dash Core by right clicking or pressing **Ctrl + V**::"
+" of Historia Core by right clicking or pressing **Ctrl + V**::"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:92
@@ -180,35 +180,35 @@ msgid "Extract the compressed archive and copy the new files to the directory::"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:104
-msgid "Restart Dash::"
+msgid "Restart Historia::"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:108
 msgid ""
-"You will see a message reading \"Dash Core server starting\". We will now"
+"You will see a message reading \"Historia Core server starting\". We will now"
 " update Sentinel::"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:115
 msgid ""
-"Finally, uncomment the line to automatically restart Dash in your crontab"
+"Finally, uncomment the line to automatically restart Historia in your crontab"
 " by invoking ``crontab -e`` again and deleting the ``#`` character."
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:119
 msgid ""
-"The Dash software on the masternode is now updated. Since Dash 0.13 also "
+"The Historia software on the masternode is now updated. Since Historia 0.13 also "
 "updates the protocol version, it is necessary to issue a ``masternode "
-"start`` command from an updated Dash Core wallet or DMT to keep your "
+"start`` command from an updated Historia Core wallet or DMT to keep your "
 "masternode in the payment list during the transition period. Ensure the "
 "protocol version is set to ``70213`` if starting from DMT; see the "
 "`legacy documentation "
-"<https://docs.dash.org/en/0.12.3/masternodes/setup.html#start-your-"
+"<https://docs.historia.network/en/0.12.3/masternodes/setup.html#start-your-"
 "masternode>`__ for more details. After your masternode software is "
 "updated, it is necessary to wait until enough miners upgrade for DIP003 "
 "to activate before you can continue with the DIP003 masternode "
 "registration process below. You can track DIP003 activation progress "
-"`here <http://178.254.23.111/~pub/Dash/Dash_Info.html>`__."
+"`here <http://178.254.23.111/~pub/Historia/Historia_Info.html>`__."
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:135
@@ -223,7 +223,7 @@ msgid ""
 "required. It is not possible to issue the registration transactions if "
 "DIP003 is not yet active. You can update DMT by downloading the version "
 "appropriate for your system from the `DMT Releases page "
-"<https://github.com/Bertrand256/dash-masternode-tool/releases>`__.  Open "
+"<https://github.com/Bertrand256/historia-masternode-tool/releases>`__.  Open "
 "DMT and ensure your existing masternode configuration appears."
 msgstr ""
 
@@ -233,7 +233,7 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:149
 msgid ""
-"Plug in your hardware wallet and click the **Check Dash Network "
+"Plug in your hardware wallet and click the **Check Historia Network "
 "Connection** and **Test Hardware Wallet Connection** buttons. Then click "
 "the **Send ProRegTx** button to get started. The **Masternode migration "
 "wizard** appears."
@@ -256,7 +256,7 @@ msgstr ""
 #: ../../masternodes/dip3-upgrade.rst:163
 msgid ""
 "You can optionally modify the **Payout address** to any valid existing or"
-" new Dash address, since it is no longer mandatory to receive payouts at "
+" new Historia address, since it is no longer mandatory to receive payouts at "
 "the collateral address."
 msgstr ""
 
@@ -286,9 +286,9 @@ msgid ""
 "Click **Continue** when you are ready to continue. DMT will verify the "
 "collateral is in place and prepare to create the ProRegTx special "
 "transaction to register the masternode on the blockchain. This command "
-"must be sent from a Dash Core wallet holding a balance, since a standard "
+"must be sent from a Historia Core wallet holding a balance, since a standard "
 "transaction fee is involved. You can choose to send this from the DMT "
-"developer's remote RPC node (**automatic method**), or use your own Dash "
+"developer's remote RPC node (**automatic method**), or use your own Historia "
 "Core wallet to submit the transaction and specify the source of "
 "transaction fees (**manual method**). Click **Continue** when you are "
 "ready."
@@ -300,11 +300,11 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:189
 msgid ""
-"Note that because Trezor does not yet support Dash `special transactions "
-"<https://github.com/dashpay/dips/blob/master/dip-0002.md>`__, it is "
+"Note that because Trezor does not yet support Historia `special transactions "
+"<https://github.com/HistoriaOffical/dips/blob/master/dip-0002.md>`__, it is "
 "necessary to transmit your owner private key (NOT the collateral private "
 "key) to the remote server to sign the registration transaction. Only use "
-"the automatic method if you are connected to your own Dash RPC client, or"
+"the automatic method if you are connected to your own Historia RPC client, or"
 " if you trust the operator of the node. You can see the name of the node "
 "you are connected to in the lower right corner of the main DMT window. "
 "The default nodes in DMT (named ``alice``, ``luna`` and ``suzy``) are "
@@ -338,13 +338,13 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:219
 msgid ""
-"Open Dash Core and wait for the blockchain to synchronise. Complete the "
+"Open Historia Core and wait for the blockchain to synchronise. Complete the "
 "following steps:"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:222
 msgid ""
-"In your Dash Core wallet, select an address to use as the source for the "
+"In your Historia Core wallet, select an address to use as the source for the "
 "transaction fee and paste it into Field 1."
 msgstr ""
 
@@ -354,7 +354,7 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:225
 msgid ""
-"Copy and paste the command from Field 2 of DMT into the Dash Core debug "
+"Copy and paste the command from Field 2 of DMT into the Historia Core debug "
 "console and press **Enter**."
 msgstr ""
 
@@ -372,8 +372,8 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:231
 msgid ""
-"Copy the command from Field 4 of DMT, paste it into the Dash Core debug "
-"console and press **Enter**. Dash Core will create a registration "
+"Copy the command from Field 4 of DMT, paste it into the Historia Core debug "
+"console and press **Enter**. Historia Core will create a registration "
 "transaction on the blockchain."
 msgstr ""
 
@@ -422,14 +422,14 @@ msgid ""
 "then press **Ctrl + X** to close the editor and **Y** and **Enter** save "
 "the file. We now need to restart the masternode for this change to take "
 "effect. Enter the following commands, waiting a few seconds in between to"
-" give Dash Core time to shut down::"
+" give Historia Core time to shut down::"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:275
 msgid ""
 "Your masternode is now upgraded to DIP003 and will appear on the "
 "Deterministic Masternode List. You can view this list on the "
-"**Masternodes -> DIP3 Masternodes** tab of the Dash Core wallet, or in "
+"**Masternodes -> DIP3 Masternodes** tab of the Historia Core wallet, or in "
 "the console using the command ``protx list valid``, where the txid of the"
 " final transaction in Step 5 identifies your DIP003 masternode. Note "
 "again that all functions related to DIP003 will only take effect once "
@@ -438,19 +438,19 @@ msgid ""
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:288
-msgid "Masternode Registration from Dash Core"
+msgid "Masternode Registration from Historia Core"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:290
 msgid ""
 "This documentation describes the procedure to register an existing "
 "masternode for the DIP003 masternode list if the collateral is held in "
-"the Dash Core software full wallet. It is not possible to issue the "
+"the Historia Core software full wallet. It is not possible to issue the "
 "registration transactions if DIP003 is not yet active. The commands are "
-"shown as if they were entered in the Dash Core GUI by opening the console"
+"shown as if they were entered in the Historia Core GUI by opening the console"
 " from Tools > Debug console, but the same result can be achieved on a "
 "masternode by entering the same commands and adding the prefix "
-"``~/.dashcore/dash-cli`` to each command."
+"``~/.historiacore/historia-cli`` to each command."
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:301
@@ -479,7 +479,7 @@ msgstr ""
 #: ../../masternodes/dip3-upgrade.rst:322
 msgid ""
 "The public key will be used in following steps. The BLS secret key must "
-"be entered in the ``dash.conf`` file on the masternode. This allows the "
+"be entered in the ``historia.conf`` file on the masternode. This allows the "
 "masternode to watch the blockchain for relevant Pro*Tx transactions, and "
 "will cause it to start serving as a masternode when the signed ProRegTx "
 "is broadcast by the owner (final step below). Log in to your masternode "
@@ -494,7 +494,7 @@ msgid ""
 "sure there is a blank line at the end of the file, then press **Ctrl + "
 "X** to close the editor and **Y** and **Enter** save the file. We now "
 "need to restart the masternode for this change to take effect. Enter the "
-"following commands, waiting a few seconds in between to give Dash Core "
+"following commands, waiting a few seconds in between to give Historia Core "
 "time to shut down::"
 msgstr ""
 
@@ -555,12 +555,12 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:397
 msgid ""
-"``collateralHash``: The txid of the 1000 Dash collateral funding "
+"``collateralHash``: The txid of the 1000 Historia collateral funding "
 "transaction"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:399
-msgid "``collateralIndex``: The output index of the 1000 Dash funding transaction"
+msgid "``collateralIndex``: The output index of the 1000 Historia funding transaction"
 msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:401
@@ -571,7 +571,7 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:403
 msgid ""
-"``ownerKeyAddr``: The new Dash address generated above for the "
+"``ownerKeyAddr``: The new Historia address generated above for the "
 "owner/voting address"
 msgstr ""
 
@@ -583,7 +583,7 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:407
 msgid ""
-"``votingKeyAddr``: The new Dash address generated above, or the address "
+"``votingKeyAddr``: The new Historia address generated above, or the address "
 "of a delegate, used for proposal voting"
 msgstr ""
 
@@ -595,7 +595,7 @@ msgstr ""
 
 #: ../../masternodes/dip3-upgrade.rst:411
 msgid ""
-"``payoutAddress``: A new or existing Dash address to receive the owner's "
+"``payoutAddress``: A new or existing Historia address to receive the owner's "
 "masternode rewards"
 msgstr ""
 
@@ -641,7 +641,7 @@ msgid ""
 "``collateralAddress``. Note that no internet connection is required for "
 "this step, meaning that the wallet can remain disconnected from the "
 "internet in cold storage to sign the message. In this example we will "
-"again use Dash Core, but it is equally possible to use the signing "
+"again use Historia Core, but it is equally possible to use the signing "
 "function of a hardware wallet. The command takes the following syntax::"
 msgstr ""
 
@@ -657,7 +657,7 @@ msgstr ""
 #: ../../masternodes/dip3-upgrade.rst:471
 msgid ""
 "We will now create the ProRegTx special transaction to register the "
-"masternode on the blockchain. This command must be sent from a Dash Core "
+"masternode on the blockchain. This command must be sent from a Historia Core "
 "wallet holding a balance, since a standard transaction fee is involved. "
 "The command takes the following syntax::"
 msgstr ""
@@ -683,7 +683,7 @@ msgid ""
 "Your masternode is now upgraded to DIP003 and will appear on the "
 "Deterministic Masternode List after the transaction is mined to a block. "
 "You can view this list on the **Masternodes -> DIP3 Masternodes** tab of "
-"the Dash Core wallet, or in the console using the command ``protx list "
+"the Historia Core wallet, or in the console using the command ``protx list "
 "valid``, where the txid of the final ``protx register_submit`` "
 "transaction identifies your DIP003 masternode. Note again that all "
 "functions related to DIP003 will only take effect once Spork 15 is "
@@ -701,7 +701,7 @@ msgstr ""
 #~ "You can update DMT by downloading "
 #~ "the version appropriate for your system"
 #~ " from the `DMT Releases page "
-#~ "<https://github.com/Bertrand256/dash-masternode-"
+#~ "<https://github.com/Bertrand256/historia-masternode-"
 #~ "tool/releases>`__. Open DMT and ensure "
 #~ "your existing masternode configuration "
 #~ "appears."
@@ -711,16 +711,16 @@ msgstr ""
 #~ "This documentation describes the procedure "
 #~ "to register an existing masternode for"
 #~ " the DIP003 masternode list if the"
-#~ " collateral is held in the Dash "
+#~ " collateral is held in the Historia "
 #~ "Core software full wallet. DIP003 must"
 #~ " be activated. The commands are shown"
 #~ " as if they were entered in the"
-#~ " Dash Core GUI by opening the "
+#~ " Historia Core GUI by opening the "
 #~ "console from Tools > Debug console, "
 #~ "but the same result can be "
 #~ "achieved on a masternode by entering "
 #~ "the same commands and adding the "
-#~ "prefix  ``~/.dashcore/dash-cli`` to each "
+#~ "prefix  ``~/.historiacore/historia-cli`` to each "
 #~ "command."
 #~ msgstr ""
 
@@ -735,18 +735,18 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "The Dash software on the masternode "
-#~ "is now updated. Since Dash 0.13 "
+#~ "The Historia software on the masternode "
+#~ "is now updated. Since Historia 0.13 "
 #~ "also updates the protocol version, it"
 #~ " is necessary to issue a ``masternode"
-#~ " start``  from Dash Core or DMT "
+#~ " start``  from Historia Core or DMT "
 #~ "command to keep your masternode in "
 #~ "the payment list during the transition"
 #~ " period. Ensure the protocol version "
 #~ "is set to ``70213`` if starting "
 #~ "from DMT, or see the `legacy "
 #~ "documentation "
-#~ "<https://docs.dash.org/en/0.12.3/masternodes/setup.html#start-"
+#~ "<https://docs.historia.network/en/0.12.3/masternodes/setup.html#start-"
 #~ "your-masternode>`__ for more details. After"
 #~ " your masternode software is updated, "
 #~ "it is necessary to wait until "
@@ -755,7 +755,7 @@ msgstr ""
 #~ " the DIP0003 masternode registration "
 #~ "process below. You can track DIP003 "
 #~ "activation progress `here "
-#~ "<http://178.254.23.111/~pub/Dash/Dash_Info.html>`__."
+#~ "<http://178.254.23.111/~pub/Historia/Historia_Info.html>`__."
 #~ msgstr ""
 
 #~ msgid ""
@@ -786,7 +786,7 @@ msgstr ""
 #~ "not yet active. You can update DMT"
 #~ " by downloading the version appropriate "
 #~ "for your system from the `DMT "
-#~ "Releases page <https://github.com/Bertrand256/dash-"
+#~ "Releases page <https://github.com/Bertrand256/historia-"
 #~ "masternode-tool/releases>`__.  Open DMT and "
 #~ "ensure your existing masternode configuration"
 #~ " appears."
@@ -811,13 +811,13 @@ msgstr ""
 #~ "to create the ProRegTx special "
 #~ "transaction to register the masternode "
 #~ "on the blockchain. This command must "
-#~ "be sent from a Dash Core wallet"
+#~ "be sent from a Historia Core wallet"
 #~ " holding a balance, since a standard"
 #~ " transaction fee is involved. You can"
 #~ " choose to send this from the "
 #~ "DMT developer's remote RPC node "
 #~ "(**automatic method**), or use your own"
-#~ " Dash Core wallet to submit the "
+#~ " Historia Core wallet to submit the "
 #~ "transaction and specify the source of"
 #~ " transaction fees (**manual method**). "
 #~ "Click **Continue** when you are ready."
@@ -845,7 +845,7 @@ msgstr ""
 #~ "for this change to take effect. "
 #~ "Enter the following commands, waiting a"
 #~ " few seconds in between to give "
-#~ "Dash Core time to shut down::"
+#~ "Historia Core time to shut down::"
 #~ msgstr ""
 
 #~ msgid ""

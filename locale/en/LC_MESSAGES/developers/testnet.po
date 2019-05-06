@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash latest\n"
+"Project-Id-Version: Historia latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 06:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,13 +19,13 @@ msgstr ""
 
 #: ../../developers/testnet.rst:1
 msgid ""
-"Dash testnet and devnets are used by Dash developers for testing using "
-"tDASH"
+"Historia testnet and devnets are used by Historia developers for testing using "
+"tHISTORIA"
 msgstr ""
 
 #: ../../developers/testnet.rst:1
 msgid ""
-"dash, masternodes, testnet, devnet, faucet, masternodes, testing, pool, "
+"historia, masternodes, testnet, devnet, faucet, masternodes, testing, pool, "
 "explorer, mining pools, block explorer"
 msgstr ""
 
@@ -35,10 +35,10 @@ msgstr ""
 
 #: ../../developers/testnet.rst:11
 msgid ""
-"Testnet is a fully functioning Dash blockchain with the one key exception"
-" that because the Dash on the network can be created freely, it has no "
-"value. This currency, known as tDASH, can be requested from a faucet to "
-"help developers test new versions of Dash, as well as test network "
+"Testnet is a fully functioning Historia blockchain with the one key exception"
+" that because the Historia on the network can be created freely, it has no "
+"value. This currency, known as tHISTORIA, can be requested from a faucet to "
+"help developers test new versions of Historia, as well as test network "
 "operations using identical versions of the software before they are "
 "carried out on the mainnet. There are a few other key differences:"
 msgstr ""
@@ -54,7 +54,7 @@ msgid ""
 msgstr ""
 
 #: ../../developers/testnet.rst:21
-msgid "Testnet balances are denominated in tDASH (instead of DASH)"
+msgid "Testnet balances are denominated in tHISTORIA (instead of HISTORIA)"
 msgstr ""
 
 #: ../../developers/testnet.rst:22
@@ -64,30 +64,30 @@ msgstr ""
 #: ../../developers/testnet.rst:23
 msgid ""
 "Bootstrapping uses different DNS seeds: test.dnsseed.masternode.io, "
-"testnet-seed.darkcoin.qa, testnet-seed.dashpay.io"
+"testnet-seed.darkcoin.qa, testnet-seed.HistoriaOffical.io"
 msgstr ""
 
 #: ../../developers/testnet.rst:25
-msgid "Launching Dash Core in testnet mode shows an orange splash screen"
+msgid "Launching Historia Core in testnet mode shows an orange splash screen"
 msgstr ""
 
 #: ../../developers/testnet.rst:27
 msgid ""
-"To start Dash Core in testnet mode, find your dash.conf file and enter "
+"To start Historia Core in testnet mode, find your historia.conf file and enter "
 "the following line::"
 msgstr ""
 
 #: ../../developers/testnet.rst:32
 msgid ""
-"With the release of Dash Core 12.3, Dash added support for a great new "
+"With the release of Historia Core 12.3, Historia added support for a great new "
 "feature — **named devnets**. Devnets are developer networks that combine "
 "some aspects of testnet (the global and public testing network) and some "
 "aspects of regtest (the local-only regression testing mode that provides "
 "controlled block generation). Unlike testnet, multiple independent "
 "devnets can be created and coexist without interference. For practical "
 "documentation on how to use devnets, see the `developer documentation "
-"<https://dash-docs.github.io/en/developer-examples#devnet-mode>`__ or "
-"this `blog post <https://blog.dash.org/dash-devnets-bc27ecbf0085>`__."
+"<https://historia-docs.github.io/en/developer-examples#devnet-mode>`__ or "
+"this `blog post <https://blog.historia.network/historia-devnets-bc27ecbf0085>`__."
 msgstr ""
 
 #: ../../developers/testnet.rst:43
@@ -98,30 +98,30 @@ msgstr ""
 msgid ""
 "The links below were collected from various community sources and may not"
 " necessarily be online or functioning at any given time. Please join "
-"`Dash Nation Discord <http://dashchat.org>`_ or the `Dash Forum "
-"<https://www.dash.org/forum/>`_ if you have a question relating to a "
+"`Historia Nation Discord <http://historiachat.org>`_ or the `Historia Forum "
+"<https://historia.network/forum/>`_ if you have a question relating to a "
 "specific service."
 msgstr ""
 
 #: ../../developers/testnet.rst:51
-msgid "**Test builds:** https://jenkins.dash.org/blue/"
+msgid "**Test builds:** https://jenkins.historia.network/blue/"
 msgstr ""
 
 #: ../../developers/testnet.rst:52
-msgid "**Bugtracker:** https://github.com/dashpay/dash/issues/new"
+msgid "**Bugtracker:** https://github.com/HistoriaOffical/historia/issues/new"
 msgstr ""
 
 #: ../../developers/testnet.rst:53
-msgid "**Discussion and help:** https://www.dash.org/forum/topic/testing.53/"
+msgid "**Discussion and help:** https://historia.network/forum/topic/testing.53/"
 msgstr ""
 
 #: ../../developers/testnet.rst:54
-msgid "**Masternode tools:** https://test.dashninja.pl/masternodes.html"
+msgid "**Masternode tools:** https://test.historianinja.pl/masternodes.html"
 msgstr ""
 
 #: ../../developers/testnet.rst:55
 msgid ""
-"**Android wallet:** https://www.dash.org/forum/threads/dash-wallet-for-"
+"**Android wallet:** https://historia.network/forum/threads/historia-wallet-for-"
 "android-v5-testnet.14775/"
 msgstr ""
 
@@ -138,11 +138,11 @@ msgid "http://test.faucet.masternode.io - by coingun"
 msgstr ""
 
 #: ../../developers/testnet.rst:62
-msgid "http://faucet.test.dash.crowdnode.io - by ndrezza"
+msgid "http://faucet.test.historia.crowdnode.io - by ndrezza"
 msgstr ""
 
 #: ../../developers/testnet.rst:63
-msgid "https://test.faucet.dashninja.pl - by elbereth"
+msgid "https://test.faucet.historianinja.pl - by elbereth"
 msgstr ""
 
 #: ../../developers/testnet.rst:66
@@ -150,11 +150,11 @@ msgid "Explorers"
 msgstr ""
 
 #: ../../developers/testnet.rst:68
-msgid "http://insight.test.dash.crowdnode.io"
+msgid "http://insight.test.historia.crowdnode.io"
 msgstr ""
 
 #: ../../developers/testnet.rst:69
-msgid "https://testnet-insight.dashevo.org/insight"
+msgid "https://testnet-insight.historiaevo.org/insight"
 msgstr ""
 
 #: ../../developers/testnet.rst:72
@@ -163,18 +163,18 @@ msgstr ""
 
 #: ../../developers/testnet.rst:74
 msgid ""
-"https://test.pool.dash.org [stratum+tcp://test.stratum.dash.org] - by "
+"https://test.pool.historia.network [stratum+tcp://test.stratum.historia.network] - by "
 "flare"
 msgstr ""
 
 #: ../../developers/testnet.rst:75
 msgid ""
-"http://test.p2pool.dash.siampm.com "
-"[stratum+tcp://test.p2pool.dash.siampm.com:17903] by thelazier"
+"http://test.p2pool.historia.siampm.com "
+"[stratum+tcp://test.p2pool.historia.siampm.com:17903] by thelazier"
 msgstr ""
 
 #: ../../developers/testnet.rst:76
-msgid "http://p2pool.dashninja.pl:17903/static - by elbereth"
+msgid "http://p2pool.historianinja.pl:17903/static - by elbereth"
 msgstr ""
 
 #: ../../developers/testnet.rst:77
@@ -194,9 +194,9 @@ msgstr ""
 
 #: ../../developers/testnet.rst:86
 msgid ""
-"You will probably be running a development version of Dash instead of the"
+"You will probably be running a development version of Historia instead of the"
 " stable release. See `here "
-"<https://jenkins.dash.org/blue/organizations/jenkins/dashpay-dash-gitian-"
+"<https://jenkins.historia.network/blue/organizations/jenkins/HistoriaOffical-historia-gitian-"
 "nightly/activity>`__ for a list of builds, then choose the latest "
 "successful build and click **Artifacts** to view a list of binaries."
 msgstr ""
@@ -210,25 +210,25 @@ msgstr ""
 #: ../../developers/testnet.rst:92
 msgid ""
 "Your desktop wallet must be running in testnet mode. Add the following "
-"line to *dash.conf*: ``testnet = 1``"
+"line to *historia.conf*: ``testnet = 1``"
 msgstr ""
 
 #: ../../developers/testnet.rst:94
 msgid ""
-"When sending the collateral, you can get the 1000 tDASH for free from a "
+"When sending the collateral, you can get the 1000 tHISTORIA for free from a "
 "faucet (see above)"
 msgstr ""
 
 #: ../../developers/testnet.rst:96
 msgid ""
-"You cannot use dashman to install development versions of Dash. See the "
+"You cannot use historiaman to install development versions of Historia. See the "
 "link to downloadable builds above."
 msgstr ""
 
 #: ../../developers/testnet.rst:98
 msgid ""
 "Your masternode configuration file must also specify testnet mode. Add "
-"the following line when setting up *dash.conf* on the masternode: "
+"the following line when setting up *historia.conf* on the masternode: "
 "``testnet = 1``"
 msgstr ""
 
@@ -242,21 +242,21 @@ msgstr ""
 msgid ""
 "When cloning sentinel, you may need to clone the development branch using"
 " the ``-b`` option, for example: ``git clone -b core-v0.12.2.x "
-"https://github.com/dashpay/sentinel.git``"
+"https://github.com/HistoriaOffical/sentinel.git``"
 msgstr ""
 
 #: ../../developers/testnet.rst:106
 msgid ""
 "Once sentinel is installed, modify "
-"``~/.dashcore/sentinel/sentinel.conf``, comment the mainnet line and "
+"``~/.historiacore/sentinel/sentinel.conf``, comment the mainnet line and "
 "uncomment: ``network=testnet``"
 msgstr ""
 
 #: ../../developers/testnet.rst:109
 msgid ""
 "The wallet holding the masternode collateral will expect to find the "
-"``masternode.conf`` file in ``~/.dashcore/testnet3/masternode.conf`` "
-"instead of ``~/.dashcore/masternode.conf``."
+"``masternode.conf`` file in ``~/.historiacore/testnet3/masternode.conf`` "
+"instead of ``~/.historiacore/masternode.conf``."
 msgstr ""
 
 #: ../../developers/testnet.rst:114
@@ -265,10 +265,10 @@ msgstr ""
 
 #: ../../developers/testnet.rst:116
 msgid ""
-"In November 2018, the Dash team announced the start of testing of the "
-"upcoming Dash 0.13.0 release. Extensive internal testing has already been"
+"In November 2018, the Historia team announced the start of testing of the "
+"upcoming Historia 0.13.0 release. Extensive internal testing has already been"
 " done on the 0.13.0 code, but there are numerous bugs that can only be "
-"revealed with actual use by real people. The Dash team invites anybody "
+"revealed with actual use by real people. The Historia team invites anybody "
 "who is interested to download the software and become active on testnet. "
 "This release includes:"
 msgstr ""
@@ -300,23 +300,23 @@ msgstr ""
 
 #: ../../developers/testnet.rst:131
 msgid ""
-"Testnet announcement: https://blog.dash.org/product-brief-dash-core-"
+"Testnet announcement: https://blog.historia.network/product-brief-historia-core-"
 "release-v0-13-0-5d7fddffb7ef"
 msgstr ""
 
 #: ../../developers/testnet.rst:132
 msgid ""
-"Product brief: https://blog.dash.org/product-brief-dash-core-"
+"Product brief: https://blog.historia.network/product-brief-historia-core-"
 "release-v0-13-0-5d7fddffb7ef"
 msgstr ""
 
 #: ../../developers/testnet.rst:133 ../../developers/testnet.rst:162
-msgid "Testnet tools: https://docs.dash.org/en/latest/developers/testnet.html"
+msgid "Testnet tools: https://docs.historia.network/en/latest/developers/testnet.html"
 msgstr ""
 
 #: ../../developers/testnet.rst:134 ../../developers/testnet.rst:163
 #: ../../developers/testnet.rst:190
-msgid "Issue tracking: https://github.com/dashpay/dash/issues/new"
+msgid "Issue tracking: https://github.com/HistoriaOffical/historia/issues/new"
 msgstr ""
 
 #: ../../developers/testnet.rst:136 ../../developers/testnet.rst:165
@@ -324,7 +324,7 @@ msgid "Latest test binaries:"
 msgstr ""
 
 #: ../../developers/testnet.rst:138
-msgid "https://github.com/dashpay/dash/releases/tag/v0.13.0.0-rc11"
+msgid "https://github.com/HistoriaOffical/historia/releases/tag/v0.13.0.0-rc11"
 msgstr ""
 
 #: ../../developers/testnet.rst:141
@@ -333,10 +333,10 @@ msgstr ""
 
 #: ../../developers/testnet.rst:143
 msgid ""
-"In June 2018, the Dash team announced the start of testing of the "
-"upcoming Dash 0.12.3 release. Extensive internal testing has already been"
+"In June 2018, the Historia team announced the start of testing of the "
+"upcoming Historia 0.12.3 release. Extensive internal testing has already been"
 " done on the 0.12.2 code, but there are numerous bugs that can only be "
-"revealed with actual use by real people. The Dash team invites anybody "
+"revealed with actual use by real people. The Historia team invites anybody "
 "who is interested to download the software and become active on testnet. "
 "This release includes:"
 msgstr ""
@@ -372,11 +372,11 @@ msgid "New Masternode Information Dialog"
 msgstr ""
 
 #: ../../developers/testnet.rst:161
-msgid "https://www.dash.org/forum/threads/v12-3-testing.38475"
+msgid "https://historia.network/forum/threads/v12-3-testing.38475"
 msgstr ""
 
 #: ../../developers/testnet.rst:167
-msgid "https://github.com/dashpay/dash/releases/tag/v0.12.3.0-rc3"
+msgid "https://github.com/HistoriaOffical/historia/releases/tag/v0.12.3.0-rc3"
 msgstr ""
 
 #: ../../developers/testnet.rst:171
@@ -385,18 +385,18 @@ msgstr ""
 
 #: ../../developers/testnet.rst:173
 msgid ""
-"In October 2017, the Dash team announced the launch of a testnet for "
-"public testing of the upcoming 0.12.2 release of the Dash software. "
+"In October 2017, the Historia team announced the launch of a testnet for "
+"public testing of the upcoming 0.12.2 release of the Historia software. "
 "Extensive internal testing has already been done on the 0.12.2 code, but "
 "there are numerous bugs that can only be revealed with actual use by real"
-" people. The Dash team invites anybody who is interested to download the "
+" people. The Historia team invites anybody who is interested to download the "
 "software and become active on testnet. This release includes:"
 msgstr ""
 
 #: ../../developers/testnet.rst:180
 msgid ""
 "DIP0001 implementation "
-"https://github.com/dashpay/dips/blob/master/dip-0001.md"
+"https://github.com/HistoriaOffical/dips/blob/master/dip-0001.md"
 msgstr ""
 
 #: ../../developers/testnet.rst:181
@@ -420,12 +420,12 @@ msgstr ""
 #: ../../developers/testnet.rst:188
 msgid ""
 "Testnet 12.2 discussion: "
-"https://www.dash.org/forum/threads/v12-2-testing.17412/"
+"https://historia.network/forum/threads/v12-2-testing.17412/"
 msgstr ""
 
 #: ../../developers/testnet.rst:189
 msgid ""
-"Testnet tools: https://www.dash.org/forum/threads/testnet-tools-"
+"Testnet tools: https://historia.network/forum/threads/testnet-tools-"
 "resources.1768/"
 msgstr ""
 
@@ -435,21 +435,21 @@ msgstr ""
 
 #: ../../developers/testnet.rst:194
 msgid ""
-"Dash Core: https://jenkins.dash.org/blue/organizations/jenkins/dashpay-"
-"dash-gitian-nightly"
+"Historia Core: https://jenkins.historia.network/blue/organizations/jenkins/HistoriaOffical-"
+"historia-gitian-nightly"
 msgstr ""
 
 #: ../../developers/testnet.rst:195
-msgid "Sentinel: https://github.com/dashpay/sentinel/tree/develop"
+msgid "Sentinel: https://github.com/HistoriaOffical/sentinel/tree/develop"
 msgstr ""
 
 #~ msgid ""
-#~ "Testnet is a fully functioning Dash "
+#~ "Testnet is a fully functioning Historia "
 #~ "blockchain with the one key exception"
-#~ " that because the Dash on the "
+#~ " that because the Historia on the "
 #~ "network can be created freely, it "
 #~ "has no value. Testnet helps developers"
-#~ " test new versions of Dash, as "
+#~ " test new versions of Historia, as "
 #~ "well as test network operations using"
 #~ " identical versions of the software "
 #~ "before they are carried out on the"
@@ -461,16 +461,16 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "http://test.p2pool.dash.siampm.com "
+#~ "http://test.p2pool.historia.siampm.com "
 #~ "[stratum+tcp://103.58.149.157:17903] by thelazier"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "The Dash team has recently announced "
+#~ "The Historia team has recently announced "
 #~ "the launch of a testnet for public"
 #~ " testing of the upcoming 12.2 release"
-#~ " of the Dash software. Unlike "
-#~ "mainnet, the DASH that exists on "
+#~ " of the Historia software. Unlike "
+#~ "mainnet, the HISTORIA that exists on "
 #~ "testnet has no real value, and "
 #~ "since its an entirely separate network,"
 #~ " there is no risk to using new"
@@ -479,7 +479,7 @@ msgstr ""
 #~ " on the 12.2 code, but there "
 #~ "are numerous bugs that can only be"
 #~ " revealed with actual use by real "
-#~ "people. The Dash team invites anybody"
+#~ "people. The Historia team invites anybody"
 #~ " who is interested to download the"
 #~ " software and become active on "
 #~ "testnet. This release includes:"
@@ -488,125 +488,125 @@ msgstr ""
 #~ msgid "Latest binaries:"
 #~ msgstr ""
 
-#~ msgid "http://test.explorer.dashninja.pl - by elbereth"
+#~ msgid "http://test.explorer.historianinja.pl - by elbereth"
 #~ msgstr ""
 
-#~ msgid "https://github.com/dashpay/dash/tree/v0.12.3.0-rc2"
+#~ msgid "https://github.com/HistoriaOffical/historia/tree/v0.12.3.0-rc2"
 #~ msgstr ""
 
 #~ msgid "Testnet"
 #~ msgstr ""
 
-#~ msgid "**Test builds:** https://bamboo.dash.org"
+#~ msgid "**Test builds:** https://bamboo.historia.network"
 #~ msgstr ""
 
-#~ msgid "https://testnet-insight.dashevo.org/insight/"
+#~ msgid "https://testnet-insight.historiaevo.org/insight/"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "You will probably be running a "
-#~ "development version of Dash instead of"
+#~ "development version of Historia instead of"
 #~ " the stable release. See `here "
-#~ "<https://bamboo.dash.org>`__ for downloadable "
+#~ "<https://bamboo.historia.network>`__ for downloadable "
 #~ "builds, then choose **Develop > Latest"
 #~ " Build > Artifacts**."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Windows: https://bamboo.dash.org/browse/DASHW-"
-#~ "DEV/latestSuccessful/artifact/JOB1/gitian-win-dash-"
+#~ "Windows: https://bamboo.historia.network/browse/HISTORIAW-"
+#~ "DEV/latestSuccessful/artifact/JOB1/gitian-win-historia-"
 #~ "dist/"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "macOS: https://bamboo.dash.org/browse/DASHM-"
-#~ "DEV/latestSuccessful/artifact/JOB1/gitian-osx-dash-"
+#~ "macOS: https://bamboo.historia.network/browse/HISTORIAM-"
+#~ "DEV/latestSuccessful/artifact/JOB1/gitian-osx-historia-"
 #~ "dist/"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Linux: https://bamboo.dash.org/browse/DASHL-"
-#~ "DEV/latestSuccessful/artifact/JOB1/gitian-linux-dash-"
+#~ "Linux: https://bamboo.historia.network/browse/HISTORIAL-"
+#~ "DEV/latestSuccessful/artifact/JOB1/gitian-linux-historia-"
 #~ "dist/"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Raspberry Pi: https://bamboo.dash.org/browse/DASHP-"
-#~ "DEV/latestSuccessful/artifact/JOB1/gitian-RPi2-dash-dist/"
+#~ "Raspberry Pi: https://bamboo.historia.network/browse/HISTORIAP-"
+#~ "DEV/latestSuccessful/artifact/JOB1/gitian-RPi2-historia-dist/"
 #~ msgstr ""
 
-#~ msgid "Sentinel: https://github.com/dashpay/sentinel/tree/core-v0.12.2.x"
+#~ msgid "Sentinel: https://github.com/HistoriaOffical/sentinel/tree/core-v0.12.2.x"
 #~ msgstr ""
 
-#~ msgid "**Test builds:** https://jenkins.dash.org"
+#~ msgid "**Test builds:** https://jenkins.historia.network"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "You will probably be running a "
-#~ "development version of Dash instead of"
+#~ "development version of Historia instead of"
 #~ " the stable release. See `here "
-#~ "<https://jenkins.dash.org>`__ for downloadable "
-#~ "builds, then choose **dashpay-dash > "
+#~ "<https://jenkins.historia.network>`__ for downloadable "
+#~ "builds, then choose **HistoriaOffical-historia > "
 #~ "develop** to view a list of recent"
 #~ " builds."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Dash Core: https://jenkins.dash.org/job/dashpay-"
-#~ "dash/job/develop/lastSuccessfulBuild/"
+#~ "Historia Core: https://jenkins.historia.network/job/HistoriaOffical-"
+#~ "historia/job/develop/lastSuccessfulBuild/"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Dash Core: "
-#~ "https://jenkins.dash.org/blue/organizations/jenkins/dashpay-"
-#~ "dash/activity"
+#~ "Historia Core: "
+#~ "https://jenkins.historia.network/blue/organizations/jenkins/HistoriaOffical-"
+#~ "historia/activity"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "You will probably be running a "
-#~ "development version of Dash instead of"
+#~ "development version of Historia instead of"
 #~ " the stable release. See `here "
-#~ "<https://jenkins.dash.org/blue>`__ for downloadable "
-#~ "builds, then choose **dashpay-dash > "
+#~ "<https://jenkins.historia.network/blue>`__ for downloadable "
+#~ "builds, then choose **HistoriaOffical-historia > "
 #~ "develop** to view a list of recent"
 #~ " builds."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Dash Core: "
-#~ "https://jenkins.dash.org/blue/organizations/jenkins/dashpay-"
-#~ "dash/activity/?branch=develop"
+#~ "Historia Core: "
+#~ "https://jenkins.historia.network/blue/organizations/jenkins/HistoriaOffical-"
+#~ "historia/activity/?branch=develop"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "Your masternode configuration file must "
 #~ "also specify testnet mode. Add the "
 #~ "following line when setting up "
-#~ "*dash.conf* on the masternode: testnet ="
+#~ "*historia.conf* on the masternode: testnet ="
 #~ " 1"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "dash, masternodes, testnet, devnet, faucet,"
+#~ "historia, masternodes, testnet, devnet, faucet,"
 #~ " masternodes, testing, mining pools"
 #~ msgstr ""
 
-#~ msgid "https://test.faucet.dash.org - by flare"
+#~ msgid "https://test.faucet.historia.network - by flare"
 #~ msgstr ""
 
-#~ msgid "http://test.faucet.dashninja.pl - by elbereth"
+#~ msgid "http://test.faucet.historianinja.pl - by elbereth"
 #~ msgstr ""
 
 #~ msgid "http://t.f.masternode.io - by coingun"
 #~ msgstr ""
 
-#~ msgid "https://test.explorer.dash.org - by flare"
+#~ msgid "https://test.explorer.historia.network - by flare"
 #~ msgstr ""
 
-#~ msgid "https://test.insight.dash.siampm.com - by thelazier"
+#~ msgid "https://test.insight.historia.siampm.com - by thelazier"
 #~ msgstr ""
 
-#~ msgid "https://test.explorer.dashninja.pl - by elbereth"
+#~ msgid "https://test.explorer.historianinja.pl - by elbereth"
 #~ msgstr ""
 
 #~ msgid "http://test.insight.masternode.io:3001 - by coingun"
@@ -616,14 +616,14 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "In June 2018, the Dash team "
+#~ "In June 2018, the Historia team "
 #~ "announced the start of testing of "
-#~ "the upcoming Dash 12.3 release. "
+#~ "the upcoming Historia 12.3 release. "
 #~ "Extensive internal testing has already "
 #~ "been done on the 12.2 code, but"
 #~ " there are numerous bugs that can "
 #~ "only be revealed with actual use "
-#~ "by real people. The Dash team "
+#~ "by real people. The Historia team "
 #~ "invites anybody who is interested to "
 #~ "download the software and become active"
 #~ " on testnet. This release includes:"
@@ -633,20 +633,20 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "In October 2017, the Dash team "
+#~ "In October 2017, the Historia team "
 #~ "announced the launch of a testnet "
 #~ "for public testing of the upcoming "
-#~ "12.2 release of the Dash software. "
+#~ "12.2 release of the Historia software. "
 #~ "Extensive internal testing has already "
 #~ "been done on the 12.2 code, but"
 #~ " there are numerous bugs that can "
 #~ "only be revealed with actual use "
-#~ "by real people. The Dash team "
+#~ "by real people. The Historia team "
 #~ "invites anybody who is interested to "
 #~ "download the software and become active"
 #~ " on testnet. This release includes:"
 #~ msgstr ""
 
-#~ msgid "http://faucet.test.dash.crowdnode.io - ndrezza"
+#~ msgid "http://faucet.test.historia.crowdnode.io - ndrezza"
 #~ msgstr ""
 

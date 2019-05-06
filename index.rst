@@ -1,24 +1,24 @@
 .. meta::
-   :description: The Dash Documentation offers information and guides on Dash, the open source peer-to-peer cryptocurrency with a strong focus on the payments industry. 
-   :keywords: dash, cryptocurrency, blockchain, documentation, guide, masternodes, mining, wallets, merchants, governance, instantsend, privatesend, x11, instant, private, secure, digital cash
+   :description: The Historia Documentation offers information and guides on Historia, the open source peer-to-peer cryptocurrency with a strong focus on the payments industry. 
+   :keywords: historia, cryptocurrency, blockchain, documentation, guide, masternodes, mining, wallets, merchants, governance, instantsend, privatesend, x11, instant, private, secure, digital cash
 
 ==================
-Dash Documentation
+Historia Documentation
 ==================
 
-.. image:: img/dash_logo.png
+.. image:: img/historia_logo.png
    :width: 60 %
    :align: center
 
-Dash is an open source peer-to-peer cryptocurrency with a strong focus
-on the payments industry. Dash offers a form of money that is portable,
+Historia is an open source peer-to-peer cryptocurrency with a strong focus
+on the payments industry. Historia offers a form of money that is portable,
 inexpensive, divisible and fast. It can be spent securely both online
 and in person with only minimal transaction fees. Based on the Bitcoin
-project, Dash aims to be the most user-friendly and scalable payments
-system in the world. In addition to Bitcoin's feature set, Dash
+project, Historia aims to be the most user-friendly and scalable payments
+system in the world. In addition to Bitcoin's feature set, Historia
 currently also offers instant transactions (:ref:`instantsend`), private
 transactions (:ref:`privatesend`) and operates a self-governing and
-self-funding model that enables the Dash network to pay individuals and
+self-funding model that enables the Historia network to pay individuals and
 businesses for work that adds value to the network. This
 :ref:`decentralized governance and budgeting system <governance>` makes
 it one of the first ever successful decentralized autonomous
@@ -32,8 +32,8 @@ or credit card company to reverse a transaction if your funds are stolen
 or lost. In this sense, it is similar to cash or gold, but
 cryptocurrency can be spent locally and internationally with equal ease,
 if you are confident you are sending funds to the right destination. For
-these reasons, the Dash documentation has a strong focus on safety and
-understanding the concepts and features that drive the Dash ecosystem.
+these reasons, the Historia documentation has a strong focus on safety and
+understanding the concepts and features that drive the Historia ecosystem.
 The videos, links and documentation below can help you get started, or
 use the table of contents on the left to find a specific topic of
 interest.

@@ -1,6 +1,6 @@
 .. meta::
    :description: Guides on debit cards, wage conversion, merchants and physical stores.
-   :keywords: dash, earning, spending, merchants, debit cards
+   :keywords: historia, earning, spending, merchants, debit cards
 
 .. _earning-spending:
 
@@ -8,27 +8,27 @@
 Earning and Spending
 ====================
 
-Dash is designed from the ground up to function as digital cash. This
-documentation discusses how and where Dash users can manage all of their
-personal finances using Dash.
+Historia is designed from the ground up to function as digital cash. This
+documentation discusses how and where Historia users can manage all of their
+personal finances using Historia.
 
 Earning
 =======
 
 A range of services and businesses are available to convert your wage to
-and from Dash as you receive it. It is of course easiest to receive
-payment from your employer in Dash directly, however this may not always
+and from Historia as you receive it. It is of course easiest to receive
+payment from your employer in Historia directly, however this may not always
 be an option. `Uphold <https://uphold.com>`_ allows you to instantly and
-automatically convert any received deposits to and from Dash. Building
+automatically convert any received deposits to and from Historia. Building
 on this functionality, `Bitwage <https://www.bitwage.com>`_ allows you
 to invoice and receive payment from any employer, practically anywhere
 in the world, and have a percentage of your wage immediately converted
-to Dash. You can then withdraw your wage to any Dash wallet for spending
+to Historia. You can then withdraw your wage to any Historia wallet for spending
 or saving. For more information, see the following blog posts:
 
- - **Bitwage:** https://blog.bitwage.com/2018/03/12/get-dash
- - **Uphold:** https://uphold.com/en/blog/posts/uphold/bitwage-launches-support-of-dash-powered-by-uphold
- - **Dash Force News:** https://www.dashforcenews.com/can-get-salary-dash-right-now
+ - **Bitwage:** https://blog.bitwage.com/2018/03/12/get-historia
+ - **Uphold:** https://uphold.com/en/blog/posts/uphold/bitwage-launches-support-of-historia-powered-by-uphold
+ - **Historia Force News:** https://www.historiaforcenews.com/can-get-salary-historia-right-now
 
 
 Spending
@@ -37,40 +37,40 @@ Spending
 Merchant Directory
 ------------------
 
-Dash can be spent in hundreds of stores and services both online and in
+Historia can be spent in hundreds of stores and services both online and in
 physical locations.
 
-.. image:: img/discover-dash.png
+.. image:: img/discover-historia.png
    :width: 70%
-   :target: https://discoverdash.com
+   :target: https://discoverhistoria.com
 
-**Discover Dash** lists businesses around the world accepting Dash,
+**Discover Historia** lists businesses around the world accepting Historia,
 sorted by category. It's easy to add your business to the list, and also
-features a short introduction for new Dash users. The site is maintained
-by Dash Force, and has been `featured on Dash Force News
-<https://www.dashforcenews.com/300-businesses-accept-dash-worldwide-
+features a short introduction for new Historia users. The site is maintained
+by Historia Force, and has been `featured on Historia Force News
+<https://www.historiaforcenews.com/300-businesses-accept-historia-worldwide-
 come-blockcypher-grants>`_.
 
-- `Discover Dash <https://discoverdash.com>`_
-- `Dash Merchants <https://www.dash.org/merchants>`_
+- `Discover Historia <https://discoverhistoria.com>`_
+- `Historia Merchants <https://historia.network/merchants>`_
 
 Debit Cards
 -----------
 
-Debit cards work by prepaying in Dash to load the account, then
+Debit cards work by prepaying in Historia to load the account, then
 withdrawing cash from an ATM or spending online or anywhere debit/credit
-cards are supported. The Dash is either exchanged at the time of
+cards are supported. The Historia is either exchanged at the time of
 purchase or in advance. For an overview and review of all available and
-upcoming cards, including cards funded by the Dash budget system, see
-`this article on Dash Force News <https://www.dashforcenews.com/debit-card-proposal-reviews/>`_.
+upcoming cards, including cards funded by the Historia budget system, see
+`this article on Historia Force News <https://www.historiaforcenews.com/debit-card-proposal-reviews/>`_.
 
 The rapidly evolving approach to regulation of cryptocurrencies such as
-Dash and instant exchange solutions such as ShapeShift means that
+Historia and instant exchange solutions such as ShapeShift means that
 availability of debit cards cannot be guaranteed in any or all
 jurisdictions. Check with the following providers for updates on the
-availability of Dash debit cards. 
+availability of Historia debit cards. 
 
-Disclaimer: This list is provided for informational purposes only. Dash
+Disclaimer: This list is provided for informational purposes only. Historia
 Core is not liable for any funds transmitted in error to these
 providers, or for the accuracy of information on this page.
 
@@ -83,7 +83,7 @@ PolisPay
   https://polispay.com
 
   The PolisPay Card is one of the fastest, easiest ways to turn your
-  Dash into fiat currency. You can use your PolisPay Card for online
+  Historia into fiat currency. You can use your PolisPay Card for online
   shopping and at any brick and mortar retailer that accepts MasterCard®
   debit cards. You can also withdraw cash at any MasterCard®-compatible
   ATM.
@@ -113,7 +113,7 @@ Paycent
   Paycent provides Android and iOS wallets that can be funded using both
   fiat and cryptocurrency. Users can transact with one another within
   the app, identified by their mobile numbers, or order physical debit
-  cards to spend their balance. Dash is the preferred network partner of
+  cards to spend their balance. Historia is the preferred network partner of
   Paycent.
 
 SpectroCoin
@@ -125,7 +125,7 @@ SpectroCoin
   https://spectrocoin.com
 
   Spectrocoin offers an exchange, wallet and POS service, with a
-  physical card potentially available again soon. Dash, Bitcoin and
+  physical card potentially available again soon. Historia, Bitcoin and
   Ethereum are supported, as well as over 20 major fiat currencies.
 
 Bitwala
@@ -137,7 +137,7 @@ Bitwala
   https://www.bitwala.com
 
   Bitwala is currently preparing legal documentation to re-launch it's
-  card service in Europe, and has supported Dash in the past.
+  card service in Europe, and has supported Historia in the past.
 
 
 Tax
@@ -148,6 +148,6 @@ for tax purposes. The following services are available to help you
 calculate your tax obligations.
 
 - https://www.node40.com
-- https://dash-taxes.herokuapp.com
+- https://historia-taxes.herokuapp.com
 - https://cointracking.info
 - https://bitcoin.tax

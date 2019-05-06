@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash latest\n"
+"Project-Id-Version: Historia latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-16 03:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,26 +19,26 @@ msgstr ""
 
 #: ../../wallets/web.rst:1
 msgid ""
-"MyDashWallet is a secure web wallet for Dash, supporting InstantSend and "
+"MyHistoriaWallet is a secure web wallet for Historia, supporting InstantSend and "
 "PrivateSend"
 msgstr ""
 
 #: ../../wallets/web.rst:1
-msgid "dash, mydashwallet, web, wallet, privatesend, instantsend, my dash wallet"
+msgid "historia, myhistoriawallet, web, wallet, privatesend, instantsend, my historia wallet"
 msgstr ""
 
 #: ../../wallets/web.rst:8
-msgid "MyDashWallet"
+msgid "MyHistoriaWallet"
 msgstr ""
 
 #: ../../wallets/web.rst:14
 msgid ""
-"`MyDashWallet <https://mydashwallet.org/>`_ is a web interface to the "
-"Dash blockchain, inspired by `MyEtherWallet "
+"`MyHistoriaWallet <https://myhistoriawallet.org/>`_ is a web interface to the "
+"Historia blockchain, inspired by `MyEtherWallet "
 "<https://www.myetherwallet.com>`_ and created by `DeltaEngine.net "
 "<https://deltaengine.net/>`_. It is explicitly not an online wallet, "
 "meaning you maintain control over your private keys at all times. Unlike "
-"many other light wallets, MyDashWallet also supports advanced Dash "
+"many other light wallets, MyHistoriaWallet also supports advanced Historia "
 "features such as InstantSend and PrivateSend. The project is non-profit, "
 "open source and free to use. You can load a wallet and transact in a "
 "variety of wallet formats:"
@@ -69,43 +69,43 @@ msgid "BIP32 HD recovery phrase (coming soon)"
 msgstr ""
 
 #: ../../wallets/web.rst:31
-msgid "MyDashWallet offers complete and detailed documentation for all functions."
+msgid "MyHistoriaWallet offers complete and detailed documentation for all functions."
 msgstr ""
 
 #: ../../wallets/web.rst:33
-msgid "`Getting started <https://mydashwallet.org/About>`_"
+msgid "`Getting started <https://myhistoriawallet.org/About>`_"
 msgstr ""
 
 #: ../../wallets/web.rst:34
 msgid ""
 "`How to Create a Wallet via Keystore file "
-"<https://mydashwallet.org/AboutCreateNewWallet>`_"
+"<https://myhistoriawallet.org/AboutCreateNewWallet>`_"
 msgstr ""
 
 #: ../../wallets/web.rst:35
 msgid ""
-"`Using the Ledger Hardware Wallet on MyDashWallet "
-"<https://mydashwallet.org/AboutLedgerHardwareWallet>`_"
+"`Using the Ledger Hardware Wallet on MyHistoriaWallet "
+"<https://myhistoriawallet.org/AboutLedgerHardwareWallet>`_"
 msgstr ""
 
 #: ../../wallets/web.rst:36
 msgid ""
-"`Using the Trezor Hardware Wallet on MyDashWallet "
-"<https://mydashwallet.org/AboutTrezorHardwareWallet>`_"
+"`Using the Trezor Hardware Wallet on MyHistoriaWallet "
+"<https://myhistoriawallet.org/AboutTrezorHardwareWallet>`_"
 msgstr ""
 
 #: ../../wallets/web.rst:37
 msgid ""
-"`How to does DASH InstantSend work on MyDashWallet? "
-"<https://mydashwallet.org/AboutInstantSend>`_"
+"`How to does HISTORIA InstantSend work on MyHistoriaWallet? "
+"<https://myhistoriawallet.org/AboutInstantSend>`_"
 msgstr ""
 
 #: ../../wallets/web.rst:38
 msgid ""
-"`How to does DASH PrivateSend work on MyDashWallet? "
-"<https://mydashwallet.org/AboutPrivateSend>`_"
+"`How to does HISTORIA PrivateSend work on MyHistoriaWallet? "
+"<https://myhistoriawallet.org/AboutPrivateSend>`_"
 msgstr ""
 
-#~ msgid "My Dash Wallet"
+#~ msgid "My Historia Wallet"
 #~ msgstr ""
 

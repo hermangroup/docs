@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-09 07:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../wallets/android/installation.rst:1
-msgid "How to install the Dash wallet on your Android device"
+msgid "How to install the Historia wallet on your Android device"
 msgstr ""
 
 #: ../../wallets/android/installation.rst:1
-msgid "dash, mobile, wallet, android, installation, compile"
+msgid "historia, mobile, wallet, android, installation, compile"
 msgstr ""
 
 #: ../../wallets/android/installation.rst:8
@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../wallets/android/installation.rst:13
 msgid ""
-"The easiest way to install the Dash Wallet for Android is from the Google"
+"The easiest way to install the Historia Wallet for Android is from the Google"
 " Play Store."
 msgstr ""
 
@@ -69,7 +69,7 @@ msgstr ""
 #: ../../wallets/android/installation.rst:33
 msgid ""
 "Using your phone, download the latest version of the APK from `this link "
-"<https://github.com/HashEngineering/dash-wallet/releases/latest>`_."
+"<https://github.com/HashEngineering/historia-wallet/releases/latest>`_."
 msgstr ""
 
 #: ../../wallets/android/installation.rst:35
@@ -104,7 +104,7 @@ msgstr ""
 #: ../../wallets/android/installation.rst:55
 msgid ""
 "Using your PC, download the latest version of the APK from `this link "
-"<https://github.com/HashEngineering/dash-wallet/releases/latest>`_."
+"<https://github.com/HashEngineering/historia-wallet/releases/latest>`_."
 msgstr ""
 
 #: ../../wallets/android/installation.rst:57
@@ -119,8 +119,8 @@ msgstr ""
 
 #: ../../wallets/android/installation.rst:66
 msgid ""
-"The source code for the Dash Android wallet is available on `GitHub "
-"<https://github.com/HashEngineering/dash-wallet>`__. The following "
+"The source code for the Historia Android wallet is available on `GitHub "
+"<https://github.com/HashEngineering/historia-wallet>`__. The following "
 "instructions describe how to compile an APK from source under an up-to- "
 "date installation of Ubuntu 18.04 LTS with a single non-root user. Note "
 "that NDK version 12b is required, instead of installing the latest "
@@ -137,13 +137,13 @@ msgstr ""
 
 #: ../../wallets/android/installation.rst:93
 msgid ""
-"Now that the build environment is ready, download and build the Dash "
+"Now that the build environment is ready, download and build the Historia "
 "Android Wallet source::"
 msgstr ""
 
 #: ../../wallets/android/installation.rst:100
 msgid ""
-"The built APK files are now available in the ``~/dash-"
+"The built APK files are now available in the ``~/historia-"
 "wallet/wallet/build/outputs/apk`` folder."
 msgstr ""
 
@@ -163,7 +163,7 @@ msgstr ""
 #~ msgid ""
 #~ "Using your phone, download the latest"
 #~ " version of the APK from `this "
-#~ "link <https://github.com/HashEngineering/dash-"
+#~ "link <https://github.com/HashEngineering/historia-"
 #~ "wallet/releases/latest>`_. At the time of "
 #~ "writing, this was 5.17.5."
 #~ msgstr ""
@@ -180,7 +180,7 @@ msgstr ""
 #~ msgid ""
 #~ "Using your phone, download the latest"
 #~ " version of the APK from `this "
-#~ "link <https://github.com/HashEngineering/dash- "
+#~ "link <https://github.com/HashEngineering/historia- "
 #~ "wallet/releases/latest>`_.  At the time of "
 #~ "writing, this was 5.17.5."
 #~ msgstr ""
@@ -195,7 +195,7 @@ msgstr ""
 #~ msgid ""
 #~ "Using your PC, download the latest "
 #~ "version of the APK from `this link"
-#~ " <https://github.com/HashEngineering/dash-"
+#~ " <https://github.com/HashEngineering/historia-"
 #~ "wallet/releases/latest>`_. At the time of "
 #~ "writing, this was 5.17.5."
 #~ msgstr ""
@@ -206,7 +206,7 @@ msgstr ""
 #~ msgid ""
 #~ "The source code for the wallet is"
 #~ " available `here <https://github.com/HashEngineering"
-#~ "/dash-wallet>`_. Details on how to "
+#~ "/historia-wallet>`_. Details on how to "
 #~ "compile the wallet from source will "
 #~ "be posted here when available."
 #~ msgstr ""
@@ -214,7 +214,7 @@ msgstr ""
 #~ msgid ""
 #~ "Using your phone, download the latest"
 #~ " version of the APK from `this "
-#~ "link <https://github.com/HashEngineering/dash- "
+#~ "link <https://github.com/HashEngineering/historia- "
 #~ "wallet/releases/latest>`_.  At the time of "
 #~ "writing, this was 5.18."
 #~ msgstr ""
@@ -222,7 +222,7 @@ msgstr ""
 #~ msgid ""
 #~ "Using your phone, download the latest"
 #~ " version of the APK from `this "
-#~ "link <https://github.com/HashEngineering/dash- "
+#~ "link <https://github.com/HashEngineering/historia- "
 #~ "wallet/releases/latest>`_.  At the time of "
 #~ "writing, this was 5.18.1."
 #~ msgstr ""
@@ -230,7 +230,7 @@ msgstr ""
 #~ msgid ""
 #~ "Using your PC, download the latest "
 #~ "version of the APK from `this link"
-#~ " <https://github.com/HashEngineering/dash-"
+#~ " <https://github.com/HashEngineering/historia-"
 #~ "wallet/releases/latest>`_. At the time of "
 #~ "writing, this was 5.18."
 #~ msgstr ""

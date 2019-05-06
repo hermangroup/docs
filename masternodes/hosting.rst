@@ -1,6 +1,6 @@
 .. meta::
-   :description: Masternode hosting services can help you set up and maintain a Dash masternode
-   :keywords: dash, cryptocurrency, hosting, server, linux, masternode, contact, trezor, setup, operator, owner, dip3, reward
+   :description: Masternode hosting services can help you set up and maintain a Historia masternode
+   :keywords: historia, cryptocurrency, hosting, server, linux, masternode, contact, trezor, setup, operator, owner, dip3, reward
 
 .. _masternode-hosting:
 
@@ -8,9 +8,9 @@
 Hosting Services
 ================
 
-Several Dash community members offer masternode hosting services. This
+Several Historia community members offer masternode hosting services. This
 service can be realized securely without the customer ever giving up
-control of the 1000 DASH required for collateral. For security reasons,
+control of the 1000 HISTORIA required for collateral. For security reasons,
 it is highly recommended to keep the collateral on a hardware wallet
 when taking advantage of a hosting service. A list of currently
 available masternode hosting services is available below.
@@ -18,7 +18,7 @@ available masternode hosting services is available below.
 List of hosting services
 ========================
 
-**Disclaimer**: Dash Core may be affiliated with these community
+**Disclaimer**: Historia Core may be affiliated with these community
 members, but is not involved in the provision of any of these services.
 
 
@@ -45,14 +45,14 @@ SID Hosting Service
 .. image:: img/splawik.png
    :width: 200px
    :align: right
-   :target: https://dashmasternode.io
+   :target: https://historiamasternode.io
 
-http://dashmasternode.io
+http://historiamasternode.io
 
-- Operated by: splawik21 (Dash Core team member)
+- Operated by: splawik21 (Historia Core team member)
 - Services: Hosting
-- Cost: €25/month, paid in Dash
-- `Site <http://dashmasternode.io>`__
+- Cost: €25/month, paid in Historia
+- `Site <http://historiamasternode.io>`__
 - `Email <sidhosting@protonmail.com>`__
 
 
@@ -105,11 +105,11 @@ https://node40.com
 
 - Operated by: Perry Woodin
 - Services: Hosting, Voting, Tax Compliance
-- 0.34 Dash/month (variable, discounts available)
+- 0.34 Historia/month (variable, discounts available)
 - `Site <https://node40.com>`__
 - `Email <info@node40.com>`__
-- `Forum <https://www.dash.org/forum/threads/node40-masternode-management-services.4447/>`__
-- `Review <https://www.dashforcenews.com/interview-perry-woodin-node40-dash-compliance/>`__
+- `Forum <https://historia.network/forum/threads/node40-masternode-management-services.4447/>`__
+- `Review <https://www.historiaforcenews.com/interview-perry-woodin-node40-historia-compliance/>`__
 
 
 Masternode.me
@@ -122,13 +122,13 @@ Masternode.me
 
 https://masternode.me
 
-- Operated by: moocowmoo (Dash Core team member)
+- Operated by: moocowmoo (Historia Core team member)
 - Services: Hosting
 - Cost: $35 per quarter
 - `Site <https://masternode.me>`__
 - `Email <moocowmoo@masternode.me>`__
-- `Forum <https://www.dash.org/forum/threads/moocowmoos-magic-masternode-maker.3305/>`__
-- `Review <https://www.dashforcenews.com/masternode-trusted-masternode-shares-review/>`__
+- `Forum <https://historia.network/forum/threads/moocowmoos-magic-masternode-maker.3305/>`__
+- `Review <https://www.historiaforcenews.com/masternode-trusted-masternode-shares-review/>`__
 
 
 币舫 (Bifun)
@@ -152,12 +152,12 @@ Masternodehosting
 
 https://masternodehosting.com
 
-- Operated by: flare (Dash Core team member)
+- Operated by: flare (Historia Core team member)
 - Services: Hosting
 - Cost: €18/month
 - `Site <https://masternodehosting.com>`__
 - `Email <holger@masternodehosting.com>`__
-- `Forum <https://www.dash.org/forum/threads/service-masternode-hosting-service.2648/>`__
+- `Forum <https://historia.network/forum/threads/service-masternode-hosting-service.2648/>`__
 
 
 .. _hosted-setup:
@@ -165,11 +165,11 @@ https://masternodehosting.com
 Registering a hosted masternode
 ===============================
 
-Dash 0.13.0 implements DIP003, which introduces several changes to how a
-Dash masternode is set up and operated. A list of available
+Historia 0.13.0 implements DIP003, which introduces several changes to how a
+Historia masternode is set up and operated. A list of available
 documentation appears below:
 
-- `DIP003 Deterministic Masternode Lists <https://github.com/dashpay/dips/blob/master/dip-0003.md>`__
+- `DIP003 Deterministic Masternode Lists <https://github.com/HistoriaOffical/dips/blob/master/dip-0003.md>`__
 - :ref:`dip3-changes`
 - :ref:`dip3-upgrade`
 - :ref:`Full masternode setup guide <masternode-setup>`
@@ -182,21 +182,21 @@ in DIP003.
 
 Registering a hosted masternode is done in several steps:
 
-#. Send 1000 DASH to an address you control in a single transaction and
+#. Send 1000 HISTORIA to an address you control in a single transaction and
    wait for 15 confirmations
 #. Correspond with your hosting provider to determine who will generate
    the operator BLS keys, whether their fee will be paid by an operator
    reward percentage or according to a separate contract, and whether
    the masternode will be set up before or after the registration
    transaction
-#. Prepare, sign and broadcast the registration transaction using Dash 
+#. Prepare, sign and broadcast the registration transaction using Historia 
    Core or DMT
 
 It is **highly recommended** to store the keys to your masternode
-collateral on a :ref:`hardware wallet <dash-hardware-wallet>` for added
+collateral on a :ref:`hardware wallet <historia-hardware-wallet>` for added
 security against hackers. Since the hardware wallet is only used to sign
 a transaction, there is no need to ever connect this wallet to the
-internet. However, a Dash Core wallet with balance (for the transaction
+internet. However, a Historia Core wallet with balance (for the transaction
 fee) is required to submit the registration transaction. The masternode
 registration process closely follows the :ref:`setup guide 
 <masternode-setup>`, beginning from the :ref:`registration step 
@@ -210,7 +210,7 @@ Operator transactions
 
 This documentation is intended for operators managing nodes on behalf of
 owners. If you provide an IP address and port of a synchronized full
-node with your ``masternodeblsprivkey`` entered in the ``dash.conf``
+node with your ``masternodeblsprivkey`` entered in the ``historia.conf``
 file as descibed :ref:`here <bls-generation>` to the masternode owner,
 it will appear in the DIP003 valid set immediately after they submit the
 ``protx register_submit`` command as described above. If the full node
@@ -222,6 +222,6 @@ masternode.
 
 The ProRegTx submitted by the owner also specifies the percentage reward
 for the operator. It does not specify the operator's reward address, so
-a ProUpServTx is also required to claim this reward by specifying a Dash
+a ProUpServTx is also required to claim this reward by specifying a Historia
 address. If the reward is not claimed, it will be paid to the owner in
 full.

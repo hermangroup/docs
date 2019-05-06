@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2017, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-09 07:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -17,87 +17,87 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../wallets/dashcore/installation.rst:1
+#: ../../wallets/historiacore/installation.rst:1
 msgid ""
-"How to download and install the Dash Core wallet. Compilation guide also "
+"How to download and install the Historia Core wallet. Compilation guide also "
 "available"
 msgstr ""
 
-#: ../../wallets/dashcore/installation.rst:1
-msgid "dash, core, wallet, linux, windows, macos, installation, compile"
+#: ../../wallets/historiacore/installation.rst:1
+msgid "historia, core, wallet, linux, windows, macos, installation, compile"
 msgstr ""
 
-#: ../../wallets/dashcore/installation.rst:9
+#: ../../wallets/historiacore/installation.rst:9
 msgid "Installation"
 msgstr ""
 
-#: ../../wallets/dashcore/installation.rst:11
+#: ../../wallets/historiacore/installation.rst:11
 msgid ""
-"Installing Dash Core is as simple as going to https://www.dash.org/ and "
+"Installing Historia Core is as simple as going to https://historia.network/ and "
 "downloading the appropriate file for your system, then following the "
 "appropriate installation steps for your system. Detailed guides are "
 "available for Linux, macOS and Windows operating systems below."
 msgstr ""
 
-#: ../../wallets/dashcore/installation.rst:16
+#: ../../wallets/historiacore/installation.rst:16
 msgid ""
-"It is also possible to :ref:`compile Dash Core from source code "
-"<compiling-dash>`."
+"It is also possible to :ref:`compile Historia Core from source code "
+"<compiling-historia>`."
 msgstr ""
 
-#: ../../wallets/dashcore/installation.rst:27
+#: ../../wallets/historiacore/installation.rst:27
 msgid "Video installation guides"
 msgstr ""
 
-#: ../../wallets/dashcore/installation.rst:29
+#: ../../wallets/historiacore/installation.rst:29
 msgid ""
 "These videos show how to download, verify the checksum and install the "
-"Dash Core Wallet on Linux, macOS and Windows systems. While they are "
+"Historia Core Wallet on Linux, macOS and Windows systems. While they are "
 "somewhat out of date, the procedure is still largely the same. The main "
-"difference is that the official Dash website is now https://www.dash.org/"
-" rather than https://www.dashpay.io/ as stated in the videos, although "
+"difference is that the official Historia website is now https://historia.network/"
+" rather than https://www.HistoriaOffical.io/ as stated in the videos, although "
 "the old site will redirect you to the new one. Also, in later versions of"
-" Dash Core, application data such as the blockchain is now stored in the "
-"\"DashCore\" rather than \"Dash\" folder."
+" Historia Core, application data such as the blockchain is now stored in the "
+"\"HistoriaCore\" rather than \"Historia\" folder."
 msgstr ""
 
-#: ../../wallets/dashcore/installation.rst:38
-msgid "**How to Install DashQT Wallet on Linux**"
+#: ../../wallets/historiacore/installation.rst:38
+msgid "**How to Install HistoriaQT Wallet on Linux**"
 msgstr ""
 
-#: ../../wallets/dashcore/installation.rst:46
-msgid "**How to Verify the CheckSum of DashQT Wallet for Linux**"
+#: ../../wallets/historiacore/installation.rst:46
+msgid "**How to Verify the CheckSum of HistoriaQT Wallet for Linux**"
 msgstr ""
 
-#: ../../wallets/dashcore/installation.rst:54
-msgid "**How to Install DashQT Wallet on macOS**"
+#: ../../wallets/historiacore/installation.rst:54
+msgid "**How to Install HistoriaQT Wallet on macOS**"
 msgstr ""
 
-#: ../../wallets/dashcore/installation.rst:62
-msgid "**How to Verify the CheckSum of DashQT Wallet for macOS**"
+#: ../../wallets/historiacore/installation.rst:62
+msgid "**How to Verify the CheckSum of HistoriaQT Wallet for macOS**"
 msgstr ""
 
-#: ../../wallets/dashcore/installation.rst:70
-msgid "**How to Install DashQT Wallet on Windows**"
+#: ../../wallets/historiacore/installation.rst:70
+msgid "**How to Install HistoriaQT Wallet on Windows**"
 msgstr ""
 
-#: ../../wallets/dashcore/installation.rst:78
-msgid "**How to Verify CheckSum of DashQT Wallet for Windows**"
+#: ../../wallets/historiacore/installation.rst:78
+msgid "**How to Verify CheckSum of HistoriaQT Wallet for Windows**"
 msgstr ""
 
-#: ../../wallets/dashcore/installation.rst:86
-msgid "**How to Encrypt/Decrypt Your DashQT Wallet**"
+#: ../../wallets/historiacore/installation.rst:86
+msgid "**How to Encrypt/Decrypt Your HistoriaQT Wallet**"
 msgstr ""
 
-#~ msgid "**How to Install DashQT Wallet on Mac**"
+#~ msgid "**How to Install HistoriaQT Wallet on Mac**"
 #~ msgstr ""
 
-#~ msgid "**How to Verify the CheckSum of DashQT Wallet for Mac**"
+#~ msgid "**How to Verify the CheckSum of HistoriaQT Wallet for Mac**"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Installing Dash Core is as simple "
-#~ "as going to https://www.dash.org/ and "
+#~ "Installing Historia Core is as simple "
+#~ "as going to https://historia.network/ and "
 #~ "downloading the appropriate file for "
 #~ "your system, then following the "
 #~ "appropriate installation steps for your "
@@ -107,8 +107,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Installing Dash Core is as simple "
-#~ "as going to https://www.dash.org and "
+#~ "Installing Historia Core is as simple "
+#~ "as going to https://historia.network and "
 #~ "downloading the appropriate file for "
 #~ "your system, then following the "
 #~ "appropriate installation steps for your "

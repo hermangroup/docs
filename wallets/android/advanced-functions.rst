@@ -1,8 +1,8 @@
 .. meta::
-   :description: Set up address book, exchange rates, sweep paper wallets and change settings in the Dash Android wallet.
-   :keywords: dash, mobile, wallet, android, address book, paper, exchange rates
+   :description: Set up address book, exchange rates, sweep paper wallets and change settings in the Historia Android wallet.
+   :keywords: historia, mobile, wallet, android, address book, paper, exchange rates
 
-.. _dash-android-advanced-functions:
+.. _historia-android-advanced-functions:
 
 Advanced functions
 ==================
@@ -16,9 +16,9 @@ own addresses in the wallet in order to keep track of regular incoming
 payments. You can access the address book by tapping the **Menu
 button**, then **Address book**. This will display a screen where you
 can swipe left and right between your own addresses and the addresses to
-which you frequently send Dash, such as family members for example. Tap
+which you frequently send Historia, such as family members for example. Tap
 the **More options** button to **Paste from clipboard** or to **Scan
-address** from a QR code, or tap an existing address to **Send Dash** or
+address** from a QR code, or tap an existing address to **Send Historia** or
 **Edit** the label.
 
 
@@ -52,14 +52,14 @@ of sending address**.
 Exchange rates
 --------------
 
-Dash Wallet for Android allows you to display the equivalent value of
-your Dash balance and in transactions by selecting a default fiat
+Historia Wallet for Android allows you to display the equivalent value of
+your Historia balance and in transactions by selecting a default fiat
 currency. To select a default currency, tap the **Menu button**, then
 **Exchange rates**. Find your preferred fiat currency, then tap the
 **More options** button for that currency and select **Set as default**.
-The exchange rate for this currency will appear when sending Dash, and
+The exchange rate for this currency will appear when sending Historia, and
 you can also tap in the fiat currency field to enter the value in the
-fiat currency directly, instead of in Dash.
+fiat currency directly, instead of in Historia.
 
 .. image:: img/menu-exchange.png
    :width: 160 px
@@ -80,7 +80,7 @@ Sweep paper wallet
 Sweeping a paper wallet is a method of transferring the value stored on
 an address you may have received as a paper wallet or from an ATM into
 your own wallet. You must have access to the private key for an address
-to use this function. In this process, all Dash stored on the address
+to use this function. In this process, all Historia stored on the address
 will be sent to a new address that has been deterministically generated
 from your wallet seed. The private keys you sweep do not become a part
 of your wallet.
@@ -88,7 +88,7 @@ of your wallet.
 To sweep a paper wallet, tap the **Menu button** and select **Sweep
 paper wallet**. Tap the **Scan** button and scan the QR code from your
 paper wallet. Once the private key has been identified, tap **Sweep** to
-create the transaction moving the Dash into your own wallet. Once this
+create the transaction moving the Historia into your own wallet. Once this
 transaction is confirmed, the paper is worthless and should be
 destroyed.
 
@@ -101,13 +101,13 @@ destroyed.
 .. image:: img/sweep-done.png
    :width: 160 px
 
-*Sweeping a paper wallet with 0.10 DASH into the Android Wallet*
+*Sweeping a paper wallet with 0.10 HISTORIA into the Android Wallet*
 
 
 Network monitor
 ---------------
 
-The Dash Android Wallet is a light wallet and functions in SPV mode,
+The Historia Android Wallet is a light wallet and functions in SPV mode,
 meaning it does not download a full copy of the blockchain. The network
 monitor allows you to view details about the full nodes to which you are
 connected. You can also swipe left to view blocks as they are created on
@@ -131,10 +131,10 @@ Settings
 .. image:: img/settings.png
    :width: 160 px
 
-*The Settings menu in Dash Android Wallet*
+*The Settings menu in Historia Android Wallet*
 
 The settings menu contains a range of options to control the behavior of
-the Dash Android Wallet. To access the settings, tap the **Menu
+the Historia Android Wallet. To access the settings, tap the **Menu
 button**, then **Settings**. You can then choose between **Settings**,
 **Diagnostics** and **About**, which displays wallet version, copyright,
 license and source code information.
@@ -143,8 +143,8 @@ Settings
 ^^^^^^^^
 
 Denomination and precision
-  Select the number of decimal places to show for DASH denominations, or
-  switch to mDASH or µDASH denominations
+  Select the number of decimal places to show for HISTORIA denominations, or
+  switch to mHISTORIA or µHISTORIA denominations
 
 Own name
   Enter a short name to be included in your QR codes when displaying to
@@ -177,10 +177,10 @@ Data usage
 
 Balance reminder
   Enables an Android system notification to remind you of any unspent
-  Dash if you don't open the app in that time.
+  Historia if you don't open the app in that time.
 
 Enable InstantSend
-  Enables functionality to use InstantSend to send and receive Dash.
+  Enables functionality to use InstantSend to send and receive Historia.
 
 Enable Lite Mode
   Enabling lite mode reduces bandwidth usage.

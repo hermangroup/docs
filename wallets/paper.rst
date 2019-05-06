@@ -1,8 +1,8 @@
 .. meta::
-   :description: Guides to secure paper wallets for Dash cryptocurrency
-   :keywords: dash, paper, wallet, encryption
+   :description: Guides to secure paper wallets for Historia cryptocurrency
+   :keywords: historia, paper, wallet, encryption
 
-.. _dash-paper-wallet:
+.. _historia-paper-wallet:
 
 Introduction
 ============
@@ -11,7 +11,7 @@ A paper wallet is a method of storing a private key to access funds
 stored on a single address. It can be generated on a computer that has
 never been connected to the internet, and printed out for air-gapped
 offline storage. As such, they are suitable for storing large amounts of
-Dash, but care must be taken not to lose the private key, since there is
+Historia, but care must be taken not to lose the private key, since there is
 no way of recovering funds if it is ever lost. To use the key, it must
 be imported or "swept" into an online wallet and should not be used
 again. Paper wallets are extremely secure but somewhat inconvenient for
@@ -33,7 +33,7 @@ using the proverbial "$5 wrench attack".
    The $5 wrench attack. Credit: xkcd.com
 
 Nevertheless, together with appropriate planning, paper wallets are a
-highly convenient and user-friendly way to store Dash long term.
+highly convenient and user-friendly way to store Historia long term.
 
 Security
 ========
@@ -73,18 +73,18 @@ procedure on how they can be accessed when necessary.
 Tools
 =====
 
-A Dash paper wallet can be generated in several ways.
+A Historia paper wallet can be generated in several ways.
 
-- Using the generator at https://paper.dash.org
-- Using the generator at https://walletgenerator.net/?currency=Dash
-- Offline using the Dash Paper Wallet source code from GitHub at 
-  https://github.com/dashpay/paper.dash.org/releases/latest
+- Using the generator at https://paper.historia.network
+- Using the generator at https://walletgenerator.net/?currency=Historia
+- Offline using the Historia Paper Wallet source code from GitHub at 
+  https://github.com/HistoriaOffical/paper.historia.network/releases/latest
 - Offline using the same code which powers both sites, by viewing the
   `GitHub project <https://github.com/MichaelMure/WalletGenerator.net>`_
   or `downloading directly <https://github.com/MichaelMure/WalletGenerator.net/archive/master.zip>`_
 
 Since the source code for all three options is largely similar, this
-guide will use https://paper.dash.org as an example. The websites
+guide will use https://paper.historia.network as an example. The websites
 listed here run entirely in your web browser without sending any of the
 data generated to an external server, but the most secure option is to
 download the wallet generator and run it on a computer with a freshly
@@ -97,14 +97,14 @@ useful!
 Address generation
 ==================
 
-Go to https://paper.dash.org in your web browser (or open index.html if
+Go to https://paper.historia.network in your web browser (or open index.html if
 you downloaded the wallet generator). Select your language and choose
-Dash as the currency if necessary. The following screen will appear:
+Historia as the currency if necessary. The following screen will appear:
 
 .. figure:: img/paper-start.png
    :width: 400px
 
-   The Dash Paper Wallet Generator at paper.dash.org
+   The Historia Paper Wallet Generator at paper.historia.network
 
 Some random data is required to ensure the generated address and key are
 unique. Move our mouse around and/or type random characters into the
@@ -114,18 +114,18 @@ appears:
 .. figure:: img/paper-randomness.png
    :width: 400px
 
-   Generating randomness for the Dash Paper Wallet Generator
+   Generating randomness for the Historia Paper Wallet Generator
 
 .. figure:: img/paper-addresses.png
    :width: 400px
 
-   A Dash address and private key generated using Dash Paper Wallet 
+   A Historia address and private key generated using Historia Paper Wallet 
    Generator
 
 Once your public address and private key (shown in Wallet Import Format
 or WIF) are visible on the **Single Wallet** tab, you should immediately
 click **Print** to print the data and store it securely. If you leave
-the page without somehow recording the dash address and private key, all
+the page without somehow recording the historia address and private key, all
 data will be irretrievably lost, together with any funds you have sent
 to the address.
 
@@ -147,11 +147,11 @@ the password you specified, resulting in a BIP38 key. You now need both
 this BIP38 key and the password to control funds on the address, so be
 sure to click **Print** and store both safely. If you are unsure about
 how to use BIP38 encryption, it is highly recommended to test the
-workflow with a low amount of Dash before storing significant funds on
+workflow with a low amount of Historia before storing significant funds on
 an encrypted paper wallet. If you forget the password or lose the
 encrypted key, you will permanently lose access to your funds.
 
-A Dash WIF address can be easily identified because it always begins
+A Historia WIF address can be easily identified because it always begins
 with "7". A BIP38 format encrypted key can be identified because it
 always begins with "6P". See `here <https://bitcoinpaperwallet.com/bip38
 -password-encrypted-wallets/>`_ to learn more about BIP38.
@@ -159,14 +159,14 @@ always begins with "6P". See `here <https://bitcoinpaperwallet.com/bip38
 .. figure:: img/paper-encrypted.png
    :width: 400px
 
-   Encrypted paper wallet generated using Dash Paper Wallet Generator
+   Encrypted paper wallet generated using Historia Paper Wallet Generator
 
 Sending to a paper wallet and viewing the balance
 -------------------------------------------------
 
-You can send Dash to a paper wallet address in the same way as to any
-other Dash address. See the documentation for your wallet if you do not
-know how to do this. For this example, 0.05 Dash (minus transaction fee)
+You can send Historia to a paper wallet address in the same way as to any
+other Historia address. See the documentation for your wallet if you do not
+know how to do this. For this example, 0.05 Historia (minus transaction fee)
 has been sent to the paper wallet address. Anyone with knowledge of the
 public address is able to see the balance of the wallet using a block
 explorer, but only someone with knowledge of the private key can access
@@ -177,7 +177,7 @@ small amounts first to learn how it works.
 .. figure:: img/paper-block.png
    :width: 400px
 
-   Viewing the balance of the paper wallet using the Dash Block Explorer at explorer.dash.org
+   Viewing the balance of the paper wallet using the Historia Block Explorer at explorer.historia.network
 
 Spending from a paper wallet
 ============================
@@ -211,7 +211,7 @@ use it in the next step.
 .. figure:: img/paper-wif.png
    :width: 400px
 
-   Dash Paper Wallet Generator displaying information derived from an
+   Historia Paper Wallet Generator displaying information derived from an
    encrypted private key
 
 Importing the private key to your live wallet
@@ -219,9 +219,9 @@ Importing the private key to your live wallet
 
 When you are ready to spend the balance on the paper wallet, you will
 need to import the private key used to control the address printed on
-the wallet into another Dash wallet that is connected to the internet.
-We will use the Dash Core Wallet in this example, although Dash Electrum
-and mobile wallets are also supported. Open Dash Core Wallet, click
+the wallet into another Historia wallet that is connected to the internet.
+We will use the Historia Core Wallet in this example, although Historia Electrum
+and mobile wallets are also supported. Open Historia Core Wallet, click
 **Settings** and **Unlock Wallet**. Enter your wallet passphrase. Then
 click **Tools** and select **Debug Console**. The console appears. Enter
 the following command:
@@ -233,7 +233,7 @@ the following command:
 .. figure:: img/paper-import.png
    :width: 400px
 
-   Dash Core Wallet importing a private key
+   Historia Core Wallet importing a private key
 
 This process requires rescanning the entire downloaded blockchain for
 transactions involving this address, and will therefore take some time.
@@ -248,7 +248,7 @@ there.
 .. figure:: img/paper-coin-control.png
    :width: 400px
 
-   Paper wallet address successfully imported into Dash Core Wallet from
+   Paper wallet address successfully imported into Historia Core Wallet from
    WIF private key
 
 Since the paper wallet public address still holds the funds, it can also

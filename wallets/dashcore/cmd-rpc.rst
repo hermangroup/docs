@@ -1,8 +1,8 @@
 .. meta::
-   :description: Dash Core wallet startup arguments and RPC command reference
-   :keywords: dash, core, wallet, arguments, commands, RPC
+   :description: Historia Core wallet startup arguments and RPC command reference
+   :keywords: historia, core, wallet, arguments, commands, RPC
 
-.. _dashcore-rpc:
+.. _historiacore-rpc:
 
 ======================
 Arguments and commands
@@ -16,48 +16,48 @@ of ``setting=value`` pairs, one per line, with optional comments
 starting with the ``#`` character.
 
 The configuration file is not automatically created; you can create it
-using your favorite plain-text editor. By default, dash-qt (or dashd)
-will look for a file named ``dash.conf`` in the dash data directory, but
+using your favorite plain-text editor. By default, historia-qt (or historiad)
+will look for a file named ``historia.conf`` in the historia data directory, but
 both the data directory and the configuration file path may be changed
 using the -datadir and -conf command-line arguments.
 
 +----------+--------------------------------+-----------------------------------------------------------------------------------------------+
 | Platform | Path to data folder            | Typical path to configuration file                                                            |
 +==========+================================+===============================================================================================+
-| Linux    | ~/                             | /home/username/.dashcore/dash.conf                                                            |
+| Linux    | ~/                             | /home/username/.historiacore/historia.conf                                                            |
 +----------+--------------------------------+-----------------------------------------------------------------------------------------------+
-| macOS    | ~/Library/Application Support/ | /Users/username/Library/Application Support/DashCore/dash.conf                                |
+| macOS    | ~/Library/Application Support/ | /Users/username/Library/Application Support/HistoriaCore/historia.conf                                |
 +----------+--------------------------------+-----------------------------------------------------------------------------------------------+
-| Windows  | %APPDATA%                      | (Vista-10) C:\\Users\\username\\AppData\\Roaming\\DashCore\\dash.conf                         |
+| Windows  | %APPDATA%                      | (Vista-10) C:\\Users\\username\\AppData\\Roaming\\HistoriaCore\\historia.conf                         |
 |          |                                |                                                                                               |
-|          |                                | (2000-XP) C:\\Documents and Settings\\username\\Application Data\\DashCore\\dash.conf         |
+|          |                                | (2000-XP) C:\\Documents and Settings\\username\\Application Data\\HistoriaCore\\historia.conf         |
 +----------+--------------------------------+-----------------------------------------------------------------------------------------------+
 
-Note: if running Dash in testnet mode, the sub-folder ``testnet3`` will
+Note: if running Historia in testnet mode, the sub-folder ``testnet3`` will
 be appended to the data directory automatically.
 
 Command line arguments
 ======================
 
-These commands are accurate as of Dash Core version 0.13.0.0.
+These commands are accurate as of Historia Core version 0.13.0.0.
 
-- `dashd`_
-- `dash-qt`_
-- `dash-cli`_
-- `dash-tx`_
+- `historiad`_
+- `historia-qt`_
+- `historia-cli`_
+- `historia-tx`_
 
 
-dashd
+historiad
 -----
 
-Dash Core Daemon
+Historia Core Daemon
 
 
 Usage
 ^^^^^
 
-dashd [options]
-  Start Dash Core Daemon
+historiad [options]
+  Start Historia Core Daemon
 
 
 Options
@@ -69,7 +69,7 @@ Options
 --alertnotify=<cmd>                    Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)
 --blocknotify=<cmd>                    Execute command when the best block changes (%s in cmd is replaced by block hash)
 --assumevalid=<hex>                    If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: 00000000000000b4181bbbdddbae464ce11fede5d0292fb63fdede1e7c8ab21c, testnet: 00000ce22113f3eb8636e225d6a1691e132fdd587aed993e1bc9b07a0235eea4)
---conf=<file>                          Specify configuration file (default: dash.conf)
+--conf=<file>                          Specify configuration file (default: historia.conf)
 --daemon                               Run in the background as a daemon and accept commands
 --datadir=<dir>                        Specify data directory
 --dbcache=<n>                          Set database cache size in megabytes (4 to 16384, default: 100)
@@ -79,7 +79,7 @@ Options
 --mempoolexpiry=<n>                    Do not keep transactions in the mempool longer than <n> hours (default: 72)
 --blockreconstructionextratxn=<n>      Extra transactions to keep in memory for compact block reconstructions (default: 100)
 --par=<n>                              Set the number of script verification threads (-1 to 16, 0 = auto, <0 = leave that many cores free, default: 0)
---pid=<file>                           Specify pid file (default: dashd.pid)
+--pid=<file>                           Specify pid file (default: historiad.pid)
 --prune=<n>                            Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, >945 = automatically prune block files to stay under the specified target size in MiB)
 --reindex-chainstate                   Rebuild chain state from the currently indexed blocks
 --reindex                              Rebuild chain state and block index from the blk*.dat files on disk
@@ -134,9 +134,9 @@ Wallet options
 
 --disablewallet                        Do not load the wallet and disable wallet RPC calls
 --keypool=<n>                          Set key pool size to <n> (default: 1000)
---fallbackfee=<amt>                    A fee rate (in DASH/kB) that will be used when fee estimation has insufficient data (default: 0.00001)
---mintxfee=<amt>                       Fees (in DASH/kB) smaller than this are considered zero fee for transaction creation (default: 0.00001)
---paytxfee=<amt>                       Fee (in DASH/kB) to add to transactions you send (default: 0.00)
+--fallbackfee=<amt>                    A fee rate (in HISTORIA/kB) that will be used when fee estimation has insufficient data (default: 0.00001)
+--mintxfee=<amt>                       Fees (in HISTORIA/kB) smaller than this are considered zero fee for transaction creation (default: 0.00001)
+--paytxfee=<amt>                       Fee (in HISTORIA/kB) to add to transactions you send (default: 0.00)
 --rescan                               Rescan the block chain for missing wallet transactions on startup
 --salvagewallet                        Attempt to recover private keys from a corrupt wallet on startup
 --spendzeroconfchange                  Spend unconfirmed change when sending transactions (default: 1)
@@ -178,12 +178,12 @@ Debugging/Testing options
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 --uacomment=<cmt>                      Append comment to the user agent string
---debug=<category>                     Output debugging information (default: 0, supplying <category> is optional). If <category> is not supplied or if <category> = 1, output all debugging information.<category> can be: addrman, alert, bench, cmpctblock, coindb, db, http, leveldb, libevent, lock, mempool, mempoolrej, net, proxy, prune, rand, reindex, rpc, selectcoins, tor, zmq, dash (or specifically: gobject, instantsend, keepass, masternode, mnpayments, mnsync, privatesend, spork).
+--debug=<category>                     Output debugging information (default: 0, supplying <category> is optional). If <category> is not supplied or if <category> = 1, output all debugging information.<category> can be: addrman, alert, bench, cmpctblock, coindb, db, http, leveldb, libevent, lock, mempool, mempoolrej, net, proxy, prune, rand, reindex, rpc, selectcoins, tor, zmq, historia (or specifically: gobject, instantsend, keepass, masternode, mnpayments, mnsync, privatesend, spork).
 --help-debug                           Show all debugging options (usage: --help -help-debug)
 --logips                               Include IP addresses in debug output (default: 0)
 --logtimestamps                        Prepend debug output with timestamp (default: 1)
---minrelaytxfee=<amt>                  Fees (in DASH/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: 0.00001)
---maxtxfee=<amt>                       Maximum total fees (in DASH) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: 0.10)
+--minrelaytxfee=<amt>                  Fees (in HISTORIA/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: 0.00001)
+--maxtxfee=<amt>                       Maximum total fees (in HISTORIA) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: 0.10)
 --printtoconsole                       Send trace/debug info to console instead of debug.log file
 --printtodebuglog                      Send trace/debug info to debug.log file (default: 1)
 --shrinkdebugfile                      Shrink debug.log file on client startup (default: 1 when no -debug)
@@ -194,7 +194,7 @@ Chain selection options
 
 --testnet                              Use the test chain
 --devnet=<name>                        Use devnet chain with provided name
---litemode=<n>                         Disable all Dash specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: 0)
+--litemode=<n>                         Disable all Historia specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: 0)
 --sporkaddr=<hex>                      Override spork address. Only useful for regtest and devnet. Using this on mainnet or testnet will ban you.
 --minsporkkeys=<n>                     Overrides minimum spork signers to change spork value. Only useful for regtest and devnet. Using this on mainnet or testnet will ban you.
 
@@ -216,7 +216,7 @@ PrivateSend options
 --privatesendmultisession=<n>          Enable multiple PrivateSend mixing sessions per block, experimental (0-1, default: 0)
 --privatesendsessions=<n>              Use N separate masternodes in parallel to mix funds (1-10, default: 4)
 --privatesendrounds=<n>                Use N separate masternodes for each denominated input to mix funds (2-16, default: 4)
---privatesendamount=<n>                Keep N DASH anonymized (2-21000000, default: 1000)
+--privatesendamount=<n>                Keep N HISTORIA anonymized (2-21000000, default: 1000)
 --liquidityprovider=<n>                Provide liquidity to PrivateSend by infrequently mixing coins on a continual basis (0-100, default: 0, 1=very frequent, high fees, 100=very infrequent, low fees)
 
 
@@ -240,7 +240,7 @@ Block creation options
 
 --blockmaxsize=<n>                     Set maximum block size in bytes (default: 2000000)
 --blockprioritysize=<n>                Set maximum size of high-priority/low-fee transactions in bytes (default: 10000)
---blockmintxfee=<amt>                  Set lowest fee rate (in DASH/kB) for transactions to be included in block creation. (default: 0.00001)
+--blockmintxfee=<amt>                  Set lowest fee rate (in HISTORIA/kB) for transactions to be included in block creation. (default: 0.00001)
 
 
 RPC server options
@@ -258,18 +258,18 @@ RPC server options
 --rpcthreads=<n>                       Set the number of threads to service RPC calls (default: 4)
 
 
-dash-qt
+historia-qt
 -------
 
-Dash Core QT GUI, use same command line options as dashd with additional
+Historia Core QT GUI, use same command line options as historiad with additional
 options for UI as described below.
 
 
 Usage
 ^^^^^
 
-dash-qt [command-line options]
-  Start Dash Core QT GUI
+historia-qt [command-line options]
+  Start Historia Core QT GUI
 
 
 Wallet options
@@ -281,7 +281,7 @@ Wallet options
 Debugging/Testing options
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
---debug=<category>                     Output debugging information (default: 0, supplying <category> is optional). If <category> is not supplied or if <category> = 1, output all debugging information.<category> can be: addrman, alert, bench, cmpctblock, coindb, db, http, leveldb, libevent, lock, mempool, mempoolrej, net, proxy, prune, rand, reindex, rpc, selectcoins, tor, zmq, dash (or specifically: gobject, instantsend, keepass, masternode, mnpayments, mnsync, privatesend, spork), qt.
+--debug=<category>                     Output debugging information (default: 0, supplying <category> is optional). If <category> is not supplied or if <category> = 1, output all debugging information.<category> can be: addrman, alert, bench, cmpctblock, coindb, db, http, leveldb, libevent, lock, mempool, mempoolrej, net, proxy, prune, rand, reindex, rpc, selectcoins, tor, zmq, historia (or specifically: gobject, instantsend, keepass, masternode, mnpayments, mnsync, privatesend, spork), qt.
 
  
 UI options
@@ -295,20 +295,20 @@ UI options
 --resetguisettings                     Reset all settings changed in the GUI
 
 
-dash-cli
+historia-cli
 --------
 
-Dash Core RPC client
+Historia Core RPC client
 
 
 Usage
 ^^^^^
 
-dash-cli [options] <command> [params]  
-  Send command to Dash Core
-dash-cli [options] help                
+historia-cli [options] <command> [params]  
+  Send command to Historia Core
+historia-cli [options] help                
   List commands
-dash-cli [options] help <command>      
+historia-cli [options] help <command>      
   Get help for a command
 
 
@@ -316,7 +316,7 @@ Options
 ^^^^^^^
 
 --help                                 This help message
---conf=<file>                          Specify configuration file (default: dash.conf)
+--conf=<file>                          Specify configuration file (default: historia.conf)
 --datadir=<dir>                        Specify data directory
 
 
@@ -336,19 +336,19 @@ Chain selection options
 --stdin                                Read extra arguments from standard input, one per line until EOF/Ctrl-D (recommended for sensitive information such as passphrases)
 
 
-dash-tx
+historia-tx
 -------
 
-Dash Core dash-tx utility
+Historia Core historia-tx utility
 
 
 Usage
 ^^^^^
 
-dash-tx [options] <hex-tx> [commands]
-  Update hex-encoded dash transaction
-dash-tx [options] -create [commands]
-  Create hex-encoded dash transaction
+historia-tx [options] <hex-tx> [commands]
+  Update hex-encoded historia transaction
+historia-tx [options] -create [commands]
+  Create hex-encoded historia transaction
 
 
 Options
@@ -407,12 +407,12 @@ set=NAME:JSON-STRING
 RPC commands
 ============
 
-This documentation lists all available RPC commands as of Dash version
+This documentation lists all available RPC commands as of Historia version
 0.13.0.0, and limited documentation on what each command does. For full
 documentation of arguments, results and examples, type help ( "command"
 ) to view full details at the console. You can enter commands either
-from **Tools > Debug** console in the QT wallet, or using *dash-cli* for
-headless wallets and *dashd*.
+from **Tools > Debug** console in the QT wallet, or using *historia-cli* for
+headless wallets and *historiad*.
 
 
 Addressindex
@@ -484,7 +484,7 @@ verifytxoutproof "proof"
 Control
 -------
 
-debug ( 0 | 1 | addrman | alert | bench | coindb | db | lock | rand | rpc | selectcoins | mempool | mempoolrej | net | proxy | prune | http | libevent | tor | zmq | dash | privatesend | instantsend | masternode | spork | keepass | mnpayments | gobject )
+debug ( 0 | 1 | addrman | alert | bench | coindb | db | lock | rand | rpc | selectcoins | mempool | mempoolrej | net | proxy | prune | http | libevent | tor | zmq | historia | privatesend | instantsend | masternode | spork | keepass | mnpayments | gobject )
   Change debug category on the fly. Specify single category or use '+' to specify many.
 getinfo
   DEPRECATED. Returns an object containing various state info.
@@ -493,10 +493,10 @@ getmemoryinfo
 help ( "command" ) ("subCommand")
   List all commands, or get help for a specified comm
 stop
-  Stop Dash Core server.
+  Stop Historia Core server.
 
 
-Dash
+Historia
 ----
 
 getgovernanceinfo
@@ -531,7 +531,7 @@ gobject "command"...
     vote-alias
       Vote on a governance object by masternode alias (using masternode.conf setup)
     vote-conf
-      Vote on a governance object by masternode configured in dash.conf
+      Vote on a governance object by masternode configured in historia.conf
     vote-many
       Vote on a governance object by all masternodes (using masternode.conf setup)
 masternode "command"...
@@ -717,7 +717,7 @@ estimatesmartpriority nblocks
 signmessagewithprivkey "privkey" "message"
   Sign a message with the private key of an address
 validateaddress "address"
-  Return information about the given dash address.
+  Return information about the given historia address.
 verifymessage "address" "signature" "message"
   Verify a signed message
 
@@ -728,7 +728,7 @@ Wallet
 abandontransaction "txid"
   Mark in-wallet transaction <txid> as abandoned. This will mark this transaction and all its in-wallet descendants as abandoned which will allow for their inputs to be respent.
 addmultisigaddress nrequired ["key",...] ( "account" )
-  Add a nrequired-to-sign multisignature address to the wallet. Each key is a Dash address or hex-encoded public key. If 'account' is specified (DEPRECATED), assign address to that account.
+  Add a nrequired-to-sign multisignature address to the wallet. Each key is a Historia address or hex-encoded public key. If 'account' is specified (DEPRECATED), assign address to that account.
 backupwallet "destination"
   Safely copies current wallet file to destination, which can be a directory or a path with filename.
 dumphdinfo
@@ -740,15 +740,15 @@ dumpwallet "filename"
 getaccount "address"
   DEPRECATED. Returns the account associated with the given address.
 getaccountaddress "account"
-  DEPRECATED. Returns the current Dash address for receiving payments to this account.
+  DEPRECATED. Returns the current Historia address for receiving payments to this account.
 getaddressesbyaccount "account"
   DEPRECATED. Returns the list of addresses for the given account.
 getbalance ( "account" minconf addlocked include_watchonly )
   If account is not specified, returns the server's total available balance. If account is specified (DEPRECATED), returns the balance in the account. Note that the account "" is not the same as leaving the parameter out. The server total may be different to the balance in the default "" account.
 getnewaddress ( "account" )
-  Returns a new Dash address for receiving payments. If 'account' is specified (DEPRECATED), it is added to the address book  so payments received with the address will be credited to 'account'.
+  Returns a new Historia address for receiving payments. If 'account' is specified (DEPRECATED), it is added to the address book  so payments received with the address will be credited to 'account'.
 getrawchangeaddress
-  Returns a new Dash address, for receiving change. This is for use with raw transactions, NOT normal use.
+  Returns a new Historia address, for receiving change. This is for use with raw transactions, NOT normal use.
 getreceivedbyaccount "account" ( minconf addlocked )
   DEPRECATED. Returns the total amount received by addresses with <account> in transactions with specified minimum number of confirmations.
 getreceivedbyaddress "address" ( minconf addlocked )
@@ -767,7 +767,7 @@ importelectrumwallet "filename" index
   Imports keys from an Electrum wallet export file (.csv or .json)
 importmulti "requests" "options"
   Import addresses/scripts (with private or public keys, redeem script (P2SH)), rescanning all addresses in one-shot-only (rescan can be disabled via options).
-importprivkey "dashprivkey" ( "label" ) ( rescan )
+importprivkey "historiaprivkey" ( "label" ) ( rescan )
   Adds a private key (as returned by dumpprivkey) to your wallet.
 importprunedfunds
   Imports funds without rescan. Corresponding address or script must previously be included in wallet. Aimed towards pruned wallets. The end-user is responsible to import additional transactions that subsequently spend the imported outputs or rescan after the point in the blockchain the transaction is included.
@@ -806,7 +806,7 @@ move "fromaccount" "toaccount" amount ( minconf "comment" )
 removeprunedfunds "txid"
   Deletes the specified transaction from the wallet. Meant for use with pruned wallets and as a companion to importprunedfunds. This will effect wallet balances.
 sendfrom "fromaccount" "toaddress" amount ( minconf addlocked "comment" "comment_to" )
-  DEPRECATED (use sendtoaddress). Sent an amount from an account to a dash address. Requires wallet passphrase to be set with walletpassphrase call.
+  DEPRECATED (use sendtoaddress). Sent an amount from an account to a historia address. Requires wallet passphrase to be set with walletpassphrase call.
 sendmany "fromaccount" {"address":amount,...} ( minconf addlocked "comment" ["address",...] subtractfeefromamount use_is use_ps )
   Send multiple times. Amounts are double-precision floating point numbers. Requires wallet passphrase to be set with walletpassphrase call.
 sendtoaddress "address" amount ( "comment" "comment_to" subtractfeefromamount use_is use_ps )
@@ -814,7 +814,7 @@ sendtoaddress "address" amount ( "comment" "comment_to" subtractfeefromamount us
 setaccount "address" "account"
   DEPRECATED. Sets the account associated with the given address.
 setprivatesendamount amount
-  Set the goal amount in DASH for PrivateSend mixing.
+  Set the goal amount in HISTORIA for PrivateSend mixing.
 setprivatesendrounds rounds
   Set the number of rounds for PrivateSend mixing.
 settxfee amount
@@ -824,6 +824,6 @@ signmessage "address" "message"
 walletlock
   Removes the wallet encryption key from memory, locking the wallet. After calling this method, you will need to call walletpassphrase again before being able to call any methods which require the wallet to be unlocked.
 walletpassphrase "passphrase" timeout ( mixingonly )
-  Stores the wallet decryption key in memory for 'timeout' seconds. This is needed prior to performing transactions related to private keys such as sending dashs
+  Stores the wallet decryption key in memory for 'timeout' seconds. This is needed prior to performing transactions related to private keys such as sending historias
 walletpassphrasechange "oldpassphrase" "newpassphrase"
   Changes the wallet passphrase from 'oldpassphrase' to 'newpassphrase'.

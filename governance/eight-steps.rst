@@ -1,6 +1,6 @@
 .. meta::
-   :description: How to prepare and submit a successful proposal for the Dash treasury system
-   :keywords: dash, treasury, proposal, recommendations, communication, escrow
+   :description: How to prepare and submit a successful proposal for the Historia treasury system
+   :keywords: historia, treasury, proposal, recommendations, communication, escrow
 
 .. _eight-steps:
 
@@ -8,7 +8,7 @@
 8 Steps to a Successful Proposal
 ================================
 
-Proposals in the Dash governance system are subject to voting by
+Proposals in the Historia governance system are subject to voting by
 masternodes. So, like any voting, you need to convince the voters that
 your proposal should pass. Here are some key points to consider in every
 proposal:
@@ -16,7 +16,7 @@ proposal:
 Keep your proposal clear
   Your proposal should have a clear title, followed by a short and
   simple description of the objectives. Explain early in your proposal
-  exactly how it will benefit the Dash network, how much Dash you are
+  exactly how it will benefit the Historia network, how much Historia you are
   requesting, how you arrived at this value, and finally who you are and
   how you plan to do the work. Masternodes should be able to immediately
   get an idea of what you are proposing from the first few lines of your
@@ -27,16 +27,16 @@ Run a pre-proposal discussion
   blockchain. A discussion period of around two weeks will help you find
   out if someone has proposed something similar in the past, and whether
   it succeeded or failed. There are `pre-proposal channels on the forum
-  <https://www.dash.org/forum/topic/pre-budget-proposal-
-  discussions.93>`__ and `Dash Nation Discord <http://dashchat.org>`__,
-  and `Reddit <https://www.reddit.com/r/dashpay>`__ also attracts a lot
+  <https://historia.network/forum/topic/pre-budget-proposal-
+  discussions.93>`__ and `Historia Nation Discord <http://historiachat.org>`__,
+  and `Reddit <https://www.reddit.com/r/HistoriaOffical>`__ also attracts a lot
   of views - consider the discussion on these channels to be the
   research phase of your proposal. Later, you can post a link to the
   forum discussion when your proposal goes live to show you are
   including community feedback in your work.
 
 Manage your identity and reputation
-  The Dash community is one of the network's strongest features, and
+  The Historia community is one of the network's strongest features, and
   newcomers are always welcome. However, because of the way proposals
   work, there needs to be reasonable trust that the work promised in the
   proposal will be completed if it passes. If you are new, consider
@@ -52,22 +52,22 @@ Run an enthusiastic campaign for your proposal
   succeeding! Uploading a video gives your proposal a human touch and a
   chance to convey your enthusiasm in a way that isn't always possible
   in text. Post your video to the `forum
-  <https://www.dash.org/forum/topic/pre-budget-proposal-
-  discussions.93>`_ and `DashCentral
-  <https://www.dashcentral.org/budget>`_, become a regular on Discord
+  <https://historia.network/forum/topic/pre-budget-proposal-
+  discussions.93>`_ and `HistoriaCentral
+  <https://www.historiacentral.org/budget>`_, become a regular on Discord
   or run a webinar to explain the proposal and answer questions. Put
   some work in before you ask for funding to demonstrate your
-  involvement with Dash - but don't be annoying and spam many channels
+  involvement with Historia - but don't be annoying and spam many channels
   asking for votes.
 
 Demonstrate your commitment to the network
   If you are asking for significant funding to start up or expand a
-  for-profit business built on Dash, you need to explain why and for how
+  for-profit business built on Historia, you need to explain why and for how
   long this funding is required, and what you are offering in return. It
   can be very helpful to show you have skin in the game by matching the
-  contribution provided in Dash with funds from your own business or
-  investors. Equity or exclusivity agreements can be reached with `Dash
-  Core Group, Inc. <bradley.zastrow@dash.org>`_, but must be clarified
+  contribution provided in Historia with funds from your own business or
+  investors. Equity or exclusivity agreements can be reached with `Historia
+  Core Group, Inc. <bradley.zastrow@historia.network>`_, but must be clarified
   in writing before the proposal is posted.
 
 Post your proposal early and make yourself available for questions
@@ -76,7 +76,7 @@ Post your proposal early and make yourself available for questions
   discuss and vote on your proposal, you must post it well in advance of
   the voting deadline - it's better to wait for the next superblock than
   to rush! Most masternodes will see your proposal for the first time
-  once it appears on the blockchain or when you claim it on DashCentral.
+  once it appears on the blockchain or when you claim it on HistoriaCentral.
   The first few hours of discussion between masternode owners typically
   bring up a lot of questions and can be critical to influence opinion
   and voting, so make yourself available during this time.
@@ -92,8 +92,8 @@ Keep the community updated when your proposal passes
 Consider arrangements for large requests
   If you are requesting a significant amount of funding, there is an
   understandable concern that you will deliver on your promises to the
-  network. Reach out to trusted intermediaries such as `Dash Core Group,
-  Inc. <bradley.zastrow@dash.org>`_ or `Green Candle, Inc.
+  network. Reach out to trusted intermediaries such as `Historia Core Group,
+  Inc. <bradley.zastrow@historia.network>`_ or `Green Candle, Inc.
   <https://greencandle.io>`_ in advance for advice on escrow, and make
   the conditions for escrow release public and part of the proposal. If
   your proposal is so large that uses a significant percentage of the
@@ -106,7 +106,7 @@ instructions on how to create a proposal when you are ready. Good luck!
 
 For an example of good reporting, reputation management and use of a
 video to request funding in a pre-proposal, see this video from Amanda
-B. Johnson's extremely popular **DASH: Detailed** proposal:
+B. Johnson's extremely popular **HISTORIA: Detailed** proposal:
 
 .. raw:: html
 
@@ -120,20 +120,20 @@ A few additional points:
    address, or to change the payment address after the proposal is
    posted to the blockchain.
     
-#. To avoid accusations of favouritism and inside trading, Dash Core
+#. To avoid accusations of favouritism and inside trading, Historia Core
    cannot promote your proposal for you. If your proposal is an
    integration, reach out to the business development team in advance.
    Once your product is live, it may be possible to announce it from
-   Dash Core channels.
+   Historia Core channels.
     
 #. If your proposal is for news, promotion or marketing, make sure you
    synchronise your efforts with major existing organisations such as
-   Dash Force News or marketing firms contracted by Dash Core.
+   Historia Force News or marketing firms contracted by Historia Core.
     
 #. You are responsible for your own planning to hedge against price
    volatility. If your proposal involves significant payments to third
-   parties in fiat currency, reach out to `Dash Core Group, Inc.
-   <bradley.zastrow@dash.org>`_ or `Green Candle, Inc.
+   parties in fiat currency, reach out to `Historia Core Group, Inc.
+   <bradley.zastrow@historia.network>`_ or `Green Candle, Inc.
    <https://greencandle.io>`_ for advice on escrow, price maintenance,
    converting currencies and hedging against volatility.
     

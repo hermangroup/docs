@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-11 06:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../wallets/paper.rst:1
-msgid "Guides to secure paper wallets for Dash cryptocurrency"
+msgid "Guides to secure paper wallets for Historia cryptocurrency"
 msgstr ""
 
 #: ../../wallets/paper.rst:1
-msgid "dash, paper, wallet, encryption"
+msgid "historia, paper, wallet, encryption"
 msgstr ""
 
 #: ../../wallets/paper.rst:8
@@ -35,7 +35,7 @@ msgid ""
 "stored on a single address. It can be generated on a computer that has "
 "never been connected to the internet, and printed out for air-gapped "
 "offline storage. As such, they are suitable for storing large amounts of "
-"Dash, but care must be taken not to lose the private key, since there is "
+"Historia, but care must be taken not to lose the private key, since there is "
 "no way of recovering funds if it is ever lost. To use the key, it must be"
 " imported or \"swept\" into an online wallet and should not be used "
 "again. Paper wallets are extremely secure but somewhat inconvenient for "
@@ -62,7 +62,7 @@ msgstr ""
 #: ../../wallets/paper.rst:35
 msgid ""
 "Nevertheless, together with appropriate planning, paper wallets are a "
-"highly convenient and user-friendly way to store Dash long term."
+"highly convenient and user-friendly way to store Historia long term."
 msgstr ""
 
 #: ../../wallets/paper.rst:39
@@ -119,21 +119,21 @@ msgid "Tools"
 msgstr ""
 
 #: ../../wallets/paper.rst:76
-msgid "A Dash paper wallet can be generated in several ways."
+msgid "A Historia paper wallet can be generated in several ways."
 msgstr ""
 
 #: ../../wallets/paper.rst:78
-msgid "Using the generator at https://paper.dash.org"
+msgid "Using the generator at https://paper.historia.network"
 msgstr ""
 
 #: ../../wallets/paper.rst:79
-msgid "Using the generator at https://walletgenerator.net/?currency=Dash"
+msgid "Using the generator at https://walletgenerator.net/?currency=Historia"
 msgstr ""
 
 #: ../../wallets/paper.rst:80
 msgid ""
-"Offline using the Dash Paper Wallet source code from GitHub at "
-"https://github.com/dashpay/paper.dash.org/releases/latest"
+"Offline using the Historia Paper Wallet source code from GitHub at "
+"https://github.com/HistoriaOffical/paper.historia.network/releases/latest"
 msgstr ""
 
 #: ../../wallets/paper.rst:82
@@ -147,7 +147,7 @@ msgstr ""
 #: ../../wallets/paper.rst:86
 msgid ""
 "Since the source code for all three options is largely similar, this "
-"guide will use https://paper.dash.org as an example. The websites listed "
+"guide will use https://paper.historia.network as an example. The websites listed "
 "here run entirely in your web browser without sending any of the data "
 "generated to an external server, but the most secure option is to "
 "download the wallet generator and run it on a computer with a freshly "
@@ -167,13 +167,13 @@ msgstr ""
 
 #: ../../wallets/paper.rst:100
 msgid ""
-"Go to https://paper.dash.org in your web browser (or open index.html if "
+"Go to https://paper.historia.network in your web browser (or open index.html if "
 "you downloaded the wallet generator). Select your language and choose "
-"Dash as the currency if necessary. The following screen will appear:"
+"Historia as the currency if necessary. The following screen will appear:"
 msgstr ""
 
 #: ../../wallets/paper.rst:107
-msgid "The Dash Paper Wallet Generator at paper.dash.org"
+msgid "The Historia Paper Wallet Generator at paper.historia.network"
 msgstr ""
 
 #: ../../wallets/paper.rst:109
@@ -184,11 +184,11 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/paper.rst:117
-msgid "Generating randomness for the Dash Paper Wallet Generator"
+msgid "Generating randomness for the Historia Paper Wallet Generator"
 msgstr ""
 
 #: ../../wallets/paper.rst:122
-msgid "A Dash address and private key generated using Dash Paper Wallet Generator"
+msgid "A Historia address and private key generated using Historia Paper Wallet Generator"
 msgstr ""
 
 #: ../../wallets/paper.rst:125
@@ -196,7 +196,7 @@ msgid ""
 "Once your public address and private key (shown in Wallet Import Format "
 "or WIF) are visible on the **Single Wallet** tab, you should immediately "
 "click **Print** to print the data and store it securely. If you leave the"
-" page without somehow recording the dash address and private key, all "
+" page without somehow recording the historia address and private key, all "
 "data will be irretrievably lost, together with any funds you have sent to"
 " the address."
 msgstr ""
@@ -225,21 +225,21 @@ msgid ""
 "this BIP38 key and the password to control funds on the address, so be "
 "sure to click **Print** and store both safely. If you are unsure about "
 "how to use BIP38 encryption, it is highly recommended to test the "
-"workflow with a low amount of Dash before storing significant funds on an"
+"workflow with a low amount of Historia before storing significant funds on an"
 " encrypted paper wallet. If you forget the password or lose the encrypted"
 " key, you will permanently lose access to your funds."
 msgstr ""
 
 #: ../../wallets/paper.rst:154
 msgid ""
-"A Dash WIF address can be easily identified because it always begins with"
+"A Historia WIF address can be easily identified because it always begins with"
 " \"7\". A BIP38 format encrypted key can be identified because it always "
 "begins with \"6P\". See `here <https://bitcoinpaperwallet.com/bip38 "
 "-password-encrypted-wallets/>`_ to learn more about BIP38."
 msgstr ""
 
 #: ../../wallets/paper.rst:162
-msgid "Encrypted paper wallet generated using Dash Paper Wallet Generator"
+msgid "Encrypted paper wallet generated using Historia Paper Wallet Generator"
 msgstr ""
 
 #: ../../wallets/paper.rst:165
@@ -248,9 +248,9 @@ msgstr ""
 
 #: ../../wallets/paper.rst:167
 msgid ""
-"You can send Dash to a paper wallet address in the same way as to any "
-"other Dash address. See the documentation for your wallet if you do not "
-"know how to do this. For this example, 0.05 Dash (minus transaction fee) "
+"You can send Historia to a paper wallet address in the same way as to any "
+"other Historia address. See the documentation for your wallet if you do not "
+"know how to do this. For this example, 0.05 Historia (minus transaction fee) "
 "has been sent to the paper wallet address. Anyone with knowledge of the "
 "public address is able to see the balance of the wallet using a block "
 "explorer, but only someone with knowledge of the private key can access "
@@ -261,8 +261,8 @@ msgstr ""
 
 #: ../../wallets/paper.rst:180
 msgid ""
-"Viewing the balance of the paper wallet using the Dash Block Explorer at "
-"explorer.dash.org"
+"Viewing the balance of the paper wallet using the Historia Block Explorer at "
+"explorer.historia.network"
 msgstr ""
 
 #: ../../wallets/paper.rst:183
@@ -320,7 +320,7 @@ msgstr ""
 
 #: ../../wallets/paper.rst:214
 msgid ""
-"Dash Paper Wallet Generator displaying information derived from an "
+"Historia Paper Wallet Generator displaying information derived from an "
 "encrypted private key"
 msgstr ""
 
@@ -332,16 +332,16 @@ msgstr ""
 msgid ""
 "When you are ready to spend the balance on the paper wallet, you will "
 "need to import the private key used to control the address printed on the"
-" wallet into another Dash wallet that is connected to the internet. We "
-"will use the Dash Core Wallet in this example, although Dash Electrum and"
-" mobile wallets are also supported. Open Dash Core Wallet, click "
+" wallet into another Historia wallet that is connected to the internet. We "
+"will use the Historia Core Wallet in this example, although Historia Electrum and"
+" mobile wallets are also supported. Open Historia Core Wallet, click "
 "**Settings** and **Unlock Wallet**. Enter your wallet passphrase. Then "
 "click **Tools** and select **Debug Console**. The console appears. Enter "
 "the following command:"
 msgstr ""
 
 #: ../../wallets/paper.rst:236
-msgid "Dash Core Wallet importing a private key"
+msgid "Historia Core Wallet importing a private key"
 msgstr ""
 
 #: ../../wallets/paper.rst:238
@@ -356,7 +356,7 @@ msgstr ""
 
 #: ../../wallets/paper.rst:251
 msgid ""
-"Paper wallet address successfully imported into Dash Core Wallet from WIF"
+"Paper wallet address successfully imported into Historia Core Wallet from WIF"
 " private key"
 msgstr ""
 
@@ -381,9 +381,9 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Offline using the Dash Paper Wallet "
+#~ "Offline using the Historia Paper Wallet "
 #~ "source code from Github at "
-#~ "https://github.com/dashpay/paper.dash.org/releases/latest"
+#~ "https://github.com/HistoriaOffical/paper.historia.network/releases/latest"
 #~ msgstr ""
 
 #~ msgid ""
@@ -417,7 +417,7 @@ msgstr ""
 #~ "you are unsure about how to use"
 #~ " BIP38 encryption, it is highly "
 #~ "recommended to test the workflow with"
-#~ " a low amount of Dash before "
+#~ " a low amount of Historia before "
 #~ "storing significant funds on an "
 #~ "encrypted paper wallet. If you forget"
 #~ " the password or lose the encrypted"
@@ -425,13 +425,13 @@ msgstr ""
 #~ "access to your funds."
 #~ msgstr ""
 
-#~ msgid "Using the generator at https://paper.dash.org/"
+#~ msgid "Using the generator at https://paper.historia.network/"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "Since the source code for all "
 #~ "three options is largely similar, this"
-#~ " guide will use https://paper.dash.org/ as"
+#~ " guide will use https://paper.historia.network/ as"
 #~ " an example. The websites listed here"
 #~ " run entirely in your web browser "
 #~ "without sending any of the data "
@@ -451,10 +451,10 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Go to https://paper.dash.org/ in your "
+#~ "Go to https://paper.historia.network/ in your "
 #~ "web browser (or open index.html if "
 #~ "you downloaded the wallet generator). "
-#~ "Select your language and choose Dash "
+#~ "Select your language and choose Historia "
 #~ "as the currency if necessary. The "
 #~ "following screen will appear:"
 #~ msgstr ""

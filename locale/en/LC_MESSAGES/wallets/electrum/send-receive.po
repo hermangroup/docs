@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-03 08:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../wallets/electrum/send-receive.rst:1
-msgid "Guide to sending and receiving Dash using the Dash Electrum wallet"
+msgid "Guide to sending and receiving Historia using the Historia Electrum wallet"
 msgstr ""
 
 #: ../../wallets/electrum/send-receive.rst:1
-msgid "dash, wallet, electrum, send, receive, transaction"
+msgid "historia, wallet, electrum, send, receive, transaction"
 msgstr ""
 
 #: ../../wallets/electrum/send-receive.rst:9
@@ -31,12 +31,12 @@ msgstr ""
 
 #: ../../wallets/electrum/send-receive.rst:11
 msgid ""
-"You may own Dash stored in another software wallet, or on an exchange "
+"You may own Historia stored in another software wallet, or on an exchange "
 "such as Bittrex or Kraken, or simply want to send or receive funds as a "
 "wage or business transaction. Funds can be transferred between these "
-"source and the Electrum wallet using Dash addresses. Your wallet contains"
+"source and the Electrum wallet using Historia addresses. Your wallet contains"
 " multiple addresses, and will generate new addresses as necessary. Since "
-"the Dash blockchain is transparent to the public, it is considered best "
+"the Historia blockchain is transparent to the public, it is considered best "
 "practice to use a new address for each transaction in order to maintain "
 "your privacy."
 msgstr ""
@@ -52,13 +52,13 @@ msgid ""
 "clipboard. Optionally enter a **Description** for to appear in your "
 "transaction history, followed by the **Amount** to be sent. The total "
 "amount of the transaction is the sum of the sent amount and transaction "
-"fee, which is calculated automatically. Dash Electrum issues a warning if"
+"fee, which is calculated automatically. Historia Electrum issues a warning if"
 " the total transaction amount exceeds the wallet balance."
 msgstr ""
 
 #: ../../wallets/electrum/send-receive.rst:35
 #: ../../wallets/electrum/send-receive.rst:64
-msgid "Transaction ready to send in Dash Electrum wallet"
+msgid "Transaction ready to send in Historia Electrum wallet"
 msgstr ""
 
 #: ../../wallets/electrum/send-receive.rst:37
@@ -68,7 +68,7 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/electrum/send-receive.rst:47
-msgid "Password prompt and transaction confirmation in Dash Electrum wallet"
+msgid "Password prompt and transaction confirmation in Historia Electrum wallet"
 msgstr ""
 
 #: ../../wallets/electrum/send-receive.rst:51
@@ -96,7 +96,7 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/electrum/send-receive.rst:75
-msgid "Successfully received payment in Dash Electrum wallet"
+msgid "Successfully received payment in Historia Electrum wallet"
 msgstr ""
 
 #: ../../wallets/electrum/send-receive.rst:77
@@ -114,7 +114,7 @@ msgid ""
 "The **History** tab lists all current and pending transactions. A "
 "transaction to an address in your wallet will appear in the list soon "
 "after it is made. Initially, this transaction will be marked as "
-"**Unconfirmed**, followed by a clock indicator on the left. As the Dash "
+"**Unconfirmed**, followed by a clock indicator on the left. As the Historia "
 "network processes the transaction, the status will update in the "
 "transaction history list. The network confirms transactions with a new "
 "block roughly every 2.5 minutes, and a transaction is considered "
@@ -125,7 +125,7 @@ msgstr ""
 
 #: ../../wallets/electrum/send-receive.rst:100
 msgid ""
-"Dash Electrum wallet History tab immediately after receiving a "
+"Historia Electrum wallet History tab immediately after receiving a "
 "transaction and after confirmation is complete"
 msgstr ""
 
@@ -140,16 +140,16 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/electrum/send-receive.rst:113
-msgid "Transaction details in Dash Electrum wallet"
+msgid "Transaction details in Historia Electrum wallet"
 msgstr ""
 
-#~ msgid "Sending and Receiving Dash"
+#~ msgid "Sending and Receiving Historia"
 #~ msgstr ""
 
-#~ msgid "Sending Dash"
+#~ msgid "Sending Historia"
 #~ msgstr ""
 
-#~ msgid "Receiving Dash"
+#~ msgid "Receiving Historia"
 #~ msgstr ""
 
 #~ msgid ""

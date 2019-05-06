@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2017, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-31 04:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,13 +19,13 @@ msgstr ""
 
 #: ../../wallets/index.rst:1
 msgid ""
-"Description of different wallets available to use and spend Dash "
+"Description of different wallets available to use and spend Historia "
 "cryptocurrency"
 msgstr ""
 
 #: ../../wallets/index.rst:1
 msgid ""
-"dash, wallet, core, electrum, android, ios, copay, paper, hardware, "
+"historia, wallet, core, electrum, android, ios, copay, paper, hardware, "
 "trezor, ledger, web, recovery, text, sms"
 msgstr ""
 
@@ -55,14 +55,14 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/index.rst:30 ../../wallets/index.rst:72
-msgid "Dash Core Wallet"
+msgid "Historia Core Wallet"
 msgstr ""
 
 #: ../../wallets/index.rst:32
 msgid ""
-"Dash Core Wallet is the full official release of Dash, and supports all "
-"Dash features as they are released, including InstantSend and "
-"PrivateSend, as well as an RPC console and governance features. Dash Core"
+"Historia Core Wallet is the full official release of Historia, and supports all "
+"Historia features as they are released, including InstantSend and "
+"PrivateSend, as well as an RPC console and governance features. Historia Core"
 " Wallet (sometimes known as the QT wallet, due to the QT software "
 "framework used in development) is a professional or heavy wallet which "
 "downloads the full blockchain (several GB in size) and can operate as "
@@ -70,7 +70,7 @@ msgid ""
 " to hold a full copy of the blockchain, some time is required for "
 "synchronisation when starting the wallet. Once this is done, the correct "
 "balances will be displayed and the functions in the wallet can be used. "
-"Dash Core Wallet is available for macOS, Linux, Raspberry Pi and Windows."
+"Historia Core Wallet is available for macOS, Linux, Raspberry Pi and Windows."
 msgstr ""
 
 #: ../../wallets/index.rst:45
@@ -114,14 +114,14 @@ msgid "Available documentation:"
 msgstr ""
 
 #: ../../wallets/index.rst:77 ../../wallets/index.rst:107
-msgid "Dash Electrum Wallet"
+msgid "Historia Electrum Wallet"
 msgstr ""
 
 #: ../../wallets/index.rst:79
 msgid ""
-"Dash Electrum is a light wallet which uses powerful external servers to "
+"Historia Electrum is a light wallet which uses powerful external servers to "
 "index the blockchain, while still securing the keys on your personal "
-"computer. Transactions are verified on the Dash blockchain using a "
+"computer. Transactions are verified on the Historia blockchain using a "
 "technique called Secure Payment Verification (SPV), which only requires "
 "the block headers and not the full block. This means that wallet startup "
 "is almost instant, while still keeping your funds secure and mobile. It "
@@ -130,21 +130,21 @@ msgstr ""
 
 #: ../../wallets/index.rst:88
 msgid ""
-"Dash Electrum is a fork of the Electrum wallet for Bitcoin. While this "
-"documentation focuses on using Dash Electrum, full documentation of all "
-"Bitcoin Electrum features (mostly identical in Dash Electrum) is "
+"Historia Electrum is a fork of the Electrum wallet for Bitcoin. While this "
+"documentation focuses on using Historia Electrum, full documentation of all "
+"Bitcoin Electrum features (mostly identical in Historia Electrum) is "
 "available at the `official documentation site "
 "<http://docs.electrum.org>`_."
 msgstr ""
 
 #: ../../wallets/index.rst:112
-msgid "Dash Android Wallet"
+msgid "Historia Android Wallet"
 msgstr ""
 
 #: ../../wallets/index.rst:114
 msgid ""
-"Dash offers a standalone wallet for Android, with development supported "
-"by the Dash budget. The Dash Android Wallet supports advanced Dash "
+"Historia offers a standalone wallet for Android, with development supported "
+"by the Historia budget. The Historia Android Wallet supports advanced Historia "
 "features, including contact management and InstantSend. You can scan and "
 "display QR codes for quick transfers, backup and restore your wallet, "
 "keep an address book of frequently used addresses, pay with NFC, sweep "
@@ -152,54 +152,54 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/index.rst:134
-msgid "*Dash Android Wallet*"
+msgid "*Historia Android Wallet*"
 msgstr ""
 
 #: ../../wallets/index.rst:140
-msgid "Dash iOS Wallet"
+msgid "Historia iOS Wallet"
 msgstr ""
 
 #: ../../wallets/index.rst:142
 msgid ""
-"Dash offers a standalone wallet for iOS, with development supported by "
-"the Dash budget. The official Dash Wallet supports advanced Dash features"
+"Historia offers a standalone wallet for iOS, with development supported by "
+"the Historia budget. The official Historia Wallet supports advanced Historia features"
 " such as InstantSend sending and receiving. You can also scan and display"
 " QR codes for quick transfers and backup your wallet using a secure "
 "recovery phrase."
 msgstr ""
 
 #: ../../wallets/index.rst:161
-msgid "*Dash iOS Wallet*"
+msgid "*Historia iOS Wallet*"
 msgstr ""
 
 #: ../../wallets/index.rst:166
-msgid "Dash Copay Wallet"
+msgid "Historia Copay Wallet"
 msgstr ""
 
 #: ../../wallets/index.rst:168
 msgid ""
-"The Dash Copay wallet is a modern and feature-rich wallet available for "
-"both mobile and desktop devices. It supports advanced Dash features "
+"The Historia Copay wallet is a modern and feature-rich wallet available for "
+"both mobile and desktop devices. It supports advanced Historia features "
 "including InstantSend, HD address generation, user-friendly address "
 "books, multiple wallets in one app and easy to use multi-signature "
-"wallets. Dash Copay is a light wallet, meaning that even though a full "
+"wallets. Historia Copay is a light wallet, meaning that even though a full "
 "copy of the blockchain is not required for use, the private keys to your "
 "addresses are stored securely on your device and under your control at "
 "all times."
 msgstr ""
 
 #: ../../wallets/index.rst:188
-msgid "*Dash Copay Wallet*"
+msgid "*Historia Copay Wallet*"
 msgstr ""
 
 #: ../../wallets/index.rst:193 ../../wallets/index.rst:208
-msgid "Dash Paper Wallet"
+msgid "Historia Paper Wallet"
 msgstr ""
 
 #: ../../wallets/index.rst:195
 msgid ""
-"The `Dash Paper Wallet generator <https://paper.dash.org>`_ allows you to"
-" generate, encrypt and secure the keys to a single Dash address on a "
+"The `Historia Paper Wallet generator <https://paper.historia.network>`_ allows you to"
+" generate, encrypt and secure the keys to a single Historia address on a "
 "clean computer without ever connecting to the internet. Perfect for long "
 "term secure storage."
 msgstr ""
@@ -234,7 +234,7 @@ msgstr ""
 #: ../../wallets/index.rst:233
 msgid ""
 "This section lists the most common commercial hardware wallets supporting"
-" Dash, although some other enthusiast projects may also be available."
+" Historia, although some other enthusiast projects may also be available."
 msgstr ""
 
 #: ../../wallets/index.rst:244
@@ -247,7 +247,7 @@ msgstr ""
 
 #: ../../wallets/index.rst:251
 msgid ""
-"These wallets have been developed by external developers to support Dash."
+"These wallets have been developed by external developers to support Historia."
 " Many third party wallets support multiple different cryptocurrencies at "
 "the same time, or integrate instant cryptocurrency exchanges."
 msgstr ""
@@ -262,19 +262,19 @@ msgstr ""
 
 #: ../../wallets/index.rst:272
 msgid ""
-"Web wallets are services which keep a Dash balance for you, while "
-"maintaining control of the private keys on your behalf. Any Dash stored "
+"Web wallets are services which keep a Historia balance for you, while "
+"maintaining control of the private keys on your behalf. Any Historia stored "
 "on :ref:`exchanges <exchanges>` falls under this category, but there are "
-"also some services able to store Dash for you through simple "
+"also some services able to store Historia for you through simple "
 "Google/Facebook login systems. Be extremely careful with web storage, as "
-"your Dash is only as secure as the reputation of the company storing it "
-"for you. A particular exception is MyDashWallet.org, which provides a "
-"secure web interface to the Dash blockchain while leaving you with full "
+"your Historia is only as secure as the reputation of the company storing it "
+"for you. A particular exception is MyHistoriaWallet.org, which provides a "
+"secure web interface to the Historia blockchain while leaving you with full "
 "control of your private keys."
 msgstr ""
 
 #: ../../wallets/index.rst:290
-msgid "My Dash Wallet"
+msgid "My Historia Wallet"
 msgstr ""
 
 #: ../../wallets/index.rst:294
@@ -284,14 +284,14 @@ msgstr ""
 #: ../../wallets/index.rst:296
 msgid ""
 "Text wallets (or SMS wallets) allow users without smartphones or internet"
-" access to transact in Dash using text messages on simple feature phones."
+" access to transact in Historia using text messages on simple feature phones."
 " Innovative shortcodes, usually in collaboration with national mobile "
 "service providers, make it relatively simple to create transactions to "
-"both send and receive Dash."
+"both send and receive Historia."
 msgstr ""
 
 #: ../../wallets/index.rst:310
-msgid "Dash CoinText"
+msgid "Historia CoinText"
 msgstr ""
 
 #: ../../wallets/index.rst:314
@@ -308,26 +308,26 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Dash Core Wallet is the full "
-#~ "official release supporting all Dash "
+#~ "Historia Core Wallet is the full "
+#~ "official release supporting all Historia "
 #~ "features as they are released, including"
 #~ " InstantSend and PrivateSend, as well "
 #~ "as the governance, masternode and voting"
 #~ " features. It is identical to the "
-#~ "software used by the Dash masternodes,"
+#~ "software used by the Historia masternodes,"
 #~ " and as such, it requires you "
-#~ "to download the entire Dash blockchain."
+#~ "to download the entire Historia blockchain."
 #~ " It is available for macOS, Linux,"
 #~ " Raspberry Pi and Windows."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Electrum-Dash is a light wallet "
+#~ "Electrum-Historia is a light wallet "
 #~ "which uses powerful external servers to"
 #~ " index the blockchain, while still "
 #~ "securing the keys on your personal "
 #~ "computer. Transactions are verified on "
-#~ "the Dash blockchain using a technique"
+#~ "the Historia blockchain using a technique"
 #~ " called Secure Payment Verification (SPV),"
 #~ " which only requires the block "
 #~ "headers and not the full block. "
@@ -339,10 +339,10 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Dash offers a standalone wallet for "
+#~ "Historia offers a standalone wallet for "
 #~ "Android, with development supported by "
-#~ "the Dash budget. The Dash Android "
-#~ "Wallet supports advanced Dash features, "
+#~ "the Historia budget. The Historia Android "
+#~ "Wallet supports advanced Historia features, "
 #~ "including contact management and InstandSend."
 #~ " You can scan and display QR "
 #~ "codes for quick transfers, backup your"
@@ -353,12 +353,12 @@ msgstr ""
 
 #~ msgid ""
 #~ "Mobile wallets allow you to send "
-#~ "and receive Dash from the convenience"
+#~ "and receive Historia from the convenience"
 #~ " of your mobile device. The keys "
 #~ "are stored on the device, and the"
 #~ " recovery seed allows you to quickly"
 #~ " recover your funds if your device"
-#~ " is lost. Dash mobile apps for "
+#~ " is lost. Historia mobile apps for "
 #~ "Android and iOS support InstantSend so"
 #~ " you can pay vendors without waiting"
 #~ " for block confirmations."
@@ -376,9 +376,9 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "The Dash Paper Wallet allows you "
+#~ "The Historia Paper Wallet allows you "
 #~ "to generate, encrypt and secure the "
-#~ "keys to a single Dash address on"
+#~ "keys to a single Historia address on"
 #~ " a clean computer without ever "
 #~ "connecting to the internet. Perfect for"
 #~ " long term secure storage."
@@ -386,20 +386,20 @@ msgstr ""
 
 #~ msgid ""
 #~ "Web wallets are services which keep "
-#~ "a Dash balance for you, while "
+#~ "a Historia balance for you, while "
 #~ "maintaining control of the private keys"
-#~ " on your behalf. Any Dash stored "
+#~ " on your behalf. Any Historia stored "
 #~ "on exchanges falls under this category,"
 #~ " but there are also some services "
-#~ "claiming to store Dash for you "
+#~ "claiming to store Historia for you "
 #~ "through simple Google/Facebook login systems."
 #~ " Be extremely careful with web "
-#~ "storage, as your Dash is only as"
+#~ "storage, as your Historia is only as"
 #~ " secure as the reputation of the "
 #~ "company storing it for you."
 #~ msgstr ""
 
-#~ msgid "*Screenshots showing the Dash Wallet balance, send and receive screens*"
+#~ msgid "*Screenshots showing the Historia Wallet balance, send and receive screens*"
 #~ msgstr ""
 
 #~ msgid "3rd Party Wallets"
@@ -407,11 +407,11 @@ msgstr ""
 
 #~ msgid ""
 #~ "These wallets have been developed by "
-#~ "external developers to support Dash."
+#~ "external developers to support Historia."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "dash, wallet, core, electrum, android, "
+#~ "historia, wallet, core, electrum, android, "
 #~ "ios, copay, paper, hardware, trezor, "
 #~ "ledger, web, recovery"
 #~ msgstr ""
@@ -420,10 +420,10 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Dash offers a standalone wallet for "
+#~ "Historia offers a standalone wallet for "
 #~ "Android, with development supported by "
-#~ "the Dash budget. The Dash Android "
-#~ "Wallet supports advanced Dash features, "
+#~ "the Historia budget. The Historia Android "
+#~ "Wallet supports advanced Historia features, "
 #~ "including contact management and InstandSend."
 #~ " You can scan and display QR "
 #~ "codes for quick transfers, backup and"
@@ -434,10 +434,10 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Dash offers a standalone wallet for "
+#~ "Historia offers a standalone wallet for "
 #~ "iOS, with development supported by the"
-#~ " Dash budget. The official Dash "
-#~ "Wallet supports advanced Dash features "
+#~ " Historia budget. The official Historia "
+#~ "Wallet supports advanced Historia features "
 #~ "such as InstandSend. You can scan "
 #~ "and display QR codes for quick "
 #~ "transfers, backup your wallet using a"

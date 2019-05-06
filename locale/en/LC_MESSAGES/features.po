@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2017, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-08 08:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -29,32 +29,32 @@ msgstr ""
 msgid ""
 "A whitepaper is a document often issued with the release of a new "
 "cryptocurrency to explain its Unique Value Proposition and describe "
-"details of how it will function. The Dash Whitepaper is frequently "
+"details of how it will function. The Historia Whitepaper is frequently "
 "updated, but this page also provides links to the original version and "
 "translations."
 msgstr ""
 
 #: ../../features.rst:17
-msgid "`Dash Roadmap <https://github.com/dashpay/dash-roadmap>`_"
+msgid "`Historia Roadmap <https://github.com/HistoriaOffical/historia-roadmap>`_"
 msgstr ""
 
 #: ../../features.rst:18
 msgid ""
 "`Latest whitepaper and official translations "
-"<https://github.com/dashpay/dash/wiki/Whitepaper>`_"
+"<https://github.com/HistoriaOffical/historia/wiki/Whitepaper>`_"
 msgstr ""
 
 #: ../../features.rst:19
 msgid ""
 "`Original Darkcoin whitepaper (PDF) "
-"<https://github.com/dashpay/docs/raw/master/pdf/Dash%20Whitepaper%20-%20Darkcoin.pdf>`_"
+"<https://github.com/HistoriaOffical/docs/raw/master/pdf/Historia%20Whitepaper%20-%20Darkcoin.pdf>`_"
 msgstr ""
 
 #: ../../features.rst:20
 #, python-format
 msgid ""
 "`InstantSend whitepaper (PDF) "
-"<https://github.com/dashpay/docs/raw/master/pdf/Dash%20Whitepaper%20-%20Transaction%20Locking%20and%20Masternode%20Consensus.pdf>`_"
+"<https://github.com/HistoriaOffical/docs/raw/master/pdf/Historia%20Whitepaper%20-%20Transaction%20Locking%20and%20Masternode%20Consensus.pdf>`_"
 msgstr ""
 
 #: ../../features.rst:25
@@ -74,7 +74,7 @@ msgstr ""
 #: ../../features.rst:31
 msgid ""
 "Block reward is controlled by: 2222222/(((Difficulty+2600)/9)^2). "
-" Minimum base subsidy 5 Dash. Maximum 25 Dash."
+" Minimum base subsidy 5 Historia. Maximum 25 Historia."
 msgstr ""
 
 #: ../../features.rst:33
@@ -119,8 +119,8 @@ msgstr ""
 #: ../../features.rst:45
 msgid ""
 "Decentralized Governance By Blockchain allows masternode owners to vote "
-"on budget proposals and decisions that affect Dash. Budget proposals fund"
-" Dash development and come directly from block rewards, i.e. Dash "
+"on budget proposals and decisions that affect Historia. Budget proposals fund"
+" Historia development and come directly from block rewards, i.e. Historia "
 "development is self-funded by its own blockchain."
 msgstr ""
 
@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../../features.rst:55
 msgid ""
-"Cryptocurrencies such as Dash and Bitcoin are created through a "
+"Cryptocurrencies such as Historia and Bitcoin are created through a "
 "cryptographically difficult process known as mining. Mining involves "
 "repeatedly solving :ref:`hash algorithms <x11-hash-algorithm>` until a "
 "valid solution for the current :ref:`mining difficulty <dark-gravity-"
@@ -144,9 +144,9 @@ msgstr ""
 #: ../../features.rst:64
 #, python-format
 msgid ""
-"While Dash is based on Bitcoin, it significantly modifies the coin "
+"While Historia is based on Bitcoin, it significantly modifies the coin "
 "emission rate to offer a smoother reduction in coin emission over time. "
-"While Bitcoin reduces the coin emission rate by 50% every 4 years, Dash "
+"While Bitcoin reduces the coin emission rate by 50% every 4 years, Historia "
 "reduces the emission by one-fourteenth (approx. 7.14%) every 210240 "
 "blocks (approx. 383.25 days). It can be seen that reducing the block "
 "reward by a smaller amount each year offers a smoother transition to a "
@@ -159,7 +159,7 @@ msgstr ""
 
 #: ../../features.rst:77
 msgid ""
-"X11 is a widely used hashing algorithm created by Dash core developer "
+"X11 is a widely used hashing algorithm created by Historia core developer "
 "Evan Duffield. X11’s chained hashing algorithm utilizes a sequence of "
 "eleven scientific hashing algorithms for the proof-of-work. This is so "
 "that the processing distribution is fair and coins will be distributed in"
@@ -174,7 +174,7 @@ msgstr ""
 #: ../../features.rst:88
 msgid ""
 "X11 is the name of the chained proof-of-work (**PoW**) algorithm that was"
-" introduced in Dash (launched January 2014 as “Xcoin”). It was partially "
+" introduced in Historia (launched January 2014 as “Xcoin”). It was partially "
 "inspired by the chained-hashing approach of Quark, adding further “depth”"
 " and complexity by increasing the number of hashes, yet it differs from "
 "Quark in that the rounds of hashes are determined *a priori* instead of "
@@ -233,8 +233,8 @@ msgstr ""
 
 #: ../../features.rst:129
 msgid ""
-"Evan Duffield, the creator of Dash and X11 chained-hash, has wrote on "
-"several occasions that X11 was integrated into Dash not with the "
+"Evan Duffield, the creator of Historia and X11 chained-hash, has wrote on "
+"several occasions that X11 was integrated into Historia not with the "
 "intention to prevent ASIC manufacturers from creating ASICs for X11 in "
 "the future, but rather to provide a similar migratory path that Bitcoin "
 "had (CPUs, GPUs, ASICs)."
@@ -257,9 +257,9 @@ msgstr ""
 #: ../../features.rst:146
 msgid ""
 "**DGW** or *Dark Gravity Wave* is an open source difficulty-adjusting "
-"algorithm for Bitcoin-based cryptocurrencies that was first used in Dash "
+"algorithm for Bitcoin-based cryptocurrencies that was first used in Historia "
 "and has since appeared in other digital currencies. DGW was authored by "
-"Evan Duffield, the developer and creator of Dash, as a response to a "
+"Evan Duffield, the developer and creator of Historia, as a response to a "
 "time-warp exploit found in *Kimoto's Gravity Well*."
 msgstr ""
 
@@ -275,7 +275,7 @@ msgstr ""
 
 #: ../../features.rst:159
 msgid ""
-"Version 2.0 of DGW was implemented in Dash from block 45,000 onwards in "
+"Version 2.0 of DGW was implemented in Historia from block 45,000 onwards in "
 "order to completely alleviate the time-warp exploit."
 msgstr ""
 

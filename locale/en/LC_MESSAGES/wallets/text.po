@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash latest\n"
+"Project-Id-Version: Historia latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 06:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../wallets/text.rst:1
-msgid "Guides to text message wallets for Dash cryptocurrency"
+msgid "Guides to text message wallets for Historia cryptocurrency"
 msgstr ""
 
 #: ../../wallets/text.rst:1
 msgid ""
-"dash, wallet, text, sms, feature, phone, mobile, cointext, dashtext, "
+"historia, wallet, text, sms, feature, phone, mobile, cointext, historiatext, "
 "short message, short code, simple"
 msgstr ""
 
@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../wallets/text.rst:10
 msgid ""
-"Text message (SMS) wallets allow you to easily transact in Dash using a "
+"Text message (SMS) wallets allow you to easily transact in Historia using a "
 "simple feature phone. An internet connection is not required. Because "
 "text wallets require access to text messages, they generally only support"
 " specific regions. See below for details."
@@ -44,18 +44,18 @@ msgid "CoinText"
 msgstr ""
 
 #: ../../wallets/text.rst:18
-msgid "https://dash.cointext.io"
+msgid "https://historia.cointext.io"
 msgstr ""
 
 #: ../../wallets/text.rst:25
 msgid ""
 "CoinText is a for-purpose project to make cryptocurrency easy to use to "
 "expand economic freedom around the world. It makes it possible to "
-"transact in Dash without internet, apps, accounts or complicated "
-"addresses. CoinText currently supports Dash transactions in the USA and "
+"transact in Historia without internet, apps, accounts or complicated "
+"addresses. CoinText currently supports Historia transactions in the USA and "
 "Canada and aims to expand to over 50 countries in coming months. It is "
-"possible to denominate the amount to be sent in both Dash and the local "
-"currency, and send Dash to both phone numbers and Dash addresses."
+"possible to denominate the amount to be sent in both Historia and the local "
+"currency, and send Historia to both phone numbers and Historia addresses."
 msgstr ""
 
 #: ../../wallets/text.rst:34 ../../wallets/text.rst:60
@@ -70,40 +70,40 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/text.rst:40
-msgid "`Regions <https://dash.cointext.io/regions>`__"
+msgid "`Regions <https://historia.cointext.io/regions>`__"
 msgstr ""
 
 #: ../../wallets/text.rst:41
-msgid "`Instructions <https://dash.cointext.io/howto>`__"
+msgid "`Instructions <https://historia.cointext.io/howto>`__"
 msgstr ""
 
 #: ../../wallets/text.rst:42
-msgid "`FAQs <https://dash.cointext.io/faqs>`__"
+msgid "`FAQs <https://historia.cointext.io/faqs>`__"
 msgstr ""
 
 #: ../../wallets/text.rst:45
-msgid "DashText"
+msgid "HistoriaText"
 msgstr ""
 
 #: ../../wallets/text.rst:47
-msgid "https://dashtext.io"
+msgid "https://historiatext.io"
 msgstr ""
 
 #: ../../wallets/text.rst:54
 msgid ""
-"DashText is a service available in Venezuela to allow users to transact "
-"in Dash using text messages. The only fees are the cost of a standard "
-"SMS, incurred by the network operator. Users can send Dash to innovative "
+"HistoriaText is a service available in Venezuela to allow users to transact "
+"in Historia using text messages. The only fees are the cost of a standard "
+"SMS, incurred by the network operator. Users can send Historia to innovative "
 "shortcodes to securely confirm transactions."
 msgstr ""
 
 #: ../../wallets/text.rst:62
 msgid ""
-"Simply text CREATE to the DashText phone number to get started. Further "
+"Simply text CREATE to the HistoriaText phone number to get started. Further "
 "instructions and links will appear here once the project is ready for "
 "mass market."
 msgstr ""
 
-#~ msgid "http://dashtext.com"
+#~ msgid "http://historiatext.com"
 #~ msgstr ""
 

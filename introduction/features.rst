@@ -1,6 +1,6 @@
 .. meta::
-   :description: Dash features several unique value propositions including masternodes, PrivateSend, InstantSend and a decentralized governance system
-   :keywords: dash, cryptocurrency, features, masternodes, privatesend, instantsend, sporks, x11, dgw, governance, sentinel, evolution
+   :description: Historia features several unique value propositions including masternodes, PrivateSend, InstantSend and a decentralized governance system
+   :keywords: historia, cryptocurrency, features, masternodes, privatesend, instantsend, sporks, x11, dgw, governance, sentinel, evolution
 
 .. _features:
 
@@ -24,7 +24,7 @@ Specifications
 - Superior transaction anonymity using PrivateSend
 - Instant transactions using InstantSend
 - Decentralized Governance By Blockchain allows masternode owners to
-  vote on budget proposals and decisions that affect Dash
+  vote on budget proposals and decisions that affect Historia
 
 
 .. _masternode-network:
@@ -32,9 +32,9 @@ Specifications
 Masternodes
 ===========
 
-In addition to traditional Proof of Work (PoW) rewards for mining Dash,
+In addition to traditional Proof of Work (PoW) rewards for mining Historia,
 users are also rewarded for running and maintaining special servers
-called masternodes. Thanks to this innovative two tier network, Dash can
+called masternodes. Thanks to this innovative two tier network, Historia can
 offer innovative features in a trustless and decentralized way.
 Masternodes are used to power PrivateSend, InstantSend, and the
 governance and treasury system. Users are rewarded for running
@@ -44,33 +44,33 @@ masternodes :ref:`here <masternodes>`.
 
 Masternodes enable the following services:
 
--  **InstantSend** allows for near-instant transactions. Dash
+-  **InstantSend** allows for near-instant transactions. Historia
    InstantSend transactions are fully confirmed within two seconds.
 -  **PrivateSend** gives financial privacy by obscuring the source of
    funds on the blockchain.
--  **Governance and Treasury** allows stakeholders in Dash to determine
+-  **Governance and Treasury** allows stakeholders in Historia to determine
    the direction of the project and devotes 10% of the block reward to
    development of the project and ecosystem (as of May 2018, our
    annual budget exceeds $30 million).
--  **Dash Evolution** will make using cryptocurrency as easy as using
+-  **Historia Evolution** will make using cryptocurrency as easy as using
    PayPal.
 
-Masternode owners must have possession of 1000 DASH, which they prove by
+Masternode owners must have possession of 1000 HISTORIA, which they prove by
 signing a message and broadcasting to the network. Those coins can be
 moved at any time, but moving them will cause the masternode to fall out
 of queue and stop earning rewards. Masternode users are also given 
 **voting rights** on proposals. Each masternode has one vote and this 
 vote can be used on budget proposals or important decisions that affect 
-Dash.
+Historia.
 
 Masternodes cost money and effort to host so they are paid a percentage
 of the block reward as an incentivize. With current masternode numbers
-and rewards, masternodes earn approximately a 8% return on 1000 Dash
-(which means 6.97 Dash or USD1360 in July 2017) for the year of 2017.
+and rewards, masternodes earn approximately a 8% return on 1000 Historia
+(which means 6.97 Historia or USD1360 in July 2017) for the year of 2017.
 This `tool <https://stats.masternode.me/>`_ shows a live calculation of
 masternode earnings. These rewards decrease by 7% each year, but the
-rising value of Dash may offset these reductions. As a matter of fact,
-masternodes were receiving 140 Dash per month at the beginning of 2016,
+rising value of Historia may offset these reductions. As a matter of fact,
+masternodes were receiving 140 Historia per month at the beginning of 2016,
 but this was actually less money than today: USD600 per month. There is
 also the possibility for masternodes to earn money from fees in the
 future.
@@ -82,20 +82,20 @@ PrivateSend
 ===========
 
 PrivateSend gives you true financial privacy by obscuring the origins of
-your funds. All the Dash in your wallet is comprised of different
+your funds. All the Historia in your wallet is comprised of different
 "inputs", which you can think of as separate, discrete coins.
 PrivateSend uses an innovative process to mix your inputs with the inputs
 of two other people, without having your coins ever leave your wallet.
 You retain control of your money at all times.
 
 You can view a practical guide to use PrivateSend 
-:ref:`here <dashcore-privatesend-instantsend>`.
+:ref:`here <historiacore-privatesend-instantsend>`.
 
 The PrivateSend process works like this:
 
 #. PrivateSend begins by breaking your transaction inputs down into
    standard denominations. These denominations are 0.001, 0.01, 0.1, 1
-   and 10 DASH -- much like the paper money you use every day.
+   and 10 HISTORIA -- much like the paper money you use every day.
 #. Your wallet then sends requests to specially configured software
    nodes on the network, called "masternodes". These masternodes are
    informed then that you are interested in mixing a certain
@@ -118,7 +118,7 @@ The PrivateSend process works like this:
    funds will already be anonymized. No additional waiting is required.
 
 Note that PrivateSend transactions will be rounded up so that all
-transaction inputs are spent. Any excess Dash will be spent on the
+transaction inputs are spent. Any excess Historia will be spent on the
 transaction fee.
 
 **IMPORTANT:** Your wallet only contains 1000 of these "change
@@ -143,7 +143,7 @@ six blocks to accumulate. Other cryptocurrencies achieve faster
 transaction confirmation time by centralizing authority on the network 
 to various degrees.
 
-Dash suffers from neither of these limitations thanks to its 
+Historia suffers from neither of these limitations thanks to its 
 second-layer network of masternodes. Masternodes can be called upon to 
 form voting quorums to check whether or not a submitted transaction is 
 valid. If it is valid, the masternodes "lock" the inputs for the 
@@ -152,22 +152,22 @@ promising that the transaction will be included in subsequently mined
 blocks and not allowing any other spending of these inputs during the 
 confirmation time period.
 
-InstantSend technology will allow for cryptocurrencies such as Dash to 
+InstantSend technology will allow for cryptocurrencies such as Historia to 
 compete with nearly instantaneous transaction systems such as credit 
 cards for point-of-sale situations while not relying on a centralized 
-authority. Widespread vendor acceptance of Dash and InstantSend could
+authority. Widespread vendor acceptance of Historia and InstantSend could
 revolutionize cryptocurrency by shortening the delay in confirmation of
 transactions from as long as an hour (with Bitcoin) to as little as a 
 few seconds.
 
 You can view a practical guide to use InstantSend 
-:ref:`here <dashcore-privatesend-instantsend>`. InstantSend was 
+:ref:`here <historiacore-privatesend-instantsend>`. InstantSend was 
 introduced in a whitepaper called `Transaction Locking and Masternode 
-Consensus: A Mechanism for Mitigating Double Spending Attacks <https://github.com/dashpay/docs/blob/master/binary/Dash%20Whitepaper%20-%20Transaction%20Locking%20and%20Masternode%20Consensus.pdf>`_.
+Consensus: A Mechanism for Mitigating Double Spending Attacks <https://github.com/HistoriaOffical/docs/blob/master/binary/Historia%20Whitepaper%20-%20Transaction%20Locking%20and%20Masternode%20Consensus.pdf>`_.
 
 
-**How Dash 'InstantSend' Protects Merchants from Double Spends**,
-Dash Detailed by Amanda B. Johnson, 16 September 2016
+**How Historia 'InstantSend' Protects Merchants from Double Spends**,
+Historia Detailed by Amanda B. Johnson, 16 September 2016
 
 .. raw:: html
 
@@ -182,7 +182,7 @@ Sporks
 ======
 
 In response to unforeseen issues with the rollout of the major "RC3"
-update in June 2014, the Dash development team created a mechanism by
+update in June 2014, the Historia development team created a mechanism by
 which updated code is released to the network, but not immediately made
 active ("enforced"). This innovation allows for far smoother transitions
 than in the traditional hard fork paradigm, as well as the collection of
@@ -190,9 +190,9 @@ test data in the live network environment. This process of multi-phased
 forking was originally to be called "soft forking" but the community
 affectionately dubbed it "the spork" and the name stuck.
 
-New features or versions of Dash undergo extensive testing on testnet
+New features or versions of Historia undergo extensive testing on testnet
 before they are released to the main network. When a new feature or
-version of Dash is released on mainnet, communication is sent out to
+version of Historia is released on mainnet, communication is sent out to
 users informing them of the change and the need for them to update their
 clients. Those who update their clients run the new code, but it is not
 activated until a sufficient percentage of network participants (usually
@@ -215,7 +215,7 @@ see :ref:`here <understanding-sporks>`.
 X11 Hash Algorithm
 ==================
 
-X11 is a widely used hashing algorithm created by Dash core developer
+X11 is a widely used hashing algorithm created by Historia core developer
 Evan Duffield. X11’s chained hashing algorithm utilizes a sequence of
 eleven scientific hashing algorithms for the proof-of-work. This is so
 that the processing distribution is fair and coins will be distributed
@@ -229,7 +229,7 @@ Information on mining with X11 can be found in the :ref:`Mining
 <mining>` section of this documentation.
 
 X11 is the name of the chained proof-of-work (**PoW**) algorithm that
-was introduced in Dash (launched January 2014 as "Xcoin"). It was 
+was introduced in Historia (launched January 2014 as "Xcoin"). It was 
 partially inspired by the chained-hashing approach of Quark, adding
 further "depth" and complexity by increasing the number of hashes, yet
 it differs from Quark in that the rounds of hashes are determined *a
@@ -268,8 +268,8 @@ increased safety and longevity for store of wealth purposes, investment
 diversification and hedging against risks associated with single-hash
 currencies plagued by SPOF (Single Point Of Failure).
 
-Evan Duffield, the creator of Dash and X11 chained-hash, has written on
-several occasions that X11 was integrated into Dash not with the
+Evan Duffield, the creator of Historia and X11 chained-hash, has written on
+several occasions that X11 was integrated into Historia not with the
 intention to prevent ASIC manufacturers from creating ASICs for X11 in
 the future, but rather to provide a similar migratory path that Bitcoin
 had (CPUs, GPUs, ASICs).
@@ -281,9 +281,9 @@ Dark Gravity Wave
 =================
 
 **DGW** or *Dark Gravity Wave* is an open source difficulty-adjusting
-algorithm for Bitcoin-based cryptocurrencies that was first used in Dash
+algorithm for Bitcoin-based cryptocurrencies that was first used in Historia
 and has since appeared in other digital currencies. DGW was authored by 
-Evan Duffield, the developer and creator of Dash, as a response to a 
+Evan Duffield, the developer and creator of Historia, as a response to a 
 time-warp exploit found in *Kimoto's Gravity Well*. In concept, DGW is 
 similar to the Kimoto Gravity Well, adjusting the difficulty levels 
 every block (instead of every 2016 blocks like Bitcoin) based on 
@@ -292,7 +292,7 @@ issue blocks with relatively consistent times, even if the hashing power
 experiences high fluctuations, without suffering from the time-warp 
 exploit.
 
-- Version 2.0 of DGW was implemented in Dash from block 45,000 onwards 
+- Version 2.0 of DGW was implemented in Historia from block 45,000 onwards 
   in order to completely alleviate the time-warp exploit.
 
 - Version 3.0 was implemented on May 14 of 2014 to further improve 
@@ -306,7 +306,7 @@ exploit.
 Emission Rate
 =============
 
-Cryptocurrencies such as Dash and Bitcoin are created through a
+Cryptocurrencies such as Historia and Bitcoin are created through a
 cryptographically difficult process known as mining. Mining involves
 repeatedly solving :ref:`hash algorithms <x11-hash-algorithm>` until a
 valid solution for the current :ref:`mining difficulty 
@@ -319,9 +319,9 @@ in this calculation
 Graphing this data results in a curve showing total coins in 
 circulation, known as the coin emission rate.
 
-While Dash is based on Bitcoin, it significantly modifies the coin
+While Historia is based on Bitcoin, it significantly modifies the coin
 emission rate to offer a smoother reduction in coin emission over time.
-While Bitcoin reduces the coin emission rate by 50% every 4 years, Dash
+While Bitcoin reduces the coin emission rate by 50% every 4 years, Historia
 reduces the emission by one-fourteenth (approx. 7.14%) every 210240
 blocks (approx. 383.25 days). It can be seen that reducing the block
 reward by a smaller amount each year offers a smoother transition to a
@@ -330,7 +330,7 @@ fee-based economy than Bitcoin.
 
 .. figure:: img/coin_emission.jpg
 
-   Bitcoin vs. Dash coin emission rate
+   Bitcoin vs. Historia coin emission rate
 
 
 Total coin emission
@@ -343,35 +343,35 @@ emission approaching (but never reaching) 21,000,000 BTC. This will
 continue until 2140, but the mining reward reduces so quickly that 99%
 of all bitcoin will be in circulation by 2036, and 99.9% by 2048.
 
-`Dash's total coin emission <https://docs.google.com/spreadsheets/d
+`Historia's total coin emission <https://docs.google.com/spreadsheets/d
 /1JUK4Iy8pjTzQ3Fvc-iV15n2qn19fmiJhnKDDSxebbAA/edit#gid=205877544>`_ is
 also the sum of a geometric series, but the ultimate total coin emission
 is uncertain because it cannot be known how much of the 10% block reward
 reserved for budget proposals will actually be allocated, since this
-depends on future voting behavior. Dash will continue to emit coins for
+depends on future voting behavior. Historia will continue to emit coins for
 approximately 192 years before a full year of mining creates less than 1
-DASH. After 2209 only 14 more DASH will be created. The last DASH will
+HISTORIA. After 2209 only 14 more HISTORIA will be created. The last HISTORIA will
 take 231 years to be generated, starting in 2246 and ending when
 emission completely stops in 2477. Based on these numbers, a maximum and
 minimum possible coin supply in the year 2254 can be calculated to be
 between:
 
 +-----------------+-----------------------------------+
-| 17,742,696 DASH | Assuming zero treasury allocation |
+| 17,742,696 HISTORIA | Assuming zero treasury allocation |
 +-----------------+-----------------------------------+
-| 18,921,005 DASH | Assuming full treasury allocation |
+| 18,921,005 HISTORIA | Assuming full treasury allocation |
 +-----------------+-----------------------------------+
 
 Block reward allocation
 -----------------------
 
-Unlike Bitcoin, which allocates 100% of the block reward to miners, Dash
+Unlike Bitcoin, which allocates 100% of the block reward to miners, Historia
 holds back 10% of the block reward for use in the decentralized
 :ref:`budget system <decentralized-governance>`. The remainder of the
 block, as well as any transaction fees, are split 50/50 between the
 :ref:`miner <mining>` and a :ref:`masternode <masternodes>`, which is
 deterministically selected according to the :ref:`payment logic
-<payment-logic>`. Dash features superblocks, which appear every 16616
+<payment-logic>`. Historia features superblocks, which appear every 16616
 blocks (approx. 30.29 days) and can release up to 10% of the cumulative
 budget held back over that :ref:`budget cycle period <budget-cycles>` to
 the winning proposals in the budget system. Depending on budget
@@ -387,10 +387,10 @@ a budget cycle as follows:
 +-----+----------------------------------------+
 
 This documentation is based on calculations and posts by moocowmoo.
-Please see `this reddit post <https://www.reddit.com/r/dashpay/comments/
-7fc2on/dash_over_1000_in_a_few_weeks/dqb4pjn/>`_ for more details, or
+Please see `this reddit post <https://www.reddit.com/r/HistoriaOffical/comments/
+7fc2on/historia_over_1000_in_a_few_weeks/dqb4pjn/>`_ for more details, or
 run your own `emission calculations using this tool
-<https://repl.it/@moocowmoo/dash-minmax-coin-generation>`_. See `this
+<https://repl.it/@moocowmoo/historia-minmax-coin-generation>`_. See `this
 site <https://stats.masternode.me>`_ for live data on current network
 statistics.
 
@@ -399,22 +399,22 @@ statistics.
 Decentralized Governance
 ========================
 
-Decentralized Governance by Blockchain, or DGBB, is Dash's attempt to
+Decentralized Governance by Blockchain, or DGBB, is Historia's attempt to
 solve two important problems in cryptocurrency: governance and funding.
 Governance in a decentralized project is difficult, because by
 definition there are no central authorities to make decisions for the
-project. In Dash, such decisions are made by the network, that is, by
+project. In Historia, such decisions are made by the network, that is, by
 the owners of masternodes. The DGBB system allows each masternode to
 vote once (yes/no/abstain) for each proposal. If a proposal passes, it
-can then be implemented (or not) by Dash's developers. A key example is
-early in 2016, when Dash's Core Team submitted a proposal to the network
+can then be implemented (or not) by Historia's developers. A key example is
+early in 2016, when Historia's Core Team submitted a proposal to the network
 asking whether the blocksize should be increased to 2 MB. Within 24
 hours, consensus had been reached to approve this change. Compare this
 to Bitcoin, where debate on the blocksize has been raging for nearly
 three years.
 
-DGBB also provides a means for Dash to fund its own development. While 
-other projects have to depend on donations or premined endowments, Dash 
+DGBB also provides a means for Historia to fund its own development. While 
+other projects have to depend on donations or premined endowments, Historia 
 uses 10% of the block reward to fund its own development. Every time a 
 block is mined, 45% of the reward goes to the miner, 45% goes to a 
 masternode, and the remaining 10% is not created until the end of the
@@ -426,7 +426,7 @@ not paid out (10% of each block) will be used to fund approved
 proposals. The network thus funds itself by reserving 10% of the block
 reward for budget projects.
 
-You can read more about Dash governance in the :ref:`governance` section
+You can read more about Historia governance in the :ref:`governance` section
 of this documentation.
 
 
@@ -436,21 +436,21 @@ Sentinel
 =========
 
 Sentinel is an autonomous agent for persisting, processing and
-automating Dash 12.1 governance objects and tasks, and for expanded
-functions in the upcoming Dash V13 release (Evolution). Sentinel is
+automating Historia 12.1 governance objects and tasks, and for expanded
+functions in the upcoming Historia V13 release (Evolution). Sentinel is
 implemented as a Python application that binds to a local version 12.1
-dashd instance on each Dash 12.1 masternode.
+historiad instance on each Historia 12.1 masternode.
 
 A Governance Object (or "govObject") is a generic structure introduced
-in Dash Core 12.1 to allow for the creation of Budget Proposals,
+in Historia Core 12.1 to allow for the creation of Budget Proposals,
 Triggers, and Watchdogs. Class inheritance has been utilized to extend 
 this generic object into a "Proposal" object to supplant the current 
-Dash budget system.
+Historia budget system.
 
 .. figure:: img/sentinel.png
    :width: 500px
 
-   Diagram highlighting the relationship between Dash Sentinel and Core
+   Diagram highlighting the relationship between Historia Sentinel and Core
 
 .. epigraph::
 
@@ -477,7 +477,7 @@ Dash budget system.
 Fees
 ====
 
-Transactions on the Dash network are recorded in blocks on the
+Transactions on the Historia network are recorded in blocks on the
 blockchain. The size of each transaction is measured in bytes, but there
 is not necessarily a correlation between high value transactions and the
 number of bytes required to process the transaction. Instead,
@@ -494,53 +494,53 @@ included as an incentive to the miner to process the transaction. Most
 wallets include a small fee by default, although some miners will
 process transactions even if no fee is included.
 
-The release of Dash 0.12.2.0 and activation of DIP0001 saw a
+The release of Historia 0.12.2.0 and activation of DIP0001 saw a
 simultaneous reduction of fees by a factor of 10, while the block size
 was increased from 1MB to 2MB to promote continued growth of low-cost
-transactions even as the cost of Dash rises. Dash also supports
+transactions even as the cost of Historia rises. Historia also supports
 :ref:`instantsend` and :ref:`privatesend` transactions, which operate on
-a different and mandatory fee schedule. Dash 0.13.0.0 introduced
+a different and mandatory fee schedule. Historia 0.13.0.0 introduced
 InstantSend autolocks, which causes masternodes to automatically attempt
 to lock any transaction with 4 or fewer inputs — which are referred to
 as “simple” transactions — and removes the additional fee for
-InstantSend. The fee schedule for Dash 0.13.x as of December 2018 is as
+InstantSend. The fee schedule for Historia 0.13.x as of December 2018 is as
 follows:
 
 +----------------------+-----------------+-----------------------------------+
 | Transaction type     | Recommended fee | Per unit                          |
 +======================+=================+===================================+
-| Standard transaction | .00001 DASH     | Per kB of transaction data        |
+| Standard transaction | .00001 HISTORIA     | Per kB of transaction data        |
 +----------------------+-----------------+-----------------------------------+
-| InstantSend autolock | .00001 DASH     | Per kB of transaction data        |
+| InstantSend autolock | .00001 HISTORIA     | Per kB of transaction data        |
 +----------------------+-----------------+-----------------------------------+
-| InstantSend          | .0001 DASH      | Per transaction input             |
+| InstantSend          | .0001 HISTORIA      | Per transaction input             |
 +----------------------+-----------------+-----------------------------------+
-| PrivateSend          | .001 DASH       | Per 10 rounds of mixing (average) |
+| PrivateSend          | .001 HISTORIA       | Per 10 rounds of mixing (average) |
 +----------------------+-----------------+-----------------------------------+
 
-As an example, a standard and relatively simple transaction on the Dash
+As an example, a standard and relatively simple transaction on the Historia
 network with one input, one output and a possible change address
 typically fits in the range of 200 - 400 bytes. Assuming a price of
-US$100 per DASH, the fee falls in the range of $0.0002 - $0.0004, or
+US$100 per HISTORIA, the fee falls in the range of $0.0002 - $0.0004, or
 1/50th of a cent. Processing a simple transaction using InstantSend at
 the same price is free of charge, while more complex InstantSend
 transactions may cost around 1-2 cents per transaction, depending on the
-number of inputs. These fees apply regardless of the Dash or dollar
+number of inputs. These fees apply regardless of the Historia or dollar
 value of the transaction itself.
 
 PrivateSend works by creating denominations of 10, 1, 0.1, 0.01 and
-0.001 DASH and then mixing these denominations with other users.
+0.001 HISTORIA and then mixing these denominations with other users.
 Creation of the denominations is charged at the default fee for a
 standard transaction. Mixing is free, but to prevent spam attacks, an
 average of one in ten mixing transactions are charged a fee of 0.0001
-DASH. Spending inputs mixed using PrivateSend incurs the usual standard
+HISTORIA. Spending inputs mixed using PrivateSend incurs the usual standard
 or InstantSend fees, but to avoid creating a potentially identifiable
 change address, the fee is always rounded up to the lowest possible
-denomination. This is typically .001 DASH, so it is important to deduct
+denomination. This is typically .001 HISTORIA, so it is important to deduct
 the fee from the amount being sent if possible to minimise fees.
 Combining InstantSend and PrivateSend may be expensive due to this
 requirement and the fact that a PrivateSend transaction may require
-several inputs, while InstantSend charges a fee of 0.0001 DASH per
+several inputs, while InstantSend charges a fee of 0.0001 HISTORIA per
 input. Always check your fees before sending a transaction.
 
 
@@ -549,31 +549,31 @@ input. Always check your fees before sending a transaction.
 Evolution
 ==========
 
-`Dash Evolution <https://www.dash.org/evolution/>`_ is the code
-name for a decentralized currency platform built on Dash blockchain
+`Historia Evolution <https://historia.network/evolution/>`_ is the code
+name for a decentralized currency platform built on Historia blockchain
 technology. The goal is to provide simple access to the unique features
-and benefits of Dash to assist in the creation of decentralized
-technology. Dash introduces a tiered network design, which allows users
+and benefits of Historia to assist in the creation of decentralized
+technology. Historia introduces a tiered network design, which allows users
 to do various jobs for the network, along with decentralized API access
 and a decentralized file system.
 
-Dash Evolution will be released in stages. Dash Core releases 12.1 
+Historia Evolution will be released in stages. Historia Core releases 12.1 
 through to 12.4 will lay the groundwork for the decentralized features 
 behind the scenes. An alpha version of Evolution is expected in the 
-first half of 2018, including a basic implementation of DashDrive, 
+first half of 2018, including a basic implementation of HistoriaDrive, 
 Primitives, DAPI and a simple T3 wallet. This will be released together 
-with a series of Dash Improvement Proposals (DIPs), followed by a 
+with a series of Historia Improvement Proposals (DIPs), followed by a 
 testnet phase with most basic functionality, and a first stable release 
 in summer 2018.
 
 Included below is our current work on Evolution, that adds many
 components such as:
 
-- **DashDrive:** A decentralized shared file system for user data that
+- **HistoriaDrive:** A decentralized shared file system for user data that
   lives on the second tier network
 - **DAPI:** A decentralized API which allows third tier users to access
   the network securely
-- **DashPay Decentralized Wallets:** These wallets are light clients
+- **HistoriaPay Decentralized Wallets:** These wallets are light clients
   connected to the network via DAPI and run on various platforms
 - **Second Tier:** The masternode network, which provides compensated
   infrastructure for the project
@@ -589,11 +589,11 @@ components such as:
 Evolution Previews
 ------------------
 
-The following videos featuring Dash Founder Evan Duffield and Head of
+The following videos featuring Historia Founder Evan Duffield and Head of
 UI/UX Development Chuck Williams describe the development process and
-upcoming features of the Dash Evolution platform.
+upcoming features of the Historia Evolution platform.
 
-**Evolution Demo #1 - The First Dash DAP**, 16 March 2018
+**Evolution Demo #1 - The First Historia DAP**, 16 March 2018
 
 .. raw:: html
 
@@ -609,7 +609,7 @@ upcoming features of the Dash Evolution platform.
         <iframe src="//www.youtube.com/embed/EtYax7iz4hU" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-**Evolution Demo #3 - Dashpay User Experience**, 15 May 2018
+**Evolution Demo #3 - Historiapay User Experience**, 15 May 2018
 
 .. raw:: html
 
@@ -617,7 +617,7 @@ upcoming features of the Dash Evolution platform.
         <iframe src="//www.youtube.com/embed/ZJVW9iUHqLg" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-**Chuck Williams on Evolution**, Dash Conference London, 14 September 2017
+**Chuck Williams on Evolution**, Historia Conference London, 14 September 2017
 
 .. raw:: html
 
@@ -625,7 +625,7 @@ upcoming features of the Dash Evolution platform.
         <iframe src="//www.youtube.com/embed/b-XL_ddWCwQ" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-**Evan Duffield on the Evolution Roadmap**, Dash Force News, 28 June 
+**Evan Duffield on the Evolution Roadmap**, Historia Force News, 28 June 
 2017
 
 .. raw:: html

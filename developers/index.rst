@@ -1,6 +1,6 @@
 .. meta::
-   :description: Developers guide and information about sporks and Dash version history
-   :keywords: dash, developers, sporks, version history
+   :description: Developers guide and information about sporks and Historia version history
+   :keywords: historia, developers, sporks, version history
 
 .. _developers:
 
@@ -8,24 +8,24 @@
 Developers
 ==========
 
-Dash Core has published an extensive `Developer Guide 
-<https://dash-docs.github.io/en/>`_ to help new developers get started
-with the Dash code base, and as a reference for experienced developers.
+Historia Core has published an extensive `Developer Guide 
+<https://historia-docs.github.io/en/>`_ to help new developers get started
+with the Historia code base, and as a reference for experienced developers.
 This guide can be leveraged to quickly and efficiently integrate
-external applications with the Dash ecosystem. Anyone can contribute to
+external applications with the Historia ecosystem. Anyone can contribute to
 the guide by submitting an issue or pull request on GitHub. The
-documentation is available at: https://dash-docs.github.io/en/
+documentation is available at: https://historia-docs.github.io/en/
 
-The Dash Core Team also maintains the `Dash Roadmap
-<https://github.com/dashpay/dash-roadmap>`_, which sets out delivery
-milestones for future releases of Dash and includes specific technical
+The Historia Core Team also maintains the `Historia Roadmap
+<https://github.com/HistoriaOffical/historia-roadmap>`_, which sets out delivery
+milestones for future releases of Historia and includes specific technical
 details describing how the development team plans to realise each
-challenge. The Dash Roadmap is complemented by the `Dash Improvement
-Proposals <https://github.com/dashpay/dips>`_, which contain detailed
-technical explanations of proposed changes to the Dash protocol itself.
+challenge. The Historia Roadmap is complemented by the `Historia Improvement
+Proposals <https://github.com/HistoriaOffical/dips>`_, which contain detailed
+technical explanations of proposed changes to the Historia protocol itself.
 
 The remaining sections available below describe practical steps to
-carry out common development tasks in Dash.
+carry out common development tasks in Historia.
 
 .. toctree::
    :maxdepth: 1
@@ -42,7 +42,7 @@ Sporks
 ======
 
 A multi-phased fork, colloquially known as a "spork", is a mechanism
-unique to Dash used to safely deploy new features to the network through
+unique to Historia used to safely deploy new features to the network through
 network-level variables to avoid the risk of unintended network forking
 during upgrades. It can also be used to disable certain features if a
 security vulnerability is discovered - see :ref:`here <sporks>` for a
@@ -62,21 +62,21 @@ effectively disabled until changed. The following sporks currently exist
 on the network and serve functions as described below:
 
 SPORK_2_INSTANTSEND_ENABLED
-  Governs the ability of Dash clients to use InstantSend functionality.
+  Governs the ability of Historia clients to use InstantSend functionality.
 
 SPORK_3_INSTANTSEND_BLOCK_FILTERING
   If enabled, masternodes will reject blocks containing transactions in
   conflict with locked but unconfirmed InstantSend transactions.
 
 SPORK_5_INSTANTSEND_MAX_VALUE
-  Enforces the maximum value in Dash that can be included in an
+  Enforces the maximum value in Historia that can be included in an
   InstantSend transaction.
 
 SPORK_6_NEW_SIGS
-  Enables a new signature format for Dash-specific network messages
-  introduced in Dash 12.3. For more information, see `here
-  <https://github.com/dashpay/dash/pull/1936>`__ and `here
-  <https://github.com/dashpay/dash/pull/1937>`__.
+  Enables a new signature format for Historia-specific network messages
+  introduced in Historia 12.3. For more information, see `here
+  <https://github.com/HistoriaOffical/historia/pull/1936>`__ and `here
+  <https://github.com/HistoriaOffical/historia/pull/1937>`__.
 
 SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT
   If enabled, miners must pay 50% of the block reward to a masternode
@@ -104,7 +104,7 @@ SPORK_14_REQUIRE_SENTINEL_FLAG
 
 SPORK_15_DETERMINISTIC_MNS_ENABLED
   Controls whether `deterministic masternodes
-  <https://github.com/dashpay/dips/blob/master/dip-0003.md>`_ are
+  <https://github.com/HistoriaOffical/dips/blob/master/dip-0003.md>`_ are
   required. When activated, the legacy masternode list logic will no
   longer run and non-updated masternodes will not be eligible for
   payment.
@@ -117,7 +117,7 @@ SPORK_16_INSTANTSEND_AUTOLOCKS
 
 SPORK_17_QUORUM_DKG_ENABLED
   Enables the `DKG process to create LLMQ quorums
-  <https://github.com/dashpay/dips/blob/master/dip-0006.md>`_. At the
+  <https://github.com/HistoriaOffical/dips/blob/master/dip-0006.md>`_. At the
   moment, this only activates a dummy DKG on testnet, which will later
   be replaced by the real DKG for mainnet and testnet. When enabled, 
   simple PoSe scoring and banning is also active.
@@ -127,19 +127,19 @@ Viewing spork status
 --------------------
 
 The ``spork show`` and ``spork active`` commands issued in the debug
-window (or from ``dash-cli`` on a masternode) allow you to interact with
+window (or from ``historia-cli`` on a masternode) allow you to interact with
 sporks. You can open the debug window by selecting **Tools > Debug
 console**.
 
-.. figure:: img/dashcore-sporks.png
+.. figure:: img/historiacore-sporks.png
    :width: 300px
 
-   spork show and spork active output in the Dash Core debug console
+   spork show and spork active output in the Historia Core debug console
 
 
 Version History
 ===============
 
-Full release notes and the version history of Dash are available here:
+Full release notes and the version history of Historia are available here:
 
-- https://github.com/dashpay/dash/blob/master/doc/release-notes.md
+- https://github.com/HistoriaOffical/historia/blob/master/doc/release-notes.md

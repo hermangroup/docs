@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2017, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-17 11:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../mining/index.rst:1
-msgid "Information and guides on how to mine the Dash cryptocurrency"
+msgid "Information and guides on how to mine the Historia cryptocurrency"
 msgstr ""
 
 #: ../../mining/index.rst:1
 msgid ""
-"dash, mining, X11, masternode, CPU, GPU, ASIC, software, hardware, pool, "
+"historia, mining, X11, masternode, CPU, GPU, ASIC, software, hardware, pool, "
 "mining pools"
 msgstr ""
 
@@ -33,11 +33,11 @@ msgstr ""
 
 #: ../../mining/index.rst:11
 msgid ""
-"Mining in the context of cryptocurrency such as Dash refers to the "
+"Mining in the context of cryptocurrency such as Historia refers to the "
 "process of searching for solutions to cryptographically difficult "
 "problems as a method of securing blocks on the blockchain. The process of"
 " mining creates new currency tokens as a reward to the miner. Mining is "
-"possible on a range of hardware. Dash implements an algorithm known as "
+"possible on a range of hardware. Historia implements an algorithm known as "
 ":ref:`X11 <x11-hash-algorithm>`, which the miner must solve in order to "
 "earn rewards."
 msgstr ""
@@ -58,7 +58,7 @@ msgid ""
 "available on the market, which have quickly made CPU and GPU mining "
 "uneconomic due to the increased difficulty of hashing arising from the "
 "rapidly increasing hash rate. The result is a currency which is more "
-"secure against brute force attacks on the Dash blockchain."
+"secure against brute force attacks on the Historia blockchain."
 msgstr ""
 
 #: ../../mining/index.rst:35
@@ -69,19 +69,19 @@ msgid ""
 msgstr ""
 
 #: ../../mining/index.rst:39
-msgid "`Hashrate <https://bitinfocharts.com/comparison/dash-hashrate.html>`_"
+msgid "`Hashrate <https://bitinfocharts.com/comparison/historia-hashrate.html>`_"
 msgstr ""
 
 #: ../../mining/index.rst:40
 msgid ""
-"`Mining difficulty <https://bitinfocharts.com/comparison/dash-"
+"`Mining difficulty <https://bitinfocharts.com/comparison/historia-"
 "difficulty.html>`_"
 msgstr ""
 
 #: ../../mining/index.rst:41
 msgid ""
 "`Profitability calculation tool <https://www.coinwarz.com/calculators"
-"/dash-mining-calculator>`_"
+"/historia-mining-calculator>`_"
 msgstr ""
 
 #: ../../mining/index.rst:44
@@ -90,10 +90,10 @@ msgstr ""
 
 #: ../../mining/index.rst:46
 msgid ""
-"Dash, like Bitcoin and most other cryptocurrencies, is based on a "
+"Historia, like Bitcoin and most other cryptocurrencies, is based on a "
 "decentralized ledger of all transactions, known as a blockchain. This "
 "blockchain is secured through a consensus mechanism; in the case of both "
-"Dash and Bitcoin, the consensus mechanism is Proof of Work (PoW). Miners "
+"Historia and Bitcoin, the consensus mechanism is Proof of Work (PoW). Miners "
 "attempt to solve difficult problems with specialized computers, and when "
 "they solve the problem, they receive the right to add a new block to the "
 "blockchain. If all the other people running the software agree that the "
@@ -104,7 +104,7 @@ msgstr ""
 #: ../../mining/index.rst:56
 #, python-format
 msgid ""
-"Dash works a little differently from Bitcoin, however, because it has a "
+"Historia works a little differently from Bitcoin, however, because it has a "
 "two-tier network. The second tier is powered by :ref:`masternodes "
 "<masternodes>` (Full Nodes), which enable financial privacy "
 "(PrivateSend), instant transactions (InstantSend), and the decentralized "
@@ -122,7 +122,7 @@ msgid ""
 "entire network is overseen by the masternodes, which have the power to "
 "reject improperly formed blocks from miners. If a miner tried to take the"
 " entire block reward for themselves or tried to run an old version of the"
-" Dash software, the masternode network would orphan that block, and it "
+" Historia software, the masternode network would orphan that block, and it "
 "would not be added to the blockchain."
 msgstr ""
 
@@ -130,10 +130,10 @@ msgstr ""
 msgid ""
 "In short, miners power the first tier, which is the basic sending and "
 "receiving of funds and prevention of doublespending. Masternodes power "
-"the second tier, which provide the added features that make Dash "
+"the second tier, which provide the added features that make Historia "
 "different from other cryptocurrencies. Masternodes do not mine, and "
 "mining computers cannot serve as masternodes. Additionally, each "
-"masternode is “secured” by 1000 DASH. Those DASH remain under the sole "
+"masternode is “secured” by 1000 HISTORIA. Those HISTORIA remain under the sole "
 "control of their owner at all times, and can still be freely spent. The "
 "funds are not locked in any way. However, if the funds are moved or "
 "spent, the associated masternode will go offline and stop receiving "
@@ -146,12 +146,12 @@ msgstr ""
 
 #: ../../mining/index.rst:90
 msgid ""
-"Mining Dash in pools is more likely to generate rewards than solo mining "
-"directly on the blockchain. Mining dash using P2Pool is strongly "
+"Mining Historia in pools is more likely to generate rewards than solo mining "
+"directly on the blockchain. Mining historia using P2Pool is strongly "
 "encouraged, since it is a good way to distribute, rather than centralize,"
-" the hashing power. The following site lists Dash P2Pool mining pools "
+" the hashing power. The following site lists Historia P2Pool mining pools "
 "near you, simply choose a pool with favourable fees and ping time and "
-"enter your Dash payment address as username and anything as password."
+"enter your Historia payment address as username and anything as password."
 msgstr ""
 
 #: ../../mining/index.rst:98
@@ -161,8 +161,8 @@ msgstr ""
 #: ../../mining/index.rst:100
 msgid ""
 "If you would like to set up your own P2Pool, documentation of the process"
-" is available :ref:`here <p2pool>` and the code for p2pool-dash is "
-"available on `GitHub <https://github.com/dashpay/p2pool-dash>`_."
+" is available :ref:`here <p2pool>` and the code for p2pool-historia is "
+"available on `GitHub <https://github.com/HistoriaOffical/p2pool-historia>`_."
 msgstr ""
 
 #: ../../mining/index.rst:104
@@ -176,7 +176,7 @@ msgid "https://coinfoundry.org"
 msgstr ""
 
 #: ../../mining/index.rst:108
-msgid "https://dash.suprnova.cc"
+msgid "https://historia.suprnova.cc"
 msgstr ""
 
 #: ../../mining/index.rst:109
@@ -188,7 +188,7 @@ msgid "https://www.coinotron.com"
 msgstr ""
 
 #: ../../mining/index.rst:111
-msgid "https://dash.miningpoolhub.com"
+msgid "https://historia.miningpoolhub.com"
 msgstr ""
 
 #: ../../mining/index.rst:112
@@ -196,7 +196,7 @@ msgid "https://www.multipool.us"
 msgstr ""
 
 #: ../../mining/index.rst:113 ../../mining/index.rst:115
-msgid "https://dash.miningfield.com"
+msgid "https://historia.miningfield.com"
 msgstr ""
 
 #: ../../mining/index.rst:114
@@ -204,11 +204,11 @@ msgid "https://www.f2pool.com"
 msgstr ""
 
 #: ../../mining/index.rst:116
-msgid "https://www2.coinmine.pl/dash"
+msgid "https://www2.coinmine.pl/historia"
 msgstr ""
 
 #: ../../mining/index.rst:117
-msgid "https://aikapool.com/dash"
+msgid "https://aikapool.com/historia"
 msgstr ""
 
 #: ../../mining/index.rst:118
@@ -224,11 +224,11 @@ msgid "https://www.genesis-mining.com"
 msgstr ""
 
 #: ../../mining/index.rst:121
-msgid "https://pool.viabtc.com/pool/dash/state"
+msgid "https://pool.viabtc.com/pool/historia/state"
 msgstr ""
 
 #: ../../mining/index.rst:122
-msgid "http://dash.cybtc.info"
+msgid "http://historia.cybtc.info"
 msgstr ""
 
 #: ../../mining/index.rst:123
@@ -238,18 +238,18 @@ msgstr ""
 #: ../../mining/index.rst:125
 msgid ""
 "DISCLAIMER: This list is provided for informational purposes only. "
-"Services listed here have not been evaluated or endorsed by the Dash "
+"Services listed here have not been evaluated or endorsed by the Historia "
 "developers and no guarantees are made as to the accuracy of this "
 "information. Please exercise discretion when using third-party services. "
 "If you’d like to be added to this list please reach out to "
-"leon.white@dash.org"
+"leon.white@historia.network"
 msgstr ""
 
 #: ../../mining/index.rst:132
 msgid ""
-"In addition to joining a pool, you will also need to create a Dash "
-"address to receive your payout. To do this in Dash Core wallet, see "
-":ref:`here <dashcore-send-receive>`."
+"In addition to joining a pool, you will also need to create a Historia "
+"address to receive your payout. To do this in Historia Core wallet, see "
+":ref:`here <historiacore-send-receive>`."
 msgstr ""
 
 #: ../../mining/index.rst:145
@@ -258,7 +258,7 @@ msgstr ""
 
 #: ../../mining/index.rst:147
 msgid ""
-"This documentation describes how to mine Dash under the Windows operating"
+"This documentation describes how to mine Historia under the Windows operating"
 " system using just the CPU in your computer. Please note that the "
 "prevalence of GPU and ASIC miners mean that unless you have free "
 "electricity, this is highly unlikely to be profitable! Since this is the "
@@ -281,8 +281,8 @@ msgstr ""
 
 #: ../../mining/index.rst:161 ../../mining/index.rst:295
 msgid ""
-"`Dash Forum Mining Discussions "
-"<https://www.dash.org/forum/topic/mining.3/>`_"
+"`Historia Forum Mining Discussions "
+"<https://historia.network/forum/topic/mining.3/>`_"
 msgstr ""
 
 #: ../../mining/index.rst:162 ../../mining/index.rst:296
@@ -343,7 +343,7 @@ msgid ""
 msgstr ""
 
 #: ../../mining/index.rst:200
-msgid "Executable CPU miners for Dash"
+msgid "Executable CPU miners for Historia"
 msgstr ""
 
 #: ../../mining/index.rst:203 ../../mining/index.rst:349
@@ -352,7 +352,7 @@ msgstr ""
 
 #: ../../mining/index.rst:205 ../../mining/index.rst:351
 msgid ""
-"Begin by selecting a mining pool and generating a Dash address as "
+"Begin by selecting a mining pool and generating a Historia address as "
 "described in the :ref:`Mining Pools <mining-pools>` section above. Keep "
 "all your mining files in a single folder. In this example we will work "
 "from the Desktop. The node selected for this example is from the "
@@ -375,7 +375,7 @@ msgid "minerd = the executable miner daemon file you choose to use"
 msgstr ""
 
 #: ../../mining/index.rst:223
-msgid "a = algorithm, which is X11 for Dash"
+msgid "a = algorithm, which is X11 for Historia"
 msgstr ""
 
 #: ../../mining/index.rst:224
@@ -383,7 +383,7 @@ msgid "o = URL of your mining pool, including the protocol and port"
 msgstr ""
 
 #: ../../mining/index.rst:225
-msgid "u = username, usually the Dash receiving address of your wallet or worker"
+msgid "u = username, usually the Historia receiving address of your wallet or worker"
 msgstr ""
 
 #: ../../mining/index.rst:226
@@ -462,7 +462,7 @@ msgstr ""
 #: ../../mining/index.rst:281
 msgid ""
 "This guide consolidates several other guides on how to use your GPU (the "
-"processor on your graphics card) to mine Dash using the X11 algorithm on "
+"processor on your graphics card) to mine Historia using the X11 algorithm on "
 "Windows. Please note that the growing market for ASIC miners means that "
 "this if probably not going to be profitable! A lot of the software and "
 "binaries described here also have not been updated for several years, so "
@@ -538,7 +538,7 @@ msgid ""
 msgstr ""
 
 #: ../../mining/index.rst:339
-msgid "Executable GPU miners for Dash"
+msgid "Executable GPU miners for Historia"
 msgstr ""
 
 #: ../../mining/index.rst:341
@@ -569,7 +569,7 @@ msgstr ""
 
 #: ../../mining/index.rst:378
 msgid ""
-"user = username, usually the Dash receiving address of your wallet or "
+"user = username, usually the Historia receiving address of your wallet or "
 "worker"
 msgstr ""
 
@@ -588,7 +588,7 @@ msgid "For the pool above, the configuration may be:"
 msgstr ""
 
 #: ../../mining/index.rst:389
-msgid "Configuration file for a Dash GPU miner"
+msgid "Configuration file for a Historia GPU miner"
 msgstr ""
 
 #: ../../mining/index.rst:391
@@ -628,11 +628,11 @@ msgstr ""
 #: ../../mining/index.rst:421
 msgid ""
 "Please note that the information on this page may become obsolete very "
-"quickly due to the rapidly changing market and difficulty of mining Dash."
+"quickly due to the rapidly changing market and difficulty of mining Historia."
 " You are responsible for carrying out your own research and any listing "
 "on this page should not be considered an endorsement of any particular "
 "product. A good place to begin your research is the `mining section of "
-"the Dash Forums <https://www.dash.org/forum/topic/hardware-discussions-"
+"the Historia Forums <https://historia.network/forum/topic/hardware-discussions-"
 "asic-gpu-cpu.101/>`_."
 msgstr ""
 
@@ -694,7 +694,7 @@ msgstr ""
 
 #: ../../mining/index.rst:436
 msgid ""
-"`iBelink DM56G <https://ibelink.co/product/ibelink-dm56g-x11-dash-miner-"
+"`iBelink DM56G <https://ibelink.co/product/ibelink-dm56g-x11-historia-miner-"
 "with-56-gh-s-hash-rate/>`_"
 msgstr ""
 
@@ -929,7 +929,7 @@ msgstr ""
 
 #: ../../mining/index.rst:465
 msgid ""
-"`iBelink DM22G <https://ibelink.co/product/ibelink-dm22g-x11dash-miner-"
+"`iBelink DM22G <https://ibelink.co/product/ibelink-dm22g-x11historia-miner-"
 "with-22-ghs-hash-rate/>`_"
 msgstr ""
 
@@ -1049,7 +1049,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Mining in the context of cryptocurrency"
-#~ " such as Dash refers to the "
+#~ " such as Historia refers to the "
 #~ "process of searching for solutions to"
 #~ " cryptographically difficult problems as a"
 #~ " method of securing blocks on the "
@@ -1057,7 +1057,7 @@ msgstr ""
 #~ "creates new currency tokens as a "
 #~ "reward to the miner. Mining is "
 #~ "possible on a range of hardware. "
-#~ "Dash implements an algorithm known as"
+#~ "Historia implements an algorithm known as"
 #~ " X11, which the miner must solve "
 #~ "in order to earn rewards."
 #~ msgstr ""
@@ -1087,16 +1087,16 @@ msgstr ""
 #~ " rapidly increasing hash rate. The "
 #~ "result is a currency which is more"
 #~ " secure against brute force attacks "
-#~ "on the Dash blockchain."
+#~ "on the Historia blockchain."
 #~ msgstr ""
 
-#~ msgid "https://dash.miningpoolhub.com/"
+#~ msgid "https://historia.miningpoolhub.com/"
 #~ msgstr ""
 
-#~ msgid "http://dash.cybtc.info/"
+#~ msgid "http://historia.cybtc.info/"
 #~ msgstr ""
 
-#~ msgid "https://aikapool.com/dash/"
+#~ msgid "https://aikapool.com/historia/"
 #~ msgstr ""
 
 #~ msgid "http://zpool.ca/"
@@ -1111,14 +1111,14 @@ msgstr ""
 #~ msgid "http://partner.avalon-life.com/"
 #~ msgstr ""
 
-#~ msgid "https://pool.viabtc.com/pool/dash/state/"
+#~ msgid "https://pool.viabtc.com/pool/historia/state/"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "DISCLAIMER: This list is provided for"
 #~ " informational purposes only. Services "
 #~ "listed here have not been evaluated "
-#~ "or endorsed by the Dash developers "
+#~ "or endorsed by the Historia developers "
 #~ "and no guarantees are made as to"
 #~ " the accuracy of this information. "
 #~ "Please exercise discretion when using "
@@ -1158,7 +1158,7 @@ msgstr ""
 #~ " rapidly increasing hash rate. The "
 #~ "result is a currency which is more"
 #~ " secure against brute force attacks "
-#~ "on the Dash blockchain."
+#~ "on the Historia blockchain."
 #~ msgstr ""
 
 #~ msgid ""
@@ -1171,7 +1171,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "https://github.com/dashminer/dashminer/releases (supports "
+#~ "https://github.com/historiaminer/historiaminer/releases (supports "
 #~ "one pool only)"
 #~ msgstr ""
 
@@ -1197,7 +1197,7 @@ msgstr ""
 #~ " information and releases."
 #~ msgstr ""
 
-#~ msgid "https://poolmining.org/pool/dash"
+#~ msgid "https://poolmining.org/pool/historia"
 #~ msgstr ""
 
 #~ msgid "http://cryptopool.io"
@@ -1210,8 +1210,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "https://github.com/dashminer/dashminer/releases (supports "
-#~ "DashMiner pools only)"
+#~ "https://github.com/historiaminer/historiaminer/releases (supports "
+#~ "HistoriaMiner pools only)"
 #~ msgstr ""
 
 #~ msgid "3.7 kg"
@@ -1472,15 +1472,15 @@ msgstr ""
 #~ "Please note that the information on "
 #~ "this page may become obsolete very "
 #~ "quickly due to the rapidly changing "
-#~ "market and difficulty of mining Dash."
+#~ "market and difficulty of mining Historia."
 #~ " You are responsible for carrying out"
 #~ " your own research and any listing"
 #~ " on this page should not be "
 #~ "considered an endorsement of any "
 #~ "particular product. A good place to "
 #~ "begin your research is the `mining "
-#~ "section of the Dash Forums "
-#~ "<https://www.dash.org/forum/topic/hardware- discussions-"
+#~ "section of the Historia Forums "
+#~ "<https://historia.network/forum/topic/hardware- discussions-"
 #~ "asic-gpu-cpu.101/>`_."
 #~ msgstr ""
 

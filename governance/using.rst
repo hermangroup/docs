@@ -1,14 +1,14 @@
 .. meta::
-   :description: Practical guide to using the Dash governance system and treasury
-   :keywords: dash, dgbb, governance, funding, voting, proposals, masternodes
+   :description: Practical guide to using the Historia governance system and treasury
+   :keywords: historia, dgbb, governance, funding, voting, proposals, masternodes
 
 .. _using-governance:
 
 =====================
-Using Dash Governance
+Using Historia Governance
 =====================
 
-Dash's Decentralized Governance by Blockchain (DGBB) is a novel voting
+Historia's Decentralized Governance by Blockchain (DGBB) is a novel voting
 and funding platform. This documentation introduces and details the
 theory and practice to use the system.
 
@@ -28,7 +28,7 @@ Proposals
 ---------
 
 - Proposals are a request to receive funds
-- Proposals can be submitted by anyone for a fee of 5 Dash. The proposal
+- Proposals can be submitted by anyone for a fee of 5 Historia. The proposal
   fee is irreversibly destroyed on submission.
 - Proposals cannot be altered once submitted
 
@@ -50,7 +50,7 @@ Budgets
   fall below the approval threshold
 - Budgets are processed (paid) in order of yes minus no votes. More
   popular budgets get payment priority. 
-- Approximately 6176 dash (in 2018) are available for each budget cycle,
+- Approximately 6176 historia (in 2018) are available for each budget cycle,
   decreasing by 7.14% every 210240 blocks (approx. 383.25 days).
 
 Object structure
@@ -63,8 +63,8 @@ The following information is required to create a proposal:
   proposal information
 - payment-count: how many cycles the proposal is requesting payment
 - block-start: the requested start of proposal payments
-- dash-address: the address to receive proposal payments
-- monthly-payment-dash: the requested payment amount
+- historia-address: the address to receive proposal payments
+- monthly-payment-historia: the requested payment amount
 
 Persistence
 -----------
@@ -78,19 +78,19 @@ Persistence
   the total available votes.
 - The total available votes is the count of online and responding
   masternodes and can be seen by running the command 
-  ``masternode count`` in the Dash Core wallet debug window. A graph of
+  ``masternode count`` in the Historia Core wallet debug window. A graph of
   the total masternode count can be found `here 
   <http://178.254.23.111/~pub/masternode_count.png>`__
 
 Templates
 ---------
 
-The following two Microsoft Word templates are available from Dash Core
+The following two Microsoft Word templates are available from Historia Core
 Group to help facilitate standardized proposal submission and updates.
 Usage is recommended, but not required.
 
-- `Project Proposal Template <https://github.com/dashpay/docs/raw/master/binary/Dash%20Project%20Proposal%20Template%20v1.0.docx>`_
-- `Project Status Update Template <https://github.com/dashpay/docs/raw/master/binary/Dash%20Project%20Status%20Update%20Template%20v1.0.docx>`_
+- `Project Proposal Template <https://github.com/HistoriaOffical/docs/raw/master/binary/Historia%20Project%20Proposal%20Template%20v1.0.docx>`_
+- `Project Status Update Template <https://github.com/HistoriaOffical/docs/raw/master/binary/Historia%20Project%20Status%20Update%20Template%20v1.0.docx>`_
 
 .. _budget-cycles:
 
@@ -145,20 +145,20 @@ Creating proposals
 Once you have prepared the text of your proposal and set up a website or
 forum post, it is time to submit your proposal to the blockchain for
 voting. While all tasks involved with creating a budget proposal can be
-executed from the Dash Core wallet console, several tools providing a
+executed from the Historia Core wallet console, several tools providing a
 user interface have been developed to simplify this procedure.
 
-Dash Budget Proposal Generator
+Historia Budget Proposal Generator
 ------------------------------
 
-- https://proposal.dash.org
+- https://proposal.historia.network
 
-The `Dash Budget Proposal Generator <https://proposal.dash.org>`__
+The `Historia Budget Proposal Generator <https://proposal.historia.network>`__
 supports creating budget proposals on both mainnet and testnet. In the
 first step, you must enter a short, clear and unique name for the
 proposal as it will appear on the blockchain. Proposal names are limited
 to 40 characters. You can then provide a link to the forum or
-DashCentral where your proposal is described in more detail (use a `URL
+HistoriaCentral where your proposal is described in more detail (use a `URL
 shortening service <https://goo.gl>`_ if necessary), as well as select
 the amount of payment you are requesting, how often the payment should
 occur, and the superblock date on which you are requesting payment. This
@@ -177,14 +177,14 @@ blockchain.
    Steps 1 & 2: Creating your proposal and preparing the command
 
 Next, the proposal generator will provide you with a command to run from
-the console of your Dash Core wallet to prepare your budget proposal
-governance object. Running this command will cost you 5 DASH, which will
+the console of your Historia Core wallet to prepare your budget proposal
+governance object. Running this command will cost you 5 HISTORIA, which will
 be "burnt" or permanently removed from circulation. This one-time fee
 protects the governance system from becoming overwhelmed by spam, poorly
 thought out proposals or users not acting in good faith. A small
 transaction fee is charged as well, so make sure slightly more than 5
-DASH is available in your wallet. Many budget proposals request
-reimbursement of the 5 DASH fee.
+HISTORIA is available in your wallet. Many budget proposals request
+reimbursement of the 5 HISTORIA fee.
 
 First unlock your wallet by clicking **Settings > Unlock wallet**, then
 open the console by clicking **Tools > Debug console** and paste the
@@ -216,19 +216,19 @@ this command, and your governance object ID will appear as follows:
 
 You can use this ID to track voting on the proposal until the budget
 closes and you receive your payout. You can also submit the ID to
-DashCentral to claim your proposal and enable simplified voting for
-masternodes using DashCentral voting services.
+HistoriaCentral to claim your proposal and enable simplified voting for
+masternodes using HistoriaCentral voting services.
 
-DashCentral Proposal Generator
+HistoriaCentral Proposal Generator
 ------------------------------
 
-- https://www.dashcentral.org/budget/create
+- https://www.historiacentral.org/budget/create
 
-DashCentral also includes a tool to create budget proposals, or claim
-existing proposals so you can add a description on DashCentral and begin
+HistoriaCentral also includes a tool to create budget proposals, or claim
+existing proposals so you can add a description on HistoriaCentral and begin
 discussion with the community. The steps to be taken are almost
 identical to the procedure described above, and documentation is
-available `here <https://www.dashcentral.org/about/contact>`_.
+available `here <https://www.historiacentral.org/about/contact>`_.
 
 
 Voting on proposals
@@ -239,55 +239,55 @@ your vote will not be counted. The exact deadline is 1662 blocks before
 the superblock.**
 
 Note that if you do not operate a masternode, you may still be able to
-vote on DashBoost proposals. See https://www.dashboost.org for more
+vote on HistoriaBoost proposals. See https://www.historiaboost.org for more
 information.
 
 Voting on DGBB proposals is an important part of operating a masternode.
-Since masternodes are heavily invested in Dash, they are expected to
+Since masternodes are heavily invested in Historia, they are expected to
 critically appraise proposals each month and vote in a manner they
 perceive to be consistent with the best interests of the network. Each
 masternode may vote once on each proposal, and the vote can be changed
 at any time before the voting deadline. The following sites and tools
 are available to view and manage proposals and voting:
 
-- `DashCentral <https://www.dashcentral.org/budget>`__
-- `Dash Nexus <https://dashnexus.org>`__
-- `Dash Ninja - Governance <https://www.dashninja.pl/governance.html>`__
-- `Dash Masternode Tool - Proposals <https://github.com/Bertrand256/dash-masternode-tool/releases>`__
+- `HistoriaCentral <https://www.historiacentral.org/budget>`__
+- `Historia Nexus <https://historianexus.org>`__
+- `Historia Ninja - Governance <https://www.historianinja.pl/governance.html>`__
+- `Historia Masternode Tool - Proposals <https://github.com/Bertrand256/historia-masternode-tool/releases>`__
 
 For information on how to create a proposal, see :ref:`here
 <creating-proposals>`.
 
-DashCentral
+HistoriaCentral
 -----------
 
 Many masternode operators store their password-protected masternode
-private key on `DashCentral <https://www.dashcentral.org>`__ to enable
+private key on `HistoriaCentral <https://www.historiacentral.org>`__ to enable
 simple voting with a user-friendly interface. The popularity of this
 site has made it a common place for discussion of the proposals after
 they are submitted to the governance system. To vote from the
-DashCentral web interface, first add your masternode private key to your
+HistoriaCentral web interface, first add your masternode private key to your
 account according to the instructions here. Note that the masternode
-private key is not the same as the private key controlling the 1000 DASH
+private key is not the same as the private key controlling the 1000 HISTORIA
 collateral, so there is no risk of losing your collateral. A separate
 password is required to unlock the masternode private key for voting, so
 the risk of the site operator voting in your name is minimal.
 
 When you are ready to vote, go to the `budget proposals page
-<https://www.dashcentral.org/budget>`_. Simply click to view the
+<https://www.historiacentral.org/budget>`_. Simply click to view the
 proposals, then click either **Vote YES**, **Vote ABSTAIN** or **Vote
 NO**.
 
-.. figure:: img/vote-dashcentral.png
+.. figure:: img/vote-historiacentral.png
    :width: 400px
 
-   Voting interface on DashCentral
+   Voting interface on HistoriaCentral
 
-Dash Masternode Tool (DMT)
+Historia Masternode Tool (DMT)
 --------------------------
 
 If you started your masternode from a hardware wallet using `DMT
-<https://github.com/Bertrand256/dash-masternode-tool/releases>`_, you
+<https://github.com/Bertrand256/historia-masternode-tool/releases>`_, you
 can also use the tool to cast votes. Click **Tools > Proposals** and
 wait for the list of proposals to load. You can easily see the voting
 status of each proposal, and selecting a proposal shows details on the
@@ -299,49 +299,49 @@ tab to **Vote Yes**, **Vote No** or **Vote Abstain** directly from DMT.
 
    Voting interface in DMT
 
-.. _dash-core-voting:
+.. _historia-core-voting:
 
-Dash Core wallet or masternode
+Historia Core wallet or masternode
 ------------------------------
 
-If you started your masternode using the Dash Core Wallet (not
+If you started your masternode using the Historia Core Wallet (not
 recommended), you can vote manually from **Tools > Debug console**, or
-directly from your masternode via SSH using ``dash-cli``. First click on
-the proposal you want to vote on at either `DashCentral
-<https://www.dashcentral.org/budget>`__ or `Dash Ninja
-<https://www.dashninja.pl/governance.html>`__. You will see a command
+directly from your masternode via SSH using ``historia-cli``. First click on
+the proposal you want to vote on at either `HistoriaCentral
+<https://www.historiacentral.org/budget>`__ or `Historia Ninja
+<https://www.historianinja.pl/governance.html>`__. You will see a command
 for manual voting below the proposal description. Copy and paste the
 command and modify it as necessary. As an example, take this proposal
-from `Dash Ninja
-<https://www.dashninja.pl/proposaldetails.html?proposalhash=6ed741
+from `Historia Ninja
+<https://www.historianinja.pl/proposaldetails.html?proposalhash=6ed741
 8455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c9d>`__ (or
-`DashCentral
-<https://www.dashcentral.org/p/ScalingUpPublicityWithAmandaPMBC>`__).
-The voting code for Dash Core Wallet is as follows::
+`HistoriaCentral
+<https://www.historiacentral.org/p/ScalingUpPublicityWithAmandaPMBC>`__).
+The voting code for Historia Core Wallet is as follows::
 
   gobject vote-many 6ed7418455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c9d funding yes
   gobject vote-many 6ed7418455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c9d funding no
   gobject vote-many 6ed7418455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c9d funding abstain
 
 Note that to vote from your masternode directly, you need to prefix the
-command with ``dash-cli``, which is usually found in the ``.dashcore``
+command with ``historia-cli``, which is usually found in the ``.historiacore``
 folder. The command should be similar to the following::
 
-  ~/.dashcore/dash-cli gobject vote-many 6ed7418455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c9d funding yes
-  ~/.dashcore/dash-cli gobject vote-many 6ed7418455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c9d funding no
-  ~/.dashcore/dash-cli gobject vote-many 6ed7418455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c9d funding abstain
+  ~/.historiacore/historia-cli gobject vote-many 6ed7418455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c9d funding yes
+  ~/.historiacore/historia-cli gobject vote-many 6ed7418455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c9d funding no
+  ~/.historiacore/historia-cli gobject vote-many 6ed7418455e07f4b30b99f0d4a24a2b83282e12b26fe3415673ecbea04ff6c9d funding abstain
 
 Note this command will trigger a vote from all masternodes configured in
-``dash.conf``. If you have multiple masternodes each with its own .conf
+``historia.conf``. If you have multiple masternodes each with its own .conf
 file, or if you want to vote with only some of your masternodes, you
 must change the command from ``vote-many`` to ``vote``. If your vote was
 successful, you should see a confirmation message reading **Voted
 successfully**.
 
-.. figure:: img/vote-dashcore.png
+.. figure:: img/vote-historiacore.png
    :width: 300px
 
-   Voting from the debug console in Dash Core Wallet
+   Voting from the debug console in Historia Core Wallet
 
 You can also view a list of proposals in JSON format from the console to
 copy and paste the proposal hash for voting as follows::
@@ -355,10 +355,10 @@ Delegating votes
 
 :ref:`DIP003 masternodes <dip3-changes>` feature a separate voting key,
 which makes it possible to delegate your vote to a representative.
-Simply enter a Dash address provided by the delegate when
+Simply enter a Historia address provided by the delegate when
 :ref:`registering your masternode <masternode-setup>`, or :ref:`update
 <dip3-update-registrar>` your masternode registration to delegate the
 vote of a running masternode. The wallet controlling the private key to
 this address will then cast votes on behalf of this masternode owner
-simply by following the :ref:`Dash Core voting procedure <dash-core-voting>` 
+simply by following the :ref:`Historia Core voting procedure <historia-core-voting>` 
 described above. No further configuration is required.

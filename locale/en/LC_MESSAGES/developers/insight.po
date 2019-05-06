@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash latest\n"
+"Project-Id-Version: Historia latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 06:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,14 +19,14 @@ msgstr ""
 
 #: ../../developers/insight.rst:1
 msgid ""
-"The open-source Dash Insight REST API provides you with a convenient, "
-"powerful and simple way to read data from the Dash network and build your"
+"The open-source Historia Insight REST API provides you with a convenient, "
+"powerful and simple way to read data from the Historia network and build your"
 " own services with it."
 msgstr ""
 
 #: ../../developers/insight.rst:1
 msgid ""
-"dash, insight, API, REST, blockchain, explorer, JSON, HTTP, blocks, "
+"historia, insight, API, REST, blockchain, explorer, JSON, HTTP, blocks, "
 "index, transactions"
 msgstr ""
 
@@ -36,15 +36,15 @@ msgstr ""
 
 #: ../../developers/insight.rst:11
 msgid ""
-"The open-source Dash Insight REST API provides you with a convenient, "
-"powerful and simple way to read data from the Dash network and build your"
+"The open-source Historia Insight REST API provides you with a convenient, "
+"powerful and simple way to read data from the Historia network and build your"
 " own services with it. Simple HTTP endpoints exist for all common "
-"operations on the Dash blockchain familiar from the Bitcore Insight API, "
-"as well as Dash-specific features such as InstantSend transactions, "
+"operations on the Historia blockchain familiar from the Bitcore Insight API, "
+"as well as Historia-specific features such as InstantSend transactions, "
 "budget proposals, sporks and the masternode list. This documentation "
-"describes how to set up the `Dash Insight API <https://github.com/dashevo"
-"/insight-api>`__ server and (optionally) the `Dash Insight UI "
-"<https://github.com/dashevo/insight-ui>`__ block explorer."
+"describes how to set up the `Historia Insight API <https://github.com/historiaevo"
+"/insight-api>`__ server and (optionally) the `Historia Insight UI "
+"<https://github.com/historiaevo/insight-ui>`__ block explorer."
 msgstr ""
 
 #: ../../developers/insight.rst:23
@@ -56,12 +56,12 @@ msgid ""
 msgstr ""
 
 #: ../../developers/insight.rst:32
-msgid "Download and extract the latest version of Dash Core::"
+msgid "Download and extract the latest version of Historia Core::"
 msgstr ""
 
 #: ../../developers/insight.rst:39
 msgid ""
-"Install `Dashcore Node <https://github.com/dashevo/dashcore-node>`_ and "
+"Install `Historiacore Node <https://github.com/historiaevo/historiacore-node>`_ and "
 "create your configuration::"
 msgstr ""
 
@@ -74,11 +74,11 @@ msgid "Change paths in the configuration file as follows::"
 msgstr ""
 
 #: ../../developers/insight.rst:55
-msgid "Change the value of ``datadir`` to ``../.dashcore``"
+msgid "Change the value of ``datadir`` to ``../.historiacore``"
 msgstr ""
 
 #: ../../developers/insight.rst:56
-msgid "Change the value of ``exec`` to ``../dashcore-0.13.1/bin/dashd``"
+msgid "Change the value of ``exec`` to ``../historiacore-0.13.1/bin/historiad``"
 msgstr ""
 
 #: ../../developers/insight.rst:57
@@ -95,7 +95,7 @@ msgstr ""
 msgid ""
 "Your Insight API node will start up and begin to sync. Progress will be "
 "displayed on stdout. Once sync is complete, the `API endpoints listed in "
-"the documentation <https://github.com/dashevo/insight-api#api-http-"
+"the documentation <https://github.com/historiaevo/insight-api#api-http-"
 "endpoints>`_ will be available at::"
 msgstr ""
 
@@ -103,6 +103,6 @@ msgstr ""
 msgid "The Insight UI block explorer will be available at::"
 msgstr ""
 
-#~ msgid "Change the value of ``exec`` to ``../dashcore-0.12.3/bin/dashd``"
+#~ msgid "Change the value of ``exec`` to ``../historiacore-0.12.3/bin/historiad``"
 #~ msgstr ""
 

@@ -1,45 +1,45 @@
 .. meta::
-   :description: Introduction to the Dash cryptocurrency and links to further reading
-   :keywords: dash, cryptocurrency, videos, documentation, roadmap, governance, funding, payments, whitepaper, roadmap
+   :description: Introduction to the Historia cryptocurrency and links to further reading
+   :keywords: historia, cryptocurrency, videos, documentation, roadmap, governance, funding, payments, whitepaper, roadmap
 
 .. _about:
 
 =============
-What is Dash?
+What is Historia?
 =============
 
-Dash aims to be the most user-friendly and scalable payments-focused
-cryptocurrency in the world. The Dash network features 
+Historia aims to be the most user-friendly and scalable payments-focused
+cryptocurrency in the world. The Historia network features 
 :ref:`instant transaction confirmation <instantsend>`, double spend 
 protection, :ref:`anonymity <privatesend>` equal to that of physical 
 cash, a 
 :ref:`self-governing, self-funding model <decentralized-governance>` 
 driven by :ref:`incentivized full nodes <masternode-network>` and a 
-`clear roadmap <https://github.com/dashpay/dash-roadmap>`_ for on-chain
+`clear roadmap <https://github.com/HistoriaOffical/historia-roadmap>`_ for on-chain
 scaling to up to 400MB blocks using custom-developed open source
-hardware. While Dash is based on Bitcoin and compatible with many key
+hardware. While Historia is based on Bitcoin and compatible with many key
 components of the Bitcoin ecosystem, its two-tier network structure
 offers significant improvements in transaction speed, anonymity and
 governance. This section of the documentation describes these and many
-more key features that set Dash apart in the blockchain economy.
+more key features that set Historia apart in the blockchain economy.
 
 The videos, links and documentation collected here can help you get
 started, or use the table of contents on the left to find a specific
 topic of interest. New users may be interested in getting started with
 an appropriate :ref:`wallet <wallets>`, learning about 
-:ref:`how to buy Dash <how-to-buy>` and 
-:ref:`where to spend Dash <earning-spending>`, learning about 
+:ref:`how to buy Historia <how-to-buy>` and 
+:ref:`where to spend Historia <earning-spending>`, learning about 
 :ref:`safety <safety>` or joining one of the many 
-:ref:`Dash community sites <information>`.
+:ref:`Historia community sites <information>`.
 
-Dash Videos
+Historia Videos
 -----------
 
-Dash School
+Historia School
 ~~~~~~~~~~~
 
-Dash School is a six-part video series produced by Amanda B. Johnson. 
-It explains Dash from a beginner's level up to descriptions of the more 
+Historia School is a six-part video series produced by Amanda B. Johnson. 
+It explains Historia from a beginner's level up to descriptions of the more 
 advanced features.
 
 .. raw:: html
@@ -49,11 +49,11 @@ advanced features.
     </iframe>
 
 
-Dash 101
+Historia 101
 ~~~~~~~~
 
-Dash 101 is an eight-part video series produced by Aaron Koenig. It 
-covers unique features and functions only available on the Dash network,
+Historia 101 is an eight-part video series produced by Aaron Koenig. It 
+covers unique features and functions only available on the Historia network,
 and is available in 
 `English <https://www.youtube.com/watch?v=DzH7cMbZQHI&list=PLiFMZOlhgsYIDP2V2XsuTFZu1C1sV5ohr>`__, 
 `French <https://www.youtube.com/watch?v=CMGXChAR9f4&list=PLiFMZOlhgsYJvvpWN9xGSxwIVejOWVXKZ>`__,
@@ -73,25 +73,25 @@ and is available in
 Whitepaper
 ----------
 
-The Dash Whitepaper describes the unique value proposition and key
-innovations in Dash from an academic and theoretical perspective. It is 
+The Historia Whitepaper describes the unique value proposition and key
+innovations in Historia from an academic and theoretical perspective. It is 
 a living document maintained as a GitHub wiki, receiving ongoing updates 
 and frequent community translations as new features are implemented. 
 Various other whitepapers describing particular features in additional 
 detail and (for historical reasons) the original whitepaper are 
 available for download as PDF files.
 
-- `Latest whitepaper and official translations <https://github.com/dashpay/dash/wiki/Whitepaper>`_
-- `PDF whitepaper <https://github.com/dashpay/docs/raw/master/binary/Dash%20Whitepaper%20-%20V2.pdf>`_
-- `Original Darkcoin whitepaper (PDF) <https://github.com/dashpay/docs/raw/master/binary/Dash%20Whitepaper%20-%20Darkcoin.pdf>`_
-- `InstantSend whitepaper (PDF) <https://github.com/dashpay/docs/raw/master/binary/Dash%20Whitepaper%20-%20Transaction%20Locking%20and%20Masternode%20Consensus.pdf>`_
+- `Latest whitepaper and official translations <https://github.com/HistoriaOffical/historia/wiki/Whitepaper>`_
+- `PDF whitepaper <https://github.com/HistoriaOffical/docs/raw/master/binary/Historia%20Whitepaper%20-%20V2.pdf>`_
+- `Original Darkcoin whitepaper (PDF) <https://github.com/HistoriaOffical/docs/raw/master/binary/Historia%20Whitepaper%20-%20Darkcoin.pdf>`_
+- `InstantSend whitepaper (PDF) <https://github.com/HistoriaOffical/docs/raw/master/binary/Historia%20Whitepaper%20-%20Transaction%20Locking%20and%20Masternode%20Consensus.pdf>`_
 
 Roadmap
 -------
 
-The Dash Roadmap sets out delivery milestones for future releases of
-Dash and includes specific technical details describing how the
+The Historia Roadmap sets out delivery milestones for future releases of
+Historia and includes specific technical details describing how the
 development team plans to realise each challenge. Like the Whitepaper,
 it is versioned and maintained as a project on GitHub.
 
-- `Dash Roadmap <https://github.com/dashpay/dash-roadmap>`_
+- `Historia Roadmap <https://github.com/HistoriaOffical/historia-roadmap>`_

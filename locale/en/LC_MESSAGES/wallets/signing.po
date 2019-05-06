@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash latest\n"
+"Project-Id-Version: Historia latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-11 06:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,12 +19,12 @@ msgstr ""
 
 #: ../../wallets/signing.rst:1
 msgid ""
-"Guides and screenshots on how to sign and verify messages using the Dash "
+"Guides and screenshots on how to sign and verify messages using the Historia "
 "cryptocurrency"
 msgstr ""
 
 #: ../../wallets/signing.rst:1
-msgid "dash, sign, verify, message, trezor, dash core"
+msgid "historia, sign, verify, message, trezor, historia core"
 msgstr ""
 
 #: ../../wallets/signing.rst:9
@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../wallets/signing.rst:11
 msgid ""
-"Dash wallets function by securely storing the private keys used to create"
+"Historia wallets function by securely storing the private keys used to create"
 " transactions using publicly visible addresses on a distributed ledger "
 "called a blockchain. In some cases, it may be necessary to verify an "
 "address to demonstrate control of the funds that it holds, that you can "
@@ -65,14 +65,14 @@ msgstr ""
 
 #: ../../wallets/signing.rst:41
 msgid ""
-"The following screenshots show how to sign a message using the Dash Core "
+"The following screenshots show how to sign a message using the Historia Core "
 "wallet (**File > Sign message**), Trezor web wallet (Sign & Verify > Sign"
 " message) and DMT (**Tools > Sign message with HW for current "
 "masternode's address**):"
 msgstr ""
 
 #: ../../wallets/signing.rst:53
-msgid "*Signing messages in Dash Core, Trezor web wallet and DMT*"
+msgid "*Signing messages in Historia Core, Trezor web wallet and DMT*"
 msgstr ""
 
 #: ../../wallets/signing.rst:56
@@ -81,15 +81,15 @@ msgstr ""
 
 #: ../../wallets/signing.rst:58
 msgid ""
-"The following screenshots show how to verify a message using the Dash "
+"The following screenshots show how to verify a message using the Historia "
 "Core wallet (**File > Sign message**) and Trezor web wallet (**Sign & "
 "Verify > Sign message**):"
 msgstr ""
 
 #: ../../wallets/signing.rst:67
 msgid ""
-"*Verifying messages in Dash Core and Trezor web wallet. Notice that the "
-"message verified by Dash Core was generated in Trezor, and vice versa*"
+"*Verifying messages in Historia Core and Trezor web wallet. Notice that the "
+"message verified by Historia Core was generated in Trezor, and vice versa*"
 msgstr ""
 
 #~ msgid ""

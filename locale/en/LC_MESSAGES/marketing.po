@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash latest\n"
+"Project-Id-Version: Historia latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-11 06:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 
 #: ../../marketing.rst:1
-msgid "dash, marketing, designs, presentations, brochures, logo"
+msgid "historia, marketing, designs, presentations, brochures, logo"
 msgstr ""
 
 #: ../../marketing.rst:9
@@ -39,18 +39,18 @@ msgid ""
 msgstr ""
 
 #: ../../marketing.rst:15
-msgid "`Rendered designs, badges and stickers <https://www.dash.org/graphics>`_"
+msgid "`Rendered designs, badges and stickers <https://historia.network/graphics>`_"
 msgstr ""
 
 #: ../../marketing.rst:16
 msgid ""
 "`Vector art package for designers "
-"<https://www.dash.org/assets/Dash_Vector_Graphics_Collection.zip>`_"
+"<https://historia.network/assets/Historia_Vector_Graphics_Collection.zip>`_"
 msgstr ""
 
 #: ../../marketing.rst:18
 msgid ""
-"Dash uses the following color scheme to promote a consistent visual "
+"Historia uses the following color scheme to promote a consistent visual "
 "identity."
 msgstr ""
 
@@ -75,7 +75,7 @@ msgid "Pantone"
 msgstr ""
 
 #: ../../marketing.rst:24
-msgid "Dash Blue"
+msgid "Historia Blue"
 msgstr ""
 
 #: ../../marketing.rst:24
@@ -204,18 +204,18 @@ msgstr ""
 
 #: ../../marketing.rst:44
 msgid ""
-"An attractive brochure about Dash, designed for handing out at "
+"An attractive brochure about Historia, designed for handing out at "
 "conferences and events. Prepared by community member Essra in 2018 "
-"following proposal sponsorship for the German `Dash Embassy D-A-CH "
-"<http://www.dash-embassy.org>`__."
+"following proposal sponsorship for the German `Historia Embassy D-A-CH "
+"<http://www.historia-embassy.org>`__."
 msgstr ""
 
 #: ../../marketing.rst:49
 msgid ""
 "This design can be translated into your language at `Transifex here "
-"<https://www.transifex.com/dash/dash-graphics/dash-brochurexlsx/>`__. For"
-" more information on translating Dash products on Transifex, see "
-":ref:`here <translating-dash>`. Please contact leon.white@dash.org once "
+"<https://www.transifex.com/historia/historia-graphics/historia-brochurexlsx/>`__. For"
+" more information on translating Historia products on Transifex, see "
+":ref:`here <translating-historia>`. Please contact leon.white@historia.network once "
 "translation is complete to request layout of the completed translation."
 msgstr ""
 
@@ -240,7 +240,7 @@ msgstr ""
 
 #: ../../marketing.rst:58
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/brochures/DASH-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/brochures/HISTORIA-"
 "Broschur_GB_RZ_2018.pdf>`__"
 msgstr ""
 
@@ -251,7 +251,7 @@ msgstr ""
 
 #: ../../marketing.rst:60
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/brochures/DASH-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/brochures/HISTORIA-"
 "Broschur_FR_RZ_2018.pdf>`__"
 msgstr ""
 
@@ -263,7 +263,7 @@ msgstr ""
 
 #: ../../marketing.rst:62
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/brochures/DASH-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/brochures/HISTORIA-"
 "Broschur_RZ_2018.pdf>`__"
 msgstr ""
 
@@ -274,7 +274,7 @@ msgstr ""
 
 #: ../../marketing.rst:64
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/brochures/DASH-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/brochures/HISTORIA-"
 "Broschur_ES_RZ_2018.pdf>`__"
 msgstr ""
 
@@ -285,7 +285,7 @@ msgstr ""
 
 #: ../../marketing.rst:66
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/brochures/DASH-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/brochures/HISTORIA-"
 "Broschur_TH_RZ_2018.pdf>`__"
 msgstr ""
 
@@ -296,7 +296,7 @@ msgstr ""
 
 #: ../../marketing.rst:68
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/brochures/DASH-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/brochures/HISTORIA-"
 "Broschur_VI_RZ_2018.pdf>`__"
 msgstr ""
 
@@ -306,25 +306,25 @@ msgstr ""
 
 #: ../../marketing.rst:75
 msgid ""
-"An attractive flyer about Dash, designed to be folded in half and placed "
+"An attractive flyer about Historia, designed to be folded in half and placed "
 "on flat surfaces at conferences and events. Prepared by community member "
-"Essra in 2018 following proposal sponsorship for the German `Dash Embassy"
-" D-A-CH <http://www.dash-embassy.org>`__."
+"Essra in 2018 following proposal sponsorship for the German `Historia Embassy"
+" D-A-CH <http://www.historia-embassy.org>`__."
 msgstr ""
 
 #: ../../marketing.rst:80
 msgid ""
 "This design can be translated into your language at `Transifex here "
-"<https://www.transifex.com/dash/dash-graphics/dash-flyerxlsx/>`__. For "
-"more information on translating Dash products on Transifex, see "
-":ref:`here <translating-dash>`. Please contact leon.white@dash.org once "
+"<https://www.transifex.com/historia/historia-graphics/historia-flyerxlsx/>`__. For "
+"more information on translating Historia products on Transifex, see "
+":ref:`here <translating-historia>`. Please contact leon.white@historia.network once "
 "translation is complete to request layout of the completed translation."
 msgstr ""
 
 #: ../../marketing.rst:89
 msgid ""
 "`PDF "
-"<https://github.com/dashpay/docs/raw/master/binary/flyers/Flyer_DINlang_DASH_2018_GB.pdf>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/flyers/Flyer_DINlang_HISTORIA_2018_GB.pdf>`__"
 msgstr ""
 
 #: ../../marketing.rst:91 ../../marketing.rst:130 ../../marketing.rst:191
@@ -335,7 +335,7 @@ msgstr ""
 #: ../../marketing.rst:91
 msgid ""
 "`PDF "
-"<https://github.com/dashpay/docs/raw/master/binary/flyers/Flyer_DINlang_DASH_2018_AR.pdf>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/flyers/Flyer_DINlang_HISTORIA_2018_AR.pdf>`__"
 msgstr ""
 
 #: ../../marketing.rst:93 ../../marketing.rst:200 ../../marketing.rst:258
@@ -345,7 +345,7 @@ msgstr ""
 #: ../../marketing.rst:93
 msgid ""
 "`PDF "
-"<https://github.com/dashpay/docs/raw/master/binary/flyers/Flyer_DINlang_DASH_2018_ZH_TW.pdf>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/flyers/Flyer_DINlang_HISTORIA_2018_ZH_TW.pdf>`__"
 msgstr ""
 
 #: ../../marketing.rst:95 ../../marketing.rst:136
@@ -355,31 +355,31 @@ msgstr ""
 #: ../../marketing.rst:95
 msgid ""
 "`PDF "
-"<https://github.com/dashpay/docs/raw/master/binary/flyers/Flyer_DINlang_DASH_2018_NL.pdf>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/flyers/Flyer_DINlang_HISTORIA_2018_NL.pdf>`__"
 msgstr ""
 
 #: ../../marketing.rst:97
 msgid ""
 "`PDF "
-"<https://github.com/dashpay/docs/raw/master/binary/flyers/Flyer_DINlang_DASH_2018_FR.pdf>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/flyers/Flyer_DINlang_HISTORIA_2018_FR.pdf>`__"
 msgstr ""
 
 #: ../../marketing.rst:99
 msgid ""
 "`PDF "
-"<https://github.com/dashpay/docs/raw/master/binary/flyers/Flyer_DINlang_DASH_2018_DE.pdf>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/flyers/Flyer_DINlang_HISTORIA_2018_DE.pdf>`__"
 msgstr ""
 
 #: ../../marketing.rst:101
 msgid ""
 "`PDF "
-"<https://github.com/dashpay/docs/raw/master/binary/flyers/Flyer_DINlang_DASH_2018_ES.pdf>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/flyers/Flyer_DINlang_HISTORIA_2018_ES.pdf>`__"
 msgstr ""
 
 #: ../../marketing.rst:103
 msgid ""
 "`PDF "
-"<https://github.com/dashpay/docs/raw/master/binary/flyers/Flyer_DINlang_DASH_2018_TH.pdf>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/flyers/Flyer_DINlang_HISTORIA_2018_TH.pdf>`__"
 msgstr ""
 
 #: ../../marketing.rst:105
@@ -389,13 +389,13 @@ msgstr ""
 #: ../../marketing.rst:105
 msgid ""
 "`PDF "
-"<https://github.com/dashpay/docs/raw/master/binary/flyers/Flyer_DINlang_DASH_2018_TR.pdf>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/flyers/Flyer_DINlang_HISTORIA_2018_TR.pdf>`__"
 msgstr ""
 
 #: ../../marketing.rst:107
 msgid ""
 "`PDF "
-"<https://github.com/dashpay/docs/raw/master/binary/flyers/Flyer_DINlang_DASH_2018_VI.pdf>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/flyers/Flyer_DINlang_HISTORIA_2018_VI.pdf>`__"
 msgstr ""
 
 #: ../../marketing.rst:112
@@ -412,25 +412,25 @@ msgstr ""
 #: ../../marketing.rst:118
 msgid ""
 "This design can be translated into your language at `Transifex here "
-"<https://www.transifex.com/dash/dash-graphics/dash-handout-v30txt/>`__. "
-"For more information on translating Dash products on Transifex, see "
-":ref:`here <translating-dash>`. Please contact leon.white@dash.org once "
+"<https://www.transifex.com/historia/historia-graphics/historia-handout-v30txt/>`__. "
+"For more information on translating Historia products on Transifex, see "
+":ref:`here <translating-historia>`. Please contact leon.white@historia.network once "
 "translation is complete to request layout of the completed translation."
 msgstr ""
 
 #: ../../marketing.rst:127
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-EN.pdf>`__ `DOCX "
-"<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-EN.docx>`__"
 msgstr ""
 
 #: ../../marketing.rst:130
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-AR.pdf>`__ `DOCX "
-"<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-AR.docx>`__"
 msgstr ""
 
@@ -440,25 +440,25 @@ msgstr ""
 
 #: ../../marketing.rst:133
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-CS.pdf>`__ `DOCX "
-"<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-CS.docx>`__"
 msgstr ""
 
 #: ../../marketing.rst:136
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-NL.pdf>`__ `DOCX "
-"<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-NL.docx>`__"
 msgstr ""
 
 #: ../../marketing.rst:139
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-DE.pdf>`__ `DOCX "
-"<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-DE.docx>`__"
 msgstr ""
 
@@ -469,9 +469,9 @@ msgstr ""
 
 #: ../../marketing.rst:142
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-RU.pdf>`__ `DOCX "
-"<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-RU.docx>`__"
 msgstr ""
 
@@ -481,25 +481,25 @@ msgstr ""
 
 #: ../../marketing.rst:145
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-SK.pdf>`__ `DOCX "
-"<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-SK.docx>`__"
 msgstr ""
 
 #: ../../marketing.rst:148
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-TH.pdf>`__ `DOCX "
-"<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-TH.docx>`__"
 msgstr ""
 
 #: ../../marketing.rst:151
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-VI.pdf>`__ `DOCX "
-"<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v3.1-VI.docx>`__"
 msgstr ""
 
@@ -517,9 +517,9 @@ msgstr ""
 
 #: ../../marketing.rst:160
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v2.0.pdf>`__ `DOCX "
-"<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v2.0.docx>`__"
 msgstr ""
 
@@ -529,9 +529,9 @@ msgstr ""
 
 #: ../../marketing.rst:163
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v1.0.pdf>`__ `DOCX "
-"<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 "Handout-v1.0.docx>`__"
 msgstr ""
 
@@ -540,12 +540,12 @@ msgid "Infographics"
 msgstr ""
 
 #: ../../marketing.rst:172
-msgid "The Dash Difference"
+msgid "The Historia Difference"
 msgstr ""
 
 #: ../../marketing.rst:174
 msgid ""
-"This engaging infographic details the improvements the Dash network has "
+"This engaging infographic details the improvements the Historia network has "
 "delivered by building on the Bitcoin code base. Based on an original "
 "design by community member J. Arroyo."
 msgstr ""
@@ -553,26 +553,26 @@ msgstr ""
 #: ../../marketing.rst:178
 msgid ""
 "This design can be translated into your language at `Transifex here "
-"<https://www.transifex.com/dash/dash-graphics/the-dash- "
-"differencexlsx/>`__. For more information on translating Dash products on"
-" Transifex, see :ref:`here <translating-dash>`. Please contact "
-"leon.white@dash.org once translation is complete to request layout of the"
+"<https://www.transifex.com/historia/historia-graphics/the-historia- "
+"differencexlsx/>`__. For more information on translating Historia products on"
+" Transifex, see :ref:`here <translating-historia>`. Please contact "
+"leon.white@historia.network once translation is complete to request layout of the"
 " completed translation."
 msgstr ""
 
 #: ../../marketing.rst:188
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-EN.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-EN.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-EN.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:191
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-AR.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-AR.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-AR.png>`__"
 msgstr ""
 
@@ -582,9 +582,9 @@ msgstr ""
 
 #: ../../marketing.rst:194
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-BG.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-BG.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-BG.png>`__"
 msgstr ""
 
@@ -594,41 +594,41 @@ msgstr ""
 
 #: ../../marketing.rst:197
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-ZH-CN.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-ZH-CN.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-ZH-CN.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:200
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-ZH-TW.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-ZH-TW.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-ZH-TW.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:203
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-CS.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-CS.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-CS.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:206
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-FR.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-FR.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-FR.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:209
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-DE.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-DE.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-DE.png>`__"
 msgstr ""
 
@@ -638,9 +638,9 @@ msgstr ""
 
 #: ../../marketing.rst:212
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-EL.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-EL.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-EL.png>`__"
 msgstr ""
 
@@ -650,9 +650,9 @@ msgstr ""
 
 #: ../../marketing.rst:215
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-IT.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-IT.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-IT.png>`__"
 msgstr ""
 
@@ -662,172 +662,172 @@ msgstr ""
 
 #: ../../marketing.rst:218
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-PL.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-PL.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-PL.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:221
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-RU.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-RU.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-RU.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:224
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-SK.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-SK.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-SK.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:227
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-ES.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-ES.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-ES.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:230
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics/The-"
-"Dash-Difference-VI.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics/The-Dash-"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-"
+"Historia-Difference-VI.pdf>`__ `PNG "
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics/The-Historia-"
 "Difference-VI.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:235
-msgid "Ten Misconceptions About Dash"
+msgid "Ten Misconceptions About Historia"
 msgstr ""
 
 #: ../../marketing.rst:237
 msgid ""
 "This infographic refutes many common yet uninformed arguments made "
-"against Dash. Based on an original design by community member DashDude."
+"against Historia. Based on an original design by community member HistoriaDude."
 msgstr ""
 
 #: ../../marketing.rst:240
 msgid ""
 "This design can be translated into your language at `Transifex here "
-"<https://www.transifex.com/dash/dash-graphics/misconceptionsxlsx/>`__. "
-"For more information on translating Dash products on Transifex, see "
-":ref:`here <translating-dash>`. Please contact leon.white@dash.org once "
+"<https://www.transifex.com/historia/historia-graphics/misconceptionsxlsx/>`__. "
+"For more information on translating Historia products on Transifex, see "
+":ref:`here <translating-historia>`. Please contact leon.white@historia.network once "
 "translation is complete to request layout of the completed translation."
 msgstr ""
 
 #: ../../marketing.rst:249
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-EN.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-EN.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:252
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-AR.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-AR.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:255
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-BG.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-BG.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:258
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-ZH-TW.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-ZH-TW.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:261
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-CS.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-CS.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:264
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-FR.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-FR.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:267
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-DE.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-DE.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:270
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-EL.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-EL.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:273
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-PL.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-PL.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:276
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-RU.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-RU.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:279
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-SK.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-SK.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:282
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-ES.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-ES.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:285
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-TH.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-TH.png>`__"
 msgstr ""
 
 #: ../../marketing.rst:288
 msgid ""
-"`PDF <https://github.com/dashpay/docs/raw/master/binary/infographics"
+"`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-VI.pdf>`__ `PNG "
-"<https://github.com/dashpay/docs/raw/master/binary/infographics"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/infographics"
 "/Misconceptions-VI.png>`__"
 msgstr ""
 
@@ -836,31 +836,31 @@ msgid "Presentations"
 msgstr ""
 
 #: ../../marketing.rst:297
-msgid "Dash Meetup"
+msgid "Historia Meetup"
 msgstr ""
 
 #: ../../marketing.rst:302
 msgid ""
-"An attractive presentation about Dash, designed to guide the audience "
-"through the basics of cryptocurrency and advantages of Dash. Prepared by "
+"An attractive presentation about Historia, designed to guide the audience "
+"through the basics of cryptocurrency and advantages of Historia. Prepared by "
 "community member Essra in 2018 following proposal sponsorship for the "
-"German `Dash Embassy D-A-CH <http://www.dash-embassy.org>`__."
+"German `Historia Embassy D-A-CH <http://www.historia-embassy.org>`__."
 msgstr ""
 
 #: ../../marketing.rst:310
 msgid ""
 "`PPTX "
-"<https://github.com/dashpay/docs/raw/master/binary/presentations/Dash_Meetup_Presentation_EN.pptx>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/presentations/Historia_Meetup_Presentation_EN.pptx>`__"
 " `PDF "
-"<https://github.com/dashpay/docs/raw/master/binary/presentations/Dash_Meetup_Presentation_EN.pdf>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/presentations/Historia_Meetup_Presentation_EN.pdf>`__"
 msgstr ""
 
 #: ../../marketing.rst:313
 msgid ""
 "`PPTX "
-"<https://github.com/dashpay/docs/raw/master/binary/presentations/Dash_Meetup_Presentation_DE.pptx>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/presentations/Historia_Meetup_Presentation_DE.pptx>`__"
 " `PDF "
-"<https://github.com/dashpay/docs/raw/master/binary/presentations/Dash_Meetup_Presentation_DE.pdf>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/presentations/Historia_Meetup_Presentation_DE.pdf>`__"
 msgstr ""
 
 #: ../../marketing.rst:319
@@ -869,9 +869,9 @@ msgstr ""
 
 #: ../../marketing.rst:324
 msgid ""
-"A simple presentation about Dash, available in 5 languages, 3 aspect "
+"A simple presentation about Historia, available in 5 languages, 3 aspect "
 "ratios and 2 formats. Simply click the links to download. Note that the "
-"`Noto Sans UI <https://github.com/dashpay/docs/raw/master/binary/fonts/N "
+"`Noto Sans UI <https://github.com/HistoriaOffical/docs/raw/master/binary/fonts/N "
 "oto_Sans_UI.zip>`_ font must be installed if using the PowerPoint files."
 msgstr ""
 
@@ -952,9 +952,9 @@ msgstr ""
 #: ../../marketing.rst:348
 msgid ""
 "`16:9 "
-"<https://www.dropbox.com/s/8p5vlc8hv7ip0cl/DASH_ru_16_9.pptx?dl=0>`__ "
-"`4:3 <https://www.dropbox.com/s/r675o6drfkyn2nd/DASH_ru_4_3.pptx?dl=0>`__"
-" `A4 <https://www.dropbox.com/s/9mfo28ulw1sqsin/DASH_ru_A4.pptx?dl=0>`__"
+"<https://www.dropbox.com/s/8p5vlc8hv7ip0cl/HISTORIA_ru_16_9.pptx?dl=0>`__ "
+"`4:3 <https://www.dropbox.com/s/r675o6drfkyn2nd/HISTORIA_ru_4_3.pptx?dl=0>`__"
+" `A4 <https://www.dropbox.com/s/9mfo28ulw1sqsin/HISTORIA_ru_A4.pptx?dl=0>`__"
 msgstr ""
 
 #: ../../marketing.rst:350
@@ -972,37 +972,37 @@ msgid ""
 msgstr ""
 
 #: ../../marketing.rst:357
-msgid "Dash 101 Presentation"
+msgid "Historia 101 Presentation"
 msgstr ""
 
 #: ../../marketing.rst:359
 msgid ""
 "Prepared by community member Essra in 2017 following proposal sponsorship"
-" for the German `Dash Embassy D-A-CH <http://www.dash-embassy.org>`__."
+" for the German `Historia Embassy D-A-CH <http://www.historia-embassy.org>`__."
 msgstr ""
 
 #: ../../marketing.rst:366
 msgid ""
 "`PPTX "
-"<https://github.com/dashpay/docs/raw/master/binary/presentations/Dash-101-EN.pptx>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/presentations/Historia-101-EN.pptx>`__"
 msgstr ""
 
 #: ../../marketing.rst:368
 msgid ""
 "`PPTX "
-"<https://github.com/dashpay/docs/raw/master/binary/presentations/Dash-101-FR.pptx>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/presentations/Historia-101-FR.pptx>`__"
 msgstr ""
 
 #: ../../marketing.rst:370
 msgid ""
 "`PPTX "
-"<https://github.com/dashpay/docs/raw/master/binary/presentations/Dash-101-DE.pptx>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/presentations/Historia-101-DE.pptx>`__"
 msgstr ""
 
 #: ../../marketing.rst:372
 msgid ""
 "`PPTX "
-"<https://github.com/dashpay/docs/raw/master/binary/presentations/Dash-101-ES.pptx>`__"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/presentations/Historia-101-ES.pptx>`__"
 msgstr ""
 
 #: ../../marketing.rst:377
@@ -1014,7 +1014,7 @@ msgid "Document templates"
 msgstr ""
 
 #: ../../marketing.rst:382
-msgid "Official Dash document templates."
+msgid "Official Historia document templates."
 msgstr ""
 
 #: ../../marketing.rst:385 ../../marketing.rst:403 ../../marketing.rst:419
@@ -1028,7 +1028,7 @@ msgstr ""
 
 #: ../../marketing.rst:387
 msgid ""
-"`DOCX <https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+"`DOCX <https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 "Word-Document.docx>`__"
 msgstr ""
 
@@ -1038,7 +1038,7 @@ msgstr ""
 
 #: ../../marketing.rst:389
 msgid ""
-"`DOTX <https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+"`DOTX <https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 "Word-Document-Watermark-Blue.dotx>`__"
 msgstr ""
 
@@ -1048,7 +1048,7 @@ msgstr ""
 
 #: ../../marketing.rst:391
 msgid ""
-"`DOTX <https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+"`DOTX <https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 "Word-Document-Watermark-Grey.dotx>`__"
 msgstr ""
 
@@ -1058,7 +1058,7 @@ msgstr ""
 
 #: ../../marketing.rst:397
 msgid ""
-"Official Dash presentation templates. We strongly recommend using "
+"Official Historia presentation templates. We strongly recommend using "
 "predefined presentation slide layouts (check `here "
 "<https://support.office.com/en-us/article/Apply-or-change-a-slide- "
 "layout-158E6DBA-E53E-479B-A6FC-CAAB72609689>`_ for instructions)."
@@ -1070,7 +1070,7 @@ msgstr ""
 
 #: ../../marketing.rst:405
 msgid ""
-"`POTX <https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+"`POTX <https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 "Presentation-Template-Empty.potx>`__"
 msgstr ""
 
@@ -1080,7 +1080,7 @@ msgstr ""
 
 #: ../../marketing.rst:407
 msgid ""
-"`POTX <https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+"`POTX <https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 "Presentation-Template-Sample-Slides.potx>`__"
 msgstr ""
 
@@ -1090,7 +1090,7 @@ msgstr ""
 
 #: ../../marketing.rst:409
 msgid ""
-"`PPTX <https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+"`PPTX <https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 "Icons.pptx>`__"
 msgstr ""
 
@@ -1101,7 +1101,7 @@ msgstr ""
 #: ../../marketing.rst:415
 msgid ""
 "High resolution cards for printing. Great for use as the back of business"
-" cards, or to hand out to explain and promote Dash."
+" cards, or to hand out to explain and promote Historia."
 msgstr ""
 
 #: ../../marketing.rst:419 ../../marketing.rst:444
@@ -1114,56 +1114,56 @@ msgstr ""
 
 #: ../../marketing.rst:421
 msgid ""
-"`English <https://github.com/dashpay/docs/raw/master/binary/cards"
+"`English <https://github.com/HistoriaOffical/docs/raw/master/binary/cards"
 "/Handout-Card-EN.pdf>`_"
 msgstr ""
 
 #: ../../marketing.rst:423
 msgid ""
-"`Arabic <https://github.com/dashpay/docs/raw/master/binary/cards/Handout-"
+"`Arabic <https://github.com/HistoriaOffical/docs/raw/master/binary/cards/Handout-"
 "Card-AR.pdf>`_"
 msgstr ""
 
 #: ../../marketing.rst:425
 msgid ""
 "`Chinese (Simplified) "
-"<https://github.com/dashpay/docs/raw/master/binary/cards/Handout-Card-"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/cards/Handout-Card-"
 "ZH.pdf>`_"
 msgstr ""
 
 #: ../../marketing.rst:427
 msgid ""
-"`Czech <https://github.com/dashpay/docs/raw/master/binary/cards/Handout-"
+"`Czech <https://github.com/HistoriaOffical/docs/raw/master/binary/cards/Handout-"
 "Card-CS.pdf>`_"
 msgstr ""
 
 #: ../../marketing.rst:429
 msgid ""
-"`French <https://github.com/dashpay/docs/raw/master/binary/cards/Handout-"
+"`French <https://github.com/HistoriaOffical/docs/raw/master/binary/cards/Handout-"
 "Card-FR.pdf>`_"
 msgstr ""
 
 #: ../../marketing.rst:431
 msgid ""
-"`Polish <https://github.com/dashpay/docs/raw/master/binary/cards/Handout-"
+"`Polish <https://github.com/HistoriaOffical/docs/raw/master/binary/cards/Handout-"
 "Card-PL.pdf>`_"
 msgstr ""
 
 #: ../../marketing.rst:433
 msgid ""
-"`Portuguese <https://github.com/dashpay/docs/raw/master/binary/cards"
+"`Portuguese <https://github.com/HistoriaOffical/docs/raw/master/binary/cards"
 "/Handout-Card-PT.pdf>`_"
 msgstr ""
 
 #: ../../marketing.rst:435
 msgid ""
-"`Russian <https://github.com/dashpay/docs/raw/master/binary/cards"
+"`Russian <https://github.com/HistoriaOffical/docs/raw/master/binary/cards"
 "/Handout-Card-RU.pdf>`_"
 msgstr ""
 
 #: ../../marketing.rst:437
 msgid ""
-"`Spanish <https://github.com/dashpay/docs/raw/master/binary/cards"
+"`Spanish <https://github.com/HistoriaOffical/docs/raw/master/binary/cards"
 "/Handout-Card-ES.pdf>`_"
 msgstr ""
 
@@ -1178,7 +1178,7 @@ msgstr ""
 #: ../../marketing.rst:446
 msgid ""
 "`6.20 "
-"<https://github.com/dashpay/docs/raw/master/binary/fonts/Calibri.zip>`_"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/fonts/Calibri.zip>`_"
 msgstr ""
 
 #: ../../marketing.rst:448
@@ -1188,7 +1188,7 @@ msgstr ""
 #: ../../marketing.rst:448
 msgid ""
 "`5.00 "
-"<https://github.com/dashpay/docs/raw/master/binary/fonts/gunshipboldital.ttf>`_"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/fonts/gunshipboldital.ttf>`_"
 msgstr ""
 
 #: ../../marketing.rst:450
@@ -1198,7 +1198,7 @@ msgstr ""
 #: ../../marketing.rst:450
 msgid ""
 "`1.00 "
-"<https://github.com/dashpay/docs/raw/master/binary/fonts/Magistral_ATT.zip>`_"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/fonts/Magistral_ATT.zip>`_"
 msgstr ""
 
 #: ../../marketing.rst:452
@@ -1208,7 +1208,7 @@ msgstr ""
 #: ../../marketing.rst:452
 msgid ""
 "`7.20 "
-"<https://github.com/dashpay/docs/raw/master/binary/fonts/Montserrat.zip>`_"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/fonts/Montserrat.zip>`_"
 msgstr ""
 
 #: ../../marketing.rst:454
@@ -1218,7 +1218,7 @@ msgstr ""
 #: ../../marketing.rst:454
 msgid ""
 "`1.06 "
-"<https://github.com/dashpay/docs/raw/master/binary/fonts/Noto_Sans_UI.zip>`_"
+"<https://github.com/HistoriaOffical/docs/raw/master/binary/fonts/Noto_Sans_UI.zip>`_"
 msgstr ""
 
 #~ msgid "Slovack"
@@ -1226,73 +1226,73 @@ msgstr ""
 
 #~ msgid ""
 #~ "`PDF "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-EN.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-EN.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "`PDF "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-AR.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-AR.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "`PDF "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-CS.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-CS.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "`PDF "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-NL.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-NL.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "`PDF "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-RU.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-RU.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "`PDF "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-SK.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-SK.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "`PDF "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-VI.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v3.0-VI.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "`PDF "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v2.0.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v2.0.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "`PDF "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v1.0.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/templates/Dash-"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/templates/Historia-"
 #~ "Handout-v1.0.docx>`__"
 #~ msgstr ""
 
@@ -1301,22 +1301,22 @@ msgstr ""
 
 #~ msgid ""
 #~ "`PPTX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/presentations/Dash-101-EN.pdf>`__"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/presentations/Historia-101-EN.pdf>`__"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "`PPTX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/presentations/Dash-101-FR.pdf>`__"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/presentations/Historia-101-FR.pdf>`__"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "`PPTX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/presentations/Dash-101-DE.pdf>`__"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/presentations/Historia-101-DE.pdf>`__"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "`PPTX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/presentations/Dash-101-ES.pdf>`__"
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/presentations/Historia-101-ES.pdf>`__"
 #~ msgstr ""
 
 #~ msgid "Blue"
@@ -1358,65 +1358,65 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts"
-#~ "/Dash-Handout-v3.0-EN.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+#~ "`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts"
+#~ "/Historia-Handout-v3.0-EN.pdf>`__ `DOCX "
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 #~ "Handout-v3.0-EN.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts"
-#~ "/Dash-Handout-v3.0-AR.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+#~ "`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts"
+#~ "/Historia-Handout-v3.0-AR.pdf>`__ `DOCX "
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 #~ "Handout-v3.0-AR.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts"
-#~ "/Dash-Handout-v3.0-CS.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+#~ "`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts"
+#~ "/Historia-Handout-v3.0-CS.pdf>`__ `DOCX "
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 #~ "Handout-v3.0-CS.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts"
-#~ "/Dash-Handout-v3.0-NL.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+#~ "`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts"
+#~ "/Historia-Handout-v3.0-NL.pdf>`__ `DOCX "
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 #~ "Handout-v3.0-NL.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts"
-#~ "/Dash-Handout-v3.0-DE.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+#~ "`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts"
+#~ "/Historia-Handout-v3.0-DE.pdf>`__ `DOCX "
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 #~ "Handout-v3.0-DE.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts"
-#~ "/Dash-Handout-v3.0-RU.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+#~ "`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts"
+#~ "/Historia-Handout-v3.0-RU.pdf>`__ `DOCX "
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 #~ "Handout-v3.0-RU.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts"
-#~ "/Dash-Handout-v3.0-SK.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+#~ "`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts"
+#~ "/Historia-Handout-v3.0-SK.pdf>`__ `DOCX "
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 #~ "Handout-v3.0-SK.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`PDF <https://github.com/dashpay/docs/raw/master/binary/handouts"
-#~ "/Dash-Handout-v3.0-VI.pdf>`__ `DOCX "
-#~ "<https://github.com/dashpay/docs/raw/master/binary/handouts/Dash-"
+#~ "`PDF <https://github.com/HistoriaOffical/docs/raw/master/binary/handouts"
+#~ "/Historia-Handout-v3.0-VI.pdf>`__ `DOCX "
+#~ "<https://github.com/HistoriaOffical/docs/raw/master/binary/handouts/Historia-"
 #~ "Handout-v3.0-VI.docx>`__"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "Prepared by community member Essra in"
 #~ " 2017 following proposal sponsorship for"
-#~ " the German `Dash Embassy D-A-CH "
-#~ "<http://www.dash- embassy.org>`__."
+#~ " the German `Historia Embassy D-A-CH "
+#~ "<http://www.historia- embassy.org>`__."
 #~ msgstr ""
 

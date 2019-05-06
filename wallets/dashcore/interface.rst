@@ -1,17 +1,17 @@
 .. meta::
-   :description: Description of dialogs and interfaces in the Dash Core wallet
-   :keywords: dash, core, wallet, interface, dialog, synchronisation, tools options
+   :description: Description of dialogs and interfaces in the Historia Core wallet
+   :keywords: historia, core, wallet, interface, dialog, synchronisation, tools options
 
-.. _dashcore-interface:
+.. _historiacore-interface:
 
 =======================
 Interface
 =======================
 
-The Dash Core Wallet is an application that runs on your computer and
-allows you to make transactions on the Dash network. Most transactions
-are for sending or receiving Dash, but it is also possible to create
-signed messages or control a masternode, for example. The Dash Core Wallet
+The Historia Core Wallet is an application that runs on your computer and
+allows you to make transactions on the Historia network. Most transactions
+are for sending or receiving Historia, but it is also possible to create
+signed messages or control a masternode, for example. The Historia Core Wallet
 interface is described in detail in the following sections.
 
 The Main Window
@@ -19,9 +19,9 @@ The Main Window
 
 .. figure:: img/window-areas.png
 
-   The Dash Core Wallet
+   The Historia Core Wallet
 
-The Dash Core window is broken up into several areas:
+The Historia Core window is broken up into several areas:
 
 -  The menu bar
 -  The tab bar
@@ -31,7 +31,7 @@ The Dash Core window is broken up into several areas:
 The Menu Bar
 -----------------------
 
-The menu bar provides access to all functions of Dash Core. There are
+The menu bar provides access to all functions of Historia Core. There are
 four menus available:
 
 File
@@ -44,13 +44,13 @@ Tools
   masternode configuration files and other advanced functions.
 Help
   The Help menu links to documentation, guides and legal statements
-  relating to Dash Core.
+  relating to Historia Core.
    
 The Tab Bar
 -----------------------
 
-The tab bar is used to quickly switch between the main areas of the Dash
-Core. The content in the main area of Dash Core changes depending on
+The tab bar is used to quickly switch between the main areas of the Historia
+Core. The content in the main area of Historia Core changes depending on
 which tab you have selected. The following tabs are available:
 
 The Overview tab
@@ -62,13 +62,13 @@ mixing.
 
 .. figure:: img/overview.png
 
-   The Dash Core Overview tab
+   The Historia Core Overview tab
 
 The left part of the main area is divided into two areas. The upper area
 shows your balances:
 
 Available
-  This shows your current liquid balance. This is the amount of Dash
+  This shows your current liquid balance. This is the amount of Historia
   you can spend now.
 
 Pending
@@ -82,7 +82,7 @@ Total
   This is simply your available and pending funds added together.
 
 The lower area shows the status of PrivateSend and allows you to mix
-your funds using the Dash Masternode Network.
+your funds using the Historia Masternode Network.
 
 The right part of the screen shows your recent transactions. These are
 identified by icons as follows:
@@ -100,9 +100,9 @@ For more details on your transaction history, see the Transactions tab.
 The Send Tab
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-The Send tab allows you to send funds to another address on the Dash
+The Send tab allows you to send funds to another address on the Historia
 network. It contains fields to enter the recipient’s address, a label
-for the address, and the amount of Dash you wish to send. Options
+for the address, and the amount of Historia you wish to send. Options
 related to the transaction fee, InstantSend and PrivateSend are also
 available. A quick view of your total balance is also available in the
 lower right corner.
@@ -114,8 +114,8 @@ lower right corner.
 The Receive Tab
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-The Receive tab allows you to create addresses to receive Dash. You can
-create a request for a specific amount of Dash or include a specific
+The Receive tab allows you to create addresses to receive Historia. You can
+create a request for a specific amount of Historia or include a specific
 message, and send it to another user as a link or QR code.
 
 .. figure:: img/receive.png
@@ -127,7 +127,7 @@ The Transactions Tab
 
 The transactions tab shows the entire transaction history for all
 addresses associated with your wallet. This appears as a table showing
-the time, type, label and amount of Dash for each transaction. You can
+the time, type, label and amount of Historia for each transaction. You can
 also export the transaction history as a CSV file by clicking the Export
 button in the bottom right corner of the window.
 
@@ -144,26 +144,26 @@ The Status Bar
 -----------------------
 
 The status bar shows a synchronization progress bar and a row of status
-icons which indicate the status of your connection to the Dash network.
+icons which indicate the status of your connection to the Historia network.
 
 The Synchronization Bar
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-This bar shows the synchronization status of Dash Core with the Dash
-network. Each time you open Dash Core, it will begin downloading the
+This bar shows the synchronization status of Historia Core with the Historia
+network. Each time you open Historia Core, it will begin downloading the
 blocks which have been created on the blockchain in the time since you
-last opened the app. These blocks are downloaded from other Dash users
+last opened the app. These blocks are downloaded from other Historia users
 and masternodes. If you have never opened the app before, this could
 mean several years’ worth of blocks need downloading. The following
 statuses are possible:
 
 No block source available
   This occurs if your internet connection is down, or if the ports
-  required by Dash Core are blocked by a firewall.
+  required by Historia Core are blocked by a firewall.
 Synchronizing with network
-  Dash Core is downloading blocks from the network.
+  Historia Core is downloading blocks from the network.
 Synchronizing masternodes/masternode payments/governance objects
-  Dash Core is synchronizing other data with the second layer network.
+  Historia Core is synchronizing other data with the second layer network.
 
 Once synchronization is complete, the progress bar will disappear and a
 tick will appear on the right of the status bar.
@@ -184,7 +184,7 @@ perform certain other actions.
    :align: left
 
 These icons indicate the quality of your connection to the
-Dash network. If you cannot connect because of network problems, you
+Historia network. If you cannot connect because of network problems, you
 will see the icon on the left. More bars indicate more connections to
 your peers on the network.
 
@@ -192,7 +192,7 @@ your peers on the network.
    :scale: 50 %
    :align: left
 
-These icons show the synchronization status of Dash Core with
+These icons show the synchronization status of Historia Core with
 the network. Once synchronization is complete, the refresh icon will
 become a blue tick.
 
@@ -207,25 +207,25 @@ deterministic (HD) mode or standard mode.
 The Options Dialog
 =======================
 
-This documentation describes the functionality of the Dash Core Options
-dialog, available under the **Settings > Options** menu in Dash Core.
+This documentation describes the functionality of the Historia Core Options
+dialog, available under the **Settings > Options** menu in Historia Core.
 
 Main tab
 -----------------------
 
 The Main tab of the Options dialog contains settings related to startup
-and performance of the Dash Core app.
+and performance of the Historia Core app.
 
 .. figure:: img/main.png
    :scale: 50 %
 
-   The Main tab of the Dash Core Options dialog
+   The Main tab of the Historia Core Options dialog
 
-Start Dash Core on system login
-  This option causes Dash Core to start automatically when the current
+Start Historia Core on system login
+  This option causes Historia Core to start automatically when the current
   user logs in. On most computers there is only one main user account
   which is logged in automatically when the computer turns on, so this
-  option is effectively the same as starting Dash Core together with the
+  option is effectively the same as starting Historia Core together with the
   operating system.
 Size of database cache
   This option specifies the size of the database cache in memory. A higher
@@ -238,7 +238,7 @@ Number of script verification threads
   the process of following instructions recorded in the blockchain to
   ensure the transactions are valid. 0 means automatic and will allow
   script verification to scale to the number of cores available on your
-  processor. Setting a positive number specifies that Dash Core should use
+  processor. Setting a positive number specifies that Historia Core should use
   that number of processor cores, while setting a negative number will
   leave that number of processor cores free.
 
@@ -246,24 +246,24 @@ Wallet tab
 -----------------------
 
 The Wallet tab of the Options dialog contains settings related to how
-addresses are managed in the Dash Core app. The first time you run Dash
-Core, it will generate a new wallet containing 1000 unique Dash
+addresses are managed in the Historia Core app. The first time you run Historia
+Core, it will generate a new wallet containing 1000 unique Historia
 addresses. This tab allows you to configure how these addresses are used
 as inputs with the Coin Control, PrivateSend and Masternode features.
 
 .. figure:: img/wallet.png
    :scale: 50 %
 
-   The Wallet tab of the Dash Core Options dialog
+   The Wallet tab of the Historia Core Options dialog
 
 Enable coin control features
-  Your Dash Core wallet balance is actually the sum total of all
+  Your Historia Core wallet balance is actually the sum total of all
   addresses holding balance that are associated with your wallet. When
-  you spend Dash, Dash Core will withdraw from as many inputs as
-  necessary to make up the desired amount of Dash to be transferred.
+  you spend Historia, Historia Core will withdraw from as many inputs as
+  necessary to make up the desired amount of Historia to be transferred.
   This behavior may be undesirable if you want to keep a certain balance
   on one address. The most common use case is the requirement to
-  maintain 1000 Dash on a single address as collateral for a masternode.
+  maintain 1000 Historia on a single address as collateral for a masternode.
   Enabling this option will add a button labelled **Inputs** on the
   **Send** tab. This provides access to the **Coin selection** dialog,
   which can be used to lock, unlock and prioritize different addresses
@@ -271,23 +271,23 @@ Enable coin control features
   explanation of Coin Control.
 
 Show Masternodes tab
-  Enabling this option causes Dash Core to display an additional
+  Enabling this option causes Historia Core to display an additional
   Masternodes tab to the right of the Transactions tab. This option
-  requires you to restart the Dash Core app. The Masternodes tab can be 
+  requires you to restart the Historia Core app. The Masternodes tab can be 
   used to manage interactions (start, stop, check status, etc.) with 
   masternodes controlled by this wallet. This tab is an advanced feature 
-  not required by users that do not operate a masternode on the Dash 
+  not required by users that do not operate a masternode on the Historia 
   network.
 
 Enable advanced PrivateSend interface
   Enabling this option changes the PrivateSend mixing interface on the
-  Overview tab of the Dash Core wallet to include more options, such as
+  Overview tab of the Historia Core wallet to include more options, such as
   Try Mix and percentage completion. See 
-  :ref:`here <dashcore-privatesend-instantsend>` for a full explanation
+  :ref:`here <historiacore-privatesend-instantsend>` for a full explanation
   of how to use PrivateSend.
 
 Warn if PrivateSend is running out of keys
-  Enabling this option will cause Dash Core to display a warning when your
+  Enabling this option will cause Historia Core to display a warning when your
   original set of 1000 addresses is running out, which may affect
   PrivateSend mixing. Every time a mixing event happens, up to 9 of your
   addresses are used up. This means those 1000 addresses last for about
@@ -302,10 +302,10 @@ Enable PrivateSend multi-session
   multi-session, which means you can use multiple masternode servers at
   the same time, greatly increasing the speed of the mixing process at the
   cost of creating more addresses and thus requiring more frequent wallet
-  backups. This feature is experimental as of Dash Core 12.1.5.
+  backups. This feature is experimental as of Historia Core 12.1.5.
 
 Spend unconfirmed change
-  When this option is enabled, the Dash Core wallet permits you to
+  When this option is enabled, the Historia Core wallet permits you to
   immediately spend change from previous transactions that has been
   transferred internally between addresses associated with the same
   wallet. This is possible even if the transaction has not yet been
@@ -318,40 +318,40 @@ PrivateSend rounds to use
   Use this option to control the number of rounds of PrivateSend mixing to
   be carried out for your chosen balance. Each round of mixing uses a new
   masternode. The higher the number of rounds, the more difficult it
-  becomes to trace the Dash to its original address. This is at the
+  becomes to trace the Historia to its original address. This is at the
   expense of more time required for mixing and potentially higher fees.
   See here for a full explanation of how to use PrivateSend.
 
-Amount of Dash to keep anonymized
-  This option allows you to specify how much Dash should be kept on
+Amount of Historia to keep anonymized
+  This option allows you to specify how much Historia should be kept on
   balance in a ready-to-use anonymized state, meaning it has already
   passed through the PrivateSend mixing process. If you do not have
-  sufficient Dash available in your balance of unlocked inputs, the amount
+  sufficient Historia available in your balance of unlocked inputs, the amount
   will be automatically reduced to the available balance and shown in red
   in the PrivateSend interface on the Overview tab.
 
 Network tab
 -----------------------
 
-This tab includes options related to how your connection to the Dash
+This tab includes options related to how your connection to the Historia
 network is made.
 
 .. figure:: img/network.png
    :scale: 50 %
 
-   The Network tab of the Dash Core Options dialog
+   The Network tab of the Historia Core Options dialog
 
 Map port using UPnP
-  This option causes Dash Core to automatically attempt to open and map
+  This option causes Historia Core to automatically attempt to open and map
   the client port on your router using
   `UPnP <https://en.wikipedia.org/wiki/Universal_Plug_and_Play>`__
   (Universal Plug and Play). This feature is supported by most modern home
-  routers and will allow you to connect to the Dash network without making
+  routers and will allow you to connect to the Historia network without making
   any special settings on your router.
 
 Allow incoming connections
   This option causes your client to accept external connections. Since
-  Dash is a peer-to-peer network and Dash Core is considered a full client
+  Historia is a peer-to-peer network and Historia Core is considered a full client
   because it stores a copy of the blockchain on your device, enabling this
   option helps other clients synchronize the blockchain and network
   through your node.
@@ -373,56 +373,56 @@ Use separate SOCKS5 proxy to reach peers via Tor hidden services
 Window tab
 -----------------------
 
-This option contains options governing behavior of the Dash Core app
+This option contains options governing behavior of the Historia Core app
 window under Microsoft Windows.
 
 .. figure:: img/window.png
    :scale: 50 %
 
-   The Window tab of the Dash Core Options dialog
+   The Window tab of the Historia Core Options dialog
 
 Hide tray icon
-  When this option is enabled, Dash Core will not display an icon in the
+  When this option is enabled, Historia Core will not display an icon in the
   system tray. This option cannot be selected at the same time as
   **Minimize to the tray instead of the taskbar**.
 
 Minimize to the tray instead of the taskbar
-  When this option is enabled and the Dash Core window is minimized, it
-  will no longer appear in your taskbar as a running task. Instead, Dash
+  When this option is enabled and the Historia Core window is minimized, it
+  will no longer appear in your taskbar as a running task. Instead, Historia
   Core will keep running in the background and can be re-opened from the
-  Dash icon in the system tray (the area next to your system clock). This
+  Historia icon in the system tray (the area next to your system clock). This
   option cannot be selected at the same time as **Hide tray icon**.
 
 Minimize on close
   When this option is enabled, clicking the X button in the top right
-  corner of the window will cause Dash Core to minimize rather than close.
+  corner of the window will cause Historia Core to minimize rather than close.
   To completely close the app, select **File > Exit**.
   
 Display tab
 -----------------------
 
-This tab contains options relating to the appearance of the Dash Core
+This tab contains options relating to the appearance of the Historia Core
 app window.
 
 .. figure:: img/display.png
    :scale: 50 %
 
-   The Display tab of the Dash Core Options dialog
+   The Display tab of the Historia Core Options dialog
 
 User interface language
   Select your preferred language from this drop-down menu. Changing the
-  language requires you to restart the Dash Core app.
+  language requires you to restart the Historia Core app.
 
 User interface theme
   You can use this option to select a different theme governing the
-  appearance of the Dash Core window. All functionality is identical under
-  the different themes, although the default Dash-light theme is most
+  appearance of the Historia Core window. All functionality is identical under
+  the different themes, although the default Historia-light theme is most
   recent and most likely to work without any display artifacts.
 
 Unit to show amounts in
-  This allows you to change the default unit of currency in Dash Core from
-  DASH to mDASH, µDASH or duffs. Each unit shifts the decimal separator
-  three places to the right. Duffs are the smallest unit into which Dash
+  This allows you to change the default unit of currency in Historia Core from
+  HISTORIA to mHISTORIA, µHISTORIA or duffs. Each unit shifts the decimal separator
+  three places to the right. Duffs are the smallest unit into which Historia
   may be separated.
 
 Decimal digits
@@ -436,14 +436,14 @@ Third party transaction URLs
   explorers are available for this. To use this feature, enter the URL of
   your favorite blockchain explorer, replacing the %s with the transaction
   ID. You will then be able to access this blockchain explorer directly
-  from Dash Core using the context menu of any given transaction.   
+  from Historia Core using the context menu of any given transaction.   
 
 
 The Tools Dialog
 =======================
 
-This documentation describes the functionality of the Dash Core Tools
-dialog, available under the **Tools** menu in Dash Core.
+This documentation describes the functionality of the Historia Core Tools
+dialog, available under the **Tools** menu in Historia Core.
 
 Information tab
 -----------------------
@@ -451,7 +451,7 @@ Information tab
 .. figure:: img/information.png
    :scale: 50 %
 
-   The Information tab of the Dash Core Tools dialog
+   The Information tab of the Historia Core Tools dialog
 
 General
   This section displays information on the name and version of the client
@@ -473,14 +473,14 @@ Memory pool
 
 Open debug log file
   This button opens debug.log from the application data directory. This
-  file contains output from Dash Core which may help to diagnose errors.
+  file contains output from Historia Core which may help to diagnose errors.
 
 Console tab
 -----------------------
 
-The Console tab provides an interface with the Dash Core RPC (remote
-procedure call) console. This is equivalent to the ``dash-cli`` command
-on headless versions of Dash, such as ``dashd`` running on a masternode.
+The Console tab provides an interface with the Historia Core RPC (remote
+procedure call) console. This is equivalent to the ``historia-cli`` command
+on headless versions of Historia, such as ``historiad`` running on a masternode.
 Click the red ``–`` icon to clear the console, and see the detailed
 documentation on RPC commands to learn about the possible commands you can 
 issue.
@@ -488,7 +488,7 @@ issue.
 .. figure:: img/console.png
    :scale: 50 %
 
-   The Console tab of the Dash Core Tools dialog
+   The Console tab of the Historia Core Tools dialog
 
 Network Traffic tab
 -----------------------
@@ -500,12 +500,12 @@ slider or **Clear** the graph.
 .. figure:: img/network-traffic.png
    :scale: 50 %
 
-   The Network Traffic tab of the Dash Core Tools dialog
+   The Network Traffic tab of the Historia Core Tools dialog
 
 Peers tab
 -----------------------
 
-The Peers tab shows a list of other full nodes connected to your Dash
+The Peers tab shows a list of other full nodes connected to your Historia
 Core client. The IP address, version and ping time are visible.
 Selecting a peer shows additional information on the data exchanged with
 that peer.
@@ -513,19 +513,19 @@ that peer.
 .. figure:: img/peers.png
    :scale: 50 %
 
-   The Peers tab of the Dash Core Tools dialog
+   The Peers tab of the Historia Core Tools dialog
 
 Wallet Repair tab
 -----------------------
 
 The Wallet Repair tab offers a range of startup commands to restore a
 wallet to a functional state. Selecting any of these commands will
-restart Dash Core with the specified command-line option.
+restart Historia Core with the specified command-line option.
 
 .. figure:: img/wallet-repair.png
    :scale: 50 %
 
-   The Wallet Repair tab of the Dash Core Tools dialog
+   The Wallet Repair tab of the Historia Core Tools dialog
 
 Salvage wallet
   Salvage wallet assumes wallet.dat is corrupted and cannot be read. It

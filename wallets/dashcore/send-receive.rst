@@ -1,23 +1,23 @@
 .. meta::
-   :description: Guide to sending and receiving Dash using the Dash Core wallet
-   :keywords: dash, core, wallet, send, receive, transaction
+   :description: Guide to sending and receiving Historia using the Historia Core wallet
+   :keywords: historia, core, wallet, send, receive, transaction
 
-.. _dashcore-send-receive:
+.. _historiacore-send-receive:
 
 =====================
 Sending and receiving
 =====================
 
-Your Dash Core Wallet is associated with a number of unique addresses
-that can be used to send and receive Dash. Each address holds its own
+Your Historia Core Wallet is associated with a number of unique addresses
+that can be used to send and receive Historia. Each address holds its own
 balance, and the sum of all your balances is what appears on the
-**Overview** tab. When you send Dash, your wallet will automatically
+**Overview** tab. When you send Historia, your wallet will automatically
 transfer funds from as many of your addresses as necessary to the
-destination address, which is controlled by another Dash user and
+destination address, which is controlled by another Historia user and
 associated with their wallet. You can control which addresses you use
 using the Coin Control feature.
 
-When you confirm a transaction, Dash Core will enter the transaction in
+When you confirm a transaction, Historia Core will enter the transaction in
 a block, which will then be added to the blockchain for other clients to
 confirm. A transaction is generally considered confirmed once six blocks
 have been added after the block containing your transaction, although
@@ -25,26 +25,26 @@ masternode and mining payments are only released after 101 blocks. Note
 that a different process is used for InstantSend and PrivateSend
 transactions.
 
-Dash addresses are 34 characters long and begin with an uppercase X.
+Historia addresses are 34 characters long and begin with an uppercase X.
 
-Sending Dash
+Sending Historia
 ============
 
-You can use Dash Core to send Dash from your balance to another user.
-The receiving user will provide you with a Dash address to which you
+You can use Historia Core to send Historia from your balance to another user.
+The receiving user will provide you with a Historia address to which you
 should send the funds. Click the **Send** tab in the tab bar and enter
 the destination address in the **Pay To** field.
 
 .. figure:: img/send.png
    :width: 400px
 
-   The Dash Core Send tab
+   The Historia Core Send tab
 
 You can also use the three icons |sendicons| to the right of the **Pay
 To** field to select a previously used address, paste an address from
 the clipboard, or clear the current address. If this is a new address,
 you can enter a name for the address in the **Label** field to help
-identify it again later. Finally, enter the amount of Dash you want to
+identify it again later. Finally, enter the amount of Historia you want to
 transfer in the **Amount** field.
 
 .. |sendicons| image:: img/sendicons.png
@@ -56,15 +56,15 @@ sent, or subtract it from the amount sent. You can also increase your
 fee to encourage nodes on the network to prioritize your transaction.
 Choosing **InstantSend** has a similar effect, but actually relies on a
 different mechanism in the second layer network to speed up the
-transaction time. Choosing **PrivateSend** will send Dash from an
+transaction time. Choosing **PrivateSend** will send Historia from an
 address that has previously been mixed. You can find out more about
 PrivateSend and InstantSend 
-:ref:`here <dashcore-privatesend-instantsend>`.
+:ref:`here <historiacore-privatesend-instantsend>`.
 
 Let’s try an example. Say you have received an invoice which you now
-want to pay with Dash. The writer of the invoice has included a Dash
+want to pay with Historia. The writer of the invoice has included a Historia
 address, which can be seen in the following window beginning with *Xpa*.
-The invoice is for 2.45 Dash, which you fill in the **Amount** field.
+The invoice is for 2.45 Historia, which you fill in the **Amount** field.
 
 .. figure:: img/sendready.png
    :width: 400px
@@ -81,7 +81,7 @@ required to enter your password to unlock the wallet.
    Entering the password to unlock the wallet
 
 Finally, you are given one final confirmation and chance to cancel your
-send transaction before Dash Core processes the transaction on the
+send transaction before Historia Core processes the transaction on the
 blockchain.
 
 .. figure:: img/confirm.png
@@ -98,14 +98,14 @@ appear on the Transactions tab, where you can monitor its progress.
 
    The Windows 10 sent transaction confirmation notification
 
-Note that the amount of the transaction increased by .000045 Dash. This
+Note that the amount of the transaction increased by .000045 Historia. This
 is the transaction fee. In the next section, we will see what this
 procedure looks like from the receiving side.
 
-Receiving Dash
+Receiving Historia
 ==============
 
-To receive Dash, you must first create a receiving address to give to
+To receive Historia, you must first create a receiving address to give to
 the sending party. To do this, click **File > Receiving addresses**. The
 **Receiving addresses** window appears.
 
@@ -118,7 +118,7 @@ Either copy an existing address by clicking on the address and then the
 **Copy** button, or create a new address by clicking the **New** button.
 You can also edit an existing address by right clicking and selecting
 **Edit** address from the context menu. Give this address to the person
-who will send you Dash. Your wallet does not need to be open to receive
+who will send you Historia. Your wallet does not need to be open to receive
 funds, but if it is, you can watch the transaction arrive in real time.
 This is because your wallet constantly watches for new blocks on the
 blockchain when it is open, and will recognize a new transaction
@@ -137,7 +137,7 @@ Once you have been paid, you can see the balance both on the
 
    The received transaction
 
-**How to Create New Receiving Addresses in DashQT**
+**How to Create New Receiving Addresses in HistoriaQT**
 
 .. raw:: html
 

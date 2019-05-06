@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2017, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-03 08:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -17,246 +17,246 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../wallets/dashcore/interface.rst:1
-msgid "Description of dialogs and interfaces in the Dash Core wallet"
+#: ../../wallets/historiacore/interface.rst:1
+msgid "Description of dialogs and interfaces in the Historia Core wallet"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:1
-msgid "dash, core, wallet, interface, dialog, synchronisation, tools options"
+#: ../../wallets/historiacore/interface.rst:1
+msgid "historia, core, wallet, interface, dialog, synchronisation, tools options"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:9
+#: ../../wallets/historiacore/interface.rst:9
 msgid "Interface"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:11
+#: ../../wallets/historiacore/interface.rst:11
 msgid ""
-"The Dash Core Wallet is an application that runs on your computer and "
-"allows you to make transactions on the Dash network. Most transactions "
-"are for sending or receiving Dash, but it is also possible to create "
-"signed messages or control a masternode, for example. The Dash Core "
+"The Historia Core Wallet is an application that runs on your computer and "
+"allows you to make transactions on the Historia network. Most transactions "
+"are for sending or receiving Historia, but it is also possible to create "
+"signed messages or control a masternode, for example. The Historia Core "
 "Wallet interface is described in detail in the following sections."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:18
+#: ../../wallets/historiacore/interface.rst:18
 msgid "The Main Window"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:22
-msgid "The Dash Core Wallet"
+#: ../../wallets/historiacore/interface.rst:22
+msgid "The Historia Core Wallet"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:24
-msgid "The Dash Core window is broken up into several areas:"
+#: ../../wallets/historiacore/interface.rst:24
+msgid "The Historia Core window is broken up into several areas:"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:26
+#: ../../wallets/historiacore/interface.rst:26
 msgid "The menu bar"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:27
+#: ../../wallets/historiacore/interface.rst:27
 msgid "The tab bar"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:28
+#: ../../wallets/historiacore/interface.rst:28
 msgid "The main area"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:29
+#: ../../wallets/historiacore/interface.rst:29
 msgid "The status bar"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:32
+#: ../../wallets/historiacore/interface.rst:32
 msgid "The Menu Bar"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:34
+#: ../../wallets/historiacore/interface.rst:34
 msgid ""
-"The menu bar provides access to all functions of Dash Core. There are "
+"The menu bar provides access to all functions of Historia Core. There are "
 "four menus available:"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:37
+#: ../../wallets/historiacore/interface.rst:37
 msgid "File"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:38
+#: ../../wallets/historiacore/interface.rst:38
 msgid "The File menu is used to manage your wallet, messages and addresses."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:40
+#: ../../wallets/historiacore/interface.rst:40
 msgid "Settings"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:40
+#: ../../wallets/historiacore/interface.rst:40
 msgid ""
 "The Settings menu provides access to wallet encryption options and "
 "general software settings."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:43
+#: ../../wallets/historiacore/interface.rst:43
 msgid "Tools"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:43
+#: ../../wallets/historiacore/interface.rst:43
 msgid ""
 "The Tools menu provides information on the network, allows you modify "
 "masternode configuration files and other advanced functions."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:47
+#: ../../wallets/historiacore/interface.rst:47
 msgid "Help"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:46
+#: ../../wallets/historiacore/interface.rst:46
 msgid ""
 "The Help menu links to documentation, guides and legal statements "
-"relating to Dash Core."
+"relating to Historia Core."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:50
+#: ../../wallets/historiacore/interface.rst:50
 msgid "The Tab Bar"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:52
+#: ../../wallets/historiacore/interface.rst:52
 msgid ""
-"The tab bar is used to quickly switch between the main areas of the Dash "
-"Core. The content in the main area of Dash Core changes depending on "
+"The tab bar is used to quickly switch between the main areas of the Historia "
+"Core. The content in the main area of Historia Core changes depending on "
 "which tab you have selected. The following tabs are available:"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:57
+#: ../../wallets/historiacore/interface.rst:57
 msgid "The Overview tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:59
+#: ../../wallets/historiacore/interface.rst:59
 msgid ""
 "The overview tab offers quick access to your balance and most recent "
 "transactions, as well as the PrivateSend feature and options for coin "
 "mixing."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:65
-msgid "The Dash Core Overview tab"
+#: ../../wallets/historiacore/interface.rst:65
+msgid "The Historia Core Overview tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:67
+#: ../../wallets/historiacore/interface.rst:67
 msgid ""
 "The left part of the main area is divided into two areas. The upper area "
 "shows your balances:"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:72
+#: ../../wallets/historiacore/interface.rst:72
 msgid "Available"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:71
+#: ../../wallets/historiacore/interface.rst:71
 msgid ""
-"This shows your current liquid balance. This is the amount of Dash you "
+"This shows your current liquid balance. This is the amount of Historia you "
 "can spend now."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:75
+#: ../../wallets/historiacore/interface.rst:75
 msgid "Pending"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:75
+#: ../../wallets/historiacore/interface.rst:75
 msgid "This shows funds waiting for a transaction to complete."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:79
+#: ../../wallets/historiacore/interface.rst:79
 msgid "Immature"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:78
+#: ../../wallets/historiacore/interface.rst:78
 msgid ""
 "This shows funds from masternode or mining payments which have not yet "
 "reached the required number of confirmations."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:82
+#: ../../wallets/historiacore/interface.rst:82
 msgid "Total"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:82
+#: ../../wallets/historiacore/interface.rst:82
 msgid "This is simply your available and pending funds added together."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:84
+#: ../../wallets/historiacore/interface.rst:84
 msgid ""
 "The lower area shows the status of PrivateSend and allows you to mix your"
-" funds using the Dash Masternode Network."
+" funds using the Historia Masternode Network."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:87
+#: ../../wallets/historiacore/interface.rst:87
 msgid ""
 "The right part of the screen shows your recent transactions. These are "
 "identified by icons as follows:"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:94
+#: ../../wallets/historiacore/interface.rst:94
 msgid "Recent incoming transactions appear black, prefixed by a + sign"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:95
+#: ../../wallets/historiacore/interface.rst:95
 msgid "Recent outgoing transactions appear red, prefixed by a – sign"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:96
+#: ../../wallets/historiacore/interface.rst:96
 msgid "Incoming mining or masternode payments also appear black"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:98
+#: ../../wallets/historiacore/interface.rst:98
 msgid "For more details on your transaction history, see the Transactions tab."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:101
+#: ../../wallets/historiacore/interface.rst:101
 msgid "The Send Tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:103
+#: ../../wallets/historiacore/interface.rst:103
 msgid ""
-"The Send tab allows you to send funds to another address on the Dash "
+"The Send tab allows you to send funds to another address on the Historia "
 "network. It contains fields to enter the recipient’s address, a label for"
-" the address, and the amount of Dash you wish to send. Options related to"
+" the address, and the amount of Historia you wish to send. Options related to"
 " the transaction fee, InstantSend and PrivateSend are also available. A "
 "quick view of your total balance is also available in the lower right "
 "corner."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:112
+#: ../../wallets/historiacore/interface.rst:112
 msgid "The Send tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:115
+#: ../../wallets/historiacore/interface.rst:115
 msgid "The Receive Tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:117
+#: ../../wallets/historiacore/interface.rst:117
 msgid ""
-"The Receive tab allows you to create addresses to receive Dash. You can "
-"create a request for a specific amount of Dash or include a specific "
+"The Receive tab allows you to create addresses to receive Historia. You can "
+"create a request for a specific amount of Historia or include a specific "
 "message, and send it to another user as a link or QR code."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:123
+#: ../../wallets/historiacore/interface.rst:123
 msgid "The Receive tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:126
+#: ../../wallets/historiacore/interface.rst:126
 msgid "The Transactions Tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:128
+#: ../../wallets/historiacore/interface.rst:128
 msgid ""
 "The transactions tab shows the entire transaction history for all "
 "addresses associated with your wallet. This appears as a table showing "
-"the time, type, label and amount of Dash for each transaction. You can "
+"the time, type, label and amount of Historia for each transaction. You can "
 "also export the transaction history as a CSV file by clicking the Export "
 "button in the bottom right corner of the window."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:134
+#: ../../wallets/historiacore/interface.rst:134
 msgid ""
 "The icons in the leftmost column indicate the status of the transaction. "
 "A tick indicates that the recommended number of confirmations has been "
@@ -264,141 +264,141 @@ msgid ""
 " confirmations."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:141
+#: ../../wallets/historiacore/interface.rst:141
 msgid "The transactions tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:144
+#: ../../wallets/historiacore/interface.rst:144
 msgid "The Status Bar"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:146
+#: ../../wallets/historiacore/interface.rst:146
 msgid ""
 "The status bar shows a synchronization progress bar and a row of status "
-"icons which indicate the status of your connection to the Dash network."
+"icons which indicate the status of your connection to the Historia network."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:150
+#: ../../wallets/historiacore/interface.rst:150
 msgid "The Synchronization Bar"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:152
+#: ../../wallets/historiacore/interface.rst:152
 msgid ""
-"This bar shows the synchronization status of Dash Core with the Dash "
-"network. Each time you open Dash Core, it will begin downloading the "
+"This bar shows the synchronization status of Historia Core with the Historia "
+"network. Each time you open Historia Core, it will begin downloading the "
 "blocks which have been created on the blockchain in the time since you "
-"last opened the app. These blocks are downloaded from other Dash users "
+"last opened the app. These blocks are downloaded from other Historia users "
 "and masternodes. If you have never opened the app before, this could mean"
 " several years’ worth of blocks need downloading. The following statuses "
 "are possible:"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:161
+#: ../../wallets/historiacore/interface.rst:161
 msgid "No block source available"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:161
+#: ../../wallets/historiacore/interface.rst:161
 msgid ""
 "This occurs if your internet connection is down, or if the ports required"
-" by Dash Core are blocked by a firewall."
+" by Historia Core are blocked by a firewall."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:163
+#: ../../wallets/historiacore/interface.rst:163
 msgid "Synchronizing with network"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:164
-msgid "Dash Core is downloading blocks from the network."
+#: ../../wallets/historiacore/interface.rst:164
+msgid "Historia Core is downloading blocks from the network."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:166
+#: ../../wallets/historiacore/interface.rst:166
 msgid "Synchronizing masternodes/masternode payments/governance objects"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:166
-msgid "Dash Core is synchronizing other data with the second layer network."
+#: ../../wallets/historiacore/interface.rst:166
+msgid "Historia Core is synchronizing other data with the second layer network."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:168
+#: ../../wallets/historiacore/interface.rst:168
 msgid ""
 "Once synchronization is complete, the progress bar will disappear and a "
 "tick will appear on the right of the status bar."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:172
+#: ../../wallets/historiacore/interface.rst:172
 msgid "The Status Icons"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:178
+#: ../../wallets/historiacore/interface.rst:178
 msgid ""
 "The lock icons indicate the status of your wallet: either locked or "
 "unlocked. You need to unlock your wallet to send funds or perform certain"
 " other actions."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:186
+#: ../../wallets/historiacore/interface.rst:186
 msgid ""
-"These icons indicate the quality of your connection to the Dash network. "
+"These icons indicate the quality of your connection to the Historia network. "
 "If you cannot connect because of network problems, you will see the icon "
 "on the left. More bars indicate more connections to your peers on the "
 "network."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:195
+#: ../../wallets/historiacore/interface.rst:195
 msgid ""
-"These icons show the synchronization status of Dash Core with the "
+"These icons show the synchronization status of Historia Core with the "
 "network. Once synchronization is complete, the refresh icon will become a"
 " blue tick."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:203
+#: ../../wallets/historiacore/interface.rst:203
 msgid ""
 "These icons indicate whether your wallet is running in hierarchical "
 "deterministic (HD) mode or standard mode."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:208
+#: ../../wallets/historiacore/interface.rst:208
 msgid "The Options Dialog"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:210
+#: ../../wallets/historiacore/interface.rst:210
 msgid ""
-"This documentation describes the functionality of the Dash Core Options "
-"dialog, available under the **Settings > Options** menu in Dash Core."
+"This documentation describes the functionality of the Historia Core Options "
+"dialog, available under the **Settings > Options** menu in Historia Core."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:214
+#: ../../wallets/historiacore/interface.rst:214
 msgid "Main tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:216
+#: ../../wallets/historiacore/interface.rst:216
 msgid ""
 "The Main tab of the Options dialog contains settings related to startup "
-"and performance of the Dash Core app."
+"and performance of the Historia Core app."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:222
-msgid "The Main tab of the Dash Core Options dialog"
+#: ../../wallets/historiacore/interface.rst:222
+msgid "The Main tab of the Historia Core Options dialog"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:228
-msgid "Start Dash Core on system login"
+#: ../../wallets/historiacore/interface.rst:228
+msgid "Start Historia Core on system login"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:225
+#: ../../wallets/historiacore/interface.rst:225
 msgid ""
-"This option causes Dash Core to start automatically when the current user"
+"This option causes Historia Core to start automatically when the current user"
 " logs in. On most computers there is only one main user account which is "
 "logged in automatically when the computer turns on, so this option is "
-"effectively the same as starting Dash Core together with the operating "
+"effectively the same as starting Historia Core together with the operating "
 "system."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:233
+#: ../../wallets/historiacore/interface.rst:233
 msgid "Size of database cache"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:231
+#: ../../wallets/historiacore/interface.rst:231
 msgid ""
 "This option specifies the size of the database cache in memory. A higher "
 "value will result in increased performance when adding new blocks at the "
@@ -406,51 +406,51 @@ msgid ""
 " be set lower than this level."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:243
+#: ../../wallets/historiacore/interface.rst:243
 msgid "Number of script verification threads"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:236
+#: ../../wallets/historiacore/interface.rst:236
 msgid ""
 "This option sets the number of script verification threads, ranging from "
 "-4 to 16. `Script verification <https://en.bitcoin.it/wiki/Script>`__ is "
 "the process of following instructions recorded in the blockchain to "
 "ensure the transactions are valid. 0 means automatic and will allow "
 "script verification to scale to the number of cores available on your "
-"processor. Setting a positive number specifies that Dash Core should use "
+"processor. Setting a positive number specifies that Historia Core should use "
 "that number of processor cores, while setting a negative number will "
 "leave that number of processor cores free."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:246
+#: ../../wallets/historiacore/interface.rst:246
 msgid "Wallet tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:248
+#: ../../wallets/historiacore/interface.rst:248
 msgid ""
 "The Wallet tab of the Options dialog contains settings related to how "
-"addresses are managed in the Dash Core app. The first time you run Dash "
-"Core, it will generate a new wallet containing 1000 unique Dash "
+"addresses are managed in the Historia Core app. The first time you run Historia "
+"Core, it will generate a new wallet containing 1000 unique Historia "
 "addresses. This tab allows you to configure how these addresses are used "
 "as inputs with the Coin Control, PrivateSend and Masternode features."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:257
-msgid "The Wallet tab of the Dash Core Options dialog"
+#: ../../wallets/historiacore/interface.rst:257
+msgid "The Wallet tab of the Historia Core Options dialog"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:271
+#: ../../wallets/historiacore/interface.rst:271
 msgid "Enable coin control features"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:260
+#: ../../wallets/historiacore/interface.rst:260
 msgid ""
-"Your Dash Core wallet balance is actually the sum total of all addresses "
+"Your Historia Core wallet balance is actually the sum total of all addresses "
 "holding balance that are associated with your wallet. When you spend "
-"Dash, Dash Core will withdraw from as many inputs as necessary to make up"
-" the desired amount of Dash to be transferred. This behavior may be "
+"Historia, Historia Core will withdraw from as many inputs as necessary to make up"
+" the desired amount of Historia to be transferred. This behavior may be "
 "undesirable if you want to keep a certain balance on one address. The "
-"most common use case is the requirement to maintain 1000 Dash on a single"
+"most common use case is the requirement to maintain 1000 Historia on a single"
 " address as collateral for a masternode. Enabling this option will add a "
 "button labelled **Inputs** on the **Send** tab. This provides access to "
 "the **Coin selection** dialog, which can be used to lock, unlock and "
@@ -458,40 +458,40 @@ msgid ""
 "control>` for a more detailed explanation of Coin Control."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:280
+#: ../../wallets/historiacore/interface.rst:280
 msgid "Show Masternodes tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:274
+#: ../../wallets/historiacore/interface.rst:274
 msgid ""
-"Enabling this option causes Dash Core to display an additional "
+"Enabling this option causes Historia Core to display an additional "
 "Masternodes tab to the right of the Transactions tab. This option "
-"requires you to restart the Dash Core app. The Masternodes tab can be "
+"requires you to restart the Historia Core app. The Masternodes tab can be "
 "used to manage interactions (start, stop, check status, etc.) with "
 "masternodes controlled by this wallet. This tab is an advanced feature "
-"not required by users that do not operate a masternode on the Dash "
+"not required by users that do not operate a masternode on the Historia "
 "network."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:287
+#: ../../wallets/historiacore/interface.rst:287
 msgid "Enable advanced PrivateSend interface"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:283
+#: ../../wallets/historiacore/interface.rst:283
 msgid ""
 "Enabling this option changes the PrivateSend mixing interface on the "
-"Overview tab of the Dash Core wallet to include more options, such as Try"
-" Mix and percentage completion. See :ref:`here <dashcore-privatesend-"
+"Overview tab of the Historia Core wallet to include more options, such as Try"
+" Mix and percentage completion. See :ref:`here <historiacore-privatesend-"
 "instantsend>` for a full explanation of how to use PrivateSend."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:297
+#: ../../wallets/historiacore/interface.rst:297
 msgid "Warn if PrivateSend is running out of keys"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:290
+#: ../../wallets/historiacore/interface.rst:290
 msgid ""
-"Enabling this option will cause Dash Core to display a warning when your "
+"Enabling this option will cause Historia Core to display a warning when your "
 "original set of 1000 addresses is running out, which may affect "
 "PrivateSend mixing. Every time a mixing event happens, up to 9 of your "
 "addresses are used up. This means those 1000 addresses last for about 100"
@@ -501,27 +501,27 @@ msgid ""
 "PrivateSend disabled."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:305
+#: ../../wallets/historiacore/interface.rst:305
 msgid "Enable PrivateSend multi-session"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:300
+#: ../../wallets/historiacore/interface.rst:300
 msgid ""
 "Normally PrivateSend mixing is completed in several consecutive rounds, "
 "each using a single masternode. Enabling this option allows multi-"
 "session, which means you can use multiple masternode servers at the same "
 "time, greatly increasing the speed of the mixing process at the cost of "
 "creating more addresses and thus requiring more frequent wallet backups. "
-"This feature is experimental as of Dash Core 12.1.5."
+"This feature is experimental as of Historia Core 12.1.5."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:315
+#: ../../wallets/historiacore/interface.rst:315
 msgid "Spend unconfirmed change"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:308
+#: ../../wallets/historiacore/interface.rst:308
 msgid ""
-"When this option is enabled, the Dash Core wallet permits you to "
+"When this option is enabled, the Historia Core wallet permits you to "
 "immediately spend change from previous transactions that has been "
 "transferred internally between addresses associated with the same wallet."
 " This is possible even if the transaction has not yet been confirmed "
@@ -531,80 +531,80 @@ msgid ""
 "been confirmed."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:323
+#: ../../wallets/historiacore/interface.rst:323
 msgid "PrivateSend rounds to use"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:318
+#: ../../wallets/historiacore/interface.rst:318
 msgid ""
 "Use this option to control the number of rounds of PrivateSend mixing to "
 "be carried out for your chosen balance. Each round of mixing uses a new "
 "masternode. The higher the number of rounds, the more difficult it "
-"becomes to trace the Dash to its original address. This is at the expense"
+"becomes to trace the Historia to its original address. This is at the expense"
 " of more time required for mixing and potentially higher fees. See here "
 "for a full explanation of how to use PrivateSend."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:331
-msgid "Amount of Dash to keep anonymized"
+#: ../../wallets/historiacore/interface.rst:331
+msgid "Amount of Historia to keep anonymized"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:326
+#: ../../wallets/historiacore/interface.rst:326
 msgid ""
-"This option allows you to specify how much Dash should be kept on balance"
+"This option allows you to specify how much Historia should be kept on balance"
 " in a ready-to-use anonymized state, meaning it has already passed "
 "through the PrivateSend mixing process. If you do not have sufficient "
-"Dash available in your balance of unlocked inputs, the amount will be "
+"Historia available in your balance of unlocked inputs, the amount will be "
 "automatically reduced to the available balance and shown in red in the "
 "PrivateSend interface on the Overview tab."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:334
+#: ../../wallets/historiacore/interface.rst:334
 msgid "Network tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:336
+#: ../../wallets/historiacore/interface.rst:336
 msgid ""
-"This tab includes options related to how your connection to the Dash "
+"This tab includes options related to how your connection to the Historia "
 "network is made."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:342
-msgid "The Network tab of the Dash Core Options dialog"
+#: ../../wallets/historiacore/interface.rst:342
+msgid "The Network tab of the Historia Core Options dialog"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:350
+#: ../../wallets/historiacore/interface.rst:350
 msgid "Map port using UPnP"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:345
+#: ../../wallets/historiacore/interface.rst:345
 msgid ""
-"This option causes Dash Core to automatically attempt to open and map the"
+"This option causes Historia Core to automatically attempt to open and map the"
 " client port on your router using `UPnP "
 "<https://en.wikipedia.org/wiki/Universal_Plug_and_Play>`__ (Universal "
 "Plug and Play). This feature is supported by most modern home routers and"
-" will allow you to connect to the Dash network without making any special"
+" will allow you to connect to the Historia network without making any special"
 " settings on your router."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:357
+#: ../../wallets/historiacore/interface.rst:357
 msgid "Allow incoming connections"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:353
+#: ../../wallets/historiacore/interface.rst:353
 msgid ""
-"This option causes your client to accept external connections. Since Dash"
-" is a peer-to-peer network and Dash Core is considered a full client "
+"This option causes your client to accept external connections. Since Historia"
+" is a peer-to-peer network and Historia Core is considered a full client "
 "because it stores a copy of the blockchain on your device, enabling this "
 "option helps other clients synchronize the blockchain and network through"
 " your node."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:364
+#: ../../wallets/historiacore/interface.rst:364
 msgid "Connect through SOCKS5 proxy (default proxy)"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:360
+#: ../../wallets/historiacore/interface.rst:360
 msgid ""
 "These options allow users on an intranet requiring a proxy to reach the "
 "broader internet to specify the address of their proxy server to relay "
@@ -613,11 +613,11 @@ msgid ""
 " suspect a proxy may be the source of the problem."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:371
+#: ../../wallets/historiacore/interface.rst:371
 msgid "Use separate SOCKS5 proxy to reach peers via Tor hidden services"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:367
+#: ../../wallets/historiacore/interface.rst:367
 msgid ""
 "These options allow you to specify an additional proxy server designed to"
 " help you connect to peers on the Tor network. This is an advanced option"
@@ -625,119 +625,119 @@ msgid ""
 " information about Tor, see `here <https://www.torproject.org/>`__."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:374
+#: ../../wallets/historiacore/interface.rst:374
 msgid "Window tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:376
+#: ../../wallets/historiacore/interface.rst:376
 msgid ""
-"This option contains options governing behavior of the Dash Core app "
+"This option contains options governing behavior of the Historia Core app "
 "window under Microsoft Windows."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:382
-msgid "The Window tab of the Dash Core Options dialog"
+#: ../../wallets/historiacore/interface.rst:382
+msgid "The Window tab of the Historia Core Options dialog"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:387
+#: ../../wallets/historiacore/interface.rst:387
 msgid "Hide tray icon"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:385
+#: ../../wallets/historiacore/interface.rst:385
 msgid ""
-"When this option is enabled, Dash Core will not display an icon in the "
+"When this option is enabled, Historia Core will not display an icon in the "
 "system tray. This option cannot be selected at the same time as "
 "**Minimize to the tray instead of the taskbar**."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:394
+#: ../../wallets/historiacore/interface.rst:394
 msgid "Minimize to the tray instead of the taskbar"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:390
+#: ../../wallets/historiacore/interface.rst:390
 msgid ""
-"When this option is enabled and the Dash Core window is minimized, it "
-"will no longer appear in your taskbar as a running task. Instead, Dash "
+"When this option is enabled and the Historia Core window is minimized, it "
+"will no longer appear in your taskbar as a running task. Instead, Historia "
 "Core will keep running in the background and can be re-opened from the "
-"Dash icon in the system tray (the area next to your system clock). This "
+"Historia icon in the system tray (the area next to your system clock). This "
 "option cannot be selected at the same time as **Hide tray icon**."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:399
+#: ../../wallets/historiacore/interface.rst:399
 msgid "Minimize on close"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:397
+#: ../../wallets/historiacore/interface.rst:397
 msgid ""
 "When this option is enabled, clicking the X button in the top right "
-"corner of the window will cause Dash Core to minimize rather than close. "
+"corner of the window will cause Historia Core to minimize rather than close. "
 "To completely close the app, select **File > Exit**."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:402
+#: ../../wallets/historiacore/interface.rst:402
 msgid "Display tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:404
+#: ../../wallets/historiacore/interface.rst:404
 msgid ""
-"This tab contains options relating to the appearance of the Dash Core app"
+"This tab contains options relating to the appearance of the Historia Core app"
 " window."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:410
-msgid "The Display tab of the Dash Core Options dialog"
+#: ../../wallets/historiacore/interface.rst:410
+msgid "The Display tab of the Historia Core Options dialog"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:414
+#: ../../wallets/historiacore/interface.rst:414
 msgid "User interface language"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:413
+#: ../../wallets/historiacore/interface.rst:413
 msgid ""
 "Select your preferred language from this drop-down menu. Changing the "
-"language requires you to restart the Dash Core app."
+"language requires you to restart the Historia Core app."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:420
+#: ../../wallets/historiacore/interface.rst:420
 msgid "User interface theme"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:417
+#: ../../wallets/historiacore/interface.rst:417
 msgid ""
 "You can use this option to select a different theme governing the "
-"appearance of the Dash Core window. All functionality is identical under "
-"the different themes, although the default Dash-light theme is most "
+"appearance of the Historia Core window. All functionality is identical under "
+"the different themes, although the default Historia-light theme is most "
 "recent and most likely to work without any display artifacts."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:426
+#: ../../wallets/historiacore/interface.rst:426
 msgid "Unit to show amounts in"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:423
+#: ../../wallets/historiacore/interface.rst:423
 msgid ""
-"This allows you to change the default unit of currency in Dash Core from "
-"DASH to mDASH, µDASH or duffs. Each unit shifts the decimal separator "
-"three places to the right. Duffs are the smallest unit into which Dash "
+"This allows you to change the default unit of currency in Historia Core from "
+"HISTORIA to mHISTORIA, µHISTORIA or duffs. Each unit shifts the decimal separator "
+"three places to the right. Duffs are the smallest unit into which Historia "
 "may be separated."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:431
+#: ../../wallets/historiacore/interface.rst:431
 msgid "Decimal digits"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:429
+#: ../../wallets/historiacore/interface.rst:429
 msgid ""
 "This option allows you to select how many decimal digits will be "
 "displayed in the user interface. This does not affect internal accounting"
 " of your inputs and balance."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:440
+#: ../../wallets/historiacore/interface.rst:440
 msgid "Third party transaction URLs"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:434
+#: ../../wallets/historiacore/interface.rst:434
 #, python-format
 msgid ""
 "This option allows you to specify and external website to inspect a "
@@ -745,60 +745,60 @@ msgid ""
 "explorers are available for this. To use this feature, enter the URL of "
 "your favorite blockchain explorer, replacing the %s with the transaction "
 "ID. You will then be able to access this blockchain explorer directly "
-"from Dash Core using the context menu of any given transaction."
+"from Historia Core using the context menu of any given transaction."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:443
+#: ../../wallets/historiacore/interface.rst:443
 msgid "The Tools Dialog"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:445
+#: ../../wallets/historiacore/interface.rst:445
 msgid ""
-"This documentation describes the functionality of the Dash Core Tools "
-"dialog, available under the **Tools** menu in Dash Core."
+"This documentation describes the functionality of the Historia Core Tools "
+"dialog, available under the **Tools** menu in Historia Core."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:449
+#: ../../wallets/historiacore/interface.rst:449
 msgid "Information tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:454
-msgid "The Information tab of the Dash Core Tools dialog"
+#: ../../wallets/historiacore/interface.rst:454
+msgid "The Information tab of the Historia Core Tools dialog"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:459
+#: ../../wallets/historiacore/interface.rst:459
 msgid "General"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:457
+#: ../../wallets/historiacore/interface.rst:457
 msgid ""
 "This section displays information on the name and version of the client "
 "and database, and the location of the current application data directory."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:463
+#: ../../wallets/historiacore/interface.rst:463
 msgid "Network"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:462
+#: ../../wallets/historiacore/interface.rst:462
 msgid ""
 "This section displays information and statistics on the network to which "
 "you are connected."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:466
+#: ../../wallets/historiacore/interface.rst:466
 msgid "Block chain"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:466
+#: ../../wallets/historiacore/interface.rst:466
 msgid "This section shows the current status of the blockchain."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:472
+#: ../../wallets/historiacore/interface.rst:472
 msgid "Memory pool"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:469
+#: ../../wallets/historiacore/interface.rst:469
 msgid ""
 "This section shows the status of the memory pool, which contains "
 "transactions that could not yet be written to a block. This includes both"
@@ -806,85 +806,85 @@ msgid ""
 "not be entered in the last block because it was full."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:476
+#: ../../wallets/historiacore/interface.rst:476
 msgid "Open debug log file"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:475
+#: ../../wallets/historiacore/interface.rst:475
 msgid ""
 "This button opens debug.log from the application data directory. This "
-"file contains output from Dash Core which may help to diagnose errors."
+"file contains output from Historia Core which may help to diagnose errors."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:479
+#: ../../wallets/historiacore/interface.rst:479
 msgid "Console tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:481
+#: ../../wallets/historiacore/interface.rst:481
 msgid ""
-"The Console tab provides an interface with the Dash Core RPC (remote "
-"procedure call) console. This is equivalent to the ``dash-cli`` command "
-"on headless versions of Dash, such as ``dashd`` running on a masternode. "
+"The Console tab provides an interface with the Historia Core RPC (remote "
+"procedure call) console. This is equivalent to the ``historia-cli`` command "
+"on headless versions of Historia, such as ``historiad`` running on a masternode. "
 "Click the red ``–`` icon to clear the console, and see the detailed "
 "documentation on RPC commands to learn about the possible commands you "
 "can issue."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:491
-msgid "The Console tab of the Dash Core Tools dialog"
+#: ../../wallets/historiacore/interface.rst:491
+msgid "The Console tab of the Historia Core Tools dialog"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:494
+#: ../../wallets/historiacore/interface.rst:494
 msgid "Network Traffic tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:496
+#: ../../wallets/historiacore/interface.rst:496
 msgid ""
 "The Network Traffic tab shows a graph of traffic sent and received to "
 "peers on the network over time. You can adjust the time period using the "
 "slider or **Clear** the graph."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:503
-msgid "The Network Traffic tab of the Dash Core Tools dialog"
+#: ../../wallets/historiacore/interface.rst:503
+msgid "The Network Traffic tab of the Historia Core Tools dialog"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:506
+#: ../../wallets/historiacore/interface.rst:506
 msgid "Peers tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:508
+#: ../../wallets/historiacore/interface.rst:508
 msgid ""
-"The Peers tab shows a list of other full nodes connected to your Dash "
+"The Peers tab shows a list of other full nodes connected to your Historia "
 "Core client. The IP address, version and ping time are visible. Selecting"
 " a peer shows additional information on the data exchanged with that "
 "peer."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:516
-msgid "The Peers tab of the Dash Core Tools dialog"
+#: ../../wallets/historiacore/interface.rst:516
+msgid "The Peers tab of the Historia Core Tools dialog"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:519
+#: ../../wallets/historiacore/interface.rst:519
 msgid "Wallet Repair tab"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:521
+#: ../../wallets/historiacore/interface.rst:521
 msgid ""
 "The Wallet Repair tab offers a range of startup commands to restore a "
 "wallet to a functional state. Selecting any of these commands will "
-"restart Dash Core with the specified command-line option."
+"restart Historia Core with the specified command-line option."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:528
-msgid "The Wallet Repair tab of the Dash Core Tools dialog"
+#: ../../wallets/historiacore/interface.rst:528
+msgid "The Wallet Repair tab of the Historia Core Tools dialog"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:535
+#: ../../wallets/historiacore/interface.rst:535
 msgid "Salvage wallet"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:531
+#: ../../wallets/historiacore/interface.rst:531
 msgid ""
 "Salvage wallet assumes wallet.dat is corrupted and cannot be read. It "
 "makes a copy of wallet.dat to wallet.<date>.bak and scans it to attempt "
@@ -893,11 +893,11 @@ msgid ""
 "information on operations completed."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:542
+#: ../../wallets/historiacore/interface.rst:542
 msgid "Rescan blockchain files"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:538
+#: ../../wallets/historiacore/interface.rst:538
 msgid ""
 "Rescans the already downloaded blockchain for any transactions affecting "
 "accounts contained in the wallet. This may be necessary if you replace "
@@ -906,11 +906,11 @@ msgid ""
 " determine balances."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:551
+#: ../../wallets/historiacore/interface.rst:551
 msgid "Recover transactions"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:545
+#: ../../wallets/historiacore/interface.rst:545
 msgid ""
 "The recover transactions commands can be used to remove unconfirmed "
 "transactions from the memory pool. Your wallet will restart and rescan "
@@ -921,11 +921,11 @@ msgid ""
 "insufficient fees when blocks are full."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:557
+#: ../../wallets/historiacore/interface.rst:557
 msgid "Upgrade wallet format"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:554
+#: ../../wallets/historiacore/interface.rst:554
 msgid ""
 "This command is available for very old wallets where an upgrade to the "
 "wallet version is required in addition to an update to the wallet "
@@ -933,11 +933,11 @@ msgid ""
 "``getwalletinfo`` command in the console."
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:561
+#: ../../wallets/historiacore/interface.rst:561
 msgid "Rebuild index"
 msgstr ""
 
-#: ../../wallets/dashcore/interface.rst:560
+#: ../../wallets/historiacore/interface.rst:560
 msgid ""
 "Discards the current blockchain and chainstate indexes (the database of "
 "unspent transaction outputs) and rebuilds it from existing block files. "
@@ -945,19 +945,19 @@ msgid ""
 msgstr ""
 
 #~ msgid ""
-#~ "Your Dash Core wallet balance is "
+#~ "Your Historia Core wallet balance is "
 #~ "actually the sum total of all "
 #~ "addresses holding balance that are "
 #~ "associated with your wallet. When you"
-#~ " spend Dash, Dash Core will withdraw"
+#~ " spend Historia, Historia Core will withdraw"
 #~ " from as many inputs as necessary "
 #~ "to make up the desired amount of"
-#~ " Dash to be transferred. This "
+#~ " Historia to be transferred. This "
 #~ "behavior may be undesirable if you "
 #~ "want to keep a certain balance on"
 #~ " one address. The most common use "
 #~ "case is the requirement to maintain "
-#~ "1000 Dash on a single address as"
+#~ "1000 Historia on a single address as"
 #~ " collateral for a masternode."
 #~ msgstr ""
 
@@ -974,18 +974,18 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Enabling this option causes Dash Core"
+#~ "Enabling this option causes Historia Core"
 #~ " to display an additional Masternodes "
 #~ "tab to the right of the "
 #~ "Transactions tab. This option requires "
-#~ "you to restart the Dash Core app."
+#~ "you to restart the Historia Core app."
 #~ " The Masternodes tab can be used "
 #~ "to manage interactions (start, stop, "
 #~ "check status, etc.) with masternodes "
 #~ "controlled by this wallet. This tab "
 #~ "is an advanced feature not required "
 #~ "by users that do not operate a "
-#~ "masternode on the Dash network. See "
+#~ "masternode on the Historia network. See "
 #~ "here for a description of the "
 #~ "Masternodes tab."
 #~ msgstr ""
@@ -993,7 +993,7 @@ msgstr ""
 #~ msgid ""
 #~ "Enabling this option changes the "
 #~ "PrivateSend mixing interface on the "
-#~ "Overview tab of the Dash Core "
+#~ "Overview tab of the Historia Core "
 #~ "wallet to include more options, such "
 #~ "as Try Mix and percentage completion."
 #~ " See here for a full explanation "
@@ -1012,12 +1012,12 @@ msgstr ""
 
 #~ msgid ""
 #~ "When this option is enabled and "
-#~ "the Dash Core window is minimized, "
+#~ "the Historia Core window is minimized, "
 #~ "it will no longer appear in your"
 #~ " taskbar as a running task. Instead,"
-#~ " Dash Core will keep running in "
+#~ " Historia Core will keep running in "
 #~ "the background and can be re-"
-#~ "opened from the Dash icon in the"
+#~ "opened from the Historia icon in the"
 #~ " system tray (the area next to "
 #~ "your system clock). This option cannot"
 #~ " be selected at the same time "

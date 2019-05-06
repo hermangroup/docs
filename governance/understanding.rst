@@ -1,11 +1,11 @@
 .. meta::
-   :description: Discussion of theory and motivation behind the Dash governance system and treasury
-   :keywords: dash, dgbb, governance, funding, voting, blockchain, development, block reward, treasury, budget
+   :description: Discussion of theory and motivation behind the Historia governance system and treasury
+   :keywords: historia, dgbb, governance, funding, voting, blockchain, development, block reward, treasury, budget
 
 .. _understanding-governance:
 
 =============================
-Understanding Dash Governance
+Understanding Historia Governance
 =============================
 
 One of the greatest challenges of building a cryptocurrency platform is
@@ -31,13 +31,13 @@ or running prelaunch sales, which is not a great solution either because
 control of the funds is centralized and at that stage it is impossible
 to quantify the future needs of the project.
 
-Through the network of full nodes and the collateral requirement, Dash
+Through the network of full nodes and the collateral requirement, Historia
 already has a decentralized network of masternode operators that are
 heavily invested in the future of the currency, and that as a group can
 act as stewards of the core protocol development and promotion. We
 propose a decentralized management system based on the masternode voting
 mechanism. Masternode operators are not the only ones interested in the
-success of Dash, but they are the most stable ones because, unlike
+success of Historia, but they are the most stable ones because, unlike
 miners, they can’t reuse their asset for any other purpose or coin.
 
 In the budget system, a portion of the block reward is held in escrow by
@@ -65,7 +65,7 @@ maintenance as people come and go, making the network capable of
 sustaining itself on its own without depending on specific actors.
 
 Note that if you do not operate a masternode, you may still be able to
-vote on DashBoost proposals. See https://www.dashboost.org for more
+vote on HistoriaBoost proposals. See https://www.historiaboost.org for more
 information.
 
 Budgets and masternode voting
@@ -75,7 +75,7 @@ The system works as a decentralized voting mechanism set up in the rules
 governing the blockchain, where budgets for specific projects are
 proposed, then the masternodes as a whole vote on them. Each project, if
 it passes, is added to the total budget and paid directly from the
-blockchain to the person doing the work. This allows Dash to hire core
+blockchain to the person doing the work. This allows Historia to hire core
 developers and pay them directly after approval of the work in a
 decentralized fashion.
 
@@ -104,7 +104,7 @@ hiring of marketing and PR firms and integrations with third party
 exchanges and payment platforms. The market recognizes the value of the
 stability of the network as a whole, and that the possibility of
 reliable and sufficient funding results in faster and more coherent
-implementation of the Dash roadmap and core Dash services.
+implementation of the Historia roadmap and core Historia services.
 
 Reward schedule
 ===============
@@ -160,11 +160,11 @@ Contractors and proposals
 Contractors of the blockchain can be developers, outreach professionals,
 team leaders, attorneys or even people appointed to do specific tasks.
 Proposals generally begin life as simple `pre-proposal forum posts
-<https://www.dash.org/forum/topic/pre-budget-proposal-discussions.93/>`_
-on the Dash Forum, where feedback and suggestions are solicited from the
+<https://historia.network/forum/topic/pre-budget-proposal-discussions.93/>`_
+on the Historia Forum, where feedback and suggestions are solicited from the
 general community. Once the proposal owner decides they have a
 reasonable chance of passing their proposal, it is created as a
-governance object on the blockchain. A fee of 5 DASH is associated with
+governance object on the blockchain. A fee of 5 HISTORIA is associated with
 this action to prevent spam and ensure only serious proposals make it to
 this stage. Several tools exist to allow masternode operators to
 comfortably review and vote on proposals. The net total of yes votes must
@@ -172,7 +172,7 @@ exceed 10% of the total masternode count at the time votes are tallied
 in order to pass. If there are more passing proposals than the available
 block reward can provide for, the proposals with the most yes votes will
 pass first, creating a cut-off point for less popular proposals. The
-same process is then repeated every month, and the total amount of Dash
+same process is then repeated every month, and the total amount of Historia
 available for proposals decreases by approximately 7.14% per year,
 together with the overall block reward.
 
@@ -189,26 +189,26 @@ available budget funds:
 Proposal websites
 =================
 
-The community has gathered around `DashCentral
-<https://www.dashcentral.org>`__ as a website to facilitate discussion
-and voting on proposals formally entered on the Dash blockchain. Other
-websites, such as `Dash Ninja <https://www.dashninja.pl>`__ and `Dash
-Nexus <https://dashnexus.org>`__ are available to monitor progress over
-time and gather more detailed statistics. `Dash Masternode Tool
-<https://github.com/Bertrand256/dash-masternode-tool/releases>`__ also
+The community has gathered around `HistoriaCentral
+<https://www.historiacentral.org>`__ as a website to facilitate discussion
+and voting on proposals formally entered on the Historia blockchain. Other
+websites, such as `Historia Ninja <https://www.historianinja.pl>`__ and `Historia
+Nexus <https://historianexus.org>`__ are available to monitor progress over
+time and gather more detailed statistics. `Historia Masternode Tool
+<https://github.com/Bertrand256/historia-masternode-tool/releases>`__ also
 allows for voting without the need to share masternode private keys with
 a third party service.
 
-.. figure:: img/governance-dashcentral.png
+.. figure:: img/governance-historiacentral.png
    :width: 400px
 
-   A typical view of proposal discussion and voting on Dash Central
+   A typical view of proposal discussion and voting on Historia Central
 
 Each proposal includes a description of the proposal goals, details of
 what work will be done and a breakdown of the requested budget. Many
 proposals also link to their own website or the pre-proposal discussion,
 or include a video to validate the identity and sincerity of the
-proposal owner. Discussion on Dash Central occurs below this
+proposal owner. Discussion on Historia Central occurs below this
 information, and masternode owners have the option to verify their
 ownership of a masternode and ability to cast a vote by signing a
 message from the masternode collateral address. Masternodes can vote at
@@ -218,13 +218,13 @@ superblock. After voting stops, the blockchain executes a decentralized
 tally and validates all votes. Once consensus is reached, the results
 are broadcast and the budget is allocated soon after in a superblock.
 
-.. figure:: img/governance-dashcentral-vote.png
+.. figure:: img/governance-historiacentral-vote.png
    :width: 400px
 
-   Proposal details and voting buttons on Dash Central
+   Proposal details and voting buttons on Historia Central
 
 Once passed, proposals are able to report back to the network on the
-`Dash Forum <https://www.dash.org/forum/topic/approved-proposals-
+`Historia Forum <https://historia.network/forum/topic/approved-proposals-
 updates-news.140>`__ or via published public channels and social media.
 Since it is possible to create proposals that pay out over several
 months, it is also possible to revoke funding from a project by changing
@@ -236,33 +236,33 @@ between the network and those working for the network in supporting
 roles.
 
 Voting on proposals is updated in real time via P2P messages and stored
-by Dash in cache files, so current winning proposals and the total
+by Historia in cache files, so current winning proposals and the total
 allocation of the available budget are always open and visible to
-everyone. `Dash Nexus <https://dashnexus.org>`__ is a popular site used
+everyone. `Historia Nexus <https://historianexus.org>`__ is a popular site used
 for to view progress on proposal voting.
 
-.. figure:: img/governance-dashnexus.png
+.. figure:: img/governance-historianexus.png
    :width: 400px
 
-   Monitoring budget allocation on Dash Nexus
+   Monitoring budget allocation on Historia Nexus
 
-Finally, `Dash Watch <http://dashwatch.org>`__ (which was itself funded
+Finally, `Historia Watch <http://historiawatch.org>`__ (which was itself funded
 through a budget proposal) exists to monitor the ability of blockchain
 contractors to deliver on their promises with respect to delivery dates
 and the total amounts of budget allocated over multiple voting periods.
 A team of dedicated staff routinely interact with proposal owners to
 track progress of the various projects and provide reports to voting
 masternodes in a single location. While providing data on the
-performance of your proposal to Dash Watch is optional, many masternode
+performance of your proposal to Historia Watch is optional, many masternode
 owners take advantage of the data they make available to make their
-voting decisions. The Dash Watch team may be contacted at
-team@dashwatch.org email address or through their `website
-<http://dashwatch.org>`__.
+voting decisions. The Historia Watch team may be contacted at
+team@historiawatch.org email address or through their `website
+<http://historiawatch.org>`__.
 
-.. figure:: img/governance-dashwatch.png
+.. figure:: img/governance-historiawatch.png
    :width: 400px
 
-   Proposal monitoring on Dash Watch
+   Proposal monitoring on Historia Watch
 
 Budget allocation
 =================
@@ -314,16 +314,16 @@ As the number of blockchain contractors increases, a point is reached
 where masternode operators cannot be realistically expected to evaluate
 the volume of proposals. At this point funding organizations can be
 created to act as contractors for the distribution of funds to many
-smaller decentralized projects, according to current needs. Dash Core
+smaller decentralized projects, according to current needs. Historia Core
 Group, Inc. is one example of such an organization.
 
 The existence of the decentralized budget system puts the power of
-determining where Dash goes in the future in the hands of the masternode
+determining where Historia goes in the future in the hands of the masternode
 network itself. All core development and several peripheral developers
 are already funded from the budget, and other projects not even
 conceivable at this time will likely arise in the future. This decouples
 the survival and value of the blockchain from the current userbase and
-developers, making Dash the first blockchain designed to outlive its
+developers, making Historia the first blockchain designed to outlive its
 original users, a self sustainable decentralized cryptocurrency network
 that can still operate cohesively and bring added value services to end
 users in a consistent way.

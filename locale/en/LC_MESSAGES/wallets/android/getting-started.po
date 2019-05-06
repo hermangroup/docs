@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-25 10:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../wallets/android/getting-started.rst:1
-msgid "Getting started with sending and receiving Dash on your Android device"
+msgid "Getting started with sending and receiving Historia on your Android device"
 msgstr ""
 
 #: ../../wallets/android/getting-started.rst:1
-msgid "dash, mobile, wallet, android, send, receive, addresses, getting started"
+msgid "historia, mobile, wallet, android, send, receive, addresses, getting started"
 msgstr ""
 
 #: ../../wallets/android/getting-started.rst:8
@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../wallets/android/getting-started.rst:13
 msgid ""
-"When you first start your Dash Wallet, it will automatically generate a "
+"When you first start your Historia Wallet, it will automatically generate a "
 "new wallet for you. It will then ask you to enter a PIN to protect "
 "spending from the wallet. The first thing you should do after setting a "
 "PIN is back up the wallet by tapping the menu button in the top left "
@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 
 #: ../../wallets/android/getting-started.rst:34
-msgid "*Viewing the recovery phrase for a new wallet in Dash Wallet for Android*"
+msgid "*Viewing the recovery phrase for a new wallet in Historia Wallet for Android*"
 msgstr ""
 
 #: ../../wallets/android/getting-started.rst:39
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../wallets/android/getting-started.rst:41
 msgid ""
-"If you already have an existing Dash Wallet for Android, you can restore "
+"If you already have an existing Historia Wallet for Android, you can restore "
 "it at this point by tapping the menu button in the top left corner and "
 "selecting **Safety** > **Restore from recovery phrase**. Carefully enter "
 "your recovery phrase and tap **Restore**. Your wallet may restart, and it"
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../wallets/android/getting-started.rst:56
 msgid ""
-"*Restoring an existing wallet from recovery phrase in Dash Wallet for "
+"*Restoring an existing wallet from recovery phrase in Historia Wallet for "
 "Android*"
 msgstr ""
 
@@ -78,21 +78,21 @@ msgstr ""
 #: ../../wallets/android/getting-started.rst:63
 msgid ""
 "Tap the **Request coins** button at the bottom left of the screen to "
-"receive Dash. The wallet will generate and display a QR code for the "
-"other device to scan, and you can optionally enter the dash or dollar "
+"receive Historia. The wallet will generate and display a QR code for the "
+"other device to scan, and you can optionally enter the historia or dollar "
 "value of the transaction to save the payer time. You can tap the menu "
 "button in the top right corner and select **Copy address** to copy and "
 "paste it in another app to send it to a person paying you remotely. You "
 "will receive a notification when the transfer occurs, and you can view "
 "the confirmation status on the main screen and the balance in the top "
-"right corner. Dash Wallet for Android considers a transaction spendable "
+"right corner. Historia Wallet for Android considers a transaction spendable "
 "after 1 block confirmations has taken place (approx. 2.5 minutes), or 6 "
 "block confirmations if you want to generate InstantSend transactions."
 msgstr ""
 
 #: ../../wallets/android/getting-started.rst:84
 msgid ""
-"*Receiving Dash and viewing your transactions and balance in Dash Wallet "
+"*Receiving Historia and viewing your transactions and balance in Historia Wallet "
 "for Android*"
 msgstr ""
 
@@ -103,8 +103,8 @@ msgstr ""
 #: ../../wallets/android/getting-started.rst:91
 msgid ""
 "Tap the **Send coins** button at the bottom right of the screen to send "
-"Dash. You will be prompted to type, paste or scan (by tapping the round "
-"QR button) a Dash address, the amount to pay and whether to use "
+"Historia. You will be prompted to type, paste or scan (by tapping the round "
+"QR button) a Historia address, the amount to pay and whether to use "
 "InstantSend. Note that this information may already be included if you "
 "are scanning a QR code. The automatically determined network fee is "
 "displayed. Tap **Send** to complete the transaction."
@@ -112,7 +112,7 @@ msgstr ""
 
 #: ../../wallets/android/getting-started.rst:107
 msgid ""
-"*Sending Dash and viewing your transactions and balance in Dash Wallet "
+"*Sending Historia and viewing your transactions and balance in Historia Wallet "
 "for Android*"
 msgstr ""
 
@@ -123,23 +123,23 @@ msgstr ""
 #: ../../wallets/android/getting-started.rst:114
 msgid ""
 "Since version 6.1.0, it has been possible to link your Android wallet "
-"with Uphold to purchase Dash using any funding methods available to you "
+"with Uphold to purchase Historia using any funding methods available to you "
 "in Uphold. To get started, tap the menu button, select **Uphold account**"
 " and then **Link Uphold account**. Enter your username and password and "
 "complete two-factor authentication (if enabled for your account). Your "
-"Uphold balance will appear. Tap **Buy Dash** to add funds and convert "
-"them to Dash using Uphold. Tap **Transfer from Uphold** enter the amount,"
+"Uphold balance will appear. Tap **Buy Historia** to add funds and convert "
+"them to Historia using Uphold. Tap **Transfer from Uphold** enter the amount,"
 " tap **Transfer** and confirm the transaction details to move funds from "
-"Uphold into your Dash wallet. For more information on using Uphold, see "
+"Uphold into your Historia wallet. For more information on using Uphold, see "
 "the `Uphold documentation <https://support.uphold.com>`_."
 msgstr ""
 
 #: ../../wallets/android/getting-started.rst:135
-msgid "*Logging in to Uphold and purchasing Dash*"
+msgid "*Logging in to Uphold and purchasing Historia*"
 msgstr ""
 
 #: ../../wallets/android/getting-started.rst:146
-msgid "*Transferring Dash from Uphold to your Dash Android wallet*"
+msgid "*Transferring Historia from Uphold to your Historia Android wallet*"
 msgstr ""
 
 #~ msgid "Getting Started"
@@ -151,19 +151,19 @@ msgstr ""
 #~ msgid "Restoring from Backup"
 #~ msgstr ""
 
-#~ msgid "Receiving Dash"
+#~ msgid "Receiving Historia"
 #~ msgstr ""
 
-#~ msgid "Sending Dash"
+#~ msgid "Sending Historia"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "Tap the **Request coins** button at "
 #~ "the bottom left of the screen to"
-#~ " receive Dash. The wallet will "
+#~ " receive Historia. The wallet will "
 #~ "generate and display a QR code for"
 #~ " the other device to scan, and "
-#~ "you can optionally enter the dash "
+#~ "you can optionally enter the historia "
 #~ "or dollar value of the transaction "
 #~ "to save the payer time. You can"
 #~ " tap the menu button in the top"
@@ -175,14 +175,14 @@ msgstr ""
 #~ "transfer occurs, and you can view "
 #~ "the confirmation status on the main "
 #~ "screen and the balance in the top"
-#~ " right corner. Dash Wallet for "
+#~ " right corner. Historia Wallet for "
 #~ "Android considers a transaction spendable "
 #~ "after 6 block confirmations have taken"
 #~ " place (approx. 15 minutes)."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "When you first start your Dash "
+#~ "When you first start your Historia "
 #~ "Wallet, it will automatically generate a"
 #~ " new wallet for you. The first "
 #~ "thing you should do is back up "

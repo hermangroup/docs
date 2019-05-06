@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-03 08:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,12 +19,12 @@ msgstr ""
 
 #: ../../wallets/ios/advanced-functions.rst:1
 msgid ""
-"URL scheme, master public key and requesting payment in Dash on your iOS "
+"URL scheme, master public key and requesting payment in Historia on your iOS "
 "device"
 msgstr ""
 
 #: ../../wallets/ios/advanced-functions.rst:1
-msgid "dash, mobile, wallet, ios, send, receive, payment, url, public key"
+msgid "historia, mobile, wallet, ios, send, receive, payment, url, public key"
 msgstr ""
 
 #: ../../wallets/ios/advanced-functions.rst:9
@@ -38,8 +38,8 @@ msgstr ""
 #: ../../wallets/ios/advanced-functions.rst:14
 msgid ""
 "iOS allows apps to communicate with one another through URL schemes. The "
-"Dash Wallet for iOS implements the dashwallet:// scheme, allowing you to "
-"call the wallet to complete a transaction denominated in Dash. This page "
+"Historia Wallet for iOS implements the historiawallet:// scheme, allowing you to "
+"call the wallet to complete a transaction denominated in Historia. This page "
 "documents the methods available using the URL scheme."
 msgstr ""
 
@@ -113,7 +113,7 @@ msgid "Get address for payment"
 msgstr ""
 
 #: ../../wallets/ios/advanced-functions.rst:68
-msgid "``dashwallet://request=address&sender=<sender>``"
+msgid "``historiawallet://request=address&sender=<sender>``"
 msgstr ""
 
 #~ msgid "Advanced Functions"

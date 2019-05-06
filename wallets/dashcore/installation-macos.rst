@@ -1,22 +1,22 @@
 .. meta::
-   :description: How to download, install and encrypt the Dash Core wallet in macOS
-   :keywords: dash, core, wallet, macos, installation
+   :description: How to download, install and encrypt the Historia Core wallet in macOS
+   :keywords: historia, core, wallet, macos, installation
 
-.. _dashcore-installation-macos:
+.. _historiacore-installation-macos:
 
 macOS Installation Guide
 ========================
 
-This guide describes how to download, install and encrypt the Dash Core
+This guide describes how to download, install and encrypt the Historia Core
 wallet for macOS. The guide is written for macOS Sierra, but the steps
 should be similar for other versions.
 
-Downloading the Dash Core wallet
+Downloading the Historia Core wallet
 --------------------------------
 
-Visit https://www.dash.org/get-dash to download the latest Dash
+Visit https://historia.network/get-historia to download the latest Historia
 Core wallet. In most cases, the website will properly detect which
-version you need. Click the blue **Dash Core** button to download
+version you need. Click the blue **Historia Core** button to download
 the installer directly.
 
 .. figure:: img/macos/112414571.png
@@ -25,7 +25,7 @@ the installer directly.
    The website properly detects the wallet appropriate for your system
 
 If detection does not work, you will need to manually choose your
-operating system. Go to https://www.dash.org/wallets and select the 
+operating system. Go to https://historia.network/wallets and select the 
 **OSX** tab, then click **Download DMG**.
 
 .. figure:: img/macos/112414634.png
@@ -35,28 +35,28 @@ operating system. Go to https://www.dash.org/wallets and select the
 
 Save the file you downloaded to your Downloads folder.
 
-Verifying Dash Core
+Verifying Historia Core
 -------------------
 
 This step is optional, but recommended to verify the integrity of the
 file you downloaded. This is done by checking its SHA256 hash against
-the hash published by the Dash Core development team. To view the
+the hash published by the Historia Core development team. To view the
 published hash, click the **Hash file** button on the wallet download
 page.
 
 .. figure:: img/macos/112414700.png
    :width: 451px
 
-   Downloading the Dash Core hash file
+   Downloading the Historia Core hash file
 
-Once both the Dash Core file and the hash file have downloaded,
+Once both the Historia Core file and the hash file have downloaded,
 double-click the hash file or view it in your browser and find the hash
-value for the Dash Core file you downloaded.
+value for the Historia Core file you downloaded.
 
 .. figure:: img/macos/112414726.png
    :height: 250px
 
-   Viewing the Dash Core hash file
+   Viewing the Historia Core hash file
 
 This hash value should correspond with the hash value of the file you
 have downloaded to ensure it is authentic and was not corrupted during
@@ -64,17 +64,17 @@ transit. To do this, open **Terminal**, browse to the location where you
 saved the file, and run the following command, replacing the version
 with the specific version of the file you downloaded::
 
-   shasum -a 256 dashcore-version-osx.dmg
+   shasum -a 256 historiacore-version-osx.dmg
 
 .. figure:: img/macos/112414768.png
    :width: 451px
 
    Generating an SHA256 hash for the downloaded file
 
-If the hashes match, then you have an authentic copy of Dash Core for
+If the hashes match, then you have an authentic copy of Historia Core for
 macOS.
 
-Installing Dash Core
+Installing Historia Core
 --------------------
 
 Open Finder and browse to your Downloads folder. Then double-click on
@@ -84,22 +84,22 @@ the contents of the file.
 .. figure:: img/macos/112414813.png
    :height: 250px
 
-   Opening the Dash Core .dmg file
+   Opening the Historia Core .dmg file
 
-Drag the Dash Core application file into your Applications folder to
-install Dash Core.
+Drag the Historia Core application file into your Applications folder to
+install Historia Core.
 
 .. figure:: img/macos/112414846.png
    :height: 250px
 
-   Installing Dash Core
+   Installing Historia Core
 
-Running Dash Core for the first time
+Running Historia Core for the first time
 ------------------------------------
 
-To run Dash Core for the first time, either open Launchpad or browse to
-your **Applications** folder in Finder. Double-click **Dash Core** or
-**Dash-Qt** to start the application. You may see a warning about
+To run Historia Core for the first time, either open Launchpad or browse to
+your **Applications** folder in Finder. Double-click **Historia Core** or
+**Historia-Qt** to start the application. You may see a warning about
 opening an app from an unidentified developer. To resolve this problem,
 simply Control-click the app icon and choose **Open** from the shortcut
 menu, then click **Open** again in the dialog box. The app is saved as
@@ -112,7 +112,7 @@ future by double-clicking it just as you can any registered app.
 .. figure:: img/macos/112414905.png
    :width: 280px
 
-   Unblocking macOS from running Dash Core
+   Unblocking macOS from running Historia Core
 
 The first time the program is launched, you will be offered a choice of
 where you want to store your blockchain and wallet data. Choose a
@@ -122,21 +122,21 @@ size. It is recommended to use the default data folder if possible.
 .. figure:: img/macos/112415002.png
    :height: 250px
 
-   Choosing the Dash Core data folder
+   Choosing the Historia Core data folder
 
-Dash Core will then start up. This will take a little longer than usual
-the first time you run it, since Dash Core needs to generate
+Historia Core will then start up. This will take a little longer than usual
+the first time you run it, since Historia Core needs to generate
 cryptographic data to secure your wallet.
 
 .. figure:: img/macos/112415017.png
    :height: 250px
 
-   Starting Dash Core
+   Starting Historia Core
 
-Synchronizing Dash Core to the Dash network
+Synchronizing Historia Core to the Historia network
 -------------------------------------------
 
-Once Dash Core is successfully installed and started, you will see the
+Once Historia Core is successfully installed and started, you will see the
 wallet overview screen. You will notice that the wallet is “out of
 sync”, and the status bar at the bottom of the window will show the
 synchronization progress.
@@ -144,9 +144,9 @@ synchronization progress.
 .. figure:: img/macos/112415040.png
    :width: 359px
 
-   Dash Core begins synchronizing with the Dash network
+   Historia Core begins synchronizing with the Historia network
 
-During this process, Dash Core will download a full copy of the Dash
+During this process, Historia Core will download a full copy of the Historia
 blockchain from other nodes to your device. Depending on your internet
 connection, this may take a long time. If you see the message “No block
 source available”, check your internet connection. When synchronization
@@ -155,14 +155,14 @@ is complete, you will see a small blue tick in the lower right corner.
 .. figure:: img/macos/112596642.png
    :width: 359px
 
-   Dash Core synchronization is complete
+   Historia Core synchronization is complete
 
 You can now begin to use your wallet to send and receive funds.
 
-Encrypting your Dash wallet
+Encrypting your Historia wallet
 ---------------------------
 
-After your wallet has synchronized with the Dash network, it is strongly
+After your wallet has synchronized with the Historia network, it is strongly
 advised to encrypt the wallet with a password or passphrase to prevent
 unauthorized access. You should use a strong, new password that you have
 never used somewhere else. Take note of your password and store it
@@ -174,7 +174,7 @@ To encrypt your wallet, click **Settings** > **Encrypt Wallet**.
 .. figure:: img/macos/112596735.png
    :width: 359px
 
-   Encrypting the Dash wallet with a password
+   Encrypting the Historia wallet with a password
 
 You will be asked to enter and verify a password.
 
@@ -190,12 +190,12 @@ You will be asked to enter and verify a password.
 
 When the encryption process is complete, you will see a warning that
 past backups of your wallet will no longer be usable, and be asked to
-shut down Dash Core. When you restart Dash Core, you will see a small
+shut down Historia Core. When you restart Historia Core, you will see a small
 blue lock in the lower right corner.
 
 .. figure:: img/macos/112596927.png
    :width: 359px
 
-   Fully encrypted and synchronized Dash Core wallet
+   Fully encrypted and synchronized Historia Core wallet
 
 You can now begin to use your wallet to safely send and receive funds.

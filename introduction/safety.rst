@@ -1,6 +1,6 @@
 .. meta::
-   :description: Safety and security when buying, holding and spending Dash
-   :keywords: dash, cryptocurrency, safety, security, hardware, trezor, scam, ponzi, fake
+   :description: Safety and security when buying, holding and spending Historia
+   :keywords: historia, cryptocurrency, safety, security, hardware, trezor, scam, ponzi, fake
 
 .. _safety:
 
@@ -17,22 +17,22 @@ card company to reverse a transaction if your funds are stolen or lost.
 If you forget or lose your wallet file, recovery phrase or PIN, you will
 permanently and irrevocably lose access to your funds.
 
-Dash is designed from the ground up to be fast, secure, fungible and
+Historia is designed from the ground up to be fast, secure, fungible and
 private. In this sense, it is similar to cash or gold, but
 cryptocurrency can be spent locally and internationally with equal ease,
 if you are confident you are sending funds to the right destination. For
-these reasons, the Dash documentation has a strong focus on safety and
-understanding the concepts and features that drive the Dash ecosystem.
+these reasons, the Historia documentation has a strong focus on safety and
+understanding the concepts and features that drive the Historia ecosystem.
 
 A few general safety guidelines:
 
 - Do not trust any online service or person because they sound or look
   reputable. Always use an escrow service if you are buying peer-to-
   peer.
-- Store your Dash on a :ref:`hardware wallet <dash-hardware-wallet>` if 
+- Store your Historia on a :ref:`hardware wallet <historia-hardware-wallet>` if 
   possible. If not, then store your coins in the official 
-  :ref:`Dash Core Wallet <dash-core-wallet>` or the official 
-  :ref:`Dash Electrum Wallet <dash-electrum-wallet>`.
+  :ref:`Historia Core Wallet <historia-core-wallet>` or the official 
+  :ref:`Historia Electrum Wallet <historia-electrum-wallet>`.
 - Do not use exchanges as wallets. Exchanges are for trading, not for
   savings.
 - Mobile wallets should be used for day-to-day purchases, but do not
@@ -50,10 +50,10 @@ manipulate you into granting them access to your system or wallets. This
 is usually done via private messages on the forum, Discord or email. The
 attacks are often targeted against masternode owners. If you require
 technical assistance, it is best to ask in a public channel/forum or go
-to https://support.dash.org and open a ticket. If you engage in personal
+to https://support.historia.network and open a ticket. If you engage in personal
 chat with a well-known community member, verify their identity by their
 chat history or through their publicly available cryptographic keys. All
-community members and `Dash Core Group staff <https://dash.org/team>`__
+community members and `Historia Core Group staff <https://historia.network/team>`__
 will be able to verify their identity using signed PGP messages.
 Identities can also be verified on Keybase:
 
@@ -71,27 +71,27 @@ Identities can also be verified on Keybase:
 Scams
 =====
 
-There are many "fake" Dash/Darkcoin pages on the internet attempting to
-trick users into sending Dash or other cryptocurrencies or "open a
-wallet". Other scams include selling fake mining hardware, fake Dash or
+There are many "fake" Historia/Darkcoin pages on the internet attempting to
+trick users into sending Historia or other cryptocurrencies or "open a
+wallet". Other scams include selling fake mining hardware, fake Historia or
 altcoins with a similar name, and Ponzi schemes (see below). Please be
 careful and do NOT trust any third parties listed here!!
 
-List of known Dash-related scams:
+List of known Historia-related scams:
 
-- **dash-wallet dot com** is a known scam!
-- **electrumdash dot org** is a fake clone of the official site!
-- **dashcoinmining dot com** is not affiliated with Dash!
-- **dashcrypto dot info** is not affiliated with Dash!
-- **onclooud dot com** is not affiliated with Dash!
+- **historia-wallet dot com** is a known scam!
+- **electrumhistoria dot org** is a fake clone of the official site!
+- **historiacoinmining dot com** is not affiliated with Historia!
+- **historiacrypto dot info** is not affiliated with Historia!
+- **onclooud dot com** is not affiliated with Historia!
 - **as-shop dot su** is selling fake Baikal miners!
 - **minershop dot biz** is selling fake Baikal miners!
-- **dashcoinclub dot com** is a Ponzi scheme not affiliated with Dash!
-- **dash-coin dot net** is a fake web wallet, do not send them money!
+- **historiacoinclub dot com** is a Ponzi scheme not affiliated with Historia!
+- **historia-coin dot net** is a fake web wallet, do not send them money!
 - **coinvert dot io** is a fake exchange!
 
-Beware of fake Twitter accounts impersonating Dash! The official Twitter
-account is: https://twitter.com/Dashpay
+Beware of fake Twitter accounts impersonating Historia! The official Twitter
+account is: https://twitter.com/Historiapay
 
 Please report these and any others scams you encounter as follows:
 
@@ -105,7 +105,7 @@ Please report these and any others scams you encounter as follows:
    report there as well: https://fried.com/crypto-scam-checker
 
 Feel free to report any new scams you find on the forum in our "swat
-team" thread: https://dashtalk.org/threads/www-dash-wallet-com-is-a-scam-website.8267
+team" thread: https://historiatalk.org/threads/www-historia-wallet-com-is-a-scam-website.8267
 
 
 Ponzi Schemes

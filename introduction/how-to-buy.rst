@@ -1,6 +1,6 @@
 .. meta::
-   :description: Dash can be purchased on cryptocurrency exchanges, over the counter and from ATMs
-   :keywords: dash, cryptocurrency, purchase, buy, exchange, atm, shapeshift, over the counter
+   :description: Historia can be purchased on cryptocurrency exchanges, over the counter and from ATMs
+   :keywords: historia, cryptocurrency, purchase, buy, exchange, atm, shapeshift, over the counter
 
 .. _how-to-buy:
 
@@ -8,7 +8,7 @@
 How To Buy
 ==========
 
-Dash can be purchased and sold in several ways, each with different
+Historia can be purchased and sold in several ways, each with different
 advantages and disadvantages. The following options are available:
 
 - :ref:`Exchanges <exchanges>` are one of the most popular ways to trade
@@ -34,7 +34,7 @@ advantages and disadvantages. The following options are available:
   purchase.
 
 - :ref:`Over the counter <over-the-counter>` exchanges have recently 
-  appeared to facilitate sale of Dash directly from a company to the 
+  appeared to facilitate sale of Historia directly from a company to the 
   individual at a specified price, or peer-to-peer between individuals 
   at a negotiated price. Volume may be limited compared to exchanges, 
   but these services are usually much easier to use. More advanced 
@@ -47,7 +47,7 @@ advantages and disadvantages. The following options are available:
   business and earn a percentage of sales.
 
 DISCLAIMER: This list is provided for informational purposes only.
-Services listed here have not been evaluated or endorsed by Dash Core
+Services listed here have not been evaluated or endorsed by Historia Core
 and no guarantees are made as to the accuracy of this information.
 Please exercise discretion when using third-party services.
 
@@ -61,12 +61,12 @@ Cryptocurrency exchanges exist to convert national currency, also known
 as fiat money, into cryptocurrency. Many exchanges do not accept fiat
 money, and exchange between various cryptocurrencies only. Trades are
 handled on markets, and trades are created between pairs of currencies,
-identified by their ticker codes. Dash is widely accepted on exchanges
+identified by their ticker codes. Historia is widely accepted on exchanges
 and many pairs exist against both fiat money and cryptocurrency. This
-means it is possible to exchange EUR for DASH, or DASH for BTC, for
+means it is possible to exchange EUR for HISTORIA, or HISTORIA for BTC, for
 example. The volume traded on an exchange provides a good indication of
 how quickly a buy or sell order you place will be filled. This section
-introduces some of the most popular exchanges for trading Dash.
+introduces some of the most popular exchanges for trading Historia.
 
 
 Marketplace comparison websites
@@ -76,12 +76,12 @@ Cryptoradar
   .. image:: exchanges/cryptoradar.png
      :width: 200px
      :align: right
-     :target: https://cryptoradar.co/buy-dash
+     :target: https://cryptoradar.co/buy-historia
 
-  https://cryptoradar.co/buy-dash
+  https://cryptoradar.co/buy-historia
 
   Cryptoradar is a real-time cryptocurrency marketplace price comparison
-  and review platform. The website compares dozens of Dash markets based
+  and review platform. The website compares dozens of Historia markets based
   on prices, fees, payment methods, reviews and more.
 
 CoinMarketCap
@@ -90,7 +90,7 @@ CoinMarketCap
      :align: right
      :target: https://coinmarketcap.com
 
-  https://coinmarketcap.com/currencies/dash/#markets
+  https://coinmarketcap.com/currencies/historia/#markets
 
   CoinMarketCap lists all cryptocurrencies by their market capitalization.
   Clicking one of these currencies allows you to view price charts, and
@@ -98,25 +98,25 @@ CoinMarketCap
   trading pairs they offer.
 
 
-Dash.org markets
+Historia.org markets
 ----------------
 
-  .. image:: exchanges/dash.png
+  .. image:: exchanges/historia.png
      :width: 200px
      :align: right
-     :target: https://www.dash.org/exchanges
+     :target: https://historia.network/exchanges
 
-https://www.dash.org/exchanges
+https://historia.network/exchanges
 
-The official Dash website also provides a list of major exchanges
-offering Dash.
+The official Historia website also provides a list of major exchanges
+offering Historia.
 
 
 List of exchanges
 -----------------
 
-Please see `here <https://coincodex.com/article/3063/how-to-buy-dash-dash-on-kraken/>`__
-for a detailed guide on how to buy Dash on an exchange. The exchanges 
+Please see `here <https://coincodex.com/article/3063/how-to-buy-historia-historia-on-kraken/>`__
+for a detailed guide on how to buy Historia on an exchange. The exchanges 
 listed here are for informational purposes only and do not indicate 
 endorsement or affiliation with any particular platform.
 
@@ -128,9 +128,9 @@ Poloniex
 
   https://poloniex.com
 
-  Poloniex is a US-based pure-crypto exchange offering high volume DASH
+  Poloniex is a US-based pure-crypto exchange offering high volume HISTORIA
   pairs for BTC, XMR and USDT. Leveraged margin trading and lending is
-  also available for DASH.
+  also available for HISTORIA.
 
 Bittrex
   .. image:: exchanges/bittrex.png
@@ -142,7 +142,7 @@ Bittrex
 
   Bittrex is a US exchange working with cryptocurrencies only, although
   USD wire transfers have been intermittently supported in the past.
-  DASH trading pairs are available for BTC, ETH and USDT.
+  HISTORIA trading pairs are available for BTC, ETH and USDT.
 
 Bitfinex
   .. image:: exchanges/bitfinex.png
@@ -153,7 +153,7 @@ Bitfinex
   https://www.bitfinex.com
 
   Bitfinex is a cryptocurrency exchange based in Hong Kong offering high
-  volume BTC and USD trading pairs for DASH, as well as leveraged
+  volume BTC and USD trading pairs for HISTORIA, as well as leveraged
   trading.
 
 Kraken
@@ -165,7 +165,7 @@ Kraken
   https://www.kraken.com
 
   Kraken is a high-volume US-based exchange offering fiat currency
-  deposits in EUR, USD, JPY and GBP. DASH can be traded against EUR, USD
+  deposits in EUR, USD, JPY and GBP. HISTORIA can be traded against EUR, USD
   and BTC.
 
 Binance
@@ -177,7 +177,7 @@ Binance
   https://www.binance.com
 
   Binance is a pure-crypto with a focus on ICOs and the Chinese market.
-  DASH is available for funding and can be traded against BTC.
+  HISTORIA is available for funding and can be traded against BTC.
 
 HitBTC
   .. image:: exchanges/hitbtc.png
@@ -188,7 +188,7 @@ HitBTC
   https://hitbtc.com
 
   HitBTC offers facilities to major investors to credit USD, EUR and
-  GBP, as well as BTC, ETH and USDT trading pairs against DASH for
+  GBP, as well as BTC, ETH and USDT trading pairs against HISTORIA for
   normal users.
 
 Bithumb
@@ -201,7 +201,7 @@ Bithumb
 
   Bithumb is the largest cryptocurrency exchange in South Korea. It
   accepts fiat deposits in South Korean Won only, and offers high
-  volumes of DASH trading.
+  volumes of HISTORIA trading.
 
 Huobi
   .. image:: exchanges/huobi.png
@@ -211,7 +211,7 @@ Huobi
 
   https://www.huobi.pro
 
-  Huobi is a major Chinese exchange offering high volume DASH trading
+  Huobi is a major Chinese exchange offering high volume HISTORIA trading
   against BTC. A native app is available for both iOS and Android.
 
 CEX.IO
@@ -223,7 +223,7 @@ CEX.IO
   https://cex.io
 
   CEX.IO is a UK-based exchange with over one million users and offers
-  DASH exchange pairs for fiat currencies including GBP, EUR and USD.
+  HISTORIA exchange pairs for fiat currencies including GBP, EUR and USD.
 
 DigiFinex
   .. image:: exchanges/digifinex.png
@@ -233,7 +233,7 @@ DigiFinex
 
   https://www.digifinex.com
 
-  Based in Singapore, DigiFinex offers Dash trading against USDT, BTC
+  Based in Singapore, DigiFinex offers Historia trading against USDT, BTC
   and ETH. DigiFinex supports InstantSend, with clear benefits for
   arbitrage traders and consumers.
 
@@ -246,7 +246,7 @@ YoBit
   https://yobit.net
 
   YoBit is an exchange focusing on Ethereum tokens, but also supports
-  BTC, USD and RUB trading pairs for DASH.
+  BTC, USD and RUB trading pairs for HISTORIA.
 
 Chaoex
   .. image:: exchanges/chaoex.png
@@ -269,7 +269,7 @@ Bit-Z
   https://www.bit-z.com
 
   Bit-Z is a cryptocurrency exchange with a focus on offering OTC
-  funding options to Chinese traders. DASH is available for trade
+  funding options to Chinese traders. HISTORIA is available for trade
   against BTC.
 
 Koineks
@@ -280,7 +280,7 @@ Koineks
 
   https://koineks.com
 
-  Koineks serves the Turkish market and offers trading pairs for DASH
+  Koineks serves the Turkish market and offers trading pairs for HISTORIA
   against the Turkish Lira and Bitcoin.
 
 Bitci
@@ -291,7 +291,7 @@ Bitci
 
   https://bitci.com
 
-  Bitci offers DASH trading in Turkey against BTC, Turkish Lira (TRY)
+  Bitci offers HISTORIA trading in Turkey against BTC, Turkish Lira (TRY)
   and CHFT.
 
 Sistemkoin
@@ -302,7 +302,7 @@ Sistemkoin
 
   https://sistemkoin.com
 
-  Sistemkoin serves the Turkish market and offers trading pairs for DASH
+  Sistemkoin serves the Turkish market and offers trading pairs for HISTORIA
   against the Turkish Lira and Bitcoin.
 
 Ovis
@@ -313,7 +313,7 @@ Ovis
 
   https://www.ovis.com.tr
 
-  Ovis serves the Turkish market and offers trading pairs for DASH
+  Ovis serves the Turkish market and offers trading pairs for HISTORIA
   against the Turkish Lira and Bitcoin.
 
 Exmo
@@ -325,7 +325,7 @@ Exmo
   https://exmo.com
 
   Exmo is a UK-registered exchange offering fiat deposits in USD, EUR,
-  USD and UAH (Ukrainian Hryvnia). DASH trading pairs exist for BTC, USD
+  USD and UAH (Ukrainian Hryvnia). HISTORIA trading pairs exist for BTC, USD
   and RUB.
 
 BitBay
@@ -337,7 +337,7 @@ BitBay
   https://bitbay.net
 
   BitBay is based in Poland and accepts fiat deposits in EUR, USD and
-  PLN. DASH can be traded against all three fiat currencies and BTC.
+  PLN. HISTORIA can be traded against all three fiat currencies and BTC.
 
 Livecoin
   .. image:: exchanges/livecoin.png
@@ -347,7 +347,7 @@ Livecoin
 
   https://www.livecoin.net
 
-  Livecoin offers fiat deposits in EUR, USD and RUB, and DASH trading
+  Livecoin offers fiat deposits in EUR, USD and RUB, and HISTORIA trading
   pairs for BTC, USD and some other low volume cryptocurrencies.
 
 xBTCe
@@ -361,7 +361,7 @@ xBTCe
   xBTCe is an exchange based in St. Kitts and Nevis with a focus on
   providing fiat currency trading pairs. Various deposit methods are
   available for currencies including CNH (Chinese Offshore Yuan), EUR,
-  GBP, JPY, IDR and RUB. DASH trading pairs include BTC, USD and CNH.
+  GBP, JPY, IDR and RUB. HISTORIA trading pairs include BTC, USD and CNH.
 
 IDAX
   .. image:: exchanges/idax.png
@@ -372,7 +372,7 @@ IDAX
   https://www.idax.pro
 
   Based in Mongolia, IDAX is a high volume exchange with a focus on the
-  Chinese and Korean markets. Dash transactions support InstantSend, and
+  Chinese and Korean markets. Historia transactions support InstantSend, and
   trading is available for against BTC.
 
 Upbit
@@ -383,7 +383,7 @@ Upbit
 
   https://upbit.com
 
-  UPbit is a Korean exchange allowing deposits in KRW and offering DASH
+  UPbit is a Korean exchange allowing deposits in KRW and offering HISTORIA
   trading pairs for KRW, ETH, BTC and USDT.
 
 CoinEx
@@ -395,7 +395,7 @@ CoinEx
   https://www.coinex.com
 
   CoinEx is a Hong Kong based exchange with a focus on Bitcoin Cash
-  trading. DASH is available for trading against both BCH and BTC.
+  trading. HISTORIA is available for trading against both BCH and BTC.
 
 Trade by Trade
   .. image:: exchanges/tradebytrade.png
@@ -418,7 +418,7 @@ Bitinka
   https://www.bitinka.com
 
   Bitinka is the premiere exchange in Latin America, and offers BTC,
-  LTC, ETH, XRP and DASH in exchange for over 10 national currencies
+  LTC, ETH, XRP and HISTORIA in exchange for over 10 national currencies
   from America and Europe.
 
 eToro
@@ -431,7 +431,7 @@ eToro
 
   With legal entities in the UK, Israel and Cyprus, eToro offers a
   social trading platform where you can copy top performing accounts.
-  DASH and a number of other cryptocurrencies, forex and stocks are
+  HISTORIA and a number of other cryptocurrencies, forex and stocks are
   available.
 
 Liqui
@@ -443,7 +443,7 @@ Liqui
   https://liqui.io
 
   Liqui is headquartered in Ukraine and offers a modern interfaced for
-  leveraged trading of many cryptocurrencies, including a DASH/BTC pair.
+  leveraged trading of many cryptocurrencies, including a HISTORIA/BTC pair.
 
 Bitbns
   .. image:: exchanges/bitbns.png
@@ -453,7 +453,7 @@ Bitbns
   
   https://bitbns.com
 
-  Bitbns offers DASH trading against the Indian Rupee (INR) for Indian
+  Bitbns offers HISTORIA trading against the Indian Rupee (INR) for Indian
   citizens with bank deposits supported from many major Indian banks.
 
 Coinome
@@ -464,7 +464,7 @@ Coinome
 
   https://www.coinome.com
 
-  Coinome is an Indian exchange offering DASH trading against the Indian
+  Coinome is an Indian exchange offering HISTORIA trading against the Indian
   Rupee (INR).
 
 WazirX
@@ -475,7 +475,7 @@ WazirX
 
   https://wazirx.com
 
-  WazirX is an Indian exchange offering DASH trading against BTC and
+  WazirX is an Indian exchange offering HISTORIA trading against BTC and
   USDT, and funding in the Indian Rupee (INR).
 
 Coinsquare
@@ -486,7 +486,7 @@ Coinsquare
 
   https://coinsquare.io
 
-  Coinsquare is a Canadian exchange offering DASH trading against BTC
+  Coinsquare is a Canadian exchange offering HISTORIA trading against BTC
   and CAD.
 
 Lykke
@@ -498,7 +498,7 @@ Lykke
   https://www.lykke.com
 
   Incorporated in Switzerland, Lykke is an open source exchange,
-  online/mobile wallet service, idea accelerator and ICO platform. DASH
+  online/mobile wallet service, idea accelerator and ICO platform. HISTORIA
   is available for both trading and investment.
 
 Liquid
@@ -510,7 +510,7 @@ Liquid
   https://www.liquid.com
 
   Liquid serves the Asian market with funding support for HKD, AUD, CNY, INR, JPY, PHP, IDR, UDS, SGD and EUR, and trading against ETH,
-  BTC, BCH and DASH.
+  BTC, BCH and HISTORIA.
 
 BitcoinVN
   .. image:: exchanges/bitcoinvn.png
@@ -520,7 +520,7 @@ BitcoinVN
 
   https://bitcoinvn.io
 
-  BitcoinVN is a Vietnamese exchange offering BTC, BCH, LTC and DASH
+  BitcoinVN is a Vietnamese exchange offering BTC, BCH, LTC and HISTORIA
   for trading against Vietnamese đồng.
 
 Ginero
@@ -532,7 +532,7 @@ Ginero
   https://ginero.io
 
   Ginero is a peer-to-peer exchange operating in Vietnam and
-  offeringexchange offering BTC, BCH, LTC, ETH, GIN and DASH for trading
+  offeringexchange offering BTC, BCH, LTC, ETH, GIN and HISTORIA for trading
   against Vietnamese đồng.
 
 ZB.com
@@ -545,7 +545,7 @@ ZB.com
 
   With a focus on the Chinese market, ZB.com offers trading from
   specialized applications for macOS, Windows, Android and iOS. Crypto
-  deposits and DASH trading against QC, USDT and BTC.
+  deposits and HISTORIA trading against QC, USDT and BTC.
 
 Coinfield
   .. image:: exchanges/coinfield.png
@@ -556,7 +556,7 @@ Coinfield
   https://www.coinfield.com
 
   Coinfield is a Canadian exchange offering funding in CAD and quick
-  market purchases or advanced trading against DASH.
+  market purchases or advanced trading against HISTORIA.
 
 Bitshares
   .. image:: exchanges/bitshares.png
@@ -566,7 +566,7 @@ Bitshares
 
   https://bitshares.org
 
-  BitShares is a decentralized exchange (DEX) offering DASH trading
+  BitShares is a decentralized exchange (DEX) offering HISTORIA trading
   pairs for BTC and BTS, as well as the bit assets bitUSD, bitCNY and
   bitBTC.
 
@@ -579,7 +579,7 @@ Cryptopia
   https://www.cryptopia.co.nz
 
   Cryptopia is a New Zealand cryptocurrency exchange with a reputation
-  for supporting a large number of low-volume altcoins. It offers DASH
+  for supporting a large number of low-volume altcoins. It offers HISTORIA
   trading pairs for BTC, LTC, DOGE and USDT.
 
 ACX
@@ -591,7 +591,7 @@ ACX
   https://acx.io
 
   ACX is an Australian exchange accepting fiat deposits from Australian
-  bank accounts. DASH is available to trade against BTC.
+  bank accounts. HISTORIA is available to trade against BTC.
 
 OKEX
   .. image:: exchanges/okex.png
@@ -602,7 +602,7 @@ OKEX
   https://www.okex.com
 
   OKEX, previously known as OKCoin, is an exchange focused on the
-  Chinese market offering DASH trading pairs against BTC. Funding with
+  Chinese market offering HISTORIA trading pairs against BTC. Funding with
   CNY and futures trading is also available.
 
 Bitexbook
@@ -627,7 +627,7 @@ MoneyPolo
 
   MoneyPolo offers currency exchange and transfer, prepaid cards and the
   ability to hold accounts in a range of currencies. Deposits and
-  withdrawals are available in DASH, BTC, ETH, LTC, BCH and BTG, and it
+  withdrawals are available in HISTORIA, BTC, ETH, LTC, BCH and BTG, and it
   is possible to transfer value to a prepaid card or any worldwide bank
   account.
 
@@ -640,7 +640,7 @@ Coinapult
   https://coinapult.com
 
   Coinapult is an asset exchange headquartered in Panama City and
-  providing exchange services between BTC, DASH, USD, GBP and EUR, as
+  providing exchange services between BTC, HISTORIA, USD, GBP and EUR, as
   well as gold and silver.
 
 Panda.exchange
@@ -652,7 +652,7 @@ Panda.exchange
   https://panda.exchange
 
   Based in Latin America, Panda.exchange specializes in making digital
-  assets such as Dash available in Latin America and, through a branch
+  assets such as Historia available in Latin America and, through a branch
   in Portugal, the EU market.
 
 Whaleclub
@@ -664,7 +664,7 @@ Whaleclub
   https://whaleclub.co
 
   Based in Hong Kong, Whaleclub offers an advanced platform that allows
-  highly leveraged trading of cryptocurrency including DASH against
+  highly leveraged trading of cryptocurrency including HISTORIA against
   other cryptocurrencies, forex, metals, stocks and bonds.
 
 Golix
@@ -676,7 +676,7 @@ Golix
   https://golix.com
 
   Based in Zimbabwe, Golix is a digital currency exchange that helps
-  people in Sub-Saharan Africa buy and sell DASH and other
+  people in Sub-Saharan Africa buy and sell HISTORIA and other
   cryptocurrencies.
 
 Bisq
@@ -700,7 +700,7 @@ Coincheck
   https://coincheck.com
 
   Coincheck is a Japanese exchange allowing deposits in JPY and USD for
-  trading against DASH and other cryptocurrencies.
+  trading against HISTORIA and other cryptocurrencies.
 
 Coindeal
   .. image:: exchanges/coindeal.png
@@ -711,7 +711,7 @@ Coindeal
   https://coindeal.com
 
   Coindeal allows deposits in EUR and offers a range of trading pairs,
-  including DASH. The exchange is focused on obtaining a FINMA license
+  including HISTORIA. The exchange is focused on obtaining a FINMA license
   in Switzerland to be able to accept a broader range of fiat deposits.
 
 BuyUcoin
@@ -722,7 +722,7 @@ BuyUcoin
 
   https://www.buyucoin.com
 
-  BuyUcoin is a large Indian exchange offering DASH and many other
+  BuyUcoin is a large Indian exchange offering HISTORIA and many other
   cryptocurrencies in exchange for Indian Rupees (INR).
 
 BitMEX
@@ -734,7 +734,7 @@ BitMEX
   https://www.bitmex.com
 
   BitMEX is a pure-crypto derivates exchange offering trading with up to
-  100x leverage. DASH is available to trade against BTC.
+  100x leverage. HISTORIA is available to trade against BTC.
 
 MBAex
   .. image:: exchanges/mbaex.png
@@ -745,7 +745,7 @@ MBAex
   https://mbaex.com
 
   MBAex is a pure crypto exchange with a focus on the Chinese market.
-  DASH can be traded against BTC, USDT and MDP.
+  HISTORIA can be traded against BTC, USDT and MDP.
 
 KuCoin
   .. image:: exchanges/kucoin.png
@@ -756,7 +756,7 @@ KuCoin
   https://www.kucoin.com
 
   KuCoin is a pure crypto exchange with a focus on the Chinese market.
-  DASH can be traded against BTC, USDT, ETH and KCS.
+  HISTORIA can be traded against BTC, USDT, ETH and KCS.
 
 BTCC
   .. image:: exchanges/btcc.png
@@ -767,7 +767,7 @@ BTCC
   https://www.btcc.com
 
   Based in the UK Hong Kong and available in English and Chinese,
-  BTCC offers DASH trading against BTC and USD.
+  BTCC offers HISTORIA trading against BTC and USD.
 
 Bibox
   .. image:: exchanges/bibox.png
@@ -777,7 +777,7 @@ Bibox
 
   https://www.bibox.com
 
-  With a focus on the Asian market, Bibox offers DASH trading against
+  With a focus on the Asian market, Bibox offers HISTORIA trading against
   BTC, ETH and USDT.
 
 DigiFinex
@@ -788,7 +788,7 @@ DigiFinex
 
   https://www.digifinex.com
 
-  DigiFinex is a Chinese exchange allowing trading of DASH against USDT
+  DigiFinex is a Chinese exchange allowing trading of HISTORIA against USDT
   and BTC.
 
 OOOBTC
@@ -799,7 +799,7 @@ OOOBTC
 
   https://www.ooobtc.com
 
-  OOOBTC offers DASH trading against BTC and ETH, with a user interface
+  OOOBTC offers HISTORIA trading against BTC and ETH, with a user interface
   available in Russian, Arabic and many East Asian languages.
 
 ABCC
@@ -810,7 +810,7 @@ ABCC
 
   https://abcc.com
 
-  ABCC offers web and app-based trading of Dash against BTC, ETH and USDT.
+  ABCC offers web and app-based trading of Historia against BTC, ETH and USDT.
 
 Indodax
   .. image:: exchanges/indodax.png
@@ -820,7 +820,7 @@ Indodax
 
   https://indodax.com
 
-  Indodax allows funding in IDR and offers a DASH/BTC trading pair.
+  Indodax allows funding in IDR and offers a HISTORIA/BTC trading pair.
 
 ALFAcashier
   .. image:: exchanges/alfa.png
@@ -831,7 +831,7 @@ ALFAcashier
   https://www.alfacashier.com
 
   ALFAcashier, incorporated in Belize, provides electronic exchange and
-  fiat services. DASH trading pairs are available for BTC, XRP, XMR,
+  fiat services. HISTORIA trading pairs are available for BTC, XRP, XMR,
   XEM, ETH, LTC, BCH, USD, EUR, CNY, CAD and RUB.
 
 CoinSuper
@@ -843,7 +843,7 @@ CoinSuper
   https://www.coinsuper.com
 
   Registered in Hong Kong and with a focus on the Chinese market,
-  CoinSuper allows fiat deposits in USD and offers DASH trading against
+  CoinSuper allows fiat deposits in USD and offers HISTORIA trading against
   BTC, ETH and USD.
 
 Exrates
@@ -854,7 +854,7 @@ Exrates
 
   https://exrates.me
 
-  Exrates allows crypto and USD deposits, and offers DASH trading
+  Exrates allows crypto and USD deposits, and offers HISTORIA trading
   against BTC and USD.
 
 Bleutrade
@@ -866,7 +866,7 @@ Bleutrade
   https://bleutrade.com
 
   Registered in Brazil, Bleutrade offers DOGE and BTC trading pairs for
-  DASH.
+  HISTORIA.
 
 LBank
   .. image:: exchanges/lbank.png
@@ -877,7 +877,7 @@ LBank
   https://www.lbank.info
 
   Available in English and Chinese, LBank has a focus on token trading.
-  DASH is available to trade against BTC.
+  HISTORIA is available to trade against BTC.
 
 Coinroom
   .. image:: exchanges/coinroom.png
@@ -889,7 +889,7 @@ Coinroom
 
   Registered in Poland, Coinroom has a strong focus on trading against
   fiat currencies. Deposits are available in CHF, CZK, DKK, EUR, GBP,
-  NOK, PLN and USD. DASH can be traded against USD, BTC, EUR, PLN and
+  NOK, PLN and USD. HISTORIA can be traded against USD, BTC, EUR, PLN and
   GBP.
 
 CoinSpot
@@ -900,7 +900,7 @@ CoinSpot
 
   https://www.coinspot.com.au
 
-  CoinSpot is an Australian exchange offering DASH, BTC, LTC and ETH in
+  CoinSpot is an Australian exchange offering HISTORIA, BTC, LTC and ETH in
   exchange for AUD.
 
 Holy Transaction
@@ -911,7 +911,7 @@ Holy Transaction
 
   https://holytransaction.com
 
-  Holy Transaction offers DASH trading pairs for BTC, USD and EUR, as
+  Holy Transaction offers HISTORIA trading pairs for BTC, USD and EUR, as
   well as over ten other altcoins.
 
 RealExchange
@@ -923,7 +923,7 @@ RealExchange
   https://realexchange.com.br
 
   RealExchange is a Brazil-based exchange offering support for a handful
-  of currencies including Dash, Bitcoin, Litecoin, and SmartCash. The
+  of currencies including Historia, Bitcoin, Litecoin, and SmartCash. The
   exchange also supports fiat trading pairs with the Brazilian real.
 
 NegocieCoins
@@ -935,7 +935,7 @@ NegocieCoins
   https://www.negociecoins.com.br
 
   Based in Brazil, NegocieCoins offers deposits in Brazilian real and
-  Dash trading pairs. A premium service with higher withdrawal limits is
+  Historia trading pairs. A premium service with higher withdrawal limits is
   available.
 
 XDEX
@@ -948,7 +948,7 @@ XDEX
 
   Based in Brazil, XDEX offers both simple purchase and sale of
   cryptocurrencies and an advanced trading platform with various order
-  types. Dash and several other cryptocurrencies are available for
+  types. Historia and several other cryptocurrencies are available for
   trading against the Brazilian real.
 
 Bitcointoyou
@@ -960,7 +960,7 @@ Bitcointoyou
   https://bitcointoyou.com
 
   Based in Brazil, Bitcointoyou has been in operation since 2010 and
-  offers trading of a number of cryptocurrencies, including Dash,
+  offers trading of a number of cryptocurrencies, including Historia,
   against the Brazilian real.
 
 Miami Crypto Exchange
@@ -971,10 +971,10 @@ Miami Crypto Exchange
 
   https://www.miami.exchange
 
-  Miami Crypto Exchange (MCEX), operated by Dash partner `Mercury Cash
+  Miami Crypto Exchange (MCEX), operated by Historia partner `Mercury Cash
   <https://www.mercury.cash>`_, is a legal and fully compliant crypto
   gateway between the U.S. and the world, with a specific focus on Latin
-  America and the Caribbean. DASH can be traded against USD and BTC.
+  America and the Caribbean. HISTORIA can be traded against USD and BTC.
 
 BW
   .. image:: exchanges/bw.png
@@ -984,7 +984,7 @@ BW
 
   https://bw.com
 
-  BW exchange focuses on the Chinese and Korean market, with Dash
+  BW exchange focuses on the Chinese and Korean market, with Historia
   available for exchange against USDT and the QC exchange token.
 
 SatoWallet
@@ -996,7 +996,7 @@ SatoWallet
   https://satowallet.com
 
   SatoWallet is a multi-coin crypto wallet with built-in exchange
-  functionality. Dash is available for trade against Nigerian Naira
+  functionality. Historia is available for trade against Nigerian Naira
   (NGN), USD, BTC and ETH.
 
 OmniTrade
@@ -1008,7 +1008,7 @@ OmniTrade
   https://omnitrade.io
 
   Based in Brazil, OmniTrade accepts deposits in Brazilian real through
-  a partnership with Neon Bank, which can then be traded against Dash.
+  a partnership with Neon Bank, which can then be traded against Historia.
 
 Braziliex
   .. image:: exchanges/braziliex.png
@@ -1019,7 +1019,7 @@ Braziliex
   https://braziliex.com
 
   Based in Brazil, Brazilies accepts deposits in Brazilian real, and
-  offers trading of real, Bitcoin and USDT against Dash.
+  offers trading of real, Bitcoin and USDT against Historia.
 
 WEX
   .. image:: exchanges/wex.png
@@ -1030,7 +1030,7 @@ WEX
   https://wex.nz
 
   WEX, previously known as BTC-e until it was shut down by authorities,
-  has resumed business under a new name. DASH trading pairs exist for
+  has resumed business under a new name. HISTORIA trading pairs exist for
   BTC, USD, RUB, EUR, LTC and ETH.
 
 Ovis
@@ -1041,7 +1041,7 @@ Ovis
 
   https://www.ovis.com.tr
 
-  Ovis serves the Turkish market and offers trading pairs for DASH
+  Ovis serves the Turkish market and offers trading pairs for HISTORIA
   against the Turkish Lira and Bitcoin.
 
 Lescovex
@@ -1054,7 +1054,7 @@ Lescovex
 
   Registered in Switzerland, Lescovex offers deposits and withdrawals in
   a wide range of fiat currencies (EUR, USD, CAD, GBP, CHF, SEK, RON)
-  for trading against DASH and other cryptocurrencies. The platform is
+  for trading against HISTORIA and other cryptocurrencies. The platform is
   designed to assist in the creation of tokens and cryptographic
   contracts.
 
@@ -1069,7 +1069,7 @@ AvaTrade
   Headquartered in Ireland, with offices around the world and boasting
   over 200,000 registered customers globally, AvaTrade is committed to
   empowering people to invest and trade, with confidence, in an
-  innovative and reliable environment. AvaTrade offers Dash trading as
+  innovative and reliable environment. AvaTrade offers Historia trading as
   well as traditional Forex, CFD and options trading.
 
 SouthXchange
@@ -1080,7 +1080,7 @@ SouthXchange
 
   https://www.southxchange.com
 
-  Based in Argentina, SouthXchange offers DASH for USD and BTC.
+  Based in Argentina, SouthXchange offers HISTORIA for USD and BTC.
 
 Coinrail
   .. image:: exchanges/coinrail.png
@@ -1090,7 +1090,7 @@ Coinrail
 
   https://coinrail.co.kr
 
-  Coinrail is a Korean exchange offering DASH trading against KRW.
+  Coinrail is a Korean exchange offering HISTORIA trading against KRW.
 
 Cashierest
   .. image:: exchanges/cashierest.png
@@ -1100,7 +1100,7 @@ Cashierest
 
   https://www.cashierest.com
 
-  Cashierest is a Korean exchange offering DASH trading against KRW, BTC
+  Cashierest is a Korean exchange offering HISTORIA trading against KRW, BTC
   and ETH.
 
 Tidex
@@ -1112,7 +1112,7 @@ Tidex
   https://tidex.com
 
   Tidex is an exchange focusing on tokens on the WAVES and Ethereum
-  blockchains, but also offers trading against fiat currencies. DASH can
+  blockchains, but also offers trading against fiat currencies. HISTORIA can
   be traded against ETH, BTC, WAVES and Waves pegged currencies.
 
 LiteBit
@@ -1124,7 +1124,7 @@ LiteBit
   https://www.litebit.eu
 
   LiteBit is a service based in The Netherlands selling cryptocurrency
-  including Dash for EUR.
+  including Historia for EUR.
 
 Laissez Faire
   .. image:: exchanges/lzf.png
@@ -1134,7 +1134,7 @@ Laissez Faire
 
   https://lzf.com
 
-  Laissez Faire offers incentivized trading which includes DASH.
+  Laissez Faire offers incentivized trading which includes HISTORIA.
 
 Bitsane
   .. image:: exchanges/bitsane.png
@@ -1145,7 +1145,7 @@ Bitsane
   https://bitsane.com
 
   Bitsane (and its altcoin sister site `Anybits <https://anybits.com>`_)
-  offer trading pairs for Dash and allows deposits in EUR and USD.
+  offer trading pairs for Historia and allows deposits in EUR and USD.
 
 
 
@@ -1163,7 +1163,7 @@ Changelly
   https://changelly.com
 
   Changelly is a broker service offering a range of cryptocurrency,
-  including Dash, for instant exchange against other cryptocurrencies
+  including Historia, for instant exchange against other cryptocurrencies
   without needing to create an account. Be sure to check the fees and
   rates before purchasing.
 
@@ -1177,7 +1177,7 @@ ShapeShift
 
   ShapeShift allows users to directly exchange one crypto asset for
   another, albeit with a higher markup than most exchanges. ShapeShift
-  supports Dash and over 70 other cryptocurrencies.
+  supports Historia and over 70 other cryptocurrencies.
 
 ChangeHero
   .. image:: exchanges/changehero.png
@@ -1188,7 +1188,7 @@ ChangeHero
   https://changehero.io
 
   ChangeHero is a broker service and instant exchange with a clear fee
-  structure, allowing users to quickly and efficiently exchange Dash for
+  structure, allowing users to quickly and efficiently exchange Historia for
   many other cryptocurrencies. It is also possible to purchase directly
   using a credit card.
 
@@ -1202,7 +1202,7 @@ SimpleSwap
   
   SimpleSwap is a simple and easy-to-use platform for cryptocurrency
   exchanges that works without registration and limits. It is possible
-  to exchange Dash with over 60 other cryptocurrencies.
+  to exchange Historia with over 60 other cryptocurrencies.
 
 AirTM
   .. image:: exchanges/airtm.png
@@ -1226,7 +1226,7 @@ Godex
 
   Godex allows users to directly exchange one crypto asset for another
   without creating any account, albeit with a higher markup than most
-  exchanges. Godex supports Dash and over 120 other cryptocurrencies.
+  exchanges. Godex supports Historia and over 120 other cryptocurrencies.
 
 Flyp.me
   .. image:: exchanges/flypme.png
@@ -1249,7 +1249,7 @@ OnePageX
   https://onepagex.com
 
   One Page Exchange is a single-page instant exchange allowing users to
-  convert Dash into over 140 different cryptocurrencies without
+  convert Historia into over 140 different cryptocurrencies without
   registration.
 
 CoinSwitch
@@ -1273,7 +1273,7 @@ MorphToken
   https://www.morphtoken.com
 
   MorphToken is an instant exchange allowing users to instantly convert
-  between Dash, Bitcoin, Bitcoin Cash, Ethereum, Litecoin and Monero. It
+  between Historia, Bitcoin, Bitcoin Cash, Ethereum, Litecoin and Monero. It
   is even possible to convert into more than one cryptocurrency in a
   single exchange.
 
@@ -1299,7 +1299,7 @@ Guarda
 
   Guarda offers an entire blockchain ecosystem consisting of desktop,
   web and mobile wallets, OTC crypto sales and instant crypto exchange.
-  Dash is supported throughout the ecosystem, making it an easy and
+  Historia is supported throughout the ecosystem, making it an easy and
   convenient way for new users to get started.  
 
 BlockTrades
@@ -1311,7 +1311,7 @@ BlockTrades
   https://blocktrades.us
 
   BlockTrades is a decentralized exchange designed to facilitate free
-  movement between the Steemit, BitShares, Bitcoin and Dash blockchains.
+  movement between the Steemit, BitShares, Bitcoin and Historia blockchains.
   The system is designed to find the best possible instant conversion
   rate between any two given cryptocurrencies.
 
@@ -1331,7 +1331,7 @@ Uphold
 
   Uphold accounts may be funded with over 30 national currencies by bank
   account or credit card to purchase and spend multiple cryptocurrencies
-  including Dash.
+  including Historia.
 
 Kriptomat
   .. image:: exchanges/kriptomat.png
@@ -1342,7 +1342,7 @@ Kriptomat
   https://kriptomat.io
 
   Kriptomat enables you to buy, sell and store cryptocurrencies in your
-  local language - safe, simple and secure. Dash is available for
+  local language - safe, simple and secure. Historia is available for
   exchange to and from EUR with bank accounts and credit cards.
 
 Bitpanda
@@ -1355,7 +1355,7 @@ Bitpanda
   https://www.bitpanda.com/togo
 
   Bitpanda is a broker service offering Bitcoin, Ethereum, Litecoin and
-  Dash both online and at over 400 Post branches and about 1300 Post
+  Historia both online and at over 400 Post branches and about 1300 Post
   partners throughout Austria. Pay with cash, credit card or bank
   transfer.
 
@@ -1367,7 +1367,7 @@ Bitnovo
 
   https://www.bitnovo.com
 
-  Bitnovo is a broker service offering Bitcoin and Dash both on their
+  Bitnovo is a broker service offering Bitcoin and Historia both on their
   website and at tens of thousands of physical locations throughout
   Europe. They also offer reloadable cards, vouchers and cryptocurrency
   wallets.
@@ -1380,7 +1380,7 @@ Cointree
 
   https://www.cointree.com
 
-  Cointree offers services to buy, sell and trade Bitcoin, Dash and many
+  Cointree offers services to buy, sell and trade Bitcoin, Historia and many
   other cryptocurrencies in Australia on a simple and attractive web
   platform. Cointree offers multiple payment methods, low fees, bill
   payment options and a range of learning materials to help get started
@@ -1394,7 +1394,7 @@ Bitit
 
   https://bitit.io
 
-  Bitit is a broker service offering Bitcoin, Dash and several other
+  Bitit is a broker service offering Bitcoin, Historia and several other
   cryptocurrencies for sale online. Payment in a range of currencies is
   support using both direct banking, credit cards and vouchers.
 
@@ -1407,7 +1407,7 @@ buycrypto
   https://buycrypto.gr
 
   Buycrypto is a peer-to-peer cryptocurrency-fiat exchange geared
-  towards giving Greeks easier access to economically sound money. Dash
+  towards giving Greeks easier access to economically sound money. Historia
   is available for purchase and sale against the Euro.
 
 ChangeHero
@@ -1419,7 +1419,7 @@ ChangeHero
   https://changehero.io
 
   ChangeHero is a broker service and instant exchange with a clear fee
-  structure, allowing users to quickly and efficiently exchange Dash for
+  structure, allowing users to quickly and efficiently exchange Historia for
   many other cryptocurrencies. It is also possible to purchase directly
   using a credit card.
 
@@ -1459,7 +1459,7 @@ Coinfinity
 
   https://coinfinity.co
 
-  Coinfinity offers Dash and Bitcoin broker services in Austria and
+  Coinfinity offers Historia and Bitcoin broker services in Austria and
   Germany, as well as through their coupon-based `Bitcoinbon
   <https://www.bitcoinbon.at/>`_ service.
 
@@ -1471,7 +1471,7 @@ Coinsave
 
   https://coinsave.io
 
-  Coinsave is a Canadian OTC retailer offering DASH and other
+  Coinsave is a Canadian OTC retailer offering HISTORIA and other
   cryptocurrencies for CAD.
 
 Bitcoin Meester
@@ -1484,7 +1484,7 @@ Bitcoin Meester
   https://www.bitladon.com
 
   Bitcoin Meester, and it's international sister site Bitladon, allows
-  you to buy and sell Dash (and other cryptocurrencies) OTC in exchange
+  you to buy and sell Historia (and other cryptocurrencies) OTC in exchange
   for Euro.
 
 Coinvertit
@@ -1495,7 +1495,7 @@ Coinvertit
 
   https://www.coinvertit.com
 
-  Based in Romania, Coinvertit is an easy way to buy and sell Dash in
+  Based in Romania, Coinvertit is an easy way to buy and sell Historia in
   exchange for BTC, LTC, BCH and Romanian Leu (RON).
 
 eBitpoint
@@ -1507,7 +1507,7 @@ eBitpoint
   https://www.ebitpoint.com
 
   eBitpoint is a secure online peer to peer platform with escrow service
-  for buying, selling, storing Dash and other digital currencies at
+  for buying, selling, storing Historia and other digital currencies at
   competitive exchange rates in Ghana.
 
 eBitcoinics
@@ -1519,7 +1519,7 @@ eBitcoinics
   http://www.ebitcoinics.com
 
   eBitcoinics is a cryptocurrency exchange and education platform for
-  the African market. Dash is available for exchange against Nigerian
+  the African market. Historia is available for exchange against Nigerian
   Naira (NGN) and Ghanaian Cedi (GHS).
 
 Kurecoinhub
@@ -1530,8 +1530,8 @@ Kurecoinhub
 
   https://kurecoinhub.com
 
-  Kurecoinhub offers DASH and other cryptocurrencies for sale OTC for
-  the Nigerian Naira. Dividend bearing bank deposits, loans against Dash
+  Kurecoinhub offers HISTORIA and other cryptocurrencies for sale OTC for
+  the Nigerian Naira. Dividend bearing bank deposits, loans against Historia
   collateral and merchant services are also available from this
   innovative platform.
 
@@ -1543,7 +1543,7 @@ Gredo E-currency
 
   https://www.gredoe-currency.com
 
-  Gredo E-currency offers OTC sale of Dash and other cryptocurrencies
+  Gredo E-currency offers OTC sale of Historia and other cryptocurrencies
   for Nigerian Naira (NGN).
 
 TruexGOLD
@@ -1554,7 +1554,7 @@ TruexGOLD
 
   https://truexgold.com
 
-  TruexGOLD offers OTC sale of Dash in Nigeria for Nigeria Naira (NGN).
+  TruexGOLD offers OTC sale of Historia in Nigeria for Nigeria Naira (NGN).
 
 Cryptomate
   .. image:: exchanges/cryptomate.png
@@ -1564,7 +1564,7 @@ Cryptomate
 
   https://cryptomate.co.uk
 
-  Cryptomate sells a range of cryptocurrencies, including Dash, for GBP.
+  Cryptomate sells a range of cryptocurrencies, including Historia, for GBP.
   Cryptomate's goal is to make buying and selling cryptocurrency as
   simple as possible for people who want a pain-free experience and the
   fastest transactions - coins can be in your wallet as soon as 5
@@ -1578,7 +1578,7 @@ Easy Crypto
 
   https://www.easycrypto.nz
 
-  Easy Crypto allows New Zealanders to buy and sell Dash and 45 other
+  Easy Crypto allows New Zealanders to buy and sell Historia and 45 other
   cryptocurrencies instantly, with fast and friendly service.
 
 BitPrime
@@ -1590,7 +1590,7 @@ BitPrime
   https://www.bitprime.co.nz
 
   BitPrime operates a secure and compliant platform for easy retail
-  trading in New Zealand. Dash is available OTC for both purchase and
+  trading in New Zealand. Historia is available OTC for both purchase and
   sale together with many other cryptocurrencies.
 
 Mercury Cash
@@ -1603,7 +1603,7 @@ Mercury Cash
 
   Mercury Cash is an online/mobile wallet and licensed money transmitter
   with integration for merchant services. Balances can be held in both
-  Ethereum and Dash, and deposited or withdrawn in local currencies
+  Ethereum and Historia, and deposited or withdrawn in local currencies
   through a number of methods, including credit cards.
 
 cryptomonster
@@ -1615,7 +1615,7 @@ cryptomonster
   https://www.cryptomonster.co.uk
 
   cryptomonster have created an easy to use platform where you can buy
-  DASH and other digital assets within minutes. All you need is a UK
+  HISTORIA and other digital assets within minutes. All you need is a UK
   bank account and a wallet address. cryptomonster pride themselves on a
   next-level service and regard themseleves as the leading digital
   assets platform in the UK.
@@ -1642,7 +1642,7 @@ Cryptobuyer
 
   Cryptobuyer is a direct purchasing service with a focus on the Latin
   American market and Venezuela in particular. It can be linked with a
-  bank account to purchase Dash, Litecoin and Bitcoin directly. The
+  bank account to purchase Historia, Litecoin and Bitcoin directly. The
   company also operates a network of ATMs and merchant integrations.
 
 BasiChange
@@ -1664,7 +1664,7 @@ CryptoWay
 
   https://cryptoway.io
 
-  On CryptoWay, you can buy and sell Dash, Bitcoin, Ethereum, Litecoin
+  On CryptoWay, you can buy and sell Historia, Bitcoin, Ethereum, Litecoin
   and Doge peer-to-peer (P2P) with Venezuelan bolivars on a secure, fast
   and simple platform. You can also link your bank account for efficient
   processing of deposits and withdrawals.
@@ -1680,7 +1680,7 @@ Stratum CoinBR
 
   CoinBR is a Brazil-based cryptocurrency company offering a variety of
   services including an exchange, mining, bill payment, point-of-sale,
-  and more. Dash is available for purchase at over 13,000 locations
+  and more. Historia is available for purchase at over 13,000 locations
   around Brazil.
 
 Wall of Coins
@@ -1691,7 +1691,7 @@ Wall of Coins
 
   https://wallofcoins.com
 
-  Wall of Coins allows user to post offers to buy or sell Dash and
+  Wall of Coins allows user to post offers to buy or sell Historia and
   Bitcoin within their region or country. The service, which is
   available in over 20 countries, then holds the coins in escrow while
   the buyer completes payment.
@@ -1704,7 +1704,7 @@ Liberalcoins
 
   https://liberalcoins.com
 
-  Liberalcoins allows users to arrange trades to buy or sell Dash,
+  Liberalcoins allows users to arrange trades to buy or sell Historia,
   Monero, Bitcoin and Litecoin directly with one another.
 
 QCashPay
@@ -1716,7 +1716,7 @@ QCashPay
   https://qcashpay.com
 
   QCashPay is a Hong Kong company specialising in direct sale of
-  cryptocurrency, including Dash, for USD and CNY using various bank and
+  cryptocurrency, including Historia, for USD and CNY using various bank and
   third party payment schemes.
 
 MegaChange
@@ -1728,18 +1728,18 @@ MegaChange
   https://www.megachange.is
 
   MegaChange offers direct sale and exchange of various digital forms of
-  currency in a simple market system. It supports Dash and multiple
+  currency in a simple market system. It supports Historia and multiple
   methods of adding fiat currency, including USD, RMB and RUB.
 
-Dashous
-  .. image:: exchanges/dashous.png
+Historiaous
+  .. image:: exchanges/historiaous.png
      :width: 200px
      :align: right
-     :target: https://www.dashous.com
+     :target: https://www.historiaous.com
 
-  https://www.dashous.com
+  https://www.historiaous.com
 
-  Dashous allows user to post offers to buy or sell Dash and Bitcoin
+  Historiaous allows user to post offers to buy or sell Historia and Bitcoin
   within their region or country. The users then arrange the deal
   between themselves.
 
@@ -1751,7 +1751,7 @@ Magnetic Exchange
 
   https://magneticexchange.com
 
-  Magnetic Exchange offers Bitcoin, Ethereum, Litecoin and Dash in
+  Magnetic Exchange offers Bitcoin, Ethereum, Litecoin and Historia in
   exchange for USD or EUR through various payment services.
 
 AnycoinDirect
@@ -1763,18 +1763,18 @@ AnycoinDirect
   https://anycoindirect.eu
 
   AnycoinDirect.eu is a broker service offering 14 cryptocurrencies,
-  including Dash, for sale online. Pay by bank transfer or various
+  including Historia, for sale online. Pay by bank transfer or various
   national instant payment schemes.
 
-Dash Nearby
-  .. image:: exchanges/dashnearby.png
+Historia Nearby
+  .. image:: exchanges/historianearby.png
      :width: 200px
      :align: right
-     :target: https://dashnearby.com
+     :target: https://historianearby.com
 
-  https://dashnearby.com
+  https://historianearby.com
 
-  Dash Nearby allows users to arrange direct trades of cryptocurrency or
+  Historia Nearby allows users to arrange direct trades of cryptocurrency or
   local currency between one another.
 
 Coindirect
@@ -1786,7 +1786,7 @@ Coindirect
   https://www.coindirect.com
 
   Coindirect offers OTC and P2P services to buy and sell many
-  cryptocurrencies, including Dash. Verified users can create offers in
+  cryptocurrencies, including Historia. Verified users can create offers in
   their local currency to buy and sell with other users. Online wallets
   and exchange services are available for most currencies as well.
 
@@ -1800,7 +1800,7 @@ Graviex
 
   Graviex is a part of the Gravio ecosystem, a blockchain-based
   communication platform. It offers extremely low rates and fees for
-  trading. DASH can be traded against BTC, ETH, LTC and DOGE.
+  trading. HISTORIA can be traded against BTC, ETH, LTC and DOGE.
 
 Bitqist
   .. image:: exchanges/bitqist.png
@@ -1823,9 +1823,9 @@ SlithEx
 
   https://slithex.com
 
-  Based in Malaysia and funded by the Dash Treasury, SlithEx (and its
+  Based in Malaysia and funded by the Historia Treasury, SlithEx (and its
   payment processor, `RocketPay <https://rocketpay.net>`_) offer
-  exchange, wallet and sale/trading of Dash against the Malaysian
+  exchange, wallet and sale/trading of Historia against the Malaysian
   ringgit.
 
 .. _atms:
@@ -1835,9 +1835,9 @@ ATMs
 
 ATMs are a popular method of buying cryptocurrency at businesses to
 encourage adoption and spending in these currencies. A number of ATMs
-support Dash, and the mapping services listed on this page can help you
+support Historia, and the mapping services listed on this page can help you
 find one near you. It is also possible to operate your own ATM to sell
-Dash on-site at your business - simply contact the companies listed on
+Historia on-site at your business - simply contact the companies listed on
 this page.
 
 General Bytes
@@ -1849,7 +1849,7 @@ General Bytes
   https://www.generalbytes.com
 
   General Bytes offers a range of two-way cash ATM and Point of Sale
-  solutions integrating Dash.
+  solutions integrating Historia.
 
 Coin ATM Radar
   .. image:: exchanges/coinatmradar.png
@@ -1870,7 +1870,7 @@ Lamassu
 
   https://lamassu.is
 
-  Lamassu offers modular one-way and two-way cash ATMs integrating Dash.
+  Lamassu offers modular one-way and two-way cash ATMs integrating Historia.
 
 CoinFlip
   .. image:: exchanges/coinflip.png

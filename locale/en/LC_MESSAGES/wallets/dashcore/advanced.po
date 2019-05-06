@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 08:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -17,32 +17,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../wallets/dashcore/advanced.rst:1
+#: ../../wallets/historiacore/advanced.rst:1
 msgid ""
 "Coin control, HD wallets, multisig, KeePass and multiple wallet files "
-"using the Dash Core wallet"
+"using the Historia Core wallet"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:1
+#: ../../wallets/historiacore/advanced.rst:1
 msgid ""
-"dash, core, wallet, backup, restore, wallet.dat, multisig, KeePass, hd, "
+"historia, core, wallet, backup, restore, wallet.dat, multisig, KeePass, hd, "
 "seed, passphrase, mnemonic, coin control, hierarchical deterministic"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:9
+#: ../../wallets/historiacore/advanced.rst:9
 msgid "Advanced topics"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:14
+#: ../../wallets/historiacore/advanced.rst:14
 msgid "Coin Control"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:16
+#: ../../wallets/historiacore/advanced.rst:16
 msgid ""
-"Coin Control allows users of the Dash Core Wallet to specify which "
+"Coin Control allows users of the Historia Core Wallet to specify which "
 "addresses and Unspent Transaction Outputs (UTXOs) should be used as "
 "inputs in transactions. This allows you to keep a specific balance on "
-"certain addresses in your wallet, while spending others freely. In Dash "
+"certain addresses in your wallet, while spending others freely. In Historia "
 "Core Wallet, click **Settings > Options > Wallet > Enable coin control "
 "features**. Now, when you go to the Send tab in your wallet, a new button"
 " labelled **Inputs…** will appear. Click this button to select which "
@@ -50,13 +50,13 @@ msgid ""
 " window appears:"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:29
+#: ../../wallets/historiacore/advanced.rst:29
 msgid ""
-"Coin Selection window in Dash Core wallet, showing two masternodes "
+"Coin Selection window in Historia Core wallet, showing two masternodes "
 "(testnet)"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:32
+#: ../../wallets/historiacore/advanced.rst:32
 msgid ""
 "Right click on the transaction(s) you do not want to spend, then select "
 "**Lock unspent**. A small lock will appear next to the transaction. You "
@@ -66,20 +66,20 @@ msgid ""
 "affecting the locked UTXOs."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:45
-msgid "Locking UTXOs in Dash Core wallet"
+#: ../../wallets/historiacore/advanced.rst:45
+msgid "Locking UTXOs in Historia Core wallet"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:51
+#: ../../wallets/historiacore/advanced.rst:51
 msgid "HD Wallets"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:53
+#: ../../wallets/historiacore/advanced.rst:53
 msgid ""
-"Since version 0.12.2.0, Dash Core has included an implementation of "
+"Since version 0.12.2.0, Historia Core has included an implementation of "
 "BIP39/BIP44 compatible hierarchical deterministic (HD) key generation. "
 "This functionality is only available from the command line by specifying "
-"the ``usehd`` option when starting Dash Core for the first time. Use this"
+"the ``usehd`` option when starting Historia Core for the first time. Use this"
 " function with care, since the mnemonic seed and keys will be stored in "
 "plain text until you specify a wallet passphrase. Note that the wallet "
 "passphrase is different to the mnemonic passphrase, which is often also "
@@ -89,44 +89,44 @@ msgid ""
 "seed."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:65
+#: ../../wallets/historiacore/advanced.rst:65
 msgid ""
 "We will use the Windows GUI wallet in this example, but the commands are "
-"similar if using ``dash-qt`` or ``dashd`` on other operating systems. "
+"similar if using ``historia-qt`` or ``historiad`` on other operating systems. "
 "Enter the following command to get started with a randomly generated HD "
 "wallet seed and no mnemonic passphrase::"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:72
+#: ../../wallets/historiacore/advanced.rst:72
 msgid ""
-"A new HD wallet will be generated and Dash Core will display a warning "
+"A new HD wallet will be generated and Historia Core will display a warning "
 "informing you that you must encrypt your wallet after verifying it works "
 "correctly. Open the console from **Tools -> Debug console** or issue the "
-"following RPC command from ``dash-cli`` to view the mnemonic seed::"
+"following RPC command from ``historia-cli`` to view the mnemonic seed::"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:79
+#: ../../wallets/historiacore/advanced.rst:79
 msgid ""
-"Dash Core will display the HD seed in both hexadecimal and as a BIP39 "
+"Historia Core will display the HD seed in both hexadecimal and as a BIP39 "
 "mnemonic. To restore an existing HD wallet, or define your own separately"
 " generated mnemonic and/or passphrase, ensure no ``wallet.dat`` file "
 "exists in the ``datadir`` and enter the following command::"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:87
+#: ../../wallets/historiacore/advanced.rst:87
 msgid ""
 "The HD wallet will be restored and your balance will appear once sync is "
 "complete."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:94
+#: ../../wallets/historiacore/advanced.rst:94
 msgid "Multisignature"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:96
+#: ../../wallets/historiacore/advanced.rst:96
 msgid ""
 "This section presents a worked example to demonstrate multisig "
-"functionality in Dash Core. While the transactions are no longer visible "
+"functionality in Historia Core. While the transactions are no longer visible "
 "on the current testnet blockchain and some address formats or RPC "
 "responses may differ slightly from the version shown here, the principle "
 "and commands are the same. The example demonstrates how to set up a "
@@ -134,100 +134,100 @@ msgid ""
 "involved are a buyer, a seller and an arbiter. This example is based on:"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:104
+#: ../../wallets/historiacore/advanced.rst:104
 msgid "https://people.xiph.org/~greg/escrowexample.txt"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:105
+#: ../../wallets/historiacore/advanced.rst:105
 msgid "https://gist.github.com/gavinandresen/3966071"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:106
+#: ../../wallets/historiacore/advanced.rst:106
 msgid "https://bitcoin.org/en/developer-examples#p2sh-multisig"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:109
+#: ../../wallets/historiacore/advanced.rst:109
 msgid "Step 1: Create three addresses"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:111
-#: ../../wallets/dashcore/advanced.rst:179
-#: ../../wallets/dashcore/advanced.rst:256
-#: ../../wallets/dashcore/advanced.rst:264
-#: ../../wallets/dashcore/advanced.rst:297
+#: ../../wallets/historiacore/advanced.rst:111
+#: ../../wallets/historiacore/advanced.rst:179
+#: ../../wallets/historiacore/advanced.rst:256
+#: ../../wallets/historiacore/advanced.rst:264
+#: ../../wallets/historiacore/advanced.rst:297
 msgid "Seller::"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:128
-#: ../../wallets/dashcore/advanced.rst:187
-#: ../../wallets/dashcore/advanced.rst:208
-#: ../../wallets/dashcore/advanced.rst:216
-#: ../../wallets/dashcore/advanced.rst:278
-#: ../../wallets/dashcore/advanced.rst:289
+#: ../../wallets/historiacore/advanced.rst:128
+#: ../../wallets/historiacore/advanced.rst:187
+#: ../../wallets/historiacore/advanced.rst:208
+#: ../../wallets/historiacore/advanced.rst:216
+#: ../../wallets/historiacore/advanced.rst:278
+#: ../../wallets/historiacore/advanced.rst:289
 msgid "Buyer::"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:145
-#: ../../wallets/dashcore/advanced.rst:195
+#: ../../wallets/historiacore/advanced.rst:145
+#: ../../wallets/historiacore/advanced.rst:195
 msgid "Arbiter::"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:162
+#: ../../wallets/historiacore/advanced.rst:162
 msgid "This results in three keypairs (public/private)::"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:169
+#: ../../wallets/historiacore/advanced.rst:169
 msgid "Step 2: Create multisig address"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:171
+#: ../../wallets/historiacore/advanced.rst:171
 msgid ""
 "The ``createmultisig`` command takes as variables the number n signatures"
 " of m keys (supplied as json array) required. In this example, 2 of 3 "
 "keys are required to sign the transaction."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:175
+#: ../../wallets/historiacore/advanced.rst:175
 msgid ""
 "Note: The address can be created by anyone, as long as the public keys "
 "and their sequence are known (resulting address and redeemScript are "
 "identical, see below)."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:204
+#: ../../wallets/historiacore/advanced.rst:204
 msgid "Step 3: Buyer funds the multisig address"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:206
+#: ../../wallets/historiacore/advanced.rst:206
 msgid "This works the same as a usual transaction."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:213
+#: ../../wallets/historiacore/advanced.rst:213
 msgid ""
 "The seller/arbiter can trace the transaction by its txid in the block "
 "explorer. Or from the console as follows."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:248
+#: ../../wallets/historiacore/advanced.rst:248
 msgid "Step 4: Spending the multisig"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:250
+#: ../../wallets/historiacore/advanced.rst:250
 msgid ""
 "Now we assume the deal is complete, the buyer got the goods and everyone "
-"is happy. Now the seller wants to get his Dash. As a 2-of-3 multisig was "
+"is happy. Now the seller wants to get his Historia. As a 2-of-3 multisig was "
 "used, the transaction must be signed by 2 parties (seller + buyer or "
 "arbiter). The seller creates a transaction (we will reuse his public "
 "address from above)."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:261
+#: ../../wallets/historiacore/advanced.rst:261
 msgid ""
 "And partially signs it, using the redeemScript, scriptPubKey and his "
 "private key"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:272
+#: ../../wallets/historiacore/advanced.rst:272
 msgid ""
 "Note that the output hex is getting longer, but complete flag is "
 "\"false\" as the transaction needs another signature. So now either the "
@@ -236,59 +236,59 @@ msgid ""
 "completing the signature."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:286
+#: ../../wallets/historiacore/advanced.rst:286
 msgid ""
 "The signature is complete now, and either of the parties can transmit the"
 " transaction to the network."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:294
+#: ../../wallets/historiacore/advanced.rst:294
 msgid ""
 "Again, this transaction can be traced in a block explorer. And the seller"
 " is happy to receive his coins at his public address as follows."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:318
+#: ../../wallets/historiacore/advanced.rst:318
 msgid "Multiple wallets"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:320
+#: ../../wallets/historiacore/advanced.rst:320
 msgid ""
-"It is possible to select between different Dash wallets when starting "
-"Dash Core by specifying the ``wallet`` argument, or even run multiple "
-"instances of Dash Core simultaneously by specifying separate data "
+"It is possible to select between different Historia wallets when starting "
+"Historia Core by specifying the ``wallet`` argument, or even run multiple "
+"instances of Historia Core simultaneously by specifying separate data "
 "directories using the ``datadir`` argument."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:325
+#: ../../wallets/historiacore/advanced.rst:325
 msgid ""
-"To begin, install the Dash Core wallet for your system according to the "
-":ref:`installation instructions <dashcore-installation>`. When you get to"
-" the step **Running Dash Core for the first time**, you can decide "
+"To begin, install the Historia Core wallet for your system according to the "
+":ref:`installation instructions <historiacore-installation>`. When you get to"
+" the step **Running Historia Core for the first time**, you can decide "
 "whether you want to maintain separate ``wallet.dat`` files in the default"
 " location (simpler if you do not need to run the wallets simultaneously),"
-" or specify entirely separate data directories such as e.g. ``C:\\Dash1``"
+" or specify entirely separate data directories such as e.g. ``C:\\Historia1``"
 " (simpler if you do want to run the wallets simultaneously)."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:336
+#: ../../wallets/historiacore/advanced.rst:336
 msgid "Separate wallet.dat files"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:338
+#: ../../wallets/historiacore/advanced.rst:338
 msgid ""
 "For this scenario, we will create two shortcuts on the desktop, each "
 "using a different wallet file. Navigate to the binary file used to start "
-"Dash Core (typically locatd at ``C:\\Program Files\\DashCore\\dash-"
+"Historia Core (typically locatd at ``C:\\Program Files\\HistoriaCore\\historia-"
 "qt.exe`` or similar) and create two shortcuts on the desktop. Then open "
 "the **Properties** window for each of these shortcuts."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:347
+#: ../../wallets/historiacore/advanced.rst:347
 msgid "Creating desktop shortcuts using Windows 10"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:349
+#: ../../wallets/historiacore/advanced.rst:349
 msgid ""
 "Modify the **Target** property of each shortcut to point to a different "
 "wallet file by specifying the ``wallet`` argument when starting the "
@@ -298,23 +298,23 @@ msgid ""
 "``workwallet.dat`` and ``homewallet.dat``:"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:356
+#: ../../wallets/historiacore/advanced.rst:356
 msgid ""
-"Wallet Target 1: ``\"C:\\Program Files\\DashCore\\dash-qt.exe\" "
+"Wallet Target 1: ``\"C:\\Program Files\\HistoriaCore\\historia-qt.exe\" "
 "-wallet=workwallet.dat``"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:357
+#: ../../wallets/historiacore/advanced.rst:357
 msgid ""
-"Wallet Target 2: ``\"C:\\Program Files\\DashCore\\dash-qt.exe\" "
+"Wallet Target 2: ``\"C:\\Program Files\\HistoriaCore\\historia-qt.exe\" "
 "-wallet=homewallet.dat``"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:362
+#: ../../wallets/historiacore/advanced.rst:362
 msgid "Specifying separate wallet files"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:364
+#: ../../wallets/historiacore/advanced.rst:364
 msgid ""
 "You can now use the two icons to quickly and easily open different "
 "wallets from your desktop. Note that you cannot open both wallets "
@@ -322,143 +322,143 @@ msgid ""
 "as described below."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:371
+#: ../../wallets/historiacore/advanced.rst:371
 msgid "Separate data directories"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:373
+#: ../../wallets/historiacore/advanced.rst:373
 msgid ""
-"Start Dash Core and allow it to synchronize with the network, then close "
-"Dash Core again. You can now create two directories at e.g. ``C:\\Dash1``"
-" and ``C:\\Dash2`` and copy the ``blocks`` and ``chainstate`` directories"
+"Start Historia Core and allow it to synchronize with the network, then close "
+"Historia Core again. You can now create two directories at e.g. ``C:\\Historia1``"
+" and ``C:\\Historia2`` and copy the ``blocks`` and ``chainstate`` directories"
 " from the synchronized data directory into the new directories. Each of "
 "these will serve as a separate data directory, allowing you to run two "
-"instances of Dash Core simultaneously. Create two (or more) shortcuts on "
+"instances of Historia Core simultaneously. Create two (or more) shortcuts on "
 "your desktop as described above, then specify arguments for ``datadir`` "
 "as shown below:"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:382
+#: ../../wallets/historiacore/advanced.rst:382
 msgid ""
-"Datadir Target 1: ``\"C:\\Program Files\\DashCore\\dash-qt.exe\" "
-"-datadir=C:\\Dash1 -listen=0``"
+"Datadir Target 1: ``\"C:\\Program Files\\HistoriaCore\\historia-qt.exe\" "
+"-datadir=C:\\Historia1 -listen=0``"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:383
+#: ../../wallets/historiacore/advanced.rst:383
 msgid ""
-"Datadir Target 2: ``\"C:\\Program Files\\DashCore\\dash-qt.exe\" "
-"-datadir=C:\\Dash2 -listen=0``"
+"Datadir Target 2: ``\"C:\\Program Files\\HistoriaCore\\historia-qt.exe\" "
+"-datadir=C:\\Historia2 -listen=0``"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:388
+#: ../../wallets/historiacore/advanced.rst:388
 msgid "Specifying separate datadirs"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:390
+#: ../../wallets/historiacore/advanced.rst:390
 msgid ""
 "You can now use the two icons to quickly and easily open different "
 "wallets simultaneously from your desktop. Both wallets maintain separate "
 "and full copies of the blockchain, which may use a lot of drive space. "
 "For more efficient use of drive space, consider using an SPV or \"light\""
-" wallet such as :ref:`Dash Electrum <dash-electrum-wallet>` to maintain "
+" wallet such as :ref:`Historia Electrum <historia-electrum-wallet>` to maintain "
 "multiple separate wallets without keeping a full copy of the blockchain."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:400
-msgid "Two instances of Dash Core running simultaneously"
+#: ../../wallets/historiacore/advanced.rst:400
+msgid "Two instances of Historia Core running simultaneously"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:403
+#: ../../wallets/historiacore/advanced.rst:403
 msgid "KeePass"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:405
+#: ../../wallets/historiacore/advanced.rst:405
 msgid ""
-"Since version 0.11.0, Dash Core has supported integration with KeePass, "
+"Since version 0.11.0, Historia Core has supported integration with KeePass, "
 "the popular open source password manager. This guide describes how to "
-"configure the association between Dash Core and KeePass, and how to save "
-"a Dash Core wallet passphrase in KeePass using the integration. When this"
+"configure the association between Historia Core and KeePass, and how to save "
+"a Historia Core wallet passphrase in KeePass using the integration. When this"
 " is done, KeePass can be used to unlock the wallet."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:412
+#: ../../wallets/historiacore/advanced.rst:412
 msgid "Installation"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:414
+#: ../../wallets/historiacore/advanced.rst:414
 msgid "You will need the following:"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:416
+#: ../../wallets/historiacore/advanced.rst:416
 msgid "KeePass 2: http://keepass.info"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:417
+#: ../../wallets/historiacore/advanced.rst:417
 msgid "KeePassHttp plugin: https://github.com/pfn/keepasshttp"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:418
-msgid "Dash Core: https://www.dash.org"
+#: ../../wallets/historiacore/advanced.rst:418
+msgid "Historia Core: https://historia.network"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:420
+#: ../../wallets/historiacore/advanced.rst:420
 msgid ""
 "If not already installed, install these packages according to the "
 "instructions linked below:"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:423
+#: ../../wallets/historiacore/advanced.rst:423
 msgid "KeePass: https://keepass.info/help/v2/setup.html"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:424
+#: ../../wallets/historiacore/advanced.rst:424
 msgid "KeePassHttp: https://github.com/pfn/keepasshttp/blob/master/README.md"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:425
+#: ../../wallets/historiacore/advanced.rst:425
 msgid ""
-"Dash Core: "
-"https://docs.dash.org/en/latest/wallets/dashcore/installation.html"
+"Historia Core: "
+"https://docs.historia.network/en/latest/wallets/historiacore/installation.html"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:428
+#: ../../wallets/historiacore/advanced.rst:428
 msgid "Commands"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:430
+#: ../../wallets/historiacore/advanced.rst:430
 msgid ""
-"The following KeePass RPC commands are available in the Dash Core client "
+"The following KeePass RPC commands are available in the Historia Core client "
 "console or server:"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:436
+#: ../../wallets/historiacore/advanced.rst:436
 msgid "keepass genkey"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:434
+#: ../../wallets/historiacore/advanced.rst:434
 msgid ""
 "Generates a base64 encoded 256 bit AES key that can be used for "
 "communication with KeePassHttp. This is only necessary for manual "
 "configuration. Use init for automatic configuration."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:442
+#: ../../wallets/historiacore/advanced.rst:442
 msgid "keepass init"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:439
+#: ../../wallets/historiacore/advanced.rst:439
 msgid ""
-"Sets up the association between Dash and KeePass by generating an AES key"
+"Sets up the association between Historia and KeePass by generating an AES key"
 " and sending an association message to KeePassHttp. This will trigger "
 "KeePass to ask for an ID for the association. Returns the association and"
 " the base64 encoded string for the AES key."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:449
+#: ../../wallets/historiacore/advanced.rst:449
 msgid "keepass setpassphrase"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:445
+#: ../../wallets/historiacore/advanced.rst:445
 msgid ""
 "Updates the passphrase in KeePassHttp to a new value. This should match "
 "the passphrase you intend to use for the wallet. Please note that the "
@@ -467,47 +467,47 @@ msgid ""
 "necessary for manual manipulation of the password."
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:451
-msgid "The following new arguments are available for dashd and dash-qt:"
+#: ../../wallets/historiacore/advanced.rst:451
+msgid "The following new arguments are available for historiad and historia-qt:"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:454
+#: ../../wallets/historiacore/advanced.rst:454
 msgid "keepass"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:454
+#: ../../wallets/historiacore/advanced.rst:454
 msgid "Use KeePass 2 integration using KeePassHttp plugin (default: 0)"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:457
+#: ../../wallets/historiacore/advanced.rst:457
 msgid "keepassport=<port>"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:457
+#: ../../wallets/historiacore/advanced.rst:457
 msgid "Connect to KeePassHttp on port <port> (default: 19455)"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:460
+#: ../../wallets/historiacore/advanced.rst:460
 msgid "keepasskey=<key>"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:460
+#: ../../wallets/historiacore/advanced.rst:460
 msgid "KeePassHttp key for AES encrypted communication with KeePass"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:463
+#: ../../wallets/historiacore/advanced.rst:463
 msgid "keepassid=<name>"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:463
+#: ../../wallets/historiacore/advanced.rst:463
 msgid "KeePassHttp id for the established association"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:466
+#: ../../wallets/historiacore/advanced.rst:466
 msgid "keepassname=<name>"
 msgstr ""
 
-#: ../../wallets/dashcore/advanced.rst:466
+#: ../../wallets/historiacore/advanced.rst:466
 msgid "Name to construct url for KeePass entry that stores the wallet passphrase"
 msgstr ""
 
@@ -517,17 +517,17 @@ msgstr ""
 #~ msgid "Placeholder"
 #~ msgstr ""
 
-#~ msgid "Compiling Dash Core"
+#~ msgid "Compiling Historia Core"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "While Dash offers stable binary builds"
+#~ "While Historia offers stable binary builds"
 #~ " on the `website "
-#~ "<https://www.dash.org/wallets>`_, on `Github "
-#~ "<https://github.com/dashpay/dash/releases>`_ and through"
+#~ "<https://historia.network/wallets>`_, on `Github "
+#~ "<https://github.com/HistoriaOffical/historia/releases>`_ and through"
 #~ " development builds using `Bamboo "
-#~ "<https://bamboo.dash.org>`_, many users will "
-#~ "also be interested in building Dash "
+#~ "<https://bamboo.historia.network>`_, many users will "
+#~ "also be interested in building Historia "
 #~ "binaries for themselves. The following "
 #~ "guides are available:"
 #~ msgstr ""
@@ -546,7 +546,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "This guide describes how to build "
-#~ "Dash Core wallet without the GUI "
+#~ "Historia Core wallet without the GUI "
 #~ "from source under Ubuntu Linux. It "
 #~ "is intended to serve as a simple"
 #~ " guide for general compilation of "
@@ -565,13 +565,13 @@ msgstr ""
 #~ "described in the installation documentation::"
 #~ msgstr ""
 
-#~ msgid "Download the stable Dash repository::"
+#~ msgid "Download the stable Historia repository::"
 #~ msgstr ""
 
 #~ msgid "And build::"
 #~ msgstr ""
 
-#~ msgid "``/usr/local/bin`` now contains the compiled Dash binaries."
+#~ msgid "``/usr/local/bin`` now contains the compiled Historia binaries."
 #~ msgstr ""
 
 #~ msgid "Gitian"
@@ -580,7 +580,7 @@ msgstr ""
 #~ msgid ""
 #~ "Gitian is the deterministic build "
 #~ "process that is used to build the"
-#~ " Dash Core executables. It provides a"
+#~ " Historia Core executables. It provides a"
 #~ " way to be reasonably sure that "
 #~ "the executables are really built from"
 #~ " the source on GitHub. It also "
@@ -593,7 +593,7 @@ msgstr ""
 #~ "upload the resulting signature. These "
 #~ "results are compared and only if "
 #~ "they match, the build is accepted "
-#~ "and uploaded to dash.org."
+#~ "and uploaded to historia.network."
 #~ msgstr ""
 
 #~ msgid ""
@@ -661,7 +661,7 @@ msgstr ""
 #~ msgid "Set up the environment and compile"
 #~ msgstr ""
 
-#~ msgid "Clone the Dash Core repository to your home directory::"
+#~ msgid "Clone the Historia Core repository to your home directory::"
 #~ msgstr ""
 
 #~ msgid "Then create the script file::"
@@ -670,7 +670,7 @@ msgstr ""
 #~ msgid ""
 #~ "And paste the following script in "
 #~ "place (this will be automatic if/when"
-#~ " the script is pulled into Dash "
+#~ " the script is pulled into Historia "
 #~ "Core)::"
 #~ msgstr ""
 
@@ -688,15 +688,15 @@ msgstr ""
 
 #~ msgid ""
 #~ "Your system will build all dependencies"
-#~ " and Dash Core from scratch for "
+#~ " and Historia Core from scratch for "
 #~ "Windows and Linux platforms (macOS if"
 #~ " the dependencies were installed according"
 #~ " to these instructions). This can "
 #~ "take some time. When complete, you "
 #~ "will see the SHA256 checksums, which "
 #~ "you can compare against the hashes "
-#~ "available on the Dash website `here "
-#~ "<https://www.dash.org/wallets>`_. In this way, "
+#~ "available on the Historia website `here "
+#~ "<https://historia.network/wallets>`_. In this way, "
 #~ "you can be sure that you are "
 #~ "running original and untampered builds "
 #~ "of the code as it exists on "
@@ -711,12 +711,12 @@ msgstr ""
 
 #~ msgid ""
 #~ "Coin control, multisig, KeePass and "
-#~ "multiple wallet files using the Dash "
+#~ "multiple wallet files using the Historia "
 #~ "Core wallet"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "dash, core, wallet, backup, restore, "
+#~ "historia, core, wallet, backup, restore, "
 #~ "wallet.dat, multisig, KeePass, coin control"
 #~ msgstr ""
 

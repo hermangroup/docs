@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash latest\n"
+"Project-Id-Version: Historia latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-31 04:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../introduction/safety.rst:1
-msgid "Safety and security when buying, holding and spending Dash"
+msgid "Safety and security when buying, holding and spending Historia"
 msgstr ""
 
 #: ../../introduction/safety.rst:1
 msgid ""
-"dash, cryptocurrency, safety, security, hardware, trezor, scam, ponzi, "
+"historia, cryptocurrency, safety, security, hardware, trezor, scam, ponzi, "
 "fake"
 msgstr ""
 
@@ -45,12 +45,12 @@ msgstr ""
 
 #: ../../introduction/safety.rst:20
 msgid ""
-"Dash is designed from the ground up to be fast, secure, fungible and "
+"Historia is designed from the ground up to be fast, secure, fungible and "
 "private. In this sense, it is similar to cash or gold, but cryptocurrency"
 " can be spent locally and internationally with equal ease, if you are "
 "confident you are sending funds to the right destination. For these "
-"reasons, the Dash documentation has a strong focus on safety and "
-"understanding the concepts and features that drive the Dash ecosystem."
+"reasons, the Historia documentation has a strong focus on safety and "
+"understanding the concepts and features that drive the Historia ecosystem."
 msgstr ""
 
 #: ../../introduction/safety.rst:27
@@ -65,10 +65,10 @@ msgstr ""
 
 #: ../../introduction/safety.rst:32
 msgid ""
-"Store your Dash on a :ref:`hardware wallet <dash-hardware-wallet>` if "
-"possible. If not, then store your coins in the official :ref:`Dash Core "
-"Wallet <dash-core-wallet>` or the official :ref:`Dash Electrum Wallet "
-"<dash-electrum-wallet>`."
+"Store your Historia on a :ref:`hardware wallet <historia-hardware-wallet>` if "
+"possible. If not, then store your coins in the official :ref:`Historia Core "
+"Wallet <historia-core-wallet>` or the official :ref:`Historia Electrum Wallet "
+"<historia-electrum-wallet>`."
 msgstr ""
 
 #: ../../introduction/safety.rst:36
@@ -100,10 +100,10 @@ msgid ""
 "is usually done via private messages on the forum, Discord or email. The "
 "attacks are often targeted against masternode owners. If you require "
 "technical assistance, it is best to ask in a public channel/forum or go "
-"to https://support.dash.org and open a ticket. If you engage in personal "
+"to https://support.historia.network and open a ticket. If you engage in personal "
 "chat with a well-known community member, verify their identity by their "
 "chat history or through their publicly available cryptographic keys. All "
-"community members and `Dash Core Group staff <https://dash.org/team>`__ "
+"community members and `Historia Core Group staff <https://historia.network/team>`__ "
 "will be able to verify their identity using signed PGP messages. "
 "Identities can also be verified on Keybase:"
 msgstr ""
@@ -150,35 +150,35 @@ msgstr ""
 
 #: ../../introduction/safety.rst:74
 msgid ""
-"There are many \"fake\" Dash/Darkcoin pages on the internet attempting to"
-" trick users into sending Dash or other cryptocurrencies or \"open a "
-"wallet\". Other scams include selling fake mining hardware, fake Dash or "
+"There are many \"fake\" Historia/Darkcoin pages on the internet attempting to"
+" trick users into sending Historia or other cryptocurrencies or \"open a "
+"wallet\". Other scams include selling fake mining hardware, fake Historia or "
 "altcoins with a similar name, and Ponzi schemes (see below). Please be "
 "careful and do NOT trust any third parties listed here!!"
 msgstr ""
 
 #: ../../introduction/safety.rst:80
-msgid "List of known Dash-related scams:"
+msgid "List of known Historia-related scams:"
 msgstr ""
 
 #: ../../introduction/safety.rst:82
-msgid "**dash-wallet dot com** is a known scam!"
+msgid "**historia-wallet dot com** is a known scam!"
 msgstr ""
 
 #: ../../introduction/safety.rst:83
-msgid "**electrumdash dot org** is a fake clone of the official site!"
+msgid "**electrumhistoria dot org** is a fake clone of the official site!"
 msgstr ""
 
 #: ../../introduction/safety.rst:84
-msgid "**dashcoinmining dot com** is not affiliated with Dash!"
+msgid "**historiacoinmining dot com** is not affiliated with Historia!"
 msgstr ""
 
 #: ../../introduction/safety.rst:85
-msgid "**dashcrypto dot info** is not affiliated with Dash!"
+msgid "**historiacrypto dot info** is not affiliated with Historia!"
 msgstr ""
 
 #: ../../introduction/safety.rst:86
-msgid "**onclooud dot com** is not affiliated with Dash!"
+msgid "**onclooud dot com** is not affiliated with Historia!"
 msgstr ""
 
 #: ../../introduction/safety.rst:87
@@ -190,11 +190,11 @@ msgid "**minershop dot biz** is selling fake Baikal miners!"
 msgstr ""
 
 #: ../../introduction/safety.rst:89
-msgid "**dashcoinclub dot com** is a Ponzi scheme not affiliated with Dash!"
+msgid "**historiacoinclub dot com** is a Ponzi scheme not affiliated with Historia!"
 msgstr ""
 
 #: ../../introduction/safety.rst:90
-msgid "**dash-coin dot net** is a fake web wallet, do not send them money!"
+msgid "**historia-coin dot net** is a fake web wallet, do not send them money!"
 msgstr ""
 
 #: ../../introduction/safety.rst:91
@@ -203,8 +203,8 @@ msgstr ""
 
 #: ../../introduction/safety.rst:93
 msgid ""
-"Beware of fake Twitter accounts impersonating Dash! The official Twitter "
-"account is: https://twitter.com/Dashpay"
+"Beware of fake Twitter accounts impersonating Historia! The official Twitter "
+"account is: https://twitter.com/Historiapay"
 msgstr ""
 
 #: ../../introduction/safety.rst:96
@@ -240,7 +240,7 @@ msgstr ""
 #: ../../introduction/safety.rst:107
 msgid ""
 "Feel free to report any new scams you find on the forum in our \"swat "
-"team\" thread: https://dashtalk.org/threads/www-dash-wallet-com-is-a"
+"team\" thread: https://historiatalk.org/threads/www-historia-wallet-com-is-a"
 "-scam-website.8267"
 msgstr ""
 
@@ -448,17 +448,17 @@ msgstr ""
 #~ "with equal ease, if you are "
 #~ "confident you are sending funds to "
 #~ "the right destination. For these "
-#~ "reasons, the Dash documentation has a"
+#~ "reasons, the Historia documentation has a"
 #~ " strong focus on safety and "
 #~ "understanding the concepts and features "
-#~ "that drive the Dash ecosystem."
+#~ "that drive the Historia ecosystem."
 #~ msgstr ""
 
 #~ msgid ""
 #~ "Feel free to report any new scams"
 #~ " you find on the forum in our"
 #~ " \"swat team\" thread: "
-#~ "https://dashtalk.org/threads/www-dash-wallet-com-"
+#~ "https://historiatalk.org/threads/www-historia-wallet-com-"
 #~ "is-a -scam-website.8267"
 #~ msgstr ""
 

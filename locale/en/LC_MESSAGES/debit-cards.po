@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2017, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-25 08:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -23,12 +23,12 @@ msgstr ""
 
 #: ../../debit-cards.rst:7
 msgid ""
-"A range of debit cards are available for Dash. These cards work by "
-"prepaying in Dash, then withdrawing cash from an ATM or spending online "
+"A range of debit cards are available for Historia. These cards work by "
+"prepaying in Historia, then withdrawing cash from an ATM or spending online "
 "or anywhere debit/credit cards are supported. For an overview and review "
-"of all available and upcoming cards, including cards funded by the Dash "
-"budget system, see `this article on Dash Force News "
-"<https://www.dashforcenews.com/debit-card-proposal-reviews/>`_. See below"
+"of all available and upcoming cards, including cards funded by the Historia "
+"budget system, see `this article on Historia Force News "
+"<https://www.historiaforcenews.com/debit-card-proposal-reviews/>`_. See below"
 " for a list of supported cards."
 msgstr ""
 
@@ -37,7 +37,7 @@ msgid ""
 "DISCLAIMER: This list is provided for informational purposes only. Legal "
 "regulations are changing rapidly, so please verify with the card vendors "
 "and financial regulators in your jurisdiction to verify the card is "
-"available and functional for your location. Dash Core is not liable for "
+"available and functional for your location. Historia Core is not liable for "
 "any funds transmitted in error to these providers, or for the accuracy of"
 " information on this page."
 msgstr ""

@@ -1,6 +1,6 @@
 .. meta::
-   :description: Guide for merchants getting started with Dash. Online and offline payment processors
-   :keywords: dash, pos, merchants, payment processor, store, wordpress, woocommerce, coinpayments, point of sale
+   :description: Guide for merchants getting started with Historia. Online and offline payment processors
+   :keywords: historia, pos, merchants, payment processor, store, wordpress, woocommerce, coinpayments, point of sale
 
 .. _merchants:
 
@@ -10,9 +10,9 @@
 Getting Started
 ===============
 
-Dash welcomes new merchants and supports integration through a
+Historia welcomes new merchants and supports integration through a
 standardised onboarding process. It's easy to begin accepting payments
-in Dash and enjoy the following benefits:
+in Historia and enjoy the following benefits:
 
 - Settlement within seconds and clearance within minutes
 - Ability to accept payments from any market around the world
@@ -20,9 +20,9 @@ in Dash and enjoy the following benefits:
 - Advanced privacy for both customers and merchants
 - Lowest fees in the industry
 
-A three-part course on why Dash is a popular choice for payments and how
+A three-part course on why Historia is a popular choice for payments and how
 integration takes place is available in English and Spanish on
-`DashAcademy.com <http://www.dashacademy.com>`_. To get started with an
+`HistoriaAcademy.com <http://www.historiaacademy.com>`_. To get started with an
 integration in your sales system, simply select an online or point of
 sale payment solution from the lists below. If you are unsure, GoCoin is
 a popular choice due its support for :ref:`InstantSend <instantsend>`,
@@ -32,33 +32,33 @@ supports InstantSend. Larger integrations may require some customisation
 or cooperation with a specialist payment processor such as `ePaymints
 <http://epaymints.com>`__. This documentation also describes the
 :ref:`administrative <merchants-administrative>` and  :ref:`technical
-<merchants-technical>` steps required to integrate  various Dash
+<merchants-technical>` steps required to integrate  various Historia
 services.
 
-Any Dash received in payment can be automatically converted to the fiat
+Any Historia received in payment can be automatically converted to the fiat
 currency of your choice using services such as `Uphold
 <https://uphold.com>`_. Simply select the card for the target currency
 and click **Add funds** -> **With cryptocurrency**. Any cryptocurrency
 deposited to this address will immediately be converted to the target
 fiat currency at the time of deposit.
 
-Many major merchants accept Dash - check out `Bitrefill
+Many major merchants accept Historia - check out `Bitrefill
 <https://www.bitrefill.com>`__ or `CheapAir
 <https://www.cheapair.com>`__ for examples of what merchant integration
-can look like. Once you are up and running accepting Dash, consider
-adding your business to the directory maintained at `Discover Dash
-<https://discoverdash.com>`_ for increased visibility.
+can look like. Once you are up and running accepting Historia, consider
+adding your business to the directory maintained at `Discover Historia
+<https://discoverhistoria.com>`_ for increased visibility.
 
 Payment Processors
 ==================
 
-This section lists known payment processors supporting Dash and the
+This section lists known payment processors supporting Historia and the
 business platforms they support. Please conduct thorough research before
 choosing a payment provider to ensure your needs will be met. 
 
 For more advanced payment processing needs, such as for high risk
 merchant accounts in industries challenged with high levels of
-chargebacks, it is recommended to contact Dash partner `ePaymints
+chargebacks, it is recommended to contact Historia partner `ePaymints
 <http://epaymints.com>`__.
 
 
@@ -163,7 +163,7 @@ WooCommerce and GoCoin
 
 If your online store is built on WooCommerce, you can simply install
 GoCoin as an additional payment gateway and immediately begin accepting
-Dash. This guide assumes you have already `installed Wordpress
+Historia. This guide assumes you have already `installed Wordpress
 <https://codex.wordpress.org/Installing_WordPress>`_, `installed
 WooCommerce <https://docs.woocommerce.com/document/installing-
 uninstalling-woocommerce/>`_ and `created at least one product
@@ -184,12 +184,12 @@ just downloaded, then click **Install Now** and **Activate Plugin**.
 
 Next, go to the `GoCoin merchant sign up page
 <https://gocoin.com/merchant_signup>`_ and create an account. Once you
-are logged in, go to **Preferences**, select **Dash** and click **Add
-DASH Address** to add a payment withdrawal address. You will receive an
+are logged in, go to **Preferences**, select **Historia** and click **Add
+HISTORIA Address** to add a payment withdrawal address. You will receive an
 email with a link to confirm the address. Next, go to **Developers** and
 copy the **Merchant ID** into a temporary text file. Next, click **Get
 Key** to display a valid API key. Copy this key into your temporary text
-file as well. Finally, you can optionally add a Dash logo to your
+file as well. Finally, you can optionally add a Historia logo to your
 checkout by **Profile** section and clicking **Logo -> Upload**.
 
 .. image:: img/gocoin-address.png
@@ -206,11 +206,11 @@ other fields as necessary. Click **Save changes** when you are ready.
 .. image:: img/gocoin-settings.png
    :width: 550px
 
-Your customers will now see an option to pay with Dash when completing
+Your customers will now see an option to pay with Historia when completing
 the checkout process for an order. The payment will be processed by
 GoCoin, and you will receive emails detailing each purchase procedure.
 You can choose how often you want to withdraw your payments, to which
-Dash address and various other options in the GoCoin administration
+Historia address and various other options in the GoCoin administration
 section. See the `GoCoin Documentation <https://gocoin.com/docs>`_ for
 more information.
 
@@ -232,7 +232,7 @@ WooCommerce and CoinPayments.net
 
 If your online store is built on WooCommerce, you can simply install
 CoinPayments as an additional payment gateway and immediately begin
-accepting Dash. This guide assumes you have already `installed Wordpress
+accepting Historia. This guide assumes you have already `installed Wordpress
 <https://codex.wordpress.org/Installing_WordPress>`_, `installed
 WooCommerce <https://docs.woocommerce.com/document/installing-
 uninstalling-woocommerce/>`_ and `created at least one product
@@ -257,7 +257,7 @@ is installed, click **Activate** to begin configuration.
 Next, go to CoinPayments.net and `sign up
 <https://www.coinpayments.net/register>`_ to create an account. Once you
 are logged in, go to **Account -> Coin Acceptance Settings** and enable
-Dash, as well as optionally entering a withdrawal address. Next, go to
+Historia, as well as optionally entering a withdrawal address. Next, go to
 **Account -> Account Settings** and copy **Your Merchant ID** from the
 **Basic Settings** area into a text file. Then navigate to the
 **Merchant Settings** section and enter a long, random series of
@@ -275,11 +275,11 @@ fields as shown below. Click **Save Changes** when you are ready.
 
    Configuring the CoinPayments.net WooCommerce plugin
 
-Your customers will now see an option to pay with Dash when completing
+Your customers will now see an option to pay with Historia when completing
 the checkout process for an order. The payment will be processed by
 CoinPayments.net, and you will receive emails detailing each purchase
 procedure. You can choose how often you want to withdraw your payments,
-to which Dash address and various other options in the CoinPayments
+to which Historia address and various other options in the CoinPayments
 administration section. See the `CoinPayments Documentation
 <https://www.coinpayments.net/help>`_ or `Merchant Tools
 <https://www.coinpayments.net/merchant-tools>`_ for more information.
@@ -301,13 +301,13 @@ Point-of-Sale with Anypay
 -------------------------
 
 `Anypay.global <http://anypay.global>`_ allows you to quickly start
-accepting point-of-sale payments in Dash at a physical store. The
+accepting point-of-sale payments in Historia at a physical store. The
 service functions as a simple website that you load on any internet-
 connected and touch-enabled device, such as a smartphone or tablet.
 
 Begin by registering an account with Anypay. You will be asked to
 specify an email address and password. Once you are signed in, you must
-add a Dash payment withdrawal address.
+add a Historia payment withdrawal address.
 
 .. image:: img/anypay-register.png
    :width: 200px
@@ -324,7 +324,7 @@ add a Dash payment withdrawal address.
 Once this has been set up, you can begin processing payments
 immediately. Simply log in to https://pos.anypay.global or tap
 **Merchant Point of Sale App** in the admin area using your device. A
-keypad will appear. Enter the invoice amount in USD or DASH and press
+keypad will appear. Enter the invoice amount in USD or HISTORIA and press
 the **COLLECT** button at the bottom of the screen. The app will
 generate a QR code for your customer to scan. Once payment is complete,
 you will be able to create a new invoice by tapping **Next Payment**, or
@@ -343,32 +343,32 @@ specified shortly after payment is complete.
 Point-of-Sale with Spark
 ------------------------
 
-`Spark Payments <https://www.dash.org/forum/threads/39665/>`__ allows
-you to quickly start accepting point-of-sale payments in Dash at a
+`Spark Payments <https://historia.network/forum/threads/39665/>`__ allows
+you to quickly start accepting point-of-sale payments in Historia at a
 physical store. The system works as an app, and is available for
 Android, macOS, Windows and Linux, with an iOS progressive web app (`PWA
 <https://en.wikipedia.org/wiki/Progressive_Web_Apps>`_) in development.
 
-The project is an external terminal application for processing Dash
+The project is an external terminal application for processing Historia
 payments in brick and mortar stores. The merchant types the sale amount
 in their local currency (94 currencies supported), the application will
-generate a QR code sale for the proper amount of Dash for the customer
+generate a QR code sale for the proper amount of Historia for the customer
 to scan. Then the terminal will provide feedback on the status of the
 payment (received, timed out, partial, instantsend or regular), and if
 set up - fiat conversion through `uphold.com <https://uphold.com>`_. A
 guide on how to set up Spark with Uphold to convert payments to fiat
 currency is available in 
-`English <https://github.com/dashpay/docs/raw/master/merchants/Spark-Payments-Uphold-English.pdf>`__ 
+`English <https://github.com/HistoriaOffical/docs/raw/master/merchants/Spark-Payments-Uphold-English.pdf>`__ 
 and 
-`German <https://github.com/dashpay/docs/raw/master/merchants/Spark-Payments-Uphold-German.pdf>`__.
+`German <https://github.com/HistoriaOffical/docs/raw/master/merchants/Spark-Payments-Uphold-German.pdf>`__.
 
 To use Spark, open the app on your device. If this is the first time you
-are using the app, you will need to specify a Dash address to receive
+are using the app, you will need to specify a Historia address to receive
 payments from the system, as well as your chosen fiat currency. You can
 change this information at any time from the menu. To generate a payment
 invoice, enter the amount in fiat currency. Spark will generate a QR
 code containing your specified address and the requested amount,
-denominated in Dash. The customer scans the QR code, and the app will
+denominated in Historia. The customer scans the QR code, and the app will
 display a visual indication when payment is complete.
 
 .. figure:: img/spark.png
@@ -378,6 +378,6 @@ display a visual indication when payment is complete.
 
 Payment systems like Anypay and Spark can be integrated with your
 existing terminal and/or accounting software (such as Square Register,
-by recording sales invoiced in Dash as an **Other Payment Type** in the
-system. This allows you to keep track of your Dash income as easily as
+by recording sales invoiced in Historia as an **Other Payment Type** in the
+system. This allows you to keep track of your Historia income as easily as
 if you were accepting cash.

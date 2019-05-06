@@ -1,8 +1,8 @@
 .. meta::
-   :description: How to use Dash cryptocurrency with hardware wallets
-   :keywords: dash, hardware, wallet, ledger, keepkey, trezor, secure, private key
+   :description: How to use Historia cryptocurrency with hardware wallets
+   :keywords: historia, hardware, wallet, ledger, keepkey, trezor, secure, private key
 
-.. _dash-hardware-wallet:
+.. _historia-hardware-wallet:
 
 Introduction
 ============
@@ -10,7 +10,7 @@ Introduction
 Hardware wallets offer you the security of storing your keys in secure
 device while still allowing you to make simple transactions through a
 web interface. Three major manufacturers of hardware wallets currently
-exist, with Dash supported on all of them.
+exist, with Historia supported on all of them.
 
 .. _hardware-trezor:
 
@@ -24,7 +24,7 @@ Trezor
 Developed by Czech startup `SatoshiLabs <https://satoshilabs.com>`_, the
 $99 device is essentially a USB dongle designed to add an extra
 authentication layer to all outbound bitcoin transactions. Trezor has
-supported Dash since January 2017 with the release of firmware version
+supported Historia since January 2017 with the release of firmware version
 1.4.2.
 
 By virtue of its design, Trezor can be used to sign transactions on
@@ -37,11 +37,11 @@ key, Trezor claims to use a number of clever tricks to maintain security
 even on compromised and unsafe machines.
 
 - Site: https://trezor.io
-- Review: https://www.dashforcenews.com/trezor-hardware-wallet-review
+- Review: https://www.historiaforcenews.com/trezor-hardware-wallet-review
 - Shop: https://shop.trezor.io
 - Wallet: https://wallet.trezor.io
 
-It is also possible to operate a Dash masternode using your Trezor. See
+It is also possible to operate a Historia masternode using your Trezor. See
 here for details.
 
 Getting Started
@@ -49,14 +49,14 @@ Getting Started
 
 Once you have bought your Trezor from https://shop.trezor.io or an
 `authorized reseller <https://trezor.io/resellers>`_, you will need a
-wallet to use it with. Trezor supports the following Dash wallets:
+wallet to use it with. Trezor supports the following Historia wallets:
 
 - `Trezor Wallet <https://wallet.trezor.io>`_ (`documentation
   <https://doc.satoshilabs.com/trezor-apps/trezorwallet.html>`__)
-- `Dash Electrum Wallet <https://electrum.dash.org>`__
-  (:ref:`documentation <dash-electrum-wallet>`)
-- `Dash Masternode Tool <https://github.com/Bertrand256/dash-masternode-
-  tool>`_ (`documentation <https://github.com/Bertrand256/dash-
+- `Historia Electrum Wallet <https://electrum.historia.network>`__
+  (:ref:`documentation <historia-electrum-wallet>`)
+- `Historia Masternode Tool <https://github.com/Bertrand256/historia-masternode-
+  tool>`_ (`documentation <https://github.com/Bertrand256/historia-
   masternode-tool/blob/master/README.md>`__)
 
 This documentation describes how to get started using the official
@@ -106,45 +106,45 @@ steps when setting up your Trezor for the first time:
 #. The Trezor Wallet will appear with a message that your device is
    ready for use. Your device name will appear on the device.
 
-#. Switch to the Dash wallet using the menu at the top left. You can now
-   use your Trezor to send and receive Dash.
+#. Switch to the Historia wallet using the menu at the top left. You can now
+   use your Trezor to send and receive Historia.
 
 .. figure:: img/trezor-start.png
    :width: 400px
 
-   Trezor Web Wallet for Dash ready for first use
+   Trezor Web Wallet for Historia ready for first use
 
-Receiving Dash
+Receiving Historia
 --------------
 
-We will now create a Dash receiving address and attempt to receive 1.0
-DASH.
+We will now create a Historia receiving address and attempt to receive 1.0
+HISTORIA.
 
-1. In the Trezor Dash wallet, click **Account #1**, then click Receive. 
-2. A Dash address will appear. Click **Show full address** to verify the
+1. In the Trezor Historia wallet, click **Account #1**, then click Receive. 
+2. A Historia address will appear. Click **Show full address** to verify the
    address on the Trezor device.
 
   .. image:: img/trezor-address.jpg
      :width: 100px
 
-3. Send 1 DASH to this address using an exchange or another wallet.
+3. Send 1 HISTORIA to this address using an exchange or another wallet.
 4. Once the transaction is confirmed, it will appear on the
    **Transactions** tab of your Trezor Wallet.
 
 .. figure:: img/trezor-receive.png
    :width: 400px
 
-   Trezor Web Wallet after receiving Dash
+   Trezor Web Wallet after receiving Historia
 
 
-Sending Dash
+Sending Historia
 ------------
 
-We will now send the Dash (minus transaction costs) to an external
+We will now send the Historia (minus transaction costs) to an external
 address.
 
-1. In the Trezor Dash wallet, click **Account #1**, then click **Send**.
-2. Enter the Dash address and amount in the fields.
+1. In the Trezor Historia wallet, click **Account #1**, then click **Send**.
+2. Enter the Historia address and amount in the fields.
 
   .. image:: img/trezor-send.png
      :width: 400px
@@ -161,7 +161,7 @@ address.
 .. figure:: img/trezor-balance.png
    :width: 400px
 
-   Trezor Web Wallet after sending Dash
+   Trezor Web Wallet after sending Historia
 
 Advanced Functions
 ------------------
@@ -187,7 +187,7 @@ Changing your PIN
 
 You can change your Trezor PIN from both the `Trezor wallet
 <https://wallet.trezor.io>`_ and `DMT <https://github.com/Bertrand256
-/dash-masternode-tool/releases>`_.
+/historia-masternode-tool/releases>`_.
 
 **From Trezor:** Go to https://wallet.trezor.io and click the cog icon
 next to your username. Then click **Change PIN**. You will need to
@@ -247,7 +247,7 @@ homescreen image:
    button at the top
 #. Confirm the change on the Trezor device
 
-A few sample images are available for Dash:
+A few sample images are available for Historia:
 
 .. image:: img/trezor-home-1.png
    :width: 128px
@@ -263,7 +263,7 @@ Storage Suggestions
 
 While losing a Trezor is not a security threat (unless someone knows
 your PIN and/or passphrase), it is a moderately expensive device that
-can be damaged by pressure or water, for example. For this reason, Dash
+can be damaged by pressure or water, for example. For this reason, Historia
 community member tungfa has shared photos of a custom-made Trezor case.
 The following materials are required:
 
@@ -292,17 +292,17 @@ KeepKey
 
 The $129 KeepKey hardware wallet features a large screen and 100% open
 source firmware to guarantee the security of your private keys. KeepKey
-has supported Dash since firmware version 4.2.10, released on March 28,
+has supported Historia since firmware version 4.2.10, released on March 28,
 2017, and added support for InstantSend in firmware version 5.7.2,
 released on September 5, 2018. Follow these instructions to begin using
-Dash on your KeepKey device.
+Historia on your KeepKey device.
 
 - Site: https://www.keepkey.com
 - Review: https://coincentral.com/keepkey-wallet-review
 - Shop: https://keepkey.myshopify.com/
 - Product video: https://vimeo.com/133811189
 
-It is also possible to operate a Dash masternode using your KeepKey. See
+It is also possible to operate a Historia masternode using your KeepKey. See
 here for details.
 
 Ledger
@@ -316,12 +316,12 @@ Founded in 2014, French startup `Ledger <https://www.ledger.com>`_
 markets enterprise and consumer blockchain security solutions, including
 the €58 `Ledger Nano S <https://www.ledger.com/products/ledger-nano-s>`_ and upcoming `Ledger Blue
 <https://www.ledger.com/products/ledger-blue>`_. Ledger Nano S has
-supported Dash since November 2016 and firmware version 1.2. Follow
+supported Historia since November 2016 and firmware version 1.2. Follow
 `these instructions
-<https://support.ledger.com/hc/en-us/articles/115005308185-Dash-DASH->`_ to add Dash support to the device.
+<https://support.ledger.com/hc/en-us/articles/115005308185-Historia-HISTORIA->`_ to add Historia support to the device.
 
 - Site: https://www.ledger.com
-- Review: https://www.dashforcenews.com/ledger-nano-s-review
+- Review: https://www.historiaforcenews.com/ledger-nano-s-review
 - Shop: https://www.ledger.com/collections/all-products
 
 Product video:
@@ -332,5 +332,5 @@ Product video:
         <iframe src="//www.youtube.com/embed/MFLuRLcu61s" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-It is also possible to operate a Dash masternode using your Ledger. See
+It is also possible to operate a Historia masternode using your Ledger. See
 here for details.

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Dash documentation build configuration file, created by
+# Historia documentation build configuration file, created by
 # sphinx-quickstart on Wed Nov 29 11:17:04 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -45,8 +45,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Dash'
-copyright = u'2018, Dash Core Group, Inc'
+project = u'Historia'
+copyright = u'2018, Historia Core Group, Inc'
 author = u'strophy'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -99,7 +99,7 @@ html_theme_options = {
     # 'navigation_depth': 4,  # Depth of the headers shown in the navigation bar
 }
 
-html_logo = 'img/dash_logo_white.png'
+html_logo = 'img/historia_logo_white.png'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
@@ -141,7 +141,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Dashdoc'
+htmlhelp_basename = 'Historiadoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -168,7 +168,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Dash.tex', u'Dash Documentation',
+    (master_doc, 'Historia.tex', u'Historia Documentation',
      u'strophy', 'manual'),
 ]
 
@@ -178,7 +178,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'dash', u'Dash Documentation',
+    (master_doc, 'historia', u'Historia Documentation',
      [author], 1)
 ]
 
@@ -189,8 +189,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Dash', u'Dash Documentation',
-     author, 'Dash', 'A revolutionary digital money system, Dash is Digital Cash',
+    (master_doc, 'Historia', u'Historia Documentation',
+     author, 'Historia', 'A revolutionary digital money system, Historia is Digital Cash',
      'Miscellaneous'),
 ]
 

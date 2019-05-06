@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2017, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-13 08:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -17,41 +17,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../wallets/dashcore/installation-linux.rst:1
-msgid "How to download, install and encrypt the Dash Core wallet in Linux"
+#: ../../wallets/historiacore/installation-linux.rst:1
+msgid "How to download, install and encrypt the Historia Core wallet in Linux"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:1
-msgid "dash, core, wallet, linux, ubuntu, installation"
+#: ../../wallets/historiacore/installation-linux.rst:1
+msgid "historia, core, wallet, linux, ubuntu, installation"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:8
+#: ../../wallets/historiacore/installation-linux.rst:8
 msgid "Linux Installation Guide"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:10
+#: ../../wallets/historiacore/installation-linux.rst:10
 msgid ""
 "This guide describes how to download, verify, install and encrypt the "
-"Dash Core wallet for Linux. The guide is written for Ubuntu 16.04 LTS, "
+"Historia Core wallet for Linux. The guide is written for Ubuntu 16.04 LTS, "
 "but the steps should be similar for other Linux distributions."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:15
-msgid "Downloading the Dash Core wallet"
+#: ../../wallets/historiacore/installation-linux.rst:15
+msgid "Downloading the Historia Core wallet"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:17
+#: ../../wallets/historiacore/installation-linux.rst:17
 msgid ""
-"Visit https://www.dash.org/get-dash to download the latest Dash Core "
+"Visit https://historia.network/get-historia to download the latest Historia Core "
 "wallet. In most cases, the website will properly detect which version you"
-" need. Click the blue Dash Core button to download the package directly."
+" need. Click the blue Historia Core button to download the package directly."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:25
+#: ../../wallets/historiacore/installation-linux.rst:25
 msgid "The website properly detects the wallet appropriate for your system"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:27
+#: ../../wallets/historiacore/installation-linux.rst:27
 msgid ""
 "If detection does not work, you will need to manually choose your "
 "operating system and whether you need a 32 or 64 bit version. If you are "
@@ -62,52 +62,52 @@ msgid ""
 "-bit-or-64-bit/>`__."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:37
+#: ../../wallets/historiacore/installation-linux.rst:37
 msgid "Ubuntu System Overview. This is a 64 bit system."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:39
+#: ../../wallets/historiacore/installation-linux.rst:39
 msgid ""
-"Once you know which version you need, download Dash Core to your computer"
-" from `https://www.dash.org/wallets <https://www.dash.org/wallets>`__."
+"Once you know which version you need, download Historia Core to your computer"
+" from `https://historia.network/wallets <https://historia.network/wallets>`__."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:45
-msgid "Manually selecting and downloading Dash Core"
+#: ../../wallets/historiacore/installation-linux.rst:45
+msgid "Manually selecting and downloading Historia Core"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:47
+#: ../../wallets/historiacore/installation-linux.rst:47
 msgid "Save the file you downloaded to your Downloads folder."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:50
-msgid "Verifying Dash Core"
+#: ../../wallets/historiacore/installation-linux.rst:50
+msgid "Verifying Historia Core"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:52
+#: ../../wallets/historiacore/installation-linux.rst:52
 msgid ""
 "This step is optional, but recommended to verify the integrity of the "
 "file you downloaded. This is done by checking its SHA256 hash against the"
-" hash published by the Dash Core development team. To view the published "
+" hash published by the Historia Core development team. To view the published "
 "hash, click the **Hash file** button on the wallet download page."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:61
-msgid "Downloading the Dash Core hash file"
+#: ../../wallets/historiacore/installation-linux.rst:61
+msgid "Downloading the Historia Core hash file"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:63
+#: ../../wallets/historiacore/installation-linux.rst:63
 msgid ""
-"Once both the Dash Core file and the hash file have downloaded, double-"
+"Once both the Historia Core file and the hash file have downloaded, double-"
 "click the hash file or view it in your browser and find the hash value "
-"for the Dash Core file you downloaded."
+"for the Historia Core file you downloaded."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:70
-msgid "Viewing the Dash Core hash file"
+#: ../../wallets/historiacore/installation-linux.rst:70
+msgid "Viewing the Historia Core hash file"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:72
+#: ../../wallets/historiacore/installation-linux.rst:72
 msgid ""
 "This hash value should correspond with the hash value of the file you "
 "have downloaded to ensure it is authentic and was not corrupted during "
@@ -115,71 +115,71 @@ msgid ""
 "saved the file, and run the sha256sum command."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:80
+#: ../../wallets/historiacore/installation-linux.rst:80
 msgid "Generating an SHA256 hash for the downloaded file"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:82
+#: ../../wallets/historiacore/installation-linux.rst:82
 msgid ""
-"If the hashes match, then you have an authentic copy of Dash Core for "
+"If the hashes match, then you have an authentic copy of Historia Core for "
 "Linux."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:86
-msgid "Extracting Dash Core"
+#: ../../wallets/historiacore/installation-linux.rst:86
+msgid "Extracting Historia Core"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:88
+#: ../../wallets/historiacore/installation-linux.rst:88
 msgid ""
-"Dash Core for Linux is distributed as a compressed archive and not an "
+"Historia Core for Linux is distributed as a compressed archive and not an "
 "installer. This is because this same archive also contains other files "
 "built for running a masternode on a server, for example. In this guide, "
 "we will extract the executable file with a graphical user interface (GUI)"
 " designed for use by end users as a wallet."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:94
+#: ../../wallets/historiacore/installation-linux.rst:94
 msgid ""
-"Begin by creating a folder for the Dash Core executable file on the "
+"Begin by creating a folder for the Historia Core executable file on the "
 "Desktop. Browse to the Desktop (or the location of your choice) and "
 "create the folder."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:101
+#: ../../wallets/historiacore/installation-linux.rst:101
 msgid "Creating a folder on the Desktop"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:106
-msgid "Renaming the folder to Dash"
+#: ../../wallets/historiacore/installation-linux.rst:106
+msgid "Renaming the folder to Historia"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:108
+#: ../../wallets/historiacore/installation-linux.rst:108
 msgid ""
 "Next, open the archive by double-clicking on it. The Archive Manager will"
-" appear. Browse to the dashcore-0.12.1/bin/ folder and extract the dash-"
-"qt file to the Dash folder you created on the Desktop by drag and drop."
+" appear. Browse to the historiacore-0.12.1/bin/ folder and extract the historia-"
+"qt file to the Historia folder you created on the Desktop by drag and drop."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:116
-msgid "The dash-qt file in Archive Manager"
+#: ../../wallets/historiacore/installation-linux.rst:116
+msgid "The historia-qt file in Archive Manager"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:121
-msgid "The dash-qt file in the Dash folder on the Desktop"
+#: ../../wallets/historiacore/installation-linux.rst:121
+msgid "The historia-qt file in the Historia folder on the Desktop"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:123
+#: ../../wallets/historiacore/installation-linux.rst:123
 msgid ""
-"To run Dash Core for the first time, open Terminal and browse to the Dash"
+"To run Historia Core for the first time, open Terminal and browse to the Historia"
 " folder on the Desktop, or where you chose to extract the file. Type "
-"``./dash-qt`` to run the file."
+"``./historia-qt`` to run the file."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:130
-msgid "Running Dash Core from the Terminal"
+#: ../../wallets/historiacore/installation-linux.rst:130
+msgid "Running Historia Core from the Terminal"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:132
+#: ../../wallets/historiacore/installation-linux.rst:132
 msgid ""
 "The first time the program is launched, you will be offered a choice of "
 "where you want to store your blockchain and wallet data. Choose a "
@@ -187,61 +187,61 @@ msgid ""
 "size. It is recommended to use the default data folder if possible."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:140
-msgid "Choosing the Dash Core data folder"
+#: ../../wallets/historiacore/installation-linux.rst:140
+msgid "Choosing the Historia Core data folder"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:142
+#: ../../wallets/historiacore/installation-linux.rst:142
 msgid ""
-"Dash Core will then start up. This will take a little longer than usual "
-"the first time you run it, since Dash Core needs to generate "
+"Historia Core will then start up. This will take a little longer than usual "
+"the first time you run it, since Historia Core needs to generate "
 "cryptographic data to secure your wallet."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:149
-msgid "Starting Dash Core"
+#: ../../wallets/historiacore/installation-linux.rst:149
+msgid "Starting Historia Core"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:152
-msgid "Synchronizing Dash Core to the Dash network"
+#: ../../wallets/historiacore/installation-linux.rst:152
+msgid "Synchronizing Historia Core to the Historia network"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:154
+#: ../../wallets/historiacore/installation-linux.rst:154
 msgid ""
-"Once Dash Core is successfully installed and started, you will see the "
+"Once Historia Core is successfully installed and started, you will see the "
 "wallet overview screen. You will notice that the wallet is “out of sync”,"
 " and the status bar at the bottom of the window will show the "
 "synchronization progress."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:162
-msgid "Dash Core begins synchronizing with the Dash network"
+#: ../../wallets/historiacore/installation-linux.rst:162
+msgid "Historia Core begins synchronizing with the Historia network"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:164
+#: ../../wallets/historiacore/installation-linux.rst:164
 msgid ""
-"During this process, Dash Core will download a full copy of the Dash "
+"During this process, Historia Core will download a full copy of the Historia "
 "blockchain from other nodes to your device. Depending on your internet "
 "connection, this may take a long time. If you see the message “No block "
 "source available”, check your internet connection. When synchronization "
 "is complete, you will see a small blue tick in the lower right corner."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:173
-msgid "Dash Core synchronization is complete"
+#: ../../wallets/historiacore/installation-linux.rst:173
+msgid "Historia Core synchronization is complete"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:175
+#: ../../wallets/historiacore/installation-linux.rst:175
 msgid "You can now begin to use your wallet to send and receive funds."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:178
-msgid "Encrypting your Dash wallet"
+#: ../../wallets/historiacore/installation-linux.rst:178
+msgid "Encrypting your Historia wallet"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:180
+#: ../../wallets/historiacore/installation-linux.rst:180
 msgid ""
-"After your wallet has synchronized with the Dash network, it is strongly "
+"After your wallet has synchronized with the Historia network, it is strongly "
 "advised to encrypt the wallet with a password or passphrase to prevent "
 "unauthorized access. You should use a strong, new password that you have "
 "never used somewhere else. Take note of your password and store it "
@@ -249,67 +249,67 @@ msgid ""
 "to your funds."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:187
+#: ../../wallets/historiacore/installation-linux.rst:187
 msgid "To encrypt your wallet, click **Settings** > **Encrypt wallet**."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:192
-msgid "Encrypting the Dash wallet with a password"
+#: ../../wallets/historiacore/installation-linux.rst:192
+msgid "Encrypting the Historia wallet with a password"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:194
+#: ../../wallets/historiacore/installation-linux.rst:194
 msgid "You will be asked to enter and verify a password."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:199
+#: ../../wallets/historiacore/installation-linux.rst:199
 msgid "Entering a password"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:204
+#: ../../wallets/historiacore/installation-linux.rst:204
 msgid "Confirm you want to encrypt your wallet"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:206
+#: ../../wallets/historiacore/installation-linux.rst:206
 msgid ""
 "When the encryption process is complete, you will see a warning that past"
 " backups of your wallet will no longer be usable, and be asked to shut "
-"down Dash Core. When you restart Dash Core, you will see a small blue "
+"down Historia Core. When you restart Historia Core, you will see a small blue "
 "lock in the lower right corner."
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:214
-msgid "Fully encrypted and synchronized Dash Core wallet"
+#: ../../wallets/historiacore/installation-linux.rst:214
+msgid "Fully encrypted and synchronized Historia Core wallet"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:217
-msgid "Using the Ubuntu Repository to install Dash Core"
+#: ../../wallets/historiacore/installation-linux.rst:217
+msgid "Using the Ubuntu Repository to install Historia Core"
 msgstr ""
 
-#: ../../wallets/dashcore/installation-linux.rst:219
+#: ../../wallets/historiacore/installation-linux.rst:219
 msgid ""
 "Ubuntu allows you to add third-party repositories to install and update "
-"software using the apt command line utility. Dash Core team maintains "
+"software using the apt command line utility. Historia Core team maintains "
 "such a repository, although the software version included here may be "
-"older than what is available on the website. To install Dash Core from "
+"older than what is available on the website. To install Historia Core from "
 "the repository, open the Terminal and enter the following commands::"
 msgstr ""
 
 #~ msgid ""
 #~ "Once you know which version you "
-#~ "need, download Dash Core to your "
-#~ "computer from `https://www.dash.org/wallets "
-#~ "<https://www.dash.org/wallets>`."
+#~ "need, download Historia Core to your "
+#~ "computer from `https://historia.network/wallets "
+#~ "<https://historia.network/wallets>`."
 #~ msgstr ""
 
 #~ msgid "To encrypt your wallet, click **Settings** > **Encrypt** wallet."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Visit https://www.dash.org/get-dash/ to "
-#~ "download the latest Dash Core wallet."
+#~ "Visit https://historia.network/get-historia/ to "
+#~ "download the latest Historia Core wallet."
 #~ " In most cases, the website will "
 #~ "properly detect which version you need."
-#~ " Click the blue Dash Core button "
+#~ " Click the blue Historia Core button "
 #~ "to download the package directly."
 #~ msgstr ""
 

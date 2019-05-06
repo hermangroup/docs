@@ -1,6 +1,6 @@
 .. meta::
-   :description: Glossary and collection of links to other parts of the Dash ecosystem and network
-   :keywords: dash, cryptocurrency, glossary, links, community, official, github, roadmap, chat, discord, facebook, twitter, social media
+   :description: Glossary and collection of links to other parts of the Historia ecosystem and network
+   :keywords: historia, cryptocurrency, glossary, links, community, official, github, roadmap, chat, discord, facebook, twitter, social media
 
 .. _information:
 
@@ -16,123 +16,123 @@ Links
 Official sites
 --------------
 
-- **Website:** https://www.dash.org
-- **User documentation:** https://docs.dash.org
-- **Protocol documentation:** https://dash-docs.github.io
-- **Foundation:** https://www.dashfoundation.io
-- **GitHub:** https://github.com/dashpay
-- **GitHub (Evolution):** https://github.com/dashevo
-- **Roadmap:** https://github.com/dashpay/dash-roadmap
-- **DIPs:** https://github.com/dashpay/dips
+- **Website:** https://historia.network
+- **User documentation:** https://docs.historia.network
+- **Protocol documentation:** https://historia-docs.github.io
+- **Foundation:** https://www.historiafoundation.io
+- **GitHub:** https://github.com/HistoriaOffical
+- **GitHub (Evolution):** https://github.com/historiaevo
+- **Roadmap:** https://github.com/HistoriaOffical/historia-roadmap
+- **DIPs:** https://github.com/HistoriaOffical/dips
 
 Community sites
 ---------------
 
-- https://www.dashnexus.org
-- https://www.dashwatch.org
-- https://www.dashboost.org
+- https://www.historianexus.org
+- https://www.historiawatch.org
+- https://www.historiaboost.org
 - https://www.boostinsight.org
-- https://dashroots.fund
-- https://www.dashcentral.org
-- https://www.dashninja.pl
-- https://www.dashforcenews.com
-- http://www.dashnation.com
-- https://dashvotetracker.com
-- https://www.dashspain.org
-- http://www.dashhaiti.com
-- http://thedashbrain.com
+- https://historiaroots.fund
+- https://www.historiacentral.org
+- https://www.historianinja.pl
+- https://www.historiaforcenews.com
+- http://www.historianation.com
+- https://historiavotetracker.com
+- https://www.historiaspain.org
+- http://www.historiahaiti.com
+- http://thehistoriabrain.com
 
 Forums
 ------
 
-- **Dash Forum**: https://www.dash.org/forum
+- **Historia Forum**: https://historia.network/forum
 - **BitcoinTalk thread:** https://bitcointalk.org/index.php?topic=421615.0
-- **Cryptocurrencytalk.com:** https://cryptocurrencytalk.com/forum/693-dash
+- **Cryptocurrencytalk.com:** https://cryptocurrencytalk.com/forum/693-historia
 - **巴比特 (8BTC) Forum:** http://8btc.com/forum-115-1.html
 - **百度贴吧 达世币吧 (Baidu Tieba):** `https://tieba.baidu.com/f?kw=达世币 <https://tieba.baidu.com/f?kw=达世币>`_
-- **彩云比特 达世币 (CYBTC Dash):** http://www.cybtc.com/forum-123-1.html
+- **彩云比特 达世币 (CYBTC Historia):** http://www.cybtc.com/forum-123-1.html
 
 
 Chat
 ----
 
-- **Dash Nation Discord:** https://discordapp.com/invite/9z8zX5j
-- **Dash Talk Discord:** https://discordapp.com/invite/PXbUxJB
-- **Dash English Telegram:** https://t.me/dash_chat
-- **Dash Brasil Telegram:** https://telegram.me/dashbrasil
-- **Dash Russia Telegram:** https://telegram.me/Dash_Ru
-- **Dash en Español Telegram:** http://unete.dashespanol.com
-- **Dash Embassy D-A-CH auf Deutsch Telegram:** https://t.me/dashembassydach 
-- **Dash Telegram News Bot:** https://telegram.me/dashnews
-- **QQ 达世币官方群 DASH.China:** 419967021
-- **Freenode IRC:** #dashpay
+- **Historia Nation Discord:** https://discordapp.com/invite/9z8zX5j
+- **Historia Talk Discord:** https://discordapp.com/invite/PXbUxJB
+- **Historia English Telegram:** https://t.me/historia_chat
+- **Historia Brasil Telegram:** https://telegram.me/historiabrasil
+- **Historia Russia Telegram:** https://telegram.me/Historia_Ru
+- **Historia en Español Telegram:** http://unete.historiaespanol.com
+- **Historia Embassy D-A-CH auf Deutsch Telegram:** https://t.me/historiaembassydach 
+- **Historia Telegram News Bot:** https://telegram.me/historianews
+- **QQ 达世币官方群 HISTORIA.China:** 419967021
+- **Freenode IRC:** #HistoriaOffical
 
 
 Social media
 ------------
 
-- **Reddit:** https://www.reddit.com/r/dashpay
-- **Twitter:** https://twitter.com/dashpay
-- **Steemit:** https://steemit.com/@dashpay
+- **Reddit:** https://www.reddit.com/r/HistoriaOffical
+- **Twitter:** https://twitter.com/HistoriaOffical
+- **Steemit:** https://steemit.com/@HistoriaOffical
 - **LinkedIn:** https://www.linkedin.com/company/10424093
-- **YouTube:** https://www.youtube.com/c/DashOrg
-- **Instagram:** https://www.instagram.com/dashpay
-- **Dailymotion:** http://www.dailymotion.com/dashworld
-- **Youku:** http://i.youku.com/dashpay
-- **Soundcloud:** https://soundcloud.com/dashpay
-- **Google+:** https://plus.google.com/+DashOrg
-- **Minds:** https://www.minds.com/Dashpay
-- **Pinterest:** https://www.pinterest.com/dashdigitalcash
+- **YouTube:** https://www.youtube.com/c/HistoriaOrg
+- **Instagram:** https://www.instagram.com/HistoriaOffical
+- **Dailymotion:** http://www.dailymotion.com/historiaworld
+- **Youku:** http://i.youku.com/HistoriaOffical
+- **Soundcloud:** https://soundcloud.com/HistoriaOffical
+- **Google+:** https://plus.google.com/+HistoriaOrg
+- **Minds:** https://www.minds.com/Historiapay
+- **Pinterest:** https://www.pinterest.com/historiadigitalcash
 
 
 Facebook
 --------
 
-- **English (Official):** https://www.facebook.com/DashPay
-- **Dash News En Español:** https://www.facebook.com/DashNewsEspanol
-- **Dash Embassy Thailand:** https://www.facebook.com/DashEmbassyThailand
-- **Brazil:** https://www.facebook.com/DashBrazil
-- **Denmark:** https://www.facebook.com/DashDenmark
-- **Germany:** https://www.facebook.com/dashgermany
-- **Greece:** https://www.facebook.com/DashGreece
-- **Poland:** https://www.facebook.com/Dash.Polska
-- **Russia:** https://www.facebook.com/Dash.Russia
+- **English (Official):** https://www.facebook.com/HistoriaPay
+- **Historia News En Español:** https://www.facebook.com/HistoriaNewsEspanol
+- **Historia Embassy Thailand:** https://www.facebook.com/HistoriaEmbassyThailand
+- **Brazil:** https://www.facebook.com/HistoriaBrazil
+- **Denmark:** https://www.facebook.com/HistoriaDenmark
+- **Germany:** https://www.facebook.com/historiagermany
+- **Greece:** https://www.facebook.com/HistoriaGreece
+- **Poland:** https://www.facebook.com/Historia.Polska
+- **Russia:** https://www.facebook.com/Historia.Russia
 - **Thailand:** https://www.facebook.com/groups/1127359790623640
 - **Venezuela:** https://www.facebook.com/groups/DarkcoinVenezuela
-- **Vietnam:** https://www.facebook.com/dashvietnam
+- **Vietnam:** https://www.facebook.com/historiavietnam
 
 
 Twitter
 -------
 
-- **Dash Official Account:** https://twitter.com/dashpay
-- **Ryan Taylor, CEO of Dash Core Group:** https://twitter.com/RTaylor05
-- **Dash Force News:** https://twitter.com/DashForceNews
-- **Joël Valenzuela, Chief Editor, Dash Force News:** https://twitter.com/TheDesertLynx
-- **Mark Mason, Director of Media & PR, Dash Force News:** https://twitter.com/StayDashy
-- **Amanda B. Johnson, Dash Superfan and DAO-funded contractor:** https://twitter.com/AmandaB_Johnson
-- **Tao of Satoshi, Dash Nation Founder and DAO-funded contractor:** `https://twitter.com/Dash_Nation <https://twitter.com/Dash_Nation>`__
-- **とみ三（Samurai33）, Dash Japan:** https://twitter.com/samurai3311
-- **Dash Vietnam:** https://twitter.com/dashvietnam
+- **Historia Official Account:** https://twitter.com/HistoriaOffical
+- **Ryan Taylor, CEO of Historia Core Group:** https://twitter.com/RTaylor05
+- **Historia Force News:** https://twitter.com/HistoriaForceNews
+- **Joël Valenzuela, Chief Editor, Historia Force News:** https://twitter.com/TheDesertLynx
+- **Mark Mason, Director of Media & PR, Historia Force News:** https://twitter.com/StayHistoriay
+- **Amanda B. Johnson, Historia Superfan and DAO-funded contractor:** https://twitter.com/AmandaB_Johnson
+- **Tao of Satoshi, Historia Nation Founder and DAO-funded contractor:** `https://twitter.com/Historia_Nation <https://twitter.com/Historia_Nation>`__
+- **とみ三（Samurai33）, Historia Japan:** https://twitter.com/samurai3311
+- **Historia Vietnam:** https://twitter.com/historiavietnam
 
 
 News
 ----
 
-- **Dash Force News:** https://www.dashforcenews.com
-- **Dash News En Español:** https://dashnewsespanol.com
-- **Dash News En Español (YouTube):** https://www.youtube.com/channel/UCG6Cuh8Q2eUt4NlZu4K-u8g
-- **Dash News Korea:** https://dashnewskorea.com
-- **Cointelegraph:** https://cointelegraph.com/tags/dash
-- **巴比特 (8BTC):** http://www.8btc.com/dash
-- **比特时代 (BTC38):** http://www.btc38.com/altcoin/dash
-- **Dash Embassy D-A-CH:** http://www.dash-embassy.org/
-- **Dash News Germany:** https://dash-news.de
-- **Dash Vietnam:** https://dashvn.blogspot.com
-- **Dash France:** https://dashfrance.com/
-- **Dash News China (Wechat):** dashnews (or scan QR below)
+- **Historia Force News:** https://www.historiaforcenews.com
+- **Historia News En Español:** https://historianewsespanol.com
+- **Historia News En Español (YouTube):** https://www.youtube.com/channel/UCG6Cuh8Q2eUt4NlZu4K-u8g
+- **Historia News Korea:** https://historianewskorea.com
+- **Cointelegraph:** https://cointelegraph.com/tags/historia
+- **巴比特 (8BTC):** http://www.8btc.com/historia
+- **比特时代 (BTC38):** http://www.btc38.com/altcoin/historia
+- **Historia Embassy D-A-CH:** http://www.historia-embassy.org/
+- **Historia News Germany:** https://historia-news.de
+- **Historia Vietnam:** https://historiavn.blogspot.com
+- **Historia France:** https://historiafrance.com/
+- **Historia News China (Wechat):** historianews (or scan QR below)
 
-.. image:: img/dash-wx.png
+.. image:: img/historia-wx.png
     :width: 100 px
 
 
@@ -141,21 +141,21 @@ Blogs
 -----
 
 - **Evan Duffield's blog:** https://medium.com/@eduffield222
-- **Dashdot:** https://dashdot.io/alpha/
+- **Historiadot:** https://historiadot.io/alpha/
 
 
 Wikipedia
 ---------
 
-- `https://en.wikipedia.org/wiki/Dash_(cryptocurrency) <https://en.wikipedia.org/wiki/Dash_(cryptocurrency)>`_
+- `https://en.wikipedia.org/wiki/Historia_(cryptocurrency) <https://en.wikipedia.org/wiki/Historia_(cryptocurrency)>`_
 
 
 Inactive
 --------
 
-- **Bitcoin.com forum:** https://forum.bitcoin.com/dash-f67
-- **Crypto-city.com page:** https://www.crypto-city.com/index.php/dash-dash-coin
-- **Bitco.in forum:** https://bitco.in/forum/threads/dash-digitalcash.891
+- **Bitcoin.com forum:** https://forum.bitcoin.com/historia-f67
+- **Crypto-city.com page:** https://www.crypto-city.com/index.php/historia-historia-coin
+- **Bitco.in forum:** https://bitco.in/forum/threads/historia-digitalcash.891
 
 
 Tools
@@ -164,66 +164,66 @@ Tools
 Block explorers, statistics and visualizations
 ----------------------------------------------
 
-- https://explorer.dash.org
-- https://insight.dash.org/insight
-- https://blockchair.com/dash
-- https://chainz.cryptoid.info/dash
-- https://www.coinexplorer.net/dash
-- https://bitinfocharts.com/dash/explorer
-- https://dashblockexplorer.com
-- https://live.blockcypher.com/dash
-- https://dash.holytransaction.com
-- https://dashradar.com
+- https://explorer.historia.network
+- https://insight.historia.network/insight
+- https://blockchair.com/historia
+- https://chainz.cryptoid.info/historia
+- https://www.coinexplorer.net/historia
+- https://bitinfocharts.com/historia/explorer
+- https://historiablockexplorer.com
+- https://live.blockcypher.com/historia
+- https://historia.holytransaction.com
+- https://historiaradar.com
 - http://explorer.coinpayments.net/index.php?chain=7
 - http://udjinm6.github.io/bitlisten
-- http://insight.dash.crowdnode.io
+- http://insight.historia.crowdnode.io
 
 
 Treasury tools
 --------------
 
-- https://www.dashwatch.org
-- https://www.dashcentral.org
-- https://www.dashboost.org
-- https://dashroots.fund
-- https://dashnexus.org
-- https://dashvotetracker.com
-- https://proposal.dash.org
-- https://www.dashninja.pl/governance.html
+- https://www.historiawatch.org
+- https://www.historiacentral.org
+- https://www.historiaboost.org
+- https://historiaroots.fund
+- https://historianexus.org
+- https://historiavotetracker.com
+- https://proposal.historia.network
+- https://www.historianinja.pl/governance.html
 
 
 Masternode management
 ---------------------
 
-- http://dashmasternode.org
-- https://dashninja.pl
+- http://historiamasternode.org
+- https://historianinja.pl
 - https://stats.masternode.me
-- https://github.com/Bertrand256/dash-masternode-tool
-- http://178.254.23.111/~pub/Dash/Dash_Info.html
-- https://m1.dash-news.de/dashtv/#value=1000
+- https://github.com/Bertrand256/historia-masternode-tool
+- http://178.254.23.111/~pub/Historia/Historia_Info.html
+- https://m1.historia-news.de/historiatv/#value=1000
 
 
 Price monitoring and statistics
 -------------------------------
 
-- http://www.dash.dog
-- https://coinmarketcap.com/currencies/dash
-- https://bitinfocharts.com/dash
+- http://www.historia.dog
+- https://coinmarketcap.com/currencies/historia
+- https://bitinfocharts.com/historia
 - https://www.cryptonator.com/widget
 
 
-Dash Community project
+Historia Community project
 ----------------------
 
-- https://dashcommunity.github.io
-- http://github.com/dashcommunity
+- https://historiacommunity.github.io
+- http://github.com/historiacommunity
 
 
 DarkNet pages
 -------------
 
-- **Dash (Mirror of Main Page):** http://dashorg64cjvj4s3.onion
-- **The Hidden Wiki:** `http://zqktlwi4fecvo6ri.onion/wiki/Dash_-_DigitalCash <http://zqktlwi4fecvo6ri.onion/wiki/Dash_-_DigitalCash>`_
+- **Historia (Mirror of Main Page):** http://historiaorg64cjvj4s3.onion
+- **The Hidden Wiki:** `http://zqktlwi4fecvo6ri.onion/wiki/Historia_-_DigitalCash <http://zqktlwi4fecvo6ri.onion/wiki/Historia_-_DigitalCash>`_
 
 
 Mobile Apps
@@ -232,11 +232,11 @@ Mobile Apps
 iOS
 ---
 
-- **Dash Wallet:** https://itunes.apple.com/app/id1206647026
+- **Historia Wallet:** https://itunes.apple.com/app/id1206647026
 - **Edge Wallet:** https://itunes.apple.com/app/id1344400091
 - **Jaxx Wallet:** https://itunes.apple.com/app/id1084514516
 - **Coinomi Wallet:** https://itunes.apple.com/app/id1333588809
-- **Dashy:** https://itunes.apple.com/app/id1033268631
+- **Historiay:** https://itunes.apple.com/app/id1033268631
 - **CoinCap:** https://itunes.apple.com/app/id1074052280
 - **Blockfolio:** https://itunes.apple.com/app/id1095564685
 - **Cryptonaut:** https://itunes.apple.com/app/id1312756405
@@ -248,12 +248,12 @@ iOS
 Android
 -------
 
-- **Dash Wallet:** https://play.google.com/store/apps/details?id=hashengineering.darkcoin.wallet
+- **Historia Wallet:** https://play.google.com/store/apps/details?id=hashengineering.darkcoin.wallet
 - **Edge Wallet:** https://play.google.com/store/apps/details?id=co.edgesecure.app
 - **Jaxx Wallet:** https://play.google.com/store/apps/details?id=com.kryptokit.jaxx
 - **Coinomi Wallet:** https://play.google.com/store/apps/details?id=com.coinomi.wallet
 - **Cryptonator Wallet:** https://play.google.com/store/apps/details?id=com.aev.cryptonator
-- **DashCentral:** https://play.google.com/store/apps/details?id=net.paregov.android.dashcentral
+- **HistoriaCentral:** https://play.google.com/store/apps/details?id=net.paregov.android.historiacentral
 - **CoinCap:** https://play.google.com/store/apps/details?id=io.coinCap.coinCap
 - **Blockfolio:** https://play.google.com/store/apps/details?id=com.blockfolio.blockfolio
 - **Cryptonaut:** https://play.google.com/store/apps/details?id=org.cryptonaut.app
@@ -277,11 +277,11 @@ Glossary
   attacker’s hashed transaction block.
 
 Address
-  A Dash address is used to :ref:`Send/Receive a Payment 
-  <dashcore-send-receive>` on the Dash network. It contains a string of
+  A Historia address is used to :ref:`Send/Receive a Payment 
+  <historiacore-send-receive>` on the Historia network. It contains a string of
   alphanumeric characters, but can also be represented as a scannable QR
-  code. A Dash address is also the public key in the pair of keys used 
-  by Dash holders to digitally sign transactions (see Public key).
+  code. A Historia address is also the public key in the pair of keys used 
+  by Historia holders to digitally sign transactions (see Public key).
 
 Algorithm
   In mathematics and computer science, an `algorithm 
@@ -298,7 +298,7 @@ AML
   Anti-Money Laundering techniques are used to stop people from making
   illegally obtained funds appear as though they have been earned
   legally. AML mechanisms can be legal or technical in nature.
-  Regulators frequently apply AML techniques to Dash exchanges.
+  Regulators frequently apply AML techniques to Historia exchanges.
 
 API
   In computer programming, an `application programming interface (API) 
@@ -318,14 +318,14 @@ ASIC
   An application-specific integrated circuit (ASIC), is an integrated
   circuit (IC) customized for a particular use, rather than intended for
   general-purpose use. For example, a chip designed to run in a digital
-  voice recorder or for :ref:`high-efficiency Dash mining <asic-mining>`
+  voice recorder or for :ref:`high-efficiency Historia mining <asic-mining>`
   is an ASIC.
 
 ATM / BTM
-  A Dash ATM is a physical machine that allows a customer to buy Dash
+  A Historia ATM is a physical machine that allows a customer to buy Historia
   with cash. There are many manufacturers, some of which enable users to
-  sell Dash for cash. They are also sometimes called 'BTMs' or 'Dash
-  AVMS.' Dash is supported on several :ref:`ATMs <how-to-buy>`.
+  sell Historia for cash. They are also sometimes called 'BTMs' or 'Historia
+  AVMS.' Historia is supported on several :ref:`ATMs <how-to-buy>`.
 
 Backlog
   Backlog generally refers to an accumulation over time of work waiting
@@ -333,8 +333,8 @@ Backlog
 
 Backup
   The process of making copies of a computer file to ensure its
-  integrity in case of loss, theft, or damage. Dash allows users to
-  :ref:`make backup copies <dashcore-backup>` of their digital wallets.
+  integrity in case of loss, theft, or damage. Historia allows users to
+  :ref:`make backup copies <historiacore-backup>` of their digital wallets.
   This protects against losing one's money in the event of a computer
   crashing or losing one’s mobile device. This would be the equivalent
   of being able to backup the cash in your wallet, so that if you lost
@@ -366,7 +366,7 @@ Blocks
   specifically to create blocks.
 
 Budget System / DGBB
-  The development of Dash and the Dash ecosystem is self-funded by the
+  The development of Historia and the Historia ecosystem is self-funded by the
   network. Each time a block is discovered, 45% of the block reward goes
   to miners and 45% goes to masternodes. Ten percent is withheld by the
   network and used to fund projects that are approved by the masternode
@@ -378,17 +378,17 @@ Budget System / DGBB
 
 ChainLock
   Defined in `DIP8
-  <https://github.com/dashpay/dips/blob/master/dip-0008.md>`__,
+  <https://github.com/HistoriaOffical/dips/blob/master/dip-0008.md>`__,
   ChainLocks are a method of using an LLMQ to threshold sign a block
   immediately after it is propogated by the miner in order to enforce
   the first-seen rule. This is a powerful method of mitigating 51%
   mining attacks, which are associated with double spending.
 
 Cloud Wallet
-  Third parties that will store your Dash on their servers for you, so
+  Third parties that will store your Historia on their servers for you, so
   that you can access your funds from any device connected to the
   internet. If their website is hacked or if their servers are damaged,
-  you run the risk of losing your Dash. Any online wallets should be
+  you run the risk of losing your Historia. Any online wallets should be
   secured with strong passphrases and 2FA. You cannot make backup copies
   of your online wallet, because you do not have access to the private
   keys. We do not recommend that you store large quantities of funds in
@@ -403,17 +403,17 @@ Cold Storage
   A method of generating and storing private keys completely offline.
   One could use a desktop or laptop computer disconnected from the
   internet, a dedicated hardware wallet, a USB stick, or a :ref:`paper
-  wallet <dash-paper-wallet>`.
+  wallet <historia-paper-wallet>`.
 
 Confirm(ed) Transaction
-  When a Dash transaction is made, a miner must verify that the
+  When a Historia transaction is made, a miner must verify that the
   transaction is valid. When the inputs and outputs are verified, the
   transaction is included in a block in the blockchain. The transaction
   can then be considered complete and irreversible. The confirmation
   number increases as more blocks are added to the blockchain.
 
 Confirmation Number
-  The number of confirmations for a specific Dash transaction. Zero
+  The number of confirmations for a specific Historia transaction. Zero
   confirmations means that the **transaction is unconfirmed**. One
   confirmation means that the transaction is included in the latest
   block in the blockchain. Two confirmations means the transaction is
@@ -462,14 +462,14 @@ Cryptography
 
 DAP
   Decentralized Application Protocol. This term describes an application
-  running on top of the Dash DAPI platform.
+  running on top of the Historia DAPI platform.
 
 DAP Client
-  An HTTP Client that connects to DAPI and enables Dash blockchain users
+  An HTTP Client that connects to DAPI and enables Historia blockchain users
   to read and write data to their DAP Space.
 
 DAP Schema
-  A Dash Schema document extending the Dash System Schema to define
+  A Historia Schema document extending the Historia System Schema to define
   consensus data and rules within a DAP contract.
 
 DAP Space
@@ -495,46 +495,46 @@ Dark Gravity Wave
   it doesn't suffer from the time-warp exploit.
 
 Darkcoin
-  Dash was initially launched as XCoin and then rebranded to Darkcoin and
-  finally Dash.
+  Historia was initially launched as XCoin and then rebranded to Darkcoin and
+  finally Historia.
 
-Dash
+Historia
   Originally launched as Xcoin and later renamed to Darkcoin, the
-  currency was later renamed "Dash" to avoid association with the
-  darknet markets. Dash is a portmanteau of "Digital Cash." Dash is an
+  currency was later renamed "Historia" to avoid association with the
+  darknet markets. Historia is a portmanteau of "Digital Cash." Historia is an
   open source peer-to- peer cryptocurrency that solves many of Bitcoin's
-  problems. Dash's features include PrivateSend, InstantSend,
+  problems. Historia's features include PrivateSend, InstantSend,
   Decentralized Governance by Blockchain (DGBB), a 2nd tier network
   (referred to as the masternode network). See the :ref:`Features
-  <features>` page for a full list of Dash's features.
+  <features>` page for a full list of Historia's features.
 
-DashDrive
-  Dash network data storage backend service used by masternodes for 
-  off-chain data relating to Evolution. DashDrive implements `IPFS
+HistoriaDrive
+  Historia network data storage backend service used by masternodes for 
+  off-chain data relating to Evolution. HistoriaDrive implements `IPFS
   <https://ipfs.io>`_, a type of distributed file storage system.
 
-Dash Client
-  Dash clients are software programs used to interface with the Dash
-  network. They store the private keys needed to conduct Dash
-  transactions as well as a copy of the entire blockchain. A Dash client
-  connects to the Dash network and becomes a node in the network. A node
+Historia Client
+  Historia clients are software programs used to interface with the Historia
+  network. They store the private keys needed to conduct Historia
+  transactions as well as a copy of the entire blockchain. A Historia client
+  connects to the Historia network and becomes a node in the network. A node
   shares and propagates new transactions with the rest of the network,
   creating a robust decentralized infrastructure.
 
-Dash Core Wallet 
-  The :ref:`Dash Core Wallet <dash-core-wallet>` (known also as the QT
-  wallet) is the "official" Dash wallet that is compiled by the Dash
-  Core Team and allows both PrivateSend and InstantSend. The DashCore
+Historia Core Wallet 
+  The :ref:`Historia Core Wallet <historia-core-wallet>` (known also as the QT
+  wallet) is the "official" Historia wallet that is compiled by the Historia
+  Core Team and allows both PrivateSend and InstantSend. The HistoriaCore
   wallet will download the entire blockchain and serve it over the
   internet to any peers who request it.
 
-Dash Evolution
-  This is a 3 tier network Dash developers are presently building. It
-  will make Dash as easy to use as PayPal, while still remaining
+Historia Evolution
+  This is a 3 tier network Historia developers are presently building. It
+  will make Historia as easy to use as PayPal, while still remaining
   decentralized. See the :ref:`Evolution <evolution>` page for more 
   information.
 
-Dash Schema
+Historia Schema
   A JSON-based language specification for defining and validating
   consensus data in Evolution.
 
@@ -543,7 +543,7 @@ DDoS
   under an attacker’s control to drain the resources of a central
   target. They often send small amounts of network traffic across the
   Internet to tie up computing and bandwidth resources at the target,
-  which prevents it from providing services to legitimate users. Dash
+  which prevents it from providing services to legitimate users. Historia
   exchanges have sometimes been hit with DDoS attacks.
 
 Decentralized
@@ -564,11 +564,11 @@ Decentralized
   debatable whether these networks increase overall effectiveness.
 
 Desktop Wallet
-  A wallet is a piece of software that stores your Dash. There are many
+  A wallet is a piece of software that stores your Historia. There are many
   different wallet options, but it is imperative to choose a secure one.
-  We recommend any of the following: :ref:`Dash Core Wallet
-  <dash-core-wallet>` / :ref:`Dash Electrum Wallet
-  <dash-electrum-wallet>` / :ref:`Hardware Wallets <hardware-wallets>`
+  We recommend any of the following: :ref:`Historia Core Wallet
+  <historia-core-wallet>` / :ref:`Historia Electrum Wallet
+  <historia-electrum-wallet>` / :ref:`Hardware Wallets <hardware-wallets>`
 
 
 Difficulty
@@ -576,9 +576,9 @@ Difficulty
   related to the maximum allowed number in a given numerical portion of
   a transaction block’s hash. The lower the number, the more difficult
   it is to produce a hash value that fits it. Difficulty varies based on
-  the amount of computing power used by miners on the Dash network. If
+  the amount of computing power used by miners on the Historia network. If
   large numbers of miners leave a network, the difficulty would
-  decrease. Dash's increasing popularity and the availability of
+  decrease. Historia's increasing popularity and the availability of
   specialized ASIC miners have caused the difficulty to increase over
   time.
 
@@ -586,39 +586,39 @@ Digital Wallet
   See :ref:`this link <wallets>` for full documentation on wallets.
 
   A digital wallet is similar to a physical wallet except that it is
-  used to hold **digital currency**. A Dash wallet holds your private
-  keys, which allow you to spend your Dash. You are also able to make
+  used to hold **digital currency**. A Historia wallet holds your private
+  keys, which allow you to spend your Historia. You are also able to make
   backups of your wallet in order to ensure that you never lose access
-  to your Dash. Digital wallets can exist in many different forms and on
+  to your Historia. Digital wallets can exist in many different forms and on
   many devices:
 
-  - **Desktop Wallet** (:ref:`Dash Electrum Wallet
-    <dash-electrum-wallet>`, :ref:`Dash Core Wallet 
-    <dash-core-wallet>`): Wallet programs that you install on a laptop 
+  - **Desktop Wallet** (:ref:`Historia Electrum Wallet
+    <historia-electrum-wallet>`, :ref:`Historia Core Wallet 
+    <historia-core-wallet>`): Wallet programs that you install on a laptop 
     or desktop computer. You are solely responsible for protecting the 
     wallet file and the private keys it contains. Make backup copies of 
     your wallet files to ensure that you don't lose access to your 
     funds.
 
-  - **Mobile Wallet** (:ref:`Android <dash-android-wallet>`, :ref:`iOS
-    <dash-ios-wallet>`): These wallets can be downloaded through Google
+  - **Mobile Wallet** (:ref:`Android <historia-android-wallet>`, :ref:`iOS
+    <historia-ios-wallet>`): These wallets can be downloaded through Google
     Play or Apple (iTunes) App Stores. Mobile wallets allow you to use
-    Dash on-the-go by scanning a QR code to send payment. Make backup
+    Historia on-the-go by scanning a QR code to send payment. Make backup
     copies of your mobile wallet files to ensure that you don't lose
     access to your funds. Due to security issues with mobile phones, it
     is advised that you don't store large amounts of funds on these
     wallets.
 
   - **Online/Cloud/Web Wallet** (:ref:`Exodus <third-party-wallets>`,
-    :ref:`MyDashWallet <web-wallets>`): Third parties that will store 
-    your Dash on their servers for you or provide an interface to access 
-    your Dash with you providing the keys, so that you can access your 
-    Dash from any device connected to the internet. If their website is 
+    :ref:`MyHistoriaWallet <web-wallets>`): Third parties that will store 
+    your Historia on their servers for you or provide an interface to access 
+    your Historia with you providing the keys, so that you can access your 
+    Historia from any device connected to the internet. If their website is 
     hacked or if their servers are damaged, you run the risk of losing 
-    your Dash. Any online wallets should be secured with strong 
+    your Historia. Any online wallets should be secured with strong 
     passphrases and 2FA. You cannot make backup copies of your online 
     wallet, because you do not have access to the private keys. We 
-    strongly urge that you NEVER store large amounts of Dash in any 
+    strongly urge that you NEVER store large amounts of Historia in any 
     online wallet or cryptocurrency exchange.
 
   - **Hardware Wallets** (:ref:`Trezor <hardware-wallets>`, KeepKey, 
@@ -626,27 +626,27 @@ Digital Wallet
     hardware device that stores your private keys. This device is able 
     to sign transactions with your private key without being connected 
     to the internet. However, you must have an internet connection to 
-    send the transaction to the Dash network. This allows your private 
+    send the transaction to the Historia network. This allows your private 
     keys to be accessed easily while still keeping them securely 
     protected. This is widely regarded to be the safest form of storage 
-    for your Dash.
+    for your Historia.
 
-  - **Offline/Cold Storage** (:ref:`Paper wallet <dash-paper-wallet>`): 
+  - **Offline/Cold Storage** (:ref:`Paper wallet <historia-paper-wallet>`): 
     A special wallet that is created offline and is never exposed to the
     internet. Accomplished by using software to generate a public and
     private key offline and then recording the generated keys. They keys 
     can be printed out on paper or even laser-etched in metal. Copies 
     can be made and stored in a personal safe or bank deposit box. This 
-    is an extremely secure way to store Dash. There is no risk of using 
+    is an extremely secure way to store Historia. There is no risk of using 
     software wallet files, which can become corrupt, or web wallets, 
     which can be hacked. NOTE: USB sticks are not safe for long-term 
     (multi-year) storage because they degrade over time.
 
 DKG
   Defined in `DIP6
-  <https://github.com/dashpay/dips/blob/master/dip-0006.md>`__,
+  <https://github.com/HistoriaOffical/dips/blob/master/dip-0006.md>`__,
   Distributed Key Generation (`DKG
-  <https://github.com/dashpay/dips/blob/master/dip-0006.md#llmq-dkg-network-protocol>`__) 
+  <https://github.com/HistoriaOffical/dips/blob/master/dip-0006.md#llmq-dkg-network-protocol>`__) 
   is a method of generating a BLS key pair for use in an LLMQ to perform
   threshold signing on network messages. It is based on BLS M-of-N
   Threshold Scheme and Distributed Key Generation, which is an
@@ -657,13 +657,13 @@ Digital Signature
   prove their identity or ownership of a digital asset. When your
   digital wallet signs a transaction with the appropriate private key,
   the whole network can see that the signature matches the address of
-  the Dash being spent, without the need to reveal the private key to
+  the Historia being spent, without the need to reveal the private key to
   the network. You can also digitally sign messages using your private
-  key, to prove for instance that you are the owner of a certain Dash
+  key, to prove for instance that you are the owner of a certain Historia
   address.
 
 Electrum Wallet
-  :ref:`Dash Electrum Wallet <dash-electrum-wallet>` is a lightweight
+  :ref:`Historia Electrum Wallet <historia-electrum-wallet>` is a lightweight
   wallet that does not require you to download or sync the entire
   blockchain, making the wallet lighter and faster. However, it is 
   missing certain features such as PrivateSend and InstantSend.
@@ -707,17 +707,17 @@ Escrow Services
   to the appropriate party.
 
 Evan Duffield
-  Founder and first Lead Developer of Dash. Inventor of X11, InstantSend
-  and PrivateSend. Before creating Dash, Evan was a financial advisor
+  Founder and first Lead Developer of Historia. Inventor of X11, InstantSend
+  and PrivateSend. Before creating Historia, Evan was a financial advisor
   and holds a Series 65 license.
 
 Exchange
-  The current price of one Dash compared to the price of other
+  The current price of one Historia compared to the price of other
   currencies, like the US dollar, Yen, Euro, or Bitcoin. Because most
-  trading volume takes place on the BTC/DASH markets, price is often
-  quoted in fractions of a bitcoin. For instance, the price of one Dash
-  at the end of March 2017 was 0.08 (bitcoins per Dash). An excellent
-  site for following the exchange rate of Dash is `CoinMarketCap
+  trading volume takes place on the BTC/HISTORIA markets, price is often
+  quoted in fractions of a bitcoin. For instance, the price of one Historia
+  at the end of March 2017 was 0.08 (bitcoins per Historia). An excellent
+  site for following the exchange rate of Historia is `CoinMarketCap
   <https://coinmarketcap.com/>`_. Businesses wishing to reduce the risk
   of holding a volatile digital currency can avoid that risk altogether
   by having a payment processor do an instant exchange at the time of
@@ -725,8 +725,8 @@ Exchange
 
 Faucet
   Faucets are a reward system, in the form of a website or app, that
-  dispenses rewards in the form of a microdash or Duff, which is a
-  hundredth of a millionth Dash, for visitors to claim in exchange for
+  dispenses rewards in the form of a microhistoria or Duff, which is a
+  hundredth of a millionth Historia, for visitors to claim in exchange for
   completing a captcha or task as described by the website.
 
 Fiat Gateway
@@ -747,7 +747,7 @@ Fintech
   technology companies are generally startups trying to make financial
   processes more efficient or eliminate middle- men. Recently many
   fintech companies have begun utilizing blockchain technology, which is
-  the same technology that underpins Dash and Bitcoin.
+  the same technology that underpins Historia and Bitcoin.
 
 Fork
   When the blockchain diverges or splits, with some clients recognizing
@@ -760,12 +760,12 @@ Fork
   avoided if possible.
 
   Forking is most likely to occur during software updates to the
-  network. Dash uses a Multi-Phased Fork (“:ref:`Spork <sporks>`”)
+  network. Historia uses a Multi-Phased Fork (“:ref:`Spork <sporks>`”)
   system for greater flexibility and safety.
 
 Full Nodes
-  Any Dash client that is serving a full version of the blockchain to
-  peers. This can be a user running a Dash Core wallet on his/her
+  Any Historia client that is serving a full version of the blockchain to
+  peers. This can be a user running a Historia Core wallet on his/her
   desktop, or it could be a :ref:`masternode <masternodes>`. Full nodes
   promote decentralization by allowing any user to double check the
   validity of the blockchain.
@@ -794,7 +794,7 @@ GPU
 
 Hardware Wallet
   :ref:`Hardware wallets <hardware-wallets>` are among the safest type
-  of wallet for storing your Dash. Your private key is protected inside
+  of wallet for storing your Historia. Your private key is protected inside
   a piece of hardware, and is never exposed to the internet. You are
   still able to sign transactions as normal, making it both safe and
   convenient.
@@ -808,7 +808,7 @@ Hash
   different output.
 
 Hashrate
-  The number of hashes that can be performed by a Dash miner in a given
+  The number of hashes that can be performed by a Historia miner in a given
   period of time (usually a second). 
 
 Insight
@@ -820,7 +820,7 @@ InstantX
 
 InstantSend
   :ref:`InstantSend <instantsend>` technology uses the masternode 
-  network to "lock" transaction inputs, preventing Dash from being 
+  network to "lock" transaction inputs, preventing Historia from being 
   double-spent. Unlike Bitcoin, where it takes an hour or longer for 
   transactions to fully confirm, transactions using InstantSend are 
   "locked" and irreversible after only a few seconds.
@@ -834,7 +834,7 @@ Liquidity
 
 LLMQ
   Defined in `DIP6
-  <https://github.com/dashpay/dips/blob/master/dip-0006.md>`__, A Long-
+  <https://github.com/HistoriaOffical/dips/blob/master/dip-0006.md>`__, A Long-
   Living Masternode Quorum (LLMQ) is a deterministic subset of the
   global deterministic masternode list. Such a quorum is formed with the
   help of a distributed key generation (DKG) protocol and is supposed to
@@ -846,13 +846,13 @@ LLMQ
 Masternode
   A :ref:`masternode <masternode-network>` is special type of full node
   that performs services for the network and is paid a portion of the
-  block reward. Masternodes require proof of ownership of 1000 DASH.
+  block reward. Masternodes require proof of ownership of 1000 HISTORIA.
 
-  Masternodes serve as the second tier of the Dash network, and power
+  Masternodes serve as the second tier of the Historia network, and power
   InstantSend, PrivateSend, the Budget System.
 
 Mining
-  :ref:`Miners <mining>` process transactions on the Dash network and
+  :ref:`Miners <mining>` process transactions on the Historia network and
   publish them on the blockchain. As a reward for doing this, miners are
   paid 45% of the block reward.
 
@@ -863,16 +863,16 @@ MultiSig
   Multi-signature addresses provide additional security by requiring
   multiple people to sign a transaction with their private key before
   the transaction can be sent. For example, in :ref:`2 of 3 multisig
-  <dashcore-multisig>`, two out of three possible signatories have to
+  <historiacore-multisig>`, two out of three possible signatories have to
   sign a transaction for it to be processed. Multi-signature addresses
   are commonly used by exchanges and other organizations that are in
   possession of large sums of cryptocurrency, since it makes theft much
   more difficult.
 
 Node
-  A node is any device running Dash wallet software. Full nodes are
+  A node is any device running Historia wallet software. Full nodes are
   software clients that have downloaded the entire blockchain and serve
-  it to other clients on Dash's peer-to-peer network.
+  it to other clients on Historia's peer-to-peer network.
 
 OTC
   Over the counter (OTC) trades are trades that occur off exchanges. In
@@ -888,7 +888,7 @@ P2P
   transaction deal with each other through a single mediation point.
 
 Paper Wallet
-  :ref:`Paper wallets <dash-paper-wallet>` are offline wallets, printed
+  :ref:`Paper wallets <historia-paper-wallet>` are offline wallets, printed
   on paper for safety. If properly secured and stored they are 
   considered the safest way to store cryptocurrency.
 
@@ -901,16 +901,16 @@ Privacy
   person, it usually means that something is inherently special or
   sensitive to them. The domain of privacy partially overlaps security
   (confidentiality), which can include the concepts of appropriate use,
-  as well as protection of information. Dash includes PrivateSend, which
+  as well as protection of information. Historia includes PrivateSend, which
   allows users to maintain financial privacy.
 
 Private Key
   A `private key <https://en.wikipedia.org/wiki/Public-
-  key_cryptography>`_ is a long alphanumeric passcode that allows Dash
-  to be spent. Every Dash wallet contains one or more private keys which
+  key_cryptography>`_ is a long alphanumeric passcode that allows Historia
+  to be spent. Every Historia wallet contains one or more private keys which
   are saved in the wallet file. The private keys are mathematically
-  related to all Dash addresses generated for the wallet. Because the
-  private key is the "ticket" that allows someone to spend Dash, it is
+  related to all Historia addresses generated for the wallet. Because the
+  private key is the "ticket" that allows someone to spend Historia, it is
   important that these are kept secure and secret.
 
 PrivateSend
@@ -919,7 +919,7 @@ PrivateSend
   off at the users' discretion.
 
 Proof of Service - PoSe  
-  Consensus mechanism used in Dash to verify that a masternode has
+  Consensus mechanism used in Historia to verify that a masternode has
   provided uninterrupted service meeting a minimum quality level to the
   network. Maintaining this service allows a masternode to enter and
   move up through the global list and eventually into the selection pool
@@ -971,7 +971,7 @@ QR Code
   A two-dimensional graphical block containing a monochromatic pattern
   representing a sequence of data. QR codes are designed to be scanned
   by cameras, including those found in mobile phones, and are frequently
-  used to encode Dash addresses.
+  used to encode Historia addresses.
 
 Satoshi Nakamoto
   `Satoshi Nakamoto <https://en.wikipedia.org/wiki/Satoshi_Nakamoto>`_
@@ -996,7 +996,7 @@ State View
   should be displayed in a given social wallet, for example.
 
 Spork
-  The Dash development team created a mechanism known as a ":ref:`spork
+  The Historia development team created a mechanism known as a ":ref:`spork
   <sporks>`" by which updated code is released to the network, but not
   immediately made active (or “enforced”). Communication is sent out to
   users informing them of the change and the need for them to update
@@ -1015,8 +1015,8 @@ Tainted Coins
   Taint is a measure of correlation between two (wallet) addresses. It
   is only important if the user is trying to remain anonymous.
 
-tDash
-  Test Dash, used on :ref:`testnet <testnet>`.
+tHistoria
+  Test Historia, used on :ref:`testnet <testnet>`.
 
 Testnet
   :ref:`Testnet <testnet>` is a network only for testing (parallel to
@@ -1034,16 +1034,16 @@ Transaction
   Similar to Bitcoin, classical transactions move balances between
   addresses on the blockchain. Special transactions contain an extra
   payload in the format defined by `DIP2
-  <https://github.com/dashpay/dips/blob/master/dip-0002.md>`_, and can
+  <https://github.com/HistoriaOffical/dips/blob/master/dip-0002.md>`_, and can
   be used to manage blockchain users, for example.
 
 Transaction Block
-  A collection of transactions on the Dash network, gathered into a
+  A collection of transactions on the Historia network, gathered into a
   block that can then be hashed and added to the blockchain.
 
 Transaction Fee
   A :ref:`small fee <fees>` imposed on some transactions sent across the
-  Dash network. The transaction fee is awarded to the miner that
+  Historia network. The transaction fee is awarded to the miner that
   successfully hashes the block containing the relevant transaction.
 
 Unconfirmed Transactions
@@ -1052,20 +1052,20 @@ Unconfirmed Transactions
   transactions can be reversed and should not be considered as "final."
 
 Vanity Address
-  A Dash address with a desirable pattern, such as a name.
+  A Historia address with a desirable pattern, such as a name.
 
-Virgin Dash
-  Dash received as a reward for mining a block or running a masternode.
+Virgin Historia
+  Historia received as a reward for mining a block or running a masternode.
   These have not yet been spent anywhere and are "virgin."
 
 Volatility
   The measurement of price movements over time for a traded financial
-  asset (including Dash).
+  asset (including Historia).
 
 Wallet
-  A method of storing Dash for later use. A wallet holds the private
-  keys associated with Dash addresses. The blockchain is the record of
-  the Dash balances (and transactions) associated with those addresses.
+  A method of storing Historia for later use. A wallet holds the private
+  keys associated with Historia addresses. The blockchain is the record of
+  the Historia balances (and transactions) associated with those addresses.
 
 Whitepaper
   A `white paper <https://en.wikipedia.org/wiki/White_paper>`_ is an
@@ -1075,7 +1075,7 @@ Whitepaper
   problem, or make a decision.
 
 X11
-  :ref:`X11 <x11-hash-algorithm>` is a hashing algorithm created by Dash 
+  :ref:`X11 <x11-hash-algorithm>` is a hashing algorithm created by Historia 
   Core developer Evan Duffield.
 
 Zero Confirmations  
@@ -1085,7 +1085,7 @@ Zero Confirmations
 vin
   A transaction (tx) consists of one or more inputs and one or more
   outputs. The vin is the list of inputs to the transaction, and vout is
-  the list of outputs. Masternodes require a 1000 DASH vin (exactly that
+  the list of outputs. Masternodes require a 1000 HISTORIA vin (exactly that
   amount) in order to work.
 
 VMN

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash latest\n"
+"Project-Id-Version: Historia latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-17 06:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,13 +19,13 @@ msgstr ""
 
 #: ../../introduction/information.rst:1
 msgid ""
-"Glossary and collection of links to other parts of the Dash ecosystem and"
+"Glossary and collection of links to other parts of the Historia ecosystem and"
 " network"
 msgstr ""
 
 #: ../../introduction/information.rst:1
 msgid ""
-"dash, cryptocurrency, glossary, links, community, official, github, "
+"historia, cryptocurrency, glossary, links, community, official, github, "
 "roadmap, chat, discord, facebook, twitter, social media"
 msgstr ""
 
@@ -42,35 +42,35 @@ msgid "Official sites"
 msgstr ""
 
 #: ../../introduction/information.rst:19
-msgid "**Website:** https://www.dash.org"
+msgid "**Website:** https://historia.network"
 msgstr ""
 
 #: ../../introduction/information.rst:20
-msgid "**User documentation:** https://docs.dash.org"
+msgid "**User documentation:** https://docs.historia.network"
 msgstr ""
 
 #: ../../introduction/information.rst:21
-msgid "**Protocol documentation:** https://dash-docs.github.io"
+msgid "**Protocol documentation:** https://historia-docs.github.io"
 msgstr ""
 
 #: ../../introduction/information.rst:22
-msgid "**Foundation:** https://www.dashfoundation.io"
+msgid "**Foundation:** https://www.historiafoundation.io"
 msgstr ""
 
 #: ../../introduction/information.rst:23
-msgid "**GitHub:** https://github.com/dashpay"
+msgid "**GitHub:** https://github.com/HistoriaOffical"
 msgstr ""
 
 #: ../../introduction/information.rst:24
-msgid "**GitHub (Evolution):** https://github.com/dashevo"
+msgid "**GitHub (Evolution):** https://github.com/historiaevo"
 msgstr ""
 
 #: ../../introduction/information.rst:25
-msgid "**Roadmap:** https://github.com/dashpay/dash-roadmap"
+msgid "**Roadmap:** https://github.com/HistoriaOffical/historia-roadmap"
 msgstr ""
 
 #: ../../introduction/information.rst:26
-msgid "**DIPs:** https://github.com/dashpay/dips"
+msgid "**DIPs:** https://github.com/HistoriaOffical/dips"
 msgstr ""
 
 #: ../../introduction/information.rst:29
@@ -78,15 +78,15 @@ msgid "Community sites"
 msgstr ""
 
 #: ../../introduction/information.rst:31
-msgid "https://www.dashnexus.org"
+msgid "https://www.historianexus.org"
 msgstr ""
 
 #: ../../introduction/information.rst:32 ../../introduction/information.rst:184
-msgid "https://www.dashwatch.org"
+msgid "https://www.historiawatch.org"
 msgstr ""
 
 #: ../../introduction/information.rst:33 ../../introduction/information.rst:186
-msgid "https://www.dashboost.org"
+msgid "https://www.historiaboost.org"
 msgstr ""
 
 #: ../../introduction/information.rst:34
@@ -94,39 +94,39 @@ msgid "https://www.boostinsight.org"
 msgstr ""
 
 #: ../../introduction/information.rst:35 ../../introduction/information.rst:187
-msgid "https://dashroots.fund"
+msgid "https://historiaroots.fund"
 msgstr ""
 
 #: ../../introduction/information.rst:36 ../../introduction/information.rst:185
-msgid "https://www.dashcentral.org"
+msgid "https://www.historiacentral.org"
 msgstr ""
 
 #: ../../introduction/information.rst:37
-msgid "https://www.dashninja.pl"
+msgid "https://www.historianinja.pl"
 msgstr ""
 
 #: ../../introduction/information.rst:38
-msgid "https://www.dashforcenews.com"
+msgid "https://www.historiaforcenews.com"
 msgstr ""
 
 #: ../../introduction/information.rst:39
-msgid "http://www.dashnation.com"
+msgid "http://www.historianation.com"
 msgstr ""
 
 #: ../../introduction/information.rst:40 ../../introduction/information.rst:189
-msgid "https://dashvotetracker.com"
+msgid "https://historiavotetracker.com"
 msgstr ""
 
 #: ../../introduction/information.rst:41
-msgid "https://www.dashspain.org"
+msgid "https://www.historiaspain.org"
 msgstr ""
 
 #: ../../introduction/information.rst:42
-msgid "http://www.dashhaiti.com"
+msgid "http://www.historiahaiti.com"
 msgstr ""
 
 #: ../../introduction/information.rst:43
-msgid "http://thedashbrain.com"
+msgid "http://thehistoriabrain.com"
 msgstr ""
 
 #: ../../introduction/information.rst:46
@@ -134,7 +134,7 @@ msgid "Forums"
 msgstr ""
 
 #: ../../introduction/information.rst:48
-msgid "**Dash Forum**: https://www.dash.org/forum"
+msgid "**Historia Forum**: https://historia.network/forum"
 msgstr ""
 
 #: ../../introduction/information.rst:49
@@ -142,7 +142,7 @@ msgid "**BitcoinTalk thread:** https://bitcointalk.org/index.php?topic=421615.0"
 msgstr ""
 
 #: ../../introduction/information.rst:50
-msgid "**Cryptocurrencytalk.com:** https://cryptocurrencytalk.com/forum/693-dash"
+msgid "**Cryptocurrencytalk.com:** https://cryptocurrencytalk.com/forum/693-historia"
 msgstr ""
 
 #: ../../introduction/information.rst:51
@@ -156,7 +156,7 @@ msgid ""
 msgstr ""
 
 #: ../../introduction/information.rst:53
-msgid "**彩云比特 达世币 (CYBTC Dash):** http://www.cybtc.com/forum-123-1.html"
+msgid "**彩云比特 达世币 (CYBTC Historia):** http://www.cybtc.com/forum-123-1.html"
 msgstr ""
 
 #: ../../introduction/information.rst:57
@@ -164,43 +164,43 @@ msgid "Chat"
 msgstr ""
 
 #: ../../introduction/information.rst:59
-msgid "**Dash Nation Discord:** https://discordapp.com/invite/9z8zX5j"
+msgid "**Historia Nation Discord:** https://discordapp.com/invite/9z8zX5j"
 msgstr ""
 
 #: ../../introduction/information.rst:60
-msgid "**Dash Talk Discord:** https://discordapp.com/invite/PXbUxJB"
+msgid "**Historia Talk Discord:** https://discordapp.com/invite/PXbUxJB"
 msgstr ""
 
 #: ../../introduction/information.rst:61
-msgid "**Dash English Telegram:** https://t.me/dash_chat"
+msgid "**Historia English Telegram:** https://t.me/historia_chat"
 msgstr ""
 
 #: ../../introduction/information.rst:62
-msgid "**Dash Brasil Telegram:** https://telegram.me/dashbrasil"
+msgid "**Historia Brasil Telegram:** https://telegram.me/historiabrasil"
 msgstr ""
 
 #: ../../introduction/information.rst:63
-msgid "**Dash Russia Telegram:** https://telegram.me/Dash_Ru"
+msgid "**Historia Russia Telegram:** https://telegram.me/Historia_Ru"
 msgstr ""
 
 #: ../../introduction/information.rst:64
-msgid "**Dash en Español Telegram:** http://unete.dashespanol.com"
+msgid "**Historia en Español Telegram:** http://unete.historiaespanol.com"
 msgstr ""
 
 #: ../../introduction/information.rst:65
-msgid "**Dash Embassy D-A-CH auf Deutsch Telegram:** https://t.me/dashembassydach"
+msgid "**Historia Embassy D-A-CH auf Deutsch Telegram:** https://t.me/historiaembassydach"
 msgstr ""
 
 #: ../../introduction/information.rst:66
-msgid "**Dash Telegram News Bot:** https://telegram.me/dashnews"
+msgid "**Historia Telegram News Bot:** https://telegram.me/historianews"
 msgstr ""
 
 #: ../../introduction/information.rst:67
-msgid "**QQ 达世币官方群 DASH.China:** 419967021"
+msgid "**QQ 达世币官方群 HISTORIA.China:** 419967021"
 msgstr ""
 
 #: ../../introduction/information.rst:68
-msgid "**Freenode IRC:** #dashpay"
+msgid "**Freenode IRC:** #HistoriaOffical"
 msgstr ""
 
 #: ../../introduction/information.rst:72
@@ -208,15 +208,15 @@ msgid "Social media"
 msgstr ""
 
 #: ../../introduction/information.rst:74
-msgid "**Reddit:** https://www.reddit.com/r/dashpay"
+msgid "**Reddit:** https://www.reddit.com/r/HistoriaOffical"
 msgstr ""
 
 #: ../../introduction/information.rst:75
-msgid "**Twitter:** https://twitter.com/dashpay"
+msgid "**Twitter:** https://twitter.com/HistoriaOffical"
 msgstr ""
 
 #: ../../introduction/information.rst:76
-msgid "**Steemit:** https://steemit.com/@dashpay"
+msgid "**Steemit:** https://steemit.com/@HistoriaOffical"
 msgstr ""
 
 #: ../../introduction/information.rst:77
@@ -224,35 +224,35 @@ msgid "**LinkedIn:** https://www.linkedin.com/company/10424093"
 msgstr ""
 
 #: ../../introduction/information.rst:78
-msgid "**YouTube:** https://www.youtube.com/c/DashOrg"
+msgid "**YouTube:** https://www.youtube.com/c/HistoriaOrg"
 msgstr ""
 
 #: ../../introduction/information.rst:79
-msgid "**Instagram:** https://www.instagram.com/dashpay"
+msgid "**Instagram:** https://www.instagram.com/HistoriaOffical"
 msgstr ""
 
 #: ../../introduction/information.rst:80
-msgid "**Dailymotion:** http://www.dailymotion.com/dashworld"
+msgid "**Dailymotion:** http://www.dailymotion.com/historiaworld"
 msgstr ""
 
 #: ../../introduction/information.rst:81
-msgid "**Youku:** http://i.youku.com/dashpay"
+msgid "**Youku:** http://i.youku.com/HistoriaOffical"
 msgstr ""
 
 #: ../../introduction/information.rst:82
-msgid "**Soundcloud:** https://soundcloud.com/dashpay"
+msgid "**Soundcloud:** https://soundcloud.com/HistoriaOffical"
 msgstr ""
 
 #: ../../introduction/information.rst:83
-msgid "**Google+:** https://plus.google.com/+DashOrg"
+msgid "**Google+:** https://plus.google.com/+HistoriaOrg"
 msgstr ""
 
 #: ../../introduction/information.rst:84
-msgid "**Minds:** https://www.minds.com/Dashpay"
+msgid "**Minds:** https://www.minds.com/Historiapay"
 msgstr ""
 
 #: ../../introduction/information.rst:85
-msgid "**Pinterest:** https://www.pinterest.com/dashdigitalcash"
+msgid "**Pinterest:** https://www.pinterest.com/historiadigitalcash"
 msgstr ""
 
 #: ../../introduction/information.rst:89
@@ -260,39 +260,39 @@ msgid "Facebook"
 msgstr ""
 
 #: ../../introduction/information.rst:91
-msgid "**English (Official):** https://www.facebook.com/DashPay"
+msgid "**English (Official):** https://www.facebook.com/HistoriaPay"
 msgstr ""
 
 #: ../../introduction/information.rst:92
-msgid "**Dash News En Español:** https://www.facebook.com/DashNewsEspanol"
+msgid "**Historia News En Español:** https://www.facebook.com/HistoriaNewsEspanol"
 msgstr ""
 
 #: ../../introduction/information.rst:93
-msgid "**Dash Embassy Thailand:** https://www.facebook.com/DashEmbassyThailand"
+msgid "**Historia Embassy Thailand:** https://www.facebook.com/HistoriaEmbassyThailand"
 msgstr ""
 
 #: ../../introduction/information.rst:94
-msgid "**Brazil:** https://www.facebook.com/DashBrazil"
+msgid "**Brazil:** https://www.facebook.com/HistoriaBrazil"
 msgstr ""
 
 #: ../../introduction/information.rst:95
-msgid "**Denmark:** https://www.facebook.com/DashDenmark"
+msgid "**Denmark:** https://www.facebook.com/HistoriaDenmark"
 msgstr ""
 
 #: ../../introduction/information.rst:96
-msgid "**Germany:** https://www.facebook.com/dashgermany"
+msgid "**Germany:** https://www.facebook.com/historiagermany"
 msgstr ""
 
 #: ../../introduction/information.rst:97
-msgid "**Greece:** https://www.facebook.com/DashGreece"
+msgid "**Greece:** https://www.facebook.com/HistoriaGreece"
 msgstr ""
 
 #: ../../introduction/information.rst:98
-msgid "**Poland:** https://www.facebook.com/Dash.Polska"
+msgid "**Poland:** https://www.facebook.com/Historia.Polska"
 msgstr ""
 
 #: ../../introduction/information.rst:99
-msgid "**Russia:** https://www.facebook.com/Dash.Russia"
+msgid "**Russia:** https://www.facebook.com/Historia.Russia"
 msgstr ""
 
 #: ../../introduction/information.rst:100
@@ -304,7 +304,7 @@ msgid "**Venezuela:** https://www.facebook.com/groups/DarkcoinVenezuela"
 msgstr ""
 
 #: ../../introduction/information.rst:102
-msgid "**Vietnam:** https://www.facebook.com/dashvietnam"
+msgid "**Vietnam:** https://www.facebook.com/historiavietnam"
 msgstr ""
 
 #: ../../introduction/information.rst:106
@@ -312,47 +312,47 @@ msgid "Twitter"
 msgstr ""
 
 #: ../../introduction/information.rst:108
-msgid "**Dash Official Account:** https://twitter.com/dashpay"
+msgid "**Historia Official Account:** https://twitter.com/HistoriaOffical"
 msgstr ""
 
 #: ../../introduction/information.rst:109
-msgid "**Ryan Taylor, CEO of Dash Core Group:** https://twitter.com/RTaylor05"
+msgid "**Ryan Taylor, CEO of Historia Core Group:** https://twitter.com/RTaylor05"
 msgstr ""
 
 #: ../../introduction/information.rst:110
-msgid "**Dash Force News:** https://twitter.com/DashForceNews"
+msgid "**Historia Force News:** https://twitter.com/HistoriaForceNews"
 msgstr ""
 
 #: ../../introduction/information.rst:111
 msgid ""
-"**Joël Valenzuela, Chief Editor, Dash Force News:** "
+"**Joël Valenzuela, Chief Editor, Historia Force News:** "
 "https://twitter.com/TheDesertLynx"
 msgstr ""
 
 #: ../../introduction/information.rst:112
 msgid ""
-"**Mark Mason, Director of Media & PR, Dash Force News:** "
-"https://twitter.com/StayDashy"
+"**Mark Mason, Director of Media & PR, Historia Force News:** "
+"https://twitter.com/StayHistoriay"
 msgstr ""
 
 #: ../../introduction/information.rst:113
 msgid ""
-"**Amanda B. Johnson, Dash Superfan and DAO-funded contractor:** "
+"**Amanda B. Johnson, Historia Superfan and DAO-funded contractor:** "
 "https://twitter.com/AmandaB_Johnson"
 msgstr ""
 
 #: ../../introduction/information.rst:114
 msgid ""
-"**Tao of Satoshi, Dash Nation Founder and DAO-funded contractor:** "
-"`https://twitter.com/Dash_Nation <https://twitter.com/Dash_Nation>`__"
+"**Tao of Satoshi, Historia Nation Founder and DAO-funded contractor:** "
+"`https://twitter.com/Historia_Nation <https://twitter.com/Historia_Nation>`__"
 msgstr ""
 
 #: ../../introduction/information.rst:115
-msgid "**とみ三（Samurai33）, Dash Japan:** https://twitter.com/samurai3311"
+msgid "**とみ三（Samurai33）, Historia Japan:** https://twitter.com/samurai3311"
 msgstr ""
 
 #: ../../introduction/information.rst:116
-msgid "**Dash Vietnam:** https://twitter.com/dashvietnam"
+msgid "**Historia Vietnam:** https://twitter.com/historiavietnam"
 msgstr ""
 
 #: ../../introduction/information.rst:120
@@ -360,53 +360,53 @@ msgid "News"
 msgstr ""
 
 #: ../../introduction/information.rst:122
-msgid "**Dash Force News:** https://www.dashforcenews.com"
+msgid "**Historia Force News:** https://www.historiaforcenews.com"
 msgstr ""
 
 #: ../../introduction/information.rst:123
-msgid "**Dash News En Español:** https://dashnewsespanol.com"
+msgid "**Historia News En Español:** https://historianewsespanol.com"
 msgstr ""
 
 #: ../../introduction/information.rst:124
 msgid ""
-"**Dash News En Español (YouTube):** https://www.youtube.com/channel"
+"**Historia News En Español (YouTube):** https://www.youtube.com/channel"
 "/UCG6Cuh8Q2eUt4NlZu4K-u8g"
 msgstr ""
 
 #: ../../introduction/information.rst:125
-msgid "**Dash News Korea:** https://dashnewskorea.com"
+msgid "**Historia News Korea:** https://historianewskorea.com"
 msgstr ""
 
 #: ../../introduction/information.rst:126
-msgid "**Cointelegraph:** https://cointelegraph.com/tags/dash"
+msgid "**Cointelegraph:** https://cointelegraph.com/tags/historia"
 msgstr ""
 
 #: ../../introduction/information.rst:127
-msgid "**巴比特 (8BTC):** http://www.8btc.com/dash"
+msgid "**巴比特 (8BTC):** http://www.8btc.com/historia"
 msgstr ""
 
 #: ../../introduction/information.rst:128
-msgid "**比特时代 (BTC38):** http://www.btc38.com/altcoin/dash"
+msgid "**比特时代 (BTC38):** http://www.btc38.com/altcoin/historia"
 msgstr ""
 
 #: ../../introduction/information.rst:129
-msgid "**Dash Embassy D-A-CH:** http://www.dash-embassy.org/"
+msgid "**Historia Embassy D-A-CH:** http://www.historia-embassy.org/"
 msgstr ""
 
 #: ../../introduction/information.rst:130
-msgid "**Dash News Germany:** https://dash-news.de"
+msgid "**Historia News Germany:** https://historia-news.de"
 msgstr ""
 
 #: ../../introduction/information.rst:131
-msgid "**Dash Vietnam:** https://dashvn.blogspot.com"
+msgid "**Historia Vietnam:** https://historiavn.blogspot.com"
 msgstr ""
 
 #: ../../introduction/information.rst:132
-msgid "**Dash France:** https://dashfrance.com/"
+msgid "**Historia France:** https://historiafrance.com/"
 msgstr ""
 
 #: ../../introduction/information.rst:133
-msgid "**Dash News China (Wechat):** dashnews (or scan QR below)"
+msgid "**Historia News China (Wechat):** historianews (or scan QR below)"
 msgstr ""
 
 #: ../../introduction/information.rst:141
@@ -418,7 +418,7 @@ msgid "**Evan Duffield's blog:** https://medium.com/@eduffield222"
 msgstr ""
 
 #: ../../introduction/information.rst:144
-msgid "**Dashdot:** https://dashdot.io/alpha/"
+msgid "**Historiadot:** https://historiadot.io/alpha/"
 msgstr ""
 
 #: ../../introduction/information.rst:148
@@ -427,8 +427,8 @@ msgstr ""
 
 #: ../../introduction/information.rst:150
 msgid ""
-"`https://en.wikipedia.org/wiki/Dash_(cryptocurrency) "
-"<https://en.wikipedia.org/wiki/Dash_(cryptocurrency)>`_"
+"`https://en.wikipedia.org/wiki/Historia_(cryptocurrency) "
+"<https://en.wikipedia.org/wiki/Historia_(cryptocurrency)>`_"
 msgstr ""
 
 #: ../../introduction/information.rst:154
@@ -436,17 +436,17 @@ msgid "Inactive"
 msgstr ""
 
 #: ../../introduction/information.rst:156
-msgid "**Bitcoin.com forum:** https://forum.bitcoin.com/dash-f67"
+msgid "**Bitcoin.com forum:** https://forum.bitcoin.com/historia-f67"
 msgstr ""
 
 #: ../../introduction/information.rst:157
 msgid ""
-"**Crypto-city.com page:** https://www.crypto-city.com/index.php/dash-"
-"dash-coin"
+"**Crypto-city.com page:** https://www.crypto-city.com/index.php/historia-"
+"historia-coin"
 msgstr ""
 
 #: ../../introduction/information.rst:158
-msgid "**Bitco.in forum:** https://bitco.in/forum/threads/dash-digitalcash.891"
+msgid "**Bitco.in forum:** https://bitco.in/forum/threads/historia-digitalcash.891"
 msgstr ""
 
 #: ../../introduction/information.rst:162
@@ -458,39 +458,39 @@ msgid "Block explorers, statistics and visualizations"
 msgstr ""
 
 #: ../../introduction/information.rst:167
-msgid "https://explorer.dash.org"
+msgid "https://explorer.historia.network"
 msgstr ""
 
 #: ../../introduction/information.rst:168
-msgid "https://insight.dash.org/insight"
+msgid "https://insight.historia.network/insight"
 msgstr ""
 
 #: ../../introduction/information.rst:169
-msgid "https://chainz.cryptoid.info/dash"
+msgid "https://chainz.cryptoid.info/historia"
 msgstr ""
 
 #: ../../introduction/information.rst:170
-msgid "https://www.coinexplorer.net/dash"
+msgid "https://www.coinexplorer.net/historia"
 msgstr ""
 
 #: ../../introduction/information.rst:171
-msgid "https://bitinfocharts.com/dash/explorer"
+msgid "https://bitinfocharts.com/historia/explorer"
 msgstr ""
 
 #: ../../introduction/information.rst:172
-msgid "https://dashblockexplorer.com"
+msgid "https://historiablockexplorer.com"
 msgstr ""
 
 #: ../../introduction/information.rst:173
-msgid "https://live.blockcypher.com/dash"
+msgid "https://live.blockcypher.com/historia"
 msgstr ""
 
 #: ../../introduction/information.rst:174
-msgid "https://dash.holytransaction.com"
+msgid "https://historia.holytransaction.com"
 msgstr ""
 
 #: ../../introduction/information.rst:175
-msgid "https://dashradar.com"
+msgid "https://historiaradar.com"
 msgstr ""
 
 #: ../../introduction/information.rst:176
@@ -502,7 +502,7 @@ msgid "http://udjinm6.github.io/bitlisten"
 msgstr ""
 
 #: ../../introduction/information.rst:178
-msgid "http://insight.dash.crowdnode.io"
+msgid "http://insight.historia.crowdnode.io"
 msgstr ""
 
 #: ../../introduction/information.rst:182
@@ -510,15 +510,15 @@ msgid "Treasury tools"
 msgstr ""
 
 #: ../../introduction/information.rst:188
-msgid "https://dashnexus.org"
+msgid "https://historianexus.org"
 msgstr ""
 
 #: ../../introduction/information.rst:190
-msgid "https://proposal.dash.org"
+msgid "https://proposal.historia.network"
 msgstr ""
 
 #: ../../introduction/information.rst:191
-msgid "https://www.dashninja.pl/governance.html"
+msgid "https://www.historianinja.pl/governance.html"
 msgstr ""
 
 #: ../../introduction/information.rst:195
@@ -526,11 +526,11 @@ msgid "Masternode management"
 msgstr ""
 
 #: ../../introduction/information.rst:197
-msgid "http://dashmasternode.org"
+msgid "http://historiamasternode.org"
 msgstr ""
 
 #: ../../introduction/information.rst:198
-msgid "https://dashninja.pl"
+msgid "https://historianinja.pl"
 msgstr ""
 
 #: ../../introduction/information.rst:199
@@ -538,15 +538,15 @@ msgid "https://stats.masternode.me"
 msgstr ""
 
 #: ../../introduction/information.rst:200
-msgid "https://github.com/Bertrand256/dash-masternode-tool"
+msgid "https://github.com/Bertrand256/historia-masternode-tool"
 msgstr ""
 
 #: ../../introduction/information.rst:201
-msgid "http://178.254.23.111/~pub/Dash/Dash_Info.html"
+msgid "http://178.254.23.111/~pub/Historia/Historia_Info.html"
 msgstr ""
 
 #: ../../introduction/information.rst:202
-msgid "https://m1.dash-news.de/dashtv/#value=1000"
+msgid "https://m1.historia-news.de/historiatv/#value=1000"
 msgstr ""
 
 #: ../../introduction/information.rst:206
@@ -554,15 +554,15 @@ msgid "Price monitoring and statistics"
 msgstr ""
 
 #: ../../introduction/information.rst:208
-msgid "http://www.dash.dog"
+msgid "http://www.historia.dog"
 msgstr ""
 
 #: ../../introduction/information.rst:209
-msgid "https://coinmarketcap.com/currencies/dash"
+msgid "https://coinmarketcap.com/currencies/historia"
 msgstr ""
 
 #: ../../introduction/information.rst:210
-msgid "https://bitinfocharts.com/dash"
+msgid "https://bitinfocharts.com/historia"
 msgstr ""
 
 #: ../../introduction/information.rst:211
@@ -570,15 +570,15 @@ msgid "https://www.cryptonator.com/widget"
 msgstr ""
 
 #: ../../introduction/information.rst:215
-msgid "Dash Community project"
+msgid "Historia Community project"
 msgstr ""
 
 #: ../../introduction/information.rst:217
-msgid "https://dashcommunity.github.io"
+msgid "https://historiacommunity.github.io"
 msgstr ""
 
 #: ../../introduction/information.rst:218
-msgid "http://github.com/dashcommunity"
+msgid "http://github.com/historiacommunity"
 msgstr ""
 
 #: ../../introduction/information.rst:222
@@ -586,14 +586,14 @@ msgid "DarkNet pages"
 msgstr ""
 
 #: ../../introduction/information.rst:224
-msgid "**Dash (Mirror of Main Page):** http://dashorg64cjvj4s3.onion"
+msgid "**Historia (Mirror of Main Page):** http://historiaorg64cjvj4s3.onion"
 msgstr ""
 
 #: ../../introduction/information.rst:225
 msgid ""
 "**The Hidden Wiki:** "
-"`http://zqktlwi4fecvo6ri.onion/wiki/Dash_-_DigitalCash "
-"<http://zqktlwi4fecvo6ri.onion/wiki/Dash_-_DigitalCash>`_"
+"`http://zqktlwi4fecvo6ri.onion/wiki/Historia_-_DigitalCash "
+"<http://zqktlwi4fecvo6ri.onion/wiki/Historia_-_DigitalCash>`_"
 msgstr ""
 
 #: ../../introduction/information.rst:229
@@ -605,7 +605,7 @@ msgid "iOS"
 msgstr ""
 
 #: ../../introduction/information.rst:234
-msgid "**Dash Wallet:** https://itunes.apple.com/app/id1206647026"
+msgid "**Historia Wallet:** https://itunes.apple.com/app/id1206647026"
 msgstr ""
 
 #: ../../introduction/information.rst:235
@@ -621,7 +621,7 @@ msgid "**Coinomi Wallet:** https://itunes.apple.com/app/id1333588809"
 msgstr ""
 
 #: ../../introduction/information.rst:238
-msgid "**Dashy:** https://itunes.apple.com/app/id1033268631"
+msgid "**Historiay:** https://itunes.apple.com/app/id1033268631"
 msgstr ""
 
 #: ../../introduction/information.rst:239
@@ -654,7 +654,7 @@ msgstr ""
 
 #: ../../introduction/information.rst:250
 msgid ""
-"**Dash Wallet:** "
+"**Historia Wallet:** "
 "https://play.google.com/store/apps/details?id=hashengineering.darkcoin.wallet"
 msgstr ""
 
@@ -684,8 +684,8 @@ msgstr ""
 
 #: ../../introduction/information.rst:255
 msgid ""
-"**DashCentral:** "
-"https://play.google.com/store/apps/details?id=net.paregov.android.dashcentral"
+"**HistoriaCentral:** "
+"https://play.google.com/store/apps/details?id=net.paregov.android.historiacentral"
 msgstr ""
 
 #: ../../introduction/information.rst:256
@@ -749,10 +749,10 @@ msgstr ""
 
 #: ../../introduction/information.rst:279
 msgid ""
-"A Dash address is used to :ref:`Send/Receive a Payment <dashcore-send-"
-"receive>` on the Dash network. It contains a string of alphanumeric "
-"characters, but can also be represented as a scannable QR code. A Dash "
-"address is also the public key in the pair of keys used by Dash holders "
+"A Historia address is used to :ref:`Send/Receive a Payment <historiacore-send-"
+"receive>` on the Historia network. It contains a string of alphanumeric "
+"characters, but can also be represented as a scannable QR code. A Historia "
+"address is also the public key in the pair of keys used by Historia holders "
 "to digitally sign transactions (see Public key)."
 msgstr ""
 
@@ -788,7 +788,7 @@ msgid ""
 "Anti-Money Laundering techniques are used to stop people from making "
 "illegally obtained funds appear as though they have been earned legally. "
 "AML mechanisms can be legal or technical in nature. Regulators frequently"
-" apply AML techniques to Dash exchanges."
+" apply AML techniques to Historia exchanges."
 msgstr ""
 
 #: ../../introduction/information.rst:314
@@ -822,7 +822,7 @@ msgid ""
 "An application-specific integrated circuit (ASIC), is an integrated "
 "circuit (IC) customized for a particular use, rather than intended for "
 "general-purpose use. For example, a chip designed to run in a digital "
-"voice recorder or for :ref:`high-efficiency Dash mining <asic-mining>` is"
+"voice recorder or for :ref:`high-efficiency Historia mining <asic-mining>` is"
 " an ASIC."
 msgstr ""
 
@@ -832,9 +832,9 @@ msgstr ""
 
 #: ../../introduction/information.rst:324
 msgid ""
-"A Dash ATM is a physical machine that allows a customer to buy Dash with "
+"A Historia ATM is a physical machine that allows a customer to buy Historia with "
 "cash. There are many manufacturers, some of which enable users to sell "
-"Dash for cash. They are also sometimes called 'BTMs' or 'Dash AVMS.' Dash"
+"Historia for cash. They are also sometimes called 'BTMs' or 'Historia AVMS.' Historia"
 " is supported on several :ref:`ATMs <how-to-buy>`."
 msgstr ""
 
@@ -855,8 +855,8 @@ msgstr ""
 #: ../../introduction/information.rst:334
 msgid ""
 "The process of making copies of a computer file to ensure its integrity "
-"in case of loss, theft, or damage. Dash allows users to :ref:`make backup"
-" copies <dashcore-backup>` of their digital wallets. This protects "
+"in case of loss, theft, or damage. Historia allows users to :ref:`make backup"
+" copies <historiacore-backup>` of their digital wallets. This protects "
 "against losing one's money in the event of a computer crashing or losing "
 "one’s mobile device. This would be the equivalent of being able to backup"
 " the cash in your wallet, so that if you lost it, you could restore the "
@@ -911,7 +911,7 @@ msgstr ""
 #: ../../introduction/information.rst:368
 #, python-format
 msgid ""
-"The development of Dash and the Dash ecosystem is self-funded by the "
+"The development of Historia and the Historia ecosystem is self-funded by the "
 "network. Each time a block is discovered, 45% of the block reward goes to"
 " miners and 45% goes to masternodes. Ten percent is withheld by the "
 "network and used to fund projects that are approved by the masternode "
@@ -929,7 +929,7 @@ msgstr ""
 #: ../../introduction/information.rst:379
 msgid ""
 "Defined in `DIP8 "
-"<https://github.com/dashpay/dips/blob/master/dip-0008.md>`__, ChainLocks "
+"<https://github.com/HistoriaOffical/dips/blob/master/dip-0008.md>`__, ChainLocks "
 "are a method of using an LLMQ to threshold sign a block immediately after"
 " it is propogated by the miner in order to enforce the first-seen rule. "
 "This is a powerful method of mitigating 51% mining attacks, which are "
@@ -942,10 +942,10 @@ msgstr ""
 
 #: ../../introduction/information.rst:387
 msgid ""
-"Third parties that will store your Dash on their servers for you, so that"
+"Third parties that will store your Historia on their servers for you, so that"
 " you can access your funds from any device connected to the internet. If "
 "their website is hacked or if their servers are damaged, you run the risk"
-" of losing your Dash. Any online wallets should be secured with strong "
+" of losing your Historia. Any online wallets should be secured with strong "
 "passphrases and 2FA. You cannot make backup copies of your online wallet,"
 " because you do not have access to the private keys. We do not recommend "
 "that you store large quantities of funds in online wallets."
@@ -970,7 +970,7 @@ msgstr ""
 msgid ""
 "A method of generating and storing private keys completely offline. One "
 "could use a desktop or laptop computer disconnected from the internet, a "
-"dedicated hardware wallet, a USB stick, or a :ref:`paper wallet <dash-"
+"dedicated hardware wallet, a USB stick, or a :ref:`paper wallet <historia-"
 "paper-wallet>`."
 msgstr ""
 
@@ -980,7 +980,7 @@ msgstr ""
 
 #: ../../introduction/information.rst:408
 msgid ""
-"When a Dash transaction is made, a miner must verify that the transaction"
+"When a Historia transaction is made, a miner must verify that the transaction"
 " is valid. When the inputs and outputs are verified, the transaction is "
 "included in a block in the blockchain. The transaction can then be "
 "considered complete and irreversible. The confirmation number increases "
@@ -993,7 +993,7 @@ msgstr ""
 
 #: ../../introduction/information.rst:415
 msgid ""
-"The number of confirmations for a specific Dash transaction. Zero "
+"The number of confirmations for a specific Historia transaction. Zero "
 "confirmations means that the **transaction is unconfirmed**. One "
 "confirmation means that the transaction is included in the latest block "
 "in the blockchain. Two confirmations means the transaction is included in"
@@ -1072,7 +1072,7 @@ msgstr ""
 #: ../../introduction/information.rst:463
 msgid ""
 "Decentralized Application Protocol. This term describes an application "
-"running on top of the Dash DAPI platform."
+"running on top of the Historia DAPI platform."
 msgstr ""
 
 #: ../../introduction/information.rst:468
@@ -1081,7 +1081,7 @@ msgstr ""
 
 #: ../../introduction/information.rst:467
 msgid ""
-"An HTTP Client that connects to DAPI and enables Dash blockchain users to"
+"An HTTP Client that connects to DAPI and enables Historia blockchain users to"
 " read and write data to their DAP Space."
 msgstr ""
 
@@ -1091,7 +1091,7 @@ msgstr ""
 
 #: ../../introduction/information.rst:471
 msgid ""
-"A Dash Schema document extending the Dash System Schema to define "
+"A Historia Schema document extending the Historia System Schema to define "
 "consensus data and rules within a DAP contract."
 msgstr ""
 
@@ -1147,77 +1147,77 @@ msgstr ""
 
 #: ../../introduction/information.rst:497
 msgid ""
-"Dash was initially launched as XCoin and then rebranded to Darkcoin and "
-"finally Dash."
+"Historia was initially launched as XCoin and then rebranded to Darkcoin and "
+"finally Historia."
 msgstr ""
 
 #: ../../introduction/information.rst:508
-msgid "Dash"
+msgid "Historia"
 msgstr ""
 
 #: ../../introduction/information.rst:501
 msgid ""
 "Originally launched as Xcoin and later renamed to Darkcoin, the currency "
-"was later renamed \"Dash\" to avoid association with the darknet markets."
-" Dash is a portmanteau of \"Digital Cash.\" Dash is an open source peer-"
-"to- peer cryptocurrency that solves many of Bitcoin's problems. Dash's "
+"was later renamed \"Historia\" to avoid association with the darknet markets."
+" Historia is a portmanteau of \"Digital Cash.\" Historia is an open source peer-"
+"to- peer cryptocurrency that solves many of Bitcoin's problems. Historia's "
 "features include PrivateSend, InstantSend, Decentralized Governance by "
 "Blockchain (DGBB), a 2nd tier network (referred to as the masternode "
 "network). See the :ref:`Features <features>` page for a full list of "
-"Dash's features."
+"Historia's features."
 msgstr ""
 
 #: ../../introduction/information.rst:513
-msgid "DashDrive"
+msgid "HistoriaDrive"
 msgstr ""
 
 #: ../../introduction/information.rst:511
 msgid ""
-"Dash network data storage backend service used by masternodes for off-"
-"chain data relating to Evolution. DashDrive implements `IPFS "
+"Historia network data storage backend service used by masternodes for off-"
+"chain data relating to Evolution. HistoriaDrive implements `IPFS "
 "<https://ipfs.io>`_, a type of distributed file storage system."
 msgstr ""
 
 #: ../../introduction/information.rst:521
-msgid "Dash Client"
+msgid "Historia Client"
 msgstr ""
 
 #: ../../introduction/information.rst:516
 msgid ""
-"Dash clients are software programs used to interface with the Dash "
-"network. They store the private keys needed to conduct Dash transactions "
-"as well as a copy of the entire blockchain. A Dash client connects to the"
-" Dash network and becomes a node in the network. A node shares and "
+"Historia clients are software programs used to interface with the Historia "
+"network. They store the private keys needed to conduct Historia transactions "
+"as well as a copy of the entire blockchain. A Historia client connects to the"
+" Historia network and becomes a node in the network. A node shares and "
 "propagates new transactions with the rest of the network, creating a "
 "robust decentralized infrastructure."
 msgstr ""
 
 #: ../../introduction/information.rst:528
-msgid "Dash Core Wallet"
+msgid "Historia Core Wallet"
 msgstr ""
 
 #: ../../introduction/information.rst:524
 msgid ""
-"The :ref:`Dash Core Wallet <dash-core-wallet>` (known also as the QT "
-"wallet) is the \"official\" Dash wallet that is compiled by the Dash Core"
-" Team and allows both PrivateSend and InstantSend. The DashCore wallet "
+"The :ref:`Historia Core Wallet <historia-core-wallet>` (known also as the QT "
+"wallet) is the \"official\" Historia wallet that is compiled by the Historia Core"
+" Team and allows both PrivateSend and InstantSend. The HistoriaCore wallet "
 "will download the entire blockchain and serve it over the internet to any"
 " peers who request it."
 msgstr ""
 
 #: ../../introduction/information.rst:534
-msgid "Dash Evolution"
+msgid "Historia Evolution"
 msgstr ""
 
 #: ../../introduction/information.rst:531
 msgid ""
-"This is a 3 tier network Dash developers are presently building. It will "
-"make Dash as easy to use as PayPal, while still remaining decentralized. "
+"This is a 3 tier network Historia developers are presently building. It will "
+"make Historia as easy to use as PayPal, while still remaining decentralized. "
 "See the :ref:`Evolution <evolution>` page for more information."
 msgstr ""
 
 #: ../../introduction/information.rst:538
-msgid "Dash Schema"
+msgid "Historia Schema"
 msgstr ""
 
 #: ../../introduction/information.rst:537
@@ -1236,7 +1236,7 @@ msgid ""
 "under an attacker’s control to drain the resources of a central target. "
 "They often send small amounts of network traffic across the Internet to "
 "tie up computing and bandwidth resources at the target, which prevents it"
-" from providing services to legitimate users. Dash exchanges have "
+" from providing services to legitimate users. Historia exchanges have "
 "sometimes been hit with DDoS attacks."
 msgstr ""
 
@@ -1269,10 +1269,10 @@ msgstr ""
 
 #: ../../introduction/information.rst:566
 msgid ""
-"A wallet is a piece of software that stores your Dash. There are many "
+"A wallet is a piece of software that stores your Historia. There are many "
 "different wallet options, but it is imperative to choose a secure one. We"
-" recommend any of the following: :ref:`Dash Core Wallet <dash-core-"
-"wallet>` / :ref:`Dash Electrum Wallet <dash-electrum-wallet>` / "
+" recommend any of the following: :ref:`Historia Core Wallet <historia-core-"
+"wallet>` / :ref:`Historia Electrum Wallet <historia-electrum-wallet>` / "
 ":ref:`Hardware Wallets <hardware-wallets>`"
 msgstr ""
 
@@ -1286,8 +1286,8 @@ msgid ""
 "related to the maximum allowed number in a given numerical portion of a "
 "transaction block’s hash. The lower the number, the more difficult it is "
 "to produce a hash value that fits it. Difficulty varies based on the "
-"amount of computing power used by miners on the Dash network. If large "
-"numbers of miners leave a network, the difficulty would decrease. Dash's "
+"amount of computing power used by miners on the Historia network. If large "
+"numbers of miners leave a network, the difficulty would decrease. Historia's "
 "increasing popularity and the availability of specialized ASIC miners "
 "have caused the difficulty to increase over time."
 msgstr ""
@@ -1303,16 +1303,16 @@ msgstr ""
 #: ../../introduction/information.rst:587
 msgid ""
 "A digital wallet is similar to a physical wallet except that it is used "
-"to hold **digital currency**. A Dash wallet holds your private keys, "
-"which allow you to spend your Dash. You are also able to make backups of "
-"your wallet in order to ensure that you never lose access to your Dash. "
+"to hold **digital currency**. A Historia wallet holds your private keys, "
+"which allow you to spend your Historia. You are also able to make backups of "
+"your wallet in order to ensure that you never lose access to your Historia. "
 "Digital wallets can exist in many different forms and on many devices:"
 msgstr ""
 
 #: ../../introduction/information.rst:594
 msgid ""
-"**Desktop Wallet** (:ref:`Dash Electrum Wallet <dash-electrum-wallet>`, "
-":ref:`Dash Core Wallet <dash-core-wallet>`): Wallet programs that you "
+"**Desktop Wallet** (:ref:`Historia Electrum Wallet <historia-electrum-wallet>`, "
+":ref:`Historia Core Wallet <historia-core-wallet>`): Wallet programs that you "
 "install on a laptop or desktop computer. You are solely responsible for "
 "protecting the wallet file and the private keys it contains. Make backup "
 "copies of your wallet files to ensure that you don't lose access to your "
@@ -1321,9 +1321,9 @@ msgstr ""
 
 #: ../../introduction/information.rst:602
 msgid ""
-"**Mobile Wallet** (:ref:`Android <dash-android-wallet>`, :ref:`iOS <dash-"
+"**Mobile Wallet** (:ref:`Android <historia-android-wallet>`, :ref:`iOS <historia-"
 "ios-wallet>`): These wallets can be downloaded through Google Play or "
-"Apple (iTunes) App Stores. Mobile wallets allow you to use Dash on-the-go"
+"Apple (iTunes) App Stores. Mobile wallets allow you to use Historia on-the-go"
 " by scanning a QR code to send payment. Make backup copies of your mobile"
 " wallet files to ensure that you don't lose access to your funds. Due to "
 "security issues with mobile phones, it is advised that you don't store "
@@ -1333,15 +1333,15 @@ msgstr ""
 #: ../../introduction/information.rst:611
 msgid ""
 "**Online/Cloud/Web Wallet** (:ref:`Exodus <third-party-wallets>`, "
-":ref:`MyDashWallet <web-wallets>`): Third parties that will store your "
-"Dash on their servers for you or provide an interface to access your Dash"
-" with you providing the keys, so that you can access your Dash from any "
+":ref:`MyHistoriaWallet <web-wallets>`): Third parties that will store your "
+"Historia on their servers for you or provide an interface to access your Historia"
+" with you providing the keys, so that you can access your Historia from any "
 "device connected to the internet. If their website is hacked or if their "
-"servers are damaged, you run the risk of losing your Dash. Any online "
+"servers are damaged, you run the risk of losing your Historia. Any online "
 "wallets should be secured with strong passphrases and 2FA. You cannot "
 "make backup copies of your online wallet, because you do not have access "
 "to the private keys. We strongly urge that you NEVER store large amounts "
-"of Dash in any online wallet or cryptocurrency exchange."
+"of Historia in any online wallet or cryptocurrency exchange."
 msgstr ""
 
 #: ../../introduction/information.rst:623
@@ -1350,21 +1350,21 @@ msgid ""
 "Nano): A hardware wallet is a specialized, tamper-proof, hardware device "
 "that stores your private keys. This device is able to sign transactions "
 "with your private key without being connected to the internet. However, "
-"you must have an internet connection to send the transaction to the Dash "
+"you must have an internet connection to send the transaction to the Historia "
 "network. This allows your private keys to be accessed easily while still "
 "keeping them securely protected. This is widely regarded to be the safest"
-" form of storage for your Dash."
+" form of storage for your Historia."
 msgstr ""
 
 #: ../../introduction/information.rst:633
 msgid ""
-"**Offline/Cold Storage** (:ref:`Paper wallet <dash-paper-wallet>`): A "
+"**Offline/Cold Storage** (:ref:`Paper wallet <historia-paper-wallet>`): A "
 "special wallet that is created offline and is never exposed to the "
 "internet. Accomplished by using software to generate a public and private"
 " key offline and then recording the generated keys. They keys can be "
 "printed out on paper or even laser-etched in metal. Copies can be made "
 "and stored in a personal safe or bank deposit box. This is an extremely "
-"secure way to store Dash. There is no risk of using software wallet "
+"secure way to store Historia. There is no risk of using software wallet "
 "files, which can become corrupt, or web wallets, which can be hacked. "
 "NOTE: USB sticks are not safe for long-term (multi-year) storage because "
 "they degrade over time."
@@ -1377,9 +1377,9 @@ msgstr ""
 #: ../../introduction/information.rst:645
 msgid ""
 "Defined in `DIP6 "
-"<https://github.com/dashpay/dips/blob/master/dip-0006.md>`__, Distributed"
+"<https://github.com/HistoriaOffical/dips/blob/master/dip-0006.md>`__, Distributed"
 " Key Generation (`DKG "
-"<https://github.com/dashpay/dips/blob/master/dip-0006.md#llmq-dkg-"
+"<https://github.com/HistoriaOffical/dips/blob/master/dip-0006.md#llmq-dkg-"
 "network-protocol>`__) is a method of generating a BLS key pair for use in"
 " an LLMQ to perform threshold signing on network messages. It is based on"
 " BLS M-of-N Threshold Scheme and Distributed Key Generation, which is an "
@@ -1395,10 +1395,10 @@ msgid ""
 "A digital signature is a mathematical mechanism that allows someone to "
 "prove their identity or ownership of a digital asset. When your digital "
 "wallet signs a transaction with the appropriate private key, the whole "
-"network can see that the signature matches the address of the Dash being "
+"network can see that the signature matches the address of the Historia being "
 "spent, without the need to reveal the private key to the network. You can"
 " also digitally sign messages using your private key, to prove for "
-"instance that you are the owner of a certain Dash address."
+"instance that you are the owner of a certain Historia address."
 msgstr ""
 
 #: ../../introduction/information.rst:668
@@ -1407,7 +1407,7 @@ msgstr ""
 
 #: ../../introduction/information.rst:665
 msgid ""
-":ref:`Dash Electrum Wallet <dash-electrum-wallet>` is a lightweight "
+":ref:`Historia Electrum Wallet <historia-electrum-wallet>` is a lightweight "
 "wallet that does not require you to download or sync the entire "
 "blockchain, making the wallet lighter and faster. However, it is missing "
 "certain features such as PrivateSend and InstantSend."
@@ -1479,8 +1479,8 @@ msgstr ""
 
 #: ../../introduction/information.rst:709
 msgid ""
-"Founder and first Lead Developer of Dash. Inventor of X11, InstantSend "
-"and PrivateSend. Before creating Dash, Evan was a financial advisor and "
+"Founder and first Lead Developer of Historia. Inventor of X11, InstantSend "
+"and PrivateSend. Before creating Historia, Evan was a financial advisor and "
 "holds a Series 65 license."
 msgstr ""
 
@@ -1490,12 +1490,12 @@ msgstr ""
 
 #: ../../introduction/information.rst:714
 msgid ""
-"The current price of one Dash compared to the price of other currencies, "
+"The current price of one Historia compared to the price of other currencies, "
 "like the US dollar, Yen, Euro, or Bitcoin. Because most trading volume "
-"takes place on the BTC/DASH markets, price is often quoted in fractions "
-"of a bitcoin. For instance, the price of one Dash at the end of March "
-"2017 was 0.08 (bitcoins per Dash). An excellent site for following the "
-"exchange rate of Dash is `CoinMarketCap <https://coinmarketcap.com/>`_. "
+"takes place on the BTC/HISTORIA markets, price is often quoted in fractions "
+"of a bitcoin. For instance, the price of one Historia at the end of March "
+"2017 was 0.08 (bitcoins per Historia). An excellent site for following the "
+"exchange rate of Historia is `CoinMarketCap <https://coinmarketcap.com/>`_. "
 "Businesses wishing to reduce the risk of holding a volatile digital "
 "currency can avoid that risk altogether by having a payment processor do "
 "an instant exchange at the time of each transaction."
@@ -1508,8 +1508,8 @@ msgstr ""
 #: ../../introduction/information.rst:726
 msgid ""
 "Faucets are a reward system, in the form of a website or app, that "
-"dispenses rewards in the form of a microdash or Duff, which is a "
-"hundredth of a millionth Dash, for visitors to claim in exchange for "
+"dispenses rewards in the form of a microhistoria or Duff, which is a "
+"hundredth of a millionth Historia, for visitors to claim in exchange for "
 "completing a captcha or task as described by the website."
 msgstr ""
 
@@ -1554,7 +1554,7 @@ msgid ""
 "technology companies are generally startups trying to make financial "
 "processes more efficient or eliminate middle- men. Recently many fintech "
 "companies have begun utilizing blockchain technology, which is the same "
-"technology that underpins Dash and Bitcoin."
+"technology that underpins Historia and Bitcoin."
 msgstr ""
 
 #: ../../introduction/information.rst:763
@@ -1575,7 +1575,7 @@ msgstr ""
 #: ../../introduction/information.rst:761
 msgid ""
 "Forking is most likely to occur during software updates to the network. "
-"Dash uses a Multi-Phased Fork (“:ref:`Spork <sporks>`”) system for "
+"Historia uses a Multi-Phased Fork (“:ref:`Spork <sporks>`”) system for "
 "greater flexibility and safety."
 msgstr ""
 
@@ -1585,8 +1585,8 @@ msgstr ""
 
 #: ../../introduction/information.rst:766
 msgid ""
-"Any Dash client that is serving a full version of the blockchain to "
-"peers. This can be a user running a Dash Core wallet on his/her desktop, "
+"Any Historia client that is serving a full version of the blockchain to "
+"peers. This can be a user running a Historia Core wallet on his/her desktop, "
 "or it could be a :ref:`masternode <masternodes>`. Full nodes promote "
 "decentralization by allowing any user to double check the validity of the"
 " blockchain."
@@ -1637,7 +1637,7 @@ msgstr ""
 #: ../../introduction/information.rst:795
 msgid ""
 ":ref:`Hardware wallets <hardware-wallets>` are among the safest type of "
-"wallet for storing your Dash. Your private key is protected inside a "
+"wallet for storing your Historia. Your private key is protected inside a "
 "piece of hardware, and is never exposed to the internet. You are still "
 "able to sign transactions as normal, making it both safe and convenient."
 msgstr ""
@@ -1661,7 +1661,7 @@ msgstr ""
 
 #: ../../introduction/information.rst:810
 msgid ""
-"The number of hashes that can be performed by a Dash miner in a given "
+"The number of hashes that can be performed by a Historia miner in a given "
 "period of time (usually a second)."
 msgstr ""
 
@@ -1690,7 +1690,7 @@ msgstr ""
 #: ../../introduction/information.rst:821
 msgid ""
 ":ref:`InstantSend <instantsend>` technology uses the masternode network "
-"to \"lock\" transaction inputs, preventing Dash from being double-spent. "
+"to \"lock\" transaction inputs, preventing Historia from being double-spent. "
 "Unlike Bitcoin, where it takes an hour or longer for transactions to "
 "fully confirm, transactions using InstantSend are \"locked\" and "
 "irreversible after only a few seconds."
@@ -1716,7 +1716,7 @@ msgstr ""
 #: ../../introduction/information.rst:835
 msgid ""
 "Defined in `DIP6 "
-"<https://github.com/dashpay/dips/blob/master/dip-0006.md>`__, A Long- "
+"<https://github.com/HistoriaOffical/dips/blob/master/dip-0006.md>`__, A Long- "
 "Living Masternode Quorum (LLMQ) is a deterministic subset of the global "
 "deterministic masternode list. Such a quorum is formed with the help of a"
 " distributed key generation (DKG) protocol and is supposed to be active "
@@ -1733,12 +1733,12 @@ msgstr ""
 msgid ""
 "A :ref:`masternode <masternode-network>` is special type of full node "
 "that performs services for the network and is paid a portion of the block"
-" reward. Masternodes require proof of ownership of 1000 DASH."
+" reward. Masternodes require proof of ownership of 1000 HISTORIA."
 msgstr ""
 
 #: ../../introduction/information.rst:850
 msgid ""
-"Masternodes serve as the second tier of the Dash network, and power "
+"Masternodes serve as the second tier of the Historia network, and power "
 "InstantSend, PrivateSend, the Budget System."
 msgstr ""
 
@@ -1749,7 +1749,7 @@ msgstr ""
 #: ../../introduction/information.rst:854
 #, python-format
 msgid ""
-":ref:`Miners <mining>` process transactions on the Dash network and "
+":ref:`Miners <mining>` process transactions on the Historia network and "
 "publish them on the blockchain. As a reward for doing this, miners are "
 "paid 45% of the block reward."
 msgstr ""
@@ -1770,7 +1770,7 @@ msgstr ""
 msgid ""
 "Multi-signature addresses provide additional security by requiring "
 "multiple people to sign a transaction with their private key before the "
-"transaction can be sent. For example, in :ref:`2 of 3 multisig <dashcore-"
+"transaction can be sent. For example, in :ref:`2 of 3 multisig <historiacore-"
 "multisig>`, two out of three possible signatories have to sign a "
 "transaction for it to be processed. Multi-signature addresses are "
 "commonly used by exchanges and other organizations that are in possession"
@@ -1784,9 +1784,9 @@ msgstr ""
 
 #: ../../introduction/information.rst:872
 msgid ""
-"A node is any device running Dash wallet software. Full nodes are "
+"A node is any device running Historia wallet software. Full nodes are "
 "software clients that have downloaded the entire blockchain and serve it "
-"to other clients on Dash's peer-to-peer network."
+"to other clients on Historia's peer-to-peer network."
 msgstr ""
 
 #: ../../introduction/information.rst:881
@@ -1820,7 +1820,7 @@ msgstr ""
 
 #: ../../introduction/information.rst:890
 msgid ""
-":ref:`Paper wallets <dash-paper-wallet>` are offline wallets, printed on "
+":ref:`Paper wallets <historia-paper-wallet>` are offline wallets, printed on "
 "paper for safety. If properly secured and stored they are considered the "
 "safest way to store cryptocurrency."
 msgstr ""
@@ -1839,7 +1839,7 @@ msgid ""
 "person, it usually means that something is inherently special or "
 "sensitive to them. The domain of privacy partially overlaps security "
 "(confidentiality), which can include the concepts of appropriate use, as "
-"well as protection of information. Dash includes PrivateSend, which "
+"well as protection of information. Historia includes PrivateSend, which "
 "allows users to maintain financial privacy."
 msgstr ""
 
@@ -1850,11 +1850,11 @@ msgstr ""
 #: ../../introduction/information.rst:907
 msgid ""
 "A `private key <https://en.wikipedia.org/wiki/Public- key_cryptography>`_"
-" is a long alphanumeric passcode that allows Dash to be spent. Every Dash"
+" is a long alphanumeric passcode that allows Historia to be spent. Every Historia"
 " wallet contains one or more private keys which are saved in the wallet "
-"file. The private keys are mathematically related to all Dash addresses "
+"file. The private keys are mathematically related to all Historia addresses "
 "generated for the wallet. Because the private key is the \"ticket\" that "
-"allows someone to spend Dash, it is important that these are kept secure "
+"allows someone to spend Historia, it is important that these are kept secure "
 "and secret."
 msgstr ""
 
@@ -1875,7 +1875,7 @@ msgstr ""
 
 #: ../../introduction/information.rst:921
 msgid ""
-"Consensus mechanism used in Dash to verify that a masternode has provided"
+"Consensus mechanism used in Historia to verify that a masternode has provided"
 " uninterrupted service meeting a minimum quality level to the network. "
 "Maintaining this service allows a masternode to enter and move up through"
 " the global list and eventually into the selection pool to receive "
@@ -1960,7 +1960,7 @@ msgid ""
 "A two-dimensional graphical block containing a monochromatic pattern "
 "representing a sequence of data. QR codes are designed to be scanned by "
 "cameras, including those found in mobile phones, and are frequently used "
-"to encode Dash addresses."
+"to encode Historia addresses."
 msgstr ""
 
 #: ../../introduction/information.rst:978
@@ -2002,7 +2002,7 @@ msgstr ""
 
 #: ../../introduction/information.rst:991
 msgid ""
-"The Dash development team created a mechanism known as a \":ref:`spork "
+"The Historia development team created a mechanism known as a \":ref:`spork "
 "<sporks>`\" by which updated code is released to the network, but not "
 "immediately made active (or “enforced”). Communication is sent out to "
 "users informing them of the change and the need for them to update their "
@@ -2028,11 +2028,11 @@ msgid ""
 msgstr ""
 
 #: ../../introduction/information.rst:1011
-msgid "tDash"
+msgid "tHistoria"
 msgstr ""
 
 #: ../../introduction/information.rst:1011
-msgid "Test Dash, used on :ref:`testnet <testnet>`."
+msgid "Test Historia, used on :ref:`testnet <testnet>`."
 msgstr ""
 
 #: ../../introduction/information.rst:1017
@@ -2068,7 +2068,7 @@ msgid ""
 "Bitcoin, classical transactions move balances between addresses on the "
 "blockchain. Special transactions contain an extra payload in the format "
 "defined by `DIP2 "
-"<https://github.com/dashpay/dips/blob/master/dip-0002.md>`_, and can be "
+"<https://github.com/HistoriaOffical/dips/blob/master/dip-0002.md>`_, and can be "
 "used to manage blockchain users, for example."
 msgstr ""
 
@@ -2078,7 +2078,7 @@ msgstr ""
 
 #: ../../introduction/information.rst:1033
 msgid ""
-"A collection of transactions on the Dash network, gathered into a block "
+"A collection of transactions on the Historia network, gathered into a block "
 "that can then be hashed and added to the blockchain."
 msgstr ""
 
@@ -2089,7 +2089,7 @@ msgstr ""
 #: ../../introduction/information.rst:1037
 msgid ""
 "A :ref:`small fee <fees>` imposed on some transactions sent across the "
-"Dash network. The transaction fee is awarded to the miner that "
+"Historia network. The transaction fee is awarded to the miner that "
 "successfully hashes the block containing the relevant transaction."
 msgstr ""
 
@@ -2109,16 +2109,16 @@ msgid "Vanity Address"
 msgstr ""
 
 #: ../../introduction/information.rst:1047
-msgid "A Dash address with a desirable pattern, such as a name."
+msgid "A Historia address with a desirable pattern, such as a name."
 msgstr ""
 
 #: ../../introduction/information.rst:1051
-msgid "Virgin Dash"
+msgid "Virgin Historia"
 msgstr ""
 
 #: ../../introduction/information.rst:1050
 msgid ""
-"Dash received as a reward for mining a block or running a masternode. "
+"Historia received as a reward for mining a block or running a masternode. "
 "These have not yet been spent anywhere and are \"virgin.\""
 msgstr ""
 
@@ -2129,7 +2129,7 @@ msgstr ""
 #: ../../introduction/information.rst:1054
 msgid ""
 "The measurement of price movements over time for a traded financial asset"
-" (including Dash)."
+" (including Historia)."
 msgstr ""
 
 #: ../../introduction/information.rst:1060
@@ -2138,8 +2138,8 @@ msgstr ""
 
 #: ../../introduction/information.rst:1058
 msgid ""
-"A method of storing Dash for later use. A wallet holds the private keys "
-"associated with Dash addresses. The blockchain is the record of the Dash "
+"A method of storing Historia for later use. A wallet holds the private keys "
+"associated with Historia addresses. The blockchain is the record of the Historia "
 "balances (and transactions) associated with those addresses."
 msgstr ""
 
@@ -2162,7 +2162,7 @@ msgstr ""
 
 #: ../../introduction/information.rst:1070
 msgid ""
-":ref:`X11 <x11-hash-algorithm>` is a hashing algorithm created by Dash "
+":ref:`X11 <x11-hash-algorithm>` is a hashing algorithm created by Historia "
 "Core developer Evan Duffield."
 msgstr ""
 
@@ -2184,7 +2184,7 @@ msgstr ""
 msgid ""
 "A transaction (tx) consists of one or more inputs and one or more "
 "outputs. The vin is the list of inputs to the transaction, and vout is "
-"the list of outputs. Masternodes require a 1000 DASH vin (exactly that "
+"the list of outputs. Masternodes require a 1000 HISTORIA vin (exactly that "
 "amount) in order to work."
 msgstr ""
 
@@ -2199,18 +2199,18 @@ msgid ""
 "testing."
 msgstr ""
 
-#~ msgid "**User documentation:** https://www.dash.org/wiki"
+#~ msgid "**User documentation:** https://historia.network/wiki"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "**London:** https://www.facebook.com/Dash-Digital-"
+#~ "**London:** https://www.facebook.com/Historia-Digital-"
 #~ "Cash-London-1559503720975382"
 #~ msgstr ""
 
-#~ msgid "http://dash-news.de/dashtv/?value=1000"
+#~ msgid "http://historia-news.de/historiatv/?value=1000"
 #~ msgstr ""
 
-#~ msgid "Dash transaction visualizer"
+#~ msgid "Historia transaction visualizer"
 #~ msgstr ""
 
 #~ msgid "http://udjinm6.github.io/bitlisten/"
@@ -2226,7 +2226,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "The number of confirmations for a "
-#~ "specific Dash transaction. Zero confirmations"
+#~ "specific Historia transaction. Zero confirmations"
 #~ " means that the **transaction is "
 #~ "unconfirmed**. One confirmation means that "
 #~ "the transaction is included in the "
@@ -2243,10 +2243,10 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Any Dash client that is serving a"
+#~ "Any Historia client that is serving a"
 #~ " full version of the blockchain to"
 #~ " peers. This can be a user "
-#~ "running a Dash Core wallet on "
+#~ "running a Historia Core wallet on "
 #~ "his/her desktop, or it could be a"
 #~ " :ref:`masternode <masternodes>`. Full nodes "
 #~ "promote decentrailzation by allowing any "
@@ -2263,7 +2263,7 @@ msgstr ""
 #~ " addresses on the blockchain. Special "
 #~ "transactions contain an extra payload in"
 #~ " the format defined by `DIP2 "
-#~ "<https://github.com/dashpay/dips/blob/master/dip-0002.md>`_, and"
+#~ "<https://github.com/HistoriaOffical/dips/blob/master/dip-0002.md>`_, and"
 #~ " can be used to manage blockchain "
 #~ "users, for example."
 #~ msgstr ""
@@ -2271,34 +2271,34 @@ msgstr ""
 #~ msgid ""
 #~ "Originally launched as Xcoin and later"
 #~ " renamed to Darkcoin, the currency "
-#~ "was later renamed \"Dash\" to avoid "
+#~ "was later renamed \"Historia\" to avoid "
 #~ "association with the darknet markets. "
-#~ "Dash is a portmanteau of \"Digital "
-#~ "Cash.\" Dash is an open source "
+#~ "Historia is a portmanteau of \"Digital "
+#~ "Cash.\" Historia is an open source "
 #~ "peer-to- peer cryptocurrency that solves"
-#~ " many of Bitcoin's problems. Dash's "
+#~ " many of Bitcoin's problems. Historia's "
 #~ "features include PrivateSend, InstantSend, "
 #~ "Decentralized Governance by Blockchain (DGBB),"
 #~ " a 2nd tier network (referred to "
 #~ "as the masternode network). See the "
 #~ ":ref:`Features <features>` page for a "
-#~ "full list of Dash's features. See "
+#~ "full list of Historia's features. See "
 #~ "this `Wikipedia article "
-#~ "<https://en.wikipedia.org/wiki/Dash_(cryptocurrency)>`_"
+#~ "<https://en.wikipedia.org/wiki/Historia_(cryptocurrency)>`_"
 #~ msgstr ""
 
-#~ msgid "http://dashchat.org/"
+#~ msgid "http://historiachat.org/"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "**Cryptocurrencytalk.com:** https://cryptocointalk.com/forum/693"
-#~ "-dash-dash"
+#~ "-historia-historia"
 #~ msgstr ""
 
-#~ msgid "https://chainz.cryptoid.info/dash"
+#~ msgid "https://chainz.cryptoid.info/historia"
 #~ msgstr ""
 
-#~ msgid "http://atomox.net/1/DASH/USD"
+#~ msgid "http://atomox.net/1/HISTORIA/USD"
 #~ msgstr ""
 
 #~ msgid "**Crypto Push:** https://itunes.apple.com/app/id1282856588"
@@ -2309,22 +2309,22 @@ msgstr ""
 #~ "https://play.google.com/store/apps/details?id=io.coincap.coincap"
 #~ msgstr ""
 
-#~ msgid "**Dash Français:** https://dashfrancais.com"
+#~ msgid "**Historia Français:** https://historiafrancais.com"
 #~ msgstr ""
 
-#~ msgid "https://chainz.cryptoid.info/dash/"
+#~ msgid "https://chainz.cryptoid.info/historia/"
 #~ msgstr ""
 
-#~ msgid "https://live.blockcypher.com/dash/"
+#~ msgid "https://live.blockcypher.com/historia/"
 #~ msgstr ""
 
-#~ msgid "http://dashchat.org"
+#~ msgid "http://historiachat.org"
 #~ msgstr ""
 
-#~ msgid "**Dash Nation Discord:** https://discord.gg/9z8zX5j"
+#~ msgid "**Historia Nation Discord:** https://discord.gg/9z8zX5j"
 #~ msgstr ""
 
-#~ msgid "**Dash Nation DeCentral:** http://www.dashnation.com"
+#~ msgid "**Historia Nation DeCentral:** http://www.historianation.com"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2333,10 +2333,10 @@ msgstr ""
 #~ " <https://twitter.com/BenSwann_>`__"
 #~ msgstr ""
 
-#~ msgid "**Dash Embassy Asia:** https://www.facebook.com/DashEmbassyAsia"
+#~ msgid "**Historia Embassy Asia:** https://www.facebook.com/HistoriaEmbassyAsia"
 #~ msgstr ""
 
-#~ msgid "https://dashgiveaway.com"
+#~ msgid "https://historiagiveaway.com"
 #~ msgstr ""
 
 #~ msgid "**Lawnmower:** https://itunes.apple.com/app/id965079226"
@@ -2349,6 +2349,6 @@ msgstr ""
 
 #~ msgid ""
 #~ "**Cryptocurrencytalk.com:** "
-#~ "https://cryptocurrencytalk.com/forum/693-dash/"
+#~ "https://cryptocurrencytalk.com/forum/693-historia/"
 #~ msgstr ""
 

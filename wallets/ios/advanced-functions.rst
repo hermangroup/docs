@@ -1,8 +1,8 @@
 .. meta::
-   :description: URL scheme, master public key and requesting payment in Dash on your iOS device
-   :keywords: dash, mobile, wallet, ios, send, receive, payment, url, public key
+   :description: URL scheme, master public key and requesting payment in Historia on your iOS device
+   :keywords: historia, mobile, wallet, ios, send, receive, payment, url, public key
 
-.. _dash-ios-advanced-functions:
+.. _historia-ios-advanced-functions:
 
 ==================
 Advanced functions
@@ -12,8 +12,8 @@ URL Scheme
 ==========
 
 iOS allows apps to communicate with one another through URL schemes. The
-Dash Wallet for iOS implements the dashwallet:// scheme, allowing you to
-call the wallet to complete a transaction denominated in Dash. This page
+Historia Wallet for iOS implements the historiawallet:// scheme, allowing you to
+call the wallet to complete a transaction denominated in Historia. This page
 documents the methods available using the URL scheme.
 
 Payment
@@ -21,7 +21,7 @@ Payment
 
 Payment request URL format::
 
-  dashwallet://pay=<address>&amount=<amount>&(req-)IS=<0/1>&sender=<sender>
+  historiawallet://pay=<address>&amount=<amount>&(req-)IS=<0/1>&sender=<sender>
 
 Notes:
 
@@ -51,7 +51,7 @@ Master public key
 
 Master public key request format::
 
-  dashwallet://request=masterPublicKey&account=0&sender=<sender>
+  historiawallet://request=masterPublicKey&account=0&sender=<sender>
 
 Note: account is optional and corresponds to BIP32/BIP44 account, most
 of the time this should be 0. If account is not specified, we use
@@ -60,13 +60,13 @@ account 0. This will send back both the extended public key at
 
 Callback::
 
-  <sender>://callback=masterPublicKey&masterPublicKeyBIP32=<example:xpub68GSYNiJZ7k1beEHGmkMUjPsawFvhM7adhbXgnaY1zj5iucUgKPJNDh5iCB8KV2A9FFAGKcGZp5JtQ1XNmT7j2ErRnf8eb4Mt4wjLG6uRcN>&masterPublicKeyBIP44=<example:xpub6DTuSViCnkd1jcgoiQLcghtTAAntBX4zWhfwNMSsmcD94JATNaWZ1tC4NEv6bxcD1YA4474S2BzCDsBA97sM52jiJcmFPBiXcH9JzZSLQJm>&account=0&source=dashwallet
+  <sender>://callback=masterPublicKey&masterPublicKeyBIP32=<example:xpub68GSYNiJZ7k1beEHGmkMUjPsawFvhM7adhbXgnaY1zj5iucUgKPJNDh5iCB8KV2A9FFAGKcGZp5JtQ1XNmT7j2ErRnf8eb4Mt4wjLG6uRcN>&masterPublicKeyBIP44=<example:xpub6DTuSViCnkd1jcgoiQLcghtTAAntBX4zWhfwNMSsmcD94JATNaWZ1tC4NEv6bxcD1YA4474S2BzCDsBA97sM52jiJcmFPBiXcH9JzZSLQJm>&account=0&source=historiawallet
 
 Get address for payment
 -----------------------
 
-``dashwallet://request=address&sender=<sender>``
+``historiawallet://request=address&sender=<sender>``
 
 Callback::
 
-  <sender>://callback=address&address=<example:XjkMY3GiK5aHwbpg9Uaw7QCPk3QE63Nh5i>&source=dashwallet
+  <sender>://callback=address&address=<example:XjkMY3GiK5aHwbpg9Uaw7QCPk3QE63Nh5i>&source=historiawallet

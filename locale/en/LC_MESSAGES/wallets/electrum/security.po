@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../wallets/electrum/security.rst:1
-msgid "Security, backup and safety when using the Dash Electrum wallet"
+msgid "Security, backup and safety when using the Historia Electrum wallet"
 msgstr ""
 
 #: ../../wallets/electrum/security.rst:1
-msgid "dash, wallet, electrum, safety, password, backup, security, restore"
+msgid "historia, wallet, electrum, safety, password, backup, security, restore"
 msgstr ""
 
 #: ../../wallets/electrum/security.rst:8
@@ -48,15 +48,15 @@ msgstr ""
 
 #: ../../wallets/electrum/security.rst:24
 msgid ""
-"In Dash Electrum, a seed is a complete backup of all addresses and "
+"In Historia Electrum, a seed is a complete backup of all addresses and "
 "transactions. Access your wallet's seed through the seed icon in the "
 "lower right of the main screen, or the **Wallet > Seed** main menu "
 "option. When prompted, enter the secure password you chose when setting "
-"up the Dash Electrum wallet."
+"up the Historia Electrum wallet."
 msgstr ""
 
 #: ../../wallets/electrum/security.rst:33
-msgid "Displaying the wallet recovery seed in Dash Electrum"
+msgid "Displaying the wallet recovery seed in Historia Electrum"
 msgstr ""
 
 #: ../../wallets/electrum/security.rst:35
@@ -84,9 +84,9 @@ msgstr ""
 
 #: ../../wallets/electrum/security.rst:53
 msgid ""
-"The only thing needed to recover a Dash Electrum wallet on another "
+"The only thing needed to recover a Historia Electrum wallet on another "
 "computer is its seed. You can test wallet recovery with your current "
-"installation of Dash Electrum by selecting the **File > New/Restore** "
+"installation of Historia Electrum by selecting the **File > New/Restore** "
 "menu item. A dialog will appear asking you to name your new wallet. Enter"
 " a name, select **Standard wallet** as the wallet type and then choose "
 "**I already have a seed**."
@@ -106,8 +106,8 @@ msgstr ""
 
 #: ../../wallets/electrum/security.rst:72
 msgid ""
-"If your seed was entered correctly, Dash Electrum gives you the option to"
-" add a password for your wallet. After restoring your wallet, Dash "
+"If your seed was entered correctly, Historia Electrum gives you the option to"
+" add a password for your wallet. After restoring your wallet, Historia "
 "Electrum will list any existing transactions from this wallet. This "
 "process may take a few minutes, and the transactions may appear as **Not "
 "Verified**. This problem disappears after restarting the program."
@@ -126,18 +126,18 @@ msgstr ""
 #: ../../wallets/electrum/security.rst:86
 msgid ""
 "**Linux:** Open Files, select **Go > Go to folder**, copy the path "
-"``~/.electrum-dash`` and paste it into the dialog box."
+"``~/.electrum-historia`` and paste it into the dialog box."
 msgstr ""
 
 #: ../../wallets/electrum/security.rst:89
 msgid ""
 "**macOS:** Open Finder, select **Go > Go to Folder**, copy the path "
-"``~/.electrum-dash`` and paste it into the dialog box."
+"``~/.electrum-historia`` and paste it into the dialog box."
 msgstr ""
 
 #: ../../wallets/electrum/security.rst:92
 msgid ""
-"**Windows:** Open Explorer, copy the path ``%APPDATA%\\Electrum-DASH`` "
+"**Windows:** Open Explorer, copy the path ``%APPDATA%\\Electrum-HISTORIA`` "
 "and paste it in to the address bar."
 msgstr ""
 
@@ -161,7 +161,7 @@ msgstr ""
 #~ "in the folder"
 #~ msgstr ""
 
-#~ msgid "Open Explorer, copy the path ``%APPDATA%\\Electrum-DASH`` and"
+#~ msgid "Open Explorer, copy the path ``%APPDATA%\\Electrum-HISTORIA`` and"
 #~ msgstr ""
 
 #~ msgid "paste it in to the address bar"
@@ -169,10 +169,10 @@ msgstr ""
 
 #~ msgid ""
 #~ "The only thing needed to recover "
-#~ "an Dash Electrum wallet on another "
+#~ "an Historia Electrum wallet on another "
 #~ "computer is its seed. You can test"
 #~ " wallet recovery with your current "
-#~ "installation of Dash Electrum by "
+#~ "installation of Historia Electrum by "
 #~ "removing the wallet data from the "
 #~ "application data folder. This optional "
 #~ "procedure is described below. Before "
@@ -183,10 +183,10 @@ msgstr ""
 
 #~ msgid ""
 #~ "The only thing needed to recover a"
-#~ " Dash Electrum wallet on another "
+#~ " Historia Electrum wallet on another "
 #~ "computer is its seed. You can test"
 #~ " wallet recovery with your current "
-#~ "installation of Dash Electrum by "
+#~ "installation of Historia Electrum by "
 #~ "removing the wallet data from the "
 #~ "application data folder. This optional "
 #~ "procedure is described below. Before "
@@ -196,10 +196,10 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "To get Dash Electrum to generate a"
+#~ "To get Historia Electrum to generate a"
 #~ " new wallet, the old wallet data "
 #~ "needs to be deleted. Begin by "
-#~ "closing Dash Electrum. Next, locate the"
+#~ "closing Historia Electrum. Next, locate the"
 #~ " application data folder according to "
 #~ "your operating system:"
 #~ msgstr ""
@@ -232,13 +232,13 @@ msgstr ""
 
 #~ msgid ""
 #~ "Open Explorer, copy the path ``%APPDATA"
-#~ "%\\Electrum-DASH`` and paste it in to"
+#~ "%\\Electrum-HISTORIA`` and paste it in to"
 #~ " the address bar"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "Having cleared the data directory, "
-#~ "restart Dash Electrum. A dialog will "
+#~ "restart Historia Electrum. A dialog will "
 #~ "appear asking you to name your new"
 #~ " wallet. Enter a name, select "
 #~ "**Standard wallet** as the wallet type"

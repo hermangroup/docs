@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash latest\n"
+"Project-Id-Version: Historia latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-03 08:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,12 +19,12 @@ msgstr ""
 
 #: ../../merchants/administrative.rst:1
 msgid ""
-"Administrative guides for merchants using Dash. Onboarding and immediate "
+"Administrative guides for merchants using Historia. Onboarding and immediate "
 "currency conversion at time of sale"
 msgstr ""
 
 #: ../../merchants/administrative.rst:1
-msgid "dash, pos, merchants, currency, conversion, onboarding, legal, promotion"
+msgid "historia, pos, merchants, currency, conversion, onboarding, legal, promotion"
 msgstr ""
 
 #: ../../merchants/administrative.rst:9
@@ -33,10 +33,10 @@ msgstr ""
 
 #: ../../merchants/administrative.rst:11
 msgid ""
-"It's easy to get started integrating Dash, but you will need to make some"
-" decisions about whether you plan to convert your income earned in Dash "
+"It's easy to get started integrating Historia, but you will need to make some"
+" decisions about whether you plan to convert your income earned in Historia "
 "into your local fiat currency, or if you prefer to hold some or all of it"
-" in Dash. Most payment processors offer a range of fiat conversion "
+" in Historia. Most payment processors offer a range of fiat conversion "
 "options, although various fees and limits may be applicable."
 msgstr ""
 
@@ -47,11 +47,11 @@ msgstr ""
 #: ../../merchants/administrative.rst:21
 msgid ""
 "New merchants typically go through the following steps when joining the "
-"Dash ecosystem:"
+"Historia ecosystem:"
 msgstr ""
 
 #: ../../merchants/administrative.rst:24
-msgid "Set up a Dash wallet"
+msgid "Set up a Historia wallet"
 msgstr ""
 
 #: ../../merchants/administrative.rst:25
@@ -71,26 +71,26 @@ msgid "Release and marketing"
 msgstr ""
 
 #: ../../merchants/administrative.rst:29
-msgid "Integration on `DiscoverDash <https://discoverdash.com>`_"
+msgid "Integration on `DiscoverHistoria <https://discoverhistoria.com>`_"
 msgstr ""
 
 #: ../../merchants/administrative.rst:33
-msgid "Promoting Dash"
+msgid "Promoting Historia"
 msgstr ""
 
 #: ../../merchants/administrative.rst:35
 msgid ""
 "A wide range of ready-to-go visual products are available to help you "
-"promote Dash as a payment method to your customers. This includes "
+"promote Historia as a payment method to your customers. This includes "
 "promotional graphics and stickers, fonts for consistent visual design and"
-" guidelines on how to use the Dash visual identity. See the "
+" guidelines on how to use the Historia visual identity. See the "
 ":ref:`Marketing <marketing>` section for more information."
 msgstr ""
 
 #: ../../merchants/administrative.rst:41
 msgid ""
 "The reduced fees may also offer an additional incentive for your "
-"customers to pay with Dash, particularly in businesses with high cash "
+"customers to pay with Historia, particularly in businesses with high cash "
 "handling fees or where it is necessary to add a fee to process credit "
 "card transactions."
 msgstr ""
@@ -120,7 +120,7 @@ msgid ""
 "payments into a range of different cryptocurrencies, but require you to "
 "set up automatic withdrawals to an :ref:`exchange <exchanges>` for "
 "conversion to fiat currency. Finally, services such as `Uphold "
-"<https://uphold.com>`_ allow you to convert your Dash payments between "
+"<https://uphold.com>`_ allow you to convert your Historia payments between "
 "various currencies and commodities very easily, and even offer automated "
 "investment services."
 msgstr ""
@@ -146,7 +146,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Dash welcomes new and existing merchants"
+#~ "Historia welcomes new and existing merchants"
 #~ " and supports integration through a "
 #~ "standardised onboarding process. Larger "
 #~ "integrations may require some customisation."

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-02 06:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../wallets/android/introduction.rst:4
-msgid "Dash Android Wallet"
+msgid "Historia Android Wallet"
 msgstr ""
 
 #: ../../wallets/android/introduction.rst:6
 msgid ""
-"The official Dash Wallet for Android is developed by Hash Engineering "
-"Solutions and is funded by the Dash budget system. It features "
+"The official Historia Wallet for Android is developed by Hash Engineering "
+"Solutions and is funded by the Historia budget system. It features "
 "InstantSend transactions, QR code display and scanning and a range of "
 "options to backup and restore wallets."
 msgstr ""
 
 #: ../../wallets/android/introduction.rst:18
-msgid "Screenshots showing the Dash Wallet balance, send and receive screens"
+msgid "Screenshots showing the Historia Wallet balance, send and receive screens"
 msgstr ""
 
 #: ../../wallets/android/introduction.rst:21
@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../wallets/android/introduction.rst:23
 msgid ""
-"The easiest way to install the Dash Wallet for Android is from the Google"
+"The easiest way to install the Historia Wallet for Android is from the Google"
 " Play Store."
 msgstr ""
 

@@ -1,6 +1,6 @@
 .. meta::
-   :description: Information and guides on how to mine the Dash cryptocurrency
-   :keywords: dash, mining, X11, masternode, CPU, GPU, ASIC, software, hardware, pool, mining pools
+   :description: Information and guides on how to mine the Historia cryptocurrency
+   :keywords: historia, mining, X11, masternode, CPU, GPU, ASIC, software, hardware, pool, mining pools
 
 .. _mining:
 
@@ -8,11 +8,11 @@
 Mining
 ======
 
-Mining in the context of cryptocurrency such as Dash refers to the
+Mining in the context of cryptocurrency such as Historia refers to the
 process of searching for solutions to cryptographically difficult
 problems as a method of securing blocks on the blockchain. The process
 of mining creates new currency tokens as a reward to the miner. Mining
-is possible on a range of hardware. Dash implements an algorithm known
+is possible on a range of hardware. Historia implements an algorithm known
 as :ref:`X11 <x11-hash-algorithm>`, which the miner must solve in order
 to earn rewards.
 
@@ -30,30 +30,30 @@ than the more general purpose GPUs and CPUs. A number of X11 ASICs are
 now available on the market, which have quickly made CPU and GPU mining
 uneconomic due to the increased difficulty of hashing arising from the
 rapidly increasing hash rate. The result is a currency which is more
-secure against brute force attacks on the Dash blockchain.
+secure against brute force attacks on the Historia blockchain.
 
 The profitability of mining is determined by the hashrate of your mining
 device, the current network difficulty and the costs of your hardware
 and electricity. The following links provide up to date information:
 
-- `Hashrate <https://bitinfocharts.com/comparison/dash-hashrate.html>`_
-- `Mining difficulty <https://bitinfocharts.com/comparison/dash-difficulty.html>`_
-- `Profitability calculation tool <https://www.coinwarz.com/calculators/dash-mining-calculator>`_
+- `Hashrate <https://bitinfocharts.com/comparison/historia-hashrate.html>`_
+- `Mining difficulty <https://bitinfocharts.com/comparison/historia-difficulty.html>`_
+- `Profitability calculation tool <https://www.coinwarz.com/calculators/historia-mining-calculator>`_
 
 Masternodes vs. Mining
 ======================
 
-Dash, like Bitcoin and most other cryptocurrencies, is based on a
+Historia, like Bitcoin and most other cryptocurrencies, is based on a
 decentralized ledger of all transactions, known as a blockchain. This
 blockchain is secured through a consensus mechanism; in the case of both
-Dash and Bitcoin, the consensus mechanism is Proof of Work (PoW). Miners
+Historia and Bitcoin, the consensus mechanism is Proof of Work (PoW). Miners
 attempt to solve difficult problems with specialized computers, and when
 they solve the problem, they receive the right to add a new block to the
 blockchain. If all the other people running the software agree that the
 problem was solved correctly, the block is added to the blockchain and
 the miner is rewarded.
 
-Dash works a little differently from Bitcoin, however, because it has a
+Historia works a little differently from Bitcoin, however, because it has a
 two-tier network. The second tier is powered by :ref:`masternodes
 <masternodes>` (Full Nodes), which enable financial privacy
 (PrivateSend), instant transactions (InstantSend), and the decentralized
@@ -68,15 +68,15 @@ the masternodes provide crucial services to the network. In fact, the
 entire network is overseen by the masternodes, which have the power to
 reject improperly formed blocks from miners. If a miner tried to take
 the entire block reward for themselves or tried to run an old version of
-the Dash software, the masternode network would orphan that block, and
+the Historia software, the masternode network would orphan that block, and
 it would not be added to the blockchain.
 
 In short, miners power the first tier, which is the basic sending and
 receiving of funds and prevention of doublespending. Masternodes power
-the second tier, which provide the added features that make Dash
+the second tier, which provide the added features that make Historia
 different from other cryptocurrencies. Masternodes do not mine, and
 mining computers cannot serve as masternodes. Additionally, each
-masternode is “secured” by 1000 DASH. Those DASH remain under the sole
+masternode is “secured” by 1000 HISTORIA. Those HISTORIA remain under the sole
 control of their owner at all times, and can still be freely spent. The
 funds are not locked in any way. However, if the funds are moved or
 spent, the associated masternode will go offline and stop receiving
@@ -87,51 +87,51 @@ rewards.
 Mining Pools
 ============
 
-Mining Dash in pools is more likely to generate rewards than solo mining
-directly on the blockchain. Mining dash using P2Pool is strongly
+Mining Historia in pools is more likely to generate rewards than solo mining
+directly on the blockchain. Mining historia using P2Pool is strongly
 encouraged, since it is a good way to distribute, rather than
-centralize, the hashing power. The following site lists Dash P2Pool
+centralize, the hashing power. The following site lists Historia P2Pool
 mining pools near you, simply choose a pool with favourable fees and
-ping time and enter your Dash payment address as username and anything
+ping time and enter your Historia payment address as username and anything
 as password.
 
 - http://www.p2poolmining.us/p2poolnodes/
 
 If you would like to set up your own P2Pool, documentation of the
-process is available :ref:`here <p2pool>` and the code for p2pool-dash
-is available on `GitHub <https://github.com/dashpay/p2pool-dash>`_.
+process is available :ref:`here <p2pool>` and the code for p2pool-historia
+is available on `GitHub <https://github.com/HistoriaOffical/p2pool-historia>`_.
 
 Other pools are also available and may be advantageous for different
 reasons such as ping latency, uptime, fee, users, etc.:
 
 - https://coinfoundry.org
-- https://dash.suprnova.cc
+- https://historia.suprnova.cc
 - https://www.nicehash.com
 - https://www.coinotron.com
-- https://dash.miningpoolhub.com
+- https://historia.miningpoolhub.com
 - https://www.multipool.us
-- https://dash.miningfield.com
+- https://historia.miningfield.com
 - https://www.f2pool.com
-- https://dash.miningfield.com
-- https://www2.coinmine.pl/dash
-- https://aikapool.com/dash
+- https://historia.miningfield.com
+- https://www2.coinmine.pl/historia
+- https://aikapool.com/historia
 - https://www.antpool.com
 - https://avalon-life.io
 - https://www.genesis-mining.com
-- https://pool.viabtc.com/pool/dash/state
-- http://dash.cybtc.info
+- https://pool.viabtc.com/pool/historia/state
+- http://historia.cybtc.info
 - http://zpool.ca
 
 DISCLAIMER: This list is provided for informational purposes only.
-Services listed here have not been evaluated or endorsed by the Dash
+Services listed here have not been evaluated or endorsed by the Historia
 developers and no guarantees are made as to the accuracy of this
 information. Please exercise discretion when using third-party services.
 If you’d like to be added to this list please reach out to
-leon.white@dash.org
+leon.white@historia.network
 
-In addition to joining a pool, you will also need to create a Dash
-address to receive your payout. To do this in Dash Core wallet, see
-:ref:`here <dashcore-send-receive>`.
+In addition to joining a pool, you will also need to create a Historia
+address to receive your payout. To do this in Historia Core wallet, see
+:ref:`here <historiacore-send-receive>`.
 
 .. toctree::
    :hidden:
@@ -144,7 +144,7 @@ address to receive your payout. To do this in Dash Core wallet, see
 CPU Mining
 ==========
 
-This documentation describes how to mine Dash under the Windows
+This documentation describes how to mine Historia under the Windows
 operating system using just the CPU in your computer. Please note that
 the prevalence of GPU and ASIC miners mean that unless you have free
 electricity, this is highly unlikely to be profitable! Since this is the
@@ -158,7 +158,7 @@ mining sites such as these in order to keep up with the latest
 information and releases.
 
 - `Crypto Mining Blog <http://cryptomining-blog.com/>`_
-- `Dash Forum Mining Discussions <https://www.dash.org/forum/topic/mining.3/>`_
+- `Historia Forum Mining Discussions <https://historia.network/forum/topic/mining.3/>`_
 - `Bitcoin Talk Altcoin Mining Discussions <https://bitcointalk.org/index.php?board=160.0>`_
 
 Mining software
@@ -197,12 +197,12 @@ folder should look something like this:
 .. figure:: img/cpu-miner-files.png
    :width: 400px
 
-   Executable CPU miners for Dash
+   Executable CPU miners for Historia
 
 Configuration
 -------------
 
-Begin by selecting a mining pool and generating a Dash address as
+Begin by selecting a mining pool and generating a Historia address as
 described in the :ref:`Mining Pools <mining-pools>` section above. Keep
 all your mining files in a single folder. In this example we will work
 from the Desktop. The node selected for this example is from the
@@ -220,9 +220,9 @@ format is as follows::
 Where:
 
 - minerd = the executable miner daemon file you choose to use
-- a = algorithm, which is X11 for Dash
+- a = algorithm, which is X11 for Historia
 - o = URL of your mining pool, including the protocol and port
-- u = username, usually the Dash receiving address of your wallet or worker
+- u = username, usually the Historia receiving address of your wallet or worker
 - p = password, can often be set to x
 - t = number of threads used
 - pause = keeps the window open in the case of errors
@@ -279,7 +279,7 @@ GPU Mining
 ==========
 
 This guide consolidates several other guides on how to use your GPU (the
-processor on your graphics card) to mine Dash using the X11 algorithm on
+processor on your graphics card) to mine Historia using the X11 algorithm on
 Windows. Please note that the growing market for ASIC miners means that
 this if probably not going to be profitable! A lot of the software and
 binaries described here also have not been updated for several years, so
@@ -292,7 +292,7 @@ mining sites such as these in order to keep up with the latest
 information and releases.
 
 - `Crypto Mining Blog <http://cryptomining-blog.com/>`_
-- `Dash Forum Mining Discussions <https://www.dash.org/forum/topic/mining.3/>`_
+- `Historia Forum Mining Discussions <https://historia.network/forum/topic/mining.3/>`_
 - `Bitcoin Talk Altcoin Mining Discussions <https://bitcointalk.org/index.php?board=160.0>`_
 
 Mining software
@@ -336,7 +336,7 @@ location. The folder should look something like this:
 .. figure:: img/gpu-miner-files.png
    :width: 400px
 
-   Executable GPU miners for Dash
+   Executable GPU miners for Historia
 
 The sgminer file is the executable file, while the various files with
 .cl extensions define the various algorithms supported by sgminer. In
@@ -348,7 +348,7 @@ for NVIDIA cards.
 Configuration
 -------------
 
-Begin by selecting a mining pool and generating a Dash address as
+Begin by selecting a mining pool and generating a Historia address as
 described in the :ref:`Mining Pools <mining-pools>` section above. Keep
 all your mining files in a single folder. In this example we will work
 from the Desktop. The node selected for this example is from the
@@ -375,7 +375,7 @@ Where:
 - pools = defines a list of pools (in this case, only one) towards which
   the hashing power is directed
 - url = URL of your mining pool, including the protocol and port
-- user = username, usually the Dash receiving address of your wallet or
+- user = username, usually the Historia receiving address of your wallet or
   worker
 - pass = password, can often be set to x
 - algorithm = hashing algorithm to use, in this case darkcoin (for
@@ -386,7 +386,7 @@ For the pool above, the configuration may be:
 .. figure:: img/gpu-config.png
    :width: 400px
 
-   Configuration file for a Dash GPU miner
+   Configuration file for a Historia GPU miner
 
 Click **File**, then **Save As**. Change **Save as type** to **All
 Files**, then type the file name as *sgminer.conf* and save it in the
@@ -420,10 +420,10 @@ efficiency than CPU or GPU miners, resulting in higher profit.
 
 Please note that the information on this page may become obsolete very
 quickly due to the rapidly changing market and difficulty of mining
-Dash. You are responsible for carrying out your own research and any
+Historia. You are responsible for carrying out your own research and any
 listing on this page should not be considered an endorsement of any
 particular product. A good place to begin your research is the `mining
-section of the Dash Forums <https://www.dash.org/forum/topic/hardware-discussions-asic-gpu-cpu.101/>`_.
+section of the Historia Forums <https://historia.network/forum/topic/hardware-discussions-asic-gpu-cpu.101/>`_.
 
 The following X11 ASIC miners are available on the market today, click
 the product name to visit the manufacturer's website:
@@ -433,7 +433,7 @@ the product name to visit the manufacturer's website:
 +==========================================================================================================+===============+=========+=========+=================+=========+
 | `Bitmain Antminer D5 <https://shop.bitmain.com.cn/product/detail?pid=000201811150956053407f2Bhw2x068D>`_ | 119 GH/s ±5%  | 1566 W  | 7.5 kg  | 486 x 265 x 388 | $1,180  |
 +----------------------------------------------------------------------------------------------------------+---------------+---------+---------+-----------------+---------+
-| `iBelink DM56G <https://ibelink.co/product/ibelink-dm56g-x11-dash-miner-with-56-gh-s-hash-rate/>`_       | 56 GH/s ±5%   | 2100 W  | 17 kg   | 490 x 390 x 180 | $1,800  |
+| `iBelink DM56G <https://ibelink.co/product/ibelink-dm56g-x11-historia-miner-with-56-gh-s-hash-rate/>`_       | 56 GH/s ±5%   | 2100 W  | 17 kg   | 490 x 390 x 180 | $1,800  |
 +----------------------------------------------------------------------------------------------------------+---------------+---------+---------+-----------------+---------+
 | `Innosilicon A5 <http://www.innosilicon.com/html/a5-miner/index.html>`_                                  | 32 GH/s ±8%   | 750 W   | 3.1 kg  | 400 x 135 x 158 | $990    |
 +----------------------------------------------------------------------------------------------------------+---------------+---------+---------+-----------------+---------+
@@ -462,7 +462,7 @@ obsolete due to the increase in difficulty on the network.
 +-------------------------------------------------------------------------------------------------------+----------------+-------+---------+-----------------+
 | `iBelink DM11G <https://ibelink.co/product/ibelink-dm11g/>`_                                          | 11 GH/s ±5%    | 810 W | 22 kg   | 490 x 350 x 180 |
 +-------------------------------------------------------------------------------------------------------+----------------+-------+---------+-----------------+
-| `iBelink DM22G <https://ibelink.co/product/ibelink-dm22g-x11dash-miner-with-22-ghs-hash-rate/>`_      | 22 GH/s ±5%    | 810 W | 19 kg   | 490 x 350 x 180 |
+| `iBelink DM22G <https://ibelink.co/product/ibelink-dm22g-x11historia-miner-with-22-ghs-hash-rate/>`_      | 22 GH/s ±5%    | 810 W | 19 kg   | 490 x 350 x 180 |
 +-------------------------------------------------------------------------------------------------------+----------------+-------+---------+-----------------+
 | `Pinidea DR-1 <https://shop.pinidea.io/index.php/product/asic-x11-miner-dr-1/>`_                      | 500 MH/s ±10%  | 320 W | 4.5 kg  | 290 x 130 x 150 |
 +-------------------------------------------------------------------------------------------------------+----------------+-------+---------+-----------------+

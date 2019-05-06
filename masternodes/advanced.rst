@@ -1,6 +1,6 @@
 .. meta::
-   :description: Installing Dash using a package manager
-   :keywords: dash, cryptocurrency, fedora, ubuntu, rpm, apt, git, masternode, install, binary
+   :description: Installing Historia using a package manager
+   :keywords: historia, cryptocurrency, fedora, ubuntu, rpm, apt, git, masternode, install, binary
 
 .. _masternode_advanced:
 
@@ -8,18 +8,18 @@
 Advanced Topics
 ===============
 
-Installing Dash on Fedora Linux
+Installing Historia on Fedora Linux
 ===============================
 
-Dash developer t0dd has developed packages and written an excellent
-guide on installing and running Dash as a node, masternode or on
+Historia developer t0dd has developed packages and written an excellent
+guide on installing and running Historia as a node, masternode or on
 testnet. 
 
-- https://github.com/taw00/dashcore-rpm
+- https://github.com/taw00/historiacore-rpm
 
-Installing Dash on Ubuntu Linux
+Installing Historia on Ubuntu Linux
 ===============================
 
-Dash binaries are under development for distribution through the Ubuntu
+Historia binaries are under development for distribution through the Ubuntu
 Linux Launchpad repository system. Check back here for details once a
 release announcement is made.

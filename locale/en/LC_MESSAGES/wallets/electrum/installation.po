@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, Dash Core Group, Inc
-# This file is distributed under the same license as the Dash package.
+# Copyright (C) 2018, Historia Core Group, Inc
+# This file is distributed under the same license as the Historia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash 0.1\n"
+"Project-Id-Version: Historia 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-11 06:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,13 +19,13 @@ msgstr ""
 
 #: ../../wallets/electrum/installation.rst:1
 msgid ""
-"How to install and create a new Dash Electrum wallet on Windows, Linux, "
+"How to install and create a new Historia Electrum wallet on Windows, Linux, "
 "macOS and Android"
 msgstr ""
 
 #: ../../wallets/electrum/installation.rst:1
 msgid ""
-"dash, mobile, wallet, electrum, android, linux, windows, macos, "
+"historia, mobile, wallet, electrum, android, linux, windows, macos, "
 "installation, compile"
 msgstr ""
 
@@ -39,26 +39,26 @@ msgstr ""
 
 #: ../../wallets/electrum/installation.rst:14
 msgid ""
-"You can download Dash Electrum from the official Dash website or the Dash"
+"You can download Historia Electrum from the official Historia website or the Historia"
 " Electrum minisite."
 msgstr ""
 
 #: ../../wallets/electrum/installation.rst:17
-msgid "https://www.dash.org/wallets"
+msgid "https://historia.network/wallets"
 msgstr ""
 
 #: ../../wallets/electrum/installation.rst:18
-msgid "https://electrum.dash.org"
+msgid "https://electrum.historia.network"
 msgstr ""
 
 #: ../../wallets/electrum/installation.rst:20
 msgid ""
-"Dash Electrum is developed by community member **akhavr** and is released"
+"Historia Electrum is developed by community member **akhavr** and is released"
 " through his GitHub account."
 msgstr ""
 
 #: ../../wallets/electrum/installation.rst:23
-msgid "https://github.com/akhavr/electrum-dash/releases"
+msgid "https://github.com/akhavr/electrum-historia/releases"
 msgstr ""
 
 #: ../../wallets/electrum/installation.rst:25
@@ -70,10 +70,10 @@ msgstr ""
 #: ../../wallets/electrum/installation.rst:33
 msgid ""
 "You can also optionally verify the authenticity of your download as an "
-"official release by akhavr. All releases of Dash Electrum are signed by "
+"official release by akhavr. All releases of Historia Electrum are signed by "
 "akhavr using GPG with the key ``64A3 BA82 2F44 9D50``, `verifiable here "
 "on Keybase <https://keybase.io/akhavr>`_. Import the key, download the "
-"ASC file for the current release of Dash Electrum and verify the "
+"ASC file for the current release of Historia Electrum and verify the "
 "signature as follows::"
 msgstr ""
 
@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../wallets/electrum/installation.rst:47
 msgid ""
-"Dash Electrum for Linux is available from a PPA for Ubuntu and Linux "
+"Historia Electrum for Linux is available from a PPA for Ubuntu and Linux "
 "Mint, and as a source tarball for other systems. As of version 3.0.6, it "
 "requires Python 3 to run. Enter the following commands to install from "
 "PPA::"
@@ -92,7 +92,7 @@ msgstr ""
 #: ../../wallets/electrum/installation.rst:56
 msgid ""
 "Enter the following commands (changing the version number to match the "
-"current version as necessary) in the terminal to install Dash Electrum "
+"current version as necessary) in the terminal to install Historia Electrum "
 "from the source tarball::"
 msgstr ""
 
@@ -104,7 +104,7 @@ msgstr ""
 msgid ""
 "Simply download and run the DMG file. You may need to grant permission to"
 " install, depending on your security settings. Click through the "
-"installation wizard and run Dash Electrum from your Applications folder "
+"installation wizard and run Historia Electrum from your Applications folder "
 "when complete."
 msgstr ""
 
@@ -114,9 +114,9 @@ msgstr ""
 
 #: ../../wallets/electrum/installation.rst:79
 msgid ""
-"Simply download and run the installer file to set up Dash Electrum. You "
+"Simply download and run the installer file to set up Historia Electrum. You "
 "may need to grant permission to install, depending on your security "
-"settings. Click through the installation wizard and run Dash Electrum "
+"settings. Click through the installation wizard and run Historia Electrum "
 "from the Start menu when complete."
 msgstr ""
 
@@ -126,10 +126,10 @@ msgstr ""
 
 #: ../../wallets/electrum/installation.rst:87
 msgid ""
-"Download and run the APK file from https://electrum.dash.org to set up "
-"Dash Electrum. You may need to grant permission to install from unknown "
+"Download and run the APK file from https://electrum.historia.network to set up "
+"Historia Electrum. You may need to grant permission to install from unknown "
 "sources, depending on your security settings. Click through the "
-"installation wizard and run Dash Electrum when complete."
+"installation wizard and run Historia Electrum when complete."
 msgstr ""
 
 #: ../../wallets/electrum/installation.rst:94
@@ -138,10 +138,10 @@ msgstr ""
 
 #: ../../wallets/electrum/installation.rst:96
 msgid ""
-"Dash Electrum gathers configuration data when run for the first time. For"
+"Historia Electrum gathers configuration data when run for the first time. For"
 " more on the concepts behind this process, skip to the later sections of "
 "this guide discussing backups, security, and addresses. When setting up "
-"Dash Electrum for the first time, a wizard will guide you through the "
+"Historia Electrum for the first time, a wizard will guide you through the "
 "process of creating your first wallet. The first screen asks how you "
 "would like to connect to the remote server. Select **Auto connect** and "
 "click **Next** to continue. You will see a notice that no wallet "
@@ -156,13 +156,13 @@ msgstr ""
 #: ../../wallets/electrum/installation.rst:114
 msgid ""
 "You will be asked what kind of wallet you want to create. Choose between "
-"**Standard wallet**, **Multi-signature wallet** and **Watch Dash "
+"**Standard wallet**, **Multi-signature wallet** and **Watch Historia "
 "addresses**. If you are unsure, select **Standard wallet** and click "
 "**Next** to continue. You will then be asked how you want to "
 "store/recover the seed. If stored safely, a seed can be used to restore a"
 " lost wallet on another computer. Choose between **Create a new seed**, "
 "**I already have a seed**, **Use public or private keys** or **Use a "
-"hardware device**. If you are using Electrum Dash for the first time and "
+"hardware device**. If you are using Electrum Historia for the first time and "
 "not restoring an existing wallet, choose **Create a new seed** and click "
 "**Next** to continue."
 msgstr ""
@@ -173,11 +173,11 @@ msgstr ""
 
 #: ../../wallets/electrum/installation.rst:133
 msgid ""
-"Electrum Dash will generate your wallet and display the recovery seed. "
+"Electrum Historia will generate your wallet and display the recovery seed. "
 "Write this seed down, ideally on paper and not in an electronic format, "
 "and store it somewhere safe. This seed is the only way you can recover "
 "your wallet if you lose access for any reason. To make sure you have "
-"properly saved your seed, Electrum Dash will ask you to type it in as a "
+"properly saved your seed, Electrum Historia will ask you to type it in as a "
 "confirmation. Type the words in the correct order and click **Next** to "
 "continue."
 msgstr ""
@@ -202,30 +202,30 @@ msgid "Entering and confirming a wallet encryption password"
 msgstr ""
 
 #: ../../wallets/electrum/installation.rst:162
-msgid "Your Dash Electrum wallet is now set up and ready for use."
+msgid "Your Historia Electrum wallet is now set up and ready for use."
 msgstr ""
 
 #: ../../wallets/electrum/installation.rst:167
-msgid "Dash Electrum after setup is complete"
+msgid "Historia Electrum after setup is complete"
 msgstr ""
 
 #~ msgid ""
-#~ "Dash Electrum for Linux is distributed"
+#~ "Historia Electrum for Linux is distributed"
 #~ " as a source tarball and depends "
 #~ "on Python to run. First download "
 #~ "the installation package, then enter the"
 #~ " following commands (changing the version"
 #~ " number to match the file you "
 #~ "downloaded) in the terminal to install"
-#~ " Dash Electrum::"
+#~ " Historia Electrum::"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Dash Electrum is developed by community"
+#~ "Historia Electrum is developed by community"
 #~ " member **akhavr** and is released "
 #~ "through his GitHub account. SHA256 "
 #~ "checksums are available in the releases"
-#~ " section of the Dash Electrum "
+#~ " section of the Historia Electrum "
 #~ "repository to verify authenticity."
 #~ msgstr ""
 
