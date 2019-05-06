@@ -14,20 +14,13 @@ protection, :ref:`anonymity <privatesend>` equal to that of physical
 cash, a 
 :ref:`self-governing, self-funding model <decentralized-governance>` 
 driven by :ref:`incentivized full nodes <masternode-network>` and a 
-`clear roadmap <https://github.com/HistoriaOffical/historia-roadmap>`_ for on-chain
-scaling to up to 400MB blocks using custom-developed open source
-hardware. While Historia is based on Bitcoin and compatible with many key
-components of the Bitcoin ecosystem, its two-tier network structure
-offers significant improvements in transaction speed, anonymity and
-governance. This section of the documentation describes these and many
-more key features that set Historia apart in the blockchain economy.
+`clear roadmap <https://historia.network/#roadmap>`_ nomy.
 
 The links and documentation collected here can help you get
 started, or use the table of contents on the left to find a specific
 topic of interest. New users may be interested in getting started with
 an appropriate :ref:`wallet <wallets>`, learning about 
-:ref:`how to buy Historia <how-to-buy>` and 
-:ref:`where to spend Historia <earning-spending>`, learning about 
+:ref:`how to buy Historia <how-to-buy>`, learning about 
 :ref:`safety <safety>` or joining one of the many 
 :ref:`Historia community sites <information>`.
 
