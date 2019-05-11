@@ -34,7 +34,7 @@ Masternodes
 
 In addition to traditional Proof of Work (PoW) rewards for mining Historia,
 users are also rewarded for running and maintaining special servers
-called masternodes. Thanks to this innovative two tier network, Historia can
+called masternodes. Thanks to this innovative two-tier network, Historia can
 offer innovative features in a trustless and decentralized way.
 Masternodes are used to power PrivateSend, InstantSend, and the
 governance and treasury system. Users are rewarded for running
@@ -57,7 +57,7 @@ Masternodes enable the following services:
 
 Masternode owners must have possession of 1000 HISTORIA, which they prove by
 signing a message and broadcasting to the network. Those coins can be
-moved at any time, but moving them will cause the masternode to fall out
+moved at any time, though moving them will cause the masternode to fall out
 of queue and stop earning rewards. Masternode users are also given 
 **voting rights** on proposals. Each masternode has one vote and this 
 vote can be used on budget proposals or important decisions that affect 
@@ -65,13 +65,13 @@ Historia.
 
 Masternodes cost money and effort to host so they are paid a percentage
 of the block reward as an incentivize. With current masternode numbers
-and rewards, masternodes earn approximately a 8% return on 1000 Historia
+and rewards, masternodes earn approximately an 8% return on 1000 Historia
 (which means 6.97 Historia or USD1360 in July 2017) for the year of 2017.
 This `tool <https://stats.masternode.me/>`_ shows a live calculation of
 masternode earnings. These rewards decrease by 7% each year, but the
 rising value of Historia may offset these reductions. As a matter of fact,
 masternodes were receiving 140 Historia per month at the beginning of 2016,
-but this was actually less money than today: USD600 per month. There is
+but this was less money than today: USD600 per month. There is
 also the possibility for masternodes to earn money from fees in the
 future.
 
@@ -86,7 +86,7 @@ your funds. All the Historia in your wallet is comprised of different
 "inputs", which you can think of as separate, discrete coins.
 PrivateSend uses an innovative process to mix your inputs with the inputs
 of two other people, without having your coins ever leave your wallet.
-You retain control of your money at all times.
+You retain control of your coins at all times.
 
 You can view a practical guide to use PrivateSend 
 :ref:`here <historiacore-privatesend-instantsend>`.
@@ -108,7 +108,7 @@ The PrivateSend process works like this:
    that denomination directly to itself, but in a different address
    (called a change address).
 #. In order to fully obscure your funds, your wallet must repeat this
-   process a number of times with each denomination. Each time the
+   process several times with each denomination. Each time the
    process is completed, it's called a "round". Each round of
    PrivateSend makes it exponentially more difficult to determine where
    your funds originated. The user may choose between 1-16 rounds of
@@ -136,7 +136,7 @@ InstantSend
 
 Traditional decentralized cryptocurrencies must wait for certain period 
 of time for enough blocks to pass to ensure that a transaction is both 
-irreversible and not an attempt to double-spend money which has already 
+irreversible and not an attempt to double-spend coins which have already 
 been spent elsewhere. This process is time-consuming, and may take 
 anywhere from 15 minutes to one hour for the widely accepted number of 
 six blocks to accumulate. Other cryptocurrencies achieve faster 
