@@ -14,10 +14,10 @@ protection, :ref:`anonymity <privatesend>` equal to that of physical
 cash, a 
 :ref:`self-governing, self-funding model <decentralized-governance>` 
 driven by :ref:`incentivized full nodes <masternode-network>` and a 
-`clear roadmap <https://historia.network/#roadmap>`_ nomy.
+`clear roadmap <https://historia.network/#roadmap>`_.
 
 The links and documentation collected here can help you get
-started, or use the table of contents on the left to find a specific
+started. You may also use the table of contents on the left to find a specific
 topic of interest. New users may be interested in getting started with
 an appropriate :ref:`wallet <wallets>`, learning about 
 :ref:`how to buy Historia <how-to-buy>`, learning about 
