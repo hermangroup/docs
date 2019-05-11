@@ -215,7 +215,7 @@ see :ref:`here <understanding-sporks>`.
 X11 Hash Algorithm
 ==================
 
-X11 is a widely used hashing algorithm created by Historia core developer
+X11 is a widely used hashing algorithm created by Dash core developer
 Evan Duffield. X11’s chained hashing algorithm utilizes a sequence of
 eleven scientific hashing algorithms for the proof-of-work. This is so
 that the processing distribution is fair and coins will be distributed
@@ -229,7 +229,7 @@ Information on mining with X11 can be found in the :ref:`Mining
 <mining>` section of this documentation.
 
 X11 is the name of the chained proof-of-work (**PoW**) algorithm that
-was introduced in Historia (launched January 2014 as "Xcoin"). It was 
+was introduced in Dash (launched January 2014 as "Xcoin"). It was 
 partially inspired by the chained-hashing approach of Quark, adding
 further "depth" and complexity by increasing the number of hashes, yet
 it differs from Quark in that the rounds of hashes are determined *a
@@ -268,7 +268,7 @@ increased safety and longevity for store of wealth purposes, investment
 diversification and hedging against risks associated with single-hash
 currencies plagued by SPOF (Single Point Of Failure).
 
-Evan Duffield, the creator of Historia and X11 chained-hash, has written on
+Evan Duffield, the creator of Dash and X11 chained-hash, has written on
 several occasions that X11 was integrated into Historia not with the
 intention to prevent ASIC manufacturers from creating ASICs for X11 in
 the future, but rather to provide a similar migratory path that Bitcoin
@@ -281,7 +281,7 @@ Dark Gravity Wave
 =================
 
 **DGW** or *Dark Gravity Wave* is an open source difficulty-adjusting
-algorithm for Bitcoin-based cryptocurrencies that was first used in Historia
+algorithm for Bitcoin-based cryptocurrencies that was first used in Dash
 and has since appeared in other digital currencies. DGW was authored by 
 Evan Duffield, the developer and creator of Historia, as a response to a 
 time-warp exploit found in *Kimoto's Gravity Well*. In concept, DGW is 
@@ -292,7 +292,7 @@ issue blocks with relatively consistent times, even if the hashing power
 experiences high fluctuations, without suffering from the time-warp 
 exploit.
 
-- Version 2.0 of DGW was implemented in Historia from block 45,000 onwards 
+- Version 2.0 of DGW was implemented in Dash from block 45,000 onwards 
   in order to completely alleviate the time-warp exploit.
 
 - Version 3.0 was implemented on May 14 of 2014 to further improve 
@@ -322,8 +322,7 @@ circulation, known as the coin emission rate.
 While Historia is based on Bitcoin, it significantly modifies the coin
 emission rate to offer a smoother reduction in coin emission over time.
 While Bitcoin reduces the coin emission rate by 50% every 4 years, Historia
-reduces the emission by one-fourteenth (approx. 7.14%) every 210240
-blocks (approx. 383.25 days). It can be seen that reducing the block
+reduces the emission by one-fourteenth (approx. 7.14%) every year. It can be seen that reducing the block
 reward by a smaller amount each year offers a smoother transition to a
 fee-based economy than Bitcoin.
 
