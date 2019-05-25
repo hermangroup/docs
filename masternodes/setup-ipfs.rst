@@ -58,9 +58,9 @@ Edit IPFS Config
 ================
 The default IPFS config file needs to be changed to limit memory usage, setup interfaces, and setup the IPFS Gateway. The following changes to the default config have been **bolded**::
 
-{
-  "API": {
-    "HTTPHeaders": {
+{::
+  "API": {::
+    "HTTPHeaders": {::
       "Server": [
         "go-ipfs/0.4.17"
       ]
