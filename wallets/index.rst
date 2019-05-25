@@ -54,13 +54,8 @@ Available documentation:
    :maxdepth: 1
 
    historiacore/installation.rst
-   historiacore/interface.rst
-   historiacore/send-receive.rst
-   historiacore/privatesend-instantsend.rst
-   historiacore/backup.rst
    historiacore/cmd-rpc.rst
-   historiacore/advanced.rst
-
+   
    Historia Core Wallet
 
 .. _historia-android-wallet:
