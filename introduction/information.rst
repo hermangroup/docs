@@ -53,7 +53,7 @@ Tools
 Block explorers, statistics and visualizations
 ----------------------------------------------
 
-- https://blockexplorer.historia.network
+- http://blockexplorer.historia.network
 
 
 Masternode management
