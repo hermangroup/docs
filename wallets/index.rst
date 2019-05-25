@@ -61,9 +61,6 @@ Available documentation:
    historiacore/cmd-rpc.rst
    historiacore/advanced.rst
 
-.. figure:: historiacore/img/windows/106329009.png
-   :width: 400 px
-
    Historia Core Wallet
 
 .. _historia-android-wallet:
