@@ -479,13 +479,13 @@ This should return a string of characters similar to this::
 The first long string is your transaction hash, while the last number is the index. We now need to create a file called masternode.conf for this wallet in order to be able to use it to issue the command to start your masternode on the network.
 
 Open a new text file in Notepad (or TextEdit on macOS, nano on Linux) and enter the following information:
-- Label: Any single word used to identify your masternode, e.g. MN1
-- IP and port: The IP address and port (usually 10101) configured in the Historia.conf file, separated by a colon (:)
-- Masternode private key: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
-- Transaction hash: The txid we just identified using masternode outputs
-- Index: The index we just identified using masternode outputs
-- IPv6: The public IPv6 address associated with your masternode
-- IPFS Peer ID: The public IPFS peer id of your IPFS daemon
+- ``Label``: Any single word used to identify your masternode, e.g. MN1
+- ``IP and port``: The IP address and port (usually 10101) configured in the Historia.conf file, separated by a colon (:)
+- ``Masternode private key``: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
+- ``Transaction hash``: The txid we just identified using masternode outputs
+- ``Index``: The index we just identified using masternode outputs
+- ``IPv6 Address``: The public IPv6 address associated with your masternode
+- ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon
 
 IF Voting Masternode - Collateral 100 Verify IPFS is running
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -512,12 +512,6 @@ Save this file in the historiacore data folder on the PC running the Historia Co
 +-----------+--------------------------------------------------------+--------------------------------------------+
 | Windows   | C:\Users\yourusername\AppData\Roaming\Historia Core    | %APPDATA%\Historia Core                    |
 +-----------+--------------------------------------------------------+--------------------------------------------+
-
-Platform  | Path | Shortcut
-------------- | ------------- | -------------
-Linux  | /home/yourusername/.historiacore | ~/.historiacore
-OSX  | /Macintosh HD/Library/Application Support/HistoriaCore | ~/Library/Application Support/HistoriaCore
-Windows  | C:\Users\yourusername\AppData\Roaming\Historia Core | %APPDATA%\Historia Core
 
 Now close your text editor and also shut down and restart Historia Core wallet. Historia Core will recognize masternode.conf during startup, and is now ready to activate your masternode. Go to Settings > Unlock Wallet and enter your wallet passphrase. Then click Tools > Debug console again and enter the following command to start your masternode (replace MN1 with the label for your masternode)::
 
