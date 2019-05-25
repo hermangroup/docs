@@ -59,10 +59,17 @@ Select a server size offering at least 2GB of memory.
 Enter a hostname and label for your server. In this example we will use htamn01 as the hostname.
 
 
-.. figure:: ../img/Picture4png
+.. figure:: ../img/Picture4.png
    :width: 400px
 
    Vultr server hostname & label selection screen
+
+Add IPv6 for your server. 
+
+.. figure:: ../img/Picture4.png
+   :width: 400px
+
+   Vultr IPv6 Address screen
 
 Vultr will now install your server. This process may take a few minutes.
 
@@ -230,15 +237,9 @@ Send the collateral
 ===================
 
 A Historia address with a single unspent transaction output (UTXO) of
-exactly 1000 HISTORIA is required to operate a masternode. Once it has been
+exactly 100 or 5000 HTA is required to operate a masternode depending on the masternode role you choose. Once it has been
 sent, various keys regarding the transaction must be extracted for later
-entry in a configuration file and registration transaction as proof to
-write the configuration to the blockchain so the masternode can be
-included in the deterministic list. A masternode can be started from a
-hardware wallet or the official Historia Core wallet, although a hardware
-wallet is highly recommended to enhance security and protect yourself
-against hacking. This guide will describe the steps for both hardware
-wallets and Historia Core.
+entry in a configuration file. A masternode can be started from the official Historia Core wallet. This guide will describe the steps for Historia Core.
 
 Option 1: Sending from Historia Core wallet
 -------------------------------------------
@@ -246,7 +247,7 @@ Option 1: Sending from Historia Core wallet
 Open Historia Core wallet and wait for it to synchronize with the network.
 It should look like this when ready:
 
-.. figure:: img/Picture10.png
+.. figure:: ../img/Picture10.png
    :width: 400px
 
    Fully synchronized Historia Core wallet
@@ -259,7 +260,7 @@ and a new Historia address for the collateral::
   93PAqQsDjcVdYJHRfQPjsSt5338GCswMnUaSxoCD8J6fiLk4NHL
 
   getnewaddress
-  yiFfzbwiN9oneftd7cEfr3kQLRwQ4kp7ue
+  HBvcjyzWmt9x9QJNVDyxezhxSXcWEDEdsS
 
 Take note of the masternode private key and collateral address,
 since we will need it later. The next step is to secure your wallet (if
@@ -270,8 +271,7 @@ store it somewhere safe or you will be permanently locked out of your
 wallet and lose access to your funds. Next, back up your wallet file by
 selecting **File > Backup Wallet**. Save the file to a secure location
 physically separate to your computer, since this will be the only way
-you can access our funds if anything happens to your computer. For more
-details on these steps, see :ref:`here <historiacore-backup>`.
+you can access our funds if anything happens to your computer.
 
 Roles
 -----
@@ -279,13 +279,13 @@ Roles
 Unlike most other masternode coins, Historia makes use of a role based masternode system. Currently there are two roles; voting masternode which has a collateral requirement of 100 HTA and 10% of the block reward and the content distribution masternode which has a collateral requirement of 5000 HTA and 25-50% of the block reward. Follow the directions for the type of masternode you want to run, either Voting Masternode or Content Distribution Masternode.
 
 Voting Masternode - Collateral 100
-----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Now send exactly 100 HTA in a single transaction to the new address
 you generated in the previous step. This may be sent from another
 wallet, or from funds already held in your current wallet. 
 
 Content Distribution Masternode - Collateral 5000
--------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Now send exactly 5000 HTA in a single transaction to the new address
 you generated in the previous step. This may be sent from another
@@ -299,10 +299,6 @@ Once the transaction is complete, view the transaction in a `blockchain explorer
 will need 15 confirmations before you can start the masternode, but you
 can continue with the next step at this point already: installing Historia
 Core on your VPS.
-
-.. figure:: ../img/Picture11.png
-   :width: 400px
-
 
 .. _masternode-setup-install-historiacore:
 
@@ -320,7 +316,7 @@ password you just created for your new, non-root user.
 Option 1: Manual installation
 -----------------------------
 
-To manually download and install the components of your Historia masternode, visit https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.0 on your computer to find the link to the latest Historia Core wallet.  Right-click on Download TGZ for Historia Core Linux 64 Bit and select Copy link address. Go back to your terminal window and enter the following command, pasting in the address to the latest version of Historia Core by right clicking or pressing Ctrl + V:
+To manually download and install the components of your Historia masternode, visit https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.0 on your computer to find the link to the latest Historia Core wallet.  Right-click on Download TGZ for Historia Core Linux 64 Bit and select Copy link address. Go back to your terminal window and enter the following command, pasting in the address to the latest version of Historia Core by right clicking or pressing Ctrl + V::
 
   cd /tmp
   wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.0/historiacore-0.16.3-linux64.tar.gz
@@ -347,7 +343,7 @@ Create a configuration file using the following command::
 An editor window will appear. We now need to create a configuration file
 specifying several variables. Copy and paste the following text to get
 started, then replace the variables specific to your configuration as
-follows:
+follows::
 
 
   #----
@@ -459,8 +455,8 @@ Depending on how you sent your masternode collateral, you will need to start you
 - ``MASTERNODE_SYNC``: This indicates the data currently being synchronised in the masternode
 - ``MASTERNODE_SYNC_FAILED``: Synchronisation could not complete, check your firewall and restart historiad
 - ``WATCHDOG_EXPIRED``: Waiting for sentinel to restart, make sure it is entered in crontab
-- ``IPFS_EXPIRED``: This indictations that IPFS is not running.
-- ``EXPIRED``: Masternode has expired. Restart masternode; check IPFS is running.
+- ``IPFS_EXPIRED``: This indictates that IPFS is not running.
+- ``EXPIRED``: Masternode has expired. Restart Historiad, restart masternode, check IPFS is running.
 - ``NEW_START_REQUIRED``: Start command must be sent from wallet; check IPFS is running.
 - ``PRE_ENABLED``: Waiting for network to recognize started masternode
 - ``ENABLED``: Masternode successfully started
@@ -488,13 +484,20 @@ Open a new text file in Notepad (or TextEdit on macOS, nano on Linux) and enter 
 - Masternode private key: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
 - Transaction hash: The txid we just identified using masternode outputs
 - Index: The index we just identified using masternode outputs
+- IPv6: The public IPv6 address associated with your masternode
+- IPFS Peer ID: The public IPFS peer id of your IPFS daemon
 
-
+IF Voting Masternode - Collateral 100 Verify IPFS is running
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Enter all of this information on a single line with each item separated by a space, for example::
 
-   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0
-   
-**Notice: The above line looks like it's on 2 lines, but this should be all on one line**
+   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 0 0
+
+IF Content Distribution Masternode - Collateral 5000 Verify IPFS is running
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Enter all of this information on a single line with each item separated by a space, for example::
+
+   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2000:1700:540:41a8:ffff:ffff:fffe:b88a QmbmVqBq7XyaM7J9AXMtGrPWSr7iP8sRiw9vcX4VnNDEJ1
 
 Save this file in the historiacore data folder on the PC running the Historia Core wallet using the filename masternode.conf. You may need to enable View hidden items to view this folder. Be sure to select All files if using Notepad so you don’t end up with a .conf.txt file extension by mistake. For different operating systems, the Historiacore folder can be found in the following locations (copy and paste the shortcut text into the Save dialog to find it quickly):
 
