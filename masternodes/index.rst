@@ -1,6 +1,6 @@
 .. meta::
    :description: Introduction to documentation on how to set up and operate a masternode for the Historia cryptocurrency.
-   :keywords: historia, masternodes, hosting, linux, payment, setup
+   :keywords: historia, masternodes, hosting, linux, payment, setup, ipfs
 
 .. _masternodes:
 
@@ -8,36 +8,27 @@
 Masternodes
 ===========
 
-Historia is best known as the first cryptocurrency with a focus on anonymity
-and transaction speed. What many people do not know is that these 
-features are implemented on top of a network of dedicated servers known 
-as masternodes, which gives rise to many exciting features not available
-on conventional blockchains. These features include anonymous and 
-instant transactions, as well as governance of the development of the 
-Historia network through a monthly budget and voting. This in itself is a 
-first in the crypto world, and the masternodes are necessary to achieve
-the privacy and speed that Historia offers.
+Historia is first cryptocurrency with a focus on a voting platform and 
+file storage mechanism (IPFS) paired together to attempt to give a accurate 
+consensus-based view of future history. These features are implemented on 
+top of a network of masternodes and the IPFS network, which gives rise 
+to many exciting features not available on conventional blockchains.
+
+The Historia makes use of the first role based masternode system to allow for 
+different roles and different rewards depending on the the service the masternode
+provides to the Historia network.
 
 This documentation focuses on understanding the services masternodes
 provide to the network, but also includes guides on how to run a
-masternode, using either a hosting provider or by setting up and
+masternode and IPFS, using either a hosting provider or by setting up and
 maintaining your own hosting solution. The primary requirement to run a
-masternode on the Historia network is 1000 HISTORIA. This is known as the
-collateral, and cannot be spent without interrupting operation of the
-masternode. The second requirement is the actual server running the Historia
-masternode software.
+masternode on the Historia network is 100 or 5000 HTA depending on the 
+role the masternode serves. This is known as the collateral, and cannot be 
+spent without interrupting operation of the masternode. The second 
+requirement is the actual server running the Historia masternode software 
+and the IPFS daemon.
 
-**Option 1: Hosted masternode**
-
-Since operating your own server requires a certain level knowledge of
-blockchains and Linux server operating systems, several community
-members offer dedicated hosting solutions for a fee. Taking advantage of
-these services means the user only needs to provide the masternode
-collateral and pay the hosting fee in order to receive payment from the
-block reward. See :ref:`these pages <masternode-hosting>` for
-information on how to set up a hosted masternode.
-
-**Option 2: Self-operated masternode**
+**Option 1: Self-operated masternode**
 
 Users with a deeper understanding (or curiosity) about the inner
 workings of the Historia network may choose to operate their own masternode
