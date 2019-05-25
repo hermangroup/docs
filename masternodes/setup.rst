@@ -35,7 +35,7 @@ We will use Vultr hosting as an example of a VPS. First create an account and ad
 Select a location for your new server on the following screen:
 
 
-.. figure:: https://github.com/HistoriaOffical/historia/blob/master/historia-docs/masternode/Picture1.png
+.. figure:: img/setup-server-type.png
    :width: 400px
 
    Vultr server location selection screen
