@@ -10,7 +10,6 @@ Setup
 
 Setting up a masternode requires a basic understanding of Linux and blockchain technology, as well as an ability to follow instructions closely. It also requires regular maintenance and careful security. There are some decisions to be made along the way, and optional extra steps to take for increased security.
 
-
 Before you begin
 ================
 
@@ -22,55 +21,21 @@ time. You will need:
   Historia Core wallet is also supported
 - A Linux server, preferably a Virtual Private Server (VPS)
 
-Historia 0.13.0 implements DIP003, which introduces several changes to how a
-Historia masternode is set up and operated. A list of available
-documentation appears below:
-
-- `DIP003 Deterministic Masternode Lists <https://github.com/HistoriaOffical/dips/blob/master/dip-0003.md>`__
-- :ref:`dip3-changes`
-- :ref:`dip3-dev-upgrade`
-- :ref:`Historia 0.13 Upgrade Procedure for Masternodes <dip3-upgrade>`
-- :ref:`Full masternode setup guide <masternode-setup>` (you are here)
-- :ref:`Information for users of hosted masternodes <hosted-setup>`
-- :ref:`Information for operators of hosted masternodes <operator-transactions>`
-
-It is highly recommended to first read at least the list of changes
-before continuing in order to familiarize yourself with the new concepts
-in DIP003. This documentation describes the commands as if they were
-entered in the Historia Core GUI by opening the console from **Tools > Debug
-console**, but the same result can be achieved on a masternode by
-entering the same commands and adding the prefix 
-``~/.historiacore/historia-cli`` to each command.
-
+We also assume you will be working from a Windows computer. However, since most of the work is done on your Linux VPS, alternative steps for using macOS or Linux will be indicated where necessary.
 
 .. _vps-setup:
 
 Set up your VPS
 ===============
 
-A VPS, more commonly known as a cloud server, is fully functional
-installation of an operating system (usually Linux) operating within a
-virtual machine. The virtual machine allows the VPS provider to run
-multiple systems on one physical server, making it more efficient and
-much cheaper than having a single operating system running on the "bare
-metal" of each server. A VPS is ideal for hosting a Historia masternode
-because they typically offer guaranteed uptime, redundancy in the case
-of hardware failure and a static IP address that is required to ensure
-you remain in the masternode payment queue. While running a masternode
-from home on a desktop computer is technically possible, it will most
-likely not work reliably because most ISPs allocate dynamic IP addresses
-to home users.
+A VPS, more commonly known as a cloud server, is fully functional installation of an operating system (usually Linux) operating within a virtual machine. The virtual machine allows the VPS provider to run multiple systems on one physical server, making it more efficient and much cheaper than having a single operating system running on the “bare metal” of each server. A VPS is ideal for hosting a Historia masternode because they typically offer guaranteed uptime, redundancy in the case of hardware failure and a static IP address that is required to ensure you remain in the masternode payment queue. While running a masternode from home on a desktop computer is technically possible, it will most likely not work reliably because most ISPs allocate dynamic IP addresses to home users.
 
-We will use `Vultr <https://www.vultr.com/>`_ hosting as an example of a
-VPS, although `DigitalOcean <https://www.digitalocean.com/>`_, `Amazon
-EC2 <https://aws.amazon.com/ec2>`_, `Google Cloud
-<https://cloud.google.com/compute/>`_, `Choopa
-<https://www.choopa.com/>`_ and `OVH <https://www.ovh.com/>`_ are also
-popular choices. First create an account and add credit. Then go to the
-**Servers** menu item on the left and click **+** to add a new server.
+We will use Vultr hosting as an example of a VPS. First create an account and add credit. Then go to the Servers menu item on the left and click + to add a new server. 
+
 Select a location for your new server on the following screen:
 
-.. figure:: img/setup-server-location.png
+
+.. figure:: https://github.com/HistoriaOffical/historia/blob/master/historia-docs/masternode/Picture1.png
    :width: 400px
 
    Vultr server location selection screen
