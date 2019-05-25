@@ -1,6 +1,6 @@
 .. meta::
    :description: This guide describes how to set up a Historia masternode. It also describes various options for hosting and different wallets
-   :keywords: historia, guide, masternodes, trezor, dip3, setup, bls
+   :keywords: historia, guide, masternodes, setup,
 
 .. _masternode-setup:
 
@@ -8,35 +8,16 @@
 Setup
 =====
 
-Setting up a masternode requires a basic understanding of Linux and
-blockchain technology, as well as an ability to follow instructions
-closely. It also requires regular maintenance and careful security,
-particularly if you are not storing your Historia on a hardware wallet.
-There are some decisions to be made along the way, and optional extra
-steps to take for increased security.
-
-Commercial :ref:`masternode hosting services <masternode-hosting>` are
-available if you prefer to delegate day-to-day operation of your
-masternode to a professional operator. When using these hosting
-services, you retain full control of the 1000 HISTORIA collateral and pay an
-agreed percentage of your reward to the operator. It is also possible to
-delegate your voting keys to a representative, see the 
-:ref:`governance documentation <delegating-votes>` for more
-information.
+Setting up a masternode requires a basic understanding of Linux and blockchain technology, as well as an ability to follow instructions closely. It also requires regular maintenance and careful security. There are some decisions to be made along the way, and optional extra steps to take for increased security.
 
 
 Before you begin
 ================
 
 This guide assumes you are setting up a single masternode for the first
-time. If you are updating a masternode, see  :ref:`here <masternode-update>` 
-instead. If Spork 15 is not yet enabled, it is not possible to directly
-set up a DIP003 masternode. You will need to set up the masternode
-following the `old process
-<https://docs.historia.network/en/0.12.3/masternodes/setup.html>`_ and then work
-through the :ref:`upgrade procedure <dip3-upgrade>`. You will need:
+time. You will need:
 
-- 1000 Historia
+- 100 HTA or 5000 HTA depending on the role you
 - A wallet to store your Historia, preferably a hardware wallet, although 
   Historia Core wallet is also supported
 - A Linux server, preferably a Virtual Private Server (VPS)
