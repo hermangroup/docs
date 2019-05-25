@@ -210,23 +210,6 @@ The default IPFS config file needs to be changed to limit memory usage, setup in
      }
    }
 
-Emphasized lines with line numbers
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. code-block:: python
-   :linenos:
-   :emphasize-lines: 3,5
-
-   def some_function():
-       interesting = False
-       print 'This line is highlighted.'
-       print 'This one is not...'
-       print '...but this one is.'
-
-
-
-.. code-block:: json
-
 Start IPFS Daemon for Historia
 ==============================
 
