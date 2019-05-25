@@ -1,7 +1,7 @@
 .. meta::
    :description: This guide describes how to set up a IPFS for Historia masternode.
    :keywords: historia, guide, masternodes, IPFS
-
+ 
 .. _masternode-setup:
 
 ==========
@@ -59,6 +59,7 @@ Edit IPFS Config
 The default IPFS config file needs to be changed to limit memory usage, setup interfaces, and setup the IPFS Gateway. The following changes to the default config have been **bolded**:
 
 .. code-block:: json
+    :caption: Code Blocks can have captions.
 {
   "API": {
     "HTTPHeaders": {
