@@ -1,6 +1,6 @@
 .. meta::
    :description: The Historia Documentation offers information and guides on Historia, the open source peer-to-peer cryptocurrency with a strong focus on the payments industry. 
-   :keywords: historia, cryptocurrency, blockchain, documentation, guide, masternodes, mining, wallets, merchants, governance, instantsend, privatesend, x17r, instant, private, secure, digital cash
+   :keywords: historia, cryptocurrency, blockchain, documentation, guide, masternodes, mining, wallets, merchants, governance, instantsend, privatesend, x16r, instant, private, secure, digital cash
 
 ==================
 Historia Documentation
@@ -32,9 +32,6 @@ Contents
    :caption: First Steps
 
    introduction/about
-   introduction/features
-   introduction/how-to-buy
-   introduction/safety
    introduction/information
 
 .. _user-docs:
