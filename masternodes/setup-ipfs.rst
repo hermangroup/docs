@@ -59,9 +59,7 @@ Edit IPFS Config
 The default IPFS config file needs to be changed to limit memory usage, setup interfaces, and setup the IPFS Gateway. The following changes to the default config have been **bolded**:
 
 .. code-block:: json
-    :caption: Code Blocks can have captions.
-    
-{
+    {
   "API": {
     "HTTPHeaders": {
       "Server": [
