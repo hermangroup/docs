@@ -56,9 +56,9 @@ Now when you start IPFS, the IPFS daemon will now connect to the Historia IPFS s
 
 Edit IPFS Config
 ================
-The default IPFS config file needs to be changed to limit memory usage, setup interfaces, and setup the IPFS Gateway. The following changes to the default config have been **bolded**::
+The default IPFS config file needs to be changed to limit memory usage, setup interfaces, and setup the IPFS Gateway. The following changes to the default config have been **bolded**:
 
-.. parsed-literal::
+.. code-block:: json
 {
   "API": {
     "HTTPHeaders": {
