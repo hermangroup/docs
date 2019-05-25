@@ -42,6 +42,8 @@ a self-operated masternode.
 
    understanding.rst
    hosting.rst
-   setup.rst
+   setup-linux.rst
+   setup-win.rst
+   setup-ipfs.rst
    maintenance.rst
  
