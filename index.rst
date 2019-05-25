@@ -44,7 +44,6 @@ Contents
    :caption: Users
 
    wallets/index
-   earning-spending
 
 .. _network-docs:
 
@@ -55,6 +54,4 @@ Contents
    governance/index.rst
    masternodes/index
    mining/index
-   developers/index
-   marketing.rst
-   legal.rst
+   
