@@ -35,7 +35,7 @@ We will use Vultr hosting as an example of a VPS. First create an account and ad
 Select a location for your new server on the following screen:
 
 
-.. figure:: img/1.png
+.. figure:: img/Picture1.png
    :width: 400px
 
    Vultr server location selection screen
@@ -44,29 +44,29 @@ Select Ubuntu 18.04 x64 as the server type. We use this LTS release of
 Ubuntu instead of the latest version because LTS releases are supported
 with security updates for 5 years, instead of the usual 9 months.
 
-.. figure:: img/setup-server-type.png
+.. figure:: img/Picture2.png
    :width: 400px
 
    Vultr server type selection screen
 
 Select a server size offering at least 2GB of memory.
 
-.. figure:: img/setup-server-size.png
+.. figure:: img/Picture3.png
    :width: 400px
 
    Vultr server size selection screen
 
-Enter a hostname and label for your server. In this example we will use
-``historiamn1`` as the hostname.
+Enter a hostname and label for your server. In this example we will use htamn01 as the hostname.
 
-.. figure:: img/setup-server-hostname.png
+
+.. figure:: img/Picture4png
    :width: 400px
 
    Vultr server hostname & label selection screen
 
 Vultr will now install your server. This process may take a few minutes.
 
-.. figure:: img/setup-server-installing.png
+.. figure:: img/Picture5.png
    :width: 400px
 
    Vultr server installation screen
@@ -74,7 +74,7 @@ Vultr will now install your server. This process may take a few minutes.
 Click **Manage** when installation is complete and take note of the IP
 address, username and password.
 
-.. figure:: img/setup-server-manage.png
+.. figure:: img/Picture6.png
    :width: 276px
 
    Vultr server management screen
@@ -91,7 +91,7 @@ On Mac or Linux you can ssh directly from
 the terminal - simply type ``ssh root@<server_ip>`` and enter your
 password when prompted.
 
-.. figure:: img/setup-putty-download.png
+.. figure:: img/Picture7.png
    :width: 400px
 
    PuTTY download page
@@ -102,7 +102,7 @@ field and click **Open**. You may see a certificate warning, since this
 is the first time you are connecting to this server. You can safely
 click **Yes** to trust this server in the future.
 
-.. figure:: img/setup-putty-alert.png
+.. figure:: img/Picture8.png
    :width: 320px
 
    PuTTY security alert when connecting to a new server
@@ -111,7 +111,7 @@ You are now connected to your server and should see a terminal
 window. Begin by logging in to your server with the user ``root`` and
 password supplied by your hosting provider.
 
-.. figure:: img/setup-putty-connect.png
+.. figure:: img/Picture9.png
    :width: 400px
 
    Password challenge when connecting to your VPS for the first time
@@ -158,7 +158,10 @@ newly secured environment as the new user::
 
   ufw allow ssh/tcp
   ufw limit ssh/tcp
-  ufw allow 9999/tcp
+  ufw allow 10101/tcp  
+  ufw allow 4001/tcp
+  ufw allow 80/tcp  
+  ufw allow 443/tcp  
   ufw logging on
   ufw enable
 
@@ -221,13 +224,7 @@ Then reboot the server::
 
 PuTTY will disconnect when the server reboots.
 
-While this setup includes basic steps to protect your server against
-attacks, much more can be done. In particular, `authenticating with a public key <https://help.ubuntu.com/community/SSH/OpenSSH/Keys>`_
-instead of a username/password combination and `enabling automatic security updates <https://help.ubuntu.com/community/AutomaticSecurityUpdates>`_ 
-is advisable. More tips are available `here <https://www.cyberciti.biz/tips/linux-security.html>`__. 
-However, since the masternode does not actually store the keys to any
-Historia, these steps are considered beyond the scope of this guide.
-
+While this setup includes basic steps to protect your server against attacks, much more can be done. However, since the masternode does not actually store the keys to any Historia, these steps are considered beyond the scope of this guide.
 
 Send the collateral
 ===================
@@ -243,108 +240,19 @@ wallet is highly recommended to enhance security and protect yourself
 against hacking. This guide will describe the steps for both hardware
 wallets and Historia Core.
 
-Option 1: Sending from a hardware wallet
-----------------------------------------
-
-Set up your Trezor using the Trezor wallet at https://wallet.trezor.io/
-and send a test transaction to verify that it is working properly. For
-help on this, see :ref:`this guide <hardware-trezor>` - you may also
-choose to (carefully!) `add a passphrase <https://blog.trezor.io/hide-your-trezor-wallets-with-multiple-passphrases-f2e0834026eb>`_
-to your Trezor to further protect your collateral. Create a new account
-in your Trezor wallet by clicking **Add account**. Then click the
-**Receive** tab and send exactly 1000 HISTORIA to the address displayed. If
-you are setting up multiple masternodes, send 1000 HISTORIA to consecutive
-addresses within the same new account. You should see the transaction as
-soon as the first confirmation arrives, usually within a few minutes.
-
-.. figure:: img/setup-collateral-trezor.png
-   :width: 400px
-
-   Trezor Wallet Receive tab showing successfully received collateral of
-   1000 HISTORIA
-
-Once the transaction appears, click the QR code on the right to view the
-transaction on the blockchain. Keep this window open as we complete the
-following steps, since we will soon need to confirm that 15
-confirmations exist, as shown in the following screenshot.
-
-.. figure:: img/setup-collateral-blocks.png
-   :width: 400px
-
-   Trezor blockchain explorer showing 15 confirmations for collateral
-   transfer
-
-While we are waiting for 15 confirmations, download the latest version
-of the Historia Masternode Tool (DMT) from the GitHub releases page `here
-<https://github.com/Bertrand256/historia-masternode-tool/releases>`__. Unzip
-and run the file. The following window appears.
-
-.. figure:: img/setup-collateral-dmt-start.png
-   :width: 400px
-
-   Historia Masternode Tool startup screen
-
-Click the third button from the left **Check Historia Network Connection**
-in the top left corner of the main window to verify that the connection
-is working. Then connect your Trezor device and click the next button
-**Test Hardware Wallet Connection** to verify the Trezor connection is
-working.
-
-.. image:: img/setup-collateral-connection.png
-   :width: 100px
-
-.. figure:: img/setup-collateral-hardware.png
-   :width: 180px
-
-   Historia Masternode Tool successful connection confirmations
-
-We will now use DMT to extract the transaction ID and legacy masternode
-key (necessary for successful startup during the DIP003 transition
-period). Carry out the following sequence of steps as shown in this
-screenshot:
-
-.. figure:: img/setup-collateral-dmt-steps.png
-   :width: 400px
-
-   Historia Masternode Tool configuration steps
-
-#. Click the **New** button.
-#. Ensure you are on the settings page for a Non-deterministic 
-   masternode and click **Generate new** to generate a legacy masternode
-   key. Copy this key into a text editor.
-#. Click **Alter configuration to deterministic**
-#. Enter a name for your masternode. The host name you specified 
-   for your VPS above is a good choice.
-#. Enter the IP address of your masternode. This was given to you
-   by the VPS provider when you set up the server.
-#. Enter the TCP port number. This should be 9999.
-#. Click **Locate collateral** to view unused collateral funding 
-   transactions available on the connected hardware wallet. The 
-   **Collateral address**, **index** and **Collateral TX hash** fields 
-   should be filled automatically
-
-.. figure:: img/setup-collateral-dmt-ready.png
-   :width: 400px
-
-   Historia Masternode Tool with configuration ready to start masternode
-
-Leave DMT open and continue with the next step: :ref:`installing Historia
-Core on your VPS <masternode-setup-install-historiacore>`.
-
-Option 2: Sending from Historia Core wallet
----------------------------------------
+Option 1: Sending from Historia Core wallet
+-------------------------------------------
 
 Open Historia Core wallet and wait for it to synchronize with the network.
 It should look like this when ready:
 
-.. figure:: img/setup-collateral-historiacore.png
+.. figure:: img/Picture10.png
    :width: 400px
 
    Fully synchronized Historia Core wallet
 
 Click **Tools > Debug console** to open the console. Type the following
 two commands into the console to generate a legacy masternode key
-(necessary for successful startup during the DIP003 transition period)
 and a new Historia address for the collateral::
 
   masternode genkey
@@ -353,7 +261,7 @@ and a new Historia address for the collateral::
   getnewaddress
   yiFfzbwiN9oneftd7cEfr3kQLRwQ4kp7ue
 
-Take note of the legacy masternode private key and collateral address,
+Take note of the masternode private key and collateral address,
 since we will need it later. The next step is to secure your wallet (if
 you have not already done so). First, encrypt the wallet by selecting
 **Settings > Encrypt wallet**. You should use a strong, new password
@@ -365,129 +273,72 @@ physically separate to your computer, since this will be the only way
 you can access our funds if anything happens to your computer. For more
 details on these steps, see :ref:`here <historiacore-backup>`.
 
-Now send exactly 1000 HISTORIA in a single transaction to the new address
+Roles
+-----
+
+Unlike most other masternode coins, Historia makes use of a role based masternode system. Currently there are two roles; voting masternode which has a collateral requirement of 100 HTA and 10% of the block reward and the content distribution masternode which has a collateral requirement of 5000 HTA and 25-50% of the block reward. Follow the directions for the type of masternode you want to run, either Voting Masternode or Content Distribution Masternode.
+
+Voting Masternode - Collateral 100
+----------------------------------
+Now send exactly 100 HTA in a single transaction to the new address
 you generated in the previous step. This may be sent from another
-wallet, or from funds already held in your current wallet. Once the
-transaction is complete, view the transaction in a `blockchain explorer
-<http://insight.historia.network/insight/>`_ by searching for the address. You
+wallet, or from funds already held in your current wallet. 
+
+Content Distribution Masternode - Collateral 5000
+-------------------------------------------------
+
+Now send exactly 5000 HTA in a single transaction to the new address
+you generated in the previous step. This may be sent from another
+wallet, or from funds already held in your current wallet.
+
+
+Check Transaction
+-----------------
+Once the transaction is complete, view the transaction in a `blockchain explorer
+<http://blockexplore.historia.network/>`_ by searching for the address. You
 will need 15 confirmations before you can start the masternode, but you
 can continue with the next step at this point already: installing Historia
 Core on your VPS.
 
-.. figure:: img/setup-collateral-blocks.png
+.. figure:: img/Picture11.png
    :width: 400px
-
-   Trezor blockchain explorer showing 15 confirmations for collateral
-   transfer
 
 
 .. _masternode-setup-install-historiacore:
 
 Install Historia Core
-=================
+=====================
+You MUST use Historia 0.16.3.0, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.0
 
 Historia Core is the software behind both the Historia Core GUI wallet and Historia
 masternodes. If not displaying a GUI, it runs as a daemon on your VPS
 (historiad), controlled by a simple command interface (historia-cli).
 
 Open PuTTY or a console again and connect using the username and
-password you just created for your new, non-root user. There are two
-options to install Historia Core, an automated option using a script utility
-called historiaman by Historia Core Team member moocowmoo, and a more
-complicated option which will allow you to understand all of the key
-steps involved in preparing your masternode.
+password you just created for your new, non-root user. 
 
-Option 1: Automated installation using historiaman
-----------------------------------------------
-
-To install Historia using historiaman, enter the following commands after
-logging in::
-
-  cd ~
-  git clone https://github.com/moocowmoo/historiaman
-  ~/historiaman/historiaman install
-
-(press **Y** and **Enter** to confirm)
-
-historiaman will download the latest version of Historia Core for your system,
-as well as an initial snapshot of the blockchain to speed up the
-bootstrapping process. Next download and install Sentinel, which is
-required for masternodes at version 0.12.1 or higher::
-
-  ~/historiaman/historiaman install sentinel
-
-Your system is now running as a standard Historia node, and is busy
-completing synchronisation with the blockchain. Since historiaman does not
-automatically restart your masternode in the event of a system error,
-add a check function to crontab to make sure it checks every minute to
-ensure your masternode is still running::
-
-  crontab -e
-
-Choose nano as your editor and enter the following line at the end of
-the file, after the line for sentinel::
-
-  * * * * * pidof historiad || ~/.historiacore/historiad
-
-Press enter to make sure there is a blank line at the end of the file,
-then press **Ctrl + X** to close the editor and **Y** and **Enter** save
-the file. Check the sync status and wait until all blockchain
-synchronisation and the 15 confirmations for the collateral transaction
-are complete::
-
-  ~/historiaman/historiaman status
-
-.. figure:: img/setup-historiaman-done.png
-   :width: 400px
-
-   historiaman status output showing masternode ready to be started
-
-Continue with the :ref:`next step to register your masternode
-<register-masternode>`.
-
-Option 2: Manual installation
+Option 1: Manual installation
 -----------------------------
 
-To manually download and install the components of your Historia masternode,
-visit the `GitHub releases page <https://github.com/HistoriaOffical/historia/releases>`_ 
-and copy the link to the latest ``x86_64-linux-gnu`` version. Go back to
-your terminal window and enter the following command, pasting in the
-address to the latest version of Historia Core by right clicking or pressing
-**Ctrl + V**::
+To manually download and install the components of your Historia masternode, visit https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.0 on your computer to find the link to the latest Historia Core wallet.  Right-click on Download TGZ for Historia Core Linux 64 Bit and select Copy link address. Go back to your terminal window and enter the following command, pasting in the address to the latest version of Historia Core by right clicking or pressing Ctrl + V:
 
   cd /tmp
-  wget https://github.com/HistoriaOffical/historia/releases/download/v0.13.2.0/historiacore-0.13.2.0-x86_64-linux-gnu.tar.gz
-
-Verify the integrity of your download by running the following command
-and comparing the output against the value for the file as shown in the
-``SHA256SUMS.asc`` file::
-
-  wget https://github.com/HistoriaOffical/historia/releases/download/v0.13.2.0/SHA256SUMS.asc
-  sha256sum historiacore-0.13.2.0-x86_64-linux-gnu.tar.gz
-  cat SHA256SUMS.asc
-
-You can also optionally verify the authenticity of your download as an
-official release by Historia Core Team. All releases of Historia are signed
-using GPG by Alexander Block (codablock) with the key ``63A9 6B40 6102 E091``, `verifiable
-here on Keybase <https://keybase.io/codablock>`_. Import the key, download
-the ASC file for the current release of Historia and verify the signature as
-follows::
-
-  curl https://keybase.io/codablock/pgp_keys.asc | gpg --import
-  gpg --verify SHA256SUMS.asc
-
-.. figure:: img/setup-manual-gpg.png
-   :width: 400px
-
-   Downloading the PGP key and verifying the signed binary
-
+  wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.0/historiacore-0.16.3-linux64.tar.gz
+  
 Create a working directory for Historia, extract the compressed archive and
 copy the necessary files to the directory::
 
   mkdir ~/.historiacore
-  tar xfv historiacore-0.13.2.0-x86_64-linux-gnu.tar.gz
-  cp -f historiacore-0.13.2/bin/historiad ~/.historiacore/
-  cp -f historiacore-0.13.2/bin/historia-cli ~/.historiacore/
+  tar xfvz historiacore-0.16.3-linux64.tar.gz  
+  cp historiacore-0.16.3/bin/historiad .historiacore/  
+  cp historiacore-0.16.3/bin/historia-cli .historiacore/  
+  chmod 777 .historiacore/historia*  
+
+
+Clean up unneeded files::
+
+  rm historiacore-0.16.3-linux64.tar.gz  
+  rm -r historiacore-0.16.3/
 
 Create a configuration file using the following command::
 
@@ -496,8 +347,12 @@ Create a configuration file using the following command::
 An editor window will appear. We now need to create a configuration file
 specifying several variables. Copy and paste the following text to get
 started, then replace the variables specific to your configuration as
-follows::
+follows:
 
+
+IF Voting Masternode - Collateral 100
+-------------------------------------
+::
   #----
   rpcuser=XXXXXXXXXXXXX
   rpcpassword=XXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -509,6 +364,26 @@ follows::
   maxconnections=64
   #----
   masternode=1
+  masternodecollateral=100
+  masternodeprivkey=XXXXXXXXXXXXXXXXXXXXXXX
+  externalip=XXX.XXX.XXX.XXX
+  #----
+
+IF Content Distribution Masternode - Collateral 5000
+----------------------------------------------------
+::
+  #----
+  rpcuser=XXXXXXXXXXXXX
+  rpcpassword=XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  rpcallowip=127.0.0.1
+  #----
+  listen=1
+  server=1
+  daemon=1
+  maxconnections=64
+  #----
+  masternode=1
+  masternodecollateral=5000
   masternodeprivkey=XXXXXXXXXXXXXXXXXXXXXXX
   externalip=XXX.XXX.XXX.XXX
   #----
