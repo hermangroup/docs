@@ -64,7 +64,7 @@ The default IPFS config file needs to be changed to limit memory usage, setup in
     curl -O http://someurl/release-|version|.tar-gz
 
 
-.. code-block:: json
+.. parsed-literal::
     :caption: Code Blocks can have captions.
 
     {
