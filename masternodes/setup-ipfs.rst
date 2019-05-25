@@ -87,6 +87,154 @@ The default IPFS config file needs to be changed to limit memory usage, setup in
     ],
     "session_name": "shorthands"
     }
+   {
+     "API": {
+       "HTTPHeaders": {
+         "Server": [
+           "go-ipfs/0.4.17"
+         ]
+       }
+     },
+     "Addresses": {
+       "API": "/ip4/127.0.0.1/tcp/5001",
+       "Announce": [],
+       "Gateway": [
+         "/ip4/0.0.0.0/tcp/8080",
+         "/ip6/::/tcp/8080"
+       ],
+       "NoAnnounce": [],
+       "Swarm": [
+         "/ip4/0.0.0.0/tcp/4001",
+         "/ip6/::/tcp/4001"
+       ]
+     },
+     "Bootstrap": [
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S"**
+     ],
+     "Datastore": {
+       "BloomFilterSize": 0,
+       "GCPeriod": "1h",
+       "HashOnRead": false,
+       "Spec": {
+         "mounts": [
+           {
+             "child": {
+               "path": "blocks",
+               "shardFunc": "/repo/flatfs/shard/v1/next-to-last/2",
+               "sync": true,
+               "type": "flatfs"
+             },
+             "mountpoint": "/blocks",
+             "prefix": "flatfs.datastore",
+             "type": "measure"
+           },
+           {
+             "child": {
+               "compression": "none",
+               "path": "datastore",
+               "type": "levelds"
+             },
+             "mountpoint": "/",
+             "prefix": "leveldb.datastore",
+             "type": "measure"
+           }
+         ],
+         "type": "mount"
+       },
+       "StorageGCWatermark": 90,
+       **"StorageMax": "50GB"**
+     },
+     "Discovery": {
+       "MDNS": {
+         "Enabled": true,
+         "Interval": 10
+       }
+     },
+     "Experimental": {
+       "FilestoreEnabled": false,
+       "Libp2pStreamMounting": false,
+       "P2pHttpProxy": false,
+       "QUIC": false,
+       "ShardingEnabled": false,
+       "UrlstoreEnabled": false
+     },
+     "Gateway": {
+       "APICommands": null,
+       **"HTTPHeaders": {**
+         **"Access-Control-Allow-Headers": [**
+           **"X-Requested-With",**
+           **"Access-Control-Expose-Headers",**
+           **"Range"**
+         **],**
+         **"Access-Control-Allow-Methods": [**
+           **"POST",**
+           **"GET"**
+         **],**
+         **"Access-Control-Allow-Origin": [**
+           **"*"**
+         **],**
+         **"Access-Control-Expose-Headers": [**
+           **"Location",**
+           **"Ipfs-Hash"**
+         **],**
+         **"X-Special-Header": [**
+           **"Access-Control-Expose-Headers: Ipfs-Hash"**
+         **]**
+       },
+       **"NoFetch": false,**
+       "PathPrefixes": [],
+       "RootRedirect": "",
+       "Writable": false
+     },
+     "Identity": {
+       "PeerID": "QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD",
+       "PrivKey": "REDACTED"
+        },
+     "Ipns": {
+       "RecordLifetime": "",
+       "RepublishPeriod": "",
+       "ResolveCacheSize": 128
+     },
+     "Mounts": {
+       "FuseAllowOther": false,
+       "IPFS": "/ipfs",
+       "IPNS": "/ipns"
+     },
+     "Pubsub": {
+       "DisableSigning": false,
+       "Router": "",
+       "StrictSignatureVerification": false
+     },
+     "Reprovider": {
+       "Interval": "12h",
+       "Strategy": "all"
+     },
+     "Routing": {
+       "Type": "dht"
+     },
+     "Swarm": {
+       "AddrFilters": null,
+       "ConnMgr": {
+         "GracePeriod": "20s",
+         **"HighWater": 500,**
+         **"LowWater": 50,**
+         "Type": "basic"
+       },
+       "DisableBandwidthMetrics": false,
+       "DisableNatPortMap": true,
+       "DisableRelay": false,
+       "EnableAutoNATService": false,
+       "EnableAutoRelay": false,
+       "EnableRelayHop": false
+     }
+   }
 
 Emphasized lines with line numbers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -104,154 +252,6 @@ Emphasized lines with line numbers
 
 
 .. code-block:: json
-{
-  "API": {
-    "HTTPHeaders": {
-      "Server": [
-        "go-ipfs/0.4.17"
-      ]
-    }
-  },
-  "Addresses": {
-    "API": "/ip4/127.0.0.1/tcp/5001",
-    "Announce": [],
-    "Gateway": [
-      "/ip4/0.0.0.0/tcp/8080",
-      "/ip6/::/tcp/8080"
-    ],
-    "NoAnnounce": [],
-    "Swarm": [
-      "/ip4/0.0.0.0/tcp/4001",
-      "/ip6/::/tcp/4001"
-    ]
-  },
-  "Bootstrap": [
-    **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
-    **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
-    **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
-    **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
-    **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
-    **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
-    **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
-    **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S"**
-  ],
-  "Datastore": {
-    "BloomFilterSize": 0,
-    "GCPeriod": "1h",
-    "HashOnRead": false,
-    "Spec": {
-      "mounts": [
-        {
-          "child": {
-            "path": "blocks",
-            "shardFunc": "/repo/flatfs/shard/v1/next-to-last/2",
-            "sync": true,
-            "type": "flatfs"
-          },
-          "mountpoint": "/blocks",
-          "prefix": "flatfs.datastore",
-          "type": "measure"
-        },
-        {
-          "child": {
-            "compression": "none",
-            "path": "datastore",
-            "type": "levelds"
-          },
-          "mountpoint": "/",
-          "prefix": "leveldb.datastore",
-          "type": "measure"
-        }
-      ],
-      "type": "mount"
-    },
-    "StorageGCWatermark": 90,
-    **"StorageMax": "50GB"**
-  },
-  "Discovery": {
-    "MDNS": {
-      "Enabled": true,
-      "Interval": 10
-    }
-  },
-  "Experimental": {
-    "FilestoreEnabled": false,
-    "Libp2pStreamMounting": false,
-    "P2pHttpProxy": false,
-    "QUIC": false,
-    "ShardingEnabled": false,
-    "UrlstoreEnabled": false
-  },
-  "Gateway": {
-    "APICommands": null,
-    **"HTTPHeaders": {**
-      **"Access-Control-Allow-Headers": [**
-        **"X-Requested-With",**
-        **"Access-Control-Expose-Headers",**
-        **"Range"**
-      **],**
-      **"Access-Control-Allow-Methods": [**
-        **"POST",**
-        **"GET"**
-      **],**
-      **"Access-Control-Allow-Origin": [**
-        **"*"**
-      **],**
-      **"Access-Control-Expose-Headers": [**
-        **"Location",**
-        **"Ipfs-Hash"**
-      **],**
-      **"X-Special-Header": [**
-        **"Access-Control-Expose-Headers: Ipfs-Hash"**
-      **]**
-    },
-    **"NoFetch": false,**
-    "PathPrefixes": [],
-    "RootRedirect": "",
-    "Writable": false
-  },
-  "Identity": {
-    "PeerID": "QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD",
-    "PrivKey": "REDACTED"
-     },
-  "Ipns": {
-    "RecordLifetime": "",
-    "RepublishPeriod": "",
-    "ResolveCacheSize": 128
-  },
-  "Mounts": {
-    "FuseAllowOther": false,
-    "IPFS": "/ipfs",
-    "IPNS": "/ipns"
-  },
-  "Pubsub": {
-    "DisableSigning": false,
-    "Router": "",
-    "StrictSignatureVerification": false
-  },
-  "Reprovider": {
-    "Interval": "12h",
-    "Strategy": "all"
-  },
-  "Routing": {
-    "Type": "dht"
-  },
-  "Swarm": {
-    "AddrFilters": null,
-    "ConnMgr": {
-      "GracePeriod": "20s",
-      **"HighWater": 500,**
-      **"LowWater": 50,**
-      "Type": "basic"
-    },
-    "DisableBandwidthMetrics": false,
-    "DisableNatPortMap": true,
-    "DisableRelay": false,
-    "EnableAutoNATService": false,
-    "EnableAutoRelay": false,
-    "EnableRelayHop": false
-  }
-}
 
 Start IPFS Daemon for Historia
 ==============================
