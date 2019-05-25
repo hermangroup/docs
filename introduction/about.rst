@@ -8,7 +8,7 @@
 What is Historia?
 =============
 
-Historia aims to be a consesus based historical record database. The Historia network features record storage via IPFS and consesus based voting of records to prevent falsehoods from entering in the historical record.
+Historia aims to be a consesus based historical record database. The Historia network features record storage via IPFS and consesus based voting of records to prevent falsehoods from entering in the historical record. The current version of Historia was built on Dash 12.2.3 and inherents advanced features from Dash such as: 
 :ref:`instant transaction confirmation <instantsend>`, double spend 
 protection, :ref:`anonymity <privatesend>` equal to that of physical 
 cash, a 
@@ -19,9 +19,7 @@ driven by :ref:`incentivized full nodes <masternode-network>` and a
 The links and documentation collected here can help you get
 started. You may also use the table of contents on the left to find a specific
 topic of interest. New users may be interested in getting started with
-an appropriate :ref:`wallet <wallets>`, learning about 
-:ref:`how to buy Historia <how-to-buy>`, learning about 
-:ref:`safety <safety>` or joining one of the many 
+an appropriate :ref:`wallet <wallets>`, or joining one of the many 
 :ref:`Historia community sites <information>`.
 
 .. _whitepaper:
