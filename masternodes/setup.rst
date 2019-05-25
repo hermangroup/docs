@@ -351,8 +351,8 @@ follows:
 
 
 IF Voting Masternode - Collateral 100
--------------------------------------
-::
+-------------------------------------::
+
   #----
   rpcuser=XXXXXXXXXXXXX
   rpcpassword=XXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -370,8 +370,8 @@ IF Voting Masternode - Collateral 100
   #----
 
 IF Content Distribution Masternode - Collateral 5000
-----------------------------------------------------
-::
+----------------------------------------------------::
+
   #----
   rpcuser=XXXXXXXXXXXXX
   rpcpassword=XXXXXXXXXXXXXXXXXXXXXXXXXXXX
