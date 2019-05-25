@@ -60,33 +60,7 @@ The default IPFS config file needs to be changed to limit memory usage, setup in
 
 .. parsed-literal::
 
-    # parsed-literal test
-    curl -O http://someurl/release-|version|.tar-gz
 
-
-.. parsed-literal::
-    :caption: Code Blocks can have captions.
-
-    {
-    "windows": [
-        {
-        "panes": [
-            {
-            "shell_command": [
-                "echo 'did you know'",
-                "echo 'you can inline'"
-            ]
-            },
-            {
-            "shell_command": "echo 'single commands'"
-            },
-            "echo 'for panes'"
-        ],
-        "window_name": "long form"
-        }
-    ],
-    "session_name": "shorthands"
-    }
    {
      "API": {
        "HTTPHeaders": {
