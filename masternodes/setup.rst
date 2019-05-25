@@ -35,7 +35,7 @@ We will use Vultr hosting as an example of a VPS. First create an account and ad
 Select a location for your new server on the following screen:
 
 
-.. figure:: img/Picture1.png
+.. figure:: ../img/Picture1.png
    :width: 400px
 
    Vultr server location selection screen
@@ -44,14 +44,14 @@ Select Ubuntu 18.04 x64 as the server type. We use this LTS release of
 Ubuntu instead of the latest version because LTS releases are supported
 with security updates for 5 years, instead of the usual 9 months.
 
-.. figure:: img/Picture2.png
+.. figure:: ../img/Picture2.png
    :width: 400px
 
    Vultr server type selection screen
 
 Select a server size offering at least 2GB of memory.
 
-.. figure:: img/Picture3.png
+.. figure:: ../img/Picture3.png
    :width: 400px
 
    Vultr server size selection screen
@@ -59,14 +59,14 @@ Select a server size offering at least 2GB of memory.
 Enter a hostname and label for your server. In this example we will use htamn01 as the hostname.
 
 
-.. figure:: img/Picture4png
+.. figure:: ../img/Picture4png
    :width: 400px
 
    Vultr server hostname & label selection screen
 
 Vultr will now install your server. This process may take a few minutes.
 
-.. figure:: img/Picture5.png
+.. figure:: ../img/Picture5.png
    :width: 400px
 
    Vultr server installation screen
@@ -74,7 +74,7 @@ Vultr will now install your server. This process may take a few minutes.
 Click **Manage** when installation is complete and take note of the IP
 address, username and password.
 
-.. figure:: img/Picture6.png
+.. figure:: ../img/Picture6.png
    :width: 276px
 
    Vultr server management screen
@@ -91,7 +91,7 @@ On Mac or Linux you can ssh directly from
 the terminal - simply type ``ssh root@<server_ip>`` and enter your
 password when prompted.
 
-.. figure:: img/Picture7.png
+.. figure:: ../img/Picture7.png
    :width: 400px
 
    PuTTY download page
@@ -102,7 +102,7 @@ field and click **Open**. You may see a certificate warning, since this
 is the first time you are connecting to this server. You can safely
 click **Yes** to trust this server in the future.
 
-.. figure:: img/Picture8.png
+.. figure:: ../img/Picture8.png
    :width: 320px
 
    PuTTY security alert when connecting to a new server
@@ -111,7 +111,7 @@ You are now connected to your server and should see a terminal
 window. Begin by logging in to your server with the user ``root`` and
 password supplied by your hosting provider.
 
-.. figure:: img/Picture9.png
+.. figure:: ../img/Picture9.png
    :width: 400px
 
    Password challenge when connecting to your VPS for the first time
@@ -300,7 +300,7 @@ will need 15 confirmations before you can start the masternode, but you
 can continue with the next step at this point already: installing Historia
 Core on your VPS.
 
-.. figure:: img/Picture11.png
+.. figure:: ../img/Picture11.png
    :width: 400px
 
 
@@ -350,9 +350,6 @@ started, then replace the variables specific to your configuration as
 follows:
 
 
-IF Voting Masternode - Collateral 100
--------------------------------------::
-
   #----
   rpcuser=XXXXXXXXXXXXX
   rpcpassword=XXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -364,26 +361,7 @@ IF Voting Masternode - Collateral 100
   maxconnections=64
   #----
   masternode=1
-  masternodecollateral=100
-  masternodeprivkey=XXXXXXXXXXXXXXXXXXXXXXX
-  externalip=XXX.XXX.XXX.XXX
-  #----
-
-IF Content Distribution Masternode - Collateral 5000
-----------------------------------------------------::
-
-  #----
-  rpcuser=XXXXXXXXXXXXX
-  rpcpassword=XXXXXXXXXXXXXXXXXXXXXXXXXXXX
-  rpcallowip=127.0.0.1
-  #----
-  listen=1
-  server=1
-  daemon=1
-  maxconnections=64
-  #----
-  masternode=1
-  masternodecollateral=5000
+  masternodecollateral=XXXX
   masternodeprivkey=XXXXXXXXXXXXXXXXXXXXXXX
   externalip=XXX.XXX.XXX.XXX
   #----
@@ -394,14 +372,14 @@ Replace the fields marked with ``XXXXXXX`` as follows:
   characters allowed
 - ``rpcpassword``: enter any string of numbers or letters, no special
   characters allowed
-- ``masternodecollateral``: 100 or 5000  
+- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode  
 - ``masternodeprivkey``: this is the legacy masternode private key you
   generated in the previous step
 - ``externalip``: this is the IP address of your VPS
 
 The result should look something like this:
 
-.. figure:: img/Picture12.png
+.. figure:: ../img/Picture12.png
    :width: 400px
 
    Entering key data in historia.conf on the masternode
@@ -410,7 +388,7 @@ Press **Ctrl + X** to close the editor and **Y** and **Enter** save the
 file. 
 
 IF Content Distribution Masternode - Collateral 5000 Verify IPFS is running
----------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you haven't setup IPFS yet, please do so now by going to the IPFS page. Before you start your masternode, IPFS daemon must be running.::
 
@@ -477,12 +455,15 @@ Start your masternode
 ---------------------
 
 Depending on how you sent your masternode collateral, you will need to start your masternode with a command sent by the Historia Core wallet. Before you continue, you must ensure that your 100 HISTORIA collateral transaction has at least 15 confirmation, and that historiad is running and fully synchronized with the blockchain on your masternode. See the previous step for details on how to do this. During the startup process, your masternode may pass through the following states:
-- MASTERNODE_SYNC: This indicates the data currently being synchronised in the masternode
-- MASTERNODE_SYNC_FAILED: Synchronisation could not complete, check your firewall and restart historiad
-- WATCHDOG_EXPIRED: Waiting for sentinel to restart, make sure it is entered in crontab
-- NEW_START_REQUIRED: Start command must be sent from wallet
-- PRE_ENABLED: Waiting for network to recognize started masternode
-- ENABLED: Masternode successfully started
+
+- ``MASTERNODE_SYNC``: This indicates the data currently being synchronised in the masternode
+- ``MASTERNODE_SYNC_FAILED``: Synchronisation could not complete, check your firewall and restart historiad
+- ``WATCHDOG_EXPIRED``: Waiting for sentinel to restart, make sure it is entered in crontab
+- ``IPFS_EXPIRED``: This indictations that IPFS is not running.
+- ``EXPIRED``: Masternode has expired. Restart masternode; check IPFS is running.
+- ``NEW_START_REQUIRED``: Start command must be sent from wallet; check IPFS is running.
+- ``PRE_ENABLED``: Waiting for network to recognize started masternode
+- ``ENABLED``: Masternode successfully started
 If you masternode does not seem to start immediately, do not arbitrarily issue more start commands. Each time you do so, you will reset your position in the payment queue.
 
 Identify the funding transaction
