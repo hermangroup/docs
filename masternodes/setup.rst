@@ -479,6 +479,7 @@ This should return a string of characters similar to this::
 The first long string is your transaction hash, while the last number is the index. We now need to create a file called masternode.conf for this wallet in order to be able to use it to issue the command to start your masternode on the network.
 
 Open a new text file in Notepad (or TextEdit on macOS, nano on Linux) and enter the following information:
+
 - ``Label``: Any single word used to identify your masternode, e.g. MN1
 - ``IP and port``: The IP address and port (usually 10101) configured in the Historia.conf file, separated by a colon (:)
 - ``Masternode private key``: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
