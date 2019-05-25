@@ -501,6 +501,18 @@ Enter all of this information on a single line with each item separated by a spa
 
 Save this file in the historiacore data folder on the PC running the Historia Core wallet using the filename masternode.conf. You may need to enable View hidden items to view this folder. Be sure to select All files if using Notepad so you don’t end up with a .conf.txt file extension by mistake. For different operating systems, the Historiacore folder can be found in the following locations (copy and paste the shortcut text into the Save dialog to find it quickly):
 
+
+
++-----------+--------------------------------------------------------+--------------------------------------------+
+| Platform  | Path                                                   | Shortcut                                   |
++===========+========================================================+============================================+
+| Linux     | /home/yourusername/.historiacore                       | ~/.historiacore                            | 
++-----------+--------------------------------------------------------+--------------------------------------------+
+| OSX       | /Macintosh HD/Library/Application Support/HistoriaCore | ~/Library/Application Support/HistoriaCore |
++-----------+--------------------------------------------------------+--------------------------------------------+
+| Windows   | C:\Users\yourusername\AppData\Roaming\Historia Core    | %APPDATA%\Historia Core                    |
++-----------+--------------------------------------------------------+--------------------------------------------+
+
 Platform  | Path | Shortcut
 ------------- | ------------- | -------------
 Linux  | /home/yourusername/.historiacore | ~/.historiacore
