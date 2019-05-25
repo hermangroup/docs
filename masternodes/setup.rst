@@ -35,7 +35,7 @@ We will use Vultr hosting as an example of a VPS. First create an account and ad
 Select a location for your new server on the following screen:
 
 
-.. figure:: img/setup-server-type.png
+.. figure:: img/1.png
    :width: 400px
 
    Vultr server location selection screen
