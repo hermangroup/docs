@@ -4,9 +4,9 @@
 
 .. _masternode-setup:
 
-=====
-Setup
-=====
+==========
+Setup IPFS
+==========
 
 Setting up a masternode requires a basic understanding of Linux and
 blockchain technology, as well as an ability to follow instructions
