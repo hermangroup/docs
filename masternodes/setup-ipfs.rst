@@ -60,6 +60,7 @@ The default IPFS config file needs to be changed to limit memory usage, setup in
 
 .. code-block:: json
     :caption: Code Blocks can have captions.
+    
 {
   "API": {
     "HTTPHeaders": {
