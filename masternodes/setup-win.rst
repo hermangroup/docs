@@ -156,9 +156,12 @@ Next let's install IPFS.
 IF Content Distribution Masternode - Collateral 5000 Verify IPFS is running
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>`, IPFS page. Before you start your masternode, IPFS daemon must be running.::
+If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>` page. Before you start your masternode, IPFS daemon must be running. Open a new command prompt and start ipfs daemon::
 
-   systemctl start ipfs
+   ipfs.exe daemon
+
+*If you reboot your Windows Machine, you now must restart both Historiad and ipfs daemon*
+
 
 Install Sentinel
 ----------------
@@ -241,11 +244,12 @@ Depending on how you sent your masternode collateral, you will need to start you
 - ``MASTERNODE_SYNC``: This indicates the data currently being synchronised in the masternode
 - ``MASTERNODE_SYNC_FAILED``: Synchronisation could not complete, check your firewall and restart historiad
 - ``WATCHDOG_EXPIRED``: Waiting for sentinel to restart, make sure it is entered in crontab
-- ``IPFS_EXPIRED``: This indictates that IPFS is not running.
-- ``EXPIRED``: Masternode has expired. Restart Historiad, restart masternode, check IPFS is running.
 - ``NEW_START_REQUIRED``: Start command must be sent from wallet; check IPFS is running.
 - ``PRE_ENABLED``: Waiting for network to recognize started masternode
 - ``ENABLED``: Masternode successfully started
+- ``IPFS_EXPIRED``: This indictates that IPFS is not running.
+- ``EXPIRED``: Masternode has expired. Restart Historiad, restart masternode, check IPFS is running.
+
 If you masternode does not seem to start immediately, do not arbitrarily issue more start commands. Each time you do so, you will reset your position in the payment queue.
 
 Identify the funding transaction
@@ -270,7 +274,7 @@ The first long string is your transaction hash, while the last number is the ind
 - ``Transaction hash``: The txid we just identified using masternode outputs
 - ``Index``: The index we just identified using masternode outputs
 - ``IPv6 Address``: The public IPv6 address associated with your masternode
-- ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon
+- ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon. You get this from :ref:`Setup IPFS <ipfs-setup>`.
 
 IF Voting Masternode - Collateral 100 Verify IPFS is running
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
