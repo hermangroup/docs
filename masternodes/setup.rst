@@ -23,6 +23,27 @@ time. You will need:
 
 We also assume you will be working from a Windows computer. However, since most of the work is done on your Linux VPS, alternative steps for using macOS or Linux will be indicated where necessary.
 
+Masternode Roles
+----------------
+
+Unlike most other masternode coins, Historia makes use of a role based masternode system. Currently there are two roles:
+ - Voting Masternode 
+ 
+   - Collateral Requirement: 100 HTA
+   - Reward: 10% per block
+   - Ports: TCP 10101, TCP 4001
+   - IPFS Required: No
+   - IPv4 address required
+ - Content Distribution Masternode 
+ 
+   - Collateral Requirement: 5000 HTA
+   - Reward: 25% per block - increaes 2.5% every 2 months until 50% per block
+   - Ports: TCP 10101, TCP 4001, TCP 80, TCP 443
+   - IPFS Required: Yes
+   - IPv4 and IPv6 address required
+
+Choose either the directions for the Vote Masternode or the Content Distribution Masternode.
+
 .. _vps-setup:
 
 Set up your VPS
@@ -273,21 +294,16 @@ selecting **File > Backup Wallet**. Save the file to a secure location
 physically separate to your computer, since this will be the only way
 you can access our funds if anything happens to your computer.
 
-Roles
------
-
-Unlike most other masternode coins, Historia makes use of a role based masternode system. Currently there are two roles; voting masternode which has a collateral requirement of 100 HTA and 10% of the block reward and the content distribution masternode which has a collateral requirement of 5000 HTA and 25-50% of the block reward. Follow the directions for the type of masternode you want to run, either Voting Masternode or Content Distribution Masternode.
-
 Voting Masternode - Collateral 100
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Now send exactly 100 HTA in a single transaction to the new address
+If setting up a Voting Masternode, send exactly 100 HTA in a single transaction to the new address
 you generated in the previous step. This may be sent from another
 wallet, or from funds already held in your current wallet. 
 
 Content Distribution Masternode - Collateral 5000
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Now send exactly 5000 HTA in a single transaction to the new address
+If setting up a Content Distribution Masternode, send exactly 5000 HTA in a single transaction to the new address
 you generated in the previous step. This may be sent from another
 wallet, or from funds already held in your current wallet.
 
