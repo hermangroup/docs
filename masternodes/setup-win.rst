@@ -148,7 +148,7 @@ Replace the fields marked with ``XXXXXXX`` as follows:
   generated in the previous step
 - ``externalip``: this is the IP address of your VPS
 
-Save the historia.conf file in the default location (C:\Users\yourusername\AppData\Roaming\HistoriaCore\) and exit the text editor.
+Save the historia.conf file in the default location (C:\Users\<yourusername>\AppData\Roaming\HistoriaCore\) and exit the text editor.
 
 Next let's install IPFS.
 
@@ -211,7 +211,9 @@ For a duration of:Indefinitely
 Settings:
 
    - Actions Tab -> New (Action)  
-   - Program/script -> Browse to C:\Users\yourusername\AppData\Roaming\HistoriaCore\sentinel\sentinel.exe  
+   - Program/script -> Browse to::
+   
+      C:\Users\<yourusername>\AppData\Roaming\HistoriaCore\sentinel\sentinel.exe  
 
 Click Ok  
 
@@ -283,14 +285,7 @@ Enter all of this information on a single line with each item separated by a spa
 
 Save this file and close the text editor. It should be saved in:: 
 
-   C:\Users\yourusername\AppData\Roaming\HistoriaCore folder.
-
-::
-   +-----------+--------------------------------------------------------+--------------------------------------------+
-   | Platform  | Path                                                   | Shortcut                                   |
-   +===========+========================================================+============================================+
-   | Windows   | C:\Users\yourusername\AppData\Roaming\Historia Core    | %APPDATA%\Historia Core                    |
-   +-----------+--------------------------------------------------------+--------------------------------------------+
+   C:\Users\<yourusername>\AppData\Roaming\HistoriaCore folder.
 
 Shut down and restart Historia Core wallet. Let the Historia Core wallet fully sync. Historia Core will recognize masternode.conf during startup, and is now ready to activate your masternode. Go to **Settings > Unlock Wallet** and enter your wallet passphrase. Then click **Tools > Debug** console again and enter the following command to start your masternode (replace MN1 with the label for your masternode)::
 
