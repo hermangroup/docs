@@ -24,7 +24,6 @@ Official sites
 Forums
 ------
 
-- **Historia Forum**: https://historia.network/forum (Coming soon)
 - **BitcoinTalk thread:** https://bitcointalk.org/index.php?topic=5010022
 - Have another site? Contact us at info@historia.network to get listed here.
 
