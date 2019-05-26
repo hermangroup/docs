@@ -8,7 +8,9 @@
 Setup IPFS
 ==========
 
-Running the IPFS daemon is now a required part of the masternode system. A Content Distribution Masternode - Collateral 5000 requires IPFS to run a masternode. You must follow these steps.
+Running the IPFS daemon is now a required part of the masternode system. A Content Distribution Masternode - Collateral 5000 requires IPFS to run a masternode. You must follow these steps. 
+
+If you are setting up a Windows Masternode, please skip down to the section IPFS For Windows Masternodes. 
 
 Install IPFS Daemon
 ===================
