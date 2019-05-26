@@ -238,7 +238,9 @@ Copy and past the below config and save the ipfs.service file. Add the username 
 Start IPFS Daemon for Historia
 ==============================
 Start the IPFS service::
+
    systemctl start ipfs
    
 Enable the IPFS service to start on reboot::
+
    systemctl enable ipfs
