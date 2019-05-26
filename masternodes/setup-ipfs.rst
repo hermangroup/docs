@@ -244,3 +244,191 @@ Start the IPFS service::
 Enable the IPFS service to start on reboot::
 
    systemctl enable ipfs
+
+
+IPFS For Windows Masternodes
+============================
+
+Download / Install IPFS Daemon
+------------------------------
+
+Download the Windows zip file from https://dist.ipfs.io/#go-ipfs
+
+Extract the zip file and copy the ipfs.exe files to your HistoriaCore daemon directory (Default location: C:\Program Files\HistoriaCore\daemon)
+
+Initialize IPFS Daemon for Historia
+-----------------------------------
+Since we will be using IPFS only for Historia, we can safely store the ipfs.exe file in the HistoriaCore directory and initalize IPFS. 
+
+Open a command prompt::
+
+   cd C:\Program Files\HistoriaCore\daemon  
+   ipfs.exe init
+
+
+Edit IPFS Config
+----------------
+The default IPFS config file needs to be changed to limit memory usage, setup interfaces, and setup the IPFS Gateway. The following changes to the default config have been **bolded**. The IPFS config file is located at::
+
+    C:\Users\<yourusername>\.ipfs\config
+
+.. parsed-literal::
+
+
+   {
+     "API": {
+       "HTTPHeaders": {
+         "Server": [
+           "go-ipfs/0.4.17"
+         ]
+       }
+     },
+     "Addresses": {
+       "API": "/ip4/127.0.0.1/tcp/5001",
+       "Announce": [],
+       "Gateway": [
+         "/ip4/0.0.0.0/tcp/80",
+         "/ip6/::/tcp/80"
+       ],
+       "NoAnnounce": [],
+       "Swarm": [
+         "/ip4/0.0.0.0/tcp/4001",
+         "/ip6/::/tcp/4001"
+       ]
+     },
+     "Bootstrap": [
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S",**
+       **"/ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S"**
+     ],
+     "Datastore": {
+       "BloomFilterSize": 0,
+       "GCPeriod": "1h",
+       "HashOnRead": false,
+       "Spec": {
+         "mounts": [
+           {
+             "child": {
+               "path": "blocks",
+               "shardFunc": "/repo/flatfs/shard/v1/next-to-last/2",
+               "sync": true,
+               "type": "flatfs"
+             },
+             "mountpoint": "/blocks",
+             "prefix": "flatfs.datastore",
+             "type": "measure"
+           },
+           {
+             "child": {
+               "compression": "none",
+               "path": "datastore",
+               "type": "levelds"
+             },
+             "mountpoint": "/",
+             "prefix": "leveldb.datastore",
+             "type": "measure"
+           }
+         ],
+         "type": "mount"
+       },
+       "StorageGCWatermark": 90,
+       **"StorageMax": "50GB"**
+     },
+     "Discovery": {
+       "MDNS": {
+         "Enabled": true,
+         "Interval": 10
+       }
+     },
+     "Experimental": {
+       "FilestoreEnabled": false,
+       "Libp2pStreamMounting": false,
+       "P2pHttpProxy": false,
+       "QUIC": false,
+       "ShardingEnabled": false,
+       "UrlstoreEnabled": false
+     },
+     "Gateway": {
+       "APICommands": null,
+       **"HTTPHeaders": {**
+         **"Access-Control-Allow-Headers": [**
+           **"X-Requested-With",**
+           **"Access-Control-Expose-Headers",**
+           **"Range"**
+         **],**
+         **"Access-Control-Allow-Methods": [**
+           **"POST",**
+           **"GET"**
+         **],**
+         **"Access-Control-Allow-Origin": [**
+           **"*"**
+         **],**
+         **"Access-Control-Expose-Headers": [**
+           **"Location",**
+           **"Ipfs-Hash"**
+         **],**
+         **"X-Special-Header": [**
+           **"Access-Control-Expose-Headers: Ipfs-Hash"**
+         **]**
+       },
+       **"NoFetch": false,**
+       "PathPrefixes": [],
+       "RootRedirect": "",
+       "Writable": false
+     },
+     "Identity": {
+       "PeerID": "QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD",
+       "PrivKey": "REDACTED"
+        },
+     "Ipns": {
+       "RecordLifetime": "",
+       "RepublishPeriod": "",
+       "ResolveCacheSize": 128
+     },
+     "Mounts": {
+       "FuseAllowOther": false,
+       "IPFS": "/ipfs",
+       "IPNS": "/ipns"
+     },
+     "Pubsub": {
+       "DisableSigning": false,
+       "Router": "",
+       "StrictSignatureVerification": false
+     },
+     "Reprovider": {
+       "Interval": "12h",
+       "Strategy": "all"
+     },
+     "Routing": {
+       "Type": "dht"
+     },
+     "Swarm": {
+       "AddrFilters": null,
+       "ConnMgr": {
+         "GracePeriod": "20s",
+         **"HighWater": 500,**
+         **"LowWater": 50,**
+         "Type": "basic"
+       },
+       "DisableBandwidthMetrics": false,
+       "DisableNatPortMap": true,
+       "DisableRelay": false,
+       "EnableAutoNATService": false,
+       "EnableAutoRelay": false,
+       "EnableRelayHop": false
+     }
+   }
+
+Start IPFS Daemon
+=================
+
+Start ipfs daemon::
+
+   ipfs.exe daemon
+
+*If you reboot your Windows Machine, you now must restart both Historiad and ipfs daemon*
