@@ -24,6 +24,25 @@ time. You will need:
    - Content Distribution Masternode: TCP Port 10101, 4001, 80, 443
    - When asked to allow firewall access by Windows, on any of the steps below, please select Allow.
 
+Masternode Roles
+----------------
+
+Unlike most other masternode coins, Historia makes use of a role based masternode system. Currently there are two roles:
+ - Voting Masternode 
+   - Collateral Requirement: 100 HTA
+   - Reward: 10% per block
+   - Ports: TCP 10101, TCP 4001
+   - IPFS Required: No
+   - IPv4 address required
+ - Content Distribution Masternode 
+   - Collateral Requirement: 5000 HTA
+   - Reward: 25% per block - increaes 2.5% every 2 months until 50% per block
+   - Ports: TCP 10101, TCP 4001, TCP 80, TCP 443
+   - IPFS Required: Yes
+   - IPv4 and IPv6 address required
+
+Choose either the directions for the Vote Masternode or the Content Distribution Masternode.
+ 
 
 Install Historia Windows Wallet
 ===============================
@@ -72,29 +91,23 @@ selecting **File > Backup Wallet**. Save the file to a secure location
 physically separate to your computer, since this will be the only way
 you can access our funds if anything happens to your computer.
 
-Roles
------
-
-Unlike most other masternode coins, Historia makes use of a role based masternode system. Currently there are two roles; voting masternode which has a collateral requirement of 100 HTA and 10% of the block reward and the content distribution masternode which has a collateral requirement of 5000 HTA and 25-50% of the block reward. Follow the directions for the type of masternode you want to run, either Voting Masternode or Content Distribution Masternode.
-
 Voting Masternode - Collateral 100
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Now send exactly 100 HTA in a single transaction to the new address
+If setting up a Voting Masternode, send exactly 100 HTA in a single transaction to the new address
 you generated in the previous step. This may be sent from another
 wallet, or from funds already held in your current wallet. 
 
 Content Distribution Masternode - Collateral 5000
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Now send exactly 5000 HTA in a single transaction to the new address
+If setting up a Content Distribution Masternode, send exactly 5000 HTA in a single transaction to the new address
 you generated in the previous step. This may be sent from another
 wallet, or from funds already held in your current wallet.
-
 
 Check Transaction
 -----------------
 Once the transaction is complete, view the transaction in a `blockchain explorer
-<http://blockexplore.historia.network/>`_ by searching for the address. You
+<http://blockexplorer.historia.network/>`_ by searching for the address. You
 will need 15 confirmations before you can start the masternode, but you
 can continue with the next step at this point already: installing Historia
 Core on your VPS.
@@ -153,6 +166,7 @@ https://github.com/HistoriaOffical/sentinel/releases
 Open command prompt
 
 Create new sentinel directory in your HistoraCore directory::
+
    mkdir cd C:\Users\<yourusername>\AppData\Roaming\HistoriaCore\sentinel
 
 And copy sentinel.exe to the newly created sentinel directory::
@@ -161,9 +175,9 @@ And copy sentinel.exe to the newly created sentinel directory::
 
 Create new file in the sentinel directory named sentinel.conf::
 
-cd C:\Users\<yourusername>\AppData\Roaming\HistoriaCore\sentinel\
+   cd C:\Users\<yourusername>\AppData\Roaming\HistoriaCore\sentinel\
 
-Edit file and paste the following into the sentinel.conf file:
+Edit file and paste the following into the sentinel.conf file::
  
    network=mainnet  
    db_name=database/sentinel.db  
@@ -177,7 +191,7 @@ Run Task Scheduler
 
 Create Task -> General Tab - Name: Sentinal
 
-.. figure:: ../img/1.png
+.. figure:: ../img/1.PNG
    :width: 400px
 
 Trigger Tab -> New (Trigger)  
@@ -187,21 +201,21 @@ Advanced Settings:
 Repeat Task Every: 1 Minute (Notice you have to select 5 minutes from the drop down, then edit the 5 to 1)  
 For a duration of:Indefinitely  
 
-.. figure:: ../img/Picture2.png
+.. figure:: ../img/2.PNG
    :width: 400px
 
 Actions Tab -> New (Action)  
 Program/script -> Browse to C:\Users\marshall\AppData\Roaming\HistoriaCore\sentinel\sentinel.exe  
 Click Ok  
 
-.. figure:: ../img/Picture3.png
+.. figure:: ../img/3.PNG
    :width: 400px
 
 Conditions Tab -> Power  
 Uncheck box for "Start task only if the computer is on AC Power"  
 Click Ok  
 
-.. figure:: ../img/Picture4.png
+.. figure:: ../img/4.PNG
    :width: 400px
 
 
@@ -257,7 +271,9 @@ Enter all of this information on a single line with each item separated by a spa
 
    MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2000:1700:540:41a8:ffff:ffff:fffe:b88a QmbmVqBq7XyaM7J9AXMtGrPWSr7iP8sRiw9vcX4VnNDEJ1
 
-Save this file and close the text editor. It should be saved in the C:\Users\yourusername\AppData\Roaming\HistoriaCore folder.
+Save this file and close the text editor. It should be saved in:: 
+
+   C:\Users\yourusername\AppData\Roaming\HistoriaCore folder.
 
 +-----------+--------------------------------------------------------+--------------------------------------------+
 | Platform  | Path                                                   | Shortcut                                   |
