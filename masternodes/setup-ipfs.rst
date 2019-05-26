@@ -2,7 +2,7 @@
    :description: This guide describes how to set up a IPFS for Historia masternode.
    :keywords: historia, guide, masternodes, IPFS
  
-.. _masternode-setup:
+.. _ipfs-setup:
 
 ==========
 Setup IPFS
