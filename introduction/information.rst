@@ -58,7 +58,7 @@ Block explorers, statistics and visualizations
 Masternode management
 ---------------------
 
-- hhttps://historia.network/governance
+- https://historia.network/governance
 
 
 Price monitoring and statistics
