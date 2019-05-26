@@ -254,7 +254,9 @@ Download / Install IPFS Daemon
 
 Download the Windows zip file from https://dist.ipfs.io/#go-ipfs
 
-Extract the zip file and copy the ipfs.exe files to your HistoriaCore daemon directory (Default location: C:\Program Files\HistoriaCore\daemon)
+Extract the zip file and copy the ipfs.exe files to your HistoriaCore daemon directory:: 
+   
+   Default location: C:\Program Files\HistoriaCore\daemon
 
 Initialize IPFS Daemon for Historia
 -----------------------------------
