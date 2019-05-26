@@ -161,13 +161,7 @@ Content Distribution Masternode - Collateral 5000 - Install IPFS For Windows
 Download / Install IPFS Daemon
 ------------------------------
 
-Download the Windows zip file from https://dist.ipfs.io/#go-ipfs
-
-Extract the zip file and copy the ipfs.exe files to your HistoriaCore daemon directory (Default location: C:\Program Files\HistoriaCore\daemon)
-
-Initialize IPFS Daemon for Historia
------------------------------------
-See the setup-ipfs.html#ipfs-for-windows-masternodes :ref:`Setup IPFS <ipfs-for-windows-masternodes> for Windows`
+See the :ref:`Setup IPFS <setup-ipfs.html#ipfs-for-windows-masternodes>` then come back here.
 
 *If you reboot your Windows Machine, you now must restart both Historiad and ipfs daemon*
 
