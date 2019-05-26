@@ -50,5 +50,5 @@ Contents
 
    governance/index.rst
    masternodes/index
-   mining/index
+
    
