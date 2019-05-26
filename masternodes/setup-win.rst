@@ -153,8 +153,8 @@ Save the historia.conf file in the default location (C:\Users\<yourusername>\App
 
 Next let's install IPFS.
 
-IF Content Distribution Masternode - Collateral 5000
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IF Content Distribution Masternode - Collateral 5000 - Install IPFS
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>` page. Before you start your masternode, IPFS daemon must be running. Open a new command prompt and start ipfs daemon::
 
