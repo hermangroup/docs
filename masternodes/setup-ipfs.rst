@@ -216,25 +216,24 @@ Next, create a service for IPFS to restart on reboot or crash. Create a new serv
    
    sudo nano  /etc/systemd/system/ipfs.service
 
+Copy and past the below config and save the ipfs.service file. Add the username that Historia runs under to "User=". Most likely this is the user that you have created when setting up the OS.
 
 .. parsed-literal::
 
-Copy and past the below config and save the ipfs.service file. Add the username that Historia runs under to "User=". Most likely this is the user that you have created when setting up the OS.
 
-[Unit]
-Description=ipfs.service
-After=network.target
-StartLimitIntervalSec=0
-[Service]
-Type=simple
-Restart=always
-RestartSec=1
-User=<YOURUSERNAME>
-ExecStart=/usr/local/bin/ipfs daemon &
-[Install]
-WantedBy=multi-user.target
-
-
+   [Unit]
+   Description=ipfs.service
+   After=network.target
+   StartLimitIntervalSec=0
+   [Service]
+   Type=simple
+   Restart=always
+   RestartSec=1
+   User=<YOURUSERNAME>
+   ExecStart=/usr/local/bin/ipfs daemon &
+   [Install]
+   WantedBy=multi-user.target
+      
 
 Start IPFS Daemon for Historia
 ==============================
