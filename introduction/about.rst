@@ -9,11 +9,10 @@ What is Historia?
 =============
 
 Historia aims to be a consesus based historical record database. The Historia network features record storage via IPFS and consesus based voting of records to prevent falsehoods from entering in the historical record. The current version of Historia was built on Dash 12.2.3 and inherents advanced features from Dash such as: 
-:ref:`instant transaction confirmation <ipfs-setup>`, double spend 
-protection, :ref:`anonymity <privatesend>` equal to that of physical 
-cash, a 
-:ref:`self-governing, self-funding model <decentralized-governance>` 
-driven by :ref:`incentivized full nodes <masternode-network>` and a 
+instant transaction confirmation, double spend 
+protection, anonymity equal to that of physical 
+cash, a self-governing, self-funding model
+driven by incentivized full nodes and a 
 `clear roadmap <https://historia.network/#roadmap>`_.
 
 The links and documentation collected here can help you get
