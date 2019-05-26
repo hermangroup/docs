@@ -153,8 +153,8 @@ Save the historia.conf file in the default location (C:\Users\<yourusername>\App
 
 Next let's install IPFS.
 
-IF Content Distribution Masternode - Collateral 5000 Verify IPFS is running
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IF Content Distribution Masternode - Collateral 5000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>` page. Before you start your masternode, IPFS daemon must be running. Open a new command prompt and start ipfs daemon::
 
@@ -276,14 +276,14 @@ The first long string is your transaction hash, while the last number is the ind
 - ``IPv6 Address``: The public IPv6 address associated with your masternode
 - ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon. You get this from :ref:`Setup IPFS <ipfs-setup>`.
 
-IF Voting Masternode - Collateral 100 Verify IPFS is running
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IF Voting Masternode - Collateral 100
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Enter all of this information on a single line with each item separated by a space, for example::
 
    MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 0 0
 
-IF Content Distribution Masternode - Collateral 5000 Verify IPFS is running
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IF Content Distribution Masternode - Collateral
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Enter all of this information on a single line with each item separated by a space, for example::
 
    MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2000:1700:540:41a8:ffff:ffff:fffe:b88a QmbmVqBq7XyaM7J9AXMtGrPWSr7iP8sRiw9vcX4VnNDEJ1
