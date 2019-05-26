@@ -303,8 +303,8 @@ Next, download the swarm.key to authenticate to the Historia IPFS Swarm
 File: https://github.com/HistoriaOffical/ipfs-swarmkey/blob/master/swarm.key
 
 Copy this file to the default directory::
-
-Default Directory: C:\Users\<yourusername>\.ipfs\
+   
+   Default Directory: C:\Users\<yourusername>\.ipfs\
    
 Now when you start IPFS, the IPFS daemon will now connect to the Historia IPFS swarm when started.
 
