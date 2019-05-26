@@ -149,7 +149,9 @@ Replace the fields marked with ``XXXXXXX`` as follows:
   generated in the previous step
 - ``externalip``: this is the IP address of your VPS
 
-Save the historia.conf file in the default location (C:\Users\<yourusername>\AppData\Roaming\HistoriaCore\) and exit the text editor.
+Save the historia.conf file in the default location and exit the text editor.::
+
+   C:\Users\<yourusername>\AppData\Roaming\HistoriaCore\ 
 
 Next let's install IPFS.
 
@@ -165,16 +167,7 @@ Extract the zip file and copy the ipfs.exe files to your HistoriaCore daemon dir
 
 Initialize IPFS Daemon for Historia
 -----------------------------------
-Since we will be using IPFS only for Historia, we can safely store the ipfs.exe file in the HistoriaCore directory and initalize IPFS. 
-
-Open a command prompt::
-
-   cd C:\Program Files\HistoriaCore\daemon  
-   ipfs.exe init
-
-If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>` page. Before you start your masternode, IPFS daemon must be running. Open a new command prompt and start ipfs daemon::
-
-   ipfs.exe daemon
+See the setup-ipfs.html#ipfs-for-windows-masternodes :ref:`Setup IPFS <ipfs-for-windows-masternodes> for Windows`
 
 *If you reboot your Windows Machine, you now must restart both Historiad and ipfs daemon*
 
