@@ -161,7 +161,7 @@ Content Distribution Masternode - Collateral 5000 - Install IPFS For Windows
 Download / Install IPFS Daemon
 ------------------------------
 
-See the :ref:`Setup IPFS <setup-ipfs.html#ipfs-for-windows-masternodes>` then come back here.
+See the :ref:`Setup IPFS <setup-ipfs>` then come back here.
 
 *If you reboot your Windows Machine, you now must restart both Historiad and ipfs daemon*
 
