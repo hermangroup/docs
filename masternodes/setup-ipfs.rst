@@ -210,16 +210,36 @@ The default IPFS config file needs to be changed to limit memory usage, setup in
      }
    }
 
+Create IPFS Service To Restart on Reboot or Crash
+=================================================
+Next, create a service for IPFS to restart on reboot or crash. Create a new service file::
+   
+   sudo nano  /etc/systemd/system/ipfs.service
+
+
+.. parsed-literal::
+
+Copy and past the below config and save the ipfs.service file. Add the username that Historia runs under to "User=". Most likely this is the user that you have created when setting up the OS.
+
+[Unit]
+Description=ipfs.service
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=<YOURUSERNAME>
+ExecStart=/usr/local/bin/ipfs daemon &
+[Install]
+WantedBy=multi-user.target
+
+
+
 Start IPFS Daemon for Historia
 ==============================
-
-Before you start your masternode, IPFS daemon must be running::
-
-   ipfs daemon &
-
-There is a better way to do this by adding a service. 
-
-*If you reboot your VPS, you now must start both Historiad and ipfs daemon*
-
-For additional information:
-https://docs.ipfs.io/introduction/install/
+Start the IPFS service::
+   systemctl start ipfs
+   
+Enable the IPFS service to start on reboot::
+   systemctl enable ipfs
