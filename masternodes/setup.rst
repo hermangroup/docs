@@ -466,7 +466,7 @@ Continue with the next step to start your masternode.
 Start your masternode
 ---------------------
 
-Depending on how you sent your masternode collateral, you will need to start your masternode with a command sent by the Historia Core wallet. Before you continue, you must ensure that your 100 HISTORIA collateral transaction has at least 15 confirmation, and that historiad is running and fully synchronized with the blockchain on your masternode. See the previous step for details on how to do this. During the startup process, your masternode may pass through the following states:
+Depending on how you sent your masternode collateral, you will need to start your masternode with a command sent by the Historia Core wallet. Before you continue, you must ensure that your 100 or 5000 HTA collateral transaction has at least 15 confirmation, and that historiad is running and fully synchronized with the blockchain on your masternode. See the previous step for details on how to do this. During the startup process, your masternode may pass through the following states:
 
 - ``MASTERNODE_SYNC``: This indicates the data currently being synchronised in the masternode
 - ``MASTERNODE_SYNC_FAILED``: Synchronisation could not complete, check your firewall and restart historiad
