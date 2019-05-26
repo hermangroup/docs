@@ -1,95 +1,41 @@
 .. meta::
    :description: This guide describes how to set up a Historia masternode. It also describes various options for hosting and different wallets
-   :keywords: historia, guide, masternodes, trezor, dip3, setup, bls
+   :keywords: historia, guide, masternodes, setup,
 
 .. _masternode-setup:
 
-=================
+=====
 Setup For Windows
-=================
+=====
 
-Setting up a masternode requires a basic understanding of Linux and
-blockchain technology, as well as an ability to follow instructions
-closely. It also requires regular maintenance and careful security,
-particularly if you are not storing your Historia on a hardware wallet.
-There are some decisions to be made along the way, and optional extra
-steps to take for increased security.
-
-Commercial :ref:`masternode hosting services <masternode-hosting>` are
-available if you prefer to delegate day-to-day operation of your
-masternode to a professional operator. When using these hosting
-services, you retain full control of the 1000 HISTORIA collateral and pay an
-agreed percentage of your reward to the operator. It is also possible to
-delegate your voting keys to a representative, see the 
-:ref:`governance documentation <delegating-votes>` for more
-information.
-
+Setting up a masternode requires a basic understanding of Linux and blockchain technology, as well as an ability to follow instructions closely. It also requires regular maintenance and careful security. There are some decisions to be made along the way, and optional extra steps to take for increased security.
 
 Before you begin
 ================
 
 This guide assumes you are setting up a single masternode for the first
-time. If you are updating a masternode, see  :ref:`here <masternode-update>` 
-instead. If Spork 15 is not yet enabled, it is not possible to directly
-set up a DIP003 masternode. You will need to set up the masternode
-following the `old process
-<https://docs.historia.network/en/0.12.3/masternodes/setup.html>`_ and then work
-through the :ref:`upgrade procedure <dip3-upgrade>`. You will need:
+time. You will need:
 
-- 1000 Historia
+- 100 HTA or 5000 HTA depending on the role you
 - A wallet to store your Historia, preferably a hardware wallet, although 
   Historia Core wallet is also supported
 - A Linux server, preferably a Virtual Private Server (VPS)
 
-Historia 0.13.0 implements DIP003, which introduces several changes to how a
-Historia masternode is set up and operated. A list of available
-documentation appears below:
-
-- `DIP003 Deterministic Masternode Lists <https://github.com/HistoriaOffical/dips/blob/master/dip-0003.md>`__
-- :ref:`dip3-changes`
-- :ref:`dip3-dev-upgrade`
-- :ref:`Historia 0.13 Upgrade Procedure for Masternodes <dip3-upgrade>`
-- :ref:`Full masternode setup guide <masternode-setup>` (you are here)
-- :ref:`Information for users of hosted masternodes <hosted-setup>`
-- :ref:`Information for operators of hosted masternodes <operator-transactions>`
-
-It is highly recommended to first read at least the list of changes
-before continuing in order to familiarize yourself with the new concepts
-in DIP003. This documentation describes the commands as if they were
-entered in the Historia Core GUI by opening the console from **Tools > Debug
-console**, but the same result can be achieved on a masternode by
-entering the same commands and adding the prefix 
-``~/.historiacore/historia-cli`` to each command.
-
+We also assume you will be working from a Windows computer. However, since most of the work is done on your Linux VPS, alternative steps for using macOS or Linux will be indicated where necessary.
 
 .. _vps-setup:
 
 Set up your VPS
 ===============
 
-A VPS, more commonly known as a cloud server, is fully functional
-installation of an operating system (usually Linux) operating within a
-virtual machine. The virtual machine allows the VPS provider to run
-multiple systems on one physical server, making it more efficient and
-much cheaper than having a single operating system running on the "bare
-metal" of each server. A VPS is ideal for hosting a Historia masternode
-because they typically offer guaranteed uptime, redundancy in the case
-of hardware failure and a static IP address that is required to ensure
-you remain in the masternode payment queue. While running a masternode
-from home on a desktop computer is technically possible, it will most
-likely not work reliably because most ISPs allocate dynamic IP addresses
-to home users.
+A VPS, more commonly known as a cloud server, is fully functional installation of an operating system (usually Linux) operating within a virtual machine. The virtual machine allows the VPS provider to run multiple systems on one physical server, making it more efficient and much cheaper than having a single operating system running on the “bare metal” of each server. A VPS is ideal for hosting a Historia masternode because they typically offer guaranteed uptime, redundancy in the case of hardware failure and a static IP address that is required to ensure you remain in the masternode payment queue. While running a masternode from home on a desktop computer is technically possible, it will most likely not work reliably because most ISPs allocate dynamic IP addresses to home users.
 
-We will use `Vultr <https://www.vultr.com/>`_ hosting as an example of a
-VPS, although `DigitalOcean <https://www.digitalocean.com/>`_, `Amazon
-EC2 <https://aws.amazon.com/ec2>`_, `Google Cloud
-<https://cloud.google.com/compute/>`_, `Choopa
-<https://www.choopa.com/>`_ and `OVH <https://www.ovh.com/>`_ are also
-popular choices. First create an account and add credit. Then go to the
-**Servers** menu item on the left and click **+** to add a new server.
+We will use Vultr hosting as an example of a VPS. First create an account and add credit. Then go to the Servers menu item on the left and click + to add a new server. 
+
 Select a location for your new server on the following screen:
 
-.. figure:: img/setup-server-location.png
+
+.. figure:: ../img/Picture1.png
    :width: 400px
 
    Vultr server location selection screen
@@ -98,29 +44,36 @@ Select Ubuntu 18.04 x64 as the server type. We use this LTS release of
 Ubuntu instead of the latest version because LTS releases are supported
 with security updates for 5 years, instead of the usual 9 months.
 
-.. figure:: img/setup-server-type.png
+.. figure:: ../img/Picture2.png
    :width: 400px
 
    Vultr server type selection screen
 
 Select a server size offering at least 2GB of memory.
 
-.. figure:: img/setup-server-size.png
+.. figure:: ../img/Picture3.png
    :width: 400px
 
    Vultr server size selection screen
 
-Enter a hostname and label for your server. In this example we will use
-``historiamn1`` as the hostname.
+Enter a hostname and label for your server. In this example we will use htamn01 as the hostname.
 
-.. figure:: img/setup-server-hostname.png
+
+.. figure:: ../img/Picture4.png
    :width: 400px
 
    Vultr server hostname & label selection screen
 
+Add IPv6 for your server. 
+
+.. figure:: ../img/Picture4.png
+   :width: 400px
+
+   Vultr IPv6 Address screen
+
 Vultr will now install your server. This process may take a few minutes.
 
-.. figure:: img/setup-server-installing.png
+.. figure:: ../img/Picture5.png
    :width: 400px
 
    Vultr server installation screen
@@ -128,7 +81,7 @@ Vultr will now install your server. This process may take a few minutes.
 Click **Manage** when installation is complete and take note of the IP
 address, username and password.
 
-.. figure:: img/setup-server-manage.png
+.. figure:: ../img/Picture6.png
    :width: 276px
 
    Vultr server management screen
@@ -145,7 +98,7 @@ On Mac or Linux you can ssh directly from
 the terminal - simply type ``ssh root@<server_ip>`` and enter your
 password when prompted.
 
-.. figure:: img/setup-putty-download.png
+.. figure:: ../img/Picture7.png
    :width: 400px
 
    PuTTY download page
@@ -156,7 +109,7 @@ field and click **Open**. You may see a certificate warning, since this
 is the first time you are connecting to this server. You can safely
 click **Yes** to trust this server in the future.
 
-.. figure:: img/setup-putty-alert.png
+.. figure:: ../img/Picture8.png
    :width: 320px
 
    PuTTY security alert when connecting to a new server
@@ -165,7 +118,7 @@ You are now connected to your server and should see a terminal
 window. Begin by logging in to your server with the user ``root`` and
 password supplied by your hosting provider.
 
-.. figure:: img/setup-putty-connect.png
+.. figure:: ../img/Picture9.png
    :width: 400px
 
    Password challenge when connecting to your VPS for the first time
@@ -212,7 +165,10 @@ newly secured environment as the new user::
 
   ufw allow ssh/tcp
   ufw limit ssh/tcp
-  ufw allow 9999/tcp
+  ufw allow 10101/tcp  
+  ufw allow 4001/tcp
+  ufw allow 80/tcp  
+  ufw allow 443/tcp  
   ufw logging on
   ufw enable
 
@@ -275,139 +231,38 @@ Then reboot the server::
 
 PuTTY will disconnect when the server reboots.
 
-While this setup includes basic steps to protect your server against
-attacks, much more can be done. In particular, `authenticating with a public key <https://help.ubuntu.com/community/SSH/OpenSSH/Keys>`_
-instead of a username/password combination and `enabling automatic security updates <https://help.ubuntu.com/community/AutomaticSecurityUpdates>`_ 
-is advisable. More tips are available `here <https://www.cyberciti.biz/tips/linux-security.html>`__. 
-However, since the masternode does not actually store the keys to any
-Historia, these steps are considered beyond the scope of this guide.
-
+While this setup includes basic steps to protect your server against attacks, much more can be done. However, since the masternode does not actually store the keys to any Historia, these steps are considered beyond the scope of this guide.
 
 Send the collateral
 ===================
 
 A Historia address with a single unspent transaction output (UTXO) of
-exactly 1000 HISTORIA is required to operate a masternode. Once it has been
+exactly 100 or 5000 HTA is required to operate a masternode depending on the masternode role you choose. Once it has been
 sent, various keys regarding the transaction must be extracted for later
-entry in a configuration file and registration transaction as proof to
-write the configuration to the blockchain so the masternode can be
-included in the deterministic list. A masternode can be started from a
-hardware wallet or the official Historia Core wallet, although a hardware
-wallet is highly recommended to enhance security and protect yourself
-against hacking. This guide will describe the steps for both hardware
-wallets and Historia Core.
+entry in a configuration file. A masternode can be started from the official Historia Core wallet. This guide will describe the steps for Historia Core.
 
-Option 1: Sending from a hardware wallet
-----------------------------------------
-
-Set up your Trezor using the Trezor wallet at https://wallet.trezor.io/
-and send a test transaction to verify that it is working properly. For
-help on this, see :ref:`this guide <hardware-trezor>` - you may also
-choose to (carefully!) `add a passphrase <https://blog.trezor.io/hide-your-trezor-wallets-with-multiple-passphrases-f2e0834026eb>`_
-to your Trezor to further protect your collateral. Create a new account
-in your Trezor wallet by clicking **Add account**. Then click the
-**Receive** tab and send exactly 1000 HISTORIA to the address displayed. If
-you are setting up multiple masternodes, send 1000 HISTORIA to consecutive
-addresses within the same new account. You should see the transaction as
-soon as the first confirmation arrives, usually within a few minutes.
-
-.. figure:: img/setup-collateral-trezor.png
-   :width: 400px
-
-   Trezor Wallet Receive tab showing successfully received collateral of
-   1000 HISTORIA
-
-Once the transaction appears, click the QR code on the right to view the
-transaction on the blockchain. Keep this window open as we complete the
-following steps, since we will soon need to confirm that 15
-confirmations exist, as shown in the following screenshot.
-
-.. figure:: img/setup-collateral-blocks.png
-   :width: 400px
-
-   Trezor blockchain explorer showing 15 confirmations for collateral
-   transfer
-
-While we are waiting for 15 confirmations, download the latest version
-of the Historia Masternode Tool (DMT) from the GitHub releases page `here
-<https://github.com/Bertrand256/historia-masternode-tool/releases>`__. Unzip
-and run the file. The following window appears.
-
-.. figure:: img/setup-collateral-dmt-start.png
-   :width: 400px
-
-   Historia Masternode Tool startup screen
-
-Click the third button from the left **Check Historia Network Connection**
-in the top left corner of the main window to verify that the connection
-is working. Then connect your Trezor device and click the next button
-**Test Hardware Wallet Connection** to verify the Trezor connection is
-working.
-
-.. image:: img/setup-collateral-connection.png
-   :width: 100px
-
-.. figure:: img/setup-collateral-hardware.png
-   :width: 180px
-
-   Historia Masternode Tool successful connection confirmations
-
-We will now use DMT to extract the transaction ID and legacy masternode
-key (necessary for successful startup during the DIP003 transition
-period). Carry out the following sequence of steps as shown in this
-screenshot:
-
-.. figure:: img/setup-collateral-dmt-steps.png
-   :width: 400px
-
-   Historia Masternode Tool configuration steps
-
-#. Click the **New** button.
-#. Ensure you are on the settings page for a Non-deterministic 
-   masternode and click **Generate new** to generate a legacy masternode
-   key. Copy this key into a text editor.
-#. Click **Alter configuration to deterministic**
-#. Enter a name for your masternode. The host name you specified 
-   for your VPS above is a good choice.
-#. Enter the IP address of your masternode. This was given to you
-   by the VPS provider when you set up the server.
-#. Enter the TCP port number. This should be 9999.
-#. Click **Locate collateral** to view unused collateral funding 
-   transactions available on the connected hardware wallet. The 
-   **Collateral address**, **index** and **Collateral TX hash** fields 
-   should be filled automatically
-
-.. figure:: img/setup-collateral-dmt-ready.png
-   :width: 400px
-
-   Historia Masternode Tool with configuration ready to start masternode
-
-Leave DMT open and continue with the next step: :ref:`installing Historia
-Core on your VPS <masternode-setup-install-historiacore>`.
-
-Option 2: Sending from Historia Core wallet
----------------------------------------
+Option 1: Sending from Historia Core wallet
+-------------------------------------------
 
 Open Historia Core wallet and wait for it to synchronize with the network.
 It should look like this when ready:
 
-.. figure:: img/setup-collateral-historiacore.png
+.. figure:: ../img/Picture10.png
    :width: 400px
 
    Fully synchronized Historia Core wallet
 
 Click **Tools > Debug console** to open the console. Type the following
 two commands into the console to generate a legacy masternode key
-(necessary for successful startup during the DIP003 transition period)
 and a new Historia address for the collateral::
 
   masternode genkey
   93PAqQsDjcVdYJHRfQPjsSt5338GCswMnUaSxoCD8J6fiLk4NHL
 
   getnewaddress
-  yiFfzbwiN9oneftd7cEfr3kQLRwQ4kp7ue
+  HBvcjyzWmt9x9QJNVDyxezhxSXcWEDEdsS
 
-Take note of the legacy masternode private key and collateral address,
+Take note of the masternode private key and collateral address,
 since we will need it later. The next step is to secure your wallet (if
 you have not already done so). First, encrypt the wallet by selecting
 **Settings > Encrypt wallet**. You should use a strong, new password
@@ -416,132 +271,70 @@ store it somewhere safe or you will be permanently locked out of your
 wallet and lose access to your funds. Next, back up your wallet file by
 selecting **File > Backup Wallet**. Save the file to a secure location
 physically separate to your computer, since this will be the only way
-you can access our funds if anything happens to your computer. For more
-details on these steps, see :ref:`here <historiacore-backup>`.
+you can access our funds if anything happens to your computer.
 
-Now send exactly 1000 HISTORIA in a single transaction to the new address
+Roles
+-----
+
+Unlike most other masternode coins, Historia makes use of a role based masternode system. Currently there are two roles; voting masternode which has a collateral requirement of 100 HTA and 10% of the block reward and the content distribution masternode which has a collateral requirement of 5000 HTA and 25-50% of the block reward. Follow the directions for the type of masternode you want to run, either Voting Masternode or Content Distribution Masternode.
+
+Voting Masternode - Collateral 100
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Now send exactly 100 HTA in a single transaction to the new address
 you generated in the previous step. This may be sent from another
-wallet, or from funds already held in your current wallet. Once the
-transaction is complete, view the transaction in a `blockchain explorer
-<http://insight.historia.network/insight/>`_ by searching for the address. You
+wallet, or from funds already held in your current wallet. 
+
+Content Distribution Masternode - Collateral 5000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Now send exactly 5000 HTA in a single transaction to the new address
+you generated in the previous step. This may be sent from another
+wallet, or from funds already held in your current wallet.
+
+
+Check Transaction
+-----------------
+Once the transaction is complete, view the transaction in a `blockchain explorer
+<http://blockexplore.historia.network/>`_ by searching for the address. You
 will need 15 confirmations before you can start the masternode, but you
 can continue with the next step at this point already: installing Historia
 Core on your VPS.
 
-.. figure:: img/setup-collateral-blocks.png
-   :width: 400px
-
-   Trezor blockchain explorer showing 15 confirmations for collateral
-   transfer
-
-
 .. _masternode-setup-install-historiacore:
 
 Install Historia Core
-=================
+=====================
+You MUST use Historia 0.16.3.0, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.0
 
 Historia Core is the software behind both the Historia Core GUI wallet and Historia
 masternodes. If not displaying a GUI, it runs as a daemon on your VPS
 (historiad), controlled by a simple command interface (historia-cli).
 
 Open PuTTY or a console again and connect using the username and
-password you just created for your new, non-root user. There are two
-options to install Historia Core, an automated option using a script utility
-called historiaman by Historia Core Team member moocowmoo, and a more
-complicated option which will allow you to understand all of the key
-steps involved in preparing your masternode.
+password you just created for your new, non-root user. 
 
-Option 1: Automated installation using historiaman
-----------------------------------------------
-
-To install Historia using historiaman, enter the following commands after
-logging in::
-
-  cd ~
-  git clone https://github.com/moocowmoo/historiaman
-  ~/historiaman/historiaman install
-
-(press **Y** and **Enter** to confirm)
-
-historiaman will download the latest version of Historia Core for your system,
-as well as an initial snapshot of the blockchain to speed up the
-bootstrapping process. Next download and install Sentinel, which is
-required for masternodes at version 0.12.1 or higher::
-
-  ~/historiaman/historiaman install sentinel
-
-Your system is now running as a standard Historia node, and is busy
-completing synchronisation with the blockchain. Since historiaman does not
-automatically restart your masternode in the event of a system error,
-add a check function to crontab to make sure it checks every minute to
-ensure your masternode is still running::
-
-  crontab -e
-
-Choose nano as your editor and enter the following line at the end of
-the file, after the line for sentinel::
-
-  * * * * * pidof historiad || ~/.historiacore/historiad
-
-Press enter to make sure there is a blank line at the end of the file,
-then press **Ctrl + X** to close the editor and **Y** and **Enter** save
-the file. Check the sync status and wait until all blockchain
-synchronisation and the 15 confirmations for the collateral transaction
-are complete::
-
-  ~/historiaman/historiaman status
-
-.. figure:: img/setup-historiaman-done.png
-   :width: 400px
-
-   historiaman status output showing masternode ready to be started
-
-Continue with the :ref:`next step to register your masternode
-<register-masternode>`.
-
-Option 2: Manual installation
+Option 1: Manual installation
 -----------------------------
 
-To manually download and install the components of your Historia masternode,
-visit the `GitHub releases page <https://github.com/HistoriaOffical/historia/releases>`_ 
-and copy the link to the latest ``x86_64-linux-gnu`` version. Go back to
-your terminal window and enter the following command, pasting in the
-address to the latest version of Historia Core by right clicking or pressing
-**Ctrl + V**::
+To manually download and install the components of your Historia masternode, visit https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.0 on your computer to find the link to the latest Historia Core wallet.  Right-click on Download TGZ for Historia Core Linux 64 Bit and select Copy link address. Go back to your terminal window and enter the following command, pasting in the address to the latest version of Historia Core by right clicking or pressing Ctrl + V::
 
   cd /tmp
-  wget https://github.com/HistoriaOffical/historia/releases/download/v0.13.2.0/historiacore-0.13.2.0-x86_64-linux-gnu.tar.gz
-
-Verify the integrity of your download by running the following command
-and comparing the output against the value for the file as shown in the
-``SHA256SUMS.asc`` file::
-
-  wget https://github.com/HistoriaOffical/historia/releases/download/v0.13.2.0/SHA256SUMS.asc
-  sha256sum historiacore-0.13.2.0-x86_64-linux-gnu.tar.gz
-  cat SHA256SUMS.asc
-
-You can also optionally verify the authenticity of your download as an
-official release by Historia Core Team. All releases of Historia are signed
-using GPG by Alexander Block (codablock) with the key ``63A9 6B40 6102 E091``, `verifiable
-here on Keybase <https://keybase.io/codablock>`_. Import the key, download
-the ASC file for the current release of Historia and verify the signature as
-follows::
-
-  curl https://keybase.io/codablock/pgp_keys.asc | gpg --import
-  gpg --verify SHA256SUMS.asc
-
-.. figure:: img/setup-manual-gpg.png
-   :width: 400px
-
-   Downloading the PGP key and verifying the signed binary
-
+  wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.0/historiacore-0.16.3-linux64.tar.gz
+  
 Create a working directory for Historia, extract the compressed archive and
 copy the necessary files to the directory::
 
   mkdir ~/.historiacore
-  tar xfv historiacore-0.13.2.0-x86_64-linux-gnu.tar.gz
-  cp -f historiacore-0.13.2/bin/historiad ~/.historiacore/
-  cp -f historiacore-0.13.2/bin/historia-cli ~/.historiacore/
+  tar xfvz historiacore-0.16.3-linux64.tar.gz  
+  cp historiacore-0.16.3/bin/historiad .historiacore/  
+  cp historiacore-0.16.3/bin/historia-cli .historiacore/  
+  chmod 777 .historiacore/historia*  
+
+
+Clean up unneeded files::
+
+  rm historiacore-0.16.3-linux64.tar.gz  
+  rm -r historiacore-0.16.3/
 
 Create a configuration file using the following command::
 
@@ -551,6 +344,7 @@ An editor window will appear. We now need to create a configuration file
 specifying several variables. Copy and paste the following text to get
 started, then replace the variables specific to your configuration as
 follows::
+
 
   #----
   rpcuser=XXXXXXXXXXXXX
@@ -563,6 +357,7 @@ follows::
   maxconnections=64
   #----
   masternode=1
+  masternodecollateral=XXXX
   masternodeprivkey=XXXXXXXXXXXXXXXXXXXXXXX
   externalip=XXX.XXX.XXX.XXX
   #----
@@ -573,19 +368,32 @@ Replace the fields marked with ``XXXXXXX`` as follows:
   characters allowed
 - ``rpcpassword``: enter any string of numbers or letters, no special
   characters allowed
+- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode  
 - ``masternodeprivkey``: this is the legacy masternode private key you
   generated in the previous step
 - ``externalip``: this is the IP address of your VPS
 
 The result should look something like this:
 
-.. figure:: img/setup-manual-conf.png
+.. figure:: ../img/Picture12.png
    :width: 400px
 
    Entering key data in historia.conf on the masternode
 
 Press **Ctrl + X** to close the editor and **Y** and **Enter** save the
-file. You can now start running Historia on the masternode to begin
+file. 
+
+IF Content Distribution Masternode - Collateral 5000 Verify IPFS is running
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you haven't setup IPFS yet, please do so now by going to the IPFS page. Before you start your masternode, IPFS daemon must be running.::
+
+   ipfs daemon &
+
+Start Historiad Masternode
+--------------------------
+
+You can now start running Historia on the masternode to begin
 synchronization with the blockchain::
 
   ~/.historiacore/historiad
@@ -636,97 +444,26 @@ response::
    "IsFailed": false
   }
 
-Continue with the next step to construct the ProTx transaction required
-to enable your masternode.
+Continue with the next step to start your masternode.
 
+.. _start-masternode:
+Start your masternode
+---------------------
 
-.. _register-masternode:
+Depending on how you sent your masternode collateral, you will need to start your masternode with a command sent by the Historia Core wallet. Before you continue, you must ensure that your 100 HISTORIA collateral transaction has at least 15 confirmation, and that historiad is running and fully synchronized with the blockchain on your masternode. See the previous step for details on how to do this. During the startup process, your masternode may pass through the following states:
 
-Register your masternode
-========================
-
-DIP003 introduces several changes to how a masternode is set up and
-operated. These are described briefly under :ref:`dip3-changes` in
-this documentation, or in full detail in `DIP003
-<https://github.com/HistoriaOffical/dips/blob/master/dip-0003.md>`_ itself. It
-is highly recommended to first read at least the brief documentation
-before continuing in order to familiarize yourself with the new concepts
-in DIP003.
-
-
-Option 1: Registering from a hardware wallet
---------------------------------------------
-
-Go back to DMT and ensure that all fields from the previous step are
-still filled out correctly.  Click **Generate new** for the three
-private keys required for a DIP003 deterministic masternode:
-
-- Owner private key
-- Operator private key
-- Voting private key
-
-.. figure:: img/setup-dmt-full.png
-   :width: 220px
-
-   Historia Masternode Tool ready to register a new masternode
-
-Then click **Send ProRegTx** and confirm the following two messages:
-
-.. image:: img/setup-dmt-send.png
-   :width: 220px
-
-.. figure:: img/setup-dmt-sent.png
-   :width: 220px
-
-   Historia Masternode Tool confirmation dialogs to register a masternode
-
-The BLS secret key must be entered in the ``historia.conf`` file on the
-masternode. This allows the masternode to watch the blockchain for
-relevant Pro*Tx transactions, and will cause it to start serving as a
-masternode when the signed ProRegTx is broadcast by the owner, as we
-just did above. Edit the configuration file on your masternode as
-follows::
-
-  nano ~/.historiacore/historia.conf
-
-The editor appears with the existing masternode configuration. Add this
-line to the end of the file, replacing the key with your BLS secret key
-generated above::
-
-  masternodeblsprivkey=21e27edbabf70a677303d527d750b502628e1c51d66d3bfd2b4583f690fbd14e
-
-Press enter to make sure there is a blank line at the end of the file,
-then press **Ctrl + X** to close the editor and **Y** and **Enter** save
-the file. We now need to restart the masternode for this change to take
-effect. Enter the following commands, waiting a few seconds in between
-to give Historia Core time to shut down::
-
-  ~/.historiacore/historia-cli stop
-  sleep 5
-  ~/.historiacore/historiad
-
-At this point you can monitor your masternode using 
-``historiaman/historiaman status``, by entering 
-``~/.historiacore/historia-cli masternode status`` or using the **Get status** 
-function in DMT. The final result should appear as follows:
-
-.. figure:: img/setup-historia-cli-start.png
-   :width: 400px
-
-   historia-cli masternode status output showing successfully started masternode
-
-At this point you can safely log out of your server by typing ``exit``.
-Congratulations! Your masternode is now running.
-
-
-.. _historiacore-protx:
-
-Option 2: Registering from Historia Core wallet
--------------------------------------------
+- ``MASTERNODE_SYNC``: This indicates the data currently being synchronised in the masternode
+- ``MASTERNODE_SYNC_FAILED``: Synchronisation could not complete, check your firewall and restart historiad
+- ``WATCHDOG_EXPIRED``: Waiting for sentinel to restart, make sure it is entered in crontab
+- ``IPFS_EXPIRED``: This indictates that IPFS is not running.
+- ``EXPIRED``: Masternode has expired. Restart Historiad, restart masternode, check IPFS is running.
+- ``NEW_START_REQUIRED``: Start command must be sent from wallet; check IPFS is running.
+- ``PRE_ENABLED``: Waiting for network to recognize started masternode
+- ``ENABLED``: Masternode successfully started
+If you masternode does not seem to start immediately, do not arbitrarily issue more start commands. Each time you do so, you will reset your position in the payment queue.
 
 Identify the funding transaction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 If you used an address in Historia Core wallet for your collateral
 transaction, you now need to find the txid of the transaction. Click
 **Tools > Debug console** and enter the following command::
@@ -736,224 +473,52 @@ transaction, you now need to find the txid of the transaction. Click
 This should return a string of characters similar to this::
 
   {
-  "ad308ec104bdf113444be609eb3dce9474a5550424204c6538843e3ccd3d4e78" : "1",
+  "06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb" : "1",
   }
 
-The first long string is your transaction hash, while the last number is
-the index.
+The first long string is your transaction hash, while the last number is the index. We now need to create a file called masternode.conf for this wallet in order to be able to use it to issue the command to start your masternode on the network.
+
+Open a new text file in Notepad (or TextEdit on macOS, nano on Linux) and enter the following information:
+
+- ``Label``: Any single word used to identify your masternode, e.g. MN1
+- ``IP and port``: The IP address and port (usually 10101) configured in the Historia.conf file, separated by a colon (:)
+- ``Masternode private key``: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
+- ``Transaction hash``: The txid we just identified using masternode outputs
+- ``Index``: The index we just identified using masternode outputs
+- ``IPv6 Address``: The public IPv6 address associated with your masternode
+- ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon
+
+IF Voting Masternode - Collateral 100 Verify IPFS is running
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Enter all of this information on a single line with each item separated by a space, for example::
+
+   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 0 0
+
+IF Content Distribution Masternode - Collateral 5000 Verify IPFS is running
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Enter all of this information on a single line with each item separated by a space, for example::
+
+   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2000:1700:540:41a8:ffff:ffff:fffe:b88a QmbmVqBq7XyaM7J9AXMtGrPWSr7iP8sRiw9vcX4VnNDEJ1
+
+Save this file in the historiacore data folder on the PC running the Historia Core wallet using the filename masternode.conf. You may need to enable View hidden items to view this folder. Be sure to select All files if using Notepad so you don’t end up with a .conf.txt file extension by mistake. For different operating systems, the Historiacore folder can be found in the following locations (copy and paste the shortcut text into the Save dialog to find it quickly):
 
 
-.. _bls-generation:
 
-Generate a BLS key pair
-^^^^^^^^^^^^^^^^^^^^^^^
++-----------+--------------------------------------------------------+--------------------------------------------+
+| Platform  | Path                                                   | Shortcut                                   |
++===========+========================================================+============================================+
+| Linux     | /home/yourusername/.historiacore                       | ~/.historiacore                            | 
++-----------+--------------------------------------------------------+--------------------------------------------+
+| OSX       | /Macintosh HD/Library/Application Support/HistoriaCore | ~/Library/Application Support/HistoriaCore |
++-----------+--------------------------------------------------------+--------------------------------------------+
+| Windows   | C:\Users\yourusername\AppData\Roaming\Historia Core    | %APPDATA%\Historia Core                    |
++-----------+--------------------------------------------------------+--------------------------------------------+
 
-A public/private BLS key pair is required for the operator of the
-masternode. If you are using a hosting service, they may provide you
-with their public key, and you can skip this step. If you are hosting
-your own masternode or have agreed to provide your host with the BLS
-private key, generate a BLS public/private keypair as follows::
+Now close your text editor and also shut down and restart Historia Core wallet. Historia Core will recognize masternode.conf during startup, and is now ready to activate your masternode. Go to Settings > Unlock Wallet and enter your wallet passphrase. Then click Tools > Debug console again and enter the following command to start your masternode (replace MN1 with the label for your masternode)::
 
-  bls generate
-
-  {
-    "secret": "28a85abb5aa8e820f65e33974cef0ab0bf06195f61454d2feb7fa578612d2228",
-    "public": "144cbf4d472716b9504a54c7ca26906a3346253b787ffeb1a4999325049f5b2c51ef2e7c215d85f0a9142ec1c78db99b"
-  }
-
-**These keys are NOT stored by the wallet and must be kept secure,
-similar to the value provided in the past by the** ``masternode genkey``
-**command.**
-
-Add the private key to your masternode configuration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The public key will be used in following steps. The private key must be
-entered in the ``historia.conf`` file on the masternode. This allows the
-masternode to watch the network for relevant Pro*Tx transactions, and
-will cause it to start serving as a masternode when the signed ProRegTx
-is broadcast by the owner (final step below). Log in to your masternode
-using ``ssh`` or PuTTY and edit the configuration file on your
-masternode as follows::
-
-  nano ~/.historiacore/historia.conf
-
-The editor appears with the existing masternode configuration. Add this
-line to the end of the file, replacing the key with your BLS secret key
-generated above::
-
-  masternodeblsprivkey=28a85abb5aa8e820f65e33974cef0ab0bf06195f61454d2feb7fa578612d2228
-
-Press enter to make sure there is a blank line at the end of the file,
-then press **Ctrl + X** to close the editor and **Y** and **Enter** save
-the file. We now need to restart the masternode for this change to take
-effect. Enter the following commands, waiting a few seconds in between
-to give Historia Core time to shut down::
-
-  ~/.historiacore/historia-cli stop
-  sleep 5
-  ~/.historiacore/historiad
-
-We will now prepare the transaction used to register a DIP003 masternode
-on the network.
-
-Prepare a ProRegTx transaction
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-First, we need to get a new, unused address from the wallet to serve as
-the owner address. This is different to the collateral address. It must
-also be used as the voting address if Spork 15 is not yet active.
-Generate a new address as follows::
-
-  getnewaddress
-
-  yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5
-
-Then either generate or choose an existing second address to receive the
-owner's masternode payouts. It is also possible to use an address
-external to the wallet::
-
-  getnewaddress
-
-  yLqyR8PHEB7Fp1ue8nSuLfuxQhrj5PSTDv
-
-You can also optionally generate and fund a third address to pay the
-transaction fee. If you selected an external payout address, you must
-specify a fee source address. Either the payout address or fee source
-address must have enough balance to pay the transaction fee, or the
-final `register_submit` transaction will fail.
-
-The private keys to the owner and fee source addresses must exist in the
-wallet submitting the transaction to the network. If your wallet is
-protected by a password, it must now be unlocked to perform the
-following commands. Unlock your wallet for 5 minutes::
-
-  walletpassphrase yourSecretPassword 300
-
-We will now prepare an unsigned ProRegTx special transaction using the
-``protx register_prepare`` command. This command has the following
-syntax::
-
-  protx register_prepare collateralHash collateralIndex ipAndPort ownerKeyAddr 
-    operatorPubKey votingKeyAddr operatorReward payoutAddress (feeSourceAddress)
-
-Open a text editor such as notepad to prepare this command. Replace each
-argument to the command as follows:
-
-- ``collateralHash``: The txid of the 1000 Historia collateral funding 
-  transaction
-- ``collateralIndex``: The output index of the 1000 Historia funding 
-  transaction
-- ``ipAndPort``: Masternode IP address and port, in the format 
-  ``x.x.x.x:yyyy``
-- ``ownerKeyAddr``: The new Historia address generated above for the 
-  owner/voting address
-- ``operatorPubKey``: The BLS public key generated above (or provided 
-  by your hosting service)
-- ``votingKeyAddr``: The new Historia address generated above, or the 
-  address of a delegate, used for proposal voting
-- ``operatorReward``: The percentage of the block reward allocated to 
-  the operator as payment
-- ``payoutAddress``: A new or existing Historia address to receive the 
-  owner's masternode rewards
-- ``feeSourceAddress``: An (optional) address used to fund ProTx fee. 
-  ``payoutAddress`` will be used if not specified.
-
-Note that the operator is responsible for :ref:`specifying their own
-reward <dip3-update-service>` address in a separate ``update_service``
-transaction if you specify a non-zero ``operatorReward``. The owner of
-the masternode collateral does not specify the operator's payout
-address.
-
-Example (remove line breaks if copying)::
-
-  protx register_prepare
-    ad308ec104bdf113444be609eb3dce9474a5550424204c6538843e3ccd3d4e78
-    1
-    140.82.59.51:9999
-    yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5 
-    144cbf4d472716b9504a54c7ca26906a3346253b787ffeb1a4999325049f5b2c51ef2e7c215d85f0a9142ec1c78db99b
-    yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5 
-    0
-    yLqyR8PHEB7Fp1ue8nSuLfuxQhrj5PSTDv
-
-Output::
-
-  {
-     "tx": "0300010001784e3dcd3c3e8438654c20240455a57494ce3deb09e64b4413f1bd04c18e30ad0000000000feffffff01cccfa204000000001976a9141ea44ced396667eb7d1c5b3699e04b5b3046ecfb88ac00000000d1010000000000784e3dcd3c3e8438654c20240455a57494ce3deb09e64b4413f1bd04c18e30ad0100000000000000000000000000ffff8c523b33271411c59262c9633a1bb810a7fc2b833c43cfa852ab144cbf4d472716b9504a54c7ca26906a3346253b787ffeb1a4999325049f5b2c51ef2e7c215d85f0a9142ec1c78db99b11c59262c9633a1bb810a7fc2b833c43cfa852ab00001976a91405c5fed6a3eb0b92ea5119039efae7a8dee5456488ac4e6cc5451440a6044dbd04d33a11f4cddc9021532ede3012ebbc31c0bb4ceb9c00",
-    "collateralAddress": "yiFfzbwiN9oneftd7cEfr3kQLRwQ4kp7ue",
-    "signMessage": "yLqyR8PHEB7Fp1ue8nSuLfuxQhrj5PSTDv|0|yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5|yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5|4e00de34ee03d28adb4e1fdaec966ae239c11da7e6115f566fc4b3f75c8a5503"
-  }
-
-Next we will use the ``collateralAddress`` and ``signMessage`` fields to
-sign the transaction, and the output of the ``tx`` field to submit the
-transaction.
-
-Sign the ProRegTx transaction
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-We will now sign the content of the ``signMessage`` field using the
-private key for the collateral address as specified in
-``collateralAddress``. Note that no internet connection is required for
-this step, meaning that the wallet can remain disconnected from the
-internet in cold storage to sign the message. In this example we will
-again use Historia Core, but it is equally possible to use the signing
-function of a hardware wallet. The command takes the following syntax::
-
-  signmessage collateralAddress signMessage
-
-Example::
-
-  signmessage yiFfzbwiN9oneftd7cEfr3kQLRwQ4kp7ue yLqyR8PHEB7Fp1ue8nSuLfuxQhrj5PSTDv|0|yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5|yMwR1zf2Cv9gcMdHULRVbTTMGw7arvpbM5|4e00de34ee03d28adb4e1fdaec966ae239c11da7e6115f566fc4b3f75c8a5503
-
-Output::
-
-  H3ub9BATtvuV+zDGdkUQNoUGpaYFr/O1FypmrSmH5WJ0KFRi8T10FSew0EJO/+Ij+OLv4r0rt+HS9pQFsZgc2dE=
+    masternode start-alias MN1
 
 
-Submit the signed message
-^^^^^^^^^^^^^^^^^^^^^^^^^
+At this point you can go back to your terminal window and monitor your masternode by entering ~/.Historiacore/historia-cli masternode status. You will probably need to wait around 30 minutes as the node passes through the PRE_ENABLED stage and finally reaches ENABLED. Give it some time.
 
-We will now submit the ProRegTx special transaction to the blockchain to
-register the masternode. This command must be sent from a Historia Core
-wallet holding a balance, since a standard transaction fee is involved.
-The command takes the following syntax::
-
-  protx register_submit tx sig
-
-Where: 
-
-- ``tx``: The serialized transaction previously returned in the ``tx`` 
-  output field from the ``protx register_prepare`` command
-- ``sig``: The message signed with the collateral key from the 
-  ``signmessage`` command
-
-Example::
-
-  protx register_submit 0300010001784e3dcd3c3e8438654c20240455a57494ce3deb09e64b4413f1bd04c18e30ad0000000000feffffff01cccfa204000000001976a9141ea44ced396667eb7d1c5b3699e04b5b3046ecfb88ac00000000d1010000000000784e3dcd3c3e8438654c20240455a57494ce3deb09e64b4413f1bd04c18e30ad0100000000000000000000000000ffff8c523b33271411c59262c9633a1bb810a7fc2b833c43cfa852ab144cbf4d472716b9504a54c7ca26906a3346253b787ffeb1a4999325049f5b2c51ef2e7c215d85f0a9142ec1c78db99b11c59262c9633a1bb810a7fc2b833c43cfa852ab00001976a91405c5fed6a3eb0b92ea5119039efae7a8dee5456488ac4e6cc5451440a6044dbd04d33a11f4cddc9021532ede3012ebbc31c0bb4ceb9c00 H3ub9BATtvuV+zDGdkUQNoUGpaYFr/O1FypmrSmH5WJ0KFRi8T10FSew0EJO/+Ij+OLv4r0rt+HS9pQFsZgc2dE=
-
-Output::
-
-  b823338301e47875493c20361a23aef034578030c639480203b394669ab05e09
-
-Your masternode is now registered and will appear on the Deterministic
-Masternode List after the transaction is mined to a block. You can view
-this list on the **Masternodes -> DIP3 Masternodes** tab of the Historia
-Core wallet, or in the console using the command ``protx list valid``,
-where the txid of the final ``protx register_submit`` transaction
-identifies your DIP003 masternode. Note again that all functions related
-to DIP003 will only take effect once Spork 15 is enabled on the network.
-You can view the spork status using the ``spork active`` command.
-
-At this point you can go back to your terminal window and monitor your
-masternode using ``historiaman/historiaman status``, by entering
-``~/.historiacore/historia-cli masternode status`` or using the **Get status**
-function in DMT. The final result should appear as follows:
-
-.. figure:: img/setup-historiaman-started.png
-   :width: 400px
-
-   historiaman status output showing successfully started masternode
-
-At this point you can safely log out of your server by typing ``exit``.
-Congratulations! Your masternode is now running.
+At this point you can safely log out of your server by typing exit. Congratulations! Your masternode is now running.
