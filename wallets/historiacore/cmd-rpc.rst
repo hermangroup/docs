@@ -39,7 +39,7 @@ be appended to the data directory automatically.
 Command line arguments
 ======================
 
-These commands are accurate as of Historia Core version 0.13.0.0.
+These commands are accurate as of Historia Core version 0.16.3.0.
 
 - `historiad`_
 - `historia-qt`_
@@ -206,7 +206,7 @@ Masternode options
 --mnconf=<file>                        Specify masternode configuration file (default: masternode.conf)
 --mnconflock=<n>                       Lock masternodes from masternode configuration file (default: 1)
 --masternodeprivkey=<n>                Set the masternode private key
---masternodeblsprivkey=<hex>           Set the masternode BLS private key
+--masternodecollater=<n>               Set the collateral for masternode roles
 
 
 PrivateSend options
@@ -324,7 +324,6 @@ Chain selection options
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 --testnet                              Use the test chain
---devnet=<name>                        Use devnet chain with provided name
 --regtest                              Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.
 --named                                Pass named instead of positional arguments (default: false)
 --rpcconnect=<ip>                      Send commands to node running on <ip> (default: 127.0.0.1)
@@ -364,7 +363,6 @@ Chain selection options
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 --testnet                              Use the test chain
---devnet=<name>                        Use devnet chain with provided name
 --regtest                              Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.
 
 
@@ -408,7 +406,7 @@ RPC commands
 ============
 
 This documentation lists all available RPC commands as of Historia version
-0.13.0.0, and limited documentation on what each command does. For full
+0.16.3.0, and limited documentation on what each command does. For full
 documentation of arguments, results and examples, type help ( "command"
 ) to view full details at the console. You can enter commands either
 from **Tools > Debug** console in the QT wallet, or using *historia-cli* for
@@ -453,12 +451,6 @@ getchaintips ( count branchlen )
   Return information about all known tips in the block tree, including the main chain as well as orphaned branches.
 getdifficulty
   Returns the proof-of-work difficulty as a multiple of the minimum difficulty.
-getmempoolancestors txid (verbose)
-  If txid is in the mempool, returns all in-mempool ancestors.
-getmempooldescendants txid (verbose)
-  If txid is in the mempool, returns all in-mempool descendants.
-getmempoolentry txid
-  Returns mempool data for given transaction.
 getmempoolinfo
   Returns details on the active state of the TX memory pool.
 getrawmempool ( verbose )
@@ -471,10 +463,6 @@ gettxoutproof ["txid",...] ( blockhash )
   Returns a hex-encoded proof that "txid" was included in a block.
 gettxoutsetinfo
   Returns statistics about the unspent transaction output set. Note this call may take some time.
-preciousblock "blockhash"
-  Treats a block as if it were received before others with the same work. A later preciousblock call can override the effect of an earlier one. The effects of preciousblock are not retained across restarts.
-pruneblockchain
-  Prune blockchain up to specified height or unix timestamp.
 verifychain ( checklevel nblocks )
   Verifies blockchain database.
 verifytxoutproof "proof"
@@ -597,46 +585,11 @@ spork "command"
 voteraw <masternode-tx-hash> <masternode-tx-index> <governance-hash> <vote-signal> [yes | no | abstain] <time> <vote-sig>
   Compile and relay a governance vote with provided external signature instead of signing vote internally
 
-Evo
----
-
-bls "command" ...
-  Set of commands to execute BLS related actions. Available commands:
-  
-    generate
-      Create a BLS secret/public key pair
-protx "command" ...
-  Set of commands to execute ProTx related actions. Available commands:
-  
-    register
-      Create and send ProTx to network
-    register_fund
-      Fund, create and send ProTx to network
-    register_prepare
-      Create an unsigned ProTx
-    register_submit
-      Sign and submit a ProTx
-    list
-      List ProTxs
-    info
-      Return information about a ProTx
-    update_service
-      Create and send ProUpServTx to network
-    update_registrar
-      Create and send ProUpRegTx to network
-    revoke
-      Create and send ProUpRevTx to network
-    diff
-      Calculate a diff and a proof between two masternode lists
-
-
 Generating
 ----------
 
 generate nblocks ( maxtries )
   Mine up to nblocks blocks immediately (before the RPC call returns)
-generatetoaddress nblocks address (maxtries)
-  Mine blocks immediately to a specified address (before the RPC call returns)
 
 Mining
 ------
@@ -769,8 +722,6 @@ importmulti "requests" "options"
   Import addresses/scripts (with private or public keys, redeem script (P2SH)), rescanning all addresses in one-shot-only (rescan can be disabled via options).
 importprivkey "historiaprivkey" ( "label" ) ( rescan )
   Adds a private key (as returned by dumpprivkey) to your wallet.
-importprunedfunds
-  Imports funds without rescan. Corresponding address or script must previously be included in wallet. Aimed towards pruned wallets. The end-user is responsible to import additional transactions that subsequently spend the imported outputs or rescan after the point in the blockchain the transaction is included.
 importpubkey "pubkey" ( "label" rescan )
   Adds a public key (in hex) that can be watched as if it were in your wallet but cannot be used to spend.
 importwallet "filename"
@@ -813,10 +764,6 @@ sendtoaddress "address" amount ( "comment" "comment_to" subtractfeefromamount us
   Send an amount to a given address.
 setaccount "address" "account"
   DEPRECATED. Sets the account associated with the given address.
-setprivatesendamount amount
-  Set the goal amount in HISTORIA for PrivateSend mixing.
-setprivatesendrounds rounds
-  Set the number of rounds for PrivateSend mixing.
 settxfee amount
   Set the transaction fee per kB. Overwrites the paytxfee parameter.
 signmessage "address" "message"
