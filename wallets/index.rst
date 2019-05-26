@@ -76,11 +76,6 @@ paper wallets and more.
 
    android/installation.rst
 
-.. image:: android/img/android1.png
-    :width: 160 px
-.. image:: android/img/android2.png
-    :width: 160 px
-
 *Historia Android Wallet*
 
 
