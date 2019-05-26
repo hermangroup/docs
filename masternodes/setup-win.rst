@@ -196,25 +196,33 @@ Create Task -> General Tab - Name: Sentinal
 .. figure:: ../img/1.PNG
    :width: 400px
 
-Trigger Tab -> New (Trigger)  
-Settings -> Repeat Daily  
-Recur Every: 1 day  
-Advanced Settings:  
-Repeat Task Every: 1 Minute (Notice you have to select 5 minutes from the drop down, then edit the 5 to 1)  
+Settings:
+
+   - Trigger Tab -> New (Trigger)  
+   - Settings -> Repeat Daily  
+   - Recur Every: 1 day  
+   - Advanced Settings:  
+   - Repeat Task Every: 1 Minute (Notice you have to select 5 minutes from the drop down, then edit the 5 to 1)  
 For a duration of:Indefinitely  
 
 .. figure:: ../img/2.PNG
    :width: 400px
 
-Actions Tab -> New (Action)  
-Program/script -> Browse to C:\Users\marshall\AppData\Roaming\HistoriaCore\sentinel\sentinel.exe  
+Settings:
+
+   - Actions Tab -> New (Action)  
+   - Program/script -> Browse to C:\Users\yourusername\AppData\Roaming\HistoriaCore\sentinel\sentinel.exe  
+
 Click Ok  
 
 .. figure:: ../img/3.PNG
    :width: 400px
 
-Conditions Tab -> Power  
-Uncheck box for "Start task only if the computer is on AC Power"  
+Settings:
+
+   - Conditions Tab -> Power  
+   - Uncheck box for "Start task only if the computer is on AC Power"  
+
 Click Ok  
 
 .. figure:: ../img/4.PNG
@@ -277,11 +285,12 @@ Save this file and close the text editor. It should be saved in::
 
    C:\Users\yourusername\AppData\Roaming\HistoriaCore folder.
 
-+-----------+--------------------------------------------------------+--------------------------------------------+
-| Platform  | Path                                                   | Shortcut                                   |
-+===========+========================================================+============================================+
-| Windows   | C:\Users\yourusername\AppData\Roaming\Historia Core    | %APPDATA%\Historia Core                    |
-+-----------+--------------------------------------------------------+--------------------------------------------+
+::
+   +-----------+--------------------------------------------------------+--------------------------------------------+
+   | Platform  | Path                                                   | Shortcut                                   |
+   +===========+========================================================+============================================+
+   | Windows   | C:\Users\yourusername\AppData\Roaming\Historia Core    | %APPDATA%\Historia Core                    |
+   +-----------+--------------------------------------------------------+--------------------------------------------+
 
 Shut down and restart Historia Core wallet. Let the Historia Core wallet fully sync. Historia Core will recognize masternode.conf during startup, and is now ready to activate your masternode. Go to **Settings > Unlock Wallet** and enter your wallet passphrase. Then click **Tools > Debug** console again and enter the following command to start your masternode (replace MN1 with the label for your masternode)::
 
