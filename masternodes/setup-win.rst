@@ -155,9 +155,9 @@ Next let's install IPFS.
 IF Content Distribution Masternode - Collateral 5000 Verify IPFS is running
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you haven't setup IPFS yet, please do so now by going to the IPFS page. Before you start your masternode, IPFS daemon must be running.::
+If you haven’t setup IPFS yet, please do so now by going to the Setup IPFS, IPFS page. Before you start your masternode, IPFS daemon must be running.::
 
-   ipfs daemon &
+   systemctl start ipfs
 
 Install Sentinel
 ----------------
