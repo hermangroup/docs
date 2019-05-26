@@ -28,6 +28,7 @@ Masternode Roles
 ----------------
 
 Unlike most other masternode coins, Historia makes use of a role based masternode system. Currently there are two roles:
+ 
  - Voting Masternode 
  
    - Collateral Requirement: 100 HTA
@@ -155,7 +156,7 @@ Next let's install IPFS.
 IF Content Distribution Masternode - Collateral 5000 Verify IPFS is running
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you haven’t setup IPFS yet, please do so now by going to the Setup IPFS, IPFS page. Before you start your masternode, IPFS daemon must be running.::
+If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>`, IPFS page. Before you start your masternode, IPFS daemon must be running.::
 
    systemctl start ipfs
 
