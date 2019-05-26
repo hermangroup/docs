@@ -496,28 +496,27 @@ The first long string is your transaction hash, while the last number is the ind
 
 Open a new text file in Notepad (or TextEdit on macOS, nano on Linux) and enter the following information:
 
-- ``Label``: Any single word used to identify your masternode, e.g. MN1
-- ``IP and port``: The IP address and port (usually 10101) configured in the Historia.conf file, separated by a colon (:)
-- ``Masternode private key``: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
-- ``Transaction hash``: The txid we just identified using masternode outputs
-- ``Index``: The index we just identified using masternode outputs
-- ``IPv6 Address``: The public IPv6 address associated with your masternode
-- ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon
+   - ``Label``: Any single word used to identify your masternode, e.g. MN1
+   - ``IP and port``: The IP address and port (usually 10101) configured in the Historia.conf file, separated by a colon (:)
+   - ``Masternode private key``: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
+   - ``Transaction hash``: The txid we just identified using masternode outputs
+   - ``Index``: The index we just identified using masternode outputs
+   - ``IPv6 Address``: The public IPv6 address required for Content Distribution Masternode. Set to 0 for Voting Masternode.
+   - ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set to 0 for Voting Masternode. You get this from :ref:`Setup IPFS <ipfs-setup>`.
 
-IF Voting Masternode - Collateral 100 Verify IPFS is running
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Voting Masternode - Collateral 100 Verify IPFS is running
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Enter all of this information on a single line with each item separated by a space, for example::
 
    MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 0 0
 
-IF Content Distribution Masternode - Collateral 5000 Verify IPFS is running
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Content Distribution Masternode - Collateral 5000 Verify IPFS is running
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Enter all of this information on a single line with each item separated by a space, for example::
 
    MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2000:1700:540:41a8:ffff:ffff:fffe:b88a QmbmVqBq7XyaM7J9AXMtGrPWSr7iP8sRiw9vcX4VnNDEJ1
 
 Save this file in the historiacore data folder on the PC running the Historia Core wallet using the filename masternode.conf. You may need to enable View hidden items to view this folder. Be sure to select All files if using Notepad so you don’t end up with a .conf.txt file extension by mistake. For different operating systems, the Historiacore folder can be found in the following locations (copy and paste the shortcut text into the Save dialog to find it quickly):
-
 
 
 +-----------+--------------------------------------------------------+--------------------------------------------+
