@@ -284,6 +284,27 @@ Open a command prompt::
    cd C:\Program Files\HistoriaCore\daemon  
    ipfs.exe init
 
+Remove Original Bootstap IPFS Nodes and Connect to Historia IPFS Swarm
+----------------------------------------------------------------------
+IPFS can be bandwidth hungry, so we want to remove the IPFS bootstrap nodes and only connect to the Historia IPFS Swarm::
+
+   ipfs bootstrap rm --all
+   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
+   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
+   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
+   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
+   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
+   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
+   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
+   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
+   
+Next, download the swarm.key to authenticate to the Historia IPFS Swarm::
+
+   cd ~/.ipfs
+   wget https://github.com/HistoriaOffical/ipfs-swarmkey/blob/master/swarm.key
+   
+Now when you start IPFS, the IPFS daemon will now connect to the Historia IPFS swarm when started.
+
 
 Edit IPFS Config
 ----------------
