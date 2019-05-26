@@ -153,8 +153,24 @@ Save the historia.conf file in the default location (C:\Users\<yourusername>\App
 
 Next let's install IPFS.
 
-IF Content Distribution Masternode - Collateral 5000 - Install IPFS
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Content Distribution Masternode - Collateral 5000 - Install IPFS For Windows
+============================================================================
+   
+Download / Install IPFS Daemon
+------------------------------
+
+Download the Windows zip file from https://dist.ipfs.io/#go-ipfs
+
+Extract the zip file and copy the ipfs.exe files to your HistoriaCore daemon directory (Default location: C:\Program Files\HistoriaCore\daemon)
+
+Initialize IPFS Daemon for Historia
+-----------------------------------
+Since we will be using IPFS only for Historia, we can safely store the ipfs.exe file in the HistoriaCore directory and initalize IPFS. 
+
+Open a command prompt::
+
+   cd C:\Program Files\HistoriaCore\daemon  
+   ipfs.exe init
 
 If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>` page. Before you start your masternode, IPFS daemon must be running. Open a new command prompt and start ipfs daemon::
 
@@ -164,7 +180,7 @@ If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS
 
 
 Install Sentinel
-----------------
+================
 
 Download and install Sentinel for Windows
 https://github.com/HistoriaOffical/sentinel/releases
