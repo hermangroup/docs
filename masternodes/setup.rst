@@ -402,9 +402,9 @@ file.
 IF Content Distribution Masternode - Collateral 5000 Verify IPFS is running
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you haven't setup IPFS yet, please do so now by going to the IPFS page. Before you start your masternode, IPFS daemon must be running.::
+If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>`, IPFS page. Before you start your masternode, IPFS daemon must be running.::
 
-   ipfs daemon &
+   systemctl start ipfs
 
 Start Historiad Masternode
 --------------------------
@@ -471,11 +471,11 @@ Depending on how you sent your masternode collateral, you will need to start you
 - ``MASTERNODE_SYNC``: This indicates the data currently being synchronised in the masternode
 - ``MASTERNODE_SYNC_FAILED``: Synchronisation could not complete, check your firewall and restart historiad
 - ``WATCHDOG_EXPIRED``: Waiting for sentinel to restart, make sure it is entered in crontab
-- ``IPFS_EXPIRED``: This indictates that IPFS is not running.
-- ``EXPIRED``: Masternode has expired. Restart Historiad, restart masternode, check IPFS is running.
 - ``NEW_START_REQUIRED``: Start command must be sent from wallet; check IPFS is running.
 - ``PRE_ENABLED``: Waiting for network to recognize started masternode
 - ``ENABLED``: Masternode successfully started
+- ``IPFS_EXPIRED``: This indictates that IPFS is not running.
+- ``EXPIRED``: Masternode has expired. Restart Historiad, restart masternode, check IPFS is running.
 If you masternode does not seem to start immediately, do not arbitrarily issue more start commands. Each time you do so, you will reset your position in the payment queue.
 
 Identify the funding transaction
