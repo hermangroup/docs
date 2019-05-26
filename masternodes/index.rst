@@ -45,5 +45,5 @@ a self-operated masternode.
    setup.rst
    setup-win.rst
    setup-ipfs.rst
-   maintenance.rst
+
  
