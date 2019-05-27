@@ -253,12 +253,14 @@ Copy and past the below config and save the ipfs.service file. Add the username 
    Description=ipfs.service
    After=network.target
    StartLimitIntervalSec=0
+   
    [Service]
    Type=simple
    Restart=always
    RestartSec=1
    User=<YOURUSERNAME>
    ExecStart=/usr/local/bin/ipfs daemon &
+   
    [Install]
    WantedBy=multi-user.target
       
