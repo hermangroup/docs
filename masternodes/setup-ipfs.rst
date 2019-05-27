@@ -27,6 +27,7 @@ Next download and install IPFS daemon. Because we have used Ubuntu 16.04 64-bit 
    sudo mv go-ipfs/ipfs /usr/local/bin/ipfs
 
 Clean up::
+
    rm -rf go-ipfs/
 
 Initialize IPFS Daemon for Historia
