@@ -400,36 +400,32 @@ The result should look something like this:
 Press **Ctrl + X** to close the editor and **Y** and **Enter** save the
 file. 
 
-IF Content Distribution Masternode - Collateral 5000 Verify IPFS is running
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Install IPFS - Content Distribution Masternode
+==============================================
 
-If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>`, IPFS page. Before you start your masternode, IPFS daemon must be running.::
+If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>`, IPFS page. 
 
-   systemctl start ipfs
+Start IPFS
+--------------------------
+Before you start your masternode, IPFS daemon must be running.::
+
+   systemctl start ipfs.service
+   
+Check IPFS is running::
+
+   systemctl start ipfs.service
 
 Result::
-
-   Initializing daemon...
-   go-ipfs version: 0.4.20-
-   Repo version: 7
-   System version: amd64/linux
-   Golang version: go1.12.4
-   Swarm is limited to private network of peers with the swarm key
-   Swarm key fingerprint: 4aeffee633b590d668d294d4e957c59a
-   Swarm listening on /ip4/127.0.0.1/tcp/4001
-   Swarm listening on /ip4/<YourIPv4Address>/tcp/4001
-   Swarm listening on /ip6/<YourIPv6Address>/tcp/4001
-   Swarm listening on /ip6/::1/tcp/4001
-   Swarm listening on /p2p-circuit
-   Swarm announcing /ip4/127.0.0.1/tcp/4001
-   Swarm announcing /ip4/<YourIPv4Address>/tcp/4001
-   Swarm announcing /ip6/<YourIPv6Address>/tcp/4001
-   Swarm announcing /ip6/::1/tcp/4001
-   API server listening on /ip4/127.0.0.1/tcp/5001
-   WebUI: http://127.0.0.1:5001/webui
-   Gateway (writable) server listening on /ip4/0.0.0.0/tcp/80
-   Gateway (writable) server listening on /ip6/::/tcp/80
-   Daemon is ready
+   
+   ipfs.service
+    Loaded: loaded (/etc/systemd/system/ipfs.service; enabled; vendor preset: enabled)
+    Active: active (running) since Mon 2019-05-27 16:25:47 UTC; 12min ago
+   Main PID: 1626 (ipfs)
+    Tasks: 8
+   Memory: 21.3M
+      CPU: 998ms
+   CGroup: /system.slice/ipfs.service
+           └─1626 /usr/local/bin/ipfs daemon
 
 
 
