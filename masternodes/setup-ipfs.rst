@@ -53,7 +53,7 @@ IPFS can be bandwidth hungry, so we want to remove the IPFS bootstrap nodes, con
    ipfs config --json Gateway.HTTPHeaders.X-Special-Header '["Access-Control-Expose-Headers: Ipfs-Hash"]'
    ipfs config --json Gateway.NoFetch 'false'
    ipfs config --json Swarm.ConnMgr.HighWater '500'
-   ipfs config --json Swarm.ConnMgr.HighWater '200'
+   ipfs config --json Swarm.ConnMgr.LowWater '200'
    
 Next, download the swarm.key to authenticate to the Historia IPFS Swarm::
 
