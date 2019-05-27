@@ -126,8 +126,8 @@ The default IPFS config file needs to be changed to limit memory usage, setup in
     ],
     "API": "/ip4/127.0.0.1/tcp/5001",
      **"Gateway": [**
-      **"/ip4/0.0.0.0/tcp/80",**
-      **"/ip6/::/tcp/80"**
+      **"/ip4/0.0.0.0/tcp/8080",**
+      **"/ip6/::/tcp/8080"**
      **],**
   },
   "Mounts": {
@@ -419,8 +419,8 @@ The default IPFS config file needs to be changed to limit memory usage, setup in
     ],
     "API": "/ip4/127.0.0.1/tcp/5001",
      **"Gateway": [**
-      **"/ip4/0.0.0.0/tcp/80",**
-      **"/ip6/::/tcp/80"**
+      **"/ip4/0.0.0.0/tcp/8080",**
+      **"/ip6/::/tcp/8080"**
      **],**
   },
   "Mounts": {
