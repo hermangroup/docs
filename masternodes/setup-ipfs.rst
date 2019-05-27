@@ -316,7 +316,7 @@ The default IPFS config file needs to be changed to limit memory usage, setup in
       "Access-Control-Allow-Headers": [
         "X-Requested-With",
         **"Access-Control-Expose-Headers",**
-         **"Authorization"**
+         **"Authorization",**
         "Range"
       ],
       "Access-Control-Allow-Methods": [
