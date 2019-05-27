@@ -38,17 +38,22 @@ Since we will be using IPFS only for Historia, we can safely run the initializat
    
 Remove Original Bootstap IPFS Nodes and Connect to Historia IPFS Swarm
 ======================================================================
-IPFS can be bandwidth hungry, so we want to remove the IPFS bootstrap nodes and only connect to the Historia IPFS Swarm::
+IPFS can be bandwidth hungry, so we want to remove the IPFS bootstrap nodes, configure our IPFS node, and only connect to the Historia IPFS Swarm::
 
    ipfs bootstrap rm --all
-   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
-   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
-   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
-   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
-   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
-   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
-   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
-   ipfs bootstrap add /ip4/25.196.147.100/tcp/4001/ipfs/QmaMqSwWShsPg2RbredZtoneFjXhim7AQkqbLxib45Lx4S
+   ipfs bootstrap add /ip4/144.202.100.201/tcp/4001/ipfs/QmbQYYMcALCHpkjN4opjDog6VUGct3dsxeREpmMMwjcJFM
+   ipfs bootstrap add /ip6/2001:19f0:ac01:1771:5400:1ff:feb0:9db0/tcp/4001/ipfs/QmbQYYMcALCHpkjN4opjDog6VUGct3dsxeREpmMMwjcJFM
+
+   ipfs config --json Datastore.StorageMax '"50GB"'
+   ipfs config --json Addresses.Gateway '["/ip4/0.0.0.0/tcp/8080", "/ip6/::/tcp/8080"]'
+   ipfs config --json Gateway.HTTPHeaders.Access-Control-Allow-Headers '["X-Requested-With", "Access-Control-Expose-Headers", "Range", "Authorization"]'
+   ipfs config --json Gateway.HTTPHeaders.Access-Control-Allow-Methods '["POST", "GET"]'
+   ipfs config --json Gateway.HTTPHeaders.Access-Control-Allow-Origin '["*"]'
+   ipfs config --json Gateway.HTTPHeaders.Access-Control-Expose-Headers '["Location", "Ipfs-Hash"]'
+   ipfs config --json Gateway.HTTPHeaders.X-Special-Header '["Access-Control-Expose-Headers: Ipfs-Hash"]'
+   ipfs config --json Gateway.NoFetch 'false'
+   ipfs config --json Swarm.ConnMgr.HighWater '500'
+   ipfs config --json Swarm.ConnMgr.HighWater '200'
    
 Next, download the swarm.key to authenticate to the Historia IPFS Swarm::
 
