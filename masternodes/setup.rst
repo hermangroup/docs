@@ -43,7 +43,7 @@ Unlike most other masternode coins, Historia makes use of a role based masternod
    - IPFS Required: Yes
    - IPv4 and IPv6 address required
 
-Choose either the directions for the Vote Masternode or the Content Distribution Masternode.
+Choose either the directions for the Vote Masternode or the Content Distribution Masternode below.
 
 .. _vps-setup:
 
