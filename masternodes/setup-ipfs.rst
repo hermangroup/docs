@@ -346,9 +346,6 @@ The default IPFS config file needs to be changed to limit memory usage, setup in
 
 .. parsed-literal::
 
-
-   .. parsed-literal::
-
    {
   "Identity": {
     "PeerID": "QmaTkPMDTHPuojorytJVJ5i7puxGEJmu267hB2DCjoXuLj",
