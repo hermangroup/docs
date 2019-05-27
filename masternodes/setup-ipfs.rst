@@ -45,7 +45,6 @@ IPFS can be bandwidth hungry, so we want to remove the IPFS bootstrap nodes, con
    ipfs bootstrap add /ip6/2001:19f0:ac01:1771:5400:1ff:feb0:9db0/tcp/4001/ipfs/QmbQYYMcALCHpkjN4opjDog6VUGct3dsxeREpmMMwjcJFM
 
    ipfs config --json Datastore.StorageMax '"50GB"'
-   ipfs config --json Addresses.Gateway '["/ip4/0.0.0.0/tcp/8080", "/ip6/::/tcp/8080"]'
    ipfs config --json Gateway.HTTPHeaders.Access-Control-Allow-Headers '["X-Requested-With", "Access-Control-Expose-Headers", "Range", "Authorization"]'
    ipfs config --json Gateway.HTTPHeaders.Access-Control-Allow-Methods '["POST", "GET"]'
    ipfs config --json Gateway.HTTPHeaders.Access-Control-Allow-Origin '["*"]'
@@ -54,6 +53,22 @@ IPFS can be bandwidth hungry, so we want to remove the IPFS bootstrap nodes, con
    ipfs config --json Gateway.NoFetch 'false'
    ipfs config --json Swarm.ConnMgr.HighWater '500'
    ipfs config --json Swarm.ConnMgr.LowWater '200'
+   
+Unfortunately we can't use ipfs config to set up the gateway addresses::
+
+   nano ~/.ipfs/config
+   
+Look for the line::
+   
+    "Gateway": "/ip4/127.0.0.1/tcp/8080"
+    
+Change the Gateway line to look like::
+
+    "Gateway": [
+      "/ip4/0.0.0.0/tcp/8080",
+      "/ip6/::/tcp/8080"
+    ],
+
    
 Next, download the swarm.key to authenticate to the Historia IPFS Swarm::
 
