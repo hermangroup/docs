@@ -22,7 +22,7 @@ To run the IPFS Daemon you must install the Go Lang::
 
 Next download and install IPFS daemon. Because we have used Ubuntu 16.04 64-bit for our OS, there isn't a package for this version of Ubuntu::
 
-   wget https://dist.ipfs.io/go-ipfs/v0.4.20/go-ipfs_v0.4.20_linux-arm64.tar.gz
+   wget https://dist.ipfs.io/go-ipfs/v0.4.20/go-ipfs_v0.4.20_linux-amd64.tar.gz
    tar xvfz go-ipfs_v0.4.20_linux-amd64.tar.gz  
    sudo mv go-ipfs/ipfs /usr/local/bin/ipfs
 
