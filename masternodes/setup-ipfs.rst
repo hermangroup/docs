@@ -253,14 +253,14 @@ Copy and past the below config and save the ipfs.service file. Add the username 
    [Unit]
    Description=ipfs.service
    After=network.target
-   StartLimitIntervalSec=0
-   
+  
    [Service]
    Type=simple
    Restart=always
    RestartSec=1
+   StartLimitInterval=0
    User=<YOURUSERNAME>
-   ExecStart=/usr/local/bin/ipfs daemon &
+   ExecStart=/usr/local/bin/ipfs daemon
    
    [Install]
    WantedBy=multi-user.target
@@ -275,6 +275,10 @@ Start the IPFS service::
 Enable the IPFS service to start on reboot::
 
    systemctl enable ipfs
+
+Check the IPFS service is running::
+
+   systemctl status ipfs
 
 Get IPFS Peer ID
 ================
