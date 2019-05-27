@@ -155,13 +155,14 @@ Save the historia.conf file in the default location and exit the text editor.::
 
 Next let's install IPFS.
 
-Content Distribution Masternode - Collateral 5000 - Install IPFS For Windows
+Install IPFS For Windows - Content Distribution Masternode
 ============================================================================
+If Content Distribution Masternode and you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>`. Come back here to continue after installing IPFS
    
-Download / Install IPFS Daemon
-------------------------------
+Start IPFS Daemon
+-----------------
 
-If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>`. Before you start your masternode, IPFS daemon must be running. Open a command prompt and start the IPFS daemon::
+Before you start your masternode, IPFS daemon must be running. Open a command prompt and start the IPFS daemon::
 
    ipfs.exe daemon
 
