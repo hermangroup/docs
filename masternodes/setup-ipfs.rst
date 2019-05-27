@@ -174,7 +174,7 @@ Since we will be using IPFS only for Historia, we can safely store the ipfs.exe 
 Open a command prompt::
 
    cd C:\Program Files\HistoriaCore\daemon  
-   ipfs.exe init
+   ipfs.exe init -p server
 
 Remove Original Bootstap IPFS Nodes and Connect to Historia IPFS Swarm
 ----------------------------------------------------------------------
@@ -202,7 +202,7 @@ Copy this file to the default directory::
    
    Default Directory: C:\Users\<yourusername>\.ipfs\
    
-Now when you start IPFS, the IPFS daemon will now connect to the Historia IPFS swarm when started.
+Now when you start IPFS, the IPFS daemon will now connect to the Historia IPFS swarm when started. Don't start IPFS yet.
 
 
 Edit IPFS Config
