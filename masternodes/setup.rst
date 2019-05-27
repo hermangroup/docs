@@ -88,7 +88,7 @@ Enter a hostname and label for your server. In this example we will use htamn01 
 
 Add IPv6 for your server. 
 
-.. figure:: ../img/Picture4.png
+.. figure:: ../img/6.PNG
    :width: 400px
 
    Vultr IPv6 Address screen
@@ -100,8 +100,8 @@ Vultr will now install your server. This process may take a few minutes.
 
    Vultr server installation screen
 
-Click **Manage** when installation is complete and take note of the IP
-address, username and password.
+Click **Manage** when installation is complete and take note of the IPv4
+address, IPv6 address (if setting up Content Distribution Masternnode), username and password.
 
 .. figure:: ../img/Picture6.png
    :width: 276px
