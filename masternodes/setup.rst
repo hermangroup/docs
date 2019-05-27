@@ -406,6 +406,33 @@ If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS
 
    systemctl start ipfs
 
+Result::
+
+   Initializing daemon...
+   go-ipfs version: 0.4.20-
+   Repo version: 7
+   System version: amd64/linux
+   Golang version: go1.12.4
+   Swarm is limited to private network of peers with the swarm key
+   Swarm key fingerprint: 4aeffee633b590d668d294d4e957c59a
+   Swarm listening on /ip4/127.0.0.1/tcp/4001
+   Swarm listening on /ip4/<YourIPv4Address>/tcp/4001
+   Swarm listening on /ip6/<YourIPv6Address>/tcp/4001
+   Swarm listening on /ip6/::1/tcp/4001
+   Swarm listening on /p2p-circuit
+   Swarm announcing /ip4/127.0.0.1/tcp/4001
+   Swarm announcing /ip4/<YourIPv4Address>/tcp/4001
+   Swarm announcing /ip6/<YourIPv6Address>/tcp/4001
+   Swarm announcing /ip6/::1/tcp/4001
+   API server listening on /ip4/127.0.0.1/tcp/5001
+   WebUI: http://127.0.0.1:5001/webui
+   Gateway (writable) server listening on /ip4/0.0.0.0/tcp/80
+   Gateway (writable) server listening on /ip6/::/tcp/80
+   Daemon is ready
+
+
+
+
 Start Historiad Masternode
 --------------------------
 
