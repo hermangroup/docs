@@ -16,10 +16,11 @@ Before you begin
 This guide assumes you are setting up a single masternode for the first
 time. You will need:
 
-- 100 HTA or 5000 HTA depending on the role you
+- 100 HTA or 5000 HTA depending on the role you choose.
 - A wallet to store your Historia, preferably a hardware wallet, although 
-  Historia Core wallet is also supported
-- A Linux server, preferably a Virtual Private Server (VPS)
+  Historia Core wallet is also supported.
+- A Linux server, preferably a Virtual Private Server (VPS).
+- IPv4 and IPv6 address
 
 We also assume you will be working from a Windows computer. However, since most of the work is done on your Linux VPS, alternative steps for using macOS or Linux will be indicated where necessary.
 
