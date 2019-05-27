@@ -53,7 +53,7 @@ IPFS can be bandwidth hungry, so we want to remove the IPFS bootstrap nodes and 
 Next, download the swarm.key to authenticate to the Historia IPFS Swarm::
 
    cd ~/.ipfs
-   wget https://github.com/HistoriaOffical/ipfs-swarmkey/blob/master/swarm.key
+   wget https://raw.githubusercontent.com/HistoriaOffical/ipfs-swarmkey/master/swarm.key
    
 Now when you start IPFS, the IPFS daemon will now connect to the Historia IPFS swarm when started.
 
