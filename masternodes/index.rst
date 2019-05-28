@@ -8,7 +8,7 @@
 Masternodes
 ===========
 
-Historia is first cryptocurrency with a focus on a voting platform and 
+Historia is the first cryptocurrency with a focus on a voting platform and 
 file storage mechanism (IPFS) paired together to attempt to give a accurate 
 consensus-based view of future history. These features are implemented on 
 top of a network of masternodes and the IPFS network, which gives rise 
