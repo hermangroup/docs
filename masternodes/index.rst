@@ -9,12 +9,12 @@ Masternodes
 ===========
 
 Historia is the first cryptocurrency with a focus on a voting platform and 
-file storage mechanism (IPFS) paired together to attempt to give a accurate 
+file storage mechanism (IPFS) paired together to attempt to give an accurate 
 consensus-based view of future history. These features are implemented on 
 top of a network of masternodes and the IPFS network, which gives rise 
 to many exciting features not available on conventional blockchains.
 
-The Historia makes use of the first role based masternode system to allow for 
+Historia also makes use of the first role based masternode system to allow for 
 different roles and different rewards depending on the the service the masternode
 provides to the Historia network.
 
