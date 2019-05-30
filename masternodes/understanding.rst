@@ -14,10 +14,10 @@ Masternode requirements
 =======================
 
 - 100 HTA: A voting masternode requires 100 HTA. This role gives voting rights to the masternode owner and receives a 5%       reward.  Historia can be obtained from exchanges such as Stex.
-- 5000 Historia: A IPFS masternode requires 5000 HTA. This role gives voting rights to the masternode owner and receives a     25% reward. IPFS daemon is required to provide for content distribution. Historia can be obtained from exchange such as     Stex.
+- 5000 Historia: An IPFS masternode requires 5000 HTA. This role gives voting rights to the masternode owner and receives a     25% reward. IPFS daemon is required to provide for content distribution.
 - A server or VPS running Linux: Most recent guides use Ubuntu 16.04
   LTS. We recommend VPS services such as Vultr and DigitalOcean,
-  although any decent provider will do. Generally an instance with low
+  although any decent provider will do. Generally, an instance with low
   to average specifications will do, although performance requirements
   will increase according to this roadmap.
 - A dedicated IPv4 and IPv6 address: These usually come with the VPS/server.
