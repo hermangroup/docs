@@ -19,7 +19,7 @@ time. You will need:
 - 100 HTA (Voting Masternode) or 5000 HTA (Content Distribution Masternode)
 - A wallet to store your Historia, preferably a hardware wallet, although Historia Core wallet is also supported
 - A Windows 10 instance.
-- Since we are assume this is home network ports need to be publicly open on the Internet. This normally requires Port Forwarding on your router, which is out of scope for this document. Search engine Port Forwarding.
+- Since we are assuming this is a home network, ports need to be publicly open on the Internet. This normally requires Port Forwarding on your router, which is out of scope for this document. Use your favorite search engine to research Port Forwarding.
    - Voting Masternode: TCP Port 10101, 4001
    - Content Distribution Masternode: TCP Port 10101, 4001, 80, 443
    - When asked to allow firewall access by Windows, on any of the steps below, please select Allow.
