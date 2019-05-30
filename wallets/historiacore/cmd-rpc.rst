@@ -406,7 +406,7 @@ RPC commands
 ============
 
 This documentation lists all available RPC commands as of Historia version
-0.16.3.0, and limited documentation on what each command does. For full
+0.16.3.0 and limited documentation on what each command does. For full
 documentation of arguments, results and examples, type help ( "command"
 ) to view full details at the console. You can enter commands either
 from **Tools > Debug** console in the QT wallet, or using *historia-cli* for
