@@ -16,24 +16,24 @@ on a distributed public ledger. The cryptographic private keys to access
 the balance stored on each public address are therefore the object of
 value in this system. This section of the documentation discusses
 different practical methods of keeping these keys safe in wallets, while
-still remaining useful for day-to-day needs.
+remaining useful for day-to-day needs.
 
 .. _historia-core-wallet:
 
 Historia Core Wallet
 ================
 
-Historia Core Wallet is the full official release of Historia, and supports all
-Historia features as they are released, including IPFS, Record and Proposal Storage in the governance model
+Historia Core Wallet is the full official release of Historia and supports all
+Historia features as they are released. Current support includes IPFS, Record and Proposal Storage,
 InstantSend and PrivateSend, as well as an RPC console and governance features. 
-Historia Core Wallet (sometimes known as the QT wallet, due to the QT software
-framework used in development) is a professional or heavy wallet which
-downloads the full blockchain (several GB in size), the IPFS record and proposal database,
-and can operate as both a full node or masternode on the network. Because of the
+Historia Core Wallet (sometimes known as the QT wallet) is a professional or heavy wallet which
+downloads the full blockchain (several GB in size). The Historia Core Wallet also includes the IPFS record and proposal database,
+and can operate as both a full node and masternode on the network. Because of the
 requirement to hold a full copy of the blockchain, some time is required
-for synchronisation when starting the wallet. Once this is done, the
-correct balances will be displayed and the functions in the wallet can
+for synchronization when starting the wallet. Once this is done, the
+correct balances will be displayed, and the functions of the wallet can
 be used. Historia Core Wallet is available for macOS, Linux, and Windows.
+
 
 Features:
 
