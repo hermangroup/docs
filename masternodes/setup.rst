@@ -189,8 +189,8 @@ newly secured environment as the new user::
   ufw limit ssh/tcp
   ufw allow 10101/tcp  
   ufw allow 4001/tcp
-  ufw allow 80/tcp  
-  ufw allow 443/tcp  
+  ufw allow 8080/tcp  
+  ufw allow 8443/tcp  
   ufw logging on
   ufw enable
 
@@ -561,3 +561,221 @@ Now close your text editor and also shut down and restart Historia Core wallet. 
 At this point you can go back to your terminal window and monitor your masternode by entering ~/.Historiacore/historia-cli masternode status. You will probably need to wait around 30 minutes as the node passes through the PRE_ENABLED stage and finally reaches ENABLED. Give it some time.
 
 At this point you can safely log out of your server by typing exit. Congratulations! Your masternode is now running.
+
+Upgrade Instructions From 0.16.2
+================================
+For nodes that already are running version 0.16.2 of the Historia masternode, follow the following instructions to upgrade to the newest version of Historia.
+
+Download New Binaries
+---------------------
+Download latest version of the linux binaries.::
+
+   cd ~  
+   wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.0/historiacore-0.16.3-linux64.tar.gz
+
+Stop Daemon
+-----------
+Stop Historia daemon. You have to do the next few steps quickly, as there is a cronjob that will restart historiad if it's not up. If it restarts during this process, just run ./historia-cli stop again, then copy over the binaries.::
+
+   cd ~/.historiacore  
+   ./historia-cli stop
+
+Install New Binaries and Clean Up
+---------------------------------
+Extract the compressed archive, copy the necessary files to the directory and set them as executable::
+   tar xfvz historiacore-0.16.3-linux64.tar.gz  
+   cp historiacore-0.16.3/bin/historiad .historiacore/  
+   cp historiacore-0.16.3/bin/historia-cli .historiacore/  
+   chmod 777 .historiacore/historia*
+
+
+Clean up unneeded files::
+   rm historiacore-0.16.2-linux64.tar.gz  
+   rm -r historiacore-0.16.2/
+
+
+IPFS - Content Distribution Masternode
+--------------------------------------
+Running the IPFS daemon is now a required part of the  masternode system. Your masternode will not enter into ENABLED mode unless you complete the following steps. Update IPFS by following the :ref:`Setup IPFS <ipfs-setup>` page. After you update IPFS, then continue here.
+
+Start IPFS
+^^^^^^^^^^
+Before you start your masternode, IPFS daemon must be running.::
+
+   systemctl start ipfs.service
+   
+Check IPFS is running::
+
+   systemctl start ipfs.service
+
+Result::
+   
+   ipfs.service
+    Loaded: loaded (/etc/systemd/system/ipfs.service; enabled; vendor preset: enabled)
+    Active: active (running) since Mon 2019-05-27 16:25:47 UTC; 12min ago
+   Main PID: 1626 (ipfs)
+    Tasks: 8
+   Memory: 21.3M
+      CPU: 998ms
+   CGroup: /system.slice/ipfs.service
+           └─1626 /usr/local/bin/ipfs daemon
+
+
+Update firewall rules for IPFS
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Open up new firewall port for IPFS::
+   sudo ufw allow 4001/tcp  
+   sudo ufw allow 8080/tcp  
+   sudo ufw allow 8443/tcp  
+   sudo ufw status  
+   sudo ufw enable
+
+Update Sentinel
+---------------
+You must upgrade to the newest version of Sentinel as well::
+   cd ~/.historiacore/sentinel  
+   git pull
+   
+Update Historia.conf
+--------------------
+Before we can start the Historiad we must update a few settings in historia.conf. 
+Open the historia.conf configuration file using the following command::
+
+  nano ~/.historiacore/historia.conf
+
+An editor window will appear. We now need to update the configuration file
+to add the new masternodecollateral directive. A sample config file is below::
+
+  #----
+  rpcuser=XXXXXXXXXXXXX
+  rpcpassword=XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  rpcallowip=127.0.0.1
+  #----
+  listen=1
+  server=1
+  daemon=1
+  maxconnections=64
+  #----
+  masternode=1
+  masternodecollateral=XXXX
+  masternodeprivkey=XXXXXXXXXXXXXXXXXXXXXXX
+  externalip=XXX.XXX.XXX.XXX
+  #----
+
+Replace the fields marked with ``XXXXXXX`` as follows:
+
+- ``rpcuser``: enter any string of numbers or letters, no special
+  characters allowed
+- ``rpcpassword``: enter any string of numbers or letters, no special
+  characters allowed
+- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode  
+- ``masternodeprivkey``: this is the legacy masternode private key you
+  generated in the previous step
+- ``externalip``: this is the IP address of your VPS
+
+The result should look something like this:
+
+.. figure:: ../img/Picture12.png
+   :width: 400px
+
+   Entering key data in historia.conf on the masternode
+
+Press **Ctrl + X** to close the editor and **Y** and **Enter** save the
+file. 
+
+Start Historia Masternode
+-------------------------
+You can now start running Historia on the masternode to begin synchronization with the blockchain::
+   ~/.historiacore/historiad
+
+Start your masternode
+^^^^^^^^^^^^^^^^^^^^^
+Check that masternode is in sync::
+   ~/.historiacore/historia-cli mnsync status
+
+When synchronisation is complete, you should see the following response::
+   {  
+      "AssetID": 999,  
+      "AssetName": "MASTERNODE_SYNC_FINISHED",  
+      "Attempt": 0,  
+      "IsBlockchainSynced": true,  
+      "IsMasternodeListSynced": true,  
+      "IsWinnersListSynced": true,  
+      "IsSynced": true,  
+      "IsFailed": false  
+   }  
+
+Once masternode is in sync, restart masternode::
+   masternode start-alias MN1
+
+Check that you are on correct version
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Check that version number::
+   ~/.historiacore/historia-cli getinfo
+
+Version should be set to 160300
+Protocol should be to 70212::
+
+   {  
+      "version": 160300,  
+      "protocolversion": 70212,  
+      "walletversion": 61000,  
+      "balance": 0.00000000,  
+      "privatesend_balance": 0.00000000,  
+      "blocks": 25900,  
+      "timeoffset": 0,  
+      "connections": 5,  
+      "proxy": "",  
+      "difficulty": 0.0007275013747428129,  
+      "testnet": false,  
+      "keypoololdest": 1540240263,  
+      "keypoolsize": 1000,  
+      "paytxfee": 0.00000000,  
+      "relayfee": 0.00001000,  
+      "errors": ""  
+   }
+   
+Update masternode.conf
+----------------------
+Next, open the masternode.conf text file that you previously created, in Notepad (or TextEdit on macOS, nano on Linux). We have to update the masternode.conf file to use the new masternode parameters:
+
+   - ``Label``: Any single word used to identify your masternode, e.g. MN1
+   - ``IP and port``: The IP address and port (usually 10101) configured in the Historia.conf file, separated by a colon (:)
+   - ``Masternode private key``: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
+   - ``Transaction hash``: The txid we just identified using masternode outputs
+   - ``Index``: The index we just identified using masternode outputs
+   - ``IPv6 Address``: The public IPv6 address required for Content Distribution Masternode. Set to 0 for Voting Masternode.
+   - ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set to 0 for Voting Masternode. You get this from :ref:`Setup IPFS <ipfs-setup>`.
+
+Voting Masternode - Collateral 100
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Add 0 0 to the end of the line that gives the masternode descriptor, for example::
+
+   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 0 0
+
+Content Distribution Masternode - Collateral 5000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Add IPv6 Address and IPFS Peer ID to the end of the line that gives the masternode descriptor, for example::
+
+   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2000:1700:540:41a8:ffff:ffff:fffe:b88a QmbmVqBq7XyaM7J9AXMtGrPWSr7iP8sRiw9vcX4VnNDEJ1
+
+Save this file in the historiacore data folder on the PC running the Historia Core wallet using the filename masternode.conf. You may need to enable View hidden items to view this folder. Be sure to select All files if using Notepad so you don’t end up with a .conf.txt file extension by mistake. For different operating systems, the Historiacore folder can be found in the following locations (copy and paste the shortcut text into the Save dialog to find it quickly):
+
++-----------+--------------------------------------------------------+--------------------------------------------+
+| Platform  | Path                                                   | Shortcut                                   |
++===========+========================================================+============================================+
+| Linux     | /home/yourusername/.historiacore                       | ~/.historiacore                            | 
++-----------+--------------------------------------------------------+--------------------------------------------+
+| OSX       | /Macintosh HD/Library/Application Support/HistoriaCore | ~/Library/Application Support/HistoriaCore |
++-----------+--------------------------------------------------------+--------------------------------------------+
+| Windows   | C:\Users\yourusername\AppData\Roaming\Historia Core    | %APPDATA%\Historia Core                    |
++-----------+--------------------------------------------------------+--------------------------------------------+
+
+Now close your text editor and also shut down and restart Historia Core wallet. Historia Core will recognize masternode.conf during startup, and is now ready to activate your masternode. Go to Settings > Unlock Wallet and enter your wallet passphrase. Then click Tools > Debug console again and enter the following command to start your masternode (replace MN1 with the label for your masternode)::
+
+    masternode start-alias MN1
+
+At this point you can go back to your terminal window and monitor your masternode by entering ~/.Historiacore/historia-cli masternode status. You will probably need to wait around 30 minutes as the node passes through the PRE_ENABLED stage and finally reaches ENABLED. Give it some time.
+
+Your masternode and the IPFS daemon is now running. The masternode system automatically interfaces with the IPFS daemon and all records will be added to IPFS automatically.
+
