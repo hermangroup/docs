@@ -4,9 +4,9 @@
 
 .. _masternode-setup:
 
-=====
-Setup For Windows
-=====
+======================================================
+Setup For Windows - Voting Masternode - Collateral 100
+======================================================
 
 Setting up a masternode requires a basic understanding of Windows and blockchain technology, as well as an ability to follow instructions closely. It also requires regular maintenance and careful security. There are some decisions to be made along the way, and optional extra steps to take for increased security.
 
@@ -16,12 +16,11 @@ Before you begin
 This guide assumes you are setting up a single masternode for the first
 time. You will need:
 
-- 100 HTA (Voting Masternode) or 5000 HTA (Content Distribution Masternode)
+- 100 HTA (Voting Masternode)
 - A wallet to store your Historia, preferably a hardware wallet, although Historia Core wallet is also supported
 - A Windows 10 instance.
 - Since we are assuming this is a home network, ports need to be publicly open on the Internet. This normally requires Port Forwarding on your router, which is out of scope for this document. Use your favorite search engine to research Port Forwarding.
-   - Voting Masternode: TCP Port 10101, 4001
-   - Content Distribution Masternode: TCP Port 10101, 4001, 80, 443
+   - Voting Masternode: TCP Port 10101
    - When asked to allow firewall access by Windows, on any of the steps below, please select Allow.
 
 Masternode Roles
@@ -44,9 +43,8 @@ Unlike most other masternode coins, Historia makes use of a role based masternod
    - IPFS Required: Yes
    - IPv4 and IPv6 address required
 
-Choose either the directions for the Vote Masternode or the Content Distribution Masternode.
+In this guide, we will setup a Voting Masternode with collateral of 100. If you are looking to setup a Content Distribution Masternode with collateral of 5000, the Histora Team will release that guide after they are activated on block 151,000.
  
-
 Install Historia Windows Wallet
 ===============================
 You MUST use Historia 0.16.3.0, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.0 
@@ -58,7 +56,7 @@ Send the collateral
 ===================
 
 A Historia address with a single unspent transaction output (UTXO) of
-exactly 100 or 5000 HTA is required to operate a masternode depending on the masternode role you choose. Once it has been
+exactly 100 HTA is required to operate a masternode depending on the masternode role you choose. Once it has been
 sent, various keys regarding the transaction must be extracted for later
 entry in a configuration file. A masternode can be started from the official Historia Core wallet. This guide will describe the steps for Historia Core.
 
@@ -100,13 +98,6 @@ If setting up a Voting Masternode, send exactly 100 HTA in a single transaction 
 you generated in the previous step. This may be sent from another
 wallet, or from funds already held in your current wallet. 
 
-Content Distribution Masternode - Collateral 5000
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-If setting up a Content Distribution Masternode, send exactly 5000 HTA in a single transaction to the new address
-you generated in the previous step. This may be sent from another
-wallet, or from funds already held in your current wallet.
-
 Check Transaction
 -----------------
 Once the transaction is complete, view the transaction in a `blockchain explorer
@@ -144,7 +135,7 @@ Replace the fields marked with ``XXXXXXX`` as follows:
   characters allowed
 - ``rpcpassword``: enter any string of numbers or letters, no special
   characters allowed
-- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode  
+- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode. For this guide set this to 100.
 - ``masternodeprivkey``: this is the legacy masternode private key you
   generated in the previous step
 - ``externalip``: this is the IP address of your VPS
@@ -152,47 +143,6 @@ Replace the fields marked with ``XXXXXXX`` as follows:
 Save the historia.conf file in the default location and exit the text editor.::
 
    C:\Users\<yourusername>\AppData\Roaming\HistoriaCore\ 
-
-Next let's install IPFS.
-
-Install IPFS For Windows - Content Distribution Masternode
-============================================================================
-If Content Distribution Masternode and you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>`. Come back here to continue after installing IPFS
-   
-Start IPFS Daemon
------------------
-
-Before you start your masternode, IPFS daemon must be running. Open a command prompt and start the IPFS daemon::
-
-   ipfs.exe daemon
-
-Result::
-
-   Initializing daemon...
-   go-ipfs version: 0.4.20-
-   Repo version: 7
-   System version: amd64/linux
-   Golang version: go1.12.4
-   Swarm is limited to private network of peers with the swarm key
-   Swarm key fingerprint: 4aeffee633b590d668d294d4e957c59a
-   Swarm listening on /ip4/127.0.0.1/tcp/4001
-   Swarm listening on /ip4/<YourIPv4Address>/tcp/4001
-   Swarm listening on /ip6/<YourIPv6Address>/tcp/4001
-   Swarm listening on /ip6/::1/tcp/4001
-   Swarm listening on /p2p-circuit
-   Swarm announcing /ip4/127.0.0.1/tcp/4001
-   Swarm announcing /ip4/<YourIPv4Address>/tcp/4001
-   Swarm announcing /ip6/<YourIPv6Address>/tcp/4001
-   Swarm announcing /ip6/::1/tcp/4001
-   API server listening on /ip4/127.0.0.1/tcp/5001
-   WebUI: http://127.0.0.1:5001/webui
-   Gateway (writable) server listening on /ip4/0.0.0.0/tcp/80
-   Gateway (writable) server listening on /ip6/::/tcp/80
-   Daemon is ready
-
-*If you reboot your Windows Machine, you now must restart both Historiad and ipfs daemon*
-
-
 
 Install Sentinel
 ================
@@ -312,12 +262,6 @@ Voting Masternode - Collateral 100
 If Voting Masternode, enter all of this information on a single line with each item separated by a space, for example::
 
    MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 0 0
-
-Content Distribution Masternode - Collateral
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If Content Distribution Masterionde, enter all of this information on a single line with each item separated by a space, for example::
-
-   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2000:1700:540:41a8:ffff:ffff:fffe:b88a QmbmVqBq7XyaM7J9AXMtGrPWSr7iP8sRiw9vcX4VnNDEJ1
 
 Save this file and close the text editor. It should be saved in:: 
 
