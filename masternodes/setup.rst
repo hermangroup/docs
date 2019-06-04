@@ -583,6 +583,7 @@ Stop Historia daemon. You have to do the next few steps quickly, as there is a c
 Install New Binaries and Clean Up
 ---------------------------------
 Extract the compressed archive, copy the necessary files to the directory and set them as executable::
+   
    tar xfvz historiacore-0.16.3-linux64.tar.gz  
    cp historiacore-0.16.3/bin/historiad .historiacore/  
    cp historiacore-0.16.3/bin/historia-cli .historiacore/  
@@ -590,8 +591,9 @@ Extract the compressed archive, copy the necessary files to the directory and se
 
 
 Clean up unneeded files::
-   rm historiacore-0.16.2-linux64.tar.gz  
-   rm -r historiacore-0.16.2/
+   
+   rm historiacore-0.16.3-linux64.tar.gz  
+   rm -r historiacore-0.16.3/
 
 
 IPFS - Content Distribution Masternode
@@ -624,6 +626,7 @@ Result::
 Update firewall rules for IPFS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Open up new firewall port for IPFS::
+
    sudo ufw allow 4001/tcp  
    sudo ufw allow 8080/tcp  
    sudo ufw allow 8443/tcp  
@@ -633,6 +636,7 @@ Open up new firewall port for IPFS::
 Update Sentinel
 ---------------
 You must upgrade to the newest version of Sentinel as well::
+
    cd ~/.historiacore/sentinel  
    git pull
    
@@ -685,15 +689,20 @@ file.
 
 Start Historia Masternode
 -------------------------
+
 You can now start running Historia on the masternode to begin synchronization with the blockchain::
-   ~/.historiacore/historiad
+  
+  ~/.historiacore/historiad
 
 Start your masternode
 ^^^^^^^^^^^^^^^^^^^^^
+
 Check that masternode is in sync::
+
    ~/.historiacore/historia-cli mnsync status
 
 When synchronisation is complete, you should see the following response::
+
    {  
       "AssetID": 999,  
       "AssetName": "MASTERNODE_SYNC_FINISHED",  
@@ -706,14 +715,18 @@ When synchronisation is complete, you should see the following response::
    }  
 
 Once masternode is in sync, restart masternode::
+
    masternode start-alias MN1
 
 Check that you are on correct version
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Check that version number::
+
    ~/.historiacore/historia-cli getinfo
 
 Version should be set to 160300
+
 Protocol should be to 70212::
 
    {  
