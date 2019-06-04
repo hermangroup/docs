@@ -598,7 +598,7 @@ Clean up unneeded files::
 
 IPFS - Content Distribution Masternode
 --------------------------------------
-Running the IPFS daemon is now a required part of the  masternode system. Your masternode will not enter into ENABLED mode unless you complete the following steps. Update IPFS by following the :ref:`Setup IPFS <ipfs-setup>` page. After you update IPFS, then continue here.
+If you will be running a Content Distribution Masternode with 5000 collateral, then running the IPFS daemon is now a required part of the  masternode system. If you are running a Voting Masternode with 100 collateral, please skip past the IPFS section. Your masternode will not enter into ENABLED mode unless you complete the following steps. Update IPFS by following the :ref:`Setup IPFS <ipfs-setup>` page. After you update IPFS, then continue here.
 
 Start IPFS
 ^^^^^^^^^^
@@ -790,5 +790,4 @@ Now close your text editor and also shut down and restart Historia Core wallet. 
 
 At this point you can go back to your terminal window and monitor your masternode by entering ~/.Historiacore/historia-cli masternode status. You will probably need to wait around 30 minutes as the node passes through the PRE_ENABLED stage and finally reaches ENABLED. Give it some time.
 
-Your masternode and the IPFS daemon is now running. The masternode system automatically interfaces with the IPFS daemon and all records will be added to IPFS automatically.
-
+Your masternode is now running. 
