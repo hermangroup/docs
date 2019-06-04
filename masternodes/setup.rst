@@ -4,9 +4,9 @@
 
 .. _masternode-setup:
 
-===============
-Setup For Linux
-===============
+====================================================
+Setup For Linux - Voting Masternode - 100 Collateral
+====================================================
 
 Setting up a masternode requires a basic understanding of Linux and blockchain technology, as well as an ability to follow instructions closely. It also requires regular maintenance and careful security. There are some decisions to be made along the way, and optional extra steps to take for increased security.
 
@@ -16,11 +16,11 @@ Before you begin
 This guide assumes you are setting up a single masternode for the first
 time. You will need:
 
-- 100 HTA or 5000 HTA depending on the role you choose.
+- 100 HTA.
 - A wallet to store your Historia, preferably a hardware wallet, although 
   Historia Core wallet is also supported.
 - A Linux server, preferably a Virtual Private Server (VPS).
-- IPv4 and IPv6 address
+- IPv4
 
 We also assume you will be working from a Windows computer. However, since most of the work is done on your Linux VPS, alternative steps for using macOS or Linux will be indicated where necessary.
 
@@ -43,7 +43,7 @@ Unlike most other masternode coins, Historia makes use of a role based masternod
    - IPFS Required: Yes
    - IPv4 and IPv6 address required
 
-Choose either the directions for the Vote Masternode or the Content Distribution Masternode below.
+In this guide, we will setup a Voting Masternode with collateral of 100. If you are looking to setup a Content Distribution Masternode with collateral of 5000, Histora Team will release that guide after they are activated on block 151,000.
 
 .. _vps-setup:
 
@@ -188,9 +188,6 @@ newly secured environment as the new user::
   ufw allow ssh/tcp
   ufw limit ssh/tcp
   ufw allow 10101/tcp  
-  ufw allow 4001/tcp
-  ufw allow 8080/tcp  
-  ufw allow 8443/tcp  
   ufw logging on
   ufw enable
 
@@ -259,7 +256,7 @@ Send the collateral
 ===================
 
 A Historia address with a single unspent transaction output (UTXO) of
-exactly 100 or 5000 HTA is required to operate a masternode depending on the masternode role you choose. Once it has been
+exactly 100 HTA is required to operate a Voting Masternode. Once it has been
 sent, various keys regarding the transaction must be extracted for later
 entry in a configuration file. A masternode can be started from the official Historia Core wallet. This guide will describe the steps for Historia Core.
 
@@ -300,14 +297,6 @@ Voting Masternode - Collateral 100
 If setting up a Voting Masternode, send exactly 100 HTA in a single transaction to the new address
 you generated in the previous step. This may be sent from another
 wallet, or from funds already held in your current wallet. 
-
-Content Distribution Masternode - Collateral 5000
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-If setting up a Content Distribution Masternode, send exactly 5000 HTA in a single transaction to the new address
-you generated in the previous step. This may be sent from another
-wallet, or from funds already held in your current wallet.
-
 
 Check Transaction
 -----------------
@@ -385,7 +374,7 @@ Replace the fields marked with ``XXXXXXX`` as follows:
   characters allowed
 - ``rpcpassword``: enter any string of numbers or letters, no special
   characters allowed
-- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode  
+- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode. For this guide set this to 100.
 - ``masternodeprivkey``: this is the legacy masternode private key you
   generated in the previous step
 - ``externalip``: this is the IP address of your VPS
@@ -399,36 +388,6 @@ The result should look something like this:
 
 Press **Ctrl + X** to close the editor and **Y** and **Enter** save the
 file. 
-
-Install IPFS - Content Distribution Masternode
-==============================================
-
-If you haven't setup IPFS yet, please do so now by going to the :ref:`Setup IPFS <ipfs-setup>`, IPFS page. 
-
-Start IPFS
---------------------------
-Before you start your masternode, IPFS daemon must be running.::
-
-   systemctl start ipfs.service
-   
-Check IPFS is running::
-
-   systemctl start ipfs.service
-
-Result::
-   
-   ipfs.service
-    Loaded: loaded (/etc/systemd/system/ipfs.service; enabled; vendor preset: enabled)
-    Active: active (running) since Mon 2019-05-27 16:25:47 UTC; 12min ago
-   Main PID: 1626 (ipfs)
-    Tasks: 8
-   Memory: 21.3M
-      CPU: 998ms
-   CGroup: /system.slice/ipfs.service
-           └─1626 /usr/local/bin/ipfs daemon
-
-
-
 
 Start Historiad Masternode
 --------------------------
@@ -526,22 +485,15 @@ Open a new text file in Notepad (or TextEdit on macOS, nano on Linux) and enter 
    - ``Transaction hash``: The txid we just identified using masternode outputs
    - ``Index``: The index we just identified using masternode outputs
    - ``IPv6 Address``: The public IPv6 address required for Content Distribution Masternode. Set to 0 for Voting Masternode.
-   - ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set to 0 for Voting Masternode. You get this from :ref:`Setup IPFS <ipfs-setup>`.
+   - ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set to 0 for Voting Masternode.
 
-Voting Masternode - Collateral 100 Verify IPFS is running
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Voting Masternode - Collateral 100
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Enter all of this information on a single line with each item separated by a space, for example::
 
    MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 0 0
 
-Content Distribution Masternode - Collateral 5000 Verify IPFS is running
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Enter all of this information on a single line with each item separated by a space, for example::
-
-   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2000:1700:540:41a8:ffff:ffff:fffe:b88a QmbmVqBq7XyaM7J9AXMtGrPWSr7iP8sRiw9vcX4VnNDEJ1
-
 Save this file in the historiacore data folder on the PC running the Historia Core wallet using the filename masternode.conf. You may need to enable View hidden items to view this folder. Be sure to select All files if using Notepad so you don’t end up with a .conf.txt file extension by mistake. For different operating systems, the Historiacore folder can be found in the following locations (copy and paste the shortcut text into the Save dialog to find it quickly):
-
 
 +-----------+--------------------------------------------------------+--------------------------------------------+
 | Platform  | Path                                                   | Shortcut                                   |
@@ -595,44 +547,6 @@ Clean up unneeded files::
    rm historiacore-0.16.3-linux64.tar.gz  
    rm -r historiacore-0.16.3/
 
-
-IPFS - Content Distribution Masternode
---------------------------------------
-If you will be running a Content Distribution Masternode with 5000 collateral, then running the IPFS daemon is now a required part of the  masternode system. If you are running a Voting Masternode with 100 collateral, please skip past the IPFS section. Your masternode will not enter into ENABLED mode unless you complete the following steps. Update IPFS by following the :ref:`Setup IPFS <ipfs-setup>` page. After you update IPFS, then continue here.
-
-Start IPFS
-^^^^^^^^^^
-Before you start your masternode, IPFS daemon must be running.::
-
-   systemctl start ipfs.service
-   
-Check IPFS is running::
-
-   systemctl start ipfs.service
-
-Result::
-   
-   ipfs.service
-    Loaded: loaded (/etc/systemd/system/ipfs.service; enabled; vendor preset: enabled)
-    Active: active (running) since Mon 2019-05-27 16:25:47 UTC; 12min ago
-   Main PID: 1626 (ipfs)
-    Tasks: 8
-   Memory: 21.3M
-      CPU: 998ms
-   CGroup: /system.slice/ipfs.service
-           └─1626 /usr/local/bin/ipfs daemon
-
-
-Update firewall rules for IPFS
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Open up new firewall port for IPFS::
-
-   sudo ufw allow 4001/tcp  
-   sudo ufw allow 8080/tcp  
-   sudo ufw allow 8443/tcp  
-   sudo ufw status  
-   sudo ufw enable
-
 Update Sentinel
 ---------------
 You must upgrade to the newest version of Sentinel as well::
@@ -663,7 +577,7 @@ to add the new masternodecollateral directive. A sample config file is below::
   masternode=1
   masternodecollateral=XXXX
   masternodeprivkey=XXXXXXXXXXXXXXXXXXXXXXX
-  externalip=XXX.XXX.XXX.XXX
+  externalip=XXX.XXX.XXX.XXX:10101
   #----
 
 Replace the fields marked with ``XXXXXXX`` as follows:
@@ -672,7 +586,7 @@ Replace the fields marked with ``XXXXXXX`` as follows:
   characters allowed
 - ``rpcpassword``: enter any string of numbers or letters, no special
   characters allowed
-- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode  
+- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode. For this guide set this to 100.
 - ``masternodeprivkey``: this is the legacy masternode private key you
   generated in the previous step
 - ``externalip``: this is the IP address of your VPS
@@ -765,12 +679,6 @@ Voting Masternode - Collateral 100
 Add 0 0 to the end of the line that gives the masternode descriptor, for example::
 
    MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 0 0
-
-Content Distribution Masternode - Collateral 5000
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Add IPv6 Address and IPFS Peer ID to the end of the line that gives the masternode descriptor, for example::
-
-   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2000:1700:540:41a8:ffff:ffff:fffe:b88a QmbmVqBq7XyaM7J9AXMtGrPWSr7iP8sRiw9vcX4VnNDEJ1
 
 Save this file in the historiacore data folder on the PC running the Historia Core wallet using the filename masternode.conf. You may need to enable View hidden items to view this folder. Be sure to select All files if using Notepad so you don’t end up with a .conf.txt file extension by mistake. For different operating systems, the Historiacore folder can be found in the following locations (copy and paste the shortcut text into the Save dialog to find it quickly):
 
