@@ -332,9 +332,9 @@ copy the necessary files to the directory::
 
   mkdir ~/.historiacore
   tar xfvz historiacore-0.16.3-linux64.tar.gz  
-  cp historiacore-0.16.3/bin/historiad .historiacore/  
-  cp historiacore-0.16.3/bin/historia-cli .historiacore/  
-  chmod 777 .historiacore/historia*  
+  cp historiacore-0.16.3/bin/historiad ~/.historiacore/  
+  cp historiacore-0.16.3/bin/historia-cli ~/.historiacore/  
+  chmod 777 ~/.historiacore/historia*  
 
 
 Clean up unneeded files::
