@@ -301,7 +301,7 @@ wallet, or from funds already held in your current wallet.
 Check Transaction
 -----------------
 Once the transaction is complete, view the transaction in a `blockchain explorer
-<http://blockexplore.historia.network/>`_ by searching for the address. You
+<http://blockexplorer.historia.network/>`_ by searching for the address. You
 will need 15 confirmations before you can start the masternode, but you
 can continue with the next step at this point already: installing Historia
 Core on your VPS.
