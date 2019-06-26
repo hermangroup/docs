@@ -5,7 +5,7 @@
 .. _masternode-setup:
 
 ======================================================
-Setup For Windows - Voting Masternode - Collateral 100
+Setup For Windows - Voting Masternode - 100 Collateral
 ======================================================
 
 Setting up a masternode requires a basic understanding of Windows and blockchain technology, as well as an ability to follow instructions closely. It also requires regular maintenance and careful security. There are some decisions to be made along the way, and optional extra steps to take for increased security.
