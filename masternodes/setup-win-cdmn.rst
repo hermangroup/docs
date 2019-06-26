@@ -262,7 +262,7 @@ The first long string is your transaction hash, while the last number is the ind
 
 Content Distribution Masternode - Collateral 5000
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If Voting Masternode, enter all of this information on a single line with each item separated by a space, for example::
+If Content Distribution Masternode, enter all of this information on a single line with each item separated by a space, for example::
 
    MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2001:19f0:7001:6de:5400:1ff:fef3:8735 QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD
 
