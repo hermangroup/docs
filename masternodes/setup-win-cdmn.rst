@@ -257,8 +257,8 @@ The first long string is your transaction hash, while the last number is the ind
 - ``Masternode private key``: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
 - ``Transaction hash``: The txid we just identified using masternode outputs
 - ``Index``: The index we just identified using masternode outputs
-- ``IPv6 Address``: The public IPv6 address required for Content Distribution Masternode. Set to 0 for Voting Masternode.
-- ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set to 0 for Voting Masternode. You get this from :ref:`Setup IPFS <ipfs-setup>`.
+- ``IPv6 Address``: The public IPv6 address required for Content Distribution Masternode. Set this to the IPv6 address of your VPS.
+- ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set this to you IPFS peer id you get after setting up IPFS. You get this from :ref:`Setup IPFS <ipfs-setup>`.
 
 Content Distribution Masternode - Collateral 5000
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
