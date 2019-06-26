@@ -4,9 +4,9 @@
 
 .. _masternode-setup:
 
-======================================================
-Setup For Windows - Voting Masternode - Collateral 100
-======================================================
+=====================================================================
+Setup For Windows - Content Distribution Masternode - 5000 Collateral
+=====================================================================
 
 Setting up a masternode requires a basic understanding of Windows and blockchain technology, as well as an ability to follow instructions closely. It also requires regular maintenance and careful security. There are some decisions to be made along the way, and optional extra steps to take for increased security.
 
@@ -16,12 +16,15 @@ Before you begin
 This guide assumes you are setting up a single masternode for the first
 time. You will need:
 
-- 100 HTA (Voting Masternode)
+- 5000 HTA (Content Distribution Masternode)
 - A wallet to store your Historia, preferably a hardware wallet, although Historia Core wallet is also supported
 - A Windows 10 instance.
 - Since we are assuming this is a home network, ports need to be publicly open on the Internet. This normally requires Port Forwarding on your router, which is out of scope for this document. Use your favorite search engine to research Port Forwarding.
-   - Voting Masternode: TCP Port 10101
-   - When asked to allow firewall access by Windows, on any of the steps below, please select Allow.
+   - Content Distribution Masternode: 
+         - TCP Port 10101
+         - TCP Port 8080
+         - TCP Port 4001
+   - When asked to allow firewall access by Windows on any of the steps below, please select Allow.
 
 Masternode Roles
 ----------------
@@ -39,15 +42,15 @@ Unlike most other masternode coins, Historia makes use of a role based masternod
  
    - Collateral Requirement: 5000 HTA
    - Reward: 25% per block - increaes 2.5% every 2 months until 50% per block
-   - Ports: TCP 10101, TCP 4001, TCP 80, TCP 443
+   - Ports: TCP 10101, TCP 4001, TCP 8080
    - IPFS Required: Yes
    - IPv4 and IPv6 address required
 
-In this guide, we will setup a Voting Masternode with collateral of 100. If you are looking to setup a Content Distribution Masternode with collateral of 5000, the Histora Team will release that guide after they are activated on block 151,000.
+In this guide, we will setup a Content Distribution Masternode (CDMN) with collateral of 5000. 
  
 Install Historia Windows Wallet
 ===============================
-You MUST use Historia 0.16.3.0, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.0 
+You MUST use Historia 0.16.3.1, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.1 
 
 Download the correct Windows Historia setup file from the previous URL. Once downloaded, run the Historia installer and install the Historia wallet. Open the wallet and let the blockchain sync completely.
 
@@ -56,7 +59,7 @@ Send the collateral
 ===================
 
 A Historia address with a single unspent transaction output (UTXO) of
-exactly 100 HTA is required to operate a masternode depending on the masternode role you choose. Once it has been
+exactly 5000 HTA is required to operate a masternode depending on the masternode role you choose. Once it has been
 sent, various keys regarding the transaction must be extracted for later
 entry in a configuration file. A masternode can be started from the official Historia Core wallet. This guide will describe the steps for Historia Core.
 
@@ -92,9 +95,9 @@ selecting **File > Backup Wallet**. Save the file to a secure location
 physically separate to your computer, since this will be the only way
 you can access our funds if anything happens to your computer.
 
-Voting Masternode - Collateral 100
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If setting up a Voting Masternode, send exactly 100 HTA in a single transaction to the new address
+Content Distribution Masternode (CDMN) - Collateral 5000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If setting up a Voting Masternode, send exactly 5000 HTA in a single transaction to the new address
 you generated in the previous step. This may be sent from another
 wallet, or from funds already held in your current wallet. 
 
@@ -135,10 +138,10 @@ Replace the fields marked with ``XXXXXXX`` as follows:
   characters allowed
 - ``rpcpassword``: enter any string of numbers or letters, no special
   characters allowed
-- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode. For this guide set this to 100.
+- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode. For this guide set this to 5000.
 - ``masternodeprivkey``: this is the legacy masternode private key you
   generated in the previous step
-- ``externalip``: this is the IP address of your VPS
+- ``externalip``: this is the IPv4 address of your VPS
 
 Save the historia.conf file in the default location and exit the text editor.::
 
@@ -257,11 +260,11 @@ The first long string is your transaction hash, while the last number is the ind
 - ``IPv6 Address``: The public IPv6 address required for Content Distribution Masternode. Set to 0 for Voting Masternode.
 - ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set to 0 for Voting Masternode. You get this from :ref:`Setup IPFS <ipfs-setup>`.
 
-Voting Masternode - Collateral 100
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Content Distribution Masternode - Collateral 5000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 If Voting Masternode, enter all of this information on a single line with each item separated by a space, for example::
 
-   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 0 0
+   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2001:19f0:7001:6de:5400:1ff:fef3:8735 QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD
 
 Save this file and close the text editor. It should be saved in:: 
 
