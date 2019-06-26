@@ -39,7 +39,7 @@ Unlike most other masternode coins, Historia makes use of a role based masternod
  
    - Collateral Requirement: 5000 HTA
    - Reward: 25% per block - increaes 2.5% every 2 months until 50% per block
-   - Ports: TCP 10101, TCP 4001, TCP 80, TCP 443
+   - Ports: TCP 10101, TCP 4001, TCP 8080
    - IPFS Required: Yes
    - IPv4 and IPv6 address required
 
@@ -187,7 +187,9 @@ newly secured environment as the new user::
 
   ufw allow ssh/tcp
   ufw limit ssh/tcp
-  ufw allow 10101/tcp  
+  ufw allow 10101/tcp
+  ufw allow 8080/tcp  
+  ufw allow 4001/tcp  
   ufw logging on
   ufw enable
 
@@ -546,6 +548,21 @@ Clean up unneeded files::
    
    rm historiacore-0.16.3.1-linux64.tar.gz  
    rm -r historiacore-0.16.3.1/
+   
+Update Firewall Rules
+---------------------
+We have to update the firewall rules
+
+::
+
+  ufw allow ssh/tcp
+  ufw limit ssh/tcp
+  ufw allow 10101/tcp
+  ufw allow 8080/tcp  
+  ufw allow 4001/tcp  
+  ufw enable
+
+(press **Y** and **Enter** to confirm)
 
 Update Sentinel
 ---------------
