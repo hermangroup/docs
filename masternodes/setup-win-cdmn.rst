@@ -97,7 +97,7 @@ you can access our funds if anything happens to your computer.
 
 Content Distribution Masternode (CDMN) - Collateral 5000
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If setting up a Voting Masternode, send exactly 5000 HTA in a single transaction to the new address
+If setting up a Content Distribution Masternode (CDMN), send exactly 5000 HTA in a single transaction to the new address
 you generated in the previous step. This may be sent from another
 wallet, or from funds already held in your current wallet. 
 
