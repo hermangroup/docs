@@ -4,9 +4,9 @@
 
 .. _masternode-setup:
 
-====================================================
-Setup For Linux - Voting Masternode - 5000 Collateral
-====================================================
+===================================================================
+Setup For Linux - Content Distribution Masternode - 5000 Collateral
+===================================================================
 
 Setting up a masternode requires a basic understanding of Linux and blockchain technology, as well as an ability to follow instructions closely. It also requires regular maintenance and careful security. There are some decisions to be made along the way, and optional extra steps to take for increased security.
 
