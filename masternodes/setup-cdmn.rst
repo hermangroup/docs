@@ -258,7 +258,7 @@ Send the collateral
 ===================
 
 A Historia address with a single unspent transaction output (UTXO) of
-exactly 100 HTA is required to operate a Voting Masternode. Once it has been
+exactly 5000 HTA is required to operate a Voting Masternode. Once it has been
 sent, various keys regarding the transaction must be extracted for later
 entry in a configuration file. A masternode can be started from the official Historia Core wallet. This guide will describe the steps for Historia Core.
 
