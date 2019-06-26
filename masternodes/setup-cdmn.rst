@@ -5,7 +5,7 @@
 .. _masternode-setup:
 
 ====================================================
-Setup For Linux - Voting Masternode - 100 Collateral
+Setup For Linux - Voting Masternode - 5000 Collateral
 ====================================================
 
 Setting up a masternode requires a basic understanding of Linux and blockchain technology, as well as an ability to follow instructions closely. It also requires regular maintenance and careful security. There are some decisions to be made along the way, and optional extra steps to take for increased security.
@@ -16,11 +16,11 @@ Before you begin
 This guide assumes you are setting up a single masternode for the first
 time. You will need:
 
-- 100 HTA.
-- A wallet to store your Historia, preferably a hardware wallet, although 
-  Historia Core wallet is also supported.
+- 5000 HTA.
+- A wallet to store your Historia, although Historia Core wallet is also supported.
 - A Linux server, preferably a Virtual Private Server (VPS).
 - IPv4
+- IPv6
 
 We also assume you will be working from a Windows computer. However, since most of the work is done on your Linux VPS, alternative steps for using macOS or Linux will be indicated where necessary.
 
@@ -43,7 +43,7 @@ Unlike most other masternode coins, Historia makes use of a role based masternod
    - IPFS Required: Yes
    - IPv4 and IPv6 address required
 
-In this guide, we will setup a Voting Masternode with collateral of 100. If you are looking to setup a Content Distribution Masternode with collateral of 5000, Histora Team will release that guide after they are activated on block 151,000.
+In this guide, we will setup a Content Distribution Masternode (CDMN) with collateral of 5000. 
 
 .. _vps-setup:
 
@@ -62,7 +62,7 @@ Select a location for your new server on the following screen:
 
    Vultr server location selection screen
 
-Select Ubuntu 18.04 x64 as the server type. We use this LTS release of
+Select Ubuntu 16.04 x64 as the server type. We use this LTS release of
 Ubuntu instead of the latest version because LTS releases are supported
 with security updates for 5 years, instead of the usual 9 months.
 
@@ -292,16 +292,16 @@ selecting **File > Backup Wallet**. Save the file to a secure location
 physically separate to your computer, since this will be the only way
 you can access our funds if anything happens to your computer.
 
-Voting Masternode - Collateral 100
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If setting up a Voting Masternode, send exactly 100 HTA in a single transaction to the new address
+Content Distribution Masternode (CDMN) - Collateral 5000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If setting up a Content Distribution Masternode (CDMN), send exactly 5000 HTA in a single transaction to the new address
 you generated in the previous step. This may be sent from another
 wallet, or from funds already held in your current wallet. 
 
 Check Transaction
 -----------------
 Once the transaction is complete, view the transaction in a `blockchain explorer
-<http://blockexplore.historia.network/>`_ by searching for the address. You
+<http://blockexplorer.historia.network/>`_ by searching for the address. You
 will need 15 confirmations before you can start the masternode, but you
 can continue with the next step at this point already: installing Historia
 Core on your VPS.
@@ -310,7 +310,7 @@ Core on your VPS.
 
 Install Historia Core
 =====================
-You MUST use Historia 0.16.3.0, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.0
+You MUST use Historia 0.16.3.1, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.1
 
 Historia Core is the software behind both the Historia Core GUI wallet and Historia
 masternodes. If not displaying a GUI, it runs as a daemon on your VPS
@@ -322,25 +322,25 @@ password you just created for your new, non-root user.
 Option 1: Manual installation
 -----------------------------
 
-To manually download and install the components of your Historia masternode, visit https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.0 on your computer to find the link to the latest Historia Core wallet.  Right-click on Download TGZ for Historia Core Linux 64 Bit and select Copy link address. Go back to your terminal window and enter the following command, pasting in the address to the latest version of Historia Core by right clicking or pressing Ctrl + V::
+To manually download and install the components of your Historia masternode, visit https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.1 on your computer to find the link to the latest Historia Core wallet.  Right-click on Download TGZ for Historia Core Linux 64 Bit and select Copy link address. Go back to your terminal window and enter the following command, pasting in the address to the latest version of Historia Core by right clicking or pressing Ctrl + V::
 
   cd /tmp
-  wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.0/historiacore-0.16.3-linux64.tar.gz
+  wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.1/historiacore-0.16.3.1-linux64.tar.gz
   
 Create a working directory for Historia, extract the compressed archive and
 copy the necessary files to the directory::
 
   mkdir ~/.historiacore
-  tar xfvz historiacore-0.16.3-linux64.tar.gz  
-  cp historiacore-0.16.3/bin/historiad ~/.historiacore/  
-  cp historiacore-0.16.3/bin/historia-cli ~/.historiacore/  
+  tar xfvz historiacore-0.16.3.1-linux64.tar.gz  
+  cp historiacore-0.16.3.1/bin/historiad ~/.historiacore/  
+  cp historiacore-0.16.3.1/bin/historia-cli ~/.historiacore/  
   chmod 777 ~/.historiacore/historia*  
 
 
 Clean up unneeded files::
 
-  rm historiacore-0.16.3-linux64.tar.gz  
-  rm -r historiacore-0.16.3/
+  rm historiacore-0.16.3.1-linux64.tar.gz  
+  rm -r historiacore-0.16.3.1/
 
 Create a configuration file using the following command::
 
@@ -374,10 +374,10 @@ Replace the fields marked with ``XXXXXXX`` as follows:
   characters allowed
 - ``rpcpassword``: enter any string of numbers or letters, no special
   characters allowed
-- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode. For this guide set this to 100.
+- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode. For this guide set this to 5000.
 - ``masternodeprivkey``: this is the legacy masternode private key you
   generated in the previous step
-- ``externalip``: this is the IP address of your VPS
+- ``externalip``: this is the IPv4 address of your VPS
 
 The result should look something like this:
 
@@ -484,14 +484,14 @@ Open a new text file in Notepad (or TextEdit on macOS, nano on Linux) and enter 
    - ``Masternode private key``: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
    - ``Transaction hash``: The txid we just identified using masternode outputs
    - ``Index``: The index we just identified using masternode outputs
-   - ``IPv6 Address``: The public IPv6 address required for Content Distribution Masternode. Set to 0 for Voting Masternode.
-   - ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set to 0 for Voting Masternode.
+   - ``IPv6 Address``: The public IPv6 address required for Content Distribution Masternode. Set this to the IPv6 address of your VPS.
+   - ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set this to your IPFS peer id you get after setting up IPFS. You get this from :ref:`Setup IPFS <ipfs-setup>`.
 
-Voting Masternode - Collateral 100
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Content Distribution Masternode - Collateral 5000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Enter all of this information on a single line with each item separated by a space, for example::
 
-   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 0 0
+   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2001:19f0:7001:6de:5400:1ff:fef3:8735 QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD
 
 Save this file in the historiacore data folder on the PC running the Historia Core wallet using the filename masternode.conf. You may need to enable View hidden items to view this folder. Be sure to select All files if using Notepad so you don’t end up with a .conf.txt file extension by mistake. For different operating systems, the Historiacore folder can be found in the following locations (copy and paste the shortcut text into the Save dialog to find it quickly):
 
@@ -523,7 +523,7 @@ Download New Binaries
 Download latest version of the linux binaries.::
 
    cd ~  
-   wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.0/historiacore-0.16.3-linux64.tar.gz
+   wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.1/historiacore-0.16.3.1-linux64.tar.gz
 
 Stop Daemon
 -----------
@@ -536,16 +536,16 @@ Install New Binaries and Clean Up
 ---------------------------------
 Extract the compressed archive, copy the necessary files to the directory and set them as executable::
    
-   tar xfvz historiacore-0.16.3-linux64.tar.gz  
-   cp historiacore-0.16.3/bin/historiad .historiacore/  
-   cp historiacore-0.16.3/bin/historia-cli .historiacore/  
+   tar xfvz historiacore-0.16.3.1-linux64.tar.gz  
+   cp historiacore-0.16.3.1/bin/historiad .historiacore/  
+   cp historiacore-0.16.3.1/bin/historia-cli .historiacore/  
    chmod 777 .historiacore/historia*
 
 
 Clean up unneeded files::
    
-   rm historiacore-0.16.3-linux64.tar.gz  
-   rm -r historiacore-0.16.3/
+   rm historiacore-0.16.3.1-linux64.tar.gz  
+   rm -r historiacore-0.16.3.1/
 
 Update Sentinel
 ---------------
@@ -586,10 +586,10 @@ Replace the fields marked with ``XXXXXXX`` as follows:
   characters allowed
 - ``rpcpassword``: enter any string of numbers or letters, no special
   characters allowed
-- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode. For this guide set this to 100.
+- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode. For this guide set this to 5000.
 - ``masternodeprivkey``: this is the legacy masternode private key you
   generated in the previous step
-- ``externalip``: this is the IP address of your VPS
+- ``externalip``: this is the IPv4 address of your VPS
 
 The result should look something like this:
 
@@ -639,12 +639,12 @@ Check that version number::
 
    ~/.historiacore/historia-cli getinfo
 
-Version should be set to 160300
+Version should be set to 160301
 
 Protocol should be to 70212::
 
    {  
-      "version": 160300,  
+      "version": 160301,  
       "protocolversion": 70212,  
       "walletversion": 61000,  
       "balance": 0.00000000,  
@@ -671,15 +671,14 @@ Next, open the masternode.conf text file that you previously created, in Notepad
    - ``Masternode private key``: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
    - ``Transaction hash``: The txid we just identified using masternode outputs
    - ``Index``: The index we just identified using masternode outputs
-   - ``IPv6 Address``: The public IPv6 address required for Content Distribution Masternode. Set to 0 for Voting Masternode.
-   - ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set to 0 for Voting Masternode. You get this from :ref:`Setup IPFS <ipfs-setup>`.
+   - ``IPv6 Address``: The public IPv6 address required for Content Distribution Masternode. Set this to the IPv6 address of your VPS.
+   - ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set this to you IPFS peer id you get after setting up IPFS. You get this from :ref:`Setup IPFS <ipfs-setup>`.
 
-Voting Masternode - Collateral 100
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Add 0 0 to the end of the line that gives the masternode descriptor, for example::
+Content Distribution Masternode - Collateral 5000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Enter all of this information on a single line with each item separated by a space, for example::
 
-   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 0 0
-
+   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2001:19f0:7001:6de:5400:1ff:fef3:8735 QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD
 Save this file in the historiacore data folder on the PC running the Historia Core wallet using the filename masternode.conf. You may need to enable View hidden items to view this folder. Be sure to select All files if using Notepad so you don’t end up with a .conf.txt file extension by mistake. For different operating systems, the Historiacore folder can be found in the following locations (copy and paste the shortcut text into the Save dialog to find it quickly):
 
 +-----------+--------------------------------------------------------+--------------------------------------------+
