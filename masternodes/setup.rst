@@ -641,11 +641,11 @@ Check that version number::
 
 Version should be set to 160303
 
-Protocol should be to 70212::
+Protocol should be to 70213::
 
    {  
       "version": 160303,  
-      "protocolversion": 70212,  
+      "protocolversion": 70213,  
       "walletversion": 61000,  
       "balance": 0.00000000,  
       "privatesend_balance": 0.00000000,  
