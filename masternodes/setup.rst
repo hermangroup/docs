@@ -310,7 +310,7 @@ Core on your VPS.
 
 Install Historia Core
 =====================
-You MUST use Historia 0.16.3.0, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.0
+You MUST use Historia 0.16.3.2 or later, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/
 
 Historia Core is the software behind both the Historia Core GUI wallet and Historia
 masternodes. If not displaying a GUI, it runs as a daemon on your VPS
@@ -322,16 +322,16 @@ password you just created for your new, non-root user.
 Option 1: Manual installation
 -----------------------------
 
-To manually download and install the components of your Historia masternode, visit https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.0 on your computer to find the link to the latest Historia Core wallet.  Right-click on Download TGZ for Historia Core Linux 64 Bit and select Copy link address. Go back to your terminal window and enter the following command, pasting in the address to the latest version of Historia Core by right clicking or pressing Ctrl + V::
+To manually download and install the components of your Historia masternode, visit https://github.com/HistoriaOffical/historia/releases on your computer to find the link to the latest Historia Core wallet.  Right-click on Download TGZ for Historia Core Linux 64 Bit and select Copy link address. Go back to your terminal window and enter the following command, pasting in the address to the latest version of Historia Core by right clicking or pressing Ctrl + V::
 
   cd /tmp
-  wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.0/historiacore-0.16.3-linux64.tar.gz
+  wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.3/historiacore-0.16.3.3-linux64.tar.gz
   
 Create a working directory for Historia, extract the compressed archive and
 copy the necessary files to the directory::
 
   mkdir ~/.historiacore
-  tar xfvz historiacore-0.16.3-linux64.tar.gz  
+  tar xfvz historiacore-0.16.3.3-linux64.tar.gz  
   cp historiacore-0.16.3/bin/historiad ~/.historiacore/  
   cp historiacore-0.16.3/bin/historia-cli ~/.historiacore/  
   chmod 777 ~/.historiacore/historia*  
@@ -339,7 +339,7 @@ copy the necessary files to the directory::
 
 Clean up unneeded files::
 
-  rm historiacore-0.16.3-linux64.tar.gz  
+  rm historiacore-0.16.3.3-linux64.tar.gz  
   rm -r historiacore-0.16.3/
 
 Create a configuration file using the following command::
@@ -523,7 +523,7 @@ Download New Binaries
 Download latest version of the linux binaries.::
 
    cd ~  
-   wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.0/historiacore-0.16.3-linux64.tar.gz
+   wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.3/historiacore-0.16.3.3-linux64.tar.gz
 
 Stop Daemon
 -----------
@@ -536,7 +536,7 @@ Install New Binaries and Clean Up
 ---------------------------------
 Extract the compressed archive, copy the necessary files to the directory and set them as executable::
    
-   tar xfvz historiacore-0.16.3-linux64.tar.gz  
+   tar xfvz historiacore-0.16.3.3-linux64.tar.gz  
    cp historiacore-0.16.3/bin/historiad .historiacore/  
    cp historiacore-0.16.3/bin/historia-cli .historiacore/  
    chmod 777 .historiacore/historia*
@@ -544,7 +544,7 @@ Extract the compressed archive, copy the necessary files to the directory and se
 
 Clean up unneeded files::
    
-   rm historiacore-0.16.3-linux64.tar.gz  
+   rm historiacore-0.16.3.3-linux64.tar.gz  
    rm -r historiacore-0.16.3/
 
 Update Sentinel
@@ -639,12 +639,12 @@ Check that version number::
 
    ~/.historiacore/historia-cli getinfo
 
-Version should be set to 160300
+Version should be set to 160303
 
 Protocol should be to 70212::
 
    {  
-      "version": 160300,  
+      "version": 160303,  
       "protocolversion": 70212,  
       "walletversion": 61000,  
       "balance": 0.00000000,  
