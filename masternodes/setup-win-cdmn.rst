@@ -50,7 +50,7 @@ In this guide, we will setup a Content Distribution Masternode (CDMN) with colla
  
 Install Historia Windows Wallet
 ===============================
-You MUST use Historia 0.16.3.1, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/tag/0.16.3.1 
+You MUST use Historia 0.16.3.2 or later, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/
 
 Download the correct Windows Historia setup file from the previous URL. Once downloaded, run the Historia installer and install the Historia wallet. Open the wallet and let the blockchain sync completely.
 
