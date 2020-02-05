@@ -212,20 +212,21 @@ Lets finish this process and setup Nginix to point to the IPFS daemon that is ru
 
    nano /etc/nginx/sites-available/default
    
-Change your nginx configuration file to look something like this. The following changes to the default config have been **bolded**::
+Change your nginx configuration file to look something like this::
 
    server {
    root /var/www/html;
-   **server_name exmaple.com;** #Your domain name should already be set here
+   server_name exmaple.com; #Your domain name should already be set here
    
-   **#IPFS Settings Go Here**
-   **location / {**
-      **proxy_pass http://127.0.0.1:8080;**
-      **proxy_set_header Host $host;**
-      **proxy_cache_bypass $http_upgrade;**
-      **proxy_set_header X-Forwarded-For $remote_addr;**
-      **allow all;**
-    **}**
+   #BEGIN IPFS SETTINGS#
+   location / {
+      proxy_pass http://127.0.0.1:8080;
+      proxy_set_header Host $host;
+      proxy_cache_bypass $http_upgrade;
+      proxy_set_header X-Forwarded-For $remote_addr;
+      allow all;
+    }
+    #END IPFS SETTINGS#
 
    listen [::]:443 ssl ipv6only=on; # managed by Certbot
    listen 443 ssl; # managed by Certbot
