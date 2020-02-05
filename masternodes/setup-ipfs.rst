@@ -216,7 +216,7 @@ Change your nginx configuration file to look something like this::
 
    server {
    root /var/www/html;
-   server_name exmaple.com; #Your domain name should already be set here
+   server_name example.com; #Your domain name should already be set here
    
    #BEGIN IPFS SETTINGS#
    location / {
@@ -230,20 +230,20 @@ Change your nginx configuration file to look something like this::
 
    listen [::]:443 ssl ipv6only=on; # managed by Certbot
    listen 443 ssl; # managed by Certbot
-   ssl_certificate /etc/letsencrypt/live/tn1.historia.network/fullchain.pem; # managed by Certbot
-   ssl_certificate_key /etc/letsencrypt/live/tn1.historia.network/privkey.pem; # managed by Certbot
+   ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem; # managed by Certbot
+   ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem; # managed by Certbot
    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
    }
    server {
-      if ($host = tn1.historia.network) {
+      if ($host = exmaple.com) {
          return 301 https://$host$request_uri;
       } # managed by Certbot
       
     listen 80 default_server;
     listen [::]:80 default_server;
-    server_name tn1.historia.network;
+    server_name example.com;
     return 404; # managed by Certbot
 
 Save the file and restart Nginx::
