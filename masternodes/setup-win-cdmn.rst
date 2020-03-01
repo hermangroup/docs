@@ -5,7 +5,7 @@
 .. _masternode-setup:
 
 =====================================================================
-Setup For Windows - Content Distribution Masternode - 5000 Collateral
+Setup For Windows 
 =====================================================================
 
 
