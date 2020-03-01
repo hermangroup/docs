@@ -8,6 +8,9 @@
 Setup For Windows - Content Distribution Masternode - 5000 Collateral
 =====================================================================
 
+
+This documentation is out of date. Update coming soon.
+
 Setting up a masternode requires a basic understanding of Windows and blockchain technology, as well as an ability to follow instructions closely. It also requires regular maintenance and careful security. There are some decisions to be made along the way, and optional extra steps to take for increased security.
 
 Before you begin
