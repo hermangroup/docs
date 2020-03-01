@@ -5,7 +5,7 @@
 .. _masternode-setup:
 
 ===================================================================
-Setup For Linux - Content Distribution Masternode - 5000 Collateral
+Setup For Linux
 ===================================================================
 
 
