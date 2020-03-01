@@ -5,8 +5,10 @@
 .. _votingnode-setup:
 
 ==========================================
-Setup a Voting Masternode - 100 Collateral
+Setup a Voting Node - 100 Collateral
 ==========================================
+
+*** Voting Nodes are NOT active yet, please wait for further notice before attempting to setup your voting node ***
 
 Setting up a voting node requires a basic understanding of how to use a computer, as well as an ability to follow instructions closely. 
 
