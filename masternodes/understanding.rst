@@ -23,7 +23,7 @@ Masternode requirements
 - A little time and (heart): Masternodes used to require complex setup,
   but tools such as historiaman now greatly simplify the process.
 
-In addition to the 5000 Historia held in collateral, masternodes also have
+In addition to the 5000 HTA held in collateral, masternodes also have
 minimum hardware requirements. As of version v0.17.0.0, these requirements
 are as follows:
 
