@@ -51,7 +51,7 @@ Option 1: Automated Voting Node Setup
 Open Historia Core wallet and wait for it to synchronize with the network.
 It should look like this when ready:
 
-.. figure:: /img/picture1.png
+.. figure:: img/picture1.png
    :width: 400px
 
    Fully synchronized Historia Core wallet
