@@ -5,7 +5,7 @@
 .. _votingnode-setup:
 
 ==========================================
-Setup a Voting Node - 100 Collateral
+Setup a Voting Node
 ==========================================
 
 *** Voting Nodes are NOT active yet, please wait for further notice before attempting to setup your voting node ***
@@ -155,9 +155,6 @@ historia.conf Add the following lines into your historia.conf file::
   masternodeblsprivkey=<BLS Secret Key that you recorded from above>
   #----
 
-If editing and saving on Windows, be sure to select All files if using Notepad 
-so you don’t end up with a .conf.txt file extension by mistake. 
-
 Save this file in the historiacore data folder on the PC running the Historia 
 Core wallet using the filename historia.conf. You may need to enable View hidden 
 items to view this folder. Be sure to select All files if using Notepad so you 
@@ -186,7 +183,7 @@ If everything has gone correctly, the result should look something like this:
    Your Voting Node is now setup correctly
 
 There is no need to have your wallet open 24 hours a day. You can open and 
-close your wallet when ever you like.
+close your wallet at will.
 
 
 Encrypt And Backup Your Wallet
