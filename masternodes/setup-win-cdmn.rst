@@ -64,7 +64,7 @@ Option 1: Sending from Historia Core wallet
 Open Historia Core wallet and wait for it to synchronize with the network.
 It should look like this when ready:
 
-.. figure:: ../img/Picture10.png
+.. figure:: /img/Picture10.png
    :width: 400px
 
    Fully synchronized Historia Core wallet
