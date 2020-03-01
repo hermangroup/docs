@@ -33,21 +33,13 @@ Masternode Roles
 ----------------
 
 Unlike most other masternode coins, Historia makes use of a role based masternode system. Currently there are two roles:
- 
- - Voting Masternode 
- 
-   - Collateral Requirement: 100 HTA
-   - Reward: 10% per block
-   - Ports: TCP 10101, TCP 4001
-   - IPFS Required: No
-   - IPv4 address required
  - Content Distribution Masternode 
  
    - Collateral Requirement: 5000 HTA
    - Reward: 25% per block - increaes 2.5% every 2 months until 50% per block
    - Ports: TCP 10101, TCP 4001, TCP 8080
    - IPFS Required: Yes
-   - IPv4 and IPv6 address required
+   - IPv4 address required
 
 In this guide, we will setup a Content Distribution Masternode (CDMN) with collateral of 5000. 
  
