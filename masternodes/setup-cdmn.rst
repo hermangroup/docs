@@ -22,8 +22,8 @@ time. You will need:
 - 5000 HTA.
 - A wallet to store your Historia, although Historia Core wallet is also supported.
 - A Linux server, preferably a Virtual Private Server (VPS).
-- IPv4
-- IPv6
+- IPv4 address
+
 
 We also assume you will be working from a Windows computer. However, since most of the work is done on your Linux VPS, alternative steps for using macOS or Linux will be indicated where necessary.
 
@@ -31,13 +31,6 @@ Masternode Roles
 ----------------
 
 Unlike most other masternode coins, Historia makes use of a role based masternode system. Currently there are two roles:
- - Voting Masternode 
- 
-   - Collateral Requirement: 100 HTA
-   - Reward: 10% per block
-   - Ports: TCP 10101, TCP 4001
-   - IPFS Required: No
-   - IPv4 address required
  - Content Distribution Masternode 
  
    - Collateral Requirement: 5000 HTA
