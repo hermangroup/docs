@@ -1,45 +1,22 @@
 .. meta::
-   :description: Explanation of how Historia masternodes work in theory and practice to support InstantSend, PrivateSend and governance
-   :keywords: historia, masternodes, hosting, linux, payment, instantsend, privatesend, governance, quorum, evolution, bls, 
+   :description: Explanation of how Historia voting nodes work in theory and practice to support InstantSend, PrivateSend and governance
+   :keywords: historia, voting nodes, hosting, linux, payment, instantsend, privatesend, governance, quorum, evolution, bls, 
 
-.. _understanding_masternodes:
+.. _understanding_votingnodes:
 
 =========================
-Understanding Masternodes
+Understanding Voting Nodes
 =========================
-Coming soon.
 
 
-Masternode requirements
+Voting Node Requirements
+========================
+
+- 100 HTA: A voting masternode requires 100 HTA. This role gives voting rights to the wallet owner.  Historia can be obtained from exchanges such as Stex.
+- A voting node does not require to run 24 hours a day and do not require a public IP address, but to help the network it's recommended to run your voting node 24 hours a day.
+
+
+Benefits of Voting Node 
 =======================
 
-- 100 HTA: A voting masternode requires 100 HTA. This role gives voting rights to the masternode owner and receives a 5%       reward.  Historia can be obtained from exchanges such as Stex.
-- 5000 Historia: An IPFS masternode requires 5000 HTA. This role gives voting rights to the masternode owner and receives a     25% reward. IPFS daemon is required to provide for content distribution.
-- A server or VPS running Linux: Most recent guides use Ubuntu 16.04
-  LTS. We recommend VPS services such as Vultr and DigitalOcean,
-  although any decent provider will do. Generally, an instance with low
-  to average specifications will do, although performance requirements
-  will increase according to this roadmap.
-- A dedicated IPv4 and IPv6 address: These usually come with the VPS/server.
-- A little time and (heart): Masternodes used to require complex setup,
-  but tools such as historiaman now greatly simplify the process.
-
-In addition to the 100 or 5000 Historia held in collateral, masternodes also have
-minimum hardware requirements. As of version v0.16.3.0, these requirements
-are as follows:
-
-+---------+------------+-------------+
-|         | Minimum    | Recommended |
-+=========+============+=============+
-| CPU     | 1x 1 GHz   | 1x 2 GHz    |
-+---------+------------+-------------+
-| RAM     | 2 GB       | 4 GB        |
-+---------+------------+-------------+
-| Disk    | 20 GB      | 40 GB       |
-+---------+------------+-------------+
-| Network | 400 GB/mth | 1 TB/mth    |
-+---------+------------+-------------+
-
-Masternode bandwidth use ranges between 30-100 GB per month and will
-grow as the network does.
-
+Voting nodes are needed to vote on the records and proposals for network governance. Users should following these directions if they would like to participate in the creation and maintainence of the Historia network.
