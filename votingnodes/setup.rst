@@ -180,7 +180,7 @@ open the Setup Voting Node tab.
 
 If everything has gone correctly, the result should look something like this:
 
-.. figure:: img/Picture9.png
+.. figure:: img/picture9.png
    :width: 400px
 
    Your Voting Node is now setup correctly
