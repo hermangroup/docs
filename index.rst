@@ -49,6 +49,7 @@ Contents
    :caption: Network
 
    governance/index.rst
+   votingnodes/index
    masternodes/index
 
    
