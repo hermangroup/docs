@@ -38,7 +38,7 @@ a self-operated masternode.
    hosting.rst
    setup-ipfs.rst
    setup-cdmn.rst
-   setup-win-cdmn.rst
+
 
 
  
