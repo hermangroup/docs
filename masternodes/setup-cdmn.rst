@@ -27,16 +27,14 @@ time. You will need:
 
 We also assume you will be working from a Windows computer. However, since most of the work is done on your Linux VPS, alternative steps for using macOS or Linux will be indicated where necessary.
 
-Masternode Roles
-----------------
+Masternode Requirements
+-----------------------
 
- - Content Distribution Masternode 
- 
-   - Collateral Requirement: 5000 HTA
-   - Reward: 25% per block - increaes 2.5% every 2 months until 50% per block
-   - Ports: TCP 10101, TCP 4001, TCP 8080
-   - IPFS Required: Yes
-   - IPv4 and IPv6 address required
+- Collateral Requirement: 5000 HTA
+- Reward: 25% per block - increaes 2.5% every 2 months until 50% per block
+- Ports: TCP 10101, TCP 4001, TCP 8080
+- IPFS Required: Yes
+- IPv4 address required
 
 In this guide, we will setup a Content Distribution Masternode (CDMN) with collateral of 5000. 
 
