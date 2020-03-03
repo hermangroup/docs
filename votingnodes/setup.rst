@@ -5,8 +5,10 @@
 .. _votingnode-setup:
 
 ==========================================
-Setup a Voting Masternode - 100 Collateral
+Setup a Voting Node
 ==========================================
+
+*** Voting Nodes are NOT active yet, please wait for further notice before attempting to setup your voting node ***
 
 Setting up a voting node requires a basic understanding of how to use a computer, as well as an ability to follow instructions closely. 
 
@@ -49,7 +51,7 @@ Option 1: Automated Voting Node Setup
 Open Historia Core wallet and wait for it to synchronize with the network.
 It should look like this when ready:
 
-.. figure:: ../img/picture1.png
+.. figure:: img/picture1.png
    :width: 400px
 
    Fully synchronized Historia Core wallet
@@ -62,7 +64,7 @@ close or switch this tabs until after you completed the process.
 Otherwise you may have to restart this process. It should look like 
 this when ready:
 
-.. figure:: ../img/picture2.png
+.. figure:: img/picture2.png
    :width: 400px
    
    Voting Node Setup Tab in Historia Core wallet
@@ -70,7 +72,7 @@ this when ready:
 Once you are ready to being click on the "Generate Voting Node Keys" 
 button. This is generate all the required keys for you.
 
-.. figure:: ../img/picture3.png
+.. figure:: img/picture3.png
    :width: 400px
    
    Click Generate Voting Node Keys button
@@ -80,7 +82,7 @@ notepad until the voting node has been registered and you have completed
 this process. Make special note of the BLS Secret Key. This is be require 
 to finalize your Voting Node setup below.
 
-.. figure:: ../img/picture4.png
+.. figure:: img/picture4.png
    :width: 400px
    
    Click Generate Voting Node Keys button
@@ -90,7 +92,7 @@ required collateral transaction to setup your Voting Node. This is send
 exactly 100 HTA to your own wallet. You will only lose a small amount in 
 transaction fees.
 
-.. figure:: ../img/picture5.png
+.. figure:: img/picture5.png
    :width: 400px
    
    Click Send Collateral TX button
@@ -99,7 +101,7 @@ Once the collateral transaction has been processed you will have the
 collateral hash with index at the end of it. Copy this value to notepad.
 
 
-.. figure:: ../img/picture6.png
+.. figure:: img/picture6.png
    :width: 400px
    
    Collateral Hash 
@@ -122,7 +124,7 @@ characters in your Identity::
 After you enter a valid name, the Register Voting Node button will become 
 active.
 
-.. figure:: ../img/picture7.png
+.. figure:: img/picture7.png
    :width: 400px
    
    Valid Identity and the Register Button is now active
@@ -134,7 +136,7 @@ in transaction fees.
 After you click the Register Voting Node button, and 1 block is mined your 
 wallet will show a "Registered" status for your Voting Node.
 
-.. figure:: ../img/picture8.png
+.. figure:: img/picture8.png
    :width: 400px
    
    Registrated Status
@@ -152,9 +154,6 @@ historia.conf Add the following lines into your historia.conf file::
   masternodecollateral=100
   masternodeblsprivkey=<BLS Secret Key that you recorded from above>
   #----
-
-If editing and saving on Windows, be sure to select All files if using Notepad 
-so you don’t end up with a .conf.txt file extension by mistake. 
 
 Save this file in the historiacore data folder on the PC running the Historia 
 Core wallet using the filename historia.conf. You may need to enable View hidden 
@@ -178,13 +177,13 @@ open the Setup Voting Node tab.
 
 If everything has gone correctly, the result should look something like this:
 
-.. figure:: ../img/Picture9.png
+.. figure:: img/picture9.png
    :width: 400px
 
    Your Voting Node is now setup correctly
 
 There is no need to have your wallet open 24 hours a day. You can open and 
-close your wallet when ever you like.
+close your wallet at will.
 
 
 Encrypt And Backup Your Wallet

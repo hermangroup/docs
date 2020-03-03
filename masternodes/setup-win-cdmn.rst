@@ -5,7 +5,7 @@
 .. _masternode-setup:
 
 =====================================================================
-Setup For Windows - Content Distribution Masternode - 5000 Collateral
+Setup For Windows 
 =====================================================================
 
 
@@ -33,21 +33,13 @@ Masternode Roles
 ----------------
 
 Unlike most other masternode coins, Historia makes use of a role based masternode system. Currently there are two roles:
- 
- - Voting Masternode 
- 
-   - Collateral Requirement: 100 HTA
-   - Reward: 10% per block
-   - Ports: TCP 10101, TCP 4001
-   - IPFS Required: No
-   - IPv4 address required
  - Content Distribution Masternode 
  
    - Collateral Requirement: 5000 HTA
    - Reward: 25% per block - increaes 2.5% every 2 months until 50% per block
    - Ports: TCP 10101, TCP 4001, TCP 8080
    - IPFS Required: Yes
-   - IPv4 and IPv6 address required
+   - IPv4 address required
 
 In this guide, we will setup a Content Distribution Masternode (CDMN) with collateral of 5000. 
  
@@ -72,7 +64,7 @@ Option 1: Sending from Historia Core wallet
 Open Historia Core wallet and wait for it to synchronize with the network.
 It should look like this when ready:
 
-.. figure:: ../img/Picture10.png
+.. figure:: /img/Picture10.png
    :width: 400px
 
    Fully synchronized Historia Core wallet
