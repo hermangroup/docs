@@ -444,13 +444,13 @@ operated. These changes and the three keys required for the different
 masternode roles are described briefly under :ref:`dip3-changes` in this
 documentation.
 
-Option 2: Registering from Dash Core wallet
--------------------------------------------
+Option 1: Registering from Historia Core wallet
+-----------------------------------------------
 
 Identify the funding transaction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you used an address in Dash Core wallet for your collateral
+If you used an address in Historia Core wallet for your collateral
 transaction, you now need to find the txid of the transaction. Click
 **Tools > Debug console** and enter the following command::
 
@@ -480,7 +480,7 @@ created.
 If you are using a hosting service, they may provide you with their
 public key, and you can skip this step. If you are hosting your own
 masternode or have agreed to provide your host with the BLS private key,
-generate a BLS public/private keypair in Dash Core by clicking **Tools >
+generate a BLS public/private keypair in Historia Core by clicking **Tools >
 Debug console** and entering the following command::
 
   bls generate
@@ -498,13 +498,13 @@ Add the private key to your masternode configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The public key will be used in following steps. The private key must be
-entered in the ``dash.conf`` file on the masternode. This allows the
+entered in the ``historia.conf`` file on the masternode. This allows the
 masternode to watch the blockchain for relevant Pro*Tx transactions, and
 will cause it to start serving as a masternode when the signed ProRegTx
 is broadcast by the owner (final step below). Log in to your masternode
 using ``ssh`` or PuTTY and edit the configuration file as follows::
 
-  nano ~/.dashcore/dash.conf
+  nano ~/.historiacore/historia.conf
 
 The editor appears with the existing masternode configuration. Add or
 uncomment these lines in the file, replacing the key with your BLS
@@ -517,11 +517,11 @@ Press enter to make sure there is a blank line at the end of the file,
 then press **Ctrl + X** to close the editor and **Y** and **Enter** save
 the file. We now need to restart the masternode for this change to take
 effect. Enter the following commands, waiting a few seconds in between
-to give Dash Core time to shut down::
+to give Historia Core time to shut down::
 
-  ~/.dashcore/dash-cli stop
+  ~/.historiacore/historia-cli stop
   sleep 15
-  ~/.dashcore/dashd
+  ~/.historiacore/historiad
 
 We will now prepare the transaction used to register the masternode on
 the network.
@@ -535,7 +535,7 @@ this transaction as the ``operatorPubKey``.
 
 First, we need to get a new, unused address from the wallet to serve as
 the **owner key address** (``ownerKeyAddr``). This is not the same as
-the collateral address holding 1000 Dash. Generate a new address as
+the collateral address holding 5000 Historia. Generate a new address as
 follows::
 
   getnewaddress
@@ -583,21 +583,21 @@ syntax::
 Open a text editor such as notepad to prepare this command. Replace each
 argument to the command as follows:
 
-- ``collateralHash``: The txid of the 1000 Dash collateral funding 
+- ``collateralHash``: The txid of the 5000 Historia collateral funding 
   transaction
-- ``collateralIndex``: The output index of the 1000 Dash funding 
+- ``collateralIndex``: The output index of the 5000 Historia funding 
   transaction
 - ``ipAndPort``: Masternode IP address and port, in the format 
   ``x.x.x.x:yyyy``
-- ``ownerKeyAddr``: The new Dash address generated above for the 
+- ``ownerKeyAddr``: The new Historia address generated above for the 
   owner/voting address
 - ``operatorPubKey``: The BLS public key generated above (or provided 
   by your hosting service)
-- ``votingKeyAddr``: The new Dash address generated above, or the 
+- ``votingKeyAddr``: The new Historia address generated above, or the 
   address of a delegate, used for proposal voting
 - ``operatorReward``: The percentage of the block reward allocated to 
   the operator as payment
-- ``payoutAddress``: A new or existing Dash address to receive the 
+- ``payoutAddress``: A new or existing Historia address to receive the 
   owner's masternode rewards
 - ``feeSourceAddress``: An (optional) address used to fund ProTx fee. 
   ``payoutAddress`` will be used if not specified.
@@ -641,7 +641,7 @@ private key for the collateral address as specified in
 ``collateralAddress``. Note that no internet connection is required for
 this step, meaning that the wallet can remain disconnected from the
 internet in cold storage to sign the message. In this example we will
-again use Dash Core, but it is equally possible to use the signing
+again use Historia Core, but it is equally possible to use the signing
 function of a hardware wallet. The command takes the following syntax::
 
   signmessage collateralAddress signMessage
@@ -659,7 +659,7 @@ Submit the signed message
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We will now submit the ProRegTx special transaction to the blockchain to
-register the masternode. This command must be sent from a Dash Core
+register the masternode. This command must be sent from a Historia Core
 wallet holding a balance on either the ``feeSourceAddress`` or
 ``payoutAddress``, since a standard transaction fee is involved. The
 command takes the following syntax::
@@ -683,276 +683,8 @@ Output::
 
 Your masternode is now registered and will appear on the Deterministic
 Masternode List after the transaction is mined to a block. You can view
-this list on the **Masternodes -> DIP3 Masternodes** tab of the Dash
+this list on the **Masternodes -> DIP3 Masternodes** tab of the Historia
 Core wallet, or in the console using the command ``protx list valid``,
 where the txid of the final ``protx register_submit`` transaction
 identifies your masternode.
 
-.. _start-masternode:
-Start your masternode
----------------------
-
-Depending on how you sent your masternode collateral, you will need to start your masternode with a command sent by the Historia Core wallet. Before you continue, you must ensure that your 100 or 5000 HTA collateral transaction has at least 15 confirmation, and that historiad is running and fully synchronized with the blockchain on your masternode. See the previous step for details on how to do this. During the startup process, your masternode may pass through the following states:
-
-- ``MASTERNODE_SYNC``: This indicates the data currently being synchronised in the masternode
-- ``MASTERNODE_SYNC_FAILED``: Synchronisation could not complete, check your firewall and restart historiad
-- ``WATCHDOG_EXPIRED``: Waiting for sentinel to restart, make sure it is entered in crontab
-- ``NEW_START_REQUIRED``: Start command must be sent from wallet; check IPFS is running.
-- ``PRE_ENABLED``: Waiting for network to recognize started masternode
-- ``ENABLED``: Masternode successfully started
-- ``IPFS_EXPIRED``: This indictates that IPFS is not running.
-- ``EXPIRED``: Masternode has expired. Restart Historiad, restart masternode, check IPFS is running.
-If you masternode does not seem to start immediately, do not arbitrarily issue more start commands. Each time you do so, you will reset your position in the payment queue.
-
-Identify the funding transaction
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If you used an address in Historia Core wallet for your collateral
-transaction, you now need to find the txid of the transaction. Click
-**Tools > Debug console** and enter the following command::
-
-  masternode outputs
-
-This should return a string of characters similar to this::
-
-  {
-  "06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb" : "1",
-  }
-
-The first long string is your transaction hash, while the last number is the index. We now need to create a file called masternode.conf for this wallet in order to be able to use it to issue the command to start your masternode on the network.
-
-Open a new text file in Notepad (or TextEdit on macOS, nano on Linux) and enter the following information:
-
-   - ``Label``: Any single word used to identify your masternode, e.g. MN1
-   - ``IP and port``: The IP address and port (usually 10101) configured in the Historia.conf file, separated by a colon (:)
-   - ``Masternode private key``: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
-   - ``Transaction hash``: The txid we just identified using masternode outputs
-   - ``Index``: The index we just identified using masternode outputs
-   - ``IPv6 Address``: The public IPv6 address required for Content Distribution Masternode. Set this to the IPv6 address of your VPS.
-   - ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set this to your IPFS peer id you get after setting up IPFS. You get this from :ref:`Setup IPFS <ipfs-setup>`.
-
-Content Distribution Masternode - Collateral 5000
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Enter all of this information on a single line with each item separated by a space, for example::
-
-   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2001:19f0:7001:6de:5400:1ff:fef3:8735 QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD
-
-Save this file in the historiacore data folder on the PC running the Historia Core wallet using the filename masternode.conf. You may need to enable View hidden items to view this folder. Be sure to select All files if using Notepad so you don’t end up with a .conf.txt file extension by mistake. For different operating systems, the Historiacore folder can be found in the following locations (copy and paste the shortcut text into the Save dialog to find it quickly):
-
-+-----------+--------------------------------------------------------+--------------------------------------------+
-| Platform  | Path                                                   | Shortcut                                   |
-+===========+========================================================+============================================+
-| Linux     | /home/yourusername/.historiacore                       | ~/.historiacore                            | 
-+-----------+--------------------------------------------------------+--------------------------------------------+
-| OSX       | /Macintosh HD/Library/Application Support/HistoriaCore | ~/Library/Application Support/HistoriaCore |
-+-----------+--------------------------------------------------------+--------------------------------------------+
-| Windows   | C:\Users\yourusername\AppData\Roaming\Historia Core    | %APPDATA%\Historia Core                    |
-+-----------+--------------------------------------------------------+--------------------------------------------+
-
-Now close your text editor and also shut down and restart Historia Core wallet. Historia Core will recognize masternode.conf during startup, and is now ready to activate your masternode. Go to Settings > Unlock Wallet and enter your wallet passphrase. Then click Tools > Debug console again and enter the following command to start your masternode (replace MN1 with the label for your masternode)::
-
-    masternode start-alias MN1
-
-
-At this point you can go back to your terminal window and monitor your masternode by entering ~/.Historiacore/historia-cli masternode status. You will probably need to wait around 30 minutes as the node passes through the PRE_ENABLED stage and finally reaches ENABLED. Give it some time.
-
-At this point you can safely log out of your server by typing exit. Congratulations! Your masternode is now running.
-
-Upgrade Instructions From 0.16.2
-================================
-For nodes that already are running version 0.16.2 of the Historia masternode, follow the following instructions to upgrade to the newest version of Historia.
-
-Download New Binaries
----------------------
-Download latest version of the linux binaries.::
-
-   cd ~  
-   wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.3/historiacore-0.16.3.3-linux64.tar.gz
-
-Stop Daemon
------------
-Stop Historia daemon. You have to do the next few steps quickly, as there is a cronjob that will restart historiad if it's not up. If it restarts during this process, just run ./historia-cli stop again, then copy over the binaries.::
-
-   cd ~/.historiacore  
-   ./historia-cli stop
-
-Install New Binaries and Clean Up
----------------------------------
-Extract the compressed archive, copy the necessary files to the directory and set them as executable::
-   
-   tar xfvz historiacore-0.16.3.3-linux64.tar.gz  
-   cp historiacore-0.16.3/bin/historiad .historiacore/  
-   cp historiacore-0.16.3/bin/historia-cli .historiacore/  
-   chmod 777 .historiacore/historia*
-
-
-Clean up unneeded files::
-   
-   rm historiacore-0.16.3.3-linux64.tar.gz  
-   rm -r historiacore-0.16.3/
-   
-Update Firewall Rules
----------------------
-We have to update the firewall rules
-
-::
-
-  ufw allow ssh/tcp
-  ufw limit ssh/tcp
-  ufw allow 10101/tcp
-  ufw allow 8080/tcp  
-  ufw allow 4001/tcp  
-  ufw enable
-
-(press **Y** and **Enter** to confirm)
-
-Update Sentinel
----------------
-You must upgrade to the newest version of Sentinel as well::
-
-   cd ~/.historiacore/sentinel  
-   git pull
-   
-Update Historia.conf
---------------------
-Before we can start the Historiad we must update a few settings in historia.conf. 
-Open the historia.conf configuration file using the following command::
-
-  nano ~/.historiacore/historia.conf
-
-An editor window will appear. We now need to update the configuration file
-to add the new masternodecollateral directive. A sample config file is below::
-
-  #----
-  rpcuser=XXXXXXXXXXXXX
-  rpcpassword=XXXXXXXXXXXXXXXXXXXXXXXXXXXX
-  rpcallowip=127.0.0.1
-  #----
-  listen=1
-  server=1
-  daemon=1
-  maxconnections=64
-  #----
-  masternode=1
-  masternodecollateral=XXXX
-  masternodeprivkey=XXXXXXXXXXXXXXXXXXXXXXX
-  externalip=XXX.XXX.XXX.XXX:10101
-  #----
-
-Replace the fields marked with ``XXXXXXX`` as follows:
-
-- ``rpcuser``: enter any string of numbers or letters, no special
-  characters allowed
-- ``rpcpassword``: enter any string of numbers or letters, no special
-  characters allowed
-- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode. For this guide set this to 5000.
-- ``masternodeprivkey``: this is the legacy masternode private key you
-  generated in the previous step
-- ``externalip``: this is the IPv4 address of your VPS
-
-The result should look something like this:
-
-.. figure:: ../img/Picture12.png
-   :width: 400px
-
-   Entering key data in historia.conf on the masternode
-
-Press **Ctrl + X** to close the editor and **Y** and **Enter** save the
-file. 
-
-Start Historia Masternode
--------------------------
-
-You can now start running Historia on the masternode to begin synchronization with the blockchain::
-  
-  ~/.historiacore/historiad
-
-Start your masternode
-^^^^^^^^^^^^^^^^^^^^^
-
-Check that masternode is in sync::
-
-   ~/.historiacore/historia-cli mnsync status
-
-When synchronisation is complete, you should see the following response::
-
-   {  
-      "AssetID": 999,  
-      "AssetName": "MASTERNODE_SYNC_FINISHED",  
-      "Attempt": 0,  
-      "IsBlockchainSynced": true,  
-      "IsMasternodeListSynced": true,  
-      "IsWinnersListSynced": true,  
-      "IsSynced": true,  
-      "IsFailed": false  
-   }  
-
-Once masternode is in sync, restart masternode::
-
-   masternode start-alias MN1
-
-Check that you are on correct version
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Check that version number::
-
-   ~/.historiacore/historia-cli getinfo
-
-Version should be set to 160303
-
-Protocol should be to 70213::
-
-   {  
-      "version": 160303,  
-      "protocolversion": 70213,  
-      "walletversion": 61000,  
-      "balance": 0.00000000,  
-      "privatesend_balance": 0.00000000,  
-      "blocks": 25900,  
-      "timeoffset": 0,  
-      "connections": 5,  
-      "proxy": "",  
-      "difficulty": 0.0007275013747428129,  
-      "testnet": false,  
-      "keypoololdest": 1540240263,  
-      "keypoolsize": 1000,  
-      "paytxfee": 0.00000000,  
-      "relayfee": 0.00001000,  
-      "errors": ""  
-   }
-   
-Update masternode.conf
-----------------------
-Next, open the masternode.conf text file that you previously created, in Notepad (or TextEdit on macOS, nano on Linux). We have to update the masternode.conf file to use the new masternode parameters:
-
-   - ``Label``: Any single word used to identify your masternode, e.g. MN1
-   - ``IP and port``: The IP address and port (usually 10101) configured in the Historia.conf file, separated by a colon (:)
-   - ``Masternode private key``: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
-   - ``Transaction hash``: The txid we just identified using masternode outputs
-   - ``Index``: The index we just identified using masternode outputs
-   - ``IPv6 Address``: The public IPv6 address required for Content Distribution Masternode. Set this to the IPv6 address of your VPS.
-   - ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set this to you IPFS peer id you get after setting up IPFS. You get this from :ref:`Setup IPFS <ipfs-setup>`.
-
-Content Distribution Masternode - Collateral 5000
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Enter all of this information on a single line with each item separated by a space, for example::
-
-   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2001:19f0:7001:6de:5400:1ff:fef3:8735 QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD
-Save this file in the historiacore data folder on the PC running the Historia Core wallet using the filename masternode.conf. You may need to enable View hidden items to view this folder. Be sure to select All files if using Notepad so you don’t end up with a .conf.txt file extension by mistake. For different operating systems, the Historiacore folder can be found in the following locations (copy and paste the shortcut text into the Save dialog to find it quickly):
-
-+-----------+--------------------------------------------------------+--------------------------------------------+
-| Platform  | Path                                                   | Shortcut                                   |
-+===========+========================================================+============================================+
-| Linux     | /home/yourusername/.historiacore                       | ~/.historiacore                            | 
-+-----------+--------------------------------------------------------+--------------------------------------------+
-| OSX       | /Macintosh HD/Library/Application Support/HistoriaCore | ~/Library/Application Support/HistoriaCore |
-+-----------+--------------------------------------------------------+--------------------------------------------+
-| Windows   | C:\Users\yourusername\AppData\Roaming\Historia Core    | %APPDATA%\Historia Core                    |
-+-----------+--------------------------------------------------------+--------------------------------------------+
-
-Now close your text editor and also shut down and restart Historia Core wallet. Historia Core will recognize masternode.conf during startup, and is now ready to activate your masternode. Go to Settings > Unlock Wallet and enter your wallet passphrase. Then click Tools > Debug console again and enter the following command to start your masternode (replace MN1 with the label for your masternode)::
-
-    masternode start-alias mn1
-
-At this point you can go back to your terminal window and monitor your masternode by entering ~/.Historiacore/historia-cli masternode status. You will probably need to wait around 30 minutes as the node passes through the PRE_ENABLED stage and finally reaches ENABLED. Give it some time.
-
-Your masternode is now running. 
