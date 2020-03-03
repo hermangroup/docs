@@ -57,7 +57,7 @@ Select a location for your new server on the following screen:
 
    Vultr server location selection screen
 
-Select Ubuntu 16.04 x64 as the server type. We use this LTS release of
+Select Ubuntu 18.04 x64 as the server type. We use this LTS release of
 Ubuntu instead of the latest version because LTS releases are supported
 with security updates for 5 years, instead of the usual 9 months.
 
@@ -96,7 +96,7 @@ Vultr will now install your server. This process may take a few minutes.
    Vultr server installation screen
 
 Click **Manage** when installation is complete and take note of the IPv4
-address, IPv6 address (if setting up Content Distribution Masternnode), username and password.
+address, username and password.
 
 .. figure:: ../img/Picture6.png
    :width: 276px
@@ -269,11 +269,7 @@ It should look like this when ready:
    Fully synchronized Historia Core wallet
 
 Click **Tools > Debug console** to open the console. Type the following
-two commands into the console to generate a legacy masternode key
-and a new Historia address for the collateral::
-
-  masternode genkey
-  93PAqQsDjcVdYJHRfQPjsSt5338GCswMnUaSxoCD8J6fiLk4NHL
+two commands into the console to generate a new Historia address for the collateral::
 
   getnewaddress
   HBvcjyzWmt9x9QJNVDyxezhxSXcWEDEdsS
@@ -307,7 +303,7 @@ Core on your VPS.
 
 Install Historia Core
 =====================
-You MUST use Historia 0.16.3.2 or later, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/
+You MUST use Historia v0.17.0.0 or later, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/
 
 Historia Core is the software behind both the Historia Core GUI wallet and Historia
 masternodes. If not displaying a GUI, it runs as a daemon on your VPS
@@ -322,22 +318,22 @@ Option 1: Manual installation
 To manually download and install the components of your Historia masternode, visit https://github.com/HistoriaOffical/historia/releases/ on your computer to find the link to the latest Historia Core wallet.  Right-click on Download TGZ for Historia Core Linux 64 Bit and select Copy link address. Go back to your terminal window and enter the following command, pasting in the address to the latest version of Historia Core by right clicking or pressing Ctrl + V::
 
   cd /tmp
-  wget https://github.com/HistoriaOffical/historia/releases/download/0.16.3.3/historiacore-0.16.3.3-linux64.tar.gz
+  wget https://github.com/HistoriaOffical/historia/releases/download/0.17.0.0/historiacore-0.17.0-x86_64-linux-gnu.tar.gz
   
 Create a working directory for Historia, extract the compressed archive and
 copy the necessary files to the directory::
 
   mkdir ~/.historiacore
-  tar xfvz historiacore-0.16.3.3-linux64.tar.gz  
-  cp historiacore-0.16.3/bin/historiad ~/.historiacore/  
-  cp historiacore-0.16.3/bin/historia-cli ~/.historiacore/  
+  tar xfvz historiacore-0.17.0-x86_64-linux-gnu.tar.gz
+  cp historiacore-0.17.0/bin/historiad ~/.historiacore/  
+  cp historiacore-0.17.0/bin/historia-cli ~/.historiacore/  
   chmod 777 ~/.historiacore/historia*  
 
 
 Clean up unneeded files::
 
-  rm historiacore-0.16.3.3-linux64.tar.gz  
-  rm -r historiacore-0.16.3/
+  rm historiacore-0.17.0-x86_64-linux-gnu.tar.gz
+  rm -r istoriacore-0.17.0/
 
 Create a configuration file using the following command::
 
@@ -349,21 +345,20 @@ started, then replace the variables specific to your configuration as
 follows::
 
 
-  #----
-  rpcuser=XXXXXXXXXXXXX
-  rpcpassword=XXXXXXXXXXXXXXXXXXXXXXXXXXXX
-  rpcallowip=127.0.0.1
-  #----
-  listen=1
-  server=1
-  daemon=1
-  maxconnections=64
-  #----
-  masternode=1
-  masternodecollateral=XXXX
-  masternodeprivkey=XXXXXXXXXXXXXXXXXXXXXXX
-  externalip=XXX.XXX.XXX.XXX
-  #----
+   #----
+   rpcuser=XXXXXXXXXXXXX
+   rpcpassword=XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+   rpcallowip=127.0.0.1
+   #----
+   listen=1
+   server=1
+   daemon=1
+   #----
+   #masternode=1
+   #masternodeblsprivkey=
+   #masternodecollateral=5000
+   externalip=XXX.XXX.XXX.XXX
+   #----
 
 Replace the fields marked with ``XXXXXXX`` as follows:
 
@@ -371,12 +366,9 @@ Replace the fields marked with ``XXXXXXX`` as follows:
   characters allowed
 - ``rpcpassword``: enter any string of numbers or letters, no special
   characters allowed
-- ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode. For this guide set this to 5000.
-- ``masternodeprivkey``: this is the legacy masternode private key you
-  generated in the previous step
 - ``externalip``: this is the IPv4 address of your VPS
 
-The result should look something like this:
+Leave the masternode and masternodeblsprivkey fields commented out for now. The result should look something like this:
 
 .. figure:: ../img/Picture12.png
    :width: 400px
@@ -440,7 +432,261 @@ response::
    "IsFailed": false
   }
 
-Continue with the next step to start your masternode.
+Continue with the next step to construct the ProTx transaction required to enable your masternode.
+
+.. _register-masternode:
+
+Register your masternode
+========================
+
+DIP003 introduced several changes to how a masternode is set up and
+operated. These changes and the three keys required for the different
+masternode roles are described briefly under :ref:`dip3-changes` in this
+documentation.
+
+Option 2: Registering from Dash Core wallet
+-------------------------------------------
+
+Identify the funding transaction
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you used an address in Dash Core wallet for your collateral
+transaction, you now need to find the txid of the transaction. Click
+**Tools > Debug console** and enter the following command::
+
+  masternode outputs
+
+This should return a string of characters similar to the following::
+
+  {
+  "16347a28f4e5edf39f4dceac60e2327931a25fdee1fb4b94b63eeacf0d5879e3" : "1",
+  }
+
+The first long string is your ``collateralHash``, while the last number
+is the ``collateralIndex``. 
+
+
+.. _bls-generation:
+
+Generate a BLS key pair
+^^^^^^^^^^^^^^^^^^^^^^^
+
+A public/private BLS key pair is required to operate a masternode. The
+private key is specified on the masternode itself, and allows it to be
+included in the deterministic masternode list once a provider
+registration transaction with the corresponding public key has been
+created.
+
+If you are using a hosting service, they may provide you with their
+public key, and you can skip this step. If you are hosting your own
+masternode or have agreed to provide your host with the BLS private key,
+generate a BLS public/private keypair in Dash Core by clicking **Tools >
+Debug console** and entering the following command::
+
+  bls generate
+
+  {
+    "secret": "395555d67d884364f9e37e7e1b29536519b74af2e5ff7b62122e62c2fffab35e",
+    "public": "99f20ed1538e28259ff80044982372519a2e6e4cdedb01c96f8f22e755b2b3124fbeebdf6de3587189cf44b3c6e7670e"
+  }
+
+**These keys are NOT stored by the wallet and must be kept secure,
+similar to the value provided in the past by the** ``masternode genkey``
+**command.**
+
+Add the private key to your masternode configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The public key will be used in following steps. The private key must be
+entered in the ``dash.conf`` file on the masternode. This allows the
+masternode to watch the blockchain for relevant Pro*Tx transactions, and
+will cause it to start serving as a masternode when the signed ProRegTx
+is broadcast by the owner (final step below). Log in to your masternode
+using ``ssh`` or PuTTY and edit the configuration file as follows::
+
+  nano ~/.dashcore/dash.conf
+
+The editor appears with the existing masternode configuration. Add or
+uncomment these lines in the file, replacing the key with your BLS
+private key generated above::
+
+  masternode=1
+  masternodeblsprivkey=395555d67d884364f9e37e7e1b29536519b74af2e5ff7b62122e62c2fffab35e
+
+Press enter to make sure there is a blank line at the end of the file,
+then press **Ctrl + X** to close the editor and **Y** and **Enter** save
+the file. We now need to restart the masternode for this change to take
+effect. Enter the following commands, waiting a few seconds in between
+to give Dash Core time to shut down::
+
+  ~/.dashcore/dash-cli stop
+  sleep 15
+  ~/.dashcore/dashd
+
+We will now prepare the transaction used to register the masternode on
+the network.
+
+Prepare a ProRegTx transaction
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A pair of BLS keys for the operator were already generated above, and
+the private key was entered on the masternode. The public key is used in
+this transaction as the ``operatorPubKey``.
+
+First, we need to get a new, unused address from the wallet to serve as
+the **owner key address** (``ownerKeyAddr``). This is not the same as
+the collateral address holding 1000 Dash. Generate a new address as
+follows::
+
+  getnewaddress
+
+  yfgxFhqrdDG15ZWKJAN6dQvn6dZdgBPAip
+
+This address can also be used as the **voting key address**
+(``votingKeyAddr``). Alternatively, you can specify an address provided
+to you by your chosen voting delegate, or simply generate a new voting
+key address as follows::
+
+  getnewaddress
+
+  yfRaZN8c3Erpqj9iKnmQ9QDBeUuRhWV3Mg
+
+Then either generate or choose an existing address to receive the
+**owner's masternode payouts** (``payoutAddress``). It is also possible
+to use an address external to the wallet::
+
+  getnewaddress
+
+  yjZVt49WsQd6XSrPVAUGXtJccxviH9ZQpN
+
+You can also optionally generate and fund another address as the
+**transaction fee source** (``feeSourceAddress``). If you selected an
+external payout address, you must specify a fee source address. Either
+the payout address or fee source address must have enough balance to pay
+the transaction fee, or the final ``register_submit`` transaction will
+fail.
+
+The private keys to the owner and fee source addresses must exist in the
+wallet submitting the transaction to the network. If your wallet is
+protected by a password, it must now be unlocked to perform the
+following commands. Unlock your wallet for 5 minutes::
+
+  walletpassphrase yourSecretPassword 300
+
+We will now prepare an unsigned ProRegTx special transaction using the
+``protx register_prepare`` command. This command has the following
+syntax::
+
+  protx register_prepare collateralHash collateralIndex ipAndPort ownerKeyAddr 
+    operatorPubKey votingKeyAddr operatorReward payoutAddress (feeSourceAddress)
+
+Open a text editor such as notepad to prepare this command. Replace each
+argument to the command as follows:
+
+- ``collateralHash``: The txid of the 1000 Dash collateral funding 
+  transaction
+- ``collateralIndex``: The output index of the 1000 Dash funding 
+  transaction
+- ``ipAndPort``: Masternode IP address and port, in the format 
+  ``x.x.x.x:yyyy``
+- ``ownerKeyAddr``: The new Dash address generated above for the 
+  owner/voting address
+- ``operatorPubKey``: The BLS public key generated above (or provided 
+  by your hosting service)
+- ``votingKeyAddr``: The new Dash address generated above, or the 
+  address of a delegate, used for proposal voting
+- ``operatorReward``: The percentage of the block reward allocated to 
+  the operator as payment
+- ``payoutAddress``: A new or existing Dash address to receive the 
+  owner's masternode rewards
+- ``feeSourceAddress``: An (optional) address used to fund ProTx fee. 
+  ``payoutAddress`` will be used if not specified.
+
+Note that the operator is responsible for :ref:`specifying their own
+reward <dip3-update-service>` address in a separate ``update_service``
+transaction if you specify a non-zero ``operatorReward``. The owner of
+the masternode collateral does not specify the operator's payout
+address.
+
+Example (remove line breaks if copying)::
+
+  protx register_prepare 
+    16347a28f4e5edf39f4dceac60e2327931a25fdee1fb4b94b63eeacf0d5879e3 
+    1 
+    45.76.230.239:19999 
+    yfgxFhqrdDG15ZWKJAN6dQvn6dZdgBPAip 
+    99f20ed1538e28259ff80044982372519a2e6e4cdedb01c96f8f22e755b2b3124fbeebdf6de3587189cf44b3c6e7670e 
+    yfRaZN8c3Erpqj9iKnmQ9QDBeUuRhWV3Mg 
+    0 
+    yjZVt49WsQd6XSrPVAUGXtJccxviH9ZQpN 
+    yR83WsikBaBaNusTnHZf28kAcL8oVmp1TE
+
+Output::
+
+  {
+    "tx": "030001000175c9d23c2710798ef0788e6a4d609460586a20e91a15f2097f56fc6e007c4f8e0000000000feffffff01a1949800000000001976a91434b09363474b14d02739a327fe76e6ea12deecad88ac00000000d1010000000000e379580dcfea3eb6944bfbe1de5fa2317932e260acce4d9ff3ede5f4287a34160100000000000000000000000000ffff2d4ce6ef4e1fd47babdb9092489c82426623299dde76b9c72d9799f20ed1538e28259ff80044982372519a2e6e4cdedb01c96f8f22e755b2b3124fbeebdf6de3587189cf44b3c6e7670ed1935246865dce1accce6c8691c8466bd67ebf1200001976a914fef33f56f709ba6b08d073932f925afedaa3700488acfdb281e134504145b5f8c7bd7b47fd241f3b7ea1f97ebf382249f601a0187f5300",
+    "collateralAddress": "yjSPYvgUiAQ9AFj5tKFA8thFLoLBUxQERb",
+    "signMessage": "yjZVt49WsQd6XSrPVAUGXtJccxviH9ZQpN|0|yfgxFhqrdDG15ZWKJAN6dQvn6dZdgBPAip|yfRaZN8c3Erpqj9iKnmQ9QDBeUuRhWV3Mg|ad5f82257bd00a5a1cb5da1a44a6eb8899cf096d3748d68b8ea6d6b10046a28e"
+  }
+
+Next we will use the ``collateralAddress`` and ``signMessage`` fields to
+sign the transaction, and the output of the ``tx`` field to submit the
+transaction.
+
+Sign the ProRegTx transaction
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+We will now sign the content of the ``signMessage`` field using the
+private key for the collateral address as specified in
+``collateralAddress``. Note that no internet connection is required for
+this step, meaning that the wallet can remain disconnected from the
+internet in cold storage to sign the message. In this example we will
+again use Dash Core, but it is equally possible to use the signing
+function of a hardware wallet. The command takes the following syntax::
+
+  signmessage collateralAddress signMessage
+
+Example::
+
+  signmessage yjSPYvgUiAQ9AFj5tKFA8thFLoLBUxQERb yjZVt49WsQd6XSrPVAUGXtJccxviH9ZQpN|0|yfgxFhqrdDG15ZWKJAN6dQvn6dZdgBPAip|yfRaZN8c3Erpqj9iKnmQ9QDBeUuRhWV3Mg|ad5f82257bd00a5a1cb5da1a44a6eb8899cf096d3748d68b8ea6d6b10046a28e
+
+Output::
+
+  II8JvEBMj6I3Ws8wqxh0bXVds6Ny+7h5HAQhqmd5r/0lWBCpsxMJHJT3KBcZ23oUZtsa6gjgISf+a8GzJg1BfEg=
+
+
+Submit the signed message
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+We will now submit the ProRegTx special transaction to the blockchain to
+register the masternode. This command must be sent from a Dash Core
+wallet holding a balance on either the ``feeSourceAddress`` or
+``payoutAddress``, since a standard transaction fee is involved. The
+command takes the following syntax::
+
+  protx register_submit tx sig
+
+Where: 
+
+- ``tx``: The serialized transaction previously returned in the ``tx`` 
+  output field from the ``protx register_prepare`` command
+- ``sig``: The message signed with the collateral key from the 
+  ``signmessage`` command
+
+Example::
+
+  protx register_submit 030001000175c9d23c2710798ef0788e6a4d609460586a20e91a15f2097f56fc6e007c4f8e0000000000feffffff01a1949800000000001976a91434b09363474b14d02739a327fe76e6ea12deecad88ac00000000d1010000000000e379580dcfea3eb6944bfbe1de5fa2317932e260acce4d9ff3ede5f4287a34160100000000000000000000000000ffff2d4ce6ef4e1fd47babdb9092489c82426623299dde76b9c72d9799f20ed1538e28259ff80044982372519a2e6e4cdedb01c96f8f22e755b2b3124fbeebdf6de3587189cf44b3c6e7670ed1935246865dce1accce6c8691c8466bd67ebf1200001976a914fef33f56f709ba6b08d073932f925afedaa3700488acfdb281e134504145b5f8c7bd7b47fd241f3b7ea1f97ebf382249f601a0187f5300 II8JvEBMj6I3Ws8wqxh0bXVds6Ny+7h5HAQhqmd5r/0lWBCpsxMJHJT3KBcZ23oUZtsa6gjgISf+a8GzJg1BfEg=
+
+Output::
+
+  aba8c22f8992d78fd4ff0c94cb19a5c30e62e7587ee43d5285296a4e6e5af062
+
+Your masternode is now registered and will appear on the Deterministic
+Masternode List after the transaction is mined to a block. You can view
+this list on the **Masternodes -> DIP3 Masternodes** tab of the Dash
+Core wallet, or in the console using the command ``protx list valid``,
+where the txid of the final ``protx register_submit`` transaction
+identifies your masternode.
 
 .. _start-masternode:
 Start your masternode
