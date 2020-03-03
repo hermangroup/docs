@@ -23,6 +23,7 @@ time. You will need:
 - A wallet to store your Historia, although Historia Core wallet is also supported.
 - A Linux server, preferably a Virtual Private Server (VPS).
 - IPv4 address
+- Your Own DNS name
 
 
 We also assume you will be working from a Windows computer. However, since most of the work is done on your Linux VPS, alternative steps for using macOS or Linux will be indicated where necessary.
