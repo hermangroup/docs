@@ -332,7 +332,7 @@ copy the necessary files to the directory::
 Clean up unneeded files::
 
   rm historiacore-0.17.0-x86_64-linux-gnu.tar.gz
-  rm -r istoriacore-0.17.0/
+  rm -r historiacore-0.17.0/
 
 Create a configuration file using the following command::
 
@@ -356,7 +356,7 @@ follows::
    #masternode=1
    #masternodeblsprivkey=
    #masternodecollateral=5000
-   externalip=XXX.XXX.XXX.XXX
+   externalip=XXX.XXX.XXX.XXX:10101
    #----
 
 Replace the fields marked with ``XXXXXXX`` as follows:
@@ -431,21 +431,38 @@ response::
    "IsFailed": false
   }
 
-Continue with the next step to construct the ProTx transaction required to enable your masternode.
-
-Running the IPFS daemon is now a required part of the masternode system. A Content Distribution Masternode - Collateral 5000 requires IPFS to run a masternode. You must follow these steps. 
-
-If you are setting up a Windows Masternode, please skip down to the section IPFS For Windows Masternodes. 
+Continue with the next step to install IPFS required by your masternode. Running the IPFS daemon is now a required part of the masternode system. You must follow these steps. 
 
 Setup IPFS 
 ==========
 
-Download / Install IPFS Daemon
-------------------------------
+Install IPFS Daemon
+-------------------
 
 Next install IPFS daemon.::
 
    sudo snap install ipfs
+   
+Permanetly add snap to enviroment path
+--------------------------------------
+
+Edit environment file::
+
+   sudo nano /etc/environment
+   
+Add snap path to end of to the end of the PATH string::
+
+   :/snap/bin
+   
+It should look something like this::
+
+   PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+   
+Now reboot the VPS server::
+
+   sudo reboot
+   
+After reboot, please reconnect to your VPS to continue
 
 Initialize IPFS Daemon for Historia
 -----------------------------------
@@ -455,9 +472,8 @@ Since we will be using IPFS only for Historia, we can safely run the initializat
    
 Remove Original Bootstap IPFS Nodes and Connect to Historia IPFS Swarm
 ----------------------------------------------------------------------
-IPFS can be bandwidth hungry, so we want to remove the IPFS bootstrap nodes, configure our IPFS node, and only connect to the Historia IPFS Swarm::
+Add Historia IPFS bootstrap nodes, configure our IPFS node, and only connect to the Historia IPFS Swarm::
 
-   ipfs bootstrap rm --all
    ipfs bootstrap add /ip4/202.182.119.4/tcp/4001/ipfs/QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD
    ipfs bootstrap add /ip4/149.28.22.65/tcp/4001/ipfs/QmZkRv4qfXvtHot37STR8rJxKg5cDKFnkF5EMh2oP6iBVU
    ipfs bootstrap add /ip4/149.28.247.81/tcp/4001/ipfs/QmcvrQ8LpuMqtjktwXRb7Mm6JMCqVdGz6K7VyQynvWRopH
@@ -476,7 +492,7 @@ IPFS can be bandwidth hungry, so we want to remove the IPFS bootstrap nodes, con
    
 Next, download the swarm.key to authenticate to the Historia IPFS Swarm::
 
-   cd ~/.ipfs
+   cd ~/snap/ipfs/1170/.ipfs
    wget https://raw.githubusercontent.com/HistoriaOffical/ipfs-swarmkey/master/swarm.key
    
 Now when you start IPFS, the IPFS daemon will now connect to the Historia IPFS swarm when started.
@@ -502,7 +518,7 @@ Copy and past the below config and save the ipfs.service file. Add the username 
    RestartSec=1
    StartLimitInterval=0
    User=<YOURUSERNAME>
-   ExecStart=/usr/local/bin/ipfs daemon
+   ExecStart=/snap/bin/ipfs daemon
    
    [Install]
    WantedBy=multi-user.target
@@ -537,7 +553,7 @@ Result::
          "/ip4/127.0.0.1/tcp/4001/ipfs/QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD",
          "/ip4/<youripv4address>/tcp/4001/ipfs/QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD",
       ],
-      "AgentVersion": "go-ipfs/0.4.20/",
+      "AgentVersion": "go-ipfs/0.4.21/8ca278f45",
       "ProtocolVersion": "ipfs/0.1.0"
    }
 
@@ -641,6 +657,8 @@ Congratulations! You now have finished setup for IPFS. You can now test out the 
    https://<yourdomainname>/ipfs/QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv/readme
 
 If you see the IPFS help message, you have successful setup your IPFS Nginx proxy. You can now proceed to installing your Historia masternode.
+
+Continue with the next step to construct the ProTx transaction required to enable your masternode. 
 
 .. _register-masternode:
 
