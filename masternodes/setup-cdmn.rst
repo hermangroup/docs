@@ -182,7 +182,7 @@ newly secured environment as the new user::
   ufw allow ssh/tcp
   ufw limit ssh/tcp
   ufw allow 10101/tcp
-  ufw allow 8080/tcp  
+  ufw allow 443/tcp  
   ufw allow 4001/tcp  
   ufw logging on
   ufw enable
