@@ -30,7 +30,6 @@ We also assume you will be working from a Windows computer. However, since most 
 Masternode Roles
 ----------------
 
-Unlike most other masternode coins, Historia makes use of a role based masternode system. Currently there are two roles:
  - Content Distribution Masternode 
  
    - Collateral Requirement: 5000 HTA
