@@ -32,7 +32,7 @@ Masternode Requirements
 
 - Collateral Requirement: 5000 HTA
 - Reward: 25% per block - increaes 2.5% every 2 months until 50% per block
-- Ports: TCP 10101, TCP 4001, TCP 8080
+- Ports: TCP 10101, TCP 4001, TCP 443
 - IPFS Required: Yes
 - IPv4 address required
 
