@@ -272,7 +272,7 @@ Click **Tools > Debug console** to open the console. Type the following
 two commands into the console to generate a new Historia address for the collateral::
 
   getnewaddress
-  HBvcjyzWmt9x9QJNVDyxezhxSXcWEDEdsS
+  HBm4FXgZXdb4NYqx1DJ3h9v9reFqYe9F6L
 
 Take note of the masternode private key and collateral address,
 since we will need it later. The next step is to secure your wallet (if
@@ -540,7 +540,7 @@ follows::
 
   getnewaddress
 
-  yfgxFhqrdDG15ZWKJAN6dQvn6dZdgBPAip
+  HTGfMbCy2X65th3L78JVyqpzhu6p1fbSC6
 
 This address can also be used as the **voting key address**
 (``votingKeyAddr``). Alternatively, you can specify an address provided
@@ -549,7 +549,7 @@ key address as follows::
 
   getnewaddress
 
-  yfRaZN8c3Erpqj9iKnmQ9QDBeUuRhWV3Mg
+  HDsy8GUnsdFKWrRHB8WbD4oaLvETDZ9scY
 
 Then either generate or choose an existing address to receive the
 **owner's masternode payouts** (``payoutAddress``). It is also possible
@@ -557,7 +557,7 @@ to use an address external to the wallet::
 
   getnewaddress
 
-  yjZVt49WsQd6XSrPVAUGXtJccxviH9ZQpN
+  HEAjS5DJ9cjprZvk3t1eeq7jn2dhZztfDJ
 
 You can also optionally generate and fund another address as the
 **transaction fee source** (``feeSourceAddress``). If you selected an
@@ -565,6 +565,10 @@ external payout address, you must specify a fee source address. Either
 the payout address or fee source address must have enough balance to pay
 the transaction fee, or the final ``register_submit`` transaction will
 fail.
+
+   getnewaddress
+   
+   HQyqm7srzV7nYhGLjuzTzjBs452suStCQW
 
 The private keys to the owner and fee source addresses must exist in the
 wallet submitting the transaction to the network. If your wallet is
@@ -578,7 +582,7 @@ We will now prepare an unsigned ProRegTx special transaction using the
 syntax::
 
   protx register_prepare collateralHash collateralIndex ipAndPort ownerKeyAddr 
-    operatorPubKey votingKeyAddr operatorReward payoutAddress (feeSourceAddress)
+    operatorPubKey votingKeyAddr operatorReward payoutAddress ipfsPeerId identity (feeSourceAddress)
 
 Open a text editor such as notepad to prepare this command. Replace each
 argument to the command as follows:
@@ -599,6 +603,8 @@ argument to the command as follows:
   the operator as payment
 - ``payoutAddress``: A new or existing Historia address to receive the 
   owner's masternode rewards
+- ``ipfsPeerId``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set this to your IPFS peer id you get after setting up IPFS. You get this from Setup IPFS.
+- ``identity``: This is the domain name that you previously have registered 
 - ``feeSourceAddress``: An (optional) address used to fund ProTx fee. 
   ``payoutAddress`` will be used if not specified.
 
@@ -614,19 +620,21 @@ Example (remove line breaks if copying)::
     16347a28f4e5edf39f4dceac60e2327931a25fdee1fb4b94b63eeacf0d5879e3 
     1 
     45.76.230.239:19999 
-    yfgxFhqrdDG15ZWKJAN6dQvn6dZdgBPAip 
+    HTGfMbCy2X65th3L78JVyqpzhu6p1fbSC6 
     99f20ed1538e28259ff80044982372519a2e6e4cdedb01c96f8f22e755b2b3124fbeebdf6de3587189cf44b3c6e7670e 
-    yfRaZN8c3Erpqj9iKnmQ9QDBeUuRhWV3Mg 
+    HDsy8GUnsdFKWrRHB8WbD4oaLvETDZ9scY 
     0 
-    yjZVt49WsQd6XSrPVAUGXtJccxviH9ZQpN 
-    yR83WsikBaBaNusTnHZf28kAcL8oVmp1TE
+    HEAjS5DJ9cjprZvk3t1eeq7jn2dhZztfDJ
+    QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD
+    masternode1.historia.network
+    HQyqm7srzV7nYhGLjuzTzjBs452suStCQW
 
 Output::
 
   {
     "tx": "030001000175c9d23c2710798ef0788e6a4d609460586a20e91a15f2097f56fc6e007c4f8e0000000000feffffff01a1949800000000001976a91434b09363474b14d02739a327fe76e6ea12deecad88ac00000000d1010000000000e379580dcfea3eb6944bfbe1de5fa2317932e260acce4d9ff3ede5f4287a34160100000000000000000000000000ffff2d4ce6ef4e1fd47babdb9092489c82426623299dde76b9c72d9799f20ed1538e28259ff80044982372519a2e6e4cdedb01c96f8f22e755b2b3124fbeebdf6de3587189cf44b3c6e7670ed1935246865dce1accce6c8691c8466bd67ebf1200001976a914fef33f56f709ba6b08d073932f925afedaa3700488acfdb281e134504145b5f8c7bd7b47fd241f3b7ea1f97ebf382249f601a0187f5300",
-    "collateralAddress": "yjSPYvgUiAQ9AFj5tKFA8thFLoLBUxQERb",
-    "signMessage": "yjZVt49WsQd6XSrPVAUGXtJccxviH9ZQpN|0|yfgxFhqrdDG15ZWKJAN6dQvn6dZdgBPAip|yfRaZN8c3Erpqj9iKnmQ9QDBeUuRhWV3Mg|ad5f82257bd00a5a1cb5da1a44a6eb8899cf096d3748d68b8ea6d6b10046a28e"
+    "collateralAddress": "HBm4FXgZXdb4NYqx1DJ3h9v9reFqYe9F6L",
+    "signMessage": "HEAjS5DJ9cjprZvk3t1eeq7jn2dhZztfDJ|0|HTGfMbCy2X65th3L78JVyqpzhu6p1fbSC6|HDsy8GUnsdFKWrRHB8WbD4oaLvETDZ9scY|ad5f82257bd00a5a1cb5da1a44a6eb8899cf096d3748d68b8ea6d6b10046a28e"
   }
 
 Next we will use the ``collateralAddress`` and ``signMessage`` fields to
@@ -648,7 +656,7 @@ function of a hardware wallet. The command takes the following syntax::
 
 Example::
 
-  signmessage yjSPYvgUiAQ9AFj5tKFA8thFLoLBUxQERb yjZVt49WsQd6XSrPVAUGXtJccxviH9ZQpN|0|yfgxFhqrdDG15ZWKJAN6dQvn6dZdgBPAip|yfRaZN8c3Erpqj9iKnmQ9QDBeUuRhWV3Mg|ad5f82257bd00a5a1cb5da1a44a6eb8899cf096d3748d68b8ea6d6b10046a28e
+  signmessage HBm4FXgZXdb4NYqx1DJ3h9v9reFqYe9F6L "HEAjS5DJ9cjprZvk3t1eeq7jn2dhZztfDJ|0|HTGfMbCy2X65th3L78JVyqpzhu6p1fbSC6|HDsy8GUnsdFKWrRHB8WbD4oaLvETDZ9scY|ad5f82257bd00a5a1cb5da1a44a6eb8899cf096d3748d68b8ea6d6b10046a28e"
 
 Output::
 
