@@ -482,7 +482,7 @@ Add Historia IPFS bootstrap nodes, configure our IPFS node, and only connect to 
    
 Next, download the swarm.key to authenticate to the Historia IPFS Swarm::
 
-   cd ~/snap/ipfs/1170/.ipfs
+   cd ~/.ipfs
    wget https://raw.githubusercontent.com/HistoriaOffical/ipfs-swarmkey/master/swarm.key
    
 Now when you start IPFS, the IPFS daemon will now connect to the Historia IPFS swarm when started.
