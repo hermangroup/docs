@@ -436,34 +436,24 @@ Continue with the next step to install IPFS required by your masternode. Running
 Setup IPFS 
 ==========
 
-Install IPFS Daemon
--------------------
+Download / Install IPFS Daemon
+------------------------------
 
-Next install IPFS daemon.::
+To run the IPFS Daemon you must install the Go Lang::
 
-   sudo snap install ipfs
+   sudo apt-get update
+   sudo apt-get install golang-go -y
+
+Next download and install IPFS daemon. Because we have used Ubuntu 18.04 64-bit for our OS, there isn't a deb package for this version of Ubuntu::
+
+   wget https://dist.ipfs.io/go-ipfs/v0.4.23/go-ipfs_v0.4.23_linux-amd64.tar.gz
+   tar xvfz go-ipfs_v0.4.23_linux-amd64.tar.gz
+   sudo mv go-ipfs/ipfs /usr/local/bin/ipfs
+
+Clean up::
+
+   rm -rf go-ipfs/
    
-Permanetly add snap to enviroment path
---------------------------------------
-
-Edit environment file::
-
-   sudo nano /etc/environment
-   
-Add snap path to end of to the end of the PATH string::
-
-   :/snap/bin
-   
-It should look something like this::
-
-   PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-   
-Now reboot the VPS server::
-
-   sudo reboot
-   
-After reboot, please reconnect to your VPS to continue
-
 Initialize IPFS Daemon for Historia
 -----------------------------------
 Since we will be using IPFS only for Historia, we can safely run the initialization::
