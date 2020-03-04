@@ -508,7 +508,7 @@ Copy and past the below config and save the ipfs.service file. Add the username 
    RestartSec=1
    StartLimitInterval=0
    User=<YOURUSERNAME>
-   ExecStart=/snap/bin/ipfs daemon
+   ExecStart=/usr/local/bin/ipfs daemon
    
    [Install]
    WantedBy=multi-user.target
