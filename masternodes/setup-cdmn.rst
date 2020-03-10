@@ -8,8 +8,8 @@
 Setup For Linux
 ===================================================================
 
+* Masternodes Nodes are NOT active yet, please wait for further notice before attempting to setup your masternode node *
 
-Masternodes will not be enabled until March 12, 2020 11:00:00 PM GMT. 
 This documentation is out of date. Update coming soon.
 
 Setting up a masternode requires a basic understanding of Linux and blockchain technology, as well as an ability to follow instructions closely. It also requires regular maintenance and careful security. There are some decisions to be made along the way, and optional extra steps to take for increased security.
@@ -24,19 +24,20 @@ time. You will need:
 - A wallet to store your Historia, although Historia Core wallet is also supported.
 - A Linux server, preferably a Virtual Private Server (VPS).
 - IPv4 address
-- Your Own DNS name
+- Your own DNS name
 
 
 We also assume you will be working from a Windows computer. However, since most of the work is done on your Linux VPS, alternative steps for using macOS or Linux will be indicated where necessary.
 
-Masternode Requirements
------------------------
+Masternode Info
+---------------
 
 - Collateral Requirement: 5000 HTA
 - Reward: 25% per block - increaes 2.5% every 2 months until 50% per block
 - Ports: TCP 10101, TCP 4001, TCP 443
 - IPFS Required: Yes
 - IPv4 address required
+- DNS name
 
 In this guide, we will setup a Content Distribution Masternode (CDMN) with collateral of 5000. 
 
