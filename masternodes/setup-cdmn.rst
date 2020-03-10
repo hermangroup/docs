@@ -8,7 +8,7 @@
 Setup For Linux
 ===================================================================
 
-** Masternodes Nodes are NOT active yet, please wait for further notice before attempting to setup your masternode node **
+*** Masternodes Nodes are NOT active yet, please wait for further notice before attempting to setup your masternode node ***
 
 This documentation is out of date. Update coming soon.
 
