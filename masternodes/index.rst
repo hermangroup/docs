@@ -37,7 +37,7 @@ a self-operated masternode.
    understanding.rst
    hosting.rst
    setup-cdmn.rst
-   setup-ipfs.rst
+
 
 
 
