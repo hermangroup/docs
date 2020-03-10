@@ -250,6 +250,13 @@ PuTTY will disconnect when the server reboots.
 
 While this setup includes basic steps to protect your server against attacks, much more can be done. However, since the masternode does not actually store the keys to any Historia, these steps are considered beyond the scope of this guide.
 
+Setup Domain Name System (DNS) A Record
+=======================================
+
+Historia requires a DNS name set to enabled SSL for your IPFS node that will be setup below. This is beyond the scope of this document, but there is plenty of documentation online on how to do this. Find a cheap DNS registrar and create a A record that points to the IP address of your VPS. Namecheap.com or GoDaddy.com are options for this. This can be any top level domain, such as .xyz ($0.88 annually) or .fun ($1.00 annually), so get this cheapest domain you can get. 
+
+Remember that if you live in a oppressive country, your name will be associated with your DNS record in the global WHOIS database. Some DNS providers such as ionos.com will give a DNS name privacy for free with domain registration. But they would still be required to hand over your domain name information via court order. Another option is using one of the new blockchain DNS systems such as unstoppabledomains.com, and using crypto currency to purchase your domain name. However we have not tested using a blockchain DNS system yet.
+
 Send the collateral
 ===================
 
@@ -548,12 +555,6 @@ Result::
       "AgentVersion": "go-ipfs/0.4.21/8ca278f45",
       "ProtocolVersion": "ipfs/0.1.0"
    }
-
-Setup Domain Name System (DNS) A Record
----------------------------------------
-
-Historia requires a DNS name set to enabled SSL for your IPFS node. This is beyond the scope of this document, but there is plenty of documentation online on how to do this. Find a cheap DNS registrar and create a A record that points to the IP address of your VPS. Namecheap.com or GoDaddy.com are options for this. This can be any top level domain, such as .xyz ($0.88 annually) or .fun ($1.00 annually), so get this cheapest domain you can get.
-
 
 Nginx Web Proxy 
 ---------------
