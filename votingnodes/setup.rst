@@ -51,7 +51,7 @@ Open Historia Core wallet and wait for it to synchronize with the network.
 It should look like this when ready:
 
 .. figure:: img/picture1.png
-   :width: 400px
+   :width: 600px
 
    Fully synchronized Historia Core wallet
 
@@ -64,7 +64,7 @@ Otherwise you may have to restart this process. It should look like
 this when ready:
 
 .. figure:: img/picture2.png
-   :width: 400px
+   :width: 600px
    
    Voting Node Setup Tab in Historia Core wallet
 
@@ -72,7 +72,7 @@ Once you are ready to being click on the "Generate Voting Node Keys"
 button. This is generate all the required keys for you.
 
 .. figure:: img/picture3.png
-   :width: 400px
+   :width: 600px
    
    Click Generate Voting Node Keys button
    
@@ -82,7 +82,7 @@ this process. Make special note of the BLS Secret Key. This is be require
 to finalize your Voting Node setup below.
 
 .. figure:: img/picture4.png
-   :width: 400px
+   :width: 600px
    
    Click Generate Voting Node Keys button
 
@@ -92,7 +92,7 @@ exactly 100 HTA to your own wallet. You will only lose a small amount in
 transaction fees.
 
 .. figure:: img/picture5.png
-   :width: 400px
+   :width: 600px
    
    Click Send Collateral TX button
    
@@ -101,7 +101,7 @@ collateral hash with index at the end of it. Copy this value to notepad.
 
 
 .. figure:: img/picture6.png
-   :width: 400px
+   :width: 600px
    
    Collateral Hash 
    
@@ -124,7 +124,7 @@ After you enter a valid name, the Register Voting Node button will become
 active.
 
 .. figure:: img/picture7.png
-   :width: 400px
+   :width: 600px
    
    Valid Identity and the Register Button is now active
    
@@ -136,7 +136,7 @@ After you click the Register Voting Node button, and 1 block is mined your
 wallet will show a "Registered" status for your Voting Node.
 
 .. figure:: img/picture8.png
-   :width: 400px
+   :width: 600px
    
    Registrated Status
 
@@ -177,7 +177,7 @@ open the Setup Voting Node tab.
 If everything has gone correctly, the result should look something like this:
 
 .. figure:: img/picture9.png
-   :width: 400px
+   :width: 600px
 
    Your Voting Node is now setup correctly
 
