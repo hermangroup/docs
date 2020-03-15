@@ -8,10 +8,6 @@
 Setup For Linux
 ===================================================================
 
-*** Masternodes Nodes are NOT active yet, please wait for further notice before attempting to setup your masternode node ***
-
-This documentation is out of date. Update coming soon.
-
 Setting up a masternode requires a basic understanding of Linux and blockchain technology, as well as an ability to follow instructions closely. It also requires regular maintenance and careful security. There are some decisions to be made along the way, and optional extra steps to take for increased security.
 
 Before you begin
@@ -33,7 +29,7 @@ Masternode Info
 ---------------
 
 - Collateral Requirement: 5000 HTA
-- Reward: 25% per block - increaes 2.5% every 2 months until 50% per block
+- Reward: 32% per block - increaes 2.5% every 2 months until 50% per block
 - Ports: TCP 10101, TCP 4001, TCP 443
 - IPFS Required: Yes
 - IPv4 address required
@@ -82,7 +78,7 @@ Enter a hostname and label for your server. In this example we will use htamn01 
 
    Vultr server hostname & label selection screen
 
-Add IPv6 for your server. 
+Add IPv6 for your server. IPv6 isn't required but nice to have.
 
 .. figure:: ../img/6.PNG
    :width: 400px
@@ -478,6 +474,7 @@ Add Historia IPFS bootstrap nodes, configure our IPFS node, and only connect to 
    ipfs bootstrap add /ip4/149.28.247.81/tcp/4001/ipfs/QmcvrQ8LpuMqtjktwXRb7Mm6JMCqVdGz6K7VyQynvWRopH
    ipfs bootstrap add /ip4/45.32.194.49/tcp/4001/ipfs/QmZXbb5gRMrpBVe79d8hxPjMFJYDDo9kxFZvdb7b2UYamj
    ipfs bootstrap add /ip4/45.76.236.45/tcp/4001/ipfs/QmeW8VxxZjhZnjvZmyBqk7TkRxrRgm6aJ1r7JQ51ownAwy
+   ipfs bootstrap add /ip4/209.250.233.69/tcp/4001/ipfs/Qma946d7VCm8v2ny5S2wE7sMFKg9ZqBXkkZbZVVxjJViyu
    
    ipfs config --json Datastore.StorageMax '"50GB"'
    ipfs config --json Gateway.HTTPHeaders.Access-Control-Allow-Headers '["X-Requested-With", "Access-Control-Expose-Headers", "Range", "Authorization"]'
@@ -555,6 +552,21 @@ Result::
       "AgentVersion": "go-ipfs/0.4.21/8ca278f45",
       "ProtocolVersion": "ipfs/0.1.0"
    }
+   
+Check IPFS is connected to Historia Swarm
+-----------------------------------------
+To verify that IPFS is connect to the correct swarm::
+
+   ipfs swarm peers
+   
+Output::
+   /ip4/149.28.22.65/tcp/4001/ipfs/QmZkRv4qfXvtHot37STR8rJxKg5cDKFnkF5EMh2oP6iBVU
+   /ip4/149.28.247.81/tcp/4001/ipfs/QmcvrQ8LpuMqtjktwXRb7Mm6JMCqVdGz6K7VyQynvWRopH
+   /ip4/202.182.119.4/tcp/4001/ipfs/QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD
+   /ip4/45.32.194.49/tcp/4001/ipfs/QmZXbb5gRMrpBVe79d8hxPjMFJYDDo9kxFZvdb7b2UYamj
+   /ip4/45.76.236.45/tcp/4001/ipfs/QmeW8VxxZjhZnjvZmyBqk7TkRxrRgm6aJ1r7JQ51ownAwy
+
+You will see at least these peers and many more.
 
 Nginx Web Proxy 
 ---------------
@@ -783,7 +795,7 @@ You can also optionally generate and fund another address as the
 **transaction fee source** (``feeSourceAddress``). If you selected an
 external payout address, you must specify a fee source address. Either
 the payout address or fee source address must have enough balance to pay
-the transaction fee, or the final ``register_submit`` transaction will
+the transaction fee, so send a few coins here, or the final ``register_submit`` transaction will
 fail.::
 
    getnewaddress
@@ -910,3 +922,5 @@ Core wallet, or in the console using the command ``protx list valid``,
 where the txid of the final ``protx register_submit`` transaction
 identifies your masternode.
 
+For support please come ask questions on the support channel in the Historia 
+Discord.
