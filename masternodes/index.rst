@@ -18,7 +18,7 @@ Historia also makes use of the first role based masternode system to allow for
 different roles and different rewards depending on the service the masternode
 provides to the Historia network.
 
-This documentation focuses on understanding the services masternodes provide to the network, while also including guides on how to run a masternode and IPFS by leveraging either a hosting provider or by setting up and maintaining your own hosting solution. The primary requirement to run a masternode on the Historia network is 100 or 5000 HTA depending on the role the masternode serves. This is known as the collateral, and cannot be spent without interrupting operation of the masternode. The second requirement is the actual server running the Historia masternode software and the IPFS daemon.
+This documentation focuses on understanding the services masternodes provide to the network, while also including guides on how to run a masternode and IPFS by leveraging either a hosting provider or by setting up and maintaining your own hosting solution. The primary requirement to run a masternode on the Historia network is 5000 HTA. This is known as the collateral, and cannot be spent without interrupting operation of the masternode. The second requirement is the actual server running the Historia masternode software and the IPFS daemon.
 
 **Option 1: Self-operated masternode**
 
