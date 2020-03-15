@@ -41,7 +41,8 @@ Setup a Voting Node
 
 Before you begin, please have the required HTA in your wallet. After you have the 
 required HTA in your wallet you can begin to setup a Voting Node. This guide 
-will describe the steps for Historia Core.
+will describe the steps for Historia Core. Note MacOS currently has a bug that 
+prevents a user from setting up a Voting Node. We are working on it.
 
 Option 1: Automated Voting Node Setup
 -------------------------------------
