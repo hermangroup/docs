@@ -8,8 +8,6 @@
 Masternodes
 ===========
 
-This documentation is out of date. Update coming soon.
-
 Historia is the first cryptocurrency with a focus on a voting platform and 
 file storage mechanism (IPFS) paired together to attempt to give an accurate 
 consensus-based view of future history. These features are implemented on 
