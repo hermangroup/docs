@@ -18,7 +18,7 @@ time. You will need:
 
 - 100 HTA.
 - A little extra HTA for registration transactions: 1-5 HTA
-- Historia Core Wallet v0.17.0.2 to store your Historia.
+- Historia Core Wallet v0.17.0.2 or later to store your Historia.
 - A computer running Windows, MacOS, or Linux.
 
 In this guide, we will assume you will be working from a Windows computer. However, alternative steps for using MacOS or Linux will be indicated where necessary.
