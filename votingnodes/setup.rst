@@ -8,8 +8,6 @@
 Setup a Voting Node
 ==========================================
 
-*** Voting Nodes are NOT active yet, please wait for further notice before attempting to setup your voting node ***
-
 Setting up a voting node requires a basic understanding of how to use a computer, as well as an ability to follow instructions closely. 
 
 Before you begin
@@ -20,7 +18,7 @@ time. You will need:
 
 - 100 HTA.
 - A little extra HTA for registration transactions: 1-5 HTA
-- Historia Core Wallet v0.17.0.0 to store your Historia.
+- Historia Core Wallet v0.17.0.2 to store your Historia.
 - A computer running Windows, MacOS, or Linux.
 
 In this guide, we will assume you will be working from a Windows computer. However, alternative steps for using MacOS or Linux will be indicated where necessary.
@@ -34,7 +32,7 @@ The Historia developers have tried to make this process as simple as possible fo
    - Collateral Requirement: 100 HTA
    - A little extra HTA for registration transactions: 1-5 HTA
    - Internet access on home network.
-   - A computer running Windows, MacOS, or Linux.
+   - A computer running Windows or Linux. MacOS coming soon.
 
 In this guide, we will setup a Voting Node with collateral of 100. If you are looking to setup a Content Distribution Masternode with collateral of 5000 please see the appropriate guide for that.
 
