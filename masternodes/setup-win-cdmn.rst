@@ -77,7 +77,24 @@ We will use Vultr hosting as an example of a VPS. First create an account and ad
 .. figure:: /masternodes/img/server-management.png
    :width: 300p
    
- 
+Setup Firewall 
+===============================
+To make communication possible you need to allow following TCP ports through your firewall :
+.. figure:: /masternodes/img/firewall-1-2-3.png
+   :width: 400p
+   
+.. figure:: /masternodes/img/firewall-4-5.png
+   :width: 400p
+      
+.. figure:: /masternodes/img/firewall-6-7.png
+   :width: 400p
+   
+.. figure:: /masternodes/img/firewall-8-9.png
+   :width: 400p
+   
+   
+
+
 Install Historia Windows Wallet
 ===============================
 You MUST use Historia 0.17.0.2 or later, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/
