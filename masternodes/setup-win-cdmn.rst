@@ -8,9 +8,6 @@
 Setup For Windows 
 =====================================================================
 
-
-This documentation is out of date. Update coming soon.
-
 Setting up a masternode requires a basic understanding of Windows and blockchain technology, as well as an ability to follow instructions closely. It also requires regular maintenance and careful security. There are some decisions to be made along the way, and optional extra steps to take for increased security.
 
 Before you begin
@@ -21,13 +18,18 @@ time. You will need:
 
 - 5000 HTA (Content Distribution Masternode)
 - A wallet to store your Historia, preferably a hardware wallet, although Historia Core wallet is also supported
-- A Windows 10 instance.
-- Since we are assuming this is a home network, ports need to be publicly open on the Internet. This normally requires Port Forwarding on your router, which is out of scope for this document. Use your favorite search engine to research Port Forwarding.
-   - Content Distribution Masternode: 
+- A Windows 10 or Windows Server instance. [Can be a PC or VPS]
+- Static IPv4 address on Windows or Port Forwarding setup over the router
+[ Since we are assuming this is a home network, ports need to be publicly open on the Internet. This normally requires Port Forwarding on your router, which is out of scope for this document. Use your favorite search engine to research Port Forwarding. ]
+- Nginx or any SSL support Webserver
+- IPFS [Oprational Daemon]
+- Your own DNS name
+- TCP Ports : [Need to be allowed on Firewall]
          - TCP Port 10101
          - TCP Port 8080
+         - TCP Port 5001
          - TCP Port 4001
-   - When asked to allow firewall access by Windows on any of the steps below, please select Allow.
+         - TCP Port 443
 
 Masternode Roles
 ----------------
@@ -37,15 +39,48 @@ Unlike most other masternode coins, Historia makes use of a role based masternod
  
    - Collateral Requirement: 5000 HTA
    - Reward: 25% per block - increaes 2.5% every 2 months until 50% per block
-   - Ports: TCP 10101, TCP 4001, TCP 8080
+   - Ports: TCP 10101, TCP 4001, TCP 5001, TCP 8080, TCP 443
    - IPFS Required: Yes
    - IPv4 address required
 
 In this guide, we will setup a Content Distribution Masternode (CDMN) with collateral of 5000. 
+
+Set up your VPS 
+===============================
+A VPS, more commonly known as a cloud server, is fully functional installation of an operating system operating within a virtual machine. The virtual machine allows the VPS provider to run multiple systems on one physical server, making it more efficient and much cheaper than having a single operating system running on the “bare metal” of each server. A VPS is ideal for hosting a Historia masternode because they typically offer guaranteed uptime, redundancy in the case of hardware failure and a static IP address that is required to ensure you remain in the masternode payment queue. While running a masternode from home on a desktop computer is technically possible, it will most likely not work reliably because most ISPs allocate dynamic IP addresses to home users.
+We will use Vultr hosting as an example of a VPS. First create an account and add credit. Then go to the Servers menu item on the left and click + to add a new server. Select a location for your new server on the following screen:
+
+.. figure:: /masternodes/img/server-location.png
+   :width: 300px
+   
+   Select Windows as the server type:
+.. figure:: /masternodes/img/server-type1.png
+   :width: 300px
+   
+   Select a server size offering at least 2GB of memory:
+.. figure:: /masternodes/img/server-type2.png
+   :width: 300px 
+   
+   Enter a hostname and label for your server. In this example we will use htamn01 as the hostname:
+.. figure:: /masternodes/img/server-name.png
+   :width: 300p
+   
+   Add IPv6 for your server. IPv6 isn’t required but nice to have.
+.. figure:: /masternodes/img/server-ipv6.png
+   :width: 300p
+   
+   Vultr will now install your server. This process may take a few minutes.
+.. figure:: /masternodes/img/server-location.png
+   :width: 300p
+   
+   Click Manage when installation is complete and take note of the IPv4 address, username and password.
+.. figure:: /masternodes/img/server-management.png
+   :width: 300p
+   
  
 Install Historia Windows Wallet
 ===============================
-You MUST use Historia 0.16.3.2 or later, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/
+You MUST use Historia 0.17.0.2 or later, otherwise this process will fail. https://github.com/HistoriaOffical/historia/releases/
 
 Download the correct Windows Historia setup file from the previous URL. Once downloaded, run the Historia installer and install the Historia wallet. Open the wallet and let the blockchain sync completely.
 
