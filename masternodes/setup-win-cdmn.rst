@@ -75,25 +75,36 @@ We will use Vultr hosting as an example of a VPS. First create an account and ad
    
    Click Manage when installation is complete and take note of the IPv4 address, username and password.
 .. figure:: /masternodes/img/server-management.png
-   :width: 300p
    
 Setup Firewall 
 ===============================
 To make communication possible you need to allow following TCP ports through your firewall.
 
 .. figure:: /masternodes/img/firewall-1-2-3.png
-   :width: 400p
    
 .. figure:: /masternodes/img/firewall-4-5.png
-   :width: 400p
       
 .. figure:: /masternodes/img/firewall-6-7.png
-   :width: 400p
    
 .. figure:: /masternodes/img/firewall-8-9.png
-   :width: 400p
    
    
+[ Optional Recommendation : add 8GB to your windows virtual memory ]
+
+Setup Domain Name System (DNS) A Record
+===============================
+Historia requires a DNS name set to enabled SSL for your IPFS node that will be setup below. This is beyond the scope of this document, but there is plenty of documentation online on how to do this. Find a cheap DNS registrar and create a A record that points to the IP address of your VPS. Namecheap.com or GoDaddy.com are options for this. This can be any top level domain, such as .xyz ($0.88 annually) or .fun ($1.00 annually), so get this cheapest domain you can get.
+Remember that if you live in a oppressive country, your name will be associated with your DNS record in the global WHOIS database. Some DNS providers such as ionos.com will give a DNS name privacy for free with domain registration. But they would still be required to hand over your domain name information via court order. Another option is using one of the new blockchain DNS systems such as unstoppabledomains.com, and using crypto currency to purchase your domain name. However we have not tested using a blockchain DNS system yet.
+
+Option 1: A Record – NS Zone
+----------------
+.. figure:: /masternodes/img/Domain-NS_Zone.png
+
+
+Option 2: Child Name – Domain Panel
+----------------
+.. figure:: /masternodes/img/Domain-child.png
+
 
 
 Install Historia Windows Wallet
@@ -106,10 +117,9 @@ Download the correct Windows Historia setup file from the previous URL. Once dow
 Send the collateral
 ===================
 
-A Historia address with a single unspent transaction output (UTXO) of
-exactly 5000 HTA is required to operate a masternode depending on the masternode role you choose. Once it has been
-sent, various keys regarding the transaction must be extracted for later
-entry in a configuration file. A masternode can be started from the official Historia Core wallet. This guide will describe the steps for Historia Core.
+A Historia address with a single unspent transaction output (UTXO) of exactly 5000 HTA is required to operate a Voting Masternode. 
+Once it has been sent, various keys regarding the transaction must be extracted for later entry in a configuration file. 
+A masternode can be started from the official Historia Core wallet. This guide will describe the steps for Historia Core.
 
 Option 1: Sending from Historia Core wallet
 -------------------------------------------
@@ -123,11 +133,7 @@ It should look like this when ready:
    Fully synchronized Historia Core wallet
 
 Click **Tools > Debug console** to open the console. Type the following
-two commands into the console to generate a legacy masternode key
-and a new Historia address for the collateral::
-
-  masternode genkey
-  93PAqQsDjcVdYJHRfQPjsSt5338GCswMnUaSxoCD8J6fiLk4NHL
+two commands into the console to generate a new Historia address for the collateral::
 
   getnewaddress
   HBvcjyzWmt9x9QJNVDyxezhxSXcWEDEdsS
@@ -172,12 +178,11 @@ A text editor window will appear. We now need to create a configuration file spe
   listen=1
   server=1
   daemon=1
-  maxconnections=64
   #----
-  masternode=1
-  masternodecollateral=XXXX
-  masternodeprivkey=XXXXXXXXXXXXXXXXXXXXXXX
-  externalip=XXX.XXX.XXX.XXX
+  #masternode=1
+  #masternodeblsprivkey=
+  #masternodecollateral=5000
+  externalip=XXX.XXX.XXX.XXX:10101
   #----
 
 Replace the fields marked with ``XXXXXXX`` as follows:
@@ -187,13 +192,16 @@ Replace the fields marked with ``XXXXXXX`` as follows:
 - ``rpcpassword``: enter any string of numbers or letters, no special
   characters allowed
 - ``masternodecollateral``: 100 or 5000 depending on if you are setting up a Voting Masternode or Content Distribution Masternode. For this guide set this to 5000.
-- ``masternodeprivkey``: this is the legacy masternode private key you
-  generated in the previous step
 - ``externalip``: this is the IPv4 address of your VPS
 
 Save the historia.conf file in the default location and exit the text editor.::
 
    C:\Users\<yourusername>\AppData\Roaming\HistoriaCore\ 
+
+
+Setup IPFS
+================
+
 
 Install Sentinel
 ================
