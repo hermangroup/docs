@@ -349,13 +349,251 @@ Output ::
 You will see at least these peers and many more.
 
 
-Install Sentinel
-================
-
-
 Nginx Web Proxy
 ================
+To install nginx/Windows, download the latest mainline version distribution (1.17.9), since the mainline branch of nginx contains all known fixes. Then unpack the distribution, go to the nginx-1.17.9 directory, and run nginx. Here is an example for the drive C: root directory:  ::
 
+   http://nginx.org/en/download.html
+   cd c:\
+   unzip nginx-1.17.9.zip
+   cd nginx-1.17.9
+   start nginx
+
+Go to the ip address of your VPS in a web browser to verify that Nginix is running.
+
+Install SSL Certificate
+================
+In this example we will be using the free SSL certificate service win-acme to create and install our SSL certificate. First we must install the ACMEv2: ::
+
+   https://www.win-acme.com/
+   
+   https://github.com/win-acme/win-acme/releases/download/v2.1.5/win-acme.v2.1.5.742.x64.pluggable.zip
+   
+   Follow Instruction here :
+   
+   https://www.win-acme.com/manual/advanced-use/examples/apache
+
+Next we need to prepare Nginx configuration file for ACMEv2. If you’re using the default configuration file /nginx/sites-available/default open it with a text editor such as notepad and find the server_name directive. Replace the underscore, _, with your own domain name(s). 
+After editing the configuration file, the server_name directive should look as follows. In this example, we assume that your domain is example.com and that you’re requesting a certificate for example.com. Make sure to use your own domain name here: ::
+
+   server_name example.com;
+
+Save the file and restart Nginx:::
+
+   Nginx –s reload
+
+Lets finish this process and setup Nginix to point to the IPFS daemon that is running on your masternode. If you’re using the default configuration file /etc/nginx/sites-available/default open it with a text editor such as notepad again.
+Change your nginx configuration file to look something like this: ::
+
+   http {
+    include       mime.types;
+    default_type  application/octet-stream;
+    sendfile        on;
+    keepalive_timeout  65;
+
+    server {
+        listen       80;
+        server_name  mn165.peopleland.net;
+        location / {
+               proxy_pass http://127.0.0.1:8080;
+               proxy_set_header Host $host;
+               proxy_cache_bypass $http_upgrade;
+               proxy_set_header X-Forwarded-For $remote_addr;
+               allow all;
+        }
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+    }
+    server {
+		listen [::]:443 ssl ipv6only=on;
+        listen       443 ssl;
+        server_name  mn165.peopleland.net;
+        ssl_certificate      C:/nginx-1.17.9/html/mn54.peopleland.net-chain.pem;
+        ssl_certificate_key  C:/nginx-1.17.9/html/mn54.peopleland.net-key.pem;
+            location / {
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Server $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_pass http://localhost:8080;
+    }
+    }
+    }
+   
+Save the file and restart Nginx: ::
+
+   nginx.exe -s reload 
+
+Congratulations! You now have finished setup for IPFS. You can now test out the IPFS Nginx proxy combination by opening the following in your browser: ::
+
+   https://<yourdomainname>/ipfs/QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv/readme
+
+If you see the IPFS help message, you have successful setup your IPFS Nginx proxy. You can now proceed to installing your Historia masternode.
+Continue with the next step to construct the ProTx transaction required to enable your masternode.
+
+Register your masternode
+================
+Identify the funding transaction
+-----------------
+If you used an address in Historia Core wallet for your collateral transaction, you now need to find the txid of the transaction. 
+Click **Tools > Debug console** and enter the following command: ::
+
+   masternode outputs
+
+This should return a string of characters similar to the following: ::
+
+   {
+   "16347a28f4e5edf39f4dceac60e2327931a25fdee1fb4b94b63eeacf0d5879e3" : "1",
+   }
+
+The first long string is your **collateralHash**, while the last number is the **collateralIndex**.
+
+Generate a BLS key pair
+-----------------
+A public/private BLS key pair is required to operate a masternode. The private key is specified on the masternode itself, and allows it to be included in the deterministic masternode list once a provider registration transaction with the corresponding public key has been created.
+If you are using a hosting service, they may provide you with their public key, and you can skip this step. If you are hosting your own masternode or have agreed to provide your host with the BLS private key, generate a BLS public/private keypair in Historia Core by clicking **Tools > Debug console** and entering the following command: ::
+
+   bls generate
+   
+   {
+   "secret": "395555d67d884364f9e37e7e1b29536519b74af2e5ff7b62122e62c2fffab35e",
+   "public": "99f20ed1538e28259ff80044982372519a2e6e4cdedb01c96f8f22e755b2b3124fbeebdf6de3587189cf44b3c6e7670e"
+   }
+
+**These keys are NOT stored by the wallet and must be kept secure, similar to the value provided in the past by the** masternode genkey **command**.
+
+Add the private key to your masternode configuration
+-----------------
+The public key will be used in following steps. The private key must be entered in the **historia.conf** file on the masternode. This allows the masternode to watch the blockchain for relevant Pro*Tx transactions, and will cause it to start serving as a masternode when the signed ProRegTx is broadcast by the owner (final step below). Log in to your masternode and edit the configuration file: ::
+
+  ~/.historiacore/historia.conf
+
+The editor appears with the existing masternode configuration. Add or uncomment these lines in the file, replacing the key with your BLS private key generated above: ::
+
+ masternode=1
+ masternodecollateral=5000
+ masternodeblsprivkey=395555d67d884364f9e37e7e1b29536519b74af2e5ff7b62122e62c2fffab35e
+
+Press enter to make sure there is a blank line at the end of the file, then save and close the editor. We now need to restart the masternode for this change to take effect. Close Historia Core and run it again. 
+[waiting a few seconds in between to give Historia Core time to shut down.]
+We will now prepare the transaction used to register the masternode on the network.
+
+Prepare a ProRegTx transaction
+-----------------
+A pair of BLS keys for the operator were already generated above, and the private key was entered on the masternode. The public key is used in this transaction as the **operatorPubKey**.
+First, we need to get a new, unused address from the wallet to serve as the **owner key address (ownerKeyAddr)**. This is not the same as the collateral address holding 5000 Historia. Generate a new address as follows: ::
+
+ getnewaddress
+ 
+ HTGfMbCy2X65th3L78JVyqpzhu6p1fbSC6
+
+This address can also be used as the **voting key address (votingKeyAddr)**. Alternatively, you can specify an address provided to you by your chosen voting delegate, or simply generate a new voting key address as follows: ::
+
+   getnewaddress
+   
+   HDsy8GUnsdFKWrRHB8WbD4oaLvETDZ9scY
+
+Then either generate or choose an existing address to receive the **owner’s masternode payouts (payoutAddress)**. It is also possible to use an address external to the wallet: ::
+
+   getnewaddress
+   
+   HEAjS5DJ9cjprZvk3t1eeq7jn2dhZztfDJ
+
+You can also optionally generate and fund another address as the **transaction fee source (feeSourceAddress)**. If you selected an external payout address, you must specify a fee source address. Either the payout address or fee source address must have enough balance to pay the transaction fee, so send a few coins here, or the final register_submit transaction will fail.: ::
+
+   getnewaddress
+   
+   HQyqm7srzV7nYhGLjuzTzjBs452suStCQW
+   
+The private keys to the owner and fee source addresses must exist in the wallet submitting the transaction to the network. If your wallet is protected by a password, it must now be unlocked to perform the following commands. Unlock your wallet for 5 minutes: ::
+
+   walletpassphrase yourSecretPassword 300
+   
+We will now prepare an unsigned ProRegTx special transaction using the protx register_prepare command. This command has the following syntax: ::
+
+   protx register_prepare collateralHash collateralIndex ipAndPort ownerKeyAddr
+   operatorPubKey votingKeyAddr operatorReward payoutAddress ipfsPeerId identity (feeSourceAddress)
+
+Open a text editor such as notepad to prepare this command. Replace each argument to the command as follows:
+•	**collateralHash**: The txid of the 5000 Historia collateral funding transaction
+•	**collateralIndex**: The output index of the 5000 Historia funding transaction
+•	**ipAndPort**: Masternode IP address and port, in the format x.x.x.x:yyyy
+•	**ownerKeyAddr**: The new Historia address generated above for the owner/voting address
+•	**operatorPubKey**: The BLS public key generated above (or provided by your hosting service)
+•	**votingKeyAddr**: The new Historia address generated above, or the address of a delegate, used for proposal voting
+•	**operatorReward**: The percentage of the block reward allocated to the operator as payment
+•	**payoutAddress**: A new or existing Historia address to receive the owner’s masternode rewards
+•	**ipfsPeerId**: The public IPFS ID of your IPFS daemon required from the above IPFS setup.
+•	**identity**: This is the domain name that you previously have registered and tested above https://<yourdomainname>/ipfs/QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv/readme
+•	**feeSourceAddress**: An (optional) address used to fund ProTx fee. payoutAddress will be used if not specified.
+
+Example (remove line breaks if copying): ::
+
+   protx register_prepare
+   16347a28f4e5edf39f4dceac60e2327931a25fdee1fb4b94b63eeacf0d5879e3
+   1
+   45.76.230.239:19999
+   HTGfMbCy2X65th3L78JVyqpzhu6p1fbSC6
+   99f20ed1538e28259ff80044982372519a2e6e4cdedb01c96f8f22e755b2b3124fbeebdf6de3587189cf44b3c6e7670e
+   HDsy8GUnsdFKWrRHB8WbD4oaLvETDZ9scY
+   0
+   HEAjS5DJ9cjprZvk3t1eeq7jn2dhZztfDJ
+   QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD
+   masternode1.historia.network
+   HQyqm7srzV7nYhGLjuzTzjBs452suStCQW
+
+Output: ::
+
+   {
+   "tx":
+   "030001000175c9d23c2710798ef0788e6a4d609460586a20e91a15f2097f56fc6e007c4f8e0000000000feffffff01a1949800000000001976a91434b09363474b14d02739a327fe76e6ea12deecad88ac00000000d1010000000000e379580dcfea3eb6944bfbe1de5fa2317932e260acce4d9ff3ede5f4287a34160100000000000000000000000000ffff2d4ce6ef4e1fd47babdb9092489c82426623299dde76b9c72d9799f20ed1538e28259ff80044982372519a2e6e4cdedb01c96f8f22e755b2b3124fbeebdf6de3587189cf44b3c6e7670ed1935246865dce1accce6c8691c8466bd67ebf1200001976a914fef33f56f709ba6b08d073932f925afedaa3700488acfdb281e134504145b5f8c7bd7b47fd241f3b7ea1f97ebf382249f601a0187f5300",
+   "collateralAddress": "HBm4FXgZXdb4NYqx1DJ3h9v9reFqYe9F6L",
+   "signMessage": "HEAjS5DJ9cjprZvk3t1eeq7jn2dhZztfDJ|0|HTGfMbCy2X65th3L78JVyqpzhu6p1fbSC6|HDsy8GUnsdFKWrRHB8WbD4oaLvETDZ9scY|ad5f82257bd00a5a1cb5da1a44a6eb8899cf096d3748d68b8ea6d6b10046a28e"
+   }
+
+Next we will use the collateralAddress and signMessage fields to sign the transaction, and the output of the tx field to submit the transaction.
+
+Sign the ProRegTx transaction
+-----------------
+We will now sign the content of the **signMessage** field using the private key for the collateral address as specified in **collateralAddress**. Note that no internet connection is required for this step, meaning that the wallet can remain disconnected from the internet in cold storage to sign the message. In this example we will again use Historia Core, but it is equally possible to use the signing function of a hardware wallet. The command takes the following syntax: ::
+
+   signmessage collateralAddress signMessage
+
+Example: ::
+
+   signmessage HBm4FXgZXdb4NYqx1DJ3h9v9reFqYe9F6L"HEAjS5DJ9cjprZvk3t1eeq7jn2dhZztfDJ|0|HTGfMbCy2X65th3L78JVyqpzhu6p1fbSC6|HDsy8GUnsdFKWrRHB8WbD4oaLvETDZ9scY|ad5f82257bd00a5a1cb5da1a44a6eb8899cf096d3748d68b8ea6d6b10046a28e"
+   
+Output: ::
+
+   II8JvEBMj6I3Ws8wqxh0bXVds6Ny+7h5HAQhqmd5r/0lWBCpsxMJHJT3KBcZ23oUZtsa6gjgISf+a8GzJg1BfEg=
+
+Submit the signed message
+-----------------
+We will now submit the ProRegTx special transaction to the blockchain to register the masternode. This command must be sent from a Historia Core wallet holding a balance on either the **feeSourceAddress** or **payoutAddress**, since a standard transaction fee is involved. The command takes the following syntax: ::
+
+   protx register_submit tx sig
+   
+Where:
+•	**tx**: The serialized transaction previously returned in the **tx** output field from the **rotx register_prepare** command
+•	**sig**: The message signed with the collateral key from the **signmessage** command
+
+Example: ::
+
+   protx register_submit 030001000175c9d23c2710798ef0788e6a4d609460586a20e91a15f2097f56fc6e007c4f8e0000000000feffffff01a1949800000000001976a91434b09363474b14d02739a327fe76e6ea12deecad88ac00000000d1010000000000e379580dcfea3eb6944bfbe1de5fa2317932e260acce4d9ff3ede5f4287a34160100000000000000000000000000ffff2d4ce6ef4e1fd47babdb9092489c82426623299dde76b9c72d9799f20ed1538e28259ff80044982372519a2e6e4cdedb01c96f8f22e755b2b3124fbeebdf6de3587189cf44b3c6e7670ed1935246865dce1accce6c8691c8466bd67ebf1200001976a914fef33f56f709ba6b08d073932f925afedaa3700488acfdb281e134504145b5f8c7bd7b47fd241f3b7ea1f97ebf382249f601a0187f5300 II8JvEBMj6I3Ws8wqxh0bXVds6Ny+7h5HAQhqmd5r/0lWBCpsxMJHJT3KBcZ23oUZtsa6gjgISf+a8GzJg1BfEg=
+   
+Output: ::
+
+   aba8c22f8992d78fd4ff0c94cb19a5c30e62e7587ee43d5285296a4e6e5af062
+   
+Your masternode is now registered and will appear on the Deterministic Masternode List after the transaction is mined to a block. You can view this list on the **Masternodes -> DIP3 Masternodes** tab of the Historia Core wallet, or in the console using the command **protx list valid**, where the txid of the final **protx register_submit** transaction identifies your masternode.
+
+You will probably need to wait around 30 minutes as the node passes through the PRE_ENABLED stage and finally reaches ENABLED. Give it some time.
+At this point you can safely log out of your server by typing exit. Congratulations! Your masternode is now running.
+
+Install Sentinel
+================
+DIP003 introduced several changes to how a masternode is set up and operated. These changes and the three keys required for the different masternode roles are described briefly under dip3-changes in this documentation.
 
 
 Download and install Sentinel for Windows
@@ -427,66 +665,7 @@ Click Ok
    :width: 400px
 
 
-.. _start-masternode:
-Start your masternode
----------------------
 
-Depending on how you sent your masternode collateral, you will need to start your masternode with a command sent by the Historia Core wallet. Before you continue, you must ensure that your 100 HTA collateral transaction has at least 15 confirmation, and that historiad is running and fully synchronized with the blockchain on your masternode. See the previous step for details on how to do this. During the startup process, your masternode may pass through the following states:
+For support please come ask questions on the support channel in the Historia Discord.
 
-- ``MASTERNODE_SYNC``: This indicates the data currently being synchronised in the masternode
-- ``MASTERNODE_SYNC_FAILED``: Synchronisation could not complete, check your firewall and restart historiad
-- ``WATCHDOG_EXPIRED``: Waiting for sentinel to restart, make sure it is entered in crontab
-- ``NEW_START_REQUIRED``: Start command must be sent from wallet; check IPFS is running.
-- ``PRE_ENABLED``: Waiting for network to recognize started masternode
-- ``ENABLED``: Masternode successfully started
-- ``IPFS_EXPIRED``: This indictates that IPFS is not running.
-- ``EXPIRED``: Masternode has expired. Restart Historiad, restart masternode, check IPFS is running.
-
-If you masternode does not seem to start immediately, do not arbitrarily issue more start commands. Each time you do so, you will reset your position in the payment queue.
-
-Identify the funding transaction
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If you used an address in Historia Core wallet for your collateral
-transaction, you now need to find the txid of the transaction. Click
-**Tools > Debug console** and enter the following command::
-
-  masternode outputs
-
-This should return a string of characters similar to this::
-
-  {
-  "06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb" : "1",
-  }
-
-The first long string is your transaction hash, while the last number is the index. We now need open Tool -> Open Masternode Configure file for this wallet in order to be able to use it to issue the command to start your masternode on the network. 
-
-- ``Label``: Any single word used to identify your masternode, e.g. MN1
-- ``IP and port``: The IP address and port (usually 10101) configured in the Historia.conf file, separated by a colon (:)
-- ``Masternode private key``: This is the result of your masternode genkey command earlier, also the same as configured in the Historia.conf file
-- ``Transaction hash``: The txid we just identified using masternode outputs
-- ``Index``: The index we just identified using masternode outputs
-- ``IPv6 Address``: The public IPv6 address required for Content Distribution Masternode. Set this to the IPv6 address of your VPS.
-- ``IPFS Peer ID``: The public IPFS peer id of your IPFS daemon required for Content Distribution Masternode. Set this to you IPFS peer id you get after setting up IPFS. You get this from :ref:`Setup IPFS <ipfs-setup>`.
-
-Content Distribution Masternode - Collateral 5000
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If Content Distribution Masternode, enter all of this information on a single line with each item separated by a space, for example::
-
-   MN1 52.14.2.67:10101 XrxSr3fXpX3dZcU7CoiFuFWqeHYw83r28btCFfIHqf6zkMp1PZ4 06e38868bb8f9958e34d5155437d009b72dff33fc28874c87fd42e51c0f74fdb 0 2001:19f0:7001:6de:5400:1ff:fef3:8735 QmVjkn7yEqb3LTLCpnndHgzczPAPAxxpJ25mNwuuaBtFJD
-
-Save this file and close the text editor. It should be saved in:: 
-
-   C:\Users\<yourusername>\AppData\Roaming\HistoriaCore folder.
-
-Shut down and restart Historia Core wallet. Let the Historia Core wallet fully sync. Historia Core will recognize masternode.conf during startup, and is now ready to activate your masternode. Go to **Settings > Unlock Wallet** and enter your wallet passphrase. Then click **Tools > Debug** console again and enter the following command to start your masternode (replace MN1 with the label for your masternode)::
-
-   masternode start-alias MN1
-
-
-At this point you can go back to your **Tools > Debug** window and monitor your masternode by entering:: 
-
-   masternode status 
-
-You will probably need to wait around 30 minutes as the node passes through the PRE_ENABLED stage and finally reaches ENABLED. Give it some time.
-At this point you can safely log out of your server by typing exit. Congratulations! Your masternode is now running.
 
