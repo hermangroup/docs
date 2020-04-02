@@ -516,17 +516,17 @@ We will now prepare an unsigned ProRegTx special transaction using the protx reg
    operatorPubKey votingKeyAddr operatorReward payoutAddress ipfsPeerId identity (feeSourceAddress)
 
 Open a text editor such as notepad to prepare this command. Replace each argument to the command as follows:
-• **collateralHash**: The txid of the 5000 Historia collateral funding transaction
-• **collateralIndex**: The output index of the 5000 Historia funding transaction
-• **ipAndPort**: Masternode IP address and port, in the format x.x.x.x:yyyy
-• **ownerKeyAddr**: The new Historia address generated above for the owner/voting address
-• **operatorPubKey**: The BLS public key generated above (or provided by your hosting service)
-• **votingKeyAddr**: The new Historia address generated above, or the address of a delegate, used for proposal voting
-• **operatorReward**: The percentage of the block reward allocated to the operator as payment
-• **payoutAddress**: A new or existing Historia address to receive the owner’s masternode rewards
-• **ipfsPeerId**: The public IPFS ID of your IPFS daemon required from the above IPFS setup.
-• **identity**: This is the domain name that you previously have registered and tested above https://<yourdomainname>/ipfs/QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv/readme
-• **feeSourceAddress**: An (optional) address used to fund ProTx fee. payoutAddress will be used if not specified.
+         - **collateralHash**: The txid of the 5000 Historia collateral funding transaction
+         - **collateralIndex**: The output index of the 5000 Historia funding transaction
+         - **ipAndPort**: Masternode IP address and port, in the format x.x.x.x:yyyy
+         - **ownerKeyAddr**: The new Historia address generated above for the owner/voting address
+         - **operatorPubKey**: The BLS public key generated above (or provided by your hosting service)
+         - **votingKeyAddr**: The new Historia address generated above, or the address of a delegate, used for proposal voting
+         - **operatorReward**: The percentage of the block reward allocated to the operator as payment
+         - **payoutAddress**: A new or existing Historia address to receive the owner’s masternode rewards
+         - **ipfsPeerId**: The public IPFS ID of your IPFS daemon required from the above IPFS setup.
+         - **identity**: This is the domain name that you previously have registered and tested above https://<yourdomainname>/ipfs/QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv/readme
+         - **feeSourceAddress**: An (optional) address used to fund ProTx fee. payoutAddress will be used if not specified.
 
 Example (remove line breaks if copying): ::
 
@@ -575,8 +575,8 @@ We will now submit the ProRegTx special transaction to the blockchain to registe
    protx register_submit tx sig
    
 Where:
-•	**tx**: The serialized transaction previously returned in the **tx** output field from the **rotx register_prepare** command
-•	**sig**: The message signed with the collateral key from the **signmessage** command
+         - **tx**: The serialized transaction previously returned in the **tx** output field from the **rotx register_prepare** command
+         - **sig**: The message signed with the collateral key from the **signmessage** command
 
 Example: ::
 
